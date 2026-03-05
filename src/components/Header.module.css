@@ -2,9 +2,17 @@
   position: sticky;
   top: 0;
   z-index: 9999;
-  background: rgba(5, 5, 14, 0.9);
-  backdrop-filter: blur(20px) saturate(180%);
   border-bottom: 1px solid var(--border);
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(5, 5, 14, 0.95);
+  backdrop-filter: blur(12px) saturate(180%);
+  z-index: -1;
+  pointer-events: none;
 }
 
 .inner {
@@ -187,6 +195,13 @@ button.link {
   display: contents;
 }
 
+.mobileHeader,
+.mobileGroupLabel,
+.mobileSublinks,
+.mobileActions {
+  display: none;
+}
+
 .mobileToggle {
   display: none;
   background: transparent;
@@ -246,16 +261,20 @@ button.link {
 }
 
 @media (max-width: 900px) {
+  .desktopOnly {
+    display: none !important;
+  }
+
   .mobileToggle {
     display: block;
   }
 
   .navWrapper {
     position: fixed;
-    top: 62px;
+    top: 0;
     right: 0;
     bottom: 0;
-    width: 280px;
+    width: 300px;
     background: rgba(10, 10, 25, 0.98);
     backdrop-filter: blur(20px);
     border-left: 1px solid var(--border);
@@ -326,6 +345,69 @@ button.link {
 
   .brandSub {
     display: none;
+  }
+
+  .mobileHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .mobileTitle {
+    font-family: var(--font-display);
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--text);
+  }
+
+  .closeBtn {
+    background: var(--surface);
+    border: 1px solid var(--border2);
+    color: var(--text);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .closeBtn:hover {
+    background: var(--surface2);
+    transform: scale(1.1);
+  }
+
+  .mobileGroupLabel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    color: var(--text);
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    opacity: 0.8;
+  }
+
+  .mobileSublinks {
+    display: block;
+    margin-left: 12px;
+    padding-left: 12px;
+    border-left: 1px solid var(--border);
+    margin-bottom: 12px;
+  }
+
+  .mobileActions {
+    display: block;
+    margin-top: auto;
+    padding-top: 20px;
   }
 }
 

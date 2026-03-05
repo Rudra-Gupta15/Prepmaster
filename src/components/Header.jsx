@@ -47,20 +47,20 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.inner}>
-        <a href="https://github.com/Rudra-Gupta15/Prepmaster" target="_blank" rel="noopener noreferrer" className={styles.brand}>
+        <Link to="/" className={styles.brand}>
           <img src="/logo.png" alt="PrepMaster" className={styles.brandLogoImg} />
           <div>
             <div className={styles.brandName}>PrepMaster</div>
             <div className={styles.brandSub}>TCS NQT · AI/ML</div>
           </div>
-        </a>
+        </Link>
 
         <button
           className={styles.mobileToggle}
-          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          aria-label="Toggle Menu"
+          onClick={() => setMobileMenuOpen(true)}
+          aria-label="Open Menu"
         >
-          <div className={`${styles.hamburger} ${mobileMenuOpen ? styles.hamburgerOpen : ''}`}>
+          <div className={styles.hamburger}>
             <span></span>
             <span></span>
             <span></span>
@@ -68,17 +68,40 @@ export default function Header() {
         </button>
 
         <div className={`${styles.navWrapper} ${mobileMenuOpen ? styles.navWrapperOpen : ''}`}>
+          {/* Mobile-only Header */}
+          <div className={styles.mobileHeader}>
+            <div className={styles.mobileTitle}>Navigation</div>
+            <button className={styles.closeBtn} onClick={() => setMobileMenuOpen(false)}>✕</button>
+          </div>
+
           <nav className={styles.nav}>
             {nav.map(n => (
               <div key={n.label} className={styles.navGroup}>
                 {n.children ? (
                   <>
-                    <button className={`${styles.link} ${n.children.some(c => pathname.startsWith(c.path)) ? styles.active : ''}`}>
+                    {/* Desktop Style Link (visible on desktop) */}
+                    <button className={`${styles.link} ${styles.desktopOnly} ${n.children.some(c => pathname.startsWith(c.path)) ? styles.active : ''}`}>
                       <span className={styles.linkIcon}>{n.icon}</span>
                       <span className={styles.linkLabel}>{n.label}</span>
                       <span className={styles.chevron}>▾</span>
                     </button>
-                    <div className={styles.dropdown}>
+
+                    {/* Desktop Dropdown (visible on desktop hover) */}
+                    <div className={`${styles.dropdown} ${styles.desktopOnly}`}>
+                      {n.children.map(c => (
+                        <Link key={c.path} to={c.path} className={`${styles.dropLink} ${pathname === c.path ? styles.activeDrop : ''}`}>
+                          <span className={styles.linkIcon}>{c.icon}</span>
+                          <span>{c.label}</span>
+                        </Link>
+                      ))}
+                    </div>
+
+                    {/* Mobile Style Labels (visible only in mobile drawer) */}
+                    <div className={styles.mobileGroupLabel}>
+                      <span className={styles.linkIcon}>{n.icon}</span>
+                      <span>{n.label}</span>
+                    </div>
+                    <div className={styles.mobileSublinks}>
                       {n.children.map(c => (
                         <Link key={c.path} to={c.path} className={`${styles.dropLink} ${pathname === c.path ? styles.activeDrop : ''}`}>
                           <span className={styles.linkIcon}>{c.icon}</span>

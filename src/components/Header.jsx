@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import styles from './Header.module.css';
 
@@ -27,6 +28,22 @@ const nav = [
 
 export default function Header() {
   const { pathname } = useLocation();
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  // Close mobile menu when route changes
+  useEffect(() => {
+    setMobileMenuOpen(false);
+  }, [pathname]);
+
+  // Prevent scrolling when mobile menu is open
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+  }, [mobileMenuOpen]);
+
   return (
     <header className={styles.header}>
       <div className={styles.inner}>
@@ -37,38 +54,58 @@ export default function Header() {
             <div className={styles.brandSub}>TCS NQT · AI/ML</div>
           </div>
         </a>
-        <nav className={styles.nav}>
-          {nav.map(n => (
-            <div key={n.label} className={styles.navGroup}>
-              {n.children ? (
-                <>
-                  <button className={`${styles.link} ${n.children.some(c => pathname.startsWith(c.path)) ? styles.active : ''}`}>
+
+        <button
+          className={styles.mobileToggle}
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          aria-label="Toggle Menu"
+        >
+          <div className={`${styles.hamburger} ${mobileMenuOpen ? styles.hamburgerOpen : ''}`}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+
+        <div className={`${styles.navWrapper} ${mobileMenuOpen ? styles.navWrapperOpen : ''}`}>
+          <nav className={styles.nav}>
+            {nav.map(n => (
+              <div key={n.label} className={styles.navGroup}>
+                {n.children ? (
+                  <>
+                    <button className={`${styles.link} ${n.children.some(c => pathname.startsWith(c.path)) ? styles.active : ''}`}>
+                      <span className={styles.linkIcon}>{n.icon}</span>
+                      <span className={styles.linkLabel}>{n.label}</span>
+                      <span className={styles.chevron}>▾</span>
+                    </button>
+                    <div className={styles.dropdown}>
+                      {n.children.map(c => (
+                        <Link key={c.path} to={c.path} className={`${styles.dropLink} ${pathname === c.path ? styles.activeDrop : ''}`}>
+                          <span className={styles.linkIcon}>{c.icon}</span>
+                          <span>{c.label}</span>
+                        </Link>
+                      ))}
+                    </div>
+                  </>
+                ) : (
+                  <Link to={n.path}
+                    className={`${styles.link} ${pathname.startsWith(n.path) && n.path !== '/' || pathname === n.path ? styles.active : ''}`}>
                     <span className={styles.linkIcon}>{n.icon}</span>
                     <span className={styles.linkLabel}>{n.label}</span>
-                    <span className={styles.chevron}>▾</span>
-                  </button>
-                  <div className={styles.dropdown}>
-                    {n.children.map(c => (
-                      <Link key={c.path} to={c.path} className={`${styles.dropLink} ${pathname === c.path ? styles.activeDrop : ''}`}>
-                        <span className={styles.linkIcon}>{c.icon}</span>
-                        <span>{c.label}</span>
-                      </Link>
-                    ))}
-                  </div>
-                </>
-              ) : (
-                <Link to={n.path}
-                  className={`${styles.link} ${pathname.startsWith(n.path) && n.path !== '/' || pathname === n.path ? styles.active : ''}`}>
-                  <span className={styles.linkIcon}>{n.icon}</span>
-                  <span className={styles.linkLabel}>{n.label}</span>
-                </Link>
-              )}
-            </div>
-          ))}
-        </nav>
-        <Link to="/tcs-nqt" className={styles.ctaBtn}>
-          Start Prep →
-        </Link>
+                  </Link>
+                )}
+              </div>
+            ))}
+          </nav>
+
+          <div className={styles.headerActions}>
+            <Link to="/tcs-nqt" className={styles.ctaBtn}>
+              Start Prep →
+            </Link>
+          </div>
+        </div>
+
+        {mobileMenuOpen && <div className={styles.overlay} onClick={() => setMobileMenuOpen(false)} />}
       </div>
     </header>
   );

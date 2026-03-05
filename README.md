@@ -1,62 +1,74 @@
-# ⚡ PrepMaster — TCS NQT + AI/ML Quiz Platform
+# ⚡ PrepMaster — Complete Placement & Interview Prep
 
-> Complete placement preparation — 120+ questions, timer mode, exam guides, topic-wise practice
+> **[Live Demo: prepmaster-gold.vercel.app](https://prepmaster-gold.vercel.app/)**
 
-## 🚀 Deploy to Vercel in 2 minutes
+**PrepMaster** is a premium, high-performance quiz platform designed to help students and professionals crack placements and technical interviews. It features **4000+ curated questions** across 5 major career tracks, realistic mock tests, and a dedicated notebook for topic-wise library explanations.
 
-### Option 1: Vercel Dashboard (Easiest)
-1. Push to GitHub: `git init && git add . && git commit -m "init" && git push`
-2. Go to [vercel.com/new](https://vercel.com/new)
-3. Import your repo → Framework: **Vite** (auto-detected)
-4. Click **Deploy** ✅
+## 🚀 Key Features
+- **4000+ Verified Questions**: Real-world interview questions with detailed explanations, synchronized with actual data banks.
+- **5 Premium Career Tracks**: TCS NQT, AI & ML, React Engineer, SAP Engineer, and DevOps Engineer.
+- **Mobile Responsive**: Fully optimized for phones and tablets with a sleek **Hamburger Menu** and drawer system.
+- **Premium UI**: Modern Glassmorphism design with smooth animations and interactive components.
+- **Smart Quiz Engine**: Integrated per-question timer, progress tracking, and score breakdown.
+- **Topic Notebook**: Detailed library explanations and point-wise notes for major tech stacks.
+- **Custom Practice**: Build your own practice sessions by filtering topics and difficulty.
 
-### Option 2: Vercel CLI
-```bash
-npm i -g vercel
-vercel
-```
-
-## 💻 Local Development
-```bash
-npm install
-npm run dev       # http://localhost:5173
-npm run build     # production build
-```
+## 💻 Technical Stack
+- **Frontend**: React.js, Vite
+- **Styling**: Vanilla CSS (Custom Glassmorphism System)
+- **Routing**: React Router v6
+- **State**: React Hooks (Custom `useQuiz` logic)
 
 ## 📁 Project Structure
 ```
 src/
 ├── data/
-│   ├── tcs-verbal.js      # 25 Verbal questions
-│   ├── tcs-reasoning.js   # 25 Reasoning questions
-│   ├── tcs-numerical.js   # 27 Numerical questions
-│   ├── tcs-programming.js # 25 Programming questions
-│   ├── aiml-questions.js  # 25 AI/ML questions
-│   └── index.js           # Combined data + configs
-├── hooks/
-│   └── useQuiz.js         # Quiz state + timer logic
+│   ├── tcs-*.js           # TCS NQT split modules (Numerical, Verbal, etc.)
+│   ├── aiml-questions.js    # AI & ML Track (1000+ questions)
+│   ├── react-questions.js   # React Engineer Track (750+ questions)
+│   ├── sap-questions.js     # SAP Engineer Track (700+ questions)
+│   ├── devops-questions.js  # DevOps Engineer Track (550+ questions)
+│   └── index.js             # Central data index & EXAM_CONFIGS
 ├── components/
-│   ├── Header.jsx          # Navigation
-│   ├── QuizEngine.jsx      # Reusable quiz UI
-│   └── TimerRing.jsx       # Circular countdown timer
+│   ├── Header.jsx           # Responsive navigation with Mobile Drawer
+│   ├── QuizEngine.jsx       # Core logic for handling quiz sessions
+│   └── Notebook/            # Topic explanation components
 └── pages/
-    ├── Home.jsx            # Landing page
-    ├── TCSPage.jsx         # TCS NQT section picker
-    ├── AIMLPage.jsx        # AI/ML topic picker
-    ├── PracticePage.jsx    # Custom practice builder
-    ├── GuidePage.jsx       # Complete NQT study guide
-    └── ResultsPage.jsx     # Score breakdown
+    ├── Home.jsx             # Career track dashboard
+    ├── PracticePage.jsx     # Custom filter-based training
+    └── NotebookPage.jsx     # Technical library & notes
 ```
 
-## 📊 Content Coverage
+## 📊 Content Breakdown (Total: 4000+ Questions)
 
-### TCS NQT (102 questions)
-| Section | Questions | Topics |
-|---------|-----------|--------|
-| Verbal Ability | 25 | Synonyms, Antonyms, Fill-in-Blanks, RC, Error Detection, Idioms |
-| Reasoning Ability | 25 | Series, Coding-Decoding, Blood Relations, Directions, Syllogisms, Analogy |
-| Numerical Ability | 27 | %, P&L, Time & Work, Speed, SI/CI, Averages, P&C, Probability |
-| Programming Logic | 25 | Output Prediction, DS, OOP, Algorithms, Python, SQL |
+### 🏢 TCS NQT (1000 questions)
+- **Verbal Ability**: 234 questions
+- **Reasoning Ability**: 205 questions
+- **Numerical Ability**: 167 questions
+- **Programming Logic**: 394 questions
 
-### AI & ML (25 questions)
-ML Fundamentals · Transfer Learning · LLMs · Python · Control Flow · AI Agents
+### 🤖 Career Tracks
+- **AI & ML**: 1000 questions (LLMs, Deep Learning, Agents, RL, etc.)
+- **React Engineer**: 790 questions (Hooks, State, Performance, Advanced)
+- **SAP Engineer**: 715 questions (ABAP, MM, FI, CO, SD, Basis)
+- **DevOps Engineer**: 565 questions (Docker, Kubernetes, CI/CD, IaC, Cloud)
+
+---
+
+## 🛠️ Installation & Setup
+```bash
+# Clone the repository
+git clone https://github.com/Rudra-Gupta15/Prepmaster
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## 🌐 Deployment
+1. Push to GitHub: `git add . && git commit -m "update" && git push`
+2. Connect your repo at [vercel.com](https://vercel.com/)
+3. Framework: **Vite** (auto-detected)
+4. Click **Deploy** ✅

@@ -1,0 +1,66 @@
+.page { max-width: 1100px; margin: 0 auto; padding: 36px 24px 80px; }
+.backBar {
+  max-width: 1100px; margin: 0 auto; padding: 14px 24px;
+  display: flex; align-items: center; gap: 16px;
+  border-bottom: 1px solid var(--border);
+}
+.backBtn {
+  background: var(--surface); border: 1px solid var(--border);
+  color: var(--muted2); padding: 7px 16px; border-radius: 8px;
+  font-size: 13px; font-weight: 600; transition: all 0.2s;
+}
+.backBtn:hover { color: var(--text); border-color: var(--border2); }
+
+/* Header */
+.header { display: grid; grid-template-columns: 1fr auto; gap: 32px; margin-bottom: 40px; align-items: start; }
+@media (max-width:680px) { .header { grid-template-columns: 1fr; } .headerRight { display:none; } }
+.examBadge {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 4px 14px; border-radius: 20px; border: 1px solid rgba(6,182,212,0.4);
+  background: rgba(6,182,212,0.1); color: #06b6d4;
+  font-size: 12px; font-weight: 700; margin-bottom: 14px;
+}
+.title { font-family: var(--font-display); font-size: 32px; font-weight: 800; letter-spacing: -1px; margin-bottom: 10px; }
+.sub   { font-size: 15px; color: var(--muted2); line-height: 1.65; max-width: 500px; }
+
+.infoCard { background: var(--bg2); border: 1px solid var(--border); border-radius: 14px; padding: 20px; min-width: 220px; }
+.infoRow { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 13px; color: var(--muted2); }
+.infoRow:last-child { border-bottom: none; }
+.infoRow strong { color: var(--text); }
+
+/* Grid */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-bottom: 40px; }
+
+.card {
+  background: var(--bg2); border: 1px solid var(--border);
+  border-top: 3px solid var(--sc); border-radius: 15px; padding: 24px;
+  cursor: pointer; transition: all 0.2s; position: relative; overflow: hidden;
+}
+.card::before {
+  content:''; position:absolute; inset:0; opacity:0; transition: opacity 0.2s;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--sc) 8%, transparent), transparent);
+}
+.card:hover { transform: translateY(-3px); border-color: var(--sc); box-shadow: 0 8px 30px rgba(0,0,0,0.3); }
+.card:hover::before { opacity:1; }
+
+.mockCard { border-color: rgba(236,72,153,0.5); background: rgba(236,72,153,0.04); }
+.cardTop { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 14px; }
+.cardIcon { font-size: 36px; line-height:1; }
+.hotBadge { background: rgba(236,72,153,0.15); color: #ec4899; border: 1px solid rgba(236,72,153,0.3); padding: 3px 9px; border-radius: 10px; font-size: 10px; font-weight: 800; }
+.cardTitle { font-family: var(--font-display); font-size: 18px; font-weight: 800; margin-bottom: 8px; }
+.cardDesc { font-size: 12px; color: var(--muted2); line-height: 1.55; margin-bottom: 16px; }
+.cardMeta { display: flex; gap: 10px; margin-bottom: 18px; }
+.metaItem { font-size: 11px; color: var(--muted); background: var(--surface); padding: 3px 9px; border-radius: 6px; }
+.startBtn {
+  width: 100%; padding: 10px; border-radius: 9px; border: none;
+  color: #fff; font-size: 14px; font-weight: 700; cursor: pointer;
+  transition: all 0.18s; font-family: var(--font-body);
+  box-shadow: 0 3px 12px rgba(0,0,0,0.25);
+}
+.startBtn:hover { filter: brightness(1.1); }
+
+/* Tips */
+.tipsBanner { background: var(--bg2); border: 1px solid var(--border); border-radius: 16px; padding: 28px; }
+.tipsTitle { font-family: var(--font-display); font-size: 18px; font-weight: 800; margin-bottom: 18px; }
+.tipsGrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+.tip { background: var(--surface); border-radius: 9px; padding: 12px 14px; font-size: 13px; color: var(--muted2); line-height: 1.5; }

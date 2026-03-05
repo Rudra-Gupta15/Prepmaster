@@ -1,0 +1,7 @@
+.wrap { position: relative; display: inline-flex; align-items: center; justify-content: center; }
+.time {
+  position: absolute;
+  font-family: var(--font-mono);
+  font-size: 13px; font-weight: 700;
+  transition: color 0.5s;
+}

@@ -1,0 +1,160 @@
+import { verbalQuestions } from './tcs-verbal.js';
+import { reasoningQuestions } from './tcs-reasoning.js';
+import { numericalQuestions } from './tcs-numerical.js';
+import { programmingQuestions } from './tcs-programming.js';
+import { aimlQuestions } from './aiml-questions.js';
+import { reactQuestions } from './react-questions.js';
+import { sapQuestions } from './sap-questions.js';
+import { devopsQuestions } from './devops-questions.js';
+
+export const ALL_QUESTIONS = [
+  ...verbalQuestions,
+  ...reasoningQuestions,
+  ...numericalQuestions,
+  ...programmingQuestions,
+  ...aimlQuestions,
+  ...reactQuestions,
+  ...sapQuestions,
+  ...devopsQuestions,
+];
+
+export const EXAM_CONFIGS = {
+  TCS_NQT: {
+    id: 'TCS_NQT',
+    label: 'TCS NQT Mock Test',
+    icon: '🏢',
+    color: '#06b6d4',
+    gradient: 'linear-gradient(135deg, #06b6d4, #8b5cf6)',
+    description: 'Complete TCS National Qualifier Test simulation with all sections',
+    sections: [
+      { id: 'verbal', label: 'Verbal Ability', icon: '📖', time: 30, questions: 15, color: '#06b6d4', filter: q => q.topic === 'TCS NQT' && q.section === 'Verbal Ability' },
+      { id: 'reasoning', label: 'Reasoning Ability', icon: '🧩', time: 30, questions: 15, color: '#8b5cf6', filter: q => q.topic === 'TCS NQT' && q.section === 'Reasoning Ability' },
+      { id: 'numerical', label: 'Numerical Ability', icon: '🔢', time: 35, questions: 15, color: '#f59e0b', filter: q => q.topic === 'TCS NQT' && q.section === 'Numerical Ability' },
+      { id: 'programming', label: 'Programming Logic', icon: '💻', time: 25, questions: 15, color: '#10b981', filter: q => q.topic === 'TCS NQT' && q.section === 'Programming Logic' },
+    ],
+  },
+  AIML: {
+    id: 'AIML',
+    label: 'AI & ML Interview Prep',
+    icon: '🤖',
+    color: '#6366f1',
+    gradient: 'linear-gradient(135deg, #6366f1, #ec4899)',
+    description: 'Complete AI/ML interview preparation across 6 core topics',
+    sections: [
+      { id: 'ml-fund', label: 'ML Fundamentals', icon: '🧠', time: 20, questions: 8, color: '#6366f1', filter: q => q.section === 'ML Fundamentals' },
+      { id: 'transfer', label: 'Transfer Learning', icon: '🔁', time: 15, questions: 3, color: '#10b981', filter: q => q.section === 'Transfer Learning' },
+      { id: 'llm', label: 'Large Language Models', icon: '💬', time: 15, questions: 4, color: '#f59e0b', filter: q => q.section === 'Large Language Models' },
+      { id: 'python', label: 'Python', icon: '🐍', time: 15, questions: 5, color: '#38bdf8', filter: q => q.section === 'Python' },
+      { id: 'control', label: 'Control Flow', icon: '⚡', time: 10, questions: 2, color: '#c084fc', filter: q => q.section === 'Control Flow' },
+      { id: 'agents', label: 'AI Agents', icon: '🤖', time: 15, questions: 3, color: '#ef4444', filter: q => q.section === 'AI Agents' },
+    ],
+  },
+  REACT: {
+    id: 'REACT',
+    label: 'React Engineer Interview',
+    icon: '⚛️',
+    color: '#61dafb',
+    gradient: 'linear-gradient(135deg, #61dafb, #6366f1)',
+    description: 'Complete React Engineer interview preparation covering hooks, state management, performance & more',
+    sections: [
+      { id: 'jsx', label: 'JSX & Fundamentals', icon: '📄', time: 15, questions: 8, color: '#61dafb', filter: q => q.topic === 'React Engineer' && q.section === 'JSX & Fundamentals' },
+      { id: 'state', label: 'State & Props', icon: '🔄', time: 15, questions: 7, color: '#6366f1', filter: q => q.topic === 'React Engineer' && q.section === 'State & Props' },
+      { id: 'hooks', label: 'Hooks', icon: '🪝', time: 20, questions: 8, color: '#f59e0b', filter: q => q.topic === 'React Engineer' && q.section === 'Hooks' },
+      { id: 'lifecycle', label: 'Component Lifecycle', icon: '♻️', time: 10, questions: 3, color: '#10b981', filter: q => q.topic === 'React Engineer' && q.section === 'Component Lifecycle' },
+      { id: 'stateMgmt', label: 'State Management', icon: '🗂️', time: 15, questions: 5, color: '#ef4444', filter: q => q.topic === 'React Engineer' && q.section === 'State Management' },
+      { id: 'perf', label: 'Performance', icon: '⚡', time: 10, questions: 3, color: '#c084fc', filter: q => q.topic === 'React Engineer' && q.section === 'Performance' },
+      { id: 'router', label: 'React Router', icon: '🗺️', time: 10, questions: 4, color: '#38bdf8', filter: q => q.topic === 'React Engineer' && q.section === 'React Router' },
+      { id: 'forms', label: 'Forms & Events', icon: '📝', time: 10, questions: 3, color: '#f97316', filter: q => q.topic === 'React Engineer' && q.section === 'Forms & Events' },
+      { id: 'advanced', label: 'Advanced React', icon: '🚀', time: 15, questions: 4, color: '#8b5cf6', filter: q => q.topic === 'React Engineer' && q.section === 'Advanced React' },
+      { id: 'testing', label: 'Testing', icon: '🧪', time: 10, questions: 3, color: '#14b8a6', filter: q => q.topic === 'React Engineer' && q.section === 'Testing' },
+      { id: 'nextjs', label: 'Next.js & SSR', icon: '▲', time: 10, questions: 2, color: '#a3a3a3', filter: q => q.topic === 'React Engineer' && q.section === 'Next.js & SSR' },
+    ],
+  },
+  SAP: {
+    id: 'SAP',
+    label: 'SAP Engineer Interview',
+    icon: '💼',
+    color: '#f0a500',
+    gradient: 'linear-gradient(135deg, #f0a500, #e53e3e)',
+    description: 'SAP Engineer interview prep — ABAP, MM, SD, FI, CO, Basis, Integration & more',
+    sections: [
+      { id: 'sap-fund', label: 'SAP Fundamentals', icon: '📘', time: 15, questions: 6, color: '#f0a500', filter: q => q.topic === 'SAP Engineer' && q.section === 'SAP Fundamentals' },
+      { id: 'abap', label: 'ABAP', icon: '💻', time: 20, questions: 9, color: '#e53e3e', filter: q => q.topic === 'SAP Engineer' && q.section === 'ABAP' },
+      { id: 'mm', label: 'SAP MM', icon: '📦', time: 15, questions: 5, color: '#10b981', filter: q => q.topic === 'SAP Engineer' && q.section === 'SAP MM' },
+      { id: 'sd', label: 'SAP SD', icon: '🛒', time: 10, questions: 4, color: '#6366f1', filter: q => q.topic === 'SAP Engineer' && q.section === 'SAP SD' },
+      { id: 'fi', label: 'SAP FI', icon: '💰', time: 10, questions: 4, color: '#f59e0b', filter: q => q.topic === 'SAP Engineer' && q.section === 'SAP FI' },
+      { id: 'co', label: 'SAP CO', icon: '📊', time: 10, questions: 2, color: '#38bdf8', filter: q => q.topic === 'SAP Engineer' && q.section === 'SAP CO' },
+      { id: 'basis', label: 'SAP Basis', icon: '⚙️', time: 15, questions: 5, color: '#8b5cf6', filter: q => q.topic === 'SAP Engineer' && q.section === 'SAP Basis' },
+      { id: 'integration', label: 'SAP Integration', icon: '🔗', time: 10, questions: 3, color: '#14b8a6', filter: q => q.topic === 'SAP Engineer' && q.section === 'SAP Integration' },
+      { id: 's4', label: 'SAP S/4HANA', icon: '🚀', time: 10, questions: 3, color: '#61dafb', filter: q => q.topic === 'SAP Engineer' && q.section === 'SAP S/4HANA' },
+      { id: 'security', label: 'SAP Security', icon: '🔒', time: 10, questions: 4, color: '#ef4444', filter: q => q.topic === 'SAP Engineer' && q.section === 'SAP Security' },
+      { id: 'hcm', label: 'SAP HCM', icon: '👥', time: 10, questions: 3, color: '#f97316', filter: q => q.topic === 'SAP Engineer' && q.section === 'SAP HCM' },
+      { id: 'analytics', label: 'SAP Analytics', icon: '📈', time: 10, questions: 2, color: '#c084fc', filter: q => q.topic === 'SAP Engineer' && q.section === 'SAP Analytics' },
+    ],
+  },
+  DEVOPS: {
+    id: 'DEVOPS',
+    label: 'DevOps Engineer Interview',
+    icon: '🔧',
+    color: '#f97316',
+    gradient: 'linear-gradient(135deg, #f97316, #6366f1)',
+    description: 'DevOps Engineer interview prep — CI/CD, Docker, Kubernetes, IaC, Cloud, Monitoring & more',
+    sections: [
+      { id: 'dev-fund', label: 'DevOps Fundamentals', icon: '🚀', time: 10, questions: 5, color: '#f97316', filter: q => q.topic === 'DevOps Engineer' && q.section === 'DevOps Fundamentals' },
+      { id: 'linux', label: 'Linux & Scripting', icon: '🐧', time: 10, questions: 5, color: '#10b981', filter: q => q.topic === 'DevOps Engineer' && q.section === 'Linux & Scripting' },
+      { id: 'git', label: 'Git & VCS', icon: '🌿', time: 10, questions: 5, color: '#f59e0b', filter: q => q.topic === 'DevOps Engineer' && q.section === 'Git & VCS' },
+      { id: 'docker', label: 'Docker & Containers', icon: '🐳', time: 15, questions: 6, color: '#38bdf8', filter: q => q.topic === 'DevOps Engineer' && q.section === 'Docker & Containers' },
+      { id: 'k8s', label: 'Kubernetes', icon: '☸️', time: 20, questions: 7, color: '#6366f1', filter: q => q.topic === 'DevOps Engineer' && q.section === 'Kubernetes' },
+      { id: 'cicd', label: 'CI/CD Tools', icon: '⚙️', time: 15, questions: 5, color: '#8b5cf6', filter: q => q.topic === 'DevOps Engineer' && q.section === 'CI/CD Tools' },
+      { id: 'iac', label: 'IaC & Config Mgmt', icon: '📋', time: 15, questions: 4, color: '#14b8a6', filter: q => q.topic === 'DevOps Engineer' && q.section === 'IaC & Config Mgmt' },
+      { id: 'monitoring', label: 'Monitoring & Observability', icon: '📡', time: 10, questions: 4, color: '#ef4444', filter: q => q.topic === 'DevOps Engineer' && q.section === 'Monitoring & Observability' },
+      { id: 'cloud', label: 'Cloud Platforms', icon: '☁️', time: 10, questions: 4, color: '#f0a500', filter: q => q.topic === 'DevOps Engineer' && q.section === 'Cloud Platforms' },
+      { id: 'devsecops', label: 'DevSecOps', icon: '🔒', time: 10, questions: 3, color: '#e53e3e', filter: q => q.topic === 'DevOps Engineer' && q.section === 'DevSecOps' },
+      { id: 'networking', label: 'Networking', icon: '🌐', time: 10, questions: 2, color: '#c084fc', filter: q => q.topic === 'DevOps Engineer' && q.section === 'Networking' },
+    ],
+  },
+};
+
+export const SECTION_META = {
+  'Verbal Ability': { color: '#06b6d4', icon: '📖', bg: 'rgba(6,182,212,0.1)' },
+  'Reasoning Ability': { color: '#8b5cf6', icon: '🧩', bg: 'rgba(139,92,246,0.1)' },
+  'Numerical Ability': { color: '#f59e0b', icon: '🔢', bg: 'rgba(245,158,11,0.1)' },
+  'Programming Logic': { color: '#10b981', icon: '💻', bg: 'rgba(16,185,129,0.1)' },
+  'ML Fundamentals': { color: '#6366f1', icon: '🧠', bg: 'rgba(99,102,241,0.1)' },
+  'Transfer Learning': { color: '#10b981', icon: '🔁', bg: 'rgba(16,185,129,0.1)' },
+  'Large Language Models': { color: '#f59e0b', icon: '💬', bg: 'rgba(245,158,11,0.1)' },
+  'Python': { color: '#38bdf8', icon: '🐍', bg: 'rgba(56,189,248,0.1)' },
+  'Control Flow': { color: '#c084fc', icon: '⚡', bg: 'rgba(192,132,252,0.1)' },
+  'AI Agents': { color: '#ef4444', icon: '🤖', bg: 'rgba(239,68,68,0.1)' },
+};
+
+export const TCS_NQT_GUIDE = {
+  overview: {
+    title: 'About TCS NQT',
+    content: 'TCS National Qualifier Test (NQT) is a standardized assessment used by Tata Consultancy Services for campus recruitment. It evaluates candidates on cognitive and programming skills to shortlist students for interviews.',
+  },
+  exam_pattern: [
+    { section: 'Verbal Ability', questions: 24, time: '30 min', marks: 1, negMark: 0, level: 'Foundation' },
+    { section: 'Reasoning Ability', questions: 30, time: '50 min', marks: 1, negMark: 0, level: 'Foundation' },
+    { section: 'Numerical Ability', questions: 26, time: '40 min', marks: 1, negMark: 0, level: 'Foundation' },
+    { section: 'Programming Logic', questions: 10, time: '15 min', marks: 1, negMark: 0, level: 'Foundation' },
+    { section: 'Coding', questions: 2, time: '45 min', marks: 10, negMark: 0, level: 'Advanced' },
+  ],
+  tips: [
+    { title: 'No Negative Marking', icon: '✅', tip: 'TCS NQT has NO negative marking. Attempt ALL questions — never leave any blank!' },
+    { title: 'Time Management', icon: '⏱️', tip: 'Verbal: 75 sec/q · Reasoning: 100 sec/q · Numerical: 92 sec/q · Programming: 90 sec/q' },
+    { title: 'Foundation First', icon: '🎯', tip: 'Score well in Foundation to clear cutoff. Advanced section (coding) determines salary band.' },
+    { title: 'Mock Tests', icon: '📝', tip: 'Practice at least 10 full mock tests before the actual exam. Speed matters as much as accuracy.' },
+    { title: 'Verbal Strategy', icon: '📖', tip: 'Focus on synonyms, antonyms, fill-in-the-blanks. RC passages are straightforward — read carefully.' },
+    { title: 'Numerical Shortcuts', icon: '🔢', tip: 'Learn Vedic math shortcuts for fast calculation. Focus on % → P&L → TW → SI/CI → Probability.' },
+    { title: 'Programming Logic', icon: '💻', tip: 'Focus on output prediction, time complexity, and basic DS. OOP concepts from Java/Python are tested.' },
+    { title: 'Cutoff Typically', icon: '📊', tip: 'Cutoff is typically 60-65% in each section. You must clear ALL sections to proceed to HR round.' },
+  ],
+  roadmap: [
+    { week: 'Week 1', tasks: ['Complete all Verbal topics: synonyms, antonyms, fill-in-blanks, RC', 'Practice 100 verbal questions daily', 'Learn 10 new vocabulary words daily'] },
+    { week: 'Week 2', tasks: ['Reasoning: Series, Coding-Decoding, Blood Relations, Directions', 'Solve 50 reasoning puzzles daily', 'Practice logical deduction systematically'] },
+    { week: 'Week 3', tasks: ['Numerical: Percentages, P&L, Time & Work, Speed & Distance', 'Learn shortcut formulas', 'Practice 40 numerical problems daily'] },
+    { week: 'Week 4', tasks: ['Programming Logic: Output prediction, DS, OOP, Algorithms', 'Write code daily in Python/Java/C++', 'Take 2 full mock tests'] },
+    { week: 'Week 5-6', tasks: ['Full mock tests daily', 'Analyze mistakes and weak areas', 'Revise formula sheets', 'Practice coding on HackerRank'] },
+  ],
+};

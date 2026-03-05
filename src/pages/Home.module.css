@@ -1,0 +1,78 @@
+.page { max-width: 1140px; margin: 0 auto; padding: 0 24px 80px; }
+
+/* Hero */
+.hero { text-align: center; padding: 72px 0 60px; position: relative; }
+.heroGlow {
+  position: absolute; top: 0; left: 50%; transform: translateX(-50%);
+  width: 700px; height: 400px; pointer-events: none;
+  background: radial-gradient(ellipse, rgba(99,102,241,0.12) 0%, rgba(6,182,212,0.06) 50%, transparent 70%);
+}
+.pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 6px 16px; border-radius: 20px;
+  border: 1px solid var(--border2); background: var(--surface);
+  font-size: 12px; color: var(--muted2); font-weight: 600;
+  letter-spacing: 0.3px; margin-bottom: 28px; animation: fadeUp 0.4s 0.1s both;
+}
+.heroH1 {
+  font-family: var(--font-display); font-size: clamp(36px, 6vw, 68px);
+  font-weight: 800; line-height: 1.08; letter-spacing: -2px;
+  margin-bottom: 20px; animation: fadeUp 0.4s 0.2s both;
+}
+.heroSub {
+  font-size: 16px; color: var(--muted2); max-width: 560px;
+  margin: 0 auto 36px; line-height: 1.7; animation: fadeUp 0.4s 0.3s both;
+}
+.ctaRow {
+  display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;
+  margin-bottom: 52px; animation: fadeUp 0.4s 0.4s both;
+}
+.stats {
+  display: flex; gap: 14px; justify-content: center; flex-wrap: wrap;
+  animation: fadeUp 0.4s 0.5s both;
+}
+.stat { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 24px; text-align: center; min-width: 90px; }
+.statN { display: block; font-family: var(--font-display); font-size: 24px; font-weight: 900; color: var(--text); }
+.statL { display: block; font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; margin-top: 2px; }
+
+/* Sections */
+.section { margin-top: 72px; }
+
+/* Tracks */
+.tracks { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+@media (max-width:768px) { .tracks { grid-template-columns: 1fr; } }
+.track {
+  background: var(--bg2); border: 1px solid var(--border);
+  border-radius: 16px; overflow: hidden;
+  border-top: 3px solid var(--tc);
+  transition: border-color 0.2s;
+}
+.track:hover { border-color: var(--tc); box-shadow: 0 8px 32px rgba(0,0,0,0.3); }
+.trackHead { display: flex; gap: 14px; align-items: flex-start; padding: 22px 22px 16px; }
+.trackIcon { font-size: 36px; flex-shrink: 0; }
+.trackTitle { font-family: var(--font-display); font-size: 18px; font-weight: 800; margin-bottom: 4px; }
+.trackDesc { font-size: 13px; color: var(--muted2); line-height: 1.5; }
+.trackSections { padding: 0 22px 16px; display: flex; flex-direction: column; gap: 6px; }
+.trackSection {
+  display: flex; align-items: center; gap: 8px;
+  padding: 8px 12px; background: var(--surface);
+  border-radius: 8px; font-size: 13px;
+}
+.trackCount { margin-left: auto; font-size: 11px; color: var(--muted); font-family: var(--font-mono); font-weight: 600; }
+.trackFooter { padding: 16px 22px; border-top: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+.trackTotal { font-size: 12px; color: var(--muted); font-weight: 600; }
+
+/* Features */
+.features { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+.feature { background: var(--bg2); border: 1px solid var(--border); border-radius: 13px; padding: 22px; transition: border-color 0.2s; }
+.feature:hover { border-color: var(--border2); }
+.featureIcon { font-size: 26px; display: block; margin-bottom: 12px; }
+.featureTitle { font-weight: 700; font-size: 14px; margin-bottom: 7px; font-family: var(--font-display); }
+.featureDesc { font-size: 13px; color: var(--muted2); line-height: 1.6; }
+
+/* Facts */
+.facts { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 12px; }
+.factCard { background: var(--bg2); border: 1px solid var(--border); border-radius: 12px; padding: 18px; text-align: center; }
+.factIcon { font-size: 22px; display: block; margin-bottom: 8px; }
+.factVal { display: block; font-weight: 800; font-size: 15px; color: var(--text); margin-bottom: 4px; font-family: var(--font-display); }
+.factLabel { display: block; font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }

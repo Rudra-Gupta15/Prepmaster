@@ -65,10 +65,3 @@ npm install
 
 # Start development server
 npm run dev
-```
-
-## 🌐 Deployment
-1. Push to GitHub: `git add . && git commit -m "update" && git push`
-2. Connect your repo at [vercel.com](https://vercel.com/)
-3. Framework: **Vite** (auto-detected)
-4. Click **Deploy** ✅

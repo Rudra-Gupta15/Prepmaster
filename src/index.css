@@ -56,9 +56,8 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   width: 100%;
-  position: relative;
 }
 
 body {
@@ -69,7 +68,7 @@ body {
   line-height: 1.6;
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   width: 100%;
   position: relative;
   touch-action: pan-y;

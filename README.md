@@ -7,8 +7,8 @@
 ## 🚀 Key Features
 - **4000+ Verified Questions**: Real-world interview questions with detailed explanations, synchronized with actual data banks.
 - **5 Premium Career Tracks**: TCS NQT, AI & ML, React Engineer, SAP Engineer, and DevOps Engineer.
-- **Mobile Responsive**: Fully optimized for phones and tablets with a sleek **Hamburger Menu** and drawer system.
-- **Premium UI**: Modern Glassmorphism design with smooth animations and interactive components.
+- **Mobile Responsive**: Fully optimized for phones and tablets with a high-priority **Hamburger Menu**, viewport-locking, and animated drawer system.
+- **Premium UI**: Modern Glassmorphism design with absolute layout stability and refined mobile interactions.
 - **Smart Quiz Engine**: Integrated per-question timer, progress tracking, and score breakdown.
 - **Topic Notebook**: Detailed library explanations and point-wise notes for major tech stacks.
 - **Custom Practice**: Build your own practice sessions by filtering topics and difficulty.

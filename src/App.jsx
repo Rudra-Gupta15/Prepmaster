@@ -9,13 +9,16 @@ import DevOpsPage from './pages/DevOpsPage';
 import PracticePage from './pages/PracticePage';
 import GuidePage from './pages/GuidePage';
 import ResultsPage from './pages/ResultsPage';
+import NotebookPage from './pages/NotebookPage';
+
+import Footer from './components/Footer';
 
 export default function App() {
   return (
     <>
       <div className="grid-bg" />
       <Header />
-      <main style={{ position: 'relative', zIndex: 1 }}>
+      <main style={{ position: 'relative', zIndex: 1, minHeight: 'calc(100vh - 200px)' }}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/tcs-nqt" element={<TCSPage />} />
@@ -24,10 +27,12 @@ export default function App() {
           <Route path="/sap" element={<SAPPage />} />
           <Route path="/devops" element={<DevOpsPage />} />
           <Route path="/quiz" element={<PracticePage />} />
+          <Route path="/notebook" element={<NotebookPage />} />
           <Route path="/guide" element={<GuidePage />} />
           <Route path="/results" element={<ResultsPage />} />
         </Routes>
       </main>
+      <Footer />
     </>
   );
 }

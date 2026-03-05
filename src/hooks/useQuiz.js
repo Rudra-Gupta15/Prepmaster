@@ -1,21 +1,26 @@
 import { useState, useEffect, useRef } from 'react';
 
-export function useQuiz(questions, timePerQuestion = 60) {
-  const [current, setCurrent]     = useState(0);
-  const [selected, setSelected]   = useState(null);
-  const [answered, setAnswered]   = useState(false);
-  const [score, setScore]         = useState(0);
+export function useQuiz(questions, initialTime = 60, timerMode = 'question') {
+  const [current, setCurrent] = useState(0);
+  const [selected, setSelected] = useState(null);
+  const [answered, setAnswered] = useState(false);
+  const [score, setScore] = useState(0);
   const [userAnswers, setUserAnswers] = useState([]);
-  const [finished, setFinished]   = useState(false);
-  const [timeLeft, setTimeLeft]   = useState(timePerQuestion);
+  const [finished, setFinished] = useState(false);
+  const [timeLeft, setTimeLeft] = useState(initialTime);
   const [timerActive, setTimerActive] = useState(true);
   const intervalRef = useRef(null);
 
   const q = questions[current];
 
   useEffect(() => {
-    if (!timerActive || answered || finished) return;
-    setTimeLeft(timePerQuestion);
+    if (!timerActive || finished) return;
+    // In section mode, we don't reset timeLeft on question change
+    // If it's the first render or question mode, we set initialTime
+    if (timerMode === 'question' && !answered) {
+      setTimeLeft(initialTime);
+    }
+
     intervalRef.current = setInterval(() => {
       setTimeLeft(t => {
         if (t <= 1) {
@@ -27,7 +32,7 @@ export function useQuiz(questions, timePerQuestion = 60) {
       });
     }, 1000);
     return () => clearInterval(intervalRef.current);
-  }, [current, timerActive, answered]);
+  }, [current, timerActive, answered, timerMode]);
 
   const autoAnswer = () => {
     if (answered) return;
@@ -54,13 +59,13 @@ export function useQuiz(questions, timePerQuestion = 60) {
     setCurrent(c => c + 1);
     setSelected(null);
     setAnswered(false);
-    setTimeLeft(timePerQuestion);
+    if (timerMode === 'question') setTimeLeft(initialTime);
   };
 
   const restart = () => {
     setCurrent(0); setSelected(null); setAnswered(false);
     setScore(0); setUserAnswers([]); setFinished(false);
-    setTimeLeft(timePerQuestion); setTimerActive(true);
+    setTimeLeft(initialTime); setTimerActive(true);
   };
 
   const pct = questions.length > 0 ? Math.round((score / questions.length) * 100) : 0;

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ALL_QUESTIONS } from '../data/index.js';
+import { ALL_QUESTIONS, EXAM_CONFIGS } from '../data/index.js';
 import QuizEngine from '../components/QuizEngine';
 import styles from './AIMLPage.module.css';
 
@@ -17,10 +17,38 @@ const sections = [
     { id: 'security', label: 'SAP Security', icon: '🔒', color: '#ef4444', desc: 'Authorization Objects, SU01, PFCG roles, Segregation of Duties', filter: q => q.topic === 'SAP Engineer' && q.section === 'SAP Security' },
     { id: 'hcm', label: 'SAP HCM', icon: '👥', color: '#f97316', desc: 'HCM overview, Infotypes, SuccessFactors cloud HCM', filter: q => q.topic === 'SAP Engineer' && q.section === 'SAP HCM' },
     { id: 'analytics', label: 'SAP Analytics', icon: '📈', color: '#c084fc', desc: 'SAP Analytics Cloud (SAC), SAP BW data warehouse', filter: q => q.topic === 'SAP Engineer' && q.section === 'SAP Analytics' },
+    { id: 'demo', label: 'REAL TEST DEMO', icon: '🚀', color: '#f43f5e', desc: '80 questions in 50 mins: 40 SAP + 15 reasoning + 15 aptitude + 10 verbal mix.', filter: q => q.topic === 'SAP Engineer' },
 ];
 
 export default function SAPPage() {
     const [active, setActive] = useState(null);
+
+    if (active === 'demo') {
+        const cfg = EXAM_CONFIGS.SAP_DEMO;
+        const topicQs = ALL_QUESTIONS.filter(cfg.topicFilter).sort(() => 0.5 - Math.random()).slice(0, 40);
+        const reasonQs = ALL_QUESTIONS.filter(cfg.reasoningFilter).sort(() => 0.5 - Math.random()).slice(0, 15);
+        const aptQs = ALL_QUESTIONS.filter(cfg.numericalFilter).sort(() => 0.5 - Math.random()).slice(0, 15);
+        const verbalQs = ALL_QUESTIONS.filter(cfg.verbalFilter).sort(() => 0.5 - Math.random()).slice(0, 10);
+        const mixedQs = [...topicQs, ...reasonQs, ...aptQs, ...verbalQs].sort(() => 0.5 - Math.random());
+
+        return (
+            <div>
+                <div className={styles.backBar}>
+                    <button className={styles.backBtn} onClick={() => setActive(null)}>← Exit Demo</button>
+                    <span style={{ color: '#f43f5e', fontWeight: 700 }}>🚀 {cfg.label}</span>
+                </div>
+                <QuizEngine
+                    questions={mixedQs}
+                    title="SAP — REAL TEST DEMO"
+                    color="#f43f5e"
+                    timePerQ={50 * 60}
+                    enableTimer={true}
+                    timerMode="section"
+                    limit={80}
+                />
+            </div>
+        );
+    }
 
     if (active) {
         const sec = sections.find(s => s.id === active);

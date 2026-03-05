@@ -153,6 +153,24 @@ pre, code { font-family: var(--font-mono); }
   box-shadow: 0 4px 20px rgba(6,182,212,0.25);
 }
 .btn-tcs:hover { transform: translateY(-2px); }
+.btn-react {
+  background: linear-gradient(135deg, #61dafb, #6366f1);
+  color: #000;
+  box-shadow: 0 4px 20px rgba(97, 218, 251, 0.3);
+}
+.btn-react:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(97, 218, 251, 0.45); }
+.btn-sap {
+  background: linear-gradient(135deg, #f0a500, #e53e3e);
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(240, 165, 0, 0.3);
+}
+.btn-sap:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(240, 165, 0, 0.45); }
+.btn-devops {
+  background: linear-gradient(135deg, #f97316, #6366f1);
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(249, 115, 22, 0.3);
+}
+.btn-devops:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(249, 115, 22, 0.45); }
 .btn-ghost {
   background: var(--surface);
   color: var(--muted2);

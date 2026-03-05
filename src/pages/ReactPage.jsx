@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ALL_QUESTIONS } from '../data/index.js';
+import { ALL_QUESTIONS, EXAM_CONFIGS } from '../data/index.js';
 import QuizEngine from '../components/QuizEngine';
 import styles from './AIMLPage.module.css';
 
@@ -16,10 +16,38 @@ const sections = [
     { id: 'advanced', label: 'Advanced React', icon: '🚀', color: '#8b5cf6', desc: 'Error Boundaries, Portals, Concurrent Mode, Render Props', filter: q => q.topic === 'React Engineer' && q.section === 'Advanced React' },
     { id: 'testing', label: 'Testing', icon: '🧪', color: '#14b8a6', desc: 'RTL philosophy, getByRole, waitFor, findBy, async testing', filter: q => q.topic === 'React Engineer' && q.section === 'Testing' },
     { id: 'nextjs', label: 'Next.js & SSR', icon: '▲', color: '#a3a3a3', desc: 'getServerSideProps, getStaticProps, SSR vs SSG, ISR', filter: q => q.topic === 'React Engineer' && q.section === 'Next.js & SSR' },
+    { id: 'demo', label: 'REAL TEST DEMO', icon: '🚀', color: '#f43f5e', desc: '80 questions in 50 mins: 40 React + 15 reasoning + 15 aptitude + 10 verbal mix.', filter: q => q.topic === 'React Engineer' },
 ];
 
 export default function ReactPage() {
     const [active, setActive] = useState(null);
+
+    if (active === 'demo') {
+        const cfg = EXAM_CONFIGS.REACT_DEMO;
+        const topicQs = ALL_QUESTIONS.filter(cfg.topicFilter).sort(() => 0.5 - Math.random()).slice(0, 40);
+        const reasonQs = ALL_QUESTIONS.filter(cfg.reasoningFilter).sort(() => 0.5 - Math.random()).slice(0, 15);
+        const aptQs = ALL_QUESTIONS.filter(cfg.numericalFilter).sort(() => 0.5 - Math.random()).slice(0, 15);
+        const verbalQs = ALL_QUESTIONS.filter(cfg.verbalFilter).sort(() => 0.5 - Math.random()).slice(0, 10);
+        const mixedQs = [...topicQs, ...reasonQs, ...aptQs, ...verbalQs].sort(() => 0.5 - Math.random());
+
+        return (
+            <div>
+                <div className={styles.backBar}>
+                    <button className={styles.backBtn} onClick={() => setActive(null)}>← Exit Demo</button>
+                    <span style={{ color: '#f43f5e', fontWeight: 700 }}>🚀 {cfg.label}</span>
+                </div>
+                <QuizEngine
+                    questions={mixedQs}
+                    title="React — REAL TEST DEMO"
+                    color="#f43f5e"
+                    timePerQ={50 * 60}
+                    enableTimer={true}
+                    timerMode="section"
+                    limit={80}
+                />
+            </div>
+        );
+    }
 
     if (active) {
         const sec = sections.find(s => s.id === active);

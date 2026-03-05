@@ -2,12 +2,27 @@ import { Link, useLocation } from 'react-router-dom';
 import styles from './Header.module.css';
 
 const nav = [
-  { path:'/',           label:'Home',     icon:'🏠' },
-  { path:'/tcs-nqt',   label:'TCS NQT',  icon:'🏢' },
-  { path:'/aiml',      label:'AI & ML',   icon:'🤖' },
-  { path:'/quiz',      label:'Practice',  icon:'📝' },
-  { path:'/guide',     label:'NQT Guide', icon:'📚' },
-  { path:'/results',   label:'Results',   icon:'📊' },
+  { path: '/', label: 'Home', icon: '🏠' },
+  {
+    label: 'Company Tests',
+    icon: '🏢',
+    children: [
+      { path: '/tcs-nqt', label: 'TCS NQT', icon: '🏢' },
+    ]
+  },
+  {
+    label: 'Interview Prep',
+    icon: '🚀',
+    children: [
+      { path: '/aiml', label: 'AI & ML', icon: '🤖' },
+      { path: '/react', label: 'React', icon: '⚛️' },
+      { path: '/sap', label: 'SAP', icon: '💼' },
+      { path: '/devops', label: 'DevOps', icon: '🔧' },
+    ]
+  },
+  { path: '/quiz', label: 'Practice', icon: '📝' },
+  { path: '/notebook', label: 'Notebook', icon: '📓' },
+  { path: '/results', label: 'Results', icon: '📊' },
 ];
 
 export default function Header() {
@@ -15,20 +30,40 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.inner}>
-        <Link to="/" className={styles.brand}>
-          <div className={styles.brandLogo}>P</div>
+        <a href="https://github.com/Rudra-Gupta15/Prepmaster" target="_blank" rel="noopener noreferrer" className={styles.brand}>
+          <img src="/logo.png" alt="PrepMaster" className={styles.brandLogoImg} />
           <div>
             <div className={styles.brandName}>PrepMaster</div>
             <div className={styles.brandSub}>TCS NQT · AI/ML</div>
           </div>
-        </Link>
+        </a>
         <nav className={styles.nav}>
           {nav.map(n => (
-            <Link key={n.path} to={n.path}
-              className={`${styles.link} ${pathname.startsWith(n.path) && n.path !== '/' || pathname === n.path ? styles.active : ''}`}>
-              <span className={styles.linkIcon}>{n.icon}</span>
-              <span className={styles.linkLabel}>{n.label}</span>
-            </Link>
+            <div key={n.label} className={styles.navGroup}>
+              {n.children ? (
+                <>
+                  <button className={`${styles.link} ${n.children.some(c => pathname.startsWith(c.path)) ? styles.active : ''}`}>
+                    <span className={styles.linkIcon}>{n.icon}</span>
+                    <span className={styles.linkLabel}>{n.label}</span>
+                    <span className={styles.chevron}>▾</span>
+                  </button>
+                  <div className={styles.dropdown}>
+                    {n.children.map(c => (
+                      <Link key={c.path} to={c.path} className={`${styles.dropLink} ${pathname === c.path ? styles.activeDrop : ''}`}>
+                        <span className={styles.linkIcon}>{c.icon}</span>
+                        <span>{c.label}</span>
+                      </Link>
+                    ))}
+                  </div>
+                </>
+              ) : (
+                <Link to={n.path}
+                  className={`${styles.link} ${pathname.startsWith(n.path) && n.path !== '/' || pathname === n.path ? styles.active : ''}`}>
+                  <span className={styles.linkIcon}>{n.icon}</span>
+                  <span className={styles.linkLabel}>{n.label}</span>
+                </Link>
+              )}
+            </div>
           ))}
         </nav>
         <Link to="/tcs-nqt" className={styles.ctaBtn}>

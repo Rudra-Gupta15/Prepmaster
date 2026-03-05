@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ALL_QUESTIONS } from '../data/index.js';
+import { ALL_QUESTIONS, EXAM_CONFIGS } from '../data/index.js';
 import QuizEngine from '../components/QuizEngine';
 import styles from './AIMLPage.module.css';
 
@@ -16,10 +16,38 @@ const sections = [
     { id: 'cloud', label: 'Cloud Platforms', icon: '☁️', color: '#f0a500', desc: 'AWS EC2, S3, IAM, Lambda — core cloud service concepts', filter: q => q.topic === 'DevOps Engineer' && q.section === 'Cloud Platforms' },
     { id: 'devsecops', label: 'DevSecOps', icon: '🔒', color: '#e53e3e', desc: 'Security in CI/CD, SAST, secrets management best practices', filter: q => q.topic === 'DevOps Engineer' && q.section === 'DevSecOps' },
     { id: 'networking', label: 'Networking', icon: '🌐', color: '#c084fc', desc: 'Load balancers, DNS resolution, networking fundamentals', filter: q => q.topic === 'DevOps Engineer' && q.section === 'Networking' },
+    { id: 'demo', label: 'REAL TEST DEMO', icon: '🚀', color: '#f43f5e', desc: '80 questions in 50 mins: 40 DevOps + 15 reasoning + 15 aptitude + 10 verbal mix.', filter: q => q.topic === 'DevOps Engineer' },
 ];
 
 export default function DevOpsPage() {
     const [active, setActive] = useState(null);
+
+    if (active === 'demo') {
+        const cfg = EXAM_CONFIGS.DEVOPS_DEMO;
+        const topicQs = ALL_QUESTIONS.filter(cfg.topicFilter).sort(() => 0.5 - Math.random()).slice(0, 40);
+        const reasonQs = ALL_QUESTIONS.filter(cfg.reasoningFilter).sort(() => 0.5 - Math.random()).slice(0, 15);
+        const aptQs = ALL_QUESTIONS.filter(cfg.numericalFilter).sort(() => 0.5 - Math.random()).slice(0, 15);
+        const verbalQs = ALL_QUESTIONS.filter(cfg.verbalFilter).sort(() => 0.5 - Math.random()).slice(0, 10);
+        const mixedQs = [...topicQs, ...reasonQs, ...aptQs, ...verbalQs].sort(() => 0.5 - Math.random());
+
+        return (
+            <div>
+                <div className={styles.backBar}>
+                    <button className={styles.backBtn} onClick={() => setActive(null)}>← Exit Demo</button>
+                    <span style={{ color: '#f43f5e', fontWeight: 700 }}>🚀 {cfg.label}</span>
+                </div>
+                <QuizEngine
+                    questions={mixedQs}
+                    title="DevOps — REAL TEST DEMO"
+                    color="#f43f5e"
+                    timePerQ={50 * 60}
+                    enableTimer={true}
+                    timerMode="section"
+                    limit={80}
+                />
+            </div>
+        );
+    }
 
     if (active) {
         const sec = sections.find(s => s.id === active);

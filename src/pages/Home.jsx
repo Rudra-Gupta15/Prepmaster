@@ -24,11 +24,11 @@ export default function Home() {
           Detailed explanations · Mock test mode with timer. Built for freshers to pass on first attempt.
         </p>
         <div className={styles.ctaRow}>
-          <Link to="/tcs-nqt" className="btn btn-tcs btn">🏢 TCS NQT Prep</Link>
-          <Link to="/aiml" className="btn btn-primary btn">🤖 AI &amp; ML</Link>
-          <Link to="/react" className="btn btn-ghost btn">⚛️ React</Link>
-          <Link to="/sap" className="btn btn-ghost btn">💼 SAP</Link>
-          <Link to="/devops" className="btn btn-ghost btn">🔧 DevOps</Link>
+          <Link to="/tcs-nqt" className="btn btn-tcs">🏢 TCS NQT Prep</Link>
+          <Link to="/aiml" className="btn btn-primary">🤖 AI &amp; ML</Link>
+          <Link to="/react" className="btn btn-react">⚛️ React</Link>
+          <Link to="/sap" className="btn btn-sap">💼 SAP</Link>
+          <Link to="/devops" className="btn btn-devops">🔧 DevOps</Link>
         </div>
         <div className={styles.stats}>
           {[
@@ -62,10 +62,10 @@ export default function Home() {
             </div>
             <div className={styles.trackSections}>
               {[
-                { icon: '📖', label: 'Verbal Ability', count: 25, color: '#06b6d4' },
-                { icon: '🧩', label: 'Reasoning Ability', count: 25, color: '#8b5cf6' },
-                { icon: '🔢', label: 'Numerical Ability', count: 27, color: '#f59e0b' },
-                { icon: '💻', label: 'Programming Logic', count: 25, color: '#10b981' },
+                { icon: '📖', label: 'Verbal Ability', count: 234, color: '#06b6d4' },
+                { icon: '🧩', label: 'Reasoning Ability', count: 205, color: '#8b5cf6' },
+                { icon: '🔢', label: 'Numerical Ability', count: 167, color: '#f59e0b' },
+                { icon: '💻', label: 'Programming Logic', count: 394, color: '#10b981' },
               ].map(s => (
                 <div key={s.label} className={styles.trackSection}>
                   <span>{s.icon}</span>
@@ -91,12 +91,12 @@ export default function Home() {
             </div>
             <div className={styles.trackSections}>
               {[
-                { icon: '🧠', label: 'ML Fundamentals', count: 8, color: '#6366f1' },
-                { icon: '🔁', label: 'Transfer Learning', count: 3, color: '#10b981' },
-                { icon: '💬', label: 'Large Language Models', count: 4, color: '#f59e0b' },
-                { icon: '🐍', label: 'Python', count: 5, color: '#38bdf8' },
-                { icon: '⚡', label: 'Control Flow', count: 2, color: '#c084fc' },
-                { icon: '🤖', label: 'AI Agents', count: 3, color: '#ef4444' },
+                { icon: '🧠', label: 'ML Fundamentals', count: 50, color: '#6366f1' },
+                { icon: '🧬', label: 'Deep Learning', count: 250, color: '#8b5cf6' },
+                { icon: '💬', label: 'LLMs', count: 75, color: '#f59e0b' },
+                { icon: '🐍', label: 'Python', count: 75, color: '#38bdf8' },
+                { icon: '⚡', label: 'Control Flow', count: 350, color: '#c084fc' },
+                { icon: '🤖', label: 'AI Agents', count: 40, color: '#ef4444' },
               ].map(s => (
                 <div key={s.label} className={styles.trackSection}>
                   <span>{s.icon}</span>
@@ -122,12 +122,12 @@ export default function Home() {
             </div>
             <div className={styles.trackSections}>
               {[
-                { icon: '📄', label: 'JSX & Fundamentals', count: 8, color: '#61dafb' },
-                { icon: '🪝', label: 'Hooks', count: 8, color: '#f59e0b' },
-                { icon: '🔄', label: 'State & Props', count: 7, color: '#6366f1' },
-                { icon: '🗂️', label: 'State Management', count: 5, color: '#ef4444' },
-                { icon: '⚡', label: 'Performance', count: 3, color: '#c084fc' },
-                { icon: '🧪', label: 'Testing & More', count: 9, color: '#14b8a6' },
+                { icon: '📄', label: 'JSX & Basics', count: 165, color: '#61dafb' },
+                { icon: '🪝', label: 'Hooks', count: 200, color: '#f59e0b' },
+                { icon: '🔄', label: 'State & Props', count: 200, color: '#6366f1' },
+                { icon: '🗂️', label: 'State Mgmt', count: 50, color: '#ef4444' },
+                { icon: '⚡', label: 'Performance', count: 75, color: '#c084fc' },
+                { icon: '🚀', label: 'Advanced', count: 100, color: '#8b5cf6' },
               ].map(s => (
                 <div key={s.label} className={styles.trackSection}>
                   <span>{s.icon}</span>
@@ -153,12 +153,12 @@ export default function Home() {
             </div>
             <div className={styles.trackSections}>
               {[
-                { icon: '💻', label: 'ABAP', count: 9, color: '#e53e3e' },
-                { icon: '📦', label: 'SAP MM', count: 5, color: '#10b981' },
-                { icon: '🛒', label: 'SAP SD', count: 4, color: '#6366f1' },
-                { icon: '💰', label: 'SAP FI', count: 4, color: '#f59e0b' },
-                { icon: '⚙️', label: 'SAP Basis', count: 5, color: '#8b5cf6' },
-                { icon: '🔒', label: 'Security & More', count: 9, color: '#ef4444' },
+                { icon: '💻', label: 'ABAP', count: 75, color: '#e53e3e' },
+                { icon: '📦', label: 'SAP MM', count: 75, color: '#10b981' },
+                { icon: '🛒', label: 'SAP SD', count: 40, color: '#6366f1' },
+                { icon: '💰', label: 'SAP FI', count: 225, color: '#f59e0b' },
+                { icon: '📊', label: 'SAP CO', count: 250, color: '#38bdf8' },
+                { icon: '⚙️', label: 'SAP Basis', count: 50, color: '#8b5cf6' },
               ].map(s => (
                 <div key={s.label} className={styles.trackSection}>
                   <span>{s.icon}</span>
@@ -184,12 +184,12 @@ export default function Home() {
             </div>
             <div className={styles.trackSections}>
               {[
-                { icon: '🐳', label: 'Docker', count: 6, color: '#38bdf8' },
-                { icon: '☸️', label: 'Kubernetes', count: 7, color: '#6366f1' },
-                { icon: '⚙️', label: 'CI/CD Tools', count: 5, color: '#8b5cf6' },
-                { icon: '📋', label: 'IaC (Terraform)', count: 4, color: '#14b8a6' },
-                { icon: '☁️', label: 'Cloud (AWS)', count: 4, color: '#f0a500' },
-                { icon: '📡', label: 'Monitoring & More', count: 9, color: '#ef4444' },
+                { icon: '🐳', label: 'Docker', count: 150, color: '#38bdf8' },
+                { icon: '☸️', label: 'Kubernetes', count: 100, color: '#6366f1' },
+                { icon: '⚙️', label: 'CI/CD Tools', count: 75, color: '#8b5cf6' },
+                { icon: '📋', label: 'IaC', count: 75, color: '#14b8a6' },
+                { icon: '☁️', label: 'Cloud', count: 40, color: '#f0a500' },
+                { icon: '📡', label: 'Monitoring', count: 125, color: '#ef4444' },
               ].map(s => (
                 <div key={s.label} className={styles.trackSection}>
                   <span>{s.icon}</span>

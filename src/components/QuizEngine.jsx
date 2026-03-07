@@ -20,7 +20,8 @@ export default function QuizEngine({ questions: rawQ, title, color, onComplete, 
     // 1. Deduplicate by question text within the section to avoid repeats reported by users
     const seen = new Set();
     const unique = rawQ.filter(q => {
-      const key = `${q.question}|${q.section}`;
+      const textKey = (q.question || "").trim().toLowerCase();
+      const key = `${textKey}|${q.section}`;
       if (seen.has(key)) return false;
       seen.add(key);
       return true;

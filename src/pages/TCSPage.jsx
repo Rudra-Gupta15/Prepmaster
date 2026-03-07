@@ -47,9 +47,20 @@ export default function TCSPage() {
     }
   };
 
+  const questions = useMemo(() => {
+    if (active === 'demo') {
+      const sec = flatSections[demoStep];
+      return ALL_QUESTIONS.filter(sec.filter).slice(0, sec.questions);
+    }
+    if (active) {
+      const sec = sections.find(s => s.id === active);
+      return ALL_QUESTIONS.filter(sec.filter);
+    }
+    return [];
+  }, [active, demoStep, flatSections]);
+
   if (active === 'demo') {
     const sec = flatSections[demoStep];
-    const qs = ALL_QUESTIONS.filter(sec.filter).slice(0, sec.questions);
     return (
       <div key={`demo-${demoStep}`}>
         <div className={styles.backBar}>
@@ -58,7 +69,7 @@ export default function TCSPage() {
           <span style={{ marginLeft: 'auto', fontSize: 13, color: 'var(--muted2)' }}>Section {demoStep + 1} of {flatSections.length}</span>
         </div>
         <QuizEngine
-          questions={qs}
+          questions={questions}
           title={sec.label}
           color={demoConfig.color}
           timePerQ={sec.time * 60}
@@ -72,7 +83,6 @@ export default function TCSPage() {
 
   if (active) {
     const sec = sections.find(s => s.id === active);
-    const qs = ALL_QUESTIONS.filter(sec.filter);
     return (
       <div>
         <div className={styles.backBar}>
@@ -80,7 +90,7 @@ export default function TCSPage() {
           <span style={{ color: sec.color, fontWeight: 700 }}>{sec.icon} {sec.label}</span>
         </div>
         <QuizEngine
-          questions={qs}
+          questions={questions}
           title={`TCS NQT — ${sec.label}`}
           color={sec.color}
           timePerQ={sec.time}

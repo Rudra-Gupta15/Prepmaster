@@ -22,22 +22,31 @@ const sections = [
 export default function DevOpsPage() {
     const [active, setActive] = useState(null);
 
-    if (active === 'demo') {
-        const cfg = EXAM_CONFIGS.DEVOPS_DEMO;
-        const topicQs = ALL_QUESTIONS.filter(cfg.topicFilter).sort(() => 0.5 - Math.random()).slice(0, 40);
-        const reasonQs = ALL_QUESTIONS.filter(cfg.reasoningFilter).sort(() => 0.5 - Math.random()).slice(0, 15);
-        const aptQs = ALL_QUESTIONS.filter(cfg.numericalFilter).sort(() => 0.5 - Math.random()).slice(0, 15);
-        const verbalQs = ALL_QUESTIONS.filter(cfg.verbalFilter).sort(() => 0.5 - Math.random()).slice(0, 10);
-        const mixedQs = [...topicQs, ...reasonQs, ...aptQs, ...verbalQs].sort(() => 0.5 - Math.random());
+    const demoConfig = EXAM_CONFIGS.DEVOPS_DEMO;
+    const questions = useMemo(() => {
+        if (active === 'demo') {
+            const topicQs = ALL_QUESTIONS.filter(demoConfig.topicFilter).sort(() => 0.5 - Math.random()).slice(0, 40);
+            const reasonQs = ALL_QUESTIONS.filter(demoConfig.reasoningFilter).sort(() => 0.5 - Math.random()).slice(0, 15);
+            const aptQs = ALL_QUESTIONS.filter(demoConfig.numericalFilter).sort(() => 0.5 - Math.random()).slice(0, 15);
+            const verbalQs = ALL_QUESTIONS.filter(demoConfig.verbalFilter).sort(() => 0.5 - Math.random()).slice(0, 10);
+            return [...topicQs, ...reasonQs, ...aptQs, ...verbalQs].sort(() => 0.5 - Math.random());
+        }
+        if (active) {
+            const sec = sections.find(s => s.id === active);
+            return ALL_QUESTIONS.filter(sec.filter);
+        }
+        return [];
+    }, [active, demoConfig]);
 
+    if (active === 'demo') {
         return (
             <div>
                 <div className={styles.backBar}>
                     <button className={styles.backBtn} onClick={() => setActive(null)}>← Exit Demo</button>
-                    <span style={{ color: '#f43f5e', fontWeight: 700 }}>🚀 {cfg.label}</span>
+                    <span style={{ color: '#f43f5e', fontWeight: 700 }}>🚀 {demoConfig.label}</span>
                 </div>
                 <QuizEngine
-                    questions={mixedQs}
+                    questions={questions}
                     title="DevOps — REAL TEST DEMO"
                     color="#f43f5e"
                     timePerQ={50 * 60}
@@ -51,14 +60,13 @@ export default function DevOpsPage() {
 
     if (active) {
         const sec = sections.find(s => s.id === active);
-        const qs = ALL_QUESTIONS.filter(sec.filter);
         return (
             <div>
                 <div className={styles.backBar}>
                     <button className={styles.backBtn} onClick={() => setActive(null)}>← Back</button>
                     <span style={{ color: sec.color, fontWeight: 700 }}>{sec.icon} {sec.label}</span>
                 </div>
-                <QuizEngine questions={qs} title={`DevOps Engineer — ${sec.label}`} color={sec.color} timePerQ={99999} enableTimer={false} />
+                <QuizEngine questions={questions} title={`DevOps Engineer — ${sec.label}`} color={sec.color} timePerQ={99999} enableTimer={false} />
             </div>
         );
     }

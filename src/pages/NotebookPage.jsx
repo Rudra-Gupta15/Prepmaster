@@ -14,17 +14,23 @@ const topics = [
 export default function NotebookPage() {
     const [activeTopic, setActiveTopic] = useState(topics[0]);
     const [activeTab, setActiveTab] = useState('library'); // 'library' | 'qa'
+    const [activeLevel, setActiveLevel] = useState('All'); // 'All' | 'Basic' | 'Intermediate' | 'Advanced'
     const [search, setSearch] = useState('');
     const [expandedQ, setExpandedQ] = useState(null);
 
+    const levels = ['All', 'Basic', 'Intermediate', 'Advanced'];
+
     const libraryData = useMemo(() => {
-        const data = notebookLibrary[activeTopic.name] || [];
+        let data = notebookLibrary[activeTopic.name] || [];
+        if (activeLevel !== 'All') {
+            data = data.filter(item => item.level === activeLevel);
+        }
         if (!search) return data;
         return data.filter(item =>
             item.title.toLowerCase().includes(search.toLowerCase()) ||
             item.content.toLowerCase().includes(search.toLowerCase())
         );
-    }, [activeTopic, search]);
+    }, [activeTopic, search, activeLevel]);
 
     const qaData = useMemo(() => {
         const data = ALL_QUESTIONS.filter(activeTopic.filter);
@@ -83,15 +89,79 @@ export default function NotebookPage() {
                     />
                 </div>
 
+                {activeTab === 'library' && (
+                    <div className={styles.levelFilters}>
+                        {levels.map(lvl => (
+                            <button
+                                key={lvl}
+                                className={`${styles.levelBtn} ${activeLevel === lvl ? styles.activeLevel : ''}`}
+                                onClick={() => setActiveLevel(lvl)}
+                            >
+                                {lvl}
+                            </button>
+                        ))}
+                    </div>
+                )}
+
                 {activeTab === 'library' ? (
                     <div className={styles.libraryGrid}>
                         {libraryData.map((item, i) => (
                             <div key={i} className={styles.libCard}>
-                                <div className={styles.libTitle}>{item.title}</div>
-                                <div className={styles.libContent}>{item.content}</div>
+                                <div className={styles.libHeader}>
+                                    <span className={`${styles.levelBadge} ${styles[item.level?.toLowerCase()]}`}>
+                                        {item.level}
+                                    </span>
+                                    <div className={styles.libTitle}>{item.title}</div>
+                                </div>
+
+                                {item.definition ? (
+                                    <div className={styles.detailedContent}>
+                                        <section className={styles.detailedSec}>
+                                            <h4 className={styles.secLabel}>📖 Definition</h4>
+                                            <p className={styles.secText}>{item.definition}</p>
+                                        </section>
+
+                                        <section className={styles.detailedSec}>
+                                            <h4 className={styles.secLabel}>📝 Overview</h4>
+                                            <ul className={styles.secList}>
+                                                {item.overview?.map((step, idx) => (
+                                                    <li key={idx}>{step}</li>
+                                                ))}
+                                            </ul>
+                                        </section>
+
+                                        <section className={styles.detailedSec}>
+                                            <h4 className={styles.secLabel}>🔑 Key-Points</h4>
+                                            <ul className={styles.secList}>
+                                                {item.keyPoints?.map((point, idx) => (
+                                                    <li key={idx} className={styles.keyPoint}>{point}</li>
+                                                ))}
+                                            </ul>
+                                        </section>
+
+                                        <section className={styles.detailedSec}>
+                                            <h4 className={styles.secLabel}>❓ Interview Questions</h4>
+                                            <div className={styles.qaGrid}>
+                                                {item.questions?.map((qObj, idx) => (
+                                                    <div key={idx} className={styles.qaMiniItem}>
+                                                        <div className={styles.miniQ}>{qObj.q}</div>
+                                                        <div className={styles.miniA}>Ans: {qObj.a}</div>
+                                                    </div>
+                                                ))}
+                                            </div>
+                                        </section>
+
+                                        <section className={styles.detailedSec}>
+                                            <h4 className={styles.secLabel}>💡 Example</h4>
+                                            <div className={styles.exampleBox}>{item.example}</div>
+                                        </section>
+                                    </div>
+                                ) : (
+                                    <div className={styles.libContent}>{item.content}</div>
+                                )}
                             </div>
                         ))}
-                        {libraryData.length === 0 && <p style={{ textAlign: 'center', gridColumn: '1/-1', opacity: 0.5 }}>No concepts found for "{search}"</p>}
+                        {libraryData.length === 0 && <p style={{ textAlign: 'center', gridColumn: '1/-1', opacity: 0.5 }}>No {activeLevel !== 'All' ? activeLevel : ''} concepts found for "{search}"</p>}
                     </div>
                 ) : (
                     <div className={styles.qaList}>

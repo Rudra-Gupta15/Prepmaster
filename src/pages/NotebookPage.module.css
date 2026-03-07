@@ -124,17 +124,19 @@
 }
 
 .libraryGrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .libCard {
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.05);
-    padding: 24px;
-    border-radius: 16px;
+    padding: 30px;
+    border-radius: 20px;
     transition: all 0.2s;
+    width: 100%;
+    /* Rectangle shape */
 }
 
 .libCard:hover {
@@ -143,11 +145,72 @@
     border-color: rgba(99, 102, 241, 0.3);
 }
 
+.libHeader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 15px;
+}
+
 .libTitle {
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 12px;
-    color: #6366f1;
+    font-size: 22px;
+    font-weight: 800;
+    color: #818cf8;
+    margin: 0;
+}
+
+.levelBadge {
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 6px;
+    letter-spacing: 0.5px;
+}
+
+.basic {
+    background: rgba(16, 185, 129, 0.1);
+    color: #10b981;
+}
+
+.intermediate {
+    background: rgba(245, 158, 11, 0.1);
+    color: #f59e0b;
+}
+
+.advanced {
+    background: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+}
+
+.levelFilters {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.levelBtn {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 6px 16px;
+    border-radius: 20px;
+    color: var(--text-dim);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.levelBtn:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.activeLevel {
+    background: #6366f1;
+    color: white;
+    border-color: #6366f1;
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
 }
 
 .libContent {
@@ -220,6 +283,94 @@
     border: 1px solid rgba(99, 102, 241, 0.2);
 }
 
+/* Detailed Content Styling */
+.detailedContent {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.detailedSec {
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding-top: 16px;
+}
+
+.detailedSec:first-child {
+    border-top: none;
+    padding-top: 0;
+}
+
+.secLabel {
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-dim);
+    margin-bottom: 12px;
+    opacity: 0.8;
+}
+
+.secText {
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.secList {
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: decimal;
+}
+
+.secList li {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.keyPoint {
+    list-style-type: disc;
+    color: #818cf8 !important;
+}
+
+.qaGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.qaMiniItem {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.miniQ {
+    font-weight: 700;
+    font-size: 13px;
+    margin-bottom: 6px;
+    color: white;
+}
+
+.miniA {
+    font-size: 12px;
+    color: #10b981;
+}
+
+.exampleBox {
+    background: rgba(99, 102, 241, 0.05);
+    border-left: 4px solid #6366f1;
+    padding: 16px;
+    border-radius: 4px 12px 12px 4px;
+    font-size: 14px;
+    line-height: 1.6;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.9);
+}
+
 @media (max-width: 900px) {
     .page {
         flex-direction: column;
@@ -234,5 +385,13 @@
 
     .sideTab {
         white-space: nowrap;
+    }
+
+    .qaGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .libraryGrid {
+        grid-template-columns: 1fr;
     }
 }

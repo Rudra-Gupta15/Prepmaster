@@ -19,13 +19,13 @@ export default function QuizEngine({ questions: rawQ, title, color, onComplete, 
   const questions = useMemo(() => {
     if (!rawQ || !Array.isArray(rawQ)) return [];
 
-    // 1. Deduplicate by question text within the section to avoid repeats
+    // 1. Aggressive Deduplication by normalized question text
     const seen = new Set();
     const unique = rawQ.filter(q => {
-      const textKey = (q.question || "").trim().toLowerCase();
-      const key = `${textKey}|${q.section}`;
-      if (seen.has(key)) return false;
-      seen.add(key);
+      // Create a super-clean key: lowercase, no spaces, no special chars
+      const textKey = (q.question || "").toLowerCase().replace(/[^a-z0-9]/g, "").trim();
+      if (!textKey || seen.has(textKey)) return false;
+      seen.add(textKey);
       return true;
     });
 

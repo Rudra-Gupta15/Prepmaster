@@ -16,7 +16,33 @@ function shuffle(arr) {
 
 export default function QuizEngine({ questions: rawQ, title, color, onComplete, timePerQ = 60, enableTimer = true, timerMode = 'question', limit = 40 }) {
   const navigate = useNavigate();
-  const questions = useMemo(() => shuffle(rawQ).slice(0, Math.min(rawQ.length, limit)), []);
+  const questions = useMemo(() => {
+    // 1. Deduplicate by question text within the section to avoid repeats reported by users
+    const seen = new Set();
+    const unique = rawQ.filter(q => {
+      const key = `${q.question}|${q.section}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+
+    // 2. Shuffle selected questions and slice to limit
+    const shuffled = shuffle(unique).slice(0, Math.min(unique.length, limit));
+
+    // 3. Shuffle options for each question to fix the "all A options" problem
+    return shuffled.map(q => {
+      const optionsWithStatus = q.options.map((opt, idx) => ({
+        text: opt,
+        isCorrect: idx === q.answer
+      }));
+      const shuffledOpts = shuffle(optionsWithStatus);
+      return {
+        ...q,
+        options: shuffledOpts.map(o => o.text),
+        answer: shuffledOpts.findIndex(o => o.isCorrect)
+      };
+    });
+  }, [rawQ, limit]);
 
   const {
     current, q, selected, answered, score, userAnswers,

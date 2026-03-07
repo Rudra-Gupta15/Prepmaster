@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { ALL_QUESTIONS, EXAM_CONFIGS } from '../data/index.js';
 import QuizEngine from '../components/QuizEngine';
 import styles from './AIMLPage.module.css';

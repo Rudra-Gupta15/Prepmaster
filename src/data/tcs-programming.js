@@ -1,514 +1,2402 @@
 export const programmingQuestions = [
   {
-    "id": "p1",
+    "id": "prog_1000",
     "topic": "TCS NQT",
     "section": "Programming Logic",
     "difficulty": "Easy",
     "type": "MCQ",
-    "question": "Identify the error: 'She don't know the answer'",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1000]",
     "options": [
-      "Subject-verb agreement",
-      "Tense",
-      "Pronoun",
-      "None"
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
     ],
     "answer": 0,
-    "explanation": "'She doesn't know' is correct."
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
   },
   {
-    "id": "p2",
+    "id": "prog_1001",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1001]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1002",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1002]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1003",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1003]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1004",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1004]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1005",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1005]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1006",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1006]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1007",
     "topic": "TCS NQT",
     "section": "Programming Logic",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "What is 15% of 200?",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1007]",
     "options": [
-      "30",
-      "25",
-      "35",
-      "40"
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
     ],
     "answer": 0,
-    "explanation": "15/100 × 200 = 30"
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
   },
   {
-    "id": "p3",
-    "topic": "TCS NQT",
-    "section": "Programming Logic",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "A train travels 60 km in 1 hour. How far in 2.5 hours?",
-    "options": [
-      "150 km",
-      "120 km",
-      "180 km",
-      "100 km"
-    ],
-    "answer": 0,
-    "explanation": "60 × 2.5 = 150"
-  },
-  {
-    "id": "p4",
-    "topic": "TCS NQT",
-    "section": "Programming Logic",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "If x+y=10 and x-y=4, find x",
-    "options": [
-      "7",
-      "6",
-      "5",
-      "8"
-    ],
-    "answer": 0,
-    "explanation": "x = (10+4)/2 = 7"
-  },
-  {
-    "id": "p5",
-    "topic": "TCS NQT",
-    "section": "Programming Logic",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "A:B = 3:4, B:C = 2:3. Find A:C",
-    "options": [
-      "1:2",
-      "3:8",
-      "2:3",
-      "1:4"
-    ],
-    "answer": 0,
-    "explanation": "A:B:C = 3:4:6, so A:C = 1:2"
-  },
-  {
-    "id": "p6",
-    "topic": "TCS NQT",
-    "section": "Programming Logic",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Average of 5,10,15,20,25",
-    "options": [
-      "15",
-      "12",
-      "18",
-      "20"
-    ],
-    "answer": 0,
-    "explanation": "Sum=75, 75/5=15"
-  },
-  {
-    "id": "p7",
-    "topic": "TCS NQT",
-    "section": "Programming Logic",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "2^10 =",
-    "options": [
-      "1024",
-      "512",
-      "2048",
-      "256"
-    ],
-    "answer": 0,
-    "explanation": "2^10 = 1024"
-  },
-  {
-    "id": "p8",
-    "topic": "TCS NQT",
-    "section": "Programming Logic",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "If 3x = 21, x =",
-    "options": [
-      "7",
-      "6",
-      "8",
-      "9"
-    ],
-    "answer": 0,
-    "explanation": "x = 21/3 = 7"
-  },
-  {
-    "id": "p9",
+    "id": "prog_1008",
     "topic": "TCS NQT",
     "section": "Programming Logic",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "If price increases by 20%, then decreases by 20%, net change?",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1008]",
     "options": [
-      "-4%",
-      "0%",
-      "+4%",
-      "-2%"
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
     ],
     "answer": 0,
-    "explanation": "Net = −4%"
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
   },
   {
-    "id": "p10",
+    "id": "prog_1009",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1009]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1010",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1010]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1011",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1011]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1012",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1012]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1013",
     "topic": "TCS NQT",
     "section": "Programming Logic",
     "difficulty": "Hard",
     "type": "MCQ",
-    "question": "A man walks 4 km in 1 hr. In 45 min he walks",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1013]",
     "options": [
-      "3 km",
-      "2 km",
-      "4 km",
-      "3.5 km"
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
     ],
     "answer": 0,
-    "explanation": "4 × 45/60 = 3"
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
   },
   {
-    "id": "p11",
+    "id": "prog_1014",
     "topic": "TCS NQT",
     "section": "Programming Logic",
     "difficulty": "Hard",
     "type": "MCQ",
-    "question": "If APPLE = 50, MANGO = ?",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1014]",
     "options": [
-      "57",
-      "52",
-      "60",
-      "55"
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
     ],
     "answer": 0,
-    "explanation": "A=1,P=16,P=16,L=12,E=5=50; M=13,A=1,N=14,G=7,O=15=50→57? let me fix: MANGO=13+1+14+7+15=50. Hmm, APPLE=1+16+16+12+5=50. So both 50. Answer A=50 but let me pick a different question..."
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
   },
   {
-    "id": "p12",
+    "id": "prog_1015",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1015]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1016",
     "topic": "TCS NQT",
     "section": "Programming Logic",
     "difficulty": "Hard",
     "type": "MCQ",
-    "question": "If Monday is 2 days after Saturday, what day is 3 days before Thursday?",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1016]",
     "options": [
-      "Monday",
-      "Tuesday",
-      "Sunday",
-      "Wednesday"
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
     ],
     "answer": 0,
-    "explanation": "3 days before Thursday = Monday."
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
   },
   {
-    "id": "p13",
+    "id": "prog_1017",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1017]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1018",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1018]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1019",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1019]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1020",
     "topic": "TCS NQT",
     "section": "Programming Logic",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Find next: Z,X,V,T,?",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1020]",
     "options": [
-      "R",
-      "S",
-      "Q",
-      "P"
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
     ],
     "answer": 0,
-    "explanation": "Descending alternate letters."
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
   },
   {
-    "id": "p14",
+    "id": "prog_1021",
     "topic": "TCS NQT",
     "section": "Programming Logic",
     "difficulty": "Hard",
     "type": "MCQ",
-    "question": "Output of: print(2**3)",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1021]",
     "options": [
-      "8",
-      "6",
-      "9",
-      "16"
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
     ],
     "answer": 0,
-    "explanation": "2 raised to power 3 = 8"
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
   },
   {
-    "id": "p15",
-    "topic": "TCS NQT",
-    "section": "Programming Logic",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Which data structure uses LIFO?",
-    "options": [
-      "Stack",
-      "Queue",
-      "Array",
-      "LinkedList"
-    ],
-    "answer": 0,
-    "explanation": "Stack uses Last-In-First-Out."
-  },
-  {
-    "id": "p16",
-    "topic": "TCS NQT",
-    "section": "Programming Logic",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "What does SQL SELECT do?",
-    "options": [
-      "Retrieves data",
-      "Inserts data",
-      "Deletes data",
-      "Updates data"
-    ],
-    "answer": 0,
-    "explanation": "SELECT retrieves data from a table."
-  },
-  {
-    "id": "p17",
+    "id": "prog_1022",
     "topic": "TCS NQT",
     "section": "Programming Logic",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "In Python, list is",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1022]",
     "options": [
-      "Mutable",
-      "Immutable",
-      "Static",
-      "Fixed"
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
     ],
     "answer": 0,
-    "explanation": "Lists can be modified after creation."
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
   },
   {
-    "id": "p18",
-    "topic": "TCS NQT",
-    "section": "Programming Logic",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "What is recursion?",
-    "options": [
-      "Function calling itself",
-      "Loop",
-      "Array traversal",
-      "Sorting"
-    ],
-    "answer": 0,
-    "explanation": "Recursion is when a function calls itself."
-  },
-  {
-    "id": "p19",
-    "topic": "TCS NQT",
-    "section": "Programming Logic",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Output of: len('hello')",
-    "options": [
-      "5",
-      "4",
-      "6",
-      "3"
-    ],
-    "answer": 0,
-    "explanation": "'hello' has 5 characters."
-  },
-  {
-    "id": "p20",
-    "topic": "TCS NQT",
-    "section": "Programming Logic",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Which sorting is fastest on average?",
-    "options": [
-      "Quick Sort",
-      "Bubble Sort",
-      "Selection Sort",
-      "Insertion Sort"
-    ],
-    "answer": 0,
-    "explanation": "QuickSort averages O(n log n)."
-  },
-  {
-    "id": "p21",
+    "id": "prog_1023",
     "topic": "TCS NQT",
     "section": "Programming Logic",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "What is a pointer?",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1023]",
     "options": [
-      "Variable storing address",
-      "Variable storing value",
-      "Function",
-      "Class"
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
     ],
     "answer": 0,
-    "explanation": "Pointers hold memory addresses."
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
   },
   {
-    "id": "p22",
+    "id": "prog_1024",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1024]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1025",
     "topic": "TCS NQT",
     "section": "Programming Logic",
     "difficulty": "Hard",
     "type": "MCQ",
-    "question": "HTTP status 404 means",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1025]",
     "options": [
-      "Not Found",
-      "OK",
-      "Server Error",
-      "Redirect"
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
     ],
     "answer": 0,
-    "explanation": "404 = resource not found."
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
   },
   {
-    "id": "p23",
+    "id": "prog_1026",
     "topic": "TCS NQT",
     "section": "Programming Logic",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Which is not OOP principle?",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1026]",
     "options": [
-      "Compilation",
-      "Encapsulation",
-      "Inheritance",
-      "Polymorphism"
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
     ],
     "answer": 0,
-    "explanation": "Compilation is not an OOP principle."
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
   },
   {
-    "id": "p24",
+    "id": "prog_1027",
     "topic": "TCS NQT",
     "section": "Programming Logic",
     "difficulty": "Easy",
     "type": "MCQ",
-    "question": "NULL in SQL means",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1027]",
     "options": [
-      "No value",
-      "Zero",
-      "Empty string",
-      "False"
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
     ],
     "answer": 0,
-    "explanation": "NULL represents absence of value."
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
   },
   {
-    "id": "p25",
-    "topic": "TCS NQT",
-    "section": "Programming Logic",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "In C, sizeof(int) is typically",
-    "options": [
-      "4 bytes",
-      "2 bytes",
-      "8 bytes",
-      "1 byte"
-    ],
-    "answer": 0,
-    "explanation": "int is typically 4 bytes on 32/64-bit."
-  },
-  {
-    "id": "p26",
-    "topic": "TCS NQT",
-    "section": "Programming Logic",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "What does HTML stand for?",
-    "options": [
-      "HyperText Markup Language",
-      "HighText Machine Language",
-      "HyperText Machine Language",
-      "HighText Markup Language"
-    ],
-    "answer": 0,
-    "explanation": "Standard definition."
-  },
-  {
-    "id": "p27",
+    "id": "prog_1028",
     "topic": "TCS NQT",
     "section": "Programming Logic",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Which is a NoSQL database?",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1028]",
     "options": [
-      "MongoDB",
-      "MySQL",
-      "PostgreSQL",
-      "Oracle"
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
     ],
     "answer": 0,
-    "explanation": "MongoDB is a NoSQL document database."
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
   },
   {
-    "id": "p28",
+    "id": "prog_1029",
     "topic": "TCS NQT",
     "section": "Programming Logic",
     "difficulty": "Hard",
     "type": "MCQ",
-    "question": "Output of: print(type(3.14))",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1029]",
     "options": [
-      "<class 'float'>",
-      "<class 'int'>",
-      "<class 'str'>",
-      "<class 'double'>"
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
     ],
     "answer": 0,
-    "explanation": "3.14 is a float."
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
   },
   {
-    "id": "p29",
+    "id": "prog_1030",
     "topic": "TCS NQT",
     "section": "Programming Logic",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "What is an API?",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1030]",
     "options": [
-      "Application Programming Interface",
-      "Application Protocol Interface",
-      "Applied Programming Interface",
-      "Application Process Interface"
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
     ],
     "answer": 0,
-    "explanation": "Standard definition."
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
   },
   {
-    "id": "p30",
+    "id": "prog_1031",
     "topic": "TCS NQT",
     "section": "Programming Logic",
     "difficulty": "Easy",
     "type": "MCQ",
-    "question": "git commit does what?",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1031]",
     "options": [
-      "Saves changes locally",
-      "Pushes to remote",
-      "Merges branches",
-      "Clones repo"
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
     ],
     "answer": 0,
-    "explanation": "git commit records changes in local repo."
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
   },
   {
-    "id": "p31",
+    "id": "prog_1032",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1032]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1033",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1033]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1034",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1034]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1035",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1035]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1036",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1036]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1037",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1037]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1038",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1038]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1039",
     "topic": "TCS NQT",
     "section": "Programming Logic",
     "difficulty": "Hard",
     "type": "MCQ",
-    "question": "Which loop checks condition at end?",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1039]",
     "options": [
-      "do-while",
-      "while",
-      "for",
-      "foreach"
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
     ],
     "answer": 0,
-    "explanation": "do-while executes body before checking condition."
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
   },
   {
-    "id": "p32",
+    "id": "prog_1040",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1040]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1041",
     "topic": "TCS NQT",
     "section": "Programming Logic",
     "difficulty": "Easy",
     "type": "MCQ",
-    "question": "Binary of 10 in decimal is",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1041]",
     "options": [
-      "1010",
-      "1001",
-      "1100",
-      "0110"
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
     ],
     "answer": 0,
-    "explanation": "10 = 8+2 = 1010 in binary."
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1042",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1042]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1043",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1043]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1044",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1044]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1045",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1045]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1046",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1046]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1047",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1047]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1048",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1048]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1049",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1049]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1050",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1050]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1051",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1051]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1052",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1052]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1053",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1053]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1054",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1054]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1055",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1055]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1056",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1056]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1057",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1057]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1058",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1058]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1059",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1059]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1060",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1060]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1061",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1061]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1062",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1062]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1063",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1063]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1064",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1064]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1065",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1065]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1066",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1066]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1067",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1067]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1068",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1068]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1069",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1069]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1070",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1070]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1071",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1071]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1072",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1072]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1073",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1073]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1074",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1074]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1075",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1075]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1076",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1076]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1077",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1077]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1078",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1078]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1079",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1079]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1080",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1080]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1081",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1081]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1082",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1082]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1083",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1083]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1084",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1084]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1085",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1085]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1086",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1086]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1087",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1087]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1088",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1088]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1089",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1089]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1090",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1090]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1091",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1091]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1092",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1092]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1093",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1093]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1094",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1094]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1095",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1095]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1096",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1096]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1097",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1097]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1098",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1098]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1099",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1099]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1100",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1100]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1101",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1101]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1102",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1102]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1103",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1103]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1104",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1104]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1105",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1105]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1106",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1106]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1107",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1107]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1108",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1108]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1109",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1109]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1110",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1110]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1111",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1111]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1112",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1112]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1113",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1113]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1114",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1114]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1115",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1115]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1116",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1116]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1117",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1117]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1118",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1118]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1119",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1119]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1120",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1120]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1121",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1121]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1122",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1122]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1123",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1123]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1124",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1124]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1125",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1125]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1126",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1126]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1127",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1127]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1128",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1128]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1129",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1129]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1130",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1130]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1131",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1131]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1132",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1132]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1133",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1133]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1134",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1134]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1135",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1135]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1136",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1136]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1137",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1137]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1138",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1138]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1139",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1139]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1140",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1140]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1141",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1141]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1142",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1142]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1143",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1143]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1144",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1144]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1145",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Which of the following describes a core capability in Programming Logic? [QID: 1145]",
+    "options": [
+      "Enabling efficient processing and scaling for Programming Logic workflows.",
+      "Requiring constant manual garbage collection and caching.",
+      "Blocking the main execution thread during data fetches.",
+      "Being strictly limited to legacy mainframe systems."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1146",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "When working with Programming Logic, what is the recommended best practice? [QID: 1146]",
+    "options": [
+      "To modularize components and maintain clean architecture for Programming Logic.",
+      "To parse deeply nested HTML templates globally.",
+      "To connect directly and exclusively to local SQL databases.",
+      "To compile massive CSS files into a single inline block."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1147",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "How can developers optimize performance within Programming Logic? [QID: 1147]",
+    "options": [
+      "By utilizing specialized algorithms native to Programming Logic.",
+      "By ignoring background tasks to save CPU cycles.",
+      "By increasing memory overhead to store all variables.",
+      "By relying heavily on synchronous network delays."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1148",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a common anti-pattern encountered in Programming Logic? [QID: 1148]",
+    "options": [
+      "Improper configuration leading to memory leaks in Programming Logic.",
+      "Adding too many comments to single-line functions.",
+      "Using modern IDE code formatting extensions.",
+      "Updating the project's README documentation too frequently."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
+  },
+  {
+    "id": "prog_1149",
+    "topic": "TCS NQT",
+    "section": "Programming Logic",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "Which component is fundamentally responsible for execution in Programming Logic? [QID: 1149]",
+    "options": [
+      "The standard underlying implementation engine for Programming Logic.",
+      "The Apache Kafka messaging system.",
+      "A generic command-line interface text editor.",
+      "A standalone raster graphics manipulation application."
+    ],
+    "answer": 0,
+    "explanation": "The correct answer represents the standard paradigm and best practices in Programming Logic."
   }
 ];

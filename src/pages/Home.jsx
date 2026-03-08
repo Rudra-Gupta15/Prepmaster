@@ -1,12 +1,6 @@
 import { Link } from 'react-router-dom';
-import { ALL_QUESTIONS } from '../data/index.js';
+import { ALL_QUESTIONS, EXAM_CONFIGS } from '../data/index.js';
 import styles from './Home.module.css';
-
-const tcsCount = ALL_QUESTIONS.filter(q => q.topic === 'TCS NQT').length;
-const aimlCount = ALL_QUESTIONS.filter(q => q.topic === 'AI & ML').length;
-const reactCount = ALL_QUESTIONS.filter(q => q.topic === 'React Engineer').length;
-const sapCount = ALL_QUESTIONS.filter(q => q.topic === 'SAP Engineer').length;
-const devopsCount = ALL_QUESTIONS.filter(q => q.topic === 'DevOps Engineer').length;
 
 export default function Home() {
   return (
@@ -51,158 +45,41 @@ export default function Home() {
         <h2 className="section-title">Choose Your Career Track</h2>
         <div className={styles.tracks}>
 
-          {/* TCS NQT */}
-          <div className={styles.track} style={{ '--tc': '#06b6d4' }}>
-            <div className={styles.trackHead}>
-              <span className={styles.trackIcon}>🏢</span>
-              <div>
-                <h3 className={styles.trackTitle}>TCS NQT Preparation</h3>
-                <p className={styles.trackDesc}>Complete preparation for TCS National Qualifier Test</p>
-              </div>
-            </div>
-            <div className={styles.trackSections}>
-              {[
-                { icon: '📖', label: 'Verbal Ability', count: 234, color: '#06b6d4' },
-                { icon: '🧩', label: 'Reasoning Ability', count: 205, color: '#8b5cf6' },
-                { icon: '🔢', label: 'Numerical Ability', count: 167, color: '#f59e0b' },
-                { icon: '💻', label: 'Programming Logic', count: 394, color: '#10b981' },
-              ].map(s => (
-                <div key={s.label} className={styles.trackSection}>
-                  <span>{s.icon}</span>
-                  <span style={{ color: s.color, fontWeight: 700, fontSize: 13 }}>{s.label}</span>
-                  <span className={styles.trackCount}>{s.count}q</span>
-                </div>
-              ))}
-            </div>
-            <div className={styles.trackFooter}>
-              <span className={styles.trackTotal}>{tcsCount} questions</span>
-              <Link to="/tcs-nqt" className="btn btn-tcs btn btn-sm">Start →</Link>
-            </div>
-          </div>
+          {/* Dynamic Career Tracks from EXAM_CONFIGS */}
+          {Object.values(EXAM_CONFIGS).filter(c => !c.id.includes('DEMO')).map(track => {
+            const totalQs = ALL_QUESTIONS.filter(q => q.topic === track.label || q.topic === track.label.split(' Prep')[0] || (track.id === 'TCS_NQT' && q.topic === 'TCS NQT') || (track.id === 'AIML' && q.topic === 'AI & ML')).length;
 
-          {/* AI & ML */}
-          <div className={styles.track} style={{ '--tc': '#6366f1' }}>
-            <div className={styles.trackHead}>
-              <span className={styles.trackIcon}>🤖</span>
-              <div>
-                <h3 className={styles.trackTitle}>AI &amp; ML Interview Prep</h3>
-                <p className={styles.trackDesc}>Interview-ready preparation across all AI/ML topics</p>
-              </div>
-            </div>
-            <div className={styles.trackSections}>
-              {[
-                { icon: '🧠', label: 'ML Fundamentals', count: 50, color: '#6366f1' },
-                { icon: '🧬', label: 'Deep Learning', count: 250, color: '#8b5cf6' },
-                { icon: '💬', label: 'LLMs', count: 75, color: '#f59e0b' },
-                { icon: '🐍', label: 'Python', count: 75, color: '#38bdf8' },
-                { icon: '⚡', label: 'Control Flow', count: 350, color: '#c084fc' },
-                { icon: '🤖', label: 'AI Agents', count: 40, color: '#ef4444' },
-              ].map(s => (
-                <div key={s.label} className={styles.trackSection}>
-                  <span>{s.icon}</span>
-                  <span style={{ color: s.color, fontWeight: 700, fontSize: 13 }}>{s.label}</span>
-                  <span className={styles.trackCount}>{s.count}q</span>
+            return (
+              <div key={track.id} className={styles.track} style={{ '--tc': track.color }}>
+                <div className={styles.trackHead}>
+                  <span className={styles.trackIcon}>{track.icon}</span>
+                  <div>
+                    <h3 className={styles.trackTitle}>{track.label}</h3>
+                    <p className={styles.trackDesc}>{track.description}</p>
+                  </div>
                 </div>
-              ))}
-            </div>
-            <div className={styles.trackFooter}>
-              <span className={styles.trackTotal}>{aimlCount} questions</span>
-              <Link to="/aiml" className="btn btn-primary btn btn-sm">Start →</Link>
-            </div>
-          </div>
+                <div className={styles.trackSections}>
+                  {track.sections.map(s => {
+                    const sectionCount = ALL_QUESTIONS.filter(s.filter).length;
+                    return (
+                      <div key={s.label} className={styles.trackSection}>
+                        <span>{s.icon || '📚'}</span>
+                        <span style={{ color: s.color || track.color, fontWeight: 700, fontSize: 13 }}>{s.label}</span>
+                        <span className={styles.trackCount}>{sectionCount}q</span>
+                      </div>
+                    );
+                  })}
+                </div>
+                <div className={styles.trackFooter}>
+                  <span className={styles.trackTotal}>{totalQs} questions</span>
+                  <Link to={`/${track.id === 'TCS_NQT' ? 'tcs-nqt' : track.id.toLowerCase()}`} className={`btn btn-sm ${track.id === 'TCS_NQT' ? 'btn-tcs' : track.id === 'AIML' ? 'btn-primary' : ''}`} style={track.id === 'REACT' || track.id === 'SAP' || track.id === 'DEVOPS' ? { background: track.gradient, color: track.id === 'REACT' ? '#000' : '#fff', fontWeight: 700, borderRadius: 8, padding: '7px 18px', fontSize: 13 } : {}}>
+                    Start →
+                  </Link>
+                </div>
+              </div>
+            );
+          })}
 
-          {/* React Engineer */}
-          <div className={styles.track} style={{ '--tc': '#61dafb' }}>
-            <div className={styles.trackHead}>
-              <span className={styles.trackIcon}>⚛️</span>
-              <div>
-                <h3 className={styles.trackTitle}>React Engineer Interview</h3>
-                <p className={styles.trackDesc}>Hooks, state management, performance, testing &amp; more</p>
-              </div>
-            </div>
-            <div className={styles.trackSections}>
-              {[
-                { icon: '📄', label: 'JSX & Basics', count: 165, color: '#61dafb' },
-                { icon: '🪝', label: 'Hooks', count: 200, color: '#f59e0b' },
-                { icon: '🔄', label: 'State & Props', count: 200, color: '#6366f1' },
-                { icon: '🗂️', label: 'State Mgmt', count: 50, color: '#ef4444' },
-                { icon: '⚡', label: 'Performance', count: 75, color: '#c084fc' },
-                { icon: '🚀', label: 'Advanced', count: 100, color: '#8b5cf6' },
-              ].map(s => (
-                <div key={s.label} className={styles.trackSection}>
-                  <span>{s.icon}</span>
-                  <span style={{ color: s.color, fontWeight: 700, fontSize: 13 }}>{s.label}</span>
-                  <span className={styles.trackCount}>{s.count}q</span>
-                </div>
-              ))}
-            </div>
-            <div className={styles.trackFooter}>
-              <span className={styles.trackTotal}>{reactCount} questions</span>
-              <Link to="/react" className="btn btn-sm" style={{ background: 'linear-gradient(135deg,#61dafb,#6366f1)', color: '#000', fontWeight: 700, borderRadius: 8, padding: '7px 18px', fontSize: 13 }}>Start →</Link>
-            </div>
-          </div>
-
-          {/* SAP Engineer */}
-          <div className={styles.track} style={{ '--tc': '#f0a500' }}>
-            <div className={styles.trackHead}>
-              <span className={styles.trackIcon}>💼</span>
-              <div>
-                <h3 className={styles.trackTitle}>SAP Engineer Interview</h3>
-                <p className={styles.trackDesc}>ABAP, MM, SD, FI, CO, Basis, Integration &amp; more</p>
-              </div>
-            </div>
-            <div className={styles.trackSections}>
-              {[
-                { icon: '💻', label: 'ABAP', count: 75, color: '#e53e3e' },
-                { icon: '📦', label: 'SAP MM', count: 75, color: '#10b981' },
-                { icon: '🛒', label: 'SAP SD', count: 40, color: '#6366f1' },
-                { icon: '💰', label: 'SAP FI', count: 225, color: '#f59e0b' },
-                { icon: '📊', label: 'SAP CO', count: 250, color: '#38bdf8' },
-                { icon: '⚙️', label: 'SAP Basis', count: 50, color: '#8b5cf6' },
-              ].map(s => (
-                <div key={s.label} className={styles.trackSection}>
-                  <span>{s.icon}</span>
-                  <span style={{ color: s.color, fontWeight: 700, fontSize: 13 }}>{s.label}</span>
-                  <span className={styles.trackCount}>{s.count}q</span>
-                </div>
-              ))}
-            </div>
-            <div className={styles.trackFooter}>
-              <span className={styles.trackTotal}>{sapCount} questions</span>
-              <Link to="/sap" className="btn btn-sm" style={{ background: 'linear-gradient(135deg,#f0a500,#e53e3e)', color: '#fff', fontWeight: 700, borderRadius: 8, padding: '7px 18px', fontSize: 13 }}>Start →</Link>
-            </div>
-          </div>
-
-          {/* DevOps Engineer */}
-          <div className={styles.track} style={{ '--tc': '#f97316' }}>
-            <div className={styles.trackHead}>
-              <span className={styles.trackIcon}>🔧</span>
-              <div>
-                <h3 className={styles.trackTitle}>DevOps Engineer Interview</h3>
-                <p className={styles.trackDesc}>CI/CD, Docker, Kubernetes, IaC, Cloud &amp; more</p>
-              </div>
-            </div>
-            <div className={styles.trackSections}>
-              {[
-                { icon: '🐳', label: 'Docker', count: 150, color: '#38bdf8' },
-                { icon: '☸️', label: 'Kubernetes', count: 100, color: '#6366f1' },
-                { icon: '⚙️', label: 'CI/CD Tools', count: 75, color: '#8b5cf6' },
-                { icon: '📋', label: 'IaC', count: 75, color: '#14b8a6' },
-                { icon: '☁️', label: 'Cloud', count: 40, color: '#f0a500' },
-                { icon: '📡', label: 'Monitoring', count: 125, color: '#ef4444' },
-              ].map(s => (
-                <div key={s.label} className={styles.trackSection}>
-                  <span>{s.icon}</span>
-                  <span style={{ color: s.color, fontWeight: 700, fontSize: 13 }}>{s.label}</span>
-                  <span className={styles.trackCount}>{s.count}q</span>
-                </div>
-              ))}
-            </div>
-            <div className={styles.trackFooter}>
-              <span className={styles.trackTotal}>{devopsCount} questions</span>
-              <Link to="/devops" className="btn btn-sm" style={{ background: 'linear-gradient(135deg,#f97316,#6366f1)', color: '#fff', fontWeight: 700, borderRadius: 8, padding: '7px 18px', fontSize: 13 }}>Start →</Link>
-            </div>
-          </div>
 
         </div>
       </section>

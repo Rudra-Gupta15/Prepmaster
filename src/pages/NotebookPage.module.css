@@ -16,8 +16,8 @@
 }
 
 .sideTab {
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: rgba(49, 57, 60, 0.04);
+    border: 1px solid var(--border);
     padding: 16px 20px;
     border-radius: 12px;
     cursor: pointer;
@@ -31,7 +31,7 @@
 }
 
 .sideTab:hover {
-    background: rgba(255, 255, 255, 0.06);
+    background: rgba(49, 57, 60, 0.08);
     transform: translateX(4px);
 }
 
@@ -44,8 +44,8 @@
 
 .content {
     flex-grow: 1;
-    background: rgba(255, 255, 255, 0.02);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: var(--surface);
+    border: 1px solid var(--border);
     border-radius: 20px;
     padding: 30px;
     backdrop-filter: blur(10px);
@@ -68,10 +68,10 @@
 
 .tabs {
     display: flex;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(49, 57, 60, 0.05);
     padding: 4px;
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border);
 }
 
 .tabBtn {
@@ -86,9 +86,9 @@
 }
 
 .activeTab {
-    background: rgba(255, 255, 255, 0.1);
-    color: white;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    background: var(--surface);
+    color: var(--text);
+    box-shadow: 0 2px 8px rgba(49, 57, 60, 0.1);
 }
 
 .searchBox {
@@ -99,8 +99,8 @@
 
 .searchInput {
     width: 100%;
-    background: rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(49, 57, 60, 0.03);
+    border: 1px solid var(--border);
     padding: 14px 20px;
     padding-left: 48px;
     border-radius: 12px;
@@ -130,8 +130,8 @@
 }
 
 .libCard {
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: var(--bg2);
+    border: 1px solid var(--border);
     padding: 30px;
     border-radius: 20px;
     transition: all 0.2s;
@@ -314,7 +314,7 @@
 .secText {
     font-size: 15px;
     line-height: 1.6;
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--text);
 }
 
 .secList {
@@ -327,7 +327,7 @@
     font-size: 14px;
     line-height: 1.6;
     margin-bottom: 8px;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--text2);
 }
 
 .keyPoint {
@@ -342,17 +342,17 @@
 }
 
 .qaMiniItem {
-    background: rgba(0, 0, 0, 0.2);
+    background: var(--bg3);
     padding: 12px;
     border-radius: 8px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border);
 }
 
 .miniQ {
     font-weight: 700;
     font-size: 13px;
     margin-bottom: 6px;
-    color: white;
+    color: var(--text);
 }
 
 .miniA {
@@ -361,14 +361,14 @@
 }
 
 .exampleBox {
-    background: rgba(99, 102, 241, 0.05);
-    border-left: 4px solid #6366f1;
+    background: rgba(62, 150, 244, 0.05);
+    border-left: 4px solid var(--bluebolt);
     padding: 16px;
     border-radius: 4px 12px 12px 4px;
     font-size: 14px;
     line-height: 1.6;
     font-style: italic;
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--text);
 }
 
 @media (max-width: 900px) {

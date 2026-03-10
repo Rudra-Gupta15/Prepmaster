@@ -42,10 +42,10 @@
   font-size: 13px;
   color: #10b981;
   font-weight: 700;
-  background: rgba(16, 185, 129, 0.1);
+  background: rgba(5, 150, 105, 0.08);
   padding: 4px 12px;
   border-radius: 12px;
-  border: 1px solid rgba(16, 185, 129, 0.3);
+  border: 1px solid rgba(5, 150, 105, 0.2);
 }
 
 .timerBox {
@@ -232,15 +232,15 @@
 }
 
 .expOk {
-  background: rgba(16, 185, 129, 0.07);
-  border-color: #10b981;
-  color: #6ee7b7;
+  background: rgba(5, 150, 105, 0.05);
+  border-color: #059669;
+  color: #065f46;
 }
 
 .expBad {
-  background: rgba(239, 68, 68, 0.07);
-  border-color: #ef4444;
-  color: #fca5a5;
+  background: rgba(220, 38, 38, 0.05);
+  border-color: #dc2626;
+  color: #991b1b;
 }
 
 .nextBtn {
@@ -254,7 +254,7 @@
   cursor: pointer;
   transition: all 0.2s;
   font-family: var(--font-body);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 20px rgba(62, 150, 244, 0.3);
   animation: fadeUp 0.25s ease both;
 }
 

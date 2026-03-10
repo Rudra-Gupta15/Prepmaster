@@ -47,7 +47,15 @@ export default function Home() {
 
           {/* Dynamic Career Tracks from EXAM_CONFIGS */}
           {Object.values(EXAM_CONFIGS).filter(c => !c.id.includes('DEMO')).map(track => {
-            const totalQs = ALL_QUESTIONS.filter(q => q.topic === track.label || q.topic === track.label.split(' Prep')[0] || (track.id === 'TCS_NQT' && q.topic === 'TCS NQT') || (track.id === 'AIML' && q.topic === 'AI & ML')).length;
+            const topicMap = {
+              'TCS_NQT': 'TCS NQT',
+              'AIML': 'AI & ML',
+              'REACT': 'React Engineer',
+              'SAP': 'SAP Engineer',
+              'DEVOPS': 'DevOps Engineer'
+            };
+            const targetTopic = topicMap[track.id] || track.label;
+            const totalQs = ALL_QUESTIONS.filter(q => q.topic === targetTopic).length;
 
             return (
               <div key={track.id} className={styles.track} style={{ '--tc': track.color }}>

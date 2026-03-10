@@ -173,7 +173,7 @@ export default function NotebookPage() {
                                 >
                                     <p className={styles.qaQ}>
                                         <span className={styles.badge}>{q.section}</span>
-                                        {q.question}
+                                        {q.question.replace(/^\[[^\]]+\]\s*/, '')}
                                     </p>
                                     <span>{expandedQ === i ? '▲' : '▼'}</span>
                                 </div>

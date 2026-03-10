@@ -124,7 +124,7 @@ export default function ResultsPage() {
                 <div key={i} className={`${styles.reviewItem} ${ans.correct ? styles.rvOk : ans.skipped ? styles.rvSkip : styles.rvBad}`}>
                   <span className={styles.rvIcon}>{ans.correct ? '✅' : ans.skipped ? '⏰' : '❌'}</span>
                   <div className={styles.rvContent}>
-                    <p className={styles.rvQ}>{q.question.slice(0, 100)}{q.question.length > 100 ? '...' : ''}</p>
+                    <p className={styles.rvQ}>{q.question.replace(/^\[[^\]]+\]\s*/, '').slice(0, 100)}{q.question.length > 100 ? '...' : ''}</p>
                     {!ans.correct && !ans.skipped && <p className={styles.rvAnswer}>✓ {q.options[q.answer]}</p>}
                   </div>
                 </div>

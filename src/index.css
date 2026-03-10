@@ -8,42 +8,43 @@
 
 :root {
   /* Surfaces */
-  --bg: #05050e;
-  --bg2: #0a0a18;
-  --bg3: #0f0f22;
-  --surface: #13132a;
-  --surface2: #1a1a35;
-  --border: #1f1f40;
-  --border2: #2a2a55;
+  --bg: #EDEEEB;
+  --bg2: #FFFFFF;
+  --bg3: #F8F9F8;
+  --surface: #FFFFFF;
+  --surface2: #F1F3F1;
+  --border: #CCC7BF;
+  --border2: #BDB7AB;
 
   /* Text */
-  --text: #eeeef5;
-  --text2: #b0b0d0;
-  --muted: #6060a0;
-  --muted2: #8888b8;
+  --text: #31393C;
+  --text2: #4A565A;
+  --muted: #717D82;
+  --muted2: #8E9BA0;
 
   /* Brand */
-  --indigo: #6366f1;
-  --violet: #8b5cf6;
-  --pink: #ec4899;
-  --cyan: #06b6d4;
-  --green: #10b981;
-  --amber: #f59e0b;
-  --red: #ef4444;
-  --orange: #f97316;
+  --indigo: #3E96F4;
+  --bluebolt: #3E96F4;
+  --violet: #6366f1;
+  --pink: #9333ea;
+  --cyan: #0284c7;
+  --green: #059669;
+  --amber: #d97706;
+  --red: #dc2626;
+  --orange: #ea580c;
 
   /* Topic colors */
-  --tcs-verbal: #06b6d4;
-  --tcs-reasoning: #8b5cf6;
-  --tcs-numerical: #f59e0b;
-  --tcs-prog: #10b981;
-  --tcs-coding: #f97316;
-  --ml-fund: #6366f1;
-  --ml-transfer: #10b981;
-  --ml-llm: #f59e0b;
-  --ml-python: #38bdf8;
-  --ml-control: #c084fc;
-  --ml-agents: #ef4444;
+  --tcs-verbal: #0284c7;
+  --tcs-reasoning: #6366f1;
+  --tcs-numerical: #d97706;
+  --tcs-prog: #059669;
+  --tcs-coding: #ea580c;
+  --ml-fund: #3E96F4;
+  --ml-transfer: #059669;
+  --ml-llm: #d97706;
+  --ml-python: #0284c7;
+  --ml-control: #9333ea;
+  --ml-agents: #dc2626;
 
   --font-display: 'Bricolage Grotesque', sans-serif;
   --font-body: 'Plus Jakarta Sans', sans-serif;
@@ -51,7 +52,7 @@
 
   --radius: 14px;
   --radius-sm: 8px;
-  --shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+  --shadow: 0 8px 30px rgba(49, 57, 60, 0.08);
 }
 
 html {
@@ -190,8 +191,8 @@ code {
   z-index: 0;
   pointer-events: none;
   background-image:
-    linear-gradient(rgba(99, 102, 241, 0.04) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(99, 102, 241, 0.04) 1px, transparent 1px);
+    linear-gradient(rgba(49, 57, 60, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(49, 57, 60, 0.03) 1px, transparent 1px);
   background-size: 64px 64px;
 }
 
@@ -199,7 +200,7 @@ code {
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse 80% 50% at 50% 0%, rgba(99, 102, 241, 0.08) 0%, transparent 70%);
+  background: radial-gradient(ellipse, rgba(62, 150, 244, 0.08) 0%, rgba(204, 199, 191, 0.04) 50%, transparent 70%);
 }
 
 /* ── Cards ── */
@@ -242,9 +243,9 @@ code {
 }
 
 .btn-tcs {
-  background: linear-gradient(135deg, #06b6d4, #8b5cf6);
+  background: linear-gradient(135deg, #3E96F4, #6366f1);
   color: #fff;
-  box-shadow: 0 4px 20px rgba(6, 182, 212, 0.25);
+  box-shadow: 0 4px 20px rgba(62, 150, 244, 0.25);
 }
 
 .btn-tcs:hover {
@@ -252,9 +253,9 @@ code {
 }
 
 .btn-react {
-  background: linear-gradient(135deg, #61dafb, #6366f1);
-  color: #000;
-  box-shadow: 0 4px 20px rgba(97, 218, 251, 0.3);
+  background: linear-gradient(135deg, #3E96F4, #31393C);
+  color: #fff;
+  box-shadow: 0 4px 20px rgba(62, 150, 244, 0.3);
 }
 
 .btn-react:hover {
@@ -265,7 +266,8 @@ code {
 .btn-sap {
   background: linear-gradient(135deg, #f0a500, #e53e3e);
   color: #fff;
-  box-shadow: 0 4px 20px rgba(240, 165, 0, 0.3);
+  border-color: var(--tc);
+  box-shadow: 0 10px 40px rgba(49, 57, 60, 0.06);
 }
 
 .btn-sap:hover {

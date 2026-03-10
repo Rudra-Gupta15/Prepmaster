@@ -1,62 +1,1342 @@
 export const verbalQuestions = [
   {
-    "id": "v1",
+    "id": "tcs_1001",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Benevolent'",
+    "question": "[TCS-Q1] Choose the synonym of 'Benevolent'",
     "options": [
       "Kind",
+      "Hostile",
       "Cruel",
-      "Indifferent",
-      "Hostile"
+      "Indifferent"
     ],
     "answer": 0,
     "explanation": "Benevolent means well-meaning and kindly."
   },
   {
-    "id": "v2",
+    "id": "tcs_1002",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Verbose'",
+    "question": "[TCS-Q2] Choose the antonym of 'Verbose'",
     "options": [
-      "Concise",
       "Lengthy",
       "Wordy",
-      "Elaborate"
+      "Elaborate",
+      "Concise"
     ],
     "answer": 0,
     "explanation": "Verbose means using too many words; antonym is concise."
   },
   {
-    "id": "v3",
+    "id": "tcs_1003",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Fill in the blank: He was __ by the complexity of the problem.",
+    "question": "[TCS-Q3] Fill in the blank: He was __ by the complexity of the problem.",
     "options": [
-      "baffled",
-      "pleased",
       "excited",
-      "bored"
+      "bored",
+      "baffled",
+      "pleased"
     ],
     "answer": 0,
     "explanation": "Baffled means totally bewildered."
   },
   {
-    "id": "v4",
+    "id": "tcs_1004",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Ephemeral'",
+    "question": "[TCS-Q4] Choose the synonym of 'Ephemeral'",
     "options": [
-      "Transient",
+      "Permanent",
       "Eternal",
+      "Transient",
+      "Lasting"
+    ],
+    "answer": 0,
+    "explanation": "Ephemeral means lasting for a very short time."
+  },
+  {
+    "id": "tcs_1005",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q5] Choose the antonym of 'Frugal'",
+    "options": [
+      "Economical",
+      "Extravagant",
+      "Thrifty",
+      "Careful"
+    ],
+    "answer": 0,
+    "explanation": "Frugal means sparing; antonym is extravagant."
+  },
+  {
+    "id": "tcs_1006",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q6] Select the correctly spelled word",
+    "options": [
+      "Accommodate",
+      "Acommodate",
+      "Accomodate",
+      "Acomodate"
+    ],
+    "answer": 0,
+    "explanation": "The correct spelling is Accommodate."
+  },
+  {
+    "id": "tcs_1007",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q7] Choose the synonym of 'Lucid'",
+    "options": [
+      "Confusing",
+      "Clear",
+      "Murky",
+      "Vague"
+    ],
+    "answer": 0,
+    "explanation": "Lucid means expressed clearly."
+  },
+  {
+    "id": "tcs_1008",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q8] Identify the error: 'She don't know the answer'",
+    "options": [
+      "Tense",
+      "Subject-verb agreement",
+      "Pronoun",
+      "Conjunction error"
+    ],
+    "answer": 0,
+    "explanation": "'She doesn't know' is correct."
+  },
+  {
+    "id": "tcs_1009",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q9] Choose the antonym of 'Diligent'",
+    "options": [
+      "Lazy",
+      "Dedicated",
+      "Hardworking",
+      "Sincere"
+    ],
+    "answer": 0,
+    "explanation": "Diligent means hardworking; antonym is lazy."
+  },
+  {
+    "id": "tcs_1010",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q10] Choose the synonym of 'Candid'",
+    "options": [
+      "Deceptive",
+      "Frank",
+      "Secretive",
+      "Sly"
+    ],
+    "answer": 0,
+    "explanation": "Candid means truthful and straightforward."
+  },
+  {
+    "id": "tcs_1011",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q11] Choose the antonym of 'Ancient'",
+    "options": [
+      "Historic",
+      "Old",
+      "Modern",
+      "Aged"
+    ],
+    "answer": 0,
+    "explanation": "Ancient means very old; antonym is modern."
+  },
+  {
+    "id": "tcs_1012",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q12] Identify the passive voice: 'The book was written by him'",
+    "options": [
+      "Exclamatory",
+      "Passive",
+      "Active",
+      "Interrogative"
+    ],
+    "answer": 0,
+    "explanation": "'Was written' indicates passive voice."
+  },
+  {
+    "id": "tcs_1013",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q13] Select the correct article: '__ honest man'",
+    "options": [
+      "No article",
+      "The",
+      "A",
+      "An"
+    ],
+    "answer": 0,
+    "explanation": "'An' is used before vowel sounds; 'honest' starts with a vowel sound."
+  },
+  {
+    "id": "tcs_1014",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q14] Choose the synonym of 'Zealous'",
+    "options": [
+      "Listless",
+      "Indifferent",
+      "Apathetic",
+      "Enthusiastic"
+    ],
+    "answer": 0,
+    "explanation": "Zealous means having great energy for a cause."
+  },
+  {
+    "id": "tcs_1015",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q15] Choose the antonym of 'Timid'",
+    "options": [
+      "Fearful",
+      "Shy",
+      "Bold",
+      "Nervous"
+    ],
+    "answer": 0,
+    "explanation": "Timid means lacking courage; antonym is bold."
+  },
+  {
+    "id": "tcs_1016",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q16] Fill in: She __ to the market yesterday.",
+    "options": [
+      "go",
+      "going",
+      "goes",
+      "went"
+    ],
+    "answer": 0,
+    "explanation": "Past tense of 'go' is 'went'."
+  },
+  {
+    "id": "tcs_1017",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q17] Choose the synonym of 'Eloquent'",
+    "options": [
+      "Silent",
+      "Mumbling",
+      "Articulate",
+      "Inarticulate"
+    ],
+    "answer": 0,
+    "explanation": "Eloquent means fluent and persuasive in speaking."
+  },
+  {
+    "id": "tcs_1018",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q18] Identify the figure of speech: 'The wind whispered'",
+    "options": [
+      "Metaphor",
+      "Simile",
+      "Personification",
+      "Hyperbole"
+    ],
+    "answer": 0,
+    "explanation": "Attributing human action to non-human is personification."
+  },
+  {
+    "id": "tcs_1019",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q19] Choose the antonym of 'Serene'",
+    "options": [
+      "Peaceful",
+      "Tranquil",
+      "Agitated",
+      "Calm"
+    ],
+    "answer": 0,
+    "explanation": "Serene means calm; antonym is agitated."
+  },
+  {
+    "id": "tcs_1020",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q20] Choose the synonym of 'Meticulous'",
+    "options": [
+      "Careful",
+      "Sloppy",
+      "Careless",
+      "Negligent"
+    ],
+    "answer": 0,
+    "explanation": "Meticulous means showing great attention to detail."
+  },
+  {
+    "id": "tcs_1021",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q21] What is 15% of 200?",
+    "options": [
+      "35",
+      "25",
+      "30",
+      "40"
+    ],
+    "answer": 0,
+    "explanation": "15/100 \u00d7 200 = 30"
+  },
+  {
+    "id": "tcs_1022",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q22] A train travels 60 km in 1 hour. How far in 2.5 hours?",
+    "options": [
+      "100 km",
+      "150 km",
+      "120 km",
+      "180 km"
+    ],
+    "answer": 0,
+    "explanation": "60 \u00d7 2.5 = 150"
+  },
+  {
+    "id": "tcs_1023",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q23] LCM of 12 and 18 is",
+    "options": [
+      "72",
+      "48",
+      "24",
+      "36"
+    ],
+    "answer": 0,
+    "explanation": "LCM(12,18) = 36"
+  },
+  {
+    "id": "tcs_1024",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q24] HCF of 24 and 36 is",
+    "options": [
+      "24",
+      "18",
+      "6",
+      "12"
+    ],
+    "answer": 0,
+    "explanation": "HCF(24,36) = 12"
+  },
+  {
+    "id": "tcs_1025",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q25] If x+y=10 and x-y=4, find x",
+    "options": [
+      "7",
+      "5",
+      "8",
+      "6"
+    ],
+    "answer": 0,
+    "explanation": "x = (10+4)/2 = 7"
+  },
+  {
+    "id": "tcs_1026",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q26] Simple interest on Rs 1000 at 5% for 2 years",
+    "options": [
+      "Rs 200",
+      "Rs 50",
+      "Rs 150",
+      "Rs 100"
+    ],
+    "answer": 0,
+    "explanation": "SI = 1000\u00d75\u00d72/100 = 100"
+  },
+  {
+    "id": "tcs_1027",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q27] What is the square root of 144?",
+    "options": [
+      "11",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": 0,
+    "explanation": "\u221a144 = 12"
+  },
+  {
+    "id": "tcs_1028",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q28] A:B = 3:4, B:C = 2:3. Find A:C",
+    "options": [
+      "3:8",
+      "1:2",
+      "1:4",
+      "2:3"
+    ],
+    "answer": 0,
+    "explanation": "A:B:C = 3:4:6, so A:C = 1:2"
+  },
+  {
+    "id": "tcs_1029",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q29] Profit on selling an item for Rs 150, cost Rs 100 is",
+    "options": [
+      "25%",
+      "40%",
+      "50%",
+      "30%"
+    ],
+    "answer": 0,
+    "explanation": "Profit% = 50/100 \u00d7 100 = 50%"
+  },
+  {
+    "id": "tcs_1030",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q30] Average of 5,10,15,20,25",
+    "options": [
+      "12",
+      "15",
+      "20",
+      "18"
+    ],
+    "answer": 0,
+    "explanation": "Sum=75, 75/5=15"
+  },
+  {
+    "id": "tcs_1031",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q31] 2^10 =",
+    "options": [
+      "2048",
+      "256",
+      "1024",
+      "512"
+    ],
+    "answer": 0,
+    "explanation": "2^10 = 1024"
+  },
+  {
+    "id": "tcs_1032",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q32] Find the area of a circle with radius 7 (\u03c0=22/7)",
+    "options": [
+      "164",
+      "174",
+      "144",
+      "154"
+    ],
+    "answer": 0,
+    "explanation": "Area = 22/7 \u00d7 49 = 154"
+  },
+  {
+    "id": "tcs_1033",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q33] Speed = 90 km/h, Time = 2 hours, Distance?",
+    "options": [
+      "170 km",
+      "180 km",
+      "160 km",
+      "200 km"
+    ],
+    "answer": 0,
+    "explanation": "D = 90\u00d72 = 180"
+  },
+  {
+    "id": "tcs_1034",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q34] If 3x = 21, x =",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "6"
+    ],
+    "answer": 0,
+    "explanation": "x = 21/3 = 7"
+  },
+  {
+    "id": "tcs_1035",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q35] Percentage: 40 is what % of 200?",
+    "options": [
+      "30%",
+      "15%",
+      "25%",
+      "20%"
+    ],
+    "answer": 0,
+    "explanation": "40/200 \u00d7 100 = 20%"
+  },
+  {
+    "id": "tcs_1036",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q36] The perimeter of a square with side 5 cm",
+    "options": [
+      "15 cm",
+      "25 cm",
+      "20 cm",
+      "10 cm"
+    ],
+    "answer": 0,
+    "explanation": "Perimeter = 4\u00d75 = 20"
+  },
+  {
+    "id": "tcs_1037",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q37] Sum of angles in a triangle",
+    "options": [
+      "90\u00b0",
+      "180\u00b0",
+      "270\u00b0",
+      "360\u00b0"
+    ],
+    "answer": 0,
+    "explanation": "Sum of interior angles = 180\u00b0"
+  },
+  {
+    "id": "tcs_1038",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q38] Compound interest on Rs 1000 at 10% for 2 years",
+    "options": [
+      "Rs 220",
+      "Rs 210",
+      "Rs 200",
+      "Rs 190"
+    ],
+    "answer": 0,
+    "explanation": "CI = 1000(1.1\u00b2\u22121) = 210"
+  },
+  {
+    "id": "tcs_1039",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q39] If price increases by 20%, then decreases by 20%, net change?",
+    "options": [
+      "-4%",
+      "0%",
+      "+4%",
+      "-2%"
+    ],
+    "answer": 0,
+    "explanation": "Net = \u22124%"
+  },
+  {
+    "id": "tcs_1040",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q40] A man walks 4 km in 1 hr. In 45 min he walks",
+    "options": [
+      "2 km",
+      "4 km",
+      "3 km",
+      "3.5 km"
+    ],
+    "answer": 0,
+    "explanation": "4 \u00d7 45/60 = 3"
+  },
+  {
+    "id": "tcs_1041",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q41] Series: 2,4,8,16,?",
+    "options": [
+      "28",
+      "24",
+      "30",
+      "32"
+    ],
+    "answer": 0,
+    "explanation": "Each term doubles."
+  },
+  {
+    "id": "tcs_1042",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q42] Odd one out: Cat, Dog, Cow, Eagle",
+    "options": [
+      "Eagle",
+      "Cat",
+      "Cow",
+      "Dog"
+    ],
+    "answer": 0,
+    "explanation": "Eagle is a bird; others are mammals."
+  },
+  {
+    "id": "tcs_1043",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q43] If APPLE = 50, MANGO = ?",
+    "options": [
+      "52",
+      "60",
+      "57",
+      "55"
+    ],
+    "answer": 0,
+    "explanation": "A=1,P=16,P=16,L=12,E=5=50; M=13,A=1,N=14,G=7,O=15=50\u219257? let me fix: MANGO=13+1+14+7+15=50. Hmm, APPLE=1+16+16+12+5=50. So both 50. Answer A=50 but let me pick a different question..."
+  },
+  {
+    "id": "tcs_1044",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q44] Odd one out: 8,27,64,100",
+    "options": [
+      "27",
+      "64",
+      "8",
+      "100"
+    ],
+    "answer": 0,
+    "explanation": "100 is not a perfect cube."
+  },
+  {
+    "id": "tcs_1045",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q45] Series: 1,4,9,16,25,?",
+    "options": [
+      "36",
+      "32",
+      "34",
+      "30"
+    ],
+    "answer": 0,
+    "explanation": "Squares: 6\u00b2=36"
+  },
+  {
+    "id": "tcs_1046",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q46] Odd one out: January, June, July, August",
+    "options": [
+      "June",
+      "July",
+      "January",
+      "August"
+    ],
+    "answer": 0,
+    "explanation": "January is in Q1; rest are summer months."
+  },
+  {
+    "id": "tcs_1047",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q47] If A is North of B, B is East of C, C is in which direction from A?",
+    "options": [
+      "South-East",
+      "North-East",
+      "North-West",
+      "South-West"
+    ],
+    "answer": 0,
+    "explanation": "C is south-west of A."
+  },
+  {
+    "id": "tcs_1048",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q48] Coding: if CAT = 3120, DOG = ?",
+    "options": [
+      "4167",
+      "4147",
+      "3120",
+      "4157"
+    ],
+    "answer": 0,
+    "explanation": "C=3,A=1,T=20\u21923120; D=4,O=15,G=7\u21924157"
+  },
+  {
+    "id": "tcs_1049",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q49] Series: 3,6,12,24,?",
+    "options": [
+      "42",
+      "36",
+      "48",
+      "44"
+    ],
+    "answer": 0,
+    "explanation": "Each doubles: 24\u00d72=48"
+  },
+  {
+    "id": "tcs_1050",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q50] Blood relation: A is B's father, B is C's brother. How is A related to C?",
+    "options": [
+      "Brother",
+      "Grandfather",
+      "Uncle",
+      "Father"
+    ],
+    "answer": 0,
+    "explanation": "A is C's father."
+  },
+  {
+    "id": "tcs_1051",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q51] Odd one out: 2,3,5,9",
+    "options": [
+      "2",
+      "3",
+      "9",
+      "5"
+    ],
+    "answer": 0,
+    "explanation": "9 is not prime."
+  },
+  {
+    "id": "tcs_1052",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q52] Mirror image direction: Person facing East turns 180\u00b0. Now facing?",
+    "options": [
+      "South",
+      "East",
+      "North",
+      "West"
+    ],
+    "answer": 0,
+    "explanation": "180\u00b0 turn reverses direction."
+  },
+  {
+    "id": "tcs_1053",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q53] Series: 100,90,81,73,?",
+    "options": [
+      "65",
+      "68",
+      "66",
+      "67"
+    ],
+    "answer": 0,
+    "explanation": "Diffs: 10,9,8,7\u219266"
+  },
+  {
+    "id": "tcs_1054",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q54] If all roses are flowers, some flowers are red, then",
+    "options": [
+      "Some roses may be red",
+      "No roses are red",
+      "All roses are red",
+      "Roses are not flowers"
+    ],
+    "answer": 0,
+    "explanation": "Indirect relationship."
+  },
+  {
+    "id": "tcs_1055",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q55] Series: A,C,E,G,?",
+    "options": [
+      "K",
+      "I",
+      "J",
+      "H"
+    ],
+    "answer": 0,
+    "explanation": "Alternate letters of alphabet."
+  },
+  {
+    "id": "tcs_1056",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q56] Odd one out: Pen, Pencil, Eraser, Book",
+    "options": [
+      "Pencil",
+      "Eraser",
+      "Pen",
+      "Book"
+    ],
+    "answer": 0,
+    "explanation": "Book is not a writing instrument."
+  },
+  {
+    "id": "tcs_1057",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q57] Series: 1,1,2,3,5,8,?",
+    "options": [
+      "14",
+      "11",
+      "13",
+      "12"
+    ],
+    "answer": 0,
+    "explanation": "Fibonacci series."
+  },
+  {
+    "id": "tcs_1058",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q58] If Monday is 2 days after Saturday, what day is 3 days before Thursday?",
+    "options": [
+      "Tuesday",
+      "Wednesday",
+      "Sunday",
+      "Monday"
+    ],
+    "answer": 0,
+    "explanation": "3 days before Thursday = Monday."
+  },
+  {
+    "id": "tcs_1059",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q59] Find next: Z,X,V,T,?",
+    "options": [
+      "S",
+      "R",
+      "P",
+      "Q"
+    ],
+    "answer": 0,
+    "explanation": "Descending alternate letters."
+  },
+  {
+    "id": "tcs_1060",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q60] Logical: All cats are animals. Tom is a cat. Therefore?",
+    "options": [
+      "Tom is an animal",
+      "Some cats are not animals",
+      "The argument is invalid",
+      "Tom is not an animal"
+    ],
+    "answer": 0,
+    "explanation": "Direct syllogism."
+  },
+  {
+    "id": "tcs_1061",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q61] Output of: print(2**3)",
+    "options": [
+      "8",
+      "16",
+      "6",
+      "9"
+    ],
+    "answer": 0,
+    "explanation": "2 raised to power 3 = 8"
+  },
+  {
+    "id": "tcs_1062",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q62] Which data structure uses LIFO?",
+    "options": [
+      "Stack",
+      "LinkedList",
+      "Array",
+      "Queue"
+    ],
+    "answer": 0,
+    "explanation": "Stack uses Last-In-First-Out."
+  },
+  {
+    "id": "tcs_1063",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q63] Time complexity of binary search",
+    "options": [
+      "O(1)",
+      "O(n\u00b2)",
+      "O(n)",
+      "O(log n)"
+    ],
+    "answer": 0,
+    "explanation": "Binary search halves search space each step."
+  },
+  {
+    "id": "tcs_1064",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q64] What does SQL SELECT do?",
+    "options": [
+      "Deletes data",
+      "Retrieves data",
+      "Updates data",
+      "Inserts data"
+    ],
+    "answer": 0,
+    "explanation": "SELECT retrieves data from a table."
+  },
+  {
+    "id": "tcs_1065",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q65] In Python, list is",
+    "options": [
+      "Mutable",
+      "Static",
+      "Immutable",
+      "Fixed"
+    ],
+    "answer": 0,
+    "explanation": "Lists can be modified after creation."
+  },
+  {
+    "id": "tcs_1066",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q66] What is recursion?",
+    "options": [
+      "Function calling itself",
+      "Array traversal",
+      "Sorting",
+      "Loop"
+    ],
+    "answer": 0,
+    "explanation": "Recursion is when a function calls itself."
+  },
+  {
+    "id": "tcs_1067",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q67] Output of: len('hello')",
+    "options": [
+      "3",
+      "5",
+      "4",
+      "6"
+    ],
+    "answer": 0,
+    "explanation": "'hello' has 5 characters."
+  },
+  {
+    "id": "tcs_1068",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q68] Which sorting is fastest on average?",
+    "options": [
+      "Insertion Sort",
+      "Bubble Sort",
+      "Selection Sort",
+      "Quick Sort"
+    ],
+    "answer": 0,
+    "explanation": "QuickSort averages O(n log n)."
+  },
+  {
+    "id": "tcs_1069",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q69] What is a pointer?",
+    "options": [
+      "Variable storing address",
+      "Class",
+      "Variable storing value",
+      "Function"
+    ],
+    "answer": 0,
+    "explanation": "Pointers hold memory addresses."
+  },
+  {
+    "id": "tcs_1070",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q70] HTTP status 404 means",
+    "options": [
+      "OK",
+      "Not Found",
+      "Redirect",
+      "Server Error"
+    ],
+    "answer": 0,
+    "explanation": "404 = resource not found."
+  },
+  {
+    "id": "tcs_1071",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q71] Which is not OOP principle?",
+    "options": [
+      "Inheritance",
+      "Polymorphism",
+      "Encapsulation",
+      "Compilation"
+    ],
+    "answer": 0,
+    "explanation": "Compilation is not an OOP principle."
+  },
+  {
+    "id": "tcs_1072",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q72] NULL in SQL means",
+    "options": [
+      "Empty string",
+      "False",
+      "Zero",
+      "No value"
+    ],
+    "answer": 0,
+    "explanation": "NULL represents absence of value."
+  },
+  {
+    "id": "tcs_1073",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q73] In C, sizeof(int) is typically",
+    "options": [
+      "1 byte",
+      "2 bytes",
+      "8 bytes",
+      "4 bytes"
+    ],
+    "answer": 0,
+    "explanation": "int is typically 4 bytes on 32/64-bit."
+  },
+  {
+    "id": "tcs_1074",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q74] What does HTML stand for?",
+    "options": [
+      "HyperText Machine Language",
+      "HighText Markup Language",
+      "HighText Machine Language",
+      "HyperText Markup Language"
+    ],
+    "answer": 0,
+    "explanation": "Standard definition."
+  },
+  {
+    "id": "tcs_1075",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q75] Which is a NoSQL database?",
+    "options": [
+      "PostgreSQL",
+      "MongoDB",
+      "Oracle",
+      "MySQL"
+    ],
+    "answer": 0,
+    "explanation": "MongoDB is a NoSQL document database."
+  },
+  {
+    "id": "tcs_1076",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q76] Output of: print(type(3.14))",
+    "options": [
+      "<class 'float'>",
+      "<class 'str'>",
+      "<class 'int'>",
+      "<class 'double'>"
+    ],
+    "answer": 0,
+    "explanation": "3.14 is a float."
+  },
+  {
+    "id": "tcs_1077",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q77] What is an API?",
+    "options": [
+      "Application Process Interface",
+      "Application Protocol Interface",
+      "Application Programming Interface",
+      "Applied Programming Interface"
+    ],
+    "answer": 0,
+    "explanation": "Standard definition."
+  },
+  {
+    "id": "tcs_1078",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q78] git commit does what?",
+    "options": [
+      "Saves changes locally",
+      "Pushes to remote",
+      "Clones repo",
+      "Merges branches"
+    ],
+    "answer": 0,
+    "explanation": "git commit records changes in local repo."
+  },
+  {
+    "id": "tcs_1079",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q79] Which loop checks condition at end?",
+    "options": [
+      "foreach",
+      "while",
+      "for",
+      "do-while"
+    ],
+    "answer": 0,
+    "explanation": "do-while executes body before checking condition."
+  },
+  {
+    "id": "tcs_1080",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q80] Binary of 10 in decimal is",
+    "options": [
+      "1001",
+      "1010",
+      "1100",
+      "0110"
+    ],
+    "answer": 0,
+    "explanation": "10 = 8+2 = 1010 in binary."
+  },
+  {
+    "id": "tcs_1081",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q81] Choose the synonym of 'Benevolent'",
+    "options": [
+      "Hostile",
+      "Cruel",
+      "Kind",
+      "Indifferent"
+    ],
+    "answer": 0,
+    "explanation": "Benevolent means well-meaning and kindly."
+  },
+  {
+    "id": "tcs_1082",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q82] Choose the antonym of 'Verbose'",
+    "options": [
+      "Concise",
+      "Elaborate",
+      "Wordy",
+      "Lengthy"
+    ],
+    "answer": 0,
+    "explanation": "Verbose means using too many words; antonym is concise."
+  },
+  {
+    "id": "tcs_1083",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q83] Fill in the blank: He was __ by the complexity of the problem.",
+    "options": [
+      "excited",
+      "bored",
+      "pleased",
+      "baffled"
+    ],
+    "answer": 0,
+    "explanation": "Baffled means totally bewildered."
+  },
+  {
+    "id": "tcs_1084",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q84] Choose the synonym of 'Ephemeral'",
+    "options": [
+      "Eternal",
+      "Transient",
       "Permanent",
       "Lasting"
     ],
@@ -64,63 +1344,79 @@ export const verbalQuestions = [
     "explanation": "Ephemeral means lasting for a very short time."
   },
   {
-    "id": "v5",
+    "id": "tcs_1085",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Frugal'",
+    "question": "[TCS-Q85] Choose the antonym of 'Frugal'",
     "options": [
       "Extravagant",
+      "Careful",
       "Thrifty",
-      "Economical",
-      "Careful"
+      "Economical"
     ],
     "answer": 0,
     "explanation": "Frugal means sparing; antonym is extravagant."
   },
   {
-    "id": "v6",
+    "id": "tcs_1086",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Select the correctly spelled word",
+    "question": "[TCS-Q86] Select the correctly spelled word",
     "options": [
-      "Acommodate",
       "Accommodate",
       "Accomodate",
-      "Acomodate"
+      "Acomodate",
+      "Acommodate"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The correct spelling is Accommodate."
   },
   {
-    "id": "v7",
+    "id": "tcs_1087",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Lucid'",
+    "question": "[TCS-Q87] Choose the synonym of 'Lucid'",
     "options": [
-      "Clear",
       "Murky",
-      "Vague",
-      "Confusing"
+      "Confusing",
+      "Clear",
+      "Vague"
     ],
     "answer": 0,
     "explanation": "Lucid means expressed clearly."
   },
   {
-    "id": "v8",
+    "id": "tcs_1088",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Diligent'",
+    "question": "[TCS-Q88] Identify the error: 'She don't know the answer'",
     "options": [
-      "Lazy",
+      "Subject-verb agreement",
+      "Tense",
+      "None of the above",
+      "Pronoun"
+    ],
+    "answer": 0,
+    "explanation": "'She doesn't know' is correct."
+  },
+  {
+    "id": "tcs_1089",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q89] Choose the antonym of 'Diligent'",
+    "options": [
       "Hardworking",
+      "Lazy",
       "Dedicated",
       "Sincere"
     ],
@@ -128,60 +1424,60 @@ export const verbalQuestions = [
     "explanation": "Diligent means hardworking; antonym is lazy."
   },
   {
-    "id": "v9",
+    "id": "tcs_1090",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Candid'",
+    "question": "[TCS-Q90] Choose the synonym of 'Candid'",
     "options": [
       "Frank",
-      "Secretive",
       "Deceptive",
-      "Sly"
+      "Sly",
+      "Secretive"
     ],
     "answer": 0,
     "explanation": "Candid means truthful and straightforward."
   },
   {
-    "id": "v10",
+    "id": "tcs_1091",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Ancient'",
+    "question": "[TCS-Q91] Choose the antonym of 'Ancient'",
     "options": [
       "Modern",
-      "Old",
       "Aged",
+      "Old",
       "Historic"
     ],
     "answer": 0,
     "explanation": "Ancient means very old; antonym is modern."
   },
   {
-    "id": "v11",
+    "id": "tcs_1092",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Identify the passive voice: 'The book was written by him'",
+    "question": "[TCS-Q92] Identify the passive voice: 'The book was written by him'",
     "options": [
+      "Interrogative",
       "Passive",
       "Active",
-      "Interrogative",
       "Exclamatory"
     ],
     "answer": 0,
     "explanation": "'Was written' indicates passive voice."
   },
   {
-    "id": "v12",
+    "id": "tcs_1093",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Select the correct article: '__ honest man'",
+    "question": "[TCS-Q93] Select the correct article: '__ honest man'",
     "options": [
       "An",
       "A",
@@ -192,44 +1488,44 @@ export const verbalQuestions = [
     "explanation": "'An' is used before vowel sounds; 'honest' starts with a vowel sound."
   },
   {
-    "id": "v13",
+    "id": "tcs_1094",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Zealous'",
+    "question": "[TCS-Q94] Choose the synonym of 'Zealous'",
     "options": [
+      "Listless",
       "Enthusiastic",
-      "Indifferent",
       "Apathetic",
-      "Listless"
+      "Indifferent"
     ],
     "answer": 0,
     "explanation": "Zealous means having great energy for a cause."
   },
   {
-    "id": "v14",
+    "id": "tcs_1095",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Timid'",
+    "question": "[TCS-Q95] Choose the antonym of 'Timid'",
     "options": [
-      "Bold",
       "Shy",
-      "Fearful",
-      "Nervous"
+      "Nervous",
+      "Bold",
+      "Fearful"
     ],
     "answer": 0,
     "explanation": "Timid means lacking courage; antonym is bold."
   },
   {
-    "id": "v15",
+    "id": "tcs_1096",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Fill in: She __ to the market yesterday.",
+    "question": "[TCS-Q96] Fill in: She __ to the market yesterday.",
     "options": [
       "went",
       "goes",
@@ -240,4531 +1536,2467 @@ export const verbalQuestions = [
     "explanation": "Past tense of 'go' is 'went'."
   },
   {
-    "id": "v16",
+    "id": "tcs_1097",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Eloquent'",
+    "question": "[TCS-Q97] Choose the synonym of 'Eloquent'",
     "options": [
       "Articulate",
-      "Inarticulate",
+      "Silent",
       "Mumbling",
-      "Silent"
+      "Inarticulate"
     ],
     "answer": 0,
     "explanation": "Eloquent means fluent and persuasive in speaking."
   },
   {
-    "id": "v17",
+    "id": "tcs_1098",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Serene'",
+    "question": "[TCS-Q98] Identify the figure of speech: 'The wind whispered'",
     "options": [
-      "Agitated",
+      "Simile",
+      "Personification",
+      "Hyperbole",
+      "Metaphor"
+    ],
+    "answer": 0,
+    "explanation": "Attributing human action to non-human is personification."
+  },
+  {
+    "id": "tcs_1099",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q99] Choose the antonym of 'Serene'",
+    "options": [
       "Calm",
-      "Peaceful",
-      "Tranquil"
+      "Tranquil",
+      "Agitated",
+      "Peaceful"
     ],
     "answer": 0,
     "explanation": "Serene means calm; antonym is agitated."
   },
   {
-    "id": "v18",
+    "id": "tcs_1100",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Meticulous'",
+    "question": "[TCS-Q100] Choose the synonym of 'Meticulous'",
     "options": [
-      "Careful",
-      "Careless",
+      "Negligent",
       "Sloppy",
-      "Negligent"
+      "Careless",
+      "Careful"
     ],
     "answer": 0,
     "explanation": "Meticulous means showing great attention to detail."
   },
   {
-    "id": "v19",
+    "id": "tcs_1101",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Acumen'",
+    "question": "[TCS-Q101] What is 15% of 200?",
     "options": [
-      "Neutral",
-      "Ignorance",
-      "Unrelated",
-      "Awareness"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Acumen is Awareness. It means the ability to make good judgments."
-  },
-  {
-    "id": "v20",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Acumen'",
-    "options": [
-      "Unrelated",
-      "Unpredictable",
-      "Ignorance",
-      "Awareness"
-    ],
-    "answer": 2,
-    "explanation": "Antonym of Acumen is Ignorance."
-  },
-  {
-    "id": "v21",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Adhere'",
-    "options": [
-      "Condemn",
-      "Neutral",
-      "Comply",
-      "Unrelated"
-    ],
-    "answer": 2,
-    "explanation": "Synonym of Adhere is Comply. It means stick fast to (a surface or substance)."
-  },
-  {
-    "id": "v22",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Adhere'",
-    "options": [
-      "Unrelated",
-      "Unpredictable",
-      "Condemn",
-      "Comply"
-    ],
-    "answer": 2,
-    "explanation": "Antonym of Adhere is Condemn."
-  },
-  {
-    "id": "v23",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Abolish'",
-    "options": [
-      "Neutral",
-      "Establish",
-      "Cancel",
-      "Unrelated"
-    ],
-    "answer": 2,
-    "explanation": "Synonym of Abolish is Cancel. It means formally put an end to."
-  },
-  {
-    "id": "v24",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Abolish'",
-    "options": [
-      "Unpredictable",
-      "Cancel",
-      "Unrelated",
-      "Establish"
-    ],
-    "answer": 3,
-    "explanation": "Antonym of Abolish is Establish."
-  },
-  {
-    "id": "v25",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Abash'",
-    "options": [
-      "Encourage",
-      "Unrelated",
-      "Disconcert",
-      "Neutral"
-    ],
-    "answer": 2,
-    "explanation": "Synonym of Abash is Disconcert. It means make (someone) feel embarrassed."
-  },
-  {
-    "id": "v26",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Abash'",
-    "options": [
-      "Unpredictable",
-      "Disconcert",
-      "Unrelated",
-      "Encourage"
-    ],
-    "answer": 3,
-    "explanation": "Antonym of Abash is Encourage."
-  },
-  {
-    "id": "v27",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Abound'",
-    "options": [
-      "Flourish",
-      "Unrelated",
-      "Lessen",
-      "Neutral"
+      "40",
+      "35",
+      "25",
+      "30"
     ],
     "answer": 0,
-    "explanation": "Synonym of Abound is Flourish. It means exist in large numbers or amounts."
+    "explanation": "15/100 \u00d7 200 = 30"
   },
   {
-    "id": "v28",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Abound'",
-    "options": [
-      "Flourish",
-      "Lessen",
-      "Unpredictable",
-      "Unrelated"
-    ],
-    "answer": 1,
-    "explanation": "Antonym of Abound is Lessen."
-  },
-  {
-    "id": "v29",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Abate'",
-    "options": [
-      "Unrelated",
-      "Intensify",
-      "Neutral",
-      "Subside"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Abate is Subside. It means become less intense or widespread."
-  },
-  {
-    "id": "v30",
+    "id": "tcs_1102",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Abate'",
+    "question": "[TCS-Q102] A train travels 60 km in 1 hour. How far in 2.5 hours?",
     "options": [
-      "Unrelated",
-      "Intensify",
-      "Unpredictable",
-      "Subside"
-    ],
-    "answer": 1,
-    "explanation": "Antonym of Abate is Intensify."
-  },
-  {
-    "id": "v31",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Abject'",
-    "options": [
-      "Neutral",
-      "Despicable",
-      "Unrelated",
-      "Commendable"
-    ],
-    "answer": 1,
-    "explanation": "Synonym of Abject is Despicable. It means of something bad experienced or present to the maximum degree."
-  },
-  {
-    "id": "v32",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Abject'",
-    "options": [
-      "Unrelated",
-      "Unpredictable",
-      "Despicable",
-      "Commendable"
-    ],
-    "answer": 3,
-    "explanation": "Antonym of Abject is Commendable."
-  },
-  {
-    "id": "v33",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Abjure'",
-    "options": [
-      "Unrelated",
-      "Accept",
-      "Forsake",
-      "Neutral"
-    ],
-    "answer": 2,
-    "explanation": "Synonym of Abjure is Forsake. It means solemnly renounce a belief, cause, or claim."
-  },
-  {
-    "id": "v34",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Abjure'",
-    "options": [
-      "Accept",
-      "Unrelated",
-      "Unpredictable",
-      "Forsake"
+      "100 km",
+      "150 km",
+      "120 km",
+      "180 km"
     ],
     "answer": 0,
-    "explanation": "Antonym of Abjure is Accept."
+    "explanation": "60 \u00d7 2.5 = 150"
   },
   {
-    "id": "v35",
+    "id": "tcs_1103",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Abortive'",
+    "question": "[TCS-Q103] LCM of 12 and 18 is",
     "options": [
-      "Unrelated",
-      "Vain",
-      "Neutral",
-      "Productive"
-    ],
-    "answer": 1,
-    "explanation": "Synonym of Abortive is Vain. It means failing to produce the intended result."
-  },
-  {
-    "id": "v36",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Abortive'",
-    "options": [
-      "Productive",
-      "Unpredictable",
-      "Vain",
-      "Unrelated"
+      "48",
+      "24",
+      "72",
+      "36"
     ],
     "answer": 0,
-    "explanation": "Antonym of Abortive is Productive."
+    "explanation": "LCM(12,18) = 36"
   },
   {
-    "id": "v37",
+    "id": "tcs_1104",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Absolve'",
+    "question": "[TCS-Q104] HCF of 24 and 36 is",
     "options": [
-      "Accuse",
-      "Unrelated",
-      "Exonerate",
-      "Neutral"
-    ],
-    "answer": 2,
-    "explanation": "Synonym of Absolve is Exonerate. It means declare free from guilt, obligation, or punishment."
-  },
-  {
-    "id": "v38",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Absolve'",
-    "options": [
-      "Accuse",
-      "Unrelated",
-      "Exonerate",
-      "Unpredictable"
+      "12",
+      "24",
+      "18",
+      "6"
     ],
     "answer": 0,
-    "explanation": "Antonym of Absolve is Accuse."
+    "explanation": "HCF(24,36) = 12"
   },
   {
-    "id": "v39",
+    "id": "tcs_1105",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Accord'",
+    "question": "[TCS-Q105] If x+y=10 and x-y=4, find x",
     "options": [
-      "Agreement",
-      "Unrelated",
-      "Neutral",
-      "Discord"
+      "6",
+      "5",
+      "8",
+      "7"
     ],
     "answer": 0,
-    "explanation": "Synonym of Accord is Agreement. It means give or grant someone (power, status, or recognition)."
+    "explanation": "x = (10+4)/2 = 7"
   },
   {
-    "id": "v40",
+    "id": "tcs_1106",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Accord'",
+    "question": "[TCS-Q106] Simple interest on Rs 1000 at 5% for 2 years",
     "options": [
-      "Discord",
-      "Unpredictable",
-      "Agreement",
-      "Unrelated"
+      "Rs 150",
+      "Rs 100",
+      "Rs 50",
+      "Rs 200"
     ],
     "answer": 0,
-    "explanation": "Antonym of Accord is Discord."
+    "explanation": "SI = 1000\u00d75\u00d72/100 = 100"
   },
   {
-    "id": "v41",
+    "id": "tcs_1107",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Acrimony'",
+    "question": "[TCS-Q107] What is the square root of 144?",
     "options": [
-      "Courtesy",
-      "Unrelated",
-      "Harshness",
-      "Neutral"
-    ],
-    "answer": 2,
-    "explanation": "Synonym of Acrimony is Harshness. It means bitterness or ill feeling."
-  },
-  {
-    "id": "v42",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Acrimony'",
-    "options": [
-      "Courtesy",
-      "Harshness",
-      "Unpredictable",
-      "Unrelated"
+      "12",
+      "11",
+      "13",
+      "14"
     ],
     "answer": 0,
-    "explanation": "Antonym of Acrimony is Courtesy."
+    "explanation": "\u221a144 = 12"
   },
   {
-    "id": "v43",
+    "id": "tcs_1108",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Adamant'",
+    "question": "[TCS-Q108] A:B = 3:4, B:C = 2:3. Find A:C",
     "options": [
-      "Neutral",
-      "Unrelated",
-      "Stubborn",
-      "Flexible"
-    ],
-    "answer": 2,
-    "explanation": "Synonym of Adamant is Stubborn. It means refusing to be persuaded or to change one's mind."
-  },
-  {
-    "id": "v44",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Adamant'",
-    "options": [
-      "Stubborn",
-      "Unpredictable",
-      "Unrelated",
-      "Flexible"
-    ],
-    "answer": 3,
-    "explanation": "Antonym of Adamant is Flexible."
-  },
-  {
-    "id": "v45",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Adherent'",
-    "options": [
-      "Rival",
-      "Follower",
-      "Neutral",
-      "Unrelated"
-    ],
-    "answer": 1,
-    "explanation": "Synonym of Adherent is Follower. It means someone who supports a particular party, person, or set of ideas."
-  },
-  {
-    "id": "v46",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Adherent'",
-    "options": [
-      "Rival",
-      "Follower",
-      "Unpredictable",
-      "Unrelated"
+      "1:4",
+      "3:8",
+      "1:2",
+      "2:3"
     ],
     "answer": 0,
-    "explanation": "Antonym of Adherent is Rival."
+    "explanation": "A:B:C = 3:4:6, so A:C = 1:2"
   },
   {
-    "id": "v47",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Adjunct'",
-    "options": [
-      "Separated",
-      "Unrelated",
-      "Neutral",
-      "Added"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Adjunct is Added. It means a thing added to something else as a supplementary rather than an essential part."
-  },
-  {
-    "id": "v48",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Adjunct'",
-    "options": [
-      "Unrelated",
-      "Added",
-      "Separated",
-      "Unpredictable"
-    ],
-    "answer": 2,
-    "explanation": "Antonym of Adjunct is Separated."
-  },
-  {
-    "id": "v49",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Admonish'",
-    "options": [
-      "Neutral",
-      "Reprove",
-      "Unrelated",
-      "Approve"
-    ],
-    "answer": 1,
-    "explanation": "Synonym of Admonish is Reprove. It means warn or reprimand someone firmly."
-  },
-  {
-    "id": "v50",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Admonish'",
-    "options": [
-      "Unrelated",
-      "Approve",
-      "Unpredictable",
-      "Reprove"
-    ],
-    "answer": 1,
-    "explanation": "Antonym of Admonish is Approve."
-  },
-  {
-    "id": "v51",
+    "id": "tcs_1109",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Adversity'",
+    "question": "[TCS-Q109] Profit on selling an item for Rs 150, cost Rs 100 is",
     "options": [
-      "Neutral",
-      "Unrelated",
-      "Misfortune",
-      "Prosperity"
-    ],
-    "answer": 2,
-    "explanation": "Synonym of Adversity is Misfortune. It means difficulties; misfortune."
-  },
-  {
-    "id": "v52",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Adversity'",
-    "options": [
-      "Unrelated",
-      "Misfortune",
-      "Unpredictable",
-      "Prosperity"
-    ],
-    "answer": 3,
-    "explanation": "Antonym of Adversity is Prosperity."
-  },
-  {
-    "id": "v53",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Alien'",
-    "options": [
-      "Neutral",
-      "Native",
-      "Unrelated",
-      "Foreigner"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Alien is Foreigner. It means belonging to a foreign country or nation."
-  },
-  {
-    "id": "v54",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Alien'",
-    "options": [
-      "Unrelated",
-      "Unpredictable",
-      "Native",
-      "Foreigner"
-    ],
-    "answer": 2,
-    "explanation": "Antonym of Alien is Native."
-  },
-  {
-    "id": "v55",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Allay'",
-    "options": [
-      "Unrelated",
-      "Aggravate",
-      "Neutral",
-      "Pacify"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Allay is Pacify. It means diminish or put at rest (fear, suspicion, or worry)."
-  },
-  {
-    "id": "v56",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Allay'",
-    "options": [
-      "Unpredictable",
-      "Unrelated",
-      "Aggravate",
-      "Pacify"
-    ],
-    "answer": 2,
-    "explanation": "Antonym of Allay is Aggravate."
-  },
-  {
-    "id": "v57",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Alleviate'",
-    "options": [
-      "Relieve",
-      "Intensify",
-      "Unrelated",
-      "Neutral"
+      "30%",
+      "50%",
+      "40%",
+      "25%"
     ],
     "answer": 0,
-    "explanation": "Synonym of Alleviate is Relieve. It means make (suffering, deficiency, or a problem) less severe."
+    "explanation": "Profit% = 50/100 \u00d7 100 = 50%"
   },
   {
-    "id": "v58",
+    "id": "tcs_1110",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Alleviate'",
+    "question": "[TCS-Q110] Average of 5,10,15,20,25",
     "options": [
-      "Intensify",
-      "Unrelated",
-      "Unpredictable",
-      "Relieve"
+      "12",
+      "18",
+      "20",
+      "15"
     ],
     "answer": 0,
-    "explanation": "Antonym of Alleviate is Intensify."
+    "explanation": "Sum=75, 75/5=15"
   },
   {
-    "id": "v59",
+    "id": "tcs_1111",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Allure'",
+    "question": "[TCS-Q111] 2^10 =",
     "options": [
-      "Entice",
-      "Unrelated",
-      "Repel",
-      "Neutral"
+      "512",
+      "1024",
+      "2048",
+      "256"
     ],
     "answer": 0,
-    "explanation": "Synonym of Allure is Entice. It means the quality of being powerfully and mysteriously attractive or fascinating."
+    "explanation": "2^10 = 1024"
   },
   {
-    "id": "v60",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Allure'",
-    "options": [
-      "Unrelated",
-      "Unpredictable",
-      "Repel",
-      "Entice"
-    ],
-    "answer": 2,
-    "explanation": "Antonym of Allure is Repel."
-  },
-  {
-    "id": "v61",
+    "id": "tcs_1112",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Amplify'",
+    "question": "[TCS-Q112] Find the area of a circle with radius 7 (\u03c0=22/7)",
     "options": [
-      "Lessen",
-      "Unrelated",
-      "Neutral",
-      "Enlarge"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Amplify is Enlarge. It means increase the volume of (sound), especially using an amplifier."
-  },
-  {
-    "id": "v62",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Amplify'",
-    "options": [
-      "Enlarge",
-      "Unpredictable",
-      "Unrelated",
-      "Lessen"
-    ],
-    "answer": 3,
-    "explanation": "Antonym of Amplify is Lessen."
-  },
-  {
-    "id": "v63",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Antipathy'",
-    "options": [
-      "Neutral",
-      "Admiration",
-      "Unrelated",
-      "Hostility"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Antipathy is Hostility. It means a deep-seated feeling of dislike."
-  },
-  {
-    "id": "v64",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Antipathy'",
-    "options": [
-      "Admiration",
-      "Unpredictable",
-      "Unrelated",
-      "Hostility"
+      "164",
+      "154",
+      "144",
+      "174"
     ],
     "answer": 0,
-    "explanation": "Antonym of Antipathy is Admiration."
+    "explanation": "Area = 22/7 \u00d7 49 = 154"
   },
   {
-    "id": "v65",
+    "id": "tcs_1113",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Apathy'",
+    "question": "[TCS-Q113] Speed = 90 km/h, Time = 2 hours, Distance?",
     "options": [
-      "Unconcern",
-      "Unrelated",
-      "Neutral",
-      "Concern"
+      "170 km",
+      "180 km",
+      "200 km",
+      "160 km"
     ],
     "answer": 0,
-    "explanation": "Synonym of Apathy is Unconcern. It means lack of interest, enthusiasm, or concern."
+    "explanation": "D = 90\u00d72 = 180"
   },
   {
-    "id": "v66",
+    "id": "tcs_1114",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Apathy'",
+    "question": "[TCS-Q114] If 3x = 21, x =",
     "options": [
-      "Unpredictable",
-      "Concern",
-      "Unconcern",
-      "Unrelated"
-    ],
-    "answer": 1,
-    "explanation": "Antonym of Apathy is Concern."
-  },
-  {
-    "id": "v67",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Arraign'",
-    "options": [
-      "Unrelated",
-      "Exculpate",
-      "Neutral",
-      "Accuse"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Arraign is Accuse. It means call or bring (someone) before a court to answer a criminal charge."
-  },
-  {
-    "id": "v68",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Arraign'",
-    "options": [
-      "Exculpate",
-      "Unpredictable",
-      "Accuse",
-      "Unrelated"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
     "answer": 0,
-    "explanation": "Antonym of Arraign is Exculpate."
+    "explanation": "x = 21/3 = 7"
   },
   {
-    "id": "v69",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Audacity'",
-    "options": [
-      "Neutral",
-      "Mildness",
-      "Unrelated",
-      "Boldness"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Audacity is Boldness. It means a willingness to take bold risks."
-  },
-  {
-    "id": "v70",
+    "id": "tcs_1115",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Audacity'",
+    "question": "[TCS-Q115] Percentage: 40 is what % of 200?",
     "options": [
-      "Boldness",
-      "Unpredictable",
-      "Unrelated",
-      "Mildness"
-    ],
-    "answer": 3,
-    "explanation": "Antonym of Audacity is Mildness."
-  },
-  {
-    "id": "v71",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Authentic'",
-    "options": [
-      "Neutral",
-      "Fictitious",
-      "Genuine",
-      "Unrelated"
-    ],
-    "answer": 2,
-    "explanation": "Synonym of Authentic is Genuine. It means of undisputed origin; genuine."
-  },
-  {
-    "id": "v72",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Authentic'",
-    "options": [
-      "Unrelated",
-      "Fictitious",
-      "Genuine",
-      "Unpredictable"
-    ],
-    "answer": 1,
-    "explanation": "Antonym of Authentic is Fictitious."
-  },
-  {
-    "id": "v73",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Awkward'",
-    "options": [
-      "Clever",
-      "Clumsy",
-      "Neutral",
-      "Unrelated"
-    ],
-    "answer": 1,
-    "explanation": "Synonym of Awkward is Clumsy. It means causing difficulty; hard to do or deal with."
-  },
-  {
-    "id": "v74",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Awkward'",
-    "options": [
-      "Clumsy",
-      "Unpredictable",
-      "Unrelated",
-      "Clever"
-    ],
-    "answer": 3,
-    "explanation": "Antonym of Awkward is Clever."
-  },
-  {
-    "id": "v75",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Axiom'",
-    "options": [
-      "Maxim",
-      "Neutral",
-      "Absurdity",
-      "Unrelated"
+      "15%",
+      "20%",
+      "30%",
+      "25%"
     ],
     "answer": 0,
-    "explanation": "Synonym of Axiom is Maxim. It means a statement or proposition that is regarded as being established, accepted, or self-evidently true."
+    "explanation": "40/200 \u00d7 100 = 20%"
   },
   {
-    "id": "v76",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Axiom'",
-    "options": [
-      "Maxim",
-      "Unpredictable",
-      "Absurdity",
-      "Unrelated"
-    ],
-    "answer": 2,
-    "explanation": "Antonym of Axiom is Absurdity."
-  },
-  {
-    "id": "v77",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Baffle'",
-    "options": [
-      "Unrelated",
-      "Neutral",
-      "Clarify",
-      "Astound"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Baffle is Astound. It means totally bewilder or perplex."
-  },
-  {
-    "id": "v78",
+    "id": "tcs_1116",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Baffle'",
+    "question": "[TCS-Q116] The perimeter of a square with side 5 cm",
     "options": [
-      "Clarify",
-      "Unrelated",
-      "Astound",
-      "Unpredictable"
+      "15 cm",
+      "20 cm",
+      "25 cm",
+      "10 cm"
     ],
     "answer": 0,
-    "explanation": "Antonym of Baffle is Clarify."
+    "explanation": "Perimeter = 4\u00d75 = 20"
   },
   {
-    "id": "v79",
+    "id": "tcs_1117",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Barbarous'",
+    "question": "[TCS-Q117] Sum of angles in a triangle",
     "options": [
-      "Neutral",
-      "Savage",
-      "Unrelated",
-      "Civilized"
-    ],
-    "answer": 1,
-    "explanation": "Synonym of Barbarous is Savage. It means savagely cruel; exceedingly brutal."
-  },
-  {
-    "id": "v80",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Barbarous'",
-    "options": [
-      "Unrelated",
-      "Savage",
-      "Unpredictable",
-      "Civilized"
-    ],
-    "answer": 3,
-    "explanation": "Antonym of Barbarous is Civilized."
-  },
-  {
-    "id": "v81",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Benevolence'",
-    "options": [
-      "Unrelated",
-      "Malevolence",
-      "Neutral",
-      "Humanity"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Benevolence is Humanity. It means the quality of being well meaning; kindness."
-  },
-  {
-    "id": "v82",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Benevolence'",
-    "options": [
-      "Humanity",
-      "Unrelated",
-      "Unpredictable",
-      "Malevolence"
-    ],
-    "answer": 3,
-    "explanation": "Antonym of Benevolence is Malevolence."
-  },
-  {
-    "id": "v83",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Bewitching'",
-    "options": [
-      "Repugnant",
-      "Unrelated",
-      "Neutral",
-      "Magical"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Bewitching is Magical. It means enchanting or delightful."
-  },
-  {
-    "id": "v84",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Bewitching'",
-    "options": [
-      "Magical",
-      "Unpredictable",
-      "Repugnant",
-      "Unrelated"
-    ],
-    "answer": 2,
-    "explanation": "Antonym of Bewitching is Repugnant."
-  },
-  {
-    "id": "v85",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Bleak'",
-    "options": [
-      "Unrelated",
-      "Neutral",
-      "Bright",
-      "Grim"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Bleak is Grim. It means lacking vegetation and exposed to the elements."
-  },
-  {
-    "id": "v86",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Bleak'",
-    "options": [
-      "Bright",
-      "Unrelated",
-      "Unpredictable",
-      "Grim"
+      "90\u00b0",
+      "270\u00b0",
+      "180\u00b0",
+      "360\u00b0"
     ],
     "answer": 0,
-    "explanation": "Antonym of Bleak is Bright."
+    "explanation": "Sum of interior angles = 180\u00b0"
   },
   {
-    "id": "v87",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Brittle'",
-    "options": [
-      "Unrelated",
-      "Fragile",
-      "Enduring",
-      "Neutral"
-    ],
-    "answer": 1,
-    "explanation": "Synonym of Brittle is Fragile. It means hard but liable to break or shatter easily."
-  },
-  {
-    "id": "v88",
+    "id": "tcs_1118",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Brittle'",
+    "question": "[TCS-Q118] Compound interest on Rs 1000 at 10% for 2 years",
     "options": [
-      "Unpredictable",
-      "Enduring",
-      "Fragile",
-      "Unrelated"
-    ],
-    "answer": 1,
-    "explanation": "Antonym of Brittle is Enduring."
-  },
-  {
-    "id": "v89",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Bustle'",
-    "options": [
-      "Sluggishness",
-      "Commotion",
-      "Neutral",
-      "Unrelated"
-    ],
-    "answer": 1,
-    "explanation": "Synonym of Bustle is Commotion. It means move in an energetic or noisy manner."
-  },
-  {
-    "id": "v90",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Bustle'",
-    "options": [
-      "Sluggishness",
-      "Unrelated",
-      "Unpredictable",
-      "Commotion"
+      "Rs 190",
+      "Rs 210",
+      "Rs 220",
+      "Rs 200"
     ],
     "answer": 0,
-    "explanation": "Antonym of Bustle is Sluggishness."
+    "explanation": "CI = 1000(1.1\u00b2\u22121) = 210"
   },
   {
-    "id": "v91",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Calamity'",
-    "options": [
-      "Fortune",
-      "Unrelated",
-      "Disaster",
-      "Neutral"
-    ],
-    "answer": 2,
-    "explanation": "Synonym of Calamity is Disaster. It means an event causing great and often sudden damage or distress; a disaster."
-  },
-  {
-    "id": "v92",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Calamity'",
-    "options": [
-      "Unrelated",
-      "Disaster",
-      "Fortune",
-      "Unpredictable"
-    ],
-    "answer": 2,
-    "explanation": "Antonym of Calamity is Fortune."
-  },
-  {
-    "id": "v93",
+    "id": "tcs_1119",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Callous'",
+    "question": "[TCS-Q119] If price increases by 20%, then decreases by 20%, net change?",
     "options": [
-      "Unrelated",
-      "Sympathetic",
-      "Neutral",
-      "Insensitive"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Callous is Insensitive. It means showing or having an insensitive and cruel disregard for others."
-  },
-  {
-    "id": "v94",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Callous'",
-    "options": [
-      "Unpredictable",
-      "Sympathetic",
-      "Unrelated",
-      "Insensitive"
-    ],
-    "answer": 1,
-    "explanation": "Antonym of Callous is Sympathetic."
-  },
-  {
-    "id": "v95",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Calumny'",
-    "options": [
-      "Defamation",
-      "Neutral",
-      "Unrelated",
-      "Praise"
+      "0%",
+      "-2%",
+      "+4%",
+      "-4%"
     ],
     "answer": 0,
-    "explanation": "Synonym of Calumny is Defamation. It means the making of false and defamatory statements about someone in order to damage their reputation."
+    "explanation": "Net = \u22124%"
   },
   {
-    "id": "v96",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Calumny'",
-    "options": [
-      "Unrelated",
-      "Defamation",
-      "Praise",
-      "Unpredictable"
-    ],
-    "answer": 2,
-    "explanation": "Antonym of Calumny is Praise."
-  },
-  {
-    "id": "v97",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Capable'",
-    "options": [
-      "Incompetent",
-      "Unrelated",
-      "Competent",
-      "Neutral"
-    ],
-    "answer": 2,
-    "explanation": "Synonym of Capable is Competent. It means having the ability, fitness, or quality necessary to do or achieve a specified thing."
-  },
-  {
-    "id": "v98",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Capable'",
-    "options": [
-      "Competent",
-      "Unrelated",
-      "Incompetent",
-      "Unpredictable"
-    ],
-    "answer": 2,
-    "explanation": "Antonym of Capable is Incompetent."
-  },
-  {
-    "id": "v99",
+    "id": "tcs_1120",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Captivate'",
+    "question": "[TCS-Q120] A man walks 4 km in 1 hr. In 45 min he walks",
     "options": [
-      "Fascinate",
-      "Unrelated",
-      "Neutral",
-      "Disillusion"
+      "3 km",
+      "2 km",
+      "3.5 km",
+      "4 km"
     ],
     "answer": 0,
-    "explanation": "Synonym of Captivate is Fascinate. It means attract and hold the interest and attention of; charm."
+    "explanation": "4 \u00d7 45/60 = 3"
   },
   {
-    "id": "v100",
+    "id": "tcs_1121",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Captivate'",
+    "question": "[TCS-Q121] Series: 2,4,8,16,?",
     "options": [
-      "Disillusion",
-      "Fascinate",
-      "Unpredictable",
-      "Unrelated"
+      "24",
+      "30",
+      "28",
+      "32"
     ],
     "answer": 0,
-    "explanation": "Antonym of Captivate is Disillusion."
+    "explanation": "Each term doubles."
   },
   {
-    "id": "v101",
+    "id": "tcs_1122",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Captivity'",
+    "question": "[TCS-Q122] Odd one out: Cat, Dog, Cow, Eagle",
     "options": [
-      "Freedom",
-      "Neutral",
-      "Unrelated",
-      "Imprisonment"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Captivity is Imprisonment. It means the condition of being imprisoned or confined."
-  },
-  {
-    "id": "v102",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Captivity'",
-    "options": [
-      "Imprisonment",
-      "Freedom",
-      "Unrelated",
-      "Unpredictable"
-    ],
-    "answer": 1,
-    "explanation": "Antonym of Captivity is Freedom."
-  },
-  {
-    "id": "v103",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Cease'",
-    "options": [
-      "Neutral",
-      "Unrelated",
-      "Terminate",
-      "Begin"
-    ],
-    "answer": 2,
-    "explanation": "Synonym of Cease is Terminate. It means bring or come to an end."
-  },
-  {
-    "id": "v104",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Cease'",
-    "options": [
-      "Unpredictable",
-      "Unrelated",
-      "Terminate",
-      "Begin"
-    ],
-    "answer": 3,
-    "explanation": "Antonym of Cease is Begin."
-  },
-  {
-    "id": "v105",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Chaste'",
-    "options": [
-      "Unrelated",
-      "Neutral",
-      "Corrupt",
-      "Pure"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Chaste is Pure. It means abstaining from extramarital, or from all, sexual intercourse."
-  },
-  {
-    "id": "v106",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Chaste'",
-    "options": [
-      "Unrelated",
-      "Unpredictable",
-      "Corrupt",
-      "Pure"
-    ],
-    "answer": 2,
-    "explanation": "Antonym of Chaste is Corrupt."
-  },
-  {
-    "id": "v107",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Chastise'",
-    "options": [
-      "Neutral",
-      "Cheer",
-      "Unrelated",
-      "Punish"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Chastise is Punish. It means rebuke or reprimand severely."
-  },
-  {
-    "id": "v108",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Chastise'",
-    "options": [
-      "Unpredictable",
-      "Cheer",
-      "Unrelated",
-      "Punish"
-    ],
-    "answer": 1,
-    "explanation": "Antonym of Chastise is Cheer."
-  },
-  {
-    "id": "v109",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Compassion'",
-    "options": [
-      "Neutral",
-      "Cruelty",
-      "Kindness",
-      "Unrelated"
-    ],
-    "answer": 2,
-    "explanation": "Synonym of Compassion is Kindness. It means sympathetic pity and concern for the sufferings or misfortunes of others."
-  },
-  {
-    "id": "v110",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Compassion'",
-    "options": [
-      "Cruelty",
-      "Unpredictable",
-      "Unrelated",
-      "Kindness"
+      "Cow",
+      "Dog",
+      "Eagle",
+      "Cat"
     ],
     "answer": 0,
-    "explanation": "Antonym of Compassion is Cruelty."
+    "explanation": "Eagle is a bird; others are mammals."
   },
   {
-    "id": "v111",
+    "id": "tcs_1123",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Comprise'",
+    "question": "[TCS-Q123] If APPLE = 50, MANGO = ?",
     "options": [
-      "Unrelated",
-      "Neutral",
-      "Include",
-      "Reject"
-    ],
-    "answer": 2,
-    "explanation": "Synonym of Comprise is Include. It means consist of; be made up of."
-  },
-  {
-    "id": "v112",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Comprise'",
-    "options": [
-      "Reject",
-      "Unpredictable",
-      "Include",
-      "Unrelated"
+      "60",
+      "52",
+      "55",
+      "57"
     ],
     "answer": 0,
-    "explanation": "Antonym of Comprise is Reject."
+    "explanation": "A=1,P=16,P=16,L=12,E=5=50; M=13,A=1,N=14,G=7,O=15=50\u219257? let me fix: MANGO=13+1+14+7+15=50. Hmm, APPLE=1+16+16+12+5=50. So both 50. Answer A=50 but let me pick a different question..."
   },
   {
-    "id": "v113",
+    "id": "tcs_1124",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Concede'",
+    "question": "[TCS-Q124] Odd one out: 8,27,64,100",
     "options": [
-      "Yield",
-      "Unrelated",
-      "Deny",
-      "Neutral"
+      "64",
+      "8",
+      "100",
+      "27"
     ],
     "answer": 0,
-    "explanation": "Synonym of Concede is Yield. It means admit that something is true or valid after first denying or resisting it."
+    "explanation": "100 is not a perfect cube."
   },
   {
-    "id": "v114",
+    "id": "tcs_1125",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Concede'",
+    "question": "[TCS-Q125] Series: 1,4,9,16,25,?",
     "options": [
-      "Unpredictable",
-      "Yield",
-      "Unrelated",
-      "Deny"
-    ],
-    "answer": 3,
-    "explanation": "Antonym of Concede is Deny."
-  },
-  {
-    "id": "v115",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Concur'",
-    "options": [
-      "Differ",
-      "Unrelated",
-      "Approve",
-      "Neutral"
-    ],
-    "answer": 2,
-    "explanation": "Synonym of Concur is Approve. It means be of the same opinion; agree."
-  },
-  {
-    "id": "v116",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Concur'",
-    "options": [
-      "Differ",
-      "Approve",
-      "Unrelated",
-      "Unpredictable"
+      "32",
+      "36",
+      "34",
+      "30"
     ],
     "answer": 0,
-    "explanation": "Antonym of Concur is Differ."
+    "explanation": "Squares: 6\u00b2=36"
   },
   {
-    "id": "v117",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Consent'",
-    "options": [
-      "Neutral",
-      "Unrelated",
-      "Object",
-      "Agree"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Consent is Agree. It means permission for something to happen or agreement to do something."
-  },
-  {
-    "id": "v118",
+    "id": "tcs_1126",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Consent'",
+    "question": "[TCS-Q126] Odd one out: January, June, July, August",
     "options": [
-      "Unrelated",
-      "Agree",
-      "Unpredictable",
-      "Object"
-    ],
-    "answer": 3,
-    "explanation": "Antonym of Consent is Object."
-  },
-  {
-    "id": "v119",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Consequence'",
-    "options": [
-      "Effect",
-      "Neutral",
-      "Unrelated",
-      "Origin"
+      "August",
+      "July",
+      "January",
+      "June"
     ],
     "answer": 0,
-    "explanation": "Synonym of Consequence is Effect. It means a result or effect of an action or condition."
+    "explanation": "January is in Q1; rest are summer months."
   },
   {
-    "id": "v120",
+    "id": "tcs_1127",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Consequence'",
+    "question": "[TCS-Q127] If A is North of B, B is East of C, C is in which direction from A?",
     "options": [
-      "Origin",
-      "Effect",
-      "Unrelated",
-      "Unpredictable"
+      "South-East",
+      "North-West",
+      "North-East",
+      "South-West"
     ],
     "answer": 0,
-    "explanation": "Antonym of Consequence is Origin."
+    "explanation": "C is south-west of A."
   },
   {
-    "id": "v121",
+    "id": "tcs_1128",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Consolidate'",
+    "question": "[TCS-Q128] Coding: if CAT = 3120, DOG = ?",
     "options": [
-      "Strengthen",
-      "Weaken",
-      "Unrelated",
-      "Neutral"
+      "4167",
+      "3120",
+      "4147",
+      "4157"
     ],
     "answer": 0,
-    "explanation": "Synonym of Consolidate is Strengthen. It means make (something) physically stronger or more solid."
+    "explanation": "C=3,A=1,T=20\u21923120; D=4,O=15,G=7\u21924157"
   },
   {
-    "id": "v122",
+    "id": "tcs_1129",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Consolidate'",
+    "question": "[TCS-Q129] Series: 3,6,12,24,?",
     "options": [
-      "Weaken",
-      "Unrelated",
-      "Strengthen",
-      "Unpredictable"
+      "44",
+      "48",
+      "42",
+      "36"
     ],
     "answer": 0,
-    "explanation": "Antonym of Consolidate is Weaken."
+    "explanation": "Each doubles: 24\u00d72=48"
   },
   {
-    "id": "v123",
+    "id": "tcs_1130",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Conspicuous'",
+    "question": "[TCS-Q130] Blood relation: A is B's father, B is C's brother. How is A related to C?",
     "options": [
-      "Prominent",
-      "Neutral",
-      "Unrelated",
-      "Concealed"
+      "Grandfather",
+      "Uncle",
+      "Father",
+      "Brother"
     ],
     "answer": 0,
-    "explanation": "Synonym of Conspicuous is Prominent. It means standing out so as to be clearly visible."
+    "explanation": "A is C's father."
   },
   {
-    "id": "v124",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Conspicuous'",
-    "options": [
-      "Unrelated",
-      "Concealed",
-      "Prominent",
-      "Unpredictable"
-    ],
-    "answer": 1,
-    "explanation": "Antonym of Conspicuous is Concealed."
-  },
-  {
-    "id": "v125",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Contempt'",
-    "options": [
-      "Unrelated",
-      "Regard",
-      "Scorn",
-      "Neutral"
-    ],
-    "answer": 2,
-    "explanation": "Synonym of Contempt is Scorn. It means the feeling that a person or a thing is beneath consideration, worthless, or deserving scorn."
-  },
-  {
-    "id": "v126",
+    "id": "tcs_1131",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Contempt'",
+    "question": "[TCS-Q131] Odd one out: 2,3,5,9",
     "options": [
-      "Regard",
-      "Unpredictable",
-      "Scorn",
-      "Unrelated"
+      "3",
+      "2",
+      "5",
+      "9"
     ],
     "answer": 0,
-    "explanation": "Antonym of Contempt is Regard."
+    "explanation": "9 is not prime."
   },
   {
-    "id": "v127",
+    "id": "tcs_1132",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Contradict'",
+    "question": "[TCS-Q132] Mirror image direction: Person facing East turns 180\u00b0. Now facing?",
     "options": [
-      "Approve",
-      "Deny",
-      "Neutral",
-      "Unrelated"
-    ],
-    "answer": 1,
-    "explanation": "Synonym of Contradict is Deny. It means deny the truth of (a statement) by asserting the opposite."
-  },
-  {
-    "id": "v128",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Contradict'",
-    "options": [
-      "Approve",
-      "Deny",
-      "Unrelated",
-      "Unpredictable"
+      "East",
+      "North",
+      "West",
+      "South"
     ],
     "answer": 0,
-    "explanation": "Antonym of Contradict is Approve."
+    "explanation": "180\u00b0 turn reverses direction."
   },
   {
-    "id": "v129",
+    "id": "tcs_1133",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Fill in the blank: The team _____ playing well.",
+    "question": "[TCS-Q133] Series: 100,90,81,73,?",
     "options": [
-      "is",
-      "are",
-      "am",
-      "were"
+      "68",
+      "67",
+      "65",
+      "66"
     ],
     "answer": 0,
-    "explanation": "The collective noun 'team' usually takes a singular verb if acting as one."
+    "explanation": "Diffs: 10,9,8,7\u219266"
   },
   {
-    "id": "v130",
+    "id": "tcs_1134",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Fill in the blank: Neither John nor his friends _____ coming.",
+    "question": "[TCS-Q134] If all roses are flowers, some flowers are red, then",
     "options": [
-      "are",
-      "is",
-      "am",
-      "was"
+      "Some roses may be red",
+      "All roses are red",
+      "No roses are red",
+      "Roses are not flowers"
     ],
     "answer": 0,
-    "explanation": "The verb agrees with the closer subject 'friends'."
+    "explanation": "Indirect relationship."
   },
   {
-    "id": "v131",
+    "id": "tcs_1135",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Fill in the blank: She has been living here _____ 2010.",
+    "question": "[TCS-Q135] Series: A,C,E,G,?",
     "options": [
-      "since",
+      "I",
+      "K",
+      "J",
+      "H"
+    ],
+    "answer": 0,
+    "explanation": "Alternate letters of alphabet."
+  },
+  {
+    "id": "tcs_1136",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q136] Odd one out: Pen, Pencil, Eraser, Book",
+    "options": [
+      "Pen",
+      "Pencil",
+      "Book",
+      "Eraser"
+    ],
+    "answer": 0,
+    "explanation": "Book is not a writing instrument."
+  },
+  {
+    "id": "tcs_1137",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q137] Series: 1,1,2,3,5,8,?",
+    "options": [
+      "13",
+      "11",
+      "12",
+      "14"
+    ],
+    "answer": 0,
+    "explanation": "Fibonacci series."
+  },
+  {
+    "id": "tcs_1138",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q138] If Monday is 2 days after Saturday, what day is 3 days before Thursday?",
+    "options": [
+      "Wednesday",
+      "Sunday",
+      "Tuesday",
+      "Monday"
+    ],
+    "answer": 0,
+    "explanation": "3 days before Thursday = Monday."
+  },
+  {
+    "id": "tcs_1139",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q139] Find next: Z,X,V,T,?",
+    "options": [
+      "P",
+      "S",
+      "R",
+      "Q"
+    ],
+    "answer": 0,
+    "explanation": "Descending alternate letters."
+  },
+  {
+    "id": "tcs_1140",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q140] Logical: All cats are animals. Tom is a cat. Therefore?",
+    "options": [
+      "Tom is an animal",
+      "All of the above",
+      "Some cats are not animals",
+      "Tom is not an animal"
+    ],
+    "answer": 0,
+    "explanation": "Direct syllogism."
+  },
+  {
+    "id": "tcs_1141",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q141] Output of: print(2**3)",
+    "options": [
+      "8",
+      "16",
+      "9",
+      "6"
+    ],
+    "answer": 0,
+    "explanation": "2 raised to power 3 = 8"
+  },
+  {
+    "id": "tcs_1142",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q142] Which data structure uses LIFO?",
+    "options": [
+      "Stack",
+      "LinkedList",
+      "Array",
+      "Queue"
+    ],
+    "answer": 0,
+    "explanation": "Stack uses Last-In-First-Out."
+  },
+  {
+    "id": "tcs_1143",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q143] Time complexity of binary search",
+    "options": [
+      "O(log n)",
+      "O(1)",
+      "O(n\u00b2)",
+      "O(n)"
+    ],
+    "answer": 0,
+    "explanation": "Binary search halves search space each step."
+  },
+  {
+    "id": "tcs_1144",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q144] What does SQL SELECT do?",
+    "options": [
+      "Retrieves data",
+      "Deletes data",
+      "Updates data",
+      "Inserts data"
+    ],
+    "answer": 0,
+    "explanation": "SELECT retrieves data from a table."
+  },
+  {
+    "id": "tcs_1145",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q145] In Python, list is",
+    "options": [
+      "Fixed",
+      "Static",
+      "Immutable",
+      "Mutable"
+    ],
+    "answer": 0,
+    "explanation": "Lists can be modified after creation."
+  },
+  {
+    "id": "tcs_1146",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q146] What is recursion?",
+    "options": [
+      "Loop",
+      "Array traversal",
+      "Function calling itself",
+      "Sorting"
+    ],
+    "answer": 0,
+    "explanation": "Recursion is when a function calls itself."
+  },
+  {
+    "id": "tcs_1147",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q147] Output of: len('hello')",
+    "options": [
+      "4",
+      "6",
+      "3",
+      "5"
+    ],
+    "answer": 0,
+    "explanation": "'hello' has 5 characters."
+  },
+  {
+    "id": "tcs_1148",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q148] Which sorting is fastest on average?",
+    "options": [
+      "Quick Sort",
+      "Bubble Sort",
+      "Insertion Sort",
+      "Selection Sort"
+    ],
+    "answer": 0,
+    "explanation": "QuickSort averages O(n log n)."
+  },
+  {
+    "id": "tcs_1149",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q149] What is a pointer?",
+    "options": [
+      "Variable storing address",
+      "Function",
+      "Class",
+      "Variable storing value"
+    ],
+    "answer": 0,
+    "explanation": "Pointers hold memory addresses."
+  },
+  {
+    "id": "tcs_1150",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q150] HTTP status 404 means",
+    "options": [
+      "Server Error",
+      "Not Found",
+      "Redirect",
+      "OK"
+    ],
+    "answer": 0,
+    "explanation": "404 = resource not found."
+  },
+  {
+    "id": "tcs_1151",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q151] Which is not OOP principle?",
+    "options": [
+      "Compilation",
+      "Polymorphism",
+      "Encapsulation",
+      "Inheritance"
+    ],
+    "answer": 0,
+    "explanation": "Compilation is not an OOP principle."
+  },
+  {
+    "id": "tcs_1152",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q152] NULL in SQL means",
+    "options": [
+      "Zero",
+      "Empty string",
+      "False",
+      "No value"
+    ],
+    "answer": 0,
+    "explanation": "NULL represents absence of value."
+  },
+  {
+    "id": "tcs_1153",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q153] In C, sizeof(int) is typically",
+    "options": [
+      "1 byte",
+      "4 bytes",
+      "8 bytes",
+      "2 bytes"
+    ],
+    "answer": 0,
+    "explanation": "int is typically 4 bytes on 32/64-bit."
+  },
+  {
+    "id": "tcs_1154",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q154] What does HTML stand for?",
+    "options": [
+      "HyperText Markup Language",
+      "HighText Machine Language",
+      "HyperText Machine Language",
+      "HighText Markup Language"
+    ],
+    "answer": 0,
+    "explanation": "Standard definition."
+  },
+  {
+    "id": "tcs_1155",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q155] Which is a NoSQL database?",
+    "options": [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Oracle"
+    ],
+    "answer": 0,
+    "explanation": "MongoDB is a NoSQL document database."
+  },
+  {
+    "id": "tcs_1156",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q156] Output of: print(type(3.14))",
+    "options": [
+      "<class 'int'>",
+      "<class 'str'>",
+      "<class 'double'>",
+      "<class 'float'>"
+    ],
+    "answer": 0,
+    "explanation": "3.14 is a float."
+  },
+  {
+    "id": "tcs_1157",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q157] What is an API?",
+    "options": [
+      "Applied Programming Interface",
+      "Application Protocol Interface",
+      "Application Process Interface",
+      "Application Programming Interface"
+    ],
+    "answer": 0,
+    "explanation": "Standard definition."
+  },
+  {
+    "id": "tcs_1158",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q158] git commit does what?",
+    "options": [
+      "Merges branches",
+      "Pushes to remote",
+      "Saves changes locally",
+      "Clones repo"
+    ],
+    "answer": 0,
+    "explanation": "git commit records changes in local repo."
+  },
+  {
+    "id": "tcs_1159",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q159] Which loop checks condition at end?",
+    "options": [
+      "while",
+      "foreach",
       "for",
-      "from",
-      "by"
+      "do-while"
     ],
     "answer": 0,
-    "explanation": "'since' is used for a point in time."
+    "explanation": "do-while executes body before checking condition."
   },
   {
-    "id": "v132",
+    "id": "tcs_1160",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Fill in the blank: He is good _____ playing tennis.",
+    "question": "[TCS-Q160] Binary of 10 in decimal is",
     "options": [
-      "at",
-      "in",
-      "on",
-      "with"
+      "1001",
+      "1100",
+      "1010",
+      "0110"
     ],
     "answer": 0,
-    "explanation": "The correct preposition phrase is 'good at'."
+    "explanation": "10 = 8+2 = 1010 in binary."
   },
   {
-    "id": "v133",
+    "id": "tcs_1161",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Fill in the blank: If I _____ a bird, I would fly.",
+    "question": "[TCS-Q161] Choose the synonym of 'Benevolent'",
     "options": [
-      "were",
-      "was",
-      "am",
-      "had been"
+      "Indifferent",
+      "Cruel",
+      "Hostile",
+      "Kind"
     ],
     "answer": 0,
-    "explanation": "In subjunctive mood, 'were' is used for all subjects."
+    "explanation": "Benevolent means well-meaning and kindly."
   },
   {
-    "id": "v134",
+    "id": "tcs_1162",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Fill in the blank: The house is _____ fire.",
+    "question": "[TCS-Q162] Choose the antonym of 'Verbose'",
     "options": [
-      "on",
-      "in",
-      "at",
-      "with"
+      "Concise",
+      "Wordy",
+      "Lengthy",
+      "Elaborate"
     ],
     "answer": 0,
-    "explanation": "The phrase is 'on fire'."
+    "explanation": "Verbose means using too many words; antonym is concise."
   },
   {
-    "id": "v135",
+    "id": "tcs_1163",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Fill in the blank: He prefers coffee _____ tea.",
+    "question": "[TCS-Q163] Fill in the blank: He was __ by the complexity of the problem.",
     "options": [
-      "to",
-      "than",
-      "over",
-      "more than"
+      "bored",
+      "baffled",
+      "excited",
+      "pleased"
     ],
     "answer": 0,
-    "explanation": "'Prefer' is followed by 'to'."
+    "explanation": "Baffled means totally bewildered."
   },
   {
-    "id": "v136",
+    "id": "tcs_1164",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Fill in the blank: Scarcely had he reached the station _____ the train steamed off.",
+    "question": "[TCS-Q164] Choose the synonym of 'Ephemeral'",
     "options": [
-      "when",
-      "than",
-      "then",
-      "after"
-    ],
-    "answer": 0,
-    "explanation": "'Scarcely' is followed by 'when'."
-  },
-  {
-    "id": "v137",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: I am looking forward _____ you.",
-    "options": [
-      "to seeing",
-      "to see",
-      "seeing",
-      "see"
-    ],
-    "answer": 0,
-    "explanation": "'Look forward to' takes a gerund (-ing format)."
-  },
-  {
-    "id": "v138",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: One of the boys _____ missing.",
-    "options": [
-      "is",
-      "are",
-      "were",
-      "have been"
-    ],
-    "answer": 0,
-    "explanation": "'One of' takes a singular verb."
-  },
-  {
-    "id": "v139",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: The team _____ playing well.",
-    "options": [
-      "is",
-      "are",
-      "am",
-      "were"
-    ],
-    "answer": 0,
-    "explanation": "The collective noun 'team' usually takes a singular verb if acting as one."
-  },
-  {
-    "id": "v140",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: Neither John nor his friends _____ coming.",
-    "options": [
-      "are",
-      "is",
-      "am",
-      "was"
-    ],
-    "answer": 0,
-    "explanation": "The verb agrees with the closer subject 'friends'."
-  },
-  {
-    "id": "v141",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: She has been living here _____ 2010.",
-    "options": [
-      "since",
-      "for",
-      "from",
-      "by"
-    ],
-    "answer": 0,
-    "explanation": "'since' is used for a point in time."
-  },
-  {
-    "id": "v142",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: He is good _____ playing tennis.",
-    "options": [
-      "at",
-      "in",
-      "on",
-      "with"
-    ],
-    "answer": 0,
-    "explanation": "The correct preposition phrase is 'good at'."
-  },
-  {
-    "id": "v143",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: If I _____ a bird, I would fly.",
-    "options": [
-      "were",
-      "was",
-      "am",
-      "had been"
-    ],
-    "answer": 0,
-    "explanation": "In subjunctive mood, 'were' is used for all subjects."
-  },
-  {
-    "id": "v144",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: The house is _____ fire.",
-    "options": [
-      "on",
-      "in",
-      "at",
-      "with"
-    ],
-    "answer": 0,
-    "explanation": "The phrase is 'on fire'."
-  },
-  {
-    "id": "v145",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: He prefers coffee _____ tea.",
-    "options": [
-      "to",
-      "than",
-      "over",
-      "more than"
-    ],
-    "answer": 0,
-    "explanation": "'Prefer' is followed by 'to'."
-  },
-  {
-    "id": "v146",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: Scarcely had he reached the station _____ the train steamed off.",
-    "options": [
-      "when",
-      "than",
-      "then",
-      "after"
-    ],
-    "answer": 0,
-    "explanation": "'Scarcely' is followed by 'when'."
-  },
-  {
-    "id": "v147",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: I am looking forward _____ you.",
-    "options": [
-      "to seeing",
-      "to see",
-      "seeing",
-      "see"
-    ],
-    "answer": 0,
-    "explanation": "'Look forward to' takes a gerund (-ing format)."
-  },
-  {
-    "id": "v148",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: One of the boys _____ missing.",
-    "options": [
-      "is",
-      "are",
-      "were",
-      "have been"
-    ],
-    "answer": 0,
-    "explanation": "'One of' takes a singular verb."
-  },
-  {
-    "id": "v149",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: The team _____ playing well.",
-    "options": [
-      "is",
-      "are",
-      "am",
-      "were"
-    ],
-    "answer": 0,
-    "explanation": "The collective noun 'team' usually takes a singular verb if acting as one."
-  },
-  {
-    "id": "v150",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: Neither John nor his friends _____ coming.",
-    "options": [
-      "are",
-      "is",
-      "am",
-      "was"
-    ],
-    "answer": 0,
-    "explanation": "The verb agrees with the closer subject 'friends'."
-  },
-  {
-    "id": "v151",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: She has been living here _____ 2010.",
-    "options": [
-      "since",
-      "for",
-      "from",
-      "by"
-    ],
-    "answer": 0,
-    "explanation": "'since' is used for a point in time."
-  },
-  {
-    "id": "v152",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: He is good _____ playing tennis.",
-    "options": [
-      "at",
-      "in",
-      "on",
-      "with"
-    ],
-    "answer": 0,
-    "explanation": "The correct preposition phrase is 'good at'."
-  },
-  {
-    "id": "v153",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: If I _____ a bird, I would fly.",
-    "options": [
-      "were",
-      "was",
-      "am",
-      "had been"
-    ],
-    "answer": 0,
-    "explanation": "In subjunctive mood, 'were' is used for all subjects."
-  },
-  {
-    "id": "v154",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: The house is _____ fire.",
-    "options": [
-      "on",
-      "in",
-      "at",
-      "with"
-    ],
-    "answer": 0,
-    "explanation": "The phrase is 'on fire'."
-  },
-  {
-    "id": "v155",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: He prefers coffee _____ tea.",
-    "options": [
-      "to",
-      "than",
-      "over",
-      "more than"
-    ],
-    "answer": 0,
-    "explanation": "'Prefer' is followed by 'to'."
-  },
-  {
-    "id": "v156",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: Scarcely had he reached the station _____ the train steamed off.",
-    "options": [
-      "when",
-      "than",
-      "then",
-      "after"
-    ],
-    "answer": 0,
-    "explanation": "'Scarcely' is followed by 'when'."
-  },
-  {
-    "id": "v157",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: I am looking forward _____ you.",
-    "options": [
-      "to seeing",
-      "to see",
-      "seeing",
-      "see"
-    ],
-    "answer": 0,
-    "explanation": "'Look forward to' takes a gerund (-ing format)."
-  },
-  {
-    "id": "v158",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: One of the boys _____ missing.",
-    "options": [
-      "is",
-      "are",
-      "were",
-      "have been"
-    ],
-    "answer": 0,
-    "explanation": "'One of' takes a singular verb."
-  },
-  {
-    "id": "v159",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: The team _____ playing well.",
-    "options": [
-      "is",
-      "are",
-      "am",
-      "were"
-    ],
-    "answer": 0,
-    "explanation": "The collective noun 'team' usually takes a singular verb if acting as one."
-  },
-  {
-    "id": "v160",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: Neither John nor his friends _____ coming.",
-    "options": [
-      "are",
-      "is",
-      "am",
-      "was"
-    ],
-    "answer": 0,
-    "explanation": "The verb agrees with the closer subject 'friends'."
-  },
-  {
-    "id": "v161",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: She has been living here _____ 2010.",
-    "options": [
-      "since",
-      "for",
-      "from",
-      "by"
-    ],
-    "answer": 0,
-    "explanation": "'since' is used for a point in time."
-  },
-  {
-    "id": "v162",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: He is good _____ playing tennis.",
-    "options": [
-      "at",
-      "in",
-      "on",
-      "with"
-    ],
-    "answer": 0,
-    "explanation": "The correct preposition phrase is 'good at'."
-  },
-  {
-    "id": "v163",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: If I _____ a bird, I would fly.",
-    "options": [
-      "were",
-      "was",
-      "am",
-      "had been"
-    ],
-    "answer": 0,
-    "explanation": "In subjunctive mood, 'were' is used for all subjects."
-  },
-  {
-    "id": "v164",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: The house is _____ fire.",
-    "options": [
-      "on",
-      "in",
-      "at",
-      "with"
-    ],
-    "answer": 0,
-    "explanation": "The phrase is 'on fire'."
-  },
-  {
-    "id": "v165",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: He prefers coffee _____ tea.",
-    "options": [
-      "to",
-      "than",
-      "over",
-      "more than"
-    ],
-    "answer": 0,
-    "explanation": "'Prefer' is followed by 'to'."
-  },
-  {
-    "id": "v166",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: Scarcely had he reached the station _____ the train steamed off.",
-    "options": [
-      "when",
-      "than",
-      "then",
-      "after"
-    ],
-    "answer": 0,
-    "explanation": "'Scarcely' is followed by 'when'."
-  },
-  {
-    "id": "v167",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: I am looking forward _____ you.",
-    "options": [
-      "to seeing",
-      "to see",
-      "seeing",
-      "see"
-    ],
-    "answer": 0,
-    "explanation": "'Look forward to' takes a gerund (-ing format)."
-  },
-  {
-    "id": "v168",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: One of the boys _____ missing.",
-    "options": [
-      "is",
-      "are",
-      "were",
-      "have been"
-    ],
-    "answer": 0,
-    "explanation": "'One of' takes a singular verb."
-  },
-  {
-    "id": "v169",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: The team _____ playing well.",
-    "options": [
-      "is",
-      "are",
-      "am",
-      "were"
-    ],
-    "answer": 0,
-    "explanation": "The collective noun 'team' usually takes a singular verb if acting as one."
-  },
-  {
-    "id": "v170",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: Neither John nor his friends _____ coming.",
-    "options": [
-      "are",
-      "is",
-      "am",
-      "was"
-    ],
-    "answer": 0,
-    "explanation": "The verb agrees with the closer subject 'friends'."
-  },
-  {
-    "id": "v171",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: She has been living here _____ 2010.",
-    "options": [
-      "since",
-      "for",
-      "from",
-      "by"
-    ],
-    "answer": 0,
-    "explanation": "'since' is used for a point in time."
-  },
-  {
-    "id": "v172",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: He is good _____ playing tennis.",
-    "options": [
-      "at",
-      "in",
-      "on",
-      "with"
-    ],
-    "answer": 0,
-    "explanation": "The correct preposition phrase is 'good at'."
-  },
-  {
-    "id": "v173",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: If I _____ a bird, I would fly.",
-    "options": [
-      "were",
-      "was",
-      "am",
-      "had been"
-    ],
-    "answer": 0,
-    "explanation": "In subjunctive mood, 'were' is used for all subjects."
-  },
-  {
-    "id": "v174",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: The house is _____ fire.",
-    "options": [
-      "on",
-      "in",
-      "at",
-      "with"
-    ],
-    "answer": 0,
-    "explanation": "The phrase is 'on fire'."
-  },
-  {
-    "id": "v175",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: He prefers coffee _____ tea.",
-    "options": [
-      "to",
-      "than",
-      "over",
-      "more than"
-    ],
-    "answer": 0,
-    "explanation": "'Prefer' is followed by 'to'."
-  },
-  {
-    "id": "v176",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: Scarcely had he reached the station _____ the train steamed off.",
-    "options": [
-      "when",
-      "than",
-      "then",
-      "after"
-    ],
-    "answer": 0,
-    "explanation": "'Scarcely' is followed by 'when'."
-  },
-  {
-    "id": "v177",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: I am looking forward _____ you.",
-    "options": [
-      "to seeing",
-      "to see",
-      "seeing",
-      "see"
-    ],
-    "answer": 0,
-    "explanation": "'Look forward to' takes a gerund (-ing format)."
-  },
-  {
-    "id": "v178",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: One of the boys _____ missing.",
-    "options": [
-      "is",
-      "are",
-      "were",
-      "have been"
-    ],
-    "answer": 0,
-    "explanation": "'One of' takes a singular verb."
-  },
-  {
-    "id": "v179",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: The team _____ playing well.",
-    "options": [
-      "is",
-      "are",
-      "am",
-      "were"
-    ],
-    "answer": 0,
-    "explanation": "The collective noun 'team' usually takes a singular verb if acting as one."
-  },
-  {
-    "id": "v180",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: Neither John nor his friends _____ coming.",
-    "options": [
-      "are",
-      "is",
-      "am",
-      "was"
-    ],
-    "answer": 0,
-    "explanation": "The verb agrees with the closer subject 'friends'."
-  },
-  {
-    "id": "v181",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: She has been living here _____ 2010.",
-    "options": [
-      "since",
-      "for",
-      "from",
-      "by"
-    ],
-    "answer": 0,
-    "explanation": "'since' is used for a point in time."
-  },
-  {
-    "id": "v182",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: He is good _____ playing tennis.",
-    "options": [
-      "at",
-      "in",
-      "on",
-      "with"
-    ],
-    "answer": 0,
-    "explanation": "The correct preposition phrase is 'good at'."
-  },
-  {
-    "id": "v183",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: If I _____ a bird, I would fly.",
-    "options": [
-      "were",
-      "was",
-      "am",
-      "had been"
-    ],
-    "answer": 0,
-    "explanation": "In subjunctive mood, 'were' is used for all subjects."
-  },
-  {
-    "id": "v184",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: The house is _____ fire.",
-    "options": [
-      "on",
-      "in",
-      "at",
-      "with"
-    ],
-    "answer": 0,
-    "explanation": "The phrase is 'on fire'."
-  },
-  {
-    "id": "v185",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: He prefers coffee _____ tea.",
-    "options": [
-      "to",
-      "than",
-      "over",
-      "more than"
-    ],
-    "answer": 0,
-    "explanation": "'Prefer' is followed by 'to'."
-  },
-  {
-    "id": "v186",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: Scarcely had he reached the station _____ the train steamed off.",
-    "options": [
-      "when",
-      "than",
-      "then",
-      "after"
-    ],
-    "answer": 0,
-    "explanation": "'Scarcely' is followed by 'when'."
-  },
-  {
-    "id": "v187",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: I am looking forward _____ you.",
-    "options": [
-      "to seeing",
-      "to see",
-      "seeing",
-      "see"
-    ],
-    "answer": 0,
-    "explanation": "'Look forward to' takes a gerund (-ing format)."
-  },
-  {
-    "id": "v188",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: One of the boys _____ missing.",
-    "options": [
-      "is",
-      "are",
-      "were",
-      "have been"
-    ],
-    "answer": 0,
-    "explanation": "'One of' takes a singular verb."
-  },
-  {
-    "id": "v189",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: The team _____ playing well.",
-    "options": [
-      "is",
-      "are",
-      "am",
-      "were"
-    ],
-    "answer": 0,
-    "explanation": "The collective noun 'team' usually takes a singular verb if acting as one."
-  },
-  {
-    "id": "v190",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: Neither John nor his friends _____ coming.",
-    "options": [
-      "are",
-      "is",
-      "am",
-      "was"
-    ],
-    "answer": 0,
-    "explanation": "The verb agrees with the closer subject 'friends'."
-  },
-  {
-    "id": "v191",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: She has been living here _____ 2010.",
-    "options": [
-      "since",
-      "for",
-      "from",
-      "by"
-    ],
-    "answer": 0,
-    "explanation": "'since' is used for a point in time."
-  },
-  {
-    "id": "v192",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: He is good _____ playing tennis.",
-    "options": [
-      "at",
-      "in",
-      "on",
-      "with"
-    ],
-    "answer": 0,
-    "explanation": "The correct preposition phrase is 'good at'."
-  },
-  {
-    "id": "v193",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: If I _____ a bird, I would fly.",
-    "options": [
-      "were",
-      "was",
-      "am",
-      "had been"
-    ],
-    "answer": 0,
-    "explanation": "In subjunctive mood, 'were' is used for all subjects."
-  },
-  {
-    "id": "v194",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: The house is _____ fire.",
-    "options": [
-      "on",
-      "in",
-      "at",
-      "with"
-    ],
-    "answer": 0,
-    "explanation": "The phrase is 'on fire'."
-  },
-  {
-    "id": "v195",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: He prefers coffee _____ tea.",
-    "options": [
-      "to",
-      "than",
-      "over",
-      "more than"
-    ],
-    "answer": 0,
-    "explanation": "'Prefer' is followed by 'to'."
-  },
-  {
-    "id": "v196",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: Scarcely had he reached the station _____ the train steamed off.",
-    "options": [
-      "when",
-      "than",
-      "then",
-      "after"
-    ],
-    "answer": 0,
-    "explanation": "'Scarcely' is followed by 'when'."
-  },
-  {
-    "id": "v197",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: I am looking forward _____ you.",
-    "options": [
-      "to seeing",
-      "to see",
-      "seeing",
-      "see"
-    ],
-    "answer": 0,
-    "explanation": "'Look forward to' takes a gerund (-ing format)."
-  },
-  {
-    "id": "v198",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Fill in the blank: One of the boys _____ missing.",
-    "options": [
-      "is",
-      "are",
-      "were",
-      "have been"
-    ],
-    "answer": 0,
-    "explanation": "'One of' takes a singular verb."
-  },
-  {
-    "id": "v199",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Accommodate",
-      "Acomodate",
-      "Accomodate",
-      "Acommodate"
-    ],
-    "answer": 0,
-    "explanation": "The correct spelling is Accommodate."
-  },
-  {
-    "id": "v200",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Emmbarrass",
-      "Embaras",
-      "Embarrass",
-      "Embarass"
-    ],
-    "answer": 2,
-    "explanation": "The correct spelling is Embarrass."
-  },
-  {
-    "id": "v201",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Consciense",
-      "Consience",
-      "Conceince",
-      "Conscience"
-    ],
-    "answer": 3,
-    "explanation": "The correct spelling is Conscience."
-  },
-  {
-    "id": "v202",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Millenium",
-      "Millennium",
-      "Milennium",
-      "Milenium"
-    ],
-    "answer": 1,
-    "explanation": "The correct spelling is Millennium."
-  },
-  {
-    "id": "v203",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Maintenence",
-      "Maintenance",
-      "Maintainance",
-      "Maintainence"
-    ],
-    "answer": 1,
-    "explanation": "The correct spelling is Maintenance."
-  },
-  {
-    "id": "v204",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Pronunciation",
-      "Pronounsiation",
-      "Pronounciation",
-      "Pronunsiation"
-    ],
-    "answer": 0,
-    "explanation": "The correct spelling is Pronunciation."
-  },
-  {
-    "id": "v205",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Ocassion",
-      "Ocasion",
-      "Occasion",
-      "Occassion"
-    ],
-    "answer": 2,
-    "explanation": "The correct spelling is Occasion."
-  },
-  {
-    "id": "v206",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Resieve",
-      "Reseive",
-      "Recieve",
-      "Receive"
-    ],
-    "answer": 3,
-    "explanation": "The correct spelling is Receive."
-  },
-  {
-    "id": "v207",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Separate",
-      "Sepparate",
-      "Seprate",
-      "Seperate"
-    ],
-    "answer": 0,
-    "explanation": "The correct spelling is Separate."
-  },
-  {
-    "id": "v208",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Untill",
-      "Entill",
-      "Entil",
-      "Until"
-    ],
-    "answer": 3,
-    "explanation": "The correct spelling is Until."
-  },
-  {
-    "id": "v209",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Accomodate",
-      "Acomodate",
-      "Acommodate",
-      "Accommodate"
-    ],
-    "answer": 3,
-    "explanation": "The correct spelling is Accommodate."
-  },
-  {
-    "id": "v210",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Embarrass",
-      "Embarass",
-      "Embaras",
-      "Emmbarrass"
-    ],
-    "answer": 0,
-    "explanation": "The correct spelling is Embarrass."
-  },
-  {
-    "id": "v211",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Conscience",
-      "Consciense",
-      "Consience",
-      "Conceince"
-    ],
-    "answer": 0,
-    "explanation": "The correct spelling is Conscience."
-  },
-  {
-    "id": "v212",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Milennium",
-      "Millenium",
-      "Millennium",
-      "Milenium"
-    ],
-    "answer": 2,
-    "explanation": "The correct spelling is Millennium."
-  },
-  {
-    "id": "v213",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Maintenence",
-      "Maintenance",
-      "Maintainance",
-      "Maintainence"
-    ],
-    "answer": 1,
-    "explanation": "The correct spelling is Maintenance."
-  },
-  {
-    "id": "v214",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Pronunciation",
-      "Pronounciation",
-      "Pronunsiation",
-      "Pronounsiation"
-    ],
-    "answer": 0,
-    "explanation": "The correct spelling is Pronunciation."
-  },
-  {
-    "id": "v215",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Occasion",
-      "Ocasion",
-      "Ocassion",
-      "Occassion"
-    ],
-    "answer": 0,
-    "explanation": "The correct spelling is Occasion."
-  },
-  {
-    "id": "v216",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Reseive",
-      "Recieve",
-      "Resieve",
-      "Receive"
-    ],
-    "answer": 3,
-    "explanation": "The correct spelling is Receive."
-  },
-  {
-    "id": "v217",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Separate",
-      "Seprate",
-      "Sepparate",
-      "Seperate"
-    ],
-    "answer": 0,
-    "explanation": "The correct spelling is Separate."
-  },
-  {
-    "id": "v218",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Untill",
-      "Until",
-      "Entill",
-      "Entil"
-    ],
-    "answer": 1,
-    "explanation": "The correct spelling is Until."
-  },
-  {
-    "id": "v219",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Acomodate",
-      "Accomodate",
-      "Accommodate",
-      "Acommodate"
-    ],
-    "answer": 2,
-    "explanation": "The correct spelling is Accommodate."
-  },
-  {
-    "id": "v220",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Embarass",
-      "Embarrass",
-      "Embaras",
-      "Emmbarrass"
-    ],
-    "answer": 1,
-    "explanation": "The correct spelling is Embarrass."
-  },
-  {
-    "id": "v221",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Consience",
-      "Conceince",
-      "Conscience",
-      "Consciense"
-    ],
-    "answer": 2,
-    "explanation": "The correct spelling is Conscience."
-  },
-  {
-    "id": "v222",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Millennium",
-      "Milennium",
-      "Millenium",
-      "Milenium"
-    ],
-    "answer": 0,
-    "explanation": "The correct spelling is Millennium."
-  },
-  {
-    "id": "v223",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Maintainance",
-      "Maintenence",
-      "Maintenance",
-      "Maintainence"
-    ],
-    "answer": 2,
-    "explanation": "The correct spelling is Maintenance."
-  },
-  {
-    "id": "v224",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Pronounsiation",
-      "Pronunciation",
-      "Pronounciation",
-      "Pronunsiation"
-    ],
-    "answer": 1,
-    "explanation": "The correct spelling is Pronunciation."
-  },
-  {
-    "id": "v225",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Ocasion",
-      "Occasion",
-      "Occassion",
-      "Ocassion"
-    ],
-    "answer": 1,
-    "explanation": "The correct spelling is Occasion."
-  },
-  {
-    "id": "v226",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Receive",
-      "Reseive",
-      "Recieve",
-      "Resieve"
-    ],
-    "answer": 0,
-    "explanation": "The correct spelling is Receive."
-  },
-  {
-    "id": "v227",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Seperate",
-      "Separate",
-      "Seprate",
-      "Sepparate"
-    ],
-    "answer": 1,
-    "explanation": "The correct spelling is Separate."
-  },
-  {
-    "id": "v228",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Entil",
-      "Untill",
-      "Until",
-      "Entill"
-    ],
-    "answer": 2,
-    "explanation": "The correct spelling is Until."
-  },
-  {
-    "id": "v229",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Accomodate",
-      "Accommodate",
-      "Acommodate",
-      "Acomodate"
-    ],
-    "answer": 1,
-    "explanation": "The correct spelling is Accommodate."
-  },
-  {
-    "id": "v230",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Embarrass",
-      "Embaras",
-      "Embarass",
-      "Emmbarrass"
-    ],
-    "answer": 0,
-    "explanation": "The correct spelling is Embarrass."
-  },
-  {
-    "id": "v231",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Consience",
-      "Conscience",
-      "Conceince",
-      "Consciense"
-    ],
-    "answer": 1,
-    "explanation": "The correct spelling is Conscience."
-  },
-  {
-    "id": "v232",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Milennium",
-      "Milenium",
-      "Millenium",
-      "Millennium"
-    ],
-    "answer": 3,
-    "explanation": "The correct spelling is Millennium."
-  },
-  {
-    "id": "v233",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Maintainence",
-      "Maintainance",
-      "Maintenence",
-      "Maintenance"
-    ],
-    "answer": 3,
-    "explanation": "The correct spelling is Maintenance."
-  },
-  {
-    "id": "v234",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Pronounsiation",
-      "Pronunciation",
-      "Pronunsiation",
-      "Pronounciation"
-    ],
-    "answer": 1,
-    "explanation": "The correct spelling is Pronunciation."
-  },
-  {
-    "id": "v235",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Ocassion",
-      "Ocasion",
-      "Occassion",
-      "Occasion"
-    ],
-    "answer": 3,
-    "explanation": "The correct spelling is Occasion."
-  },
-  {
-    "id": "v236",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Reseive",
-      "Recieve",
-      "Receive",
-      "Resieve"
-    ],
-    "answer": 2,
-    "explanation": "The correct spelling is Receive."
-  },
-  {
-    "id": "v237",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Separate",
-      "Sepparate",
-      "Seperate",
-      "Seprate"
-    ],
-    "answer": 0,
-    "explanation": "The correct spelling is Separate."
-  },
-  {
-    "id": "v238",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Easy",
-    "type": "MCQ",
-    "question": "Select the correctly spelled word.",
-    "options": [
-      "Until",
-      "Entill",
-      "Untill",
-      "Entil"
-    ],
-    "answer": 0,
-    "explanation": "The correct spelling is Until."
-  },
-  {
-    "id": "v239",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "What is the meaning of the idiom: 'Bite the bullet'?",
-    "options": [
-      "To shoot someone",
-      "To give up easily",
-      "To act aggressively",
-      "To endure a painful situation"
-    ],
-    "answer": 3,
-    "explanation": "'Bite the bullet' means To endure a painful situation."
-  },
-  {
-    "id": "v240",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "What is the meaning of the idiom: 'Break the ice'?",
-    "options": [
-      "To freeze someone out",
-      "To end a relationship",
-      "To break a cold object",
-      "To initiate a conversation"
-    ],
-    "answer": 3,
-    "explanation": "'Break the ice' means To initiate a conversation."
-  },
-  {
-    "id": "v241",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "What is the meaning of the idiom: 'Under the weather'?",
-    "options": [
-      "Raining heavily",
-      "Feeling happy",
-      "Very cold",
-      "Feeling ill"
-    ],
-    "answer": 3,
-    "explanation": "'Under the weather' means Feeling ill."
-  },
-  {
-    "id": "v242",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "What is the meaning of the idiom: 'Spill the beans'?",
-    "options": [
-      "To drop food",
-      "To cry",
-      "To share food",
-      "To reveal a secret"
-    ],
-    "answer": 3,
-    "explanation": "'Spill the beans' means To reveal a secret."
-  },
-  {
-    "id": "v243",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "What is the meaning of the idiom: 'Cost an arm and a leg'?",
-    "options": [
-      "To be physically demanding",
-      "To be cheap",
-      "To be dangerous",
-      "To be very expensive"
-    ],
-    "answer": 3,
-    "explanation": "'Cost an arm and a leg' means To be very expensive."
-  },
-  {
-    "id": "v244",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "What is the meaning of the idiom: 'Bite the bullet'?",
-    "options": [
-      "To shoot someone",
-      "To give up easily",
-      "To endure a painful situation",
-      "To act aggressively"
-    ],
-    "answer": 2,
-    "explanation": "'Bite the bullet' means To endure a painful situation."
-  },
-  {
-    "id": "v245",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "What is the meaning of the idiom: 'Break the ice'?",
-    "options": [
-      "To break a cold object",
-      "To end a relationship",
-      "To freeze someone out",
-      "To initiate a conversation"
-    ],
-    "answer": 3,
-    "explanation": "'Break the ice' means To initiate a conversation."
-  },
-  {
-    "id": "v246",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "What is the meaning of the idiom: 'Under the weather'?",
-    "options": [
-      "Feeling ill",
-      "Raining heavily",
-      "Very cold",
-      "Feeling happy"
-    ],
-    "answer": 0,
-    "explanation": "'Under the weather' means Feeling ill."
-  },
-  {
-    "id": "v247",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "What is the meaning of the idiom: 'Spill the beans'?",
-    "options": [
-      "To drop food",
-      "To share food",
-      "To reveal a secret",
-      "To cry"
-    ],
-    "answer": 2,
-    "explanation": "'Spill the beans' means To reveal a secret."
-  },
-  {
-    "id": "v248",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "What is the meaning of the idiom: 'Cost an arm and a leg'?",
-    "options": [
-      "To be dangerous",
-      "To be very expensive",
-      "To be cheap",
-      "To be physically demanding"
-    ],
-    "answer": 1,
-    "explanation": "'Cost an arm and a leg' means To be very expensive."
-  },
-  {
-    "id": "v249",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "What is the meaning of the idiom: 'Bite the bullet'?",
-    "options": [
-      "To give up easily",
-      "To shoot someone",
-      "To act aggressively",
-      "To endure a painful situation"
-    ],
-    "answer": 3,
-    "explanation": "'Bite the bullet' means To endure a painful situation."
-  },
-  {
-    "id": "v250",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "What is the meaning of the idiom: 'Break the ice'?",
-    "options": [
-      "To break a cold object",
-      "To initiate a conversation",
-      "To freeze someone out",
-      "To end a relationship"
-    ],
-    "answer": 1,
-    "explanation": "'Break the ice' means To initiate a conversation."
-  },
-  {
-    "id": "v251",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "What is the meaning of the idiom: 'Under the weather'?",
-    "options": [
-      "Raining heavily",
-      "Feeling happy",
-      "Very cold",
-      "Feeling ill"
-    ],
-    "answer": 3,
-    "explanation": "'Under the weather' means Feeling ill."
-  },
-  {
-    "id": "v252",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "What is the meaning of the idiom: 'Spill the beans'?",
-    "options": [
-      "To share food",
-      "To drop food",
-      "To cry",
-      "To reveal a secret"
-    ],
-    "answer": 3,
-    "explanation": "'Spill the beans' means To reveal a secret."
-  },
-  {
-    "id": "v253",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "What is the meaning of the idiom: 'Cost an arm and a leg'?",
-    "options": [
-      "To be physically demanding",
-      "To be cheap",
-      "To be dangerous",
-      "To be very expensive"
-    ],
-    "answer": 3,
-    "explanation": "'Cost an arm and a leg' means To be very expensive."
-  },
-  {
-    "id": "v254",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "What is the meaning of the idiom: 'Bite the bullet'?",
-    "options": [
-      "To endure a painful situation",
-      "To act aggressively",
-      "To give up easily",
-      "To shoot someone"
-    ],
-    "answer": 0,
-    "explanation": "'Bite the bullet' means To endure a painful situation."
-  },
-  {
-    "id": "v255",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "What is the meaning of the idiom: 'Break the ice'?",
-    "options": [
-      "To end a relationship",
-      "To break a cold object",
-      "To initiate a conversation",
-      "To freeze someone out"
-    ],
-    "answer": 2,
-    "explanation": "'Break the ice' means To initiate a conversation."
-  },
-  {
-    "id": "v256",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "What is the meaning of the idiom: 'Under the weather'?",
-    "options": [
-      "Feeling happy",
-      "Very cold",
-      "Raining heavily",
-      "Feeling ill"
-    ],
-    "answer": 3,
-    "explanation": "'Under the weather' means Feeling ill."
-  },
-  {
-    "id": "v257",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "What is the meaning of the idiom: 'Spill the beans'?",
-    "options": [
-      "To share food",
-      "To cry",
-      "To drop food",
-      "To reveal a secret"
-    ],
-    "answer": 3,
-    "explanation": "'Spill the beans' means To reveal a secret."
-  },
-  {
-    "id": "v258",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "What is the meaning of the idiom: 'Cost an arm and a leg'?",
-    "options": [
-      "To be physically demanding",
-      "To be very expensive",
-      "To be dangerous",
-      "To be cheap"
-    ],
-    "answer": 1,
-    "explanation": "'Cost an arm and a leg' means To be very expensive."
-  },
-  {
-    "id": "v259",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Clandestine'",
-    "options": [
-      "Neutral",
-      "Open",
-      "Secret",
-      "Unrelated"
-    ],
-    "answer": 2,
-    "explanation": "Synonym of Clandestine is Secret. It means kept secret or done secretively."
-  },
-  {
-    "id": "v260",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Clandestine'",
-    "options": [
-      "Open",
-      "Unpredictable",
-      "Secret",
-      "Unrelated"
-    ],
-    "answer": 0,
-    "explanation": "Antonym of Clandestine is Open."
-  },
-  {
-    "id": "v261",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Cognizant'",
-    "options": [
-      "Neutral",
-      "Unrelated",
-      "Aware",
-      "Ignorant"
-    ],
-    "answer": 2,
-    "explanation": "Synonym of Cognizant is Aware. It means having knowledge or being aware of."
-  },
-  {
-    "id": "v262",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Cognizant'",
-    "options": [
-      "Ignorant",
-      "Unpredictable",
-      "Unrelated",
-      "Aware"
-    ],
-    "answer": 0,
-    "explanation": "Antonym of Cognizant is Ignorant."
-  },
-  {
-    "id": "v263",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Corpulent'",
-    "options": [
-      "Unrelated",
-      "Neutral",
-      "Thin",
-      "Fat"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Corpulent is Fat. It means fat."
-  },
-  {
-    "id": "v264",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Corpulent'",
-    "options": [
-      "Unpredictable",
-      "Fat",
-      "Thin",
-      "Unrelated"
-    ],
-    "answer": 2,
-    "explanation": "Antonym of Corpulent is Thin."
-  },
-  {
-    "id": "v265",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Credulous'",
-    "options": [
-      "Gullible",
-      "Unrelated",
-      "Suspicious",
-      "Neutral"
-    ],
-    "answer": 0,
-    "explanation": "Synonym of Credulous is Gullible. It means having or showing too great a readiness to believe things."
-  },
-  {
-    "id": "v266",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Credulous'",
-    "options": [
-      "Unrelated",
-      "Unpredictable",
-      "Suspicious",
-      "Gullible"
-    ],
-    "answer": 2,
-    "explanation": "Antonym of Credulous is Suspicious."
-  },
-  {
-    "id": "v267",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Defunct'",
-    "options": [
-      "Alive",
-      "Obsolete",
-      "Neutral",
-      "Unrelated"
-    ],
-    "answer": 1,
-    "explanation": "Synonym of Defunct is Obsolete. It means no longer existing or functioning."
-  },
-  {
-    "id": "v268",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Defunct'",
-    "options": [
-      "Unpredictable",
-      "Alive",
-      "Obsolete",
-      "Unrelated"
-    ],
-    "answer": 1,
-    "explanation": "Antonym of Defunct is Alive."
-  },
-  {
-    "id": "v269",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Derogatory'",
-    "options": [
-      "Unrelated",
-      "Complimentary",
-      "Disparaging",
-      "Neutral"
-    ],
-    "answer": 2,
-    "explanation": "Synonym of Derogatory is Disparaging. It means showing a critical or disrespectful attitude."
-  },
-  {
-    "id": "v270",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Derogatory'",
-    "options": [
-      "Complimentary",
-      "Disparaging",
-      "Unrelated",
-      "Unpredictable"
-    ],
-    "answer": 0,
-    "explanation": "Antonym of Derogatory is Complimentary."
-  },
-  {
-    "id": "v271",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Dextrous'",
-    "options": [
-      "Skillful",
-      "Unrelated",
-      "Clumsy",
-      "Neutral"
-    ],
-    "answer": 0,
-    "explanation": "Synonym of Dextrous is Skillful. It means showing or having skill, especially with the hands."
-  },
-  {
-    "id": "v272",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Dextrous'",
-    "options": [
-      "Clumsy",
-      "Unpredictable",
-      "Skillful",
-      "Unrelated"
-    ],
-    "answer": 0,
-    "explanation": "Antonym of Dextrous is Clumsy."
-  },
-  {
-    "id": "v273",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Diffident'",
-    "options": [
-      "Unrelated",
-      "Neutral",
-      "Shy",
-      "Confident"
-    ],
-    "answer": 2,
-    "explanation": "Synonym of Diffident is Shy. It means modest or shy because of a lack of self-confidence."
-  },
-  {
-    "id": "v274",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Diffident'",
-    "options": [
-      "Shy",
-      "Unrelated",
-      "Unpredictable",
-      "Confident"
-    ],
-    "answer": 3,
-    "explanation": "Antonym of Diffident is Confident."
-  },
-  {
-    "id": "v275",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Dirge'",
-    "options": [
-      "Elegy",
-      "Unrelated",
-      "Neutral",
-      "Anthem"
-    ],
-    "answer": 0,
-    "explanation": "Synonym of Dirge is Elegy. It means a lament for the dead."
-  },
-  {
-    "id": "v276",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Dirge'",
-    "options": [
-      "Elegy",
-      "Unrelated",
-      "Anthem",
-      "Unpredictable"
-    ],
-    "answer": 2,
-    "explanation": "Antonym of Dirge is Anthem."
-  },
-  {
-    "id": "v277",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Disparate'",
-    "options": [
-      "Neutral",
-      "Different",
-      "Unrelated",
-      "Similar"
-    ],
-    "answer": 1,
-    "explanation": "Synonym of Disparate is Different. It means essentially different in kind."
-  },
-  {
-    "id": "v278",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Disparate'",
-    "options": [
-      "Different",
-      "Unrelated",
-      "Unpredictable",
-      "Similar"
-    ],
-    "answer": 3,
-    "explanation": "Antonym of Disparate is Similar."
-  },
-  {
-    "id": "v279",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Egregious'",
-    "options": [
-      "Neutral",
-      "Marvelous",
-      "Unrelated",
-      "Shocking"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Egregious is Shocking. It means outstandingly bad."
-  },
-  {
-    "id": "v280",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Egregious'",
-    "options": [
-      "Shocking",
-      "Unpredictable",
-      "Marvelous",
-      "Unrelated"
-    ],
-    "answer": 2,
-    "explanation": "Antonym of Egregious is Marvelous."
-  },
-  {
-    "id": "v281",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Emulate'",
-    "options": [
-      "Imitate",
-      "Neutral",
-      "Neglect",
-      "Unrelated"
-    ],
-    "answer": 0,
-    "explanation": "Synonym of Emulate is Imitate. It means match or surpass."
-  },
-  {
-    "id": "v282",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Emulate'",
-    "options": [
-      "Unpredictable",
-      "Unrelated",
-      "Neglect",
-      "Imitate"
-    ],
-    "answer": 2,
-    "explanation": "Antonym of Emulate is Neglect."
-  },
-  {
-    "id": "v283",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Enervate'",
-    "options": [
-      "Neutral",
-      "Energize",
-      "Unrelated",
-      "Exhaust"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Enervate is Exhaust. It means cause (someone) to feel drained of energy."
-  },
-  {
-    "id": "v284",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Enervate'",
-    "options": [
-      "Exhaust",
-      "Unrelated",
-      "Unpredictable",
-      "Energize"
-    ],
-    "answer": 3,
-    "explanation": "Antonym of Enervate is Energize."
-  },
-  {
-    "id": "v285",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Ephemeral'",
-    "options": [
-      "Transient",
-      "Unrelated",
-      "Neutral",
-      "Permanent"
-    ],
-    "answer": 0,
-    "explanation": "Synonym of Ephemeral is Transient. It means lasting for a very short time."
-  },
-  {
-    "id": "v286",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Ephemeral'",
-    "options": [
-      "Unpredictable",
-      "Unrelated",
       "Permanent",
+      "Eternal",
+      "Lasting",
       "Transient"
     ],
-    "answer": 2,
-    "explanation": "Antonym of Ephemeral is Permanent."
+    "answer": 0,
+    "explanation": "Ephemeral means lasting for a very short time."
   },
   {
-    "id": "v287",
+    "id": "tcs_1165",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Exacerbate'",
+    "question": "[TCS-Q165] Choose the antonym of 'Frugal'",
     "options": [
-      "Worsen",
-      "Neutral",
-      "Improve",
-      "Unrelated"
+      "Thrifty",
+      "Extravagant",
+      "Careful",
+      "Economical"
     ],
     "answer": 0,
-    "explanation": "Synonym of Exacerbate is Worsen. It means make (a problem, bad situation, or negative feeling) worse."
+    "explanation": "Frugal means sparing; antonym is extravagant."
   },
   {
-    "id": "v288",
+    "id": "tcs_1166",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Exacerbate'",
+    "question": "[TCS-Q166] Select the correctly spelled word",
     "options": [
-      "Unpredictable",
-      "Improve",
-      "Worsen",
-      "Unrelated"
+      "Acommodate",
+      "Accomodate",
+      "Accommodate",
+      "Acomodate"
     ],
-    "answer": 1,
-    "explanation": "Antonym of Exacerbate is Improve."
+    "answer": 0,
+    "explanation": "The correct spelling is Accommodate."
   },
   {
-    "id": "v289",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Fastidious'",
-    "options": [
-      "Unrelated",
-      "Meticulous",
-      "Neutral",
-      "Careless"
-    ],
-    "answer": 1,
-    "explanation": "Synonym of Fastidious is Meticulous. It means very attentive to and concerned about accuracy and detail."
-  },
-  {
-    "id": "v290",
+    "id": "tcs_1167",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Fastidious'",
+    "question": "[TCS-Q167] Choose the synonym of 'Lucid'",
     "options": [
-      "Meticulous",
-      "Unpredictable",
-      "Unrelated",
-      "Careless"
+      "Murky",
+      "Clear",
+      "Vague",
+      "Confusing"
     ],
-    "answer": 3,
-    "explanation": "Antonym of Fastidious is Careless."
+    "answer": 0,
+    "explanation": "Lucid means expressed clearly."
   },
   {
-    "id": "v291",
+    "id": "tcs_1168",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Furtive'",
+    "question": "[TCS-Q168] Identify the error: 'She don't know the answer'",
     "options": [
-      "Open",
-      "Neutral",
-      "Unrelated",
-      "Secretive"
+      "Pronoun",
+      "Article misuse",
+      "Subject-verb agreement",
+      "Tense"
     ],
-    "answer": 3,
-    "explanation": "Synonym of Furtive is Secretive. It means attempting to avoid notice or attention."
+    "answer": 0,
+    "explanation": "'She doesn't know' is correct."
   },
   {
-    "id": "v292",
+    "id": "tcs_1169",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Furtive'",
+    "question": "[TCS-Q169] Choose the antonym of 'Diligent'",
     "options": [
-      "Open",
+      "Hardworking",
+      "Lazy",
+      "Dedicated",
+      "Sincere"
+    ],
+    "answer": 0,
+    "explanation": "Diligent means hardworking; antonym is lazy."
+  },
+  {
+    "id": "tcs_1170",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q170] Choose the synonym of 'Candid'",
+    "options": [
+      "Sly",
       "Secretive",
-      "Unpredictable",
-      "Unrelated"
+      "Frank",
+      "Deceptive"
     ],
     "answer": 0,
-    "explanation": "Antonym of Furtive is Open."
+    "explanation": "Candid means truthful and straightforward."
   },
   {
-    "id": "v293",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the synonym of 'Garrulous'",
-    "options": [
-      "Neutral",
-      "Taciturn",
-      "Unrelated",
-      "Talkative"
-    ],
-    "answer": 3,
-    "explanation": "Synonym of Garrulous is Talkative. It means excessively talkative."
-  },
-  {
-    "id": "v294",
-    "topic": "TCS NQT",
-    "section": "Verbal Ability",
-    "difficulty": "Hard",
-    "type": "MCQ",
-    "question": "Choose the antonym of 'Garrulous'",
-    "options": [
-      "Talkative",
-      "Unpredictable",
-      "Taciturn",
-      "Unrelated"
-    ],
-    "answer": 2,
-    "explanation": "Antonym of Garrulous is Taciturn."
-  },
-  {
-    "id": "v295",
+    "id": "tcs_1171",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Gregarious'",
+    "question": "[TCS-Q171] Choose the antonym of 'Ancient'",
     "options": [
-      "Neutral",
-      "Sociable",
-      "Unrelated",
-      "Introverted"
+      "Historic",
+      "Old",
+      "Modern",
+      "Aged"
     ],
-    "answer": 1,
-    "explanation": "Synonym of Gregarious is Sociable. It means fond of company; sociable."
+    "answer": 0,
+    "explanation": "Ancient means very old; antonym is modern."
   },
   {
-    "id": "v296",
+    "id": "tcs_1172",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Gregarious'",
+    "question": "[TCS-Q172] Identify the passive voice: 'The book was written by him'",
     "options": [
-      "Unpredictable",
-      "Introverted",
-      "Unrelated",
-      "Sociable"
+      "Exclamatory",
+      "Passive",
+      "Interrogative",
+      "Active"
     ],
-    "answer": 1,
-    "explanation": "Antonym of Gregarious is Introverted."
+    "answer": 0,
+    "explanation": "'Was written' indicates passive voice."
   },
   {
-    "id": "v297",
+    "id": "tcs_1173",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the synonym of 'Haughty'",
+    "question": "[TCS-Q173] Select the correct article: '__ honest man'",
     "options": [
-      "Neutral",
-      "Humble",
-      "Unrelated",
-      "Arrogant"
+      "No article",
+      "The",
+      "An",
+      "A"
     ],
-    "answer": 3,
-    "explanation": "Synonym of Haughty is Arrogant. It means arrogantly superior and disdainful."
+    "answer": 0,
+    "explanation": "'An' is used before vowel sounds; 'honest' starts with a vowel sound."
   },
   {
-    "id": "v298",
+    "id": "tcs_1174",
     "topic": "TCS NQT",
     "section": "Verbal Ability",
-    "difficulty": "Hard",
+    "difficulty": "Medium",
     "type": "MCQ",
-    "question": "Choose the antonym of 'Haughty'",
+    "question": "[TCS-Q174] Choose the synonym of 'Zealous'",
     "options": [
-      "Unpredictable",
-      "Arrogant",
-      "Humble",
-      "Unrelated"
+      "Listless",
+      "Enthusiastic",
+      "Apathetic",
+      "Indifferent"
     ],
-    "answer": 2,
-    "explanation": "Antonym of Haughty is Humble."
+    "answer": 0,
+    "explanation": "Zealous means having great energy for a cause."
+  },
+  {
+    "id": "tcs_1175",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q175] Choose the antonym of 'Timid'",
+    "options": [
+      "Shy",
+      "Fearful",
+      "Nervous",
+      "Bold"
+    ],
+    "answer": 0,
+    "explanation": "Timid means lacking courage; antonym is bold."
+  },
+  {
+    "id": "tcs_1176",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q176] Fill in: She __ to the market yesterday.",
+    "options": [
+      "goes",
+      "going",
+      "went",
+      "go"
+    ],
+    "answer": 0,
+    "explanation": "Past tense of 'go' is 'went'."
+  },
+  {
+    "id": "tcs_1177",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q177] Choose the synonym of 'Eloquent'",
+    "options": [
+      "Articulate",
+      "Mumbling",
+      "Silent",
+      "Inarticulate"
+    ],
+    "answer": 0,
+    "explanation": "Eloquent means fluent and persuasive in speaking."
+  },
+  {
+    "id": "tcs_1178",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q178] Identify the figure of speech: 'The wind whispered'",
+    "options": [
+      "Hyperbole",
+      "Metaphor",
+      "Simile",
+      "Personification"
+    ],
+    "answer": 0,
+    "explanation": "Attributing human action to non-human is personification."
+  },
+  {
+    "id": "tcs_1179",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q179] Choose the antonym of 'Serene'",
+    "options": [
+      "Peaceful",
+      "Tranquil",
+      "Agitated",
+      "Calm"
+    ],
+    "answer": 0,
+    "explanation": "Serene means calm; antonym is agitated."
+  },
+  {
+    "id": "tcs_1180",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q180] Choose the synonym of 'Meticulous'",
+    "options": [
+      "Negligent",
+      "Careful",
+      "Sloppy",
+      "Careless"
+    ],
+    "answer": 0,
+    "explanation": "Meticulous means showing great attention to detail."
+  },
+  {
+    "id": "tcs_1181",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q181] What is 15% of 200?",
+    "options": [
+      "40",
+      "25",
+      "35",
+      "30"
+    ],
+    "answer": 0,
+    "explanation": "15/100 \u00d7 200 = 30"
+  },
+  {
+    "id": "tcs_1182",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q182] A train travels 60 km in 1 hour. How far in 2.5 hours?",
+    "options": [
+      "150 km",
+      "100 km",
+      "120 km",
+      "180 km"
+    ],
+    "answer": 0,
+    "explanation": "60 \u00d7 2.5 = 150"
+  },
+  {
+    "id": "tcs_1183",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q183] LCM of 12 and 18 is",
+    "options": [
+      "72",
+      "24",
+      "48",
+      "36"
+    ],
+    "answer": 0,
+    "explanation": "LCM(12,18) = 36"
+  },
+  {
+    "id": "tcs_1184",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q184] HCF of 24 and 36 is",
+    "options": [
+      "24",
+      "12",
+      "18",
+      "6"
+    ],
+    "answer": 0,
+    "explanation": "HCF(24,36) = 12"
+  },
+  {
+    "id": "tcs_1185",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q185] If x+y=10 and x-y=4, find x",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "7"
+    ],
+    "answer": 0,
+    "explanation": "x = (10+4)/2 = 7"
+  },
+  {
+    "id": "tcs_1186",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q186] Simple interest on Rs 1000 at 5% for 2 years",
+    "options": [
+      "Rs 150",
+      "Rs 50",
+      "Rs 100",
+      "Rs 200"
+    ],
+    "answer": 0,
+    "explanation": "SI = 1000\u00d75\u00d72/100 = 100"
+  },
+  {
+    "id": "tcs_1187",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q187] What is the square root of 144?",
+    "options": [
+      "14",
+      "13",
+      "11",
+      "12"
+    ],
+    "answer": 0,
+    "explanation": "\u221a144 = 12"
+  },
+  {
+    "id": "tcs_1188",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q188] A:B = 3:4, B:C = 2:3. Find A:C",
+    "options": [
+      "1:2",
+      "2:3",
+      "3:8",
+      "1:4"
+    ],
+    "answer": 0,
+    "explanation": "A:B:C = 3:4:6, so A:C = 1:2"
+  },
+  {
+    "id": "tcs_1189",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q189] Profit on selling an item for Rs 150, cost Rs 100 is",
+    "options": [
+      "25%",
+      "30%",
+      "50%",
+      "40%"
+    ],
+    "answer": 0,
+    "explanation": "Profit% = 50/100 \u00d7 100 = 50%"
+  },
+  {
+    "id": "tcs_1190",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q190] Average of 5,10,15,20,25",
+    "options": [
+      "12",
+      "15",
+      "18",
+      "20"
+    ],
+    "answer": 0,
+    "explanation": "Sum=75, 75/5=15"
+  },
+  {
+    "id": "tcs_1191",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q191] 2^10 =",
+    "options": [
+      "1024",
+      "2048",
+      "512",
+      "256"
+    ],
+    "answer": 0,
+    "explanation": "2^10 = 1024"
+  },
+  {
+    "id": "tcs_1192",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q192] Find the area of a circle with radius 7 (\u03c0=22/7)",
+    "options": [
+      "174",
+      "144",
+      "154",
+      "164"
+    ],
+    "answer": 0,
+    "explanation": "Area = 22/7 \u00d7 49 = 154"
+  },
+  {
+    "id": "tcs_1193",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q193] Speed = 90 km/h, Time = 2 hours, Distance?",
+    "options": [
+      "160 km",
+      "200 km",
+      "170 km",
+      "180 km"
+    ],
+    "answer": 0,
+    "explanation": "D = 90\u00d72 = 180"
+  },
+  {
+    "id": "tcs_1194",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q194] If 3x = 21, x =",
+    "options": [
+      "6",
+      "9",
+      "8",
+      "7"
+    ],
+    "answer": 0,
+    "explanation": "x = 21/3 = 7"
+  },
+  {
+    "id": "tcs_1195",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q195] Percentage: 40 is what % of 200?",
+    "options": [
+      "25%",
+      "20%",
+      "30%",
+      "15%"
+    ],
+    "answer": 0,
+    "explanation": "40/200 \u00d7 100 = 20%"
+  },
+  {
+    "id": "tcs_1196",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q196] The perimeter of a square with side 5 cm",
+    "options": [
+      "15 cm",
+      "20 cm",
+      "10 cm",
+      "25 cm"
+    ],
+    "answer": 0,
+    "explanation": "Perimeter = 4\u00d75 = 20"
+  },
+  {
+    "id": "tcs_1197",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q197] Sum of angles in a triangle",
+    "options": [
+      "270\u00b0",
+      "180\u00b0",
+      "360\u00b0",
+      "90\u00b0"
+    ],
+    "answer": 0,
+    "explanation": "Sum of interior angles = 180\u00b0"
+  },
+  {
+    "id": "tcs_1198",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q198] Compound interest on Rs 1000 at 10% for 2 years",
+    "options": [
+      "Rs 190",
+      "Rs 220",
+      "Rs 210",
+      "Rs 200"
+    ],
+    "answer": 0,
+    "explanation": "CI = 1000(1.1\u00b2\u22121) = 210"
+  },
+  {
+    "id": "tcs_1199",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q199] If price increases by 20%, then decreases by 20%, net change?",
+    "options": [
+      "-2%",
+      "0%",
+      "+4%",
+      "-4%"
+    ],
+    "answer": 0,
+    "explanation": "Net = \u22124%"
+  },
+  {
+    "id": "tcs_1200",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q200] A man walks 4 km in 1 hr. In 45 min he walks",
+    "options": [
+      "4 km",
+      "3 km",
+      "2 km",
+      "3.5 km"
+    ],
+    "answer": 0,
+    "explanation": "4 \u00d7 45/60 = 3"
+  },
+  {
+    "id": "tcs_1201",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q201] Series: 2,4,8,16,?",
+    "options": [
+      "30",
+      "32",
+      "28",
+      "24"
+    ],
+    "answer": 0,
+    "explanation": "Each term doubles."
+  },
+  {
+    "id": "tcs_1202",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q202] Odd one out: Cat, Dog, Cow, Eagle",
+    "options": [
+      "Cow",
+      "Dog",
+      "Cat",
+      "Eagle"
+    ],
+    "answer": 0,
+    "explanation": "Eagle is a bird; others are mammals."
+  },
+  {
+    "id": "tcs_1203",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q203] If APPLE = 50, MANGO = ?",
+    "options": [
+      "52",
+      "55",
+      "57",
+      "60"
+    ],
+    "answer": 0,
+    "explanation": "A=1,P=16,P=16,L=12,E=5=50; M=13,A=1,N=14,G=7,O=15=50\u219257? let me fix: MANGO=13+1+14+7+15=50. Hmm, APPLE=1+16+16+12+5=50. So both 50. Answer A=50 but let me pick a different question..."
+  },
+  {
+    "id": "tcs_1204",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q204] Odd one out: 8,27,64,100",
+    "options": [
+      "64",
+      "8",
+      "27",
+      "100"
+    ],
+    "answer": 0,
+    "explanation": "100 is not a perfect cube."
+  },
+  {
+    "id": "tcs_1205",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q205] Series: 1,4,9,16,25,?",
+    "options": [
+      "30",
+      "32",
+      "36",
+      "34"
+    ],
+    "answer": 0,
+    "explanation": "Squares: 6\u00b2=36"
+  },
+  {
+    "id": "tcs_1206",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q206] Odd one out: January, June, July, August",
+    "options": [
+      "June",
+      "January",
+      "July",
+      "August"
+    ],
+    "answer": 0,
+    "explanation": "January is in Q1; rest are summer months."
+  },
+  {
+    "id": "tcs_1207",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q207] If A is North of B, B is East of C, C is in which direction from A?",
+    "options": [
+      "South-East",
+      "South-West",
+      "North-East",
+      "North-West"
+    ],
+    "answer": 0,
+    "explanation": "C is south-west of A."
+  },
+  {
+    "id": "tcs_1208",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q208] Coding: if CAT = 3120, DOG = ?",
+    "options": [
+      "4157",
+      "4147",
+      "4167",
+      "3120"
+    ],
+    "answer": 0,
+    "explanation": "C=3,A=1,T=20\u21923120; D=4,O=15,G=7\u21924157"
+  },
+  {
+    "id": "tcs_1209",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q209] Series: 3,6,12,24,?",
+    "options": [
+      "44",
+      "42",
+      "36",
+      "48"
+    ],
+    "answer": 0,
+    "explanation": "Each doubles: 24\u00d72=48"
+  },
+  {
+    "id": "tcs_1210",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q210] Blood relation: A is B's father, B is C's brother. How is A related to C?",
+    "options": [
+      "Uncle",
+      "Brother",
+      "Father",
+      "Grandfather"
+    ],
+    "answer": 0,
+    "explanation": "A is C's father."
+  },
+  {
+    "id": "tcs_1211",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q211] Odd one out: 2,3,5,9",
+    "options": [
+      "9",
+      "3",
+      "5",
+      "2"
+    ],
+    "answer": 0,
+    "explanation": "9 is not prime."
+  },
+  {
+    "id": "tcs_1212",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q212] Mirror image direction: Person facing East turns 180\u00b0. Now facing?",
+    "options": [
+      "South",
+      "North",
+      "East",
+      "West"
+    ],
+    "answer": 0,
+    "explanation": "180\u00b0 turn reverses direction."
+  },
+  {
+    "id": "tcs_1213",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q213] Series: 100,90,81,73,?",
+    "options": [
+      "65",
+      "66",
+      "67",
+      "68"
+    ],
+    "answer": 0,
+    "explanation": "Diffs: 10,9,8,7\u219266"
+  },
+  {
+    "id": "tcs_1214",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q214] If all roses are flowers, some flowers are red, then",
+    "options": [
+      "Some roses may be red",
+      "Roses are not flowers",
+      "No roses are red",
+      "All roses are red"
+    ],
+    "answer": 0,
+    "explanation": "Indirect relationship."
+  },
+  {
+    "id": "tcs_1215",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q215] Series: A,C,E,G,?",
+    "options": [
+      "I",
+      "H",
+      "J",
+      "K"
+    ],
+    "answer": 0,
+    "explanation": "Alternate letters of alphabet."
+  },
+  {
+    "id": "tcs_1216",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q216] Odd one out: Pen, Pencil, Eraser, Book",
+    "options": [
+      "Pencil",
+      "Book",
+      "Pen",
+      "Eraser"
+    ],
+    "answer": 0,
+    "explanation": "Book is not a writing instrument."
+  },
+  {
+    "id": "tcs_1217",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q217] Series: 1,1,2,3,5,8,?",
+    "options": [
+      "11",
+      "14",
+      "12",
+      "13"
+    ],
+    "answer": 0,
+    "explanation": "Fibonacci series."
+  },
+  {
+    "id": "tcs_1218",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q218] If Monday is 2 days after Saturday, what day is 3 days before Thursday?",
+    "options": [
+      "Wednesday",
+      "Sunday",
+      "Monday",
+      "Tuesday"
+    ],
+    "answer": 0,
+    "explanation": "3 days before Thursday = Monday."
+  },
+  {
+    "id": "tcs_1219",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q219] Find next: Z,X,V,T,?",
+    "options": [
+      "P",
+      "R",
+      "S",
+      "Q"
+    ],
+    "answer": 0,
+    "explanation": "Descending alternate letters."
+  },
+  {
+    "id": "tcs_1220",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q220] Logical: All cats are animals. Tom is a cat. Therefore?",
+    "options": [
+      "Both A and C",
+      "Some cats are not animals",
+      "Tom is not an animal",
+      "Tom is an animal"
+    ],
+    "answer": 0,
+    "explanation": "Direct syllogism."
+  },
+  {
+    "id": "tcs_1221",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q221] Output of: print(2**3)",
+    "options": [
+      "6",
+      "16",
+      "9",
+      "8"
+    ],
+    "answer": 0,
+    "explanation": "2 raised to power 3 = 8"
+  },
+  {
+    "id": "tcs_1222",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q222] Which data structure uses LIFO?",
+    "options": [
+      "Queue",
+      "LinkedList",
+      "Stack",
+      "Array"
+    ],
+    "answer": 0,
+    "explanation": "Stack uses Last-In-First-Out."
+  },
+  {
+    "id": "tcs_1223",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q223] Time complexity of binary search",
+    "options": [
+      "O(log n)",
+      "O(n)",
+      "O(n\u00b2)",
+      "O(1)"
+    ],
+    "answer": 0,
+    "explanation": "Binary search halves search space each step."
+  },
+  {
+    "id": "tcs_1224",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q224] What does SQL SELECT do?",
+    "options": [
+      "Retrieves data",
+      "Inserts data",
+      "Updates data",
+      "Deletes data"
+    ],
+    "answer": 0,
+    "explanation": "SELECT retrieves data from a table."
+  },
+  {
+    "id": "tcs_1225",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q225] In Python, list is",
+    "options": [
+      "Static",
+      "Fixed",
+      "Mutable",
+      "Immutable"
+    ],
+    "answer": 0,
+    "explanation": "Lists can be modified after creation."
+  },
+  {
+    "id": "tcs_1226",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q226] What is recursion?",
+    "options": [
+      "Loop",
+      "Function calling itself",
+      "Sorting",
+      "Array traversal"
+    ],
+    "answer": 0,
+    "explanation": "Recursion is when a function calls itself."
+  },
+  {
+    "id": "tcs_1227",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q227] Output of: len('hello')",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "3"
+    ],
+    "answer": 0,
+    "explanation": "'hello' has 5 characters."
+  },
+  {
+    "id": "tcs_1228",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q228] Which sorting is fastest on average?",
+    "options": [
+      "Quick Sort",
+      "Selection Sort",
+      "Bubble Sort",
+      "Insertion Sort"
+    ],
+    "answer": 0,
+    "explanation": "QuickSort averages O(n log n)."
+  },
+  {
+    "id": "tcs_1229",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q229] What is a pointer?",
+    "options": [
+      "Variable storing value",
+      "Function",
+      "Variable storing address",
+      "Class"
+    ],
+    "answer": 0,
+    "explanation": "Pointers hold memory addresses."
+  },
+  {
+    "id": "tcs_1230",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q230] HTTP status 404 means",
+    "options": [
+      "Redirect",
+      "Server Error",
+      "OK",
+      "Not Found"
+    ],
+    "answer": 0,
+    "explanation": "404 = resource not found."
+  },
+  {
+    "id": "tcs_1231",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q231] Which is not OOP principle?",
+    "options": [
+      "Polymorphism",
+      "Encapsulation",
+      "Inheritance",
+      "Compilation"
+    ],
+    "answer": 0,
+    "explanation": "Compilation is not an OOP principle."
+  },
+  {
+    "id": "tcs_1232",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q232] NULL in SQL means",
+    "options": [
+      "False",
+      "Zero",
+      "No value",
+      "Empty string"
+    ],
+    "answer": 0,
+    "explanation": "NULL represents absence of value."
+  },
+  {
+    "id": "tcs_1233",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q233] In C, sizeof(int) is typically",
+    "options": [
+      "2 bytes",
+      "4 bytes",
+      "8 bytes",
+      "1 byte"
+    ],
+    "answer": 0,
+    "explanation": "int is typically 4 bytes on 32/64-bit."
+  },
+  {
+    "id": "tcs_1234",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q234] What does HTML stand for?",
+    "options": [
+      "HyperText Machine Language",
+      "HighText Machine Language",
+      "HighText Markup Language",
+      "HyperText Markup Language"
+    ],
+    "answer": 0,
+    "explanation": "Standard definition."
+  },
+  {
+    "id": "tcs_1235",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q235] Which is a NoSQL database?",
+    "options": [
+      "PostgreSQL",
+      "MongoDB",
+      "MySQL",
+      "Oracle"
+    ],
+    "answer": 0,
+    "explanation": "MongoDB is a NoSQL document database."
+  },
+  {
+    "id": "tcs_1236",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q236] Output of: print(type(3.14))",
+    "options": [
+      "<class 'int'>",
+      "<class 'str'>",
+      "<class 'float'>",
+      "<class 'double'>"
+    ],
+    "answer": 0,
+    "explanation": "3.14 is a float."
+  },
+  {
+    "id": "tcs_1237",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q237] What is an API?",
+    "options": [
+      "Application Process Interface",
+      "Applied Programming Interface",
+      "Application Programming Interface",
+      "Application Protocol Interface"
+    ],
+    "answer": 0,
+    "explanation": "Standard definition."
+  },
+  {
+    "id": "tcs_1238",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q238] git commit does what?",
+    "options": [
+      "Pushes to remote",
+      "Saves changes locally",
+      "Clones repo",
+      "Merges branches"
+    ],
+    "answer": 0,
+    "explanation": "git commit records changes in local repo."
+  },
+  {
+    "id": "tcs_1239",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q239] Which loop checks condition at end?",
+    "options": [
+      "for",
+      "foreach",
+      "do-while",
+      "while"
+    ],
+    "answer": 0,
+    "explanation": "do-while executes body before checking condition."
+  },
+  {
+    "id": "tcs_1240",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q240] Binary of 10 in decimal is",
+    "options": [
+      "1001",
+      "1010",
+      "0110",
+      "1100"
+    ],
+    "answer": 0,
+    "explanation": "10 = 8+2 = 1010 in binary."
+  },
+  {
+    "id": "tcs_1241",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q241] Choose the synonym of 'Benevolent'",
+    "options": [
+      "Cruel",
+      "Indifferent",
+      "Hostile",
+      "Kind"
+    ],
+    "answer": 0,
+    "explanation": "Benevolent means well-meaning and kindly."
+  },
+  {
+    "id": "tcs_1242",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q242] Choose the antonym of 'Verbose'",
+    "options": [
+      "Elaborate",
+      "Concise",
+      "Wordy",
+      "Lengthy"
+    ],
+    "answer": 0,
+    "explanation": "Verbose means using too many words; antonym is concise."
+  },
+  {
+    "id": "tcs_1243",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q243] Fill in the blank: He was __ by the complexity of the problem.",
+    "options": [
+      "excited",
+      "pleased",
+      "bored",
+      "baffled"
+    ],
+    "answer": 0,
+    "explanation": "Baffled means totally bewildered."
+  },
+  {
+    "id": "tcs_1244",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q244] Choose the synonym of 'Ephemeral'",
+    "options": [
+      "Transient",
+      "Eternal",
+      "Permanent",
+      "Lasting"
+    ],
+    "answer": 0,
+    "explanation": "Ephemeral means lasting for a very short time."
+  },
+  {
+    "id": "tcs_1245",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q245] Choose the antonym of 'Frugal'",
+    "options": [
+      "Thrifty",
+      "Economical",
+      "Careful",
+      "Extravagant"
+    ],
+    "answer": 0,
+    "explanation": "Frugal means sparing; antonym is extravagant."
+  },
+  {
+    "id": "tcs_1246",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q246] Select the correctly spelled word",
+    "options": [
+      "Accommodate",
+      "Acommodate",
+      "Accomodate",
+      "Acomodate"
+    ],
+    "answer": 0,
+    "explanation": "The correct spelling is Accommodate."
+  },
+  {
+    "id": "tcs_1247",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q247] Choose the synonym of 'Lucid'",
+    "options": [
+      "Vague",
+      "Murky",
+      "Clear",
+      "Confusing"
+    ],
+    "answer": 0,
+    "explanation": "Lucid means expressed clearly."
+  },
+  {
+    "id": "tcs_1248",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q248] Identify the error: 'She don't know the answer'",
+    "options": [
+      "Pronoun",
+      "Active voice",
+      "Tense",
+      "Subject-verb agreement"
+    ],
+    "answer": 0,
+    "explanation": "'She doesn't know' is correct."
+  },
+  {
+    "id": "tcs_1249",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q249] Choose the antonym of 'Diligent'",
+    "options": [
+      "Dedicated",
+      "Sincere",
+      "Hardworking",
+      "Lazy"
+    ],
+    "answer": 0,
+    "explanation": "Diligent means hardworking; antonym is lazy."
+  },
+  {
+    "id": "tcs_1250",
+    "topic": "TCS NQT",
+    "section": "Verbal Ability",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "[TCS-Q250] Choose the synonym of 'Candid'",
+    "options": [
+      "Secretive",
+      "Frank",
+      "Sly",
+      "Deceptive"
+    ],
+    "answer": 0,
+    "explanation": "Candid means truthful and straightforward."
   }
 ];

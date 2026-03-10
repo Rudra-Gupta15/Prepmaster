@@ -119,7 +119,7 @@ export default function QuizEngine({ questions: rawQ, title, color, onComplete, 
           <span className={styles.typeBadge}>{q.type}</span>
           <span style={{ fontSize: 11, fontWeight: 700, color: diffColors[q.difficulty] }}>{q.difficulty}</span>
         </div>
-        <p className={styles.qText}>{q.question}</p>
+        <p className={styles.qText}>{q.question.replace(/^\[[^\]]+\]\s*/, '')}</p>
       </div>
 
       {/* Options */}

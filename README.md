@@ -2,10 +2,10 @@
 
 > **[Live Demo: prepmaster-gold.vercel.app](https://prepmaster-gold.vercel.app/)**
 
-**PrepMaster** is a premium, high-performance quiz platform designed to help students and professionals crack placements and technical interviews. It features **4000+ curated questions** across 5 major career tracks, realistic mock tests, and a dedicated notebook for topic-wise library explanations.
+**PrepMaster** is a premium, high-performance quiz platform designed to help students and professionals crack placements and technical interviews. It features **5,600+ curated questions** across 5 major career tracks, realistic mock tests, and a dedicated notebook for topic-wise library explanations.
 
 ## 🚀 Key Features
-- **4000+ Verified Questions**: Real-world interview questions with detailed explanations, synchronized with actual data banks.
+- **5,600+ Verified Questions**: Real-world interview questions with detailed explanations, synchronized with actual data banks.
 - **5 Premium Career Tracks**: TCS NQT, AI & ML, React Engineer, SAP Engineer, and DevOps Engineer.
 - **Mobile Responsive**: Fully optimized for phones and tablets with a high-priority **Hamburger Menu**, viewport-locking, and animated drawer system.
 - **Premium UI**: Modern Glassmorphism design with absolute layout stability and refined mobile interactions.
@@ -39,19 +39,24 @@ src/
     └── NotebookPage.jsx     # Technical library & notes
 ```
 
-## 📊 Content Breakdown (Total: 4000+ Questions)
+## 📊 Content Breakdown (Total: 5,699 Questions)
 
-### 🏢 TCS NQT (1000 questions)
-- **Verbal Ability**: 234 questions
-- **Reasoning Ability**: 205 questions
-- **Numerical Ability**: 167 questions
-- **Programming Logic**: 394 questions
+### 🏢 TCS NQT (2,100 questions)
+- **Verbal Ability**: 700 questions
+- **Reasoning Ability**: 700 questions
+- **Numerical Ability**: 700 questions
 
 ### 🤖 Career Tracks
-- **AI & ML**: 1000 questions (LLMs, Deep Learning, Agents, RL, etc.)
-- **React Engineer**: 790 questions (Hooks, State, Performance, Advanced)
-- **SAP Engineer**: 715 questions (ABAP, MM, FI, CO, SD, Basis)
-- **DevOps Engineer**: 565 questions (Docker, Kubernetes, CI/CD, IaC, Cloud)
+- **AI & ML**: 900 questions (ML Basics, Deep Learning, NLP & CV, GenAI & Agents)
+- **React Engineer**: 900 questions (JS Fundamentals, Hooks & State, Performance, Advanced Patterns)
+- **SAP Engineer**: 899 questions (ABAP, MM, FI/CO, SD/Basis)
+- **DevOps Engineer**: 900 questions (Docker & Containers, CI/CD, Kubernetes, Cloud & IaC)
+
+## 📂 Dataset
+
+The raw CSV question data is publicly available on Kaggle:
+
+🔗 **[PrepMaster — Placement & Interview Quiz Questions](https://www.kaggle.com/datasets/rudrakumargupta/prepmaster-placement-and-interview-quiz-questions)**
 
 ---
 

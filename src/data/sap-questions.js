@@ -1,16002 +1,14402 @@
 export const sapQuestions = [
   {
-    "id": "sap_1001",
+    "id": "SAP_ABA_001",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q1] SAP stands for",
-    "options": [
-      "Software Application Platform",
-      "None of the above",
-      "Systems Automated Products",
-      "Systems Applications Products"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1002",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q2] SAP ERP stands for",
-    "options": [
-      "Enterprise Resource Program",
-      "Enterprise Resource Planning",
-      "Cannot be determined",
-      "Extended Resource Planning"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1003",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q3] SAP HANA is",
-    "options": [
-      "NoSQL DB",
-      "Relational DB",
-      "In-memory database",
-      "Cloud only"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1004",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q4] SAP S/4HANA runs on",
-    "options": [
-      "Any database",
-      "SAP HANA DB only",
-      "Oracle only",
-      "MySQL"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1005",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q5] ABAP stands for",
+    "question": "What does ABAP stand for?",
     "options": [
       "Advanced Business Application Programming",
-      "Neither A nor B",
-      "Advanced Basic App Programming",
-      "Automated Business App Programming"
+      "Automated Business Application Programming",
+      "Advanced Basic Application Processing",
+      "Adaptive Business Application Programming"
     ],
     "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
+    "explanation": "The correct answer is Advanced Business Application Programming."
   },
   {
-    "id": "sap_1006",
+    "id": "SAP_ABA_002",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q6] SAP FI module handles",
+    "question": "Which statement is used to define an internal table in ABAP?",
     "options": [
-      "Logistics",
-      "Financial Accounting",
-      "Sales",
-      "Production Planning"
+      "DATA itab TYPE TABLE OF",
+      "DEFINE TABLE itab",
+      "CREATE TABLE itab",
+      "INTERNAL TABLE itab"
     ],
     "answer": 0,
-    "explanation": "FI module manages financial accounting."
+    "explanation": "The correct answer is DATA itab TYPE TABLE OF."
   },
   {
-    "id": "sap_1007",
+    "id": "SAP_ABA_003",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q7] SAP CO module handles",
+    "question": "What is a transparent table in ABAP?",
     "options": [
-      "Controlling",
-      "Procurement",
-      "Financial Accounting",
-      "HR"
+      "A table with a one-to-one relationship with the database table",
+      "A table that is not stored in the database",
+      "A table only in memory",
+      "A temporary table"
     ],
     "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
+    "explanation": "The correct answer is A table with a one-to-one relationship with the database table."
   },
   {
-    "id": "sap_1008",
+    "id": "SAP_ABA_004",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q8] SAP MM module handles",
+    "question": "What is a pooled table in ABAP?",
     "options": [
-      "Marketing",
-      "Maintenance",
-      "Manufacturing",
-      "Materials Management"
+      "Many logical tables stored in one physical table",
+      "One table stored in many databases",
+      "A temporary table",
+      "A transparent table variant"
     ],
     "answer": 0,
-    "explanation": "MM handles procurement and inventory."
+    "explanation": "The correct answer is Many logical tables stored in one physical table."
   },
   {
-    "id": "sap_1009",
+    "id": "SAP_ABA_005",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q9] SAP SD module handles",
+    "question": "What is a cluster table?",
     "options": [
-      "Both B and C",
-      "System Design",
-      "Sales and Distribution",
-      "Software Development"
+      "Contains data from multiple logical tables stored together",
+      "Single table in database",
+      "Memory-only table",
+      "Transparent table variant"
     ],
     "answer": 0,
-    "explanation": "SD manages order-to-cash process."
+    "explanation": "The correct answer is Contains data from multiple logical tables stored together."
   },
   {
-    "id": "sap_1010",
+    "id": "SAP_ABA_006",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q10] SAP PP module handles",
+    "question": "What keyword is used to loop over an internal table in ABAP?",
     "options": [
-      "Payroll",
-      "Procurement",
-      "All of the above",
-      "Production Planning"
+      "LOOP AT",
+      "FOR EACH",
+      "ITERATE",
+      "FOREACH"
     ],
     "answer": 0,
-    "explanation": "PP manages manufacturing processes."
+    "explanation": "The correct answer is LOOP AT."
   },
   {
-    "id": "sap_1011",
+    "id": "SAP_ABA_007",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q11] What is a SAP Client?",
+    "question": "What is a field symbol in ABAP?",
     "options": [
-      "Server",
-      "Database",
-      "Module",
-      "Organizational unit in SAP"
+      "A pointer/reference to a data object",
+      "A custom field name",
+      "A database column",
+      "A structure element"
     ],
     "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
+    "explanation": "The correct answer is A pointer/reference to a data object."
   },
   {
-    "id": "sap_1012",
+    "id": "SAP_ABA_008",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q12] T-code in SAP means",
+    "question": "How do you define a field symbol?",
     "options": [
-      "Transaction code",
-      "Technical code",
-      "The above is incorrect",
-      "Transfer code"
+      "FIELD-SYMBOLS: <fs> TYPE type",
+      "FIELD-SYMBOL <fs>",
+      "DEFINE SYMBOL <fs>",
+      "DATA <fs> SYMBOL"
     ],
     "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
+    "explanation": "The correct answer is FIELD-SYMBOLS: <fs> TYPE type."
   },
   {
-    "id": "sap_1013",
+    "id": "SAP_ABA_009",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the purpose of SELECT * FROM in ABAP?",
+    "options": [
+      "Retrieves all columns from a database table",
+      "Selects one column",
+      "Selects from internal table only",
+      "Creates a new table"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Retrieves all columns from a database table."
+  },
+  {
+    "id": "SAP_ABA_010",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is an ALV report?",
+    "options": [
+      "ABAP List Viewer — a tool for displaying reports in a grid",
+      "Advanced Lookup View",
+      "Automated List Variables",
+      "Abstract Layout View"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is ABAP List Viewer — a tool for displaying reports in a grid."
+  },
+  {
+    "id": "SAP_ABA_011",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q13] SE38 is used for",
+    "question": "What is the MODIFY statement used for in ABAP?",
     "options": [
+      "Updates a record in a database table or internal table",
+      "Creates a new entry",
+      "Deletes a record",
+      "Reads data"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Updates a record in a database table or internal table."
+  },
+  {
+    "id": "SAP_ABA_012",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a function module in ABAP?",
+    "options": [
+      "Reusable subroutine with defined interface",
+      "A class method",
+      "A report program",
+      "A data structure"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reusable subroutine with defined interface."
+  },
+  {
+    "id": "SAP_ABA_013",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a BAPI?",
+    "options": [
+      "Business Application Programming Interface — standard SAP function modules",
+      "Basic ABAP Procedure Interface",
+      "Business ABAP Protocol Interface",
+      "Basic API for ABAP"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Business Application Programming Interface — standard SAP function modules."
+  },
+  {
+    "id": "SAP_ABA_014",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is an enhancement spot in ABAP?",
+    "options": [
+      "A predefined place in standard SAP code where custom code can be added",
+      "A debug breakpoint",
+      "A performance hotspot",
+      "A code error"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A predefined place in standard SAP code where custom code can be added."
+  },
+  {
+    "id": "SAP_ABA_015",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a user exit in ABAP?",
+    "options": [
+      "A hook point in SAP standard code that can be enhanced",
+      "Exit from a program",
+      "Error handling routine",
+      "Authorization check"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A hook point in SAP standard code that can be enhanced."
+  },
+  {
+    "id": "SAP_ABA_016",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the BADI (Business Add-In) concept?",
+    "options": [
+      "An object-oriented enhancement technique in SAP",
+      "A function module",
+      "A database view",
+      "A report transaction"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is An object-oriented enhancement technique in SAP."
+  },
+  {
+    "id": "SAP_ABA_017",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a SELECT-OPTIONS statement used for?",
+    "options": [
+      "Defines a selection screen field that accepts ranges",
+      "Selects database records",
+      "Defines table options",
+      "Creates an index"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defines a selection screen field that accepts ranges."
+  },
+  {
+    "id": "SAP_ABA_018",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a PARAMETERS statement?",
+    "options": [
+      "Defines a single input field on selection screen",
+      "Creates a report parameter",
+      "Defines a database parameter",
+      "Initializes a variable"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defines a single input field on selection screen."
+  },
+  {
+    "id": "SAP_ABA_019",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a CALL FUNCTION used for in ABAP?",
+    "options": [
+      "Invokes a function module",
+      "Creates a function",
+      "Defines a function",
+      "Ends a function call"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Invokes a function module."
+  },
+  {
+    "id": "SAP_ABA_020",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of COMMIT WORK?",
+    "options": [
+      "Saves database changes permanently",
+      "Rolls back changes",
+      "Creates a savepoint",
+      "Locks a record"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Saves database changes permanently."
+  },
+  {
+    "id": "SAP_ABA_021",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is ROLLBACK WORK used for?",
+    "options": [
+      "Undoes all database changes since last commit",
+      "Saves changes",
+      "Creates a checkpoint",
+      "Releases locks"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Undoes all database changes since last commit."
+  },
+  {
+    "id": "SAP_ABA_022",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a FORM routine in ABAP?",
+    "options": [
+      "A subroutine defined with FORM and called with PERFORM",
+      "A class method",
+      "A function module variant",
+      "A method interface"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A subroutine defined with FORM and called with PERFORM."
+  },
+  {
+    "id": "SAP_ABA_023",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is an SAP Report transaction?",
+    "options": [
+      "SE38 — ABAP Editor",
+      "SE11",
+      "SM30",
+      "SU01"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SE38 — ABAP Editor."
+  },
+  {
+    "id": "SAP_ABA_024",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is SE11 transaction used for?",
+    "options": [
+      "ABAP Data Dictionary",
       "ABAP Editor",
-      "The above is incorrect",
-      "User management",
-      "Table display"
+      "Table maintenance",
+      "Transport management"
     ],
     "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
+    "explanation": "The correct answer is ABAP Data Dictionary."
   },
   {
-    "id": "sap_1014",
+    "id": "SAP_ABA_025",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q14] SE16 is used for",
+    "question": "What is SM30 used for?",
     "options": [
-      "Both A and B",
-      "Program editor",
-      "Table browser",
-      "Transport"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1015",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q15] Transport request in SAP",
-    "options": [
-      "Backs up DB",
-      "Both B and C",
-      "Stores data",
-      "Moves changes between systems"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1016",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q16] SAP Basis team manages",
-    "options": [
-      "Logistics",
-      "Both B and C",
-      "Finance",
-      "Technical infrastructure"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1017",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q17] What is an IDOC?",
-    "options": [
-      "Integration Document",
-      "None of the above",
-      "Internal Document",
-      "Intermediate Document"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1018",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q18] RFC in SAP stands for",
-    "options": [
-      "The above is incorrect",
-      "Rapid Function Call",
-      "Remote Function Call",
-      "Remote File Copy"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1019",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q19] BAPI stands for",
-    "options": [
-      "Business Automated Program Interface",
-      "Basic API",
-      "Business Application Programming Interface",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1020",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q20] What is SAP Fiori?",
-    "options": [
-      "Database",
-      "Language",
-      "Modern UI for SAP",
-      "Module"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1021",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q21] SAP HR module is also called",
-    "options": [
-      "SAP MM",
-      "SAP FI",
-      "SAP HCM",
-      "SAP PP"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1022",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q22] SAP CRM stands for",
-    "options": [
-      "Core Resource Module",
-      "Central Resource Management",
-      "Customer Relationship Management",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1023",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q23] What is a cost center in SAP?",
-    "options": [
-      "Both A and B",
-      "Profit center",
-      "Revenue unit",
-      "Organizational unit for costs"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1024",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q24] G/L in SAP FI means",
-    "options": [
-      "Cannot be determined",
-      "Global Ledger",
-      "General Line",
-      "General Ledger"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1025",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q25] SAP PM module handles",
-    "options": [
-      "Plant Maintenance",
-      "Insufficient information",
-      "Production Module",
-      "Product Management"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1026",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q26] What is a purchase order in SAP MM?",
-    "options": [
-      "The above is incorrect",
-      "Sales document",
-      "Delivery note",
-      "Document to procure goods"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1027",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q27] Profit center in SAP is",
-    "options": [
-      "Department",
-      "Both B and C",
-      "Cost unit",
-      "Sub-unit for profitability"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1028",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q28] What is SAP BW?",
-    "options": [
-      "Business Warehouse/Analytics",
-      "Business Writing",
-      "Option not applicable",
-      "Basic Workflow"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1029",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q29] What is a goods receipt?",
-    "options": [
-      "Recording received materials",
-      "Neither A nor B",
-      "Invoice",
-      "PO"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1030",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q30] LSMW in SAP",
-    "options": [
-      "Legacy System Migration Workbench",
-      "Log System Management",
-      "Both B and C",
-      "Load System Module"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1031",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q31] SAP Solution Manager is used for",
-    "options": [
-      "Database management",
-      "ALM and support",
-      "Cannot be determined",
-      "UI design"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1032",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q32] What is a business partner in SAP?",
-    "options": [
-      "Customer/vendor master data",
-      "Module",
-      "Organizational unit",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1033",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q33] Controlling area in SAP CO",
-    "options": [
-      "Cannot be determined",
-      "HR unit",
-      "Financial unit",
-      "Organizational unit for cost control"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1034",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q34] SAP EWM stands for",
-    "options": [
-      "Insufficient information",
-      "Extended Warehouse Management",
-      "Enterprise Workflow Module",
-      "Extended Web Module"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1035",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q35] Dunning in SAP FI",
-    "options": [
-      "Data not provided",
-      "Goods receipt",
-      "Invoice",
-      "Automated payment reminders"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1036",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q36] SAP TM module handles",
-    "options": [
-      "Technical Management",
-      "Transportation Management",
-      "Time Management",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1037",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q37] What is a SAP landscape?",
-    "options": [
-      "Database cluster",
-      "Network topology",
-      "Neither A nor B",
-      "System arrangement DEV/QA/PROD"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1038",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q38] Authorization object in SAP",
-    "options": [
-      "Controls access to functions",
-      "Stores data",
-      "None of the above",
-      "Transports objects"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1039",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q39] SU01 T-code is used for",
-    "options": [
-      "The above is incorrect",
-      "Table view",
-      "ABAP editor",
+      "Table view maintenance",
+      "Database administration",
+      "Transport request",
       "User management"
     ],
     "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
+    "explanation": "The correct answer is Table view maintenance."
   },
   {
-    "id": "sap_1040",
+    "id": "SAP_ABA_026",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q40] What is a work center in SAP PP?",
+    "question": "What is ABAP OO (Object-Oriented)?",
     "options": [
-      "Where production operations occur",
-      "Storage location",
-      "All of the above",
-      "Cost center"
+      "ABAP supporting classes, interfaces, inheritance, and polymorphism",
+      "Procedural ABAP only",
+      "Functional ABAP",
+      "Scripting ABAP"
     ],
     "answer": 0,
-    "explanation": "Work centers define resources for production."
+    "explanation": "The correct answer is ABAP supporting classes, interfaces, inheritance, and polymorphism."
   },
   {
-    "id": "sap_1041",
+    "id": "SAP_ABA_027",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q41] SAP stands for",
+    "question": "How is a class defined in ABAP OO?",
     "options": [
-      "Insufficient information",
-      "Systems Applications Products",
-      "Software Application Platform",
-      "Systems Automated Products"
+      "CLASS classname DEFINITION",
+      "DEFINE CLASS classname",
+      "OBJECT classname",
+      "CLASS NEW classname"
     ],
     "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
+    "explanation": "The correct answer is CLASS classname DEFINITION."
   },
   {
-    "id": "sap_1042",
+    "id": "SAP_ABA_028",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q42] SAP ERP stands for",
+    "question": "What is an interface in ABAP OO?",
     "options": [
-      "All of the above",
-      "Extended Resource Planning",
-      "Enterprise Resource Program",
-      "Enterprise Resource Planning"
+      "A contract defining methods that implementing classes must code",
+      "A class with code",
+      "An abstract class",
+      "A function group"
     ],
     "answer": 0,
-    "explanation": "ERP integrates core business processes."
+    "explanation": "The correct answer is A contract defining methods that implementing classes must code."
   },
   {
-    "id": "sap_1043",
+    "id": "SAP_ABA_029",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q43] SAP HANA is",
+    "question": "What is exception handling in ABAP using?",
     "options": [
-      "Relational DB",
-      "In-memory database",
-      "Cloud only",
-      "NoSQL DB"
+      "TRY...CATCH...ENDTRY blocks",
+      "IF...ELSE blocks",
+      "CASE statements",
+      "LOOP structures"
     ],
     "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
+    "explanation": "The correct answer is TRY...CATCH...ENDTRY blocks."
   },
   {
-    "id": "sap_1044",
+    "id": "SAP_ABA_030",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q44] SAP S/4HANA runs on",
+    "question": "What is a transport request?",
     "options": [
-      "Oracle only",
-      "MySQL",
-      "SAP HANA DB only",
-      "Any database"
+      "Package that moves SAP configuration/code between systems",
+      "A database request",
+      "A batch job",
+      "A user request"
     ],
     "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
+    "explanation": "The correct answer is Package that moves SAP configuration/code between systems."
   },
   {
-    "id": "sap_1045",
+    "id": "SAP_ABA_031",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q45] ABAP stands for",
+    "question": "What is an ABAP program type 'report'?",
     "options": [
-      "Advanced Business Application Programming",
-      "Both B and C",
-      "Automated Business App Programming",
-      "Advanced Basic App Programming"
+      "Executable program that can be run directly",
+      "Background-only program",
+      "Include program",
+      "Function group"
     ],
     "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
+    "explanation": "The correct answer is Executable program that can be run directly."
   },
   {
-    "id": "sap_1046",
+    "id": "SAP_ABA_032",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q46] SAP FI module handles",
+    "question": "What is an include program in ABAP?",
     "options": [
-      "Financial Accounting",
-      "Sales",
-      "Production Planning",
-      "Logistics"
+      "Program included in another program using INCLUDE",
+      "Standalone executable",
+      "Function module",
+      "Database trigger"
     ],
     "answer": 0,
-    "explanation": "FI module manages financial accounting."
+    "explanation": "The correct answer is Program included in another program using INCLUDE."
   },
   {
-    "id": "sap_1047",
+    "id": "SAP_ABA_033",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q47] SAP CO module handles",
+    "question": "What is a function group in ABAP?",
     "options": [
-      "Financial Accounting",
-      "HR",
-      "Procurement",
-      "Controlling"
+      "Container for related function modules sharing global data",
+      "A class",
+      "A report type",
+      "A package"
     ],
     "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
+    "explanation": "The correct answer is Container for related function modules sharing global data."
   },
   {
-    "id": "sap_1048",
+    "id": "SAP_ABA_034",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q48] SAP MM module handles",
+    "question": "What is the DATA statement used for?",
     "options": [
-      "Maintenance",
-      "Marketing",
-      "Materials Management",
-      "Manufacturing"
+      "Declaring variables and data objects",
+      "Reading database",
+      "Creating tables",
+      "Defining subroutines"
     ],
     "answer": 0,
-    "explanation": "MM handles procurement and inventory."
+    "explanation": "The correct answer is Declaring variables and data objects."
   },
   {
-    "id": "sap_1049",
+    "id": "SAP_ABA_035",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q49] SAP SD module handles",
+    "question": "What is TYPES in ABAP?",
     "options": [
-      "Sales and Distribution",
-      "Neither A nor B",
-      "Software Development",
-      "System Design"
+      "Defines custom data types",
+      "Declares variables",
+      "Creates database tables",
+      "Defines exceptions"
     ],
     "answer": 0,
-    "explanation": "SD manages order-to-cash process."
+    "explanation": "The correct answer is Defines custom data types."
   },
   {
-    "id": "sap_1050",
+    "id": "SAP_ABA_036",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q50] SAP PP module handles",
+    "question": "What is a STRUCTURE in ABAP?",
     "options": [
-      "Production Planning",
-      "Procurement",
-      "Payroll",
-      "None of the above"
+      "A flat data object grouping multiple fields",
+      "An internal table",
+      "A database table",
+      "A class"
     ],
     "answer": 0,
-    "explanation": "PP manages manufacturing processes."
+    "explanation": "The correct answer is A flat data object grouping multiple fields."
   },
   {
-    "id": "sap_1051",
+    "id": "SAP_ABA_037",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q51] What is a SAP Client?",
+    "question": "What is a WORK AREA (wa) in ABAP?",
     "options": [
-      "Server",
-      "Organizational unit in SAP",
-      "Database",
-      "Module"
+      "A structure used to hold one row of an internal table",
+      "A multi-row buffer",
+      "A database buffer",
+      "A work process"
     ],
     "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
+    "explanation": "The correct answer is A structure used to hold one row of an internal table."
   },
   {
-    "id": "sap_1052",
+    "id": "SAP_ABA_038",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q52] T-code in SAP means",
+    "question": "How do you insert a record into an internal table?",
     "options": [
-      "None of the above",
-      "Transaction code",
-      "Transfer code",
-      "Technical code"
+      "APPEND or INSERT",
+      "ADD TO",
+      "PUT INTO",
+      "PUSH"
     ],
     "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
+    "explanation": "The correct answer is APPEND or INSERT."
   },
   {
-    "id": "sap_1053",
+    "id": "SAP_ABA_039",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q53] SE38 is used for",
+    "question": "What is a SORTED TABLE type in ABAP?",
     "options": [
-      "ABAP Editor",
-      "Both B and C",
-      "User management",
-      "Table display"
+      "Internal table automatically sorted by key",
+      "Unsorted table",
+      "Hashed table",
+      "Pooled table"
     ],
     "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
+    "explanation": "The correct answer is Internal table automatically sorted by key."
   },
   {
-    "id": "sap_1054",
+    "id": "SAP_ABA_040",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q54] SE16 is used for",
+    "question": "What is a HASHED TABLE in ABAP?",
     "options": [
-      "Table browser",
-      "Transport",
-      "Program editor",
-      "Data not provided"
+      "Internal table using hash algorithm for fast lookup by unique key",
+      "Sorted table with hash",
+      "Encrypted table",
+      "Compressed table"
     ],
     "answer": 0,
-    "explanation": "SE16 displays table contents."
+    "explanation": "The correct answer is Internal table using hash algorithm for fast lookup by unique key."
   },
   {
-    "id": "sap_1055",
+    "id": "SAP_ABA_041",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q55] Transport request in SAP",
+    "question": "What is AT SELECTION-SCREEN used for?",
     "options": [
-      "Stores data",
-      "Moves changes between systems",
-      "Backs up DB",
-      "Option not applicable"
+      "Handles events triggered during selection screen processing",
+      "Displays a screen",
+      "Creates selection options",
+      "Validates user input at runtime"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Validates user input at runtime."
+  },
+  {
+    "id": "SAP_ABA_042",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is WRITE statement in ABAP?",
+    "options": [
+      "Outputs data to a list",
+      "Writes to database",
+      "Writes to file",
+      "Logs data"
     ],
     "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
+    "explanation": "The correct answer is Outputs data to a list."
   },
   {
-    "id": "sap_1056",
+    "id": "SAP_ABA_043",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q56] SAP Basis team manages",
+    "question": "What is a BDC (Batch Data Communication)?",
     "options": [
-      "Technical infrastructure",
-      "Both B and C",
-      "Finance",
-      "Logistics"
+      "Method for mass data entry using batch input sessions",
+      "Batch database call",
+      "Background data check",
+      "Business data connector"
     ],
     "answer": 0,
-    "explanation": "Basis handles system administration."
+    "explanation": "The correct answer is Method for mass data entry using batch input sessions."
   },
   {
-    "id": "sap_1057",
+    "id": "SAP_ABA_044",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q57] What is an IDOC?",
+    "question": "What is the purpose of the AUTHORITY-CHECK statement?",
     "options": [
-      "Integration Document",
-      "Internal Document",
-      "Intermediate Document",
-      "The above is incorrect"
+      "Checks if the user has authorization for a specific activity",
+      "Grants authorization",
+      "Creates an authorization object",
+      "Lists authorization levels"
     ],
     "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
+    "explanation": "The correct answer is Checks if the user has authorization for a specific activity."
   },
   {
-    "id": "sap_1058",
+    "id": "SAP_ABA_045",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q58] RFC in SAP stands for",
+    "question": "What is SU24 transaction?",
     "options": [
-      "Remote Function Call",
-      "Remote File Copy",
-      "Rapid Function Call",
-      "Option not applicable"
+      "Assigns authorization objects to transactions",
+      "Creates users",
+      "Manages roles",
+      "Creates authorization profiles"
     ],
     "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
+    "explanation": "The correct answer is Assigns authorization objects to transactions."
   },
   {
-    "id": "sap_1059",
+    "id": "SAP_ABA_046",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q59] BAPI stands for",
+    "question": "What is SUBMIT in ABAP?",
     "options": [
-      "The above is incorrect",
-      "Business Application Programming Interface",
-      "Basic API",
-      "Business Automated Program Interface"
+      "Executes another ABAP report program",
+      "Submits a job",
+      "Saves a record",
+      "Sends a message"
     ],
     "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
+    "explanation": "The correct answer is Executes another ABAP report program."
   },
   {
-    "id": "sap_1060",
+    "id": "SAP_ABA_047",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q60] What is SAP Fiori?",
+    "question": "What is MESSAGE statement?",
     "options": [
-      "Module",
-      "Language",
-      "Modern UI for SAP",
-      "Database"
+      "Displays a message (Error/Warning/Info/Success) to the user",
+      "Sends mail",
+      "Logs to syslog",
+      "Creates a debug message"
     ],
     "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
+    "explanation": "The correct answer is Displays a message (Error/Warning/Info/Success) to the user."
   },
   {
-    "id": "sap_1061",
+    "id": "SAP_ABA_048",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q61] SAP HR module is also called",
+    "question": "What is a package (formerly development class) in ABAP?",
     "options": [
-      "SAP PP",
-      "SAP MM",
-      "SAP FI",
-      "SAP HCM"
+      "Organizes ABAP development objects",
+      "A compiled class",
+      "A database package",
+      "A module pool"
     ],
     "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
+    "explanation": "The correct answer is Organizes ABAP development objects."
   },
   {
-    "id": "sap_1062",
+    "id": "SAP_ABA_049",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q62] SAP CRM stands for",
+    "question": "What is the transaction SE80?",
     "options": [
-      "Customer Relationship Management",
-      "Core Resource Module",
-      "None of the above",
-      "Central Resource Management"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1063",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q63] What is a cost center in SAP?",
-    "options": [
-      "Organizational unit for costs",
-      "Revenue unit",
-      "None of the above",
-      "Profit center"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1064",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q64] G/L in SAP FI means",
-    "options": [
-      "None of the above",
-      "General Line",
-      "Global Ledger",
-      "General Ledger"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1065",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q65] SAP PM module handles",
-    "options": [
-      "Neither A nor B",
-      "Production Module",
-      "Plant Maintenance",
-      "Product Management"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1066",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q66] What is a purchase order in SAP MM?",
-    "options": [
-      "Document to procure goods",
-      "Delivery note",
-      "Sales document",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1067",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q67] Profit center in SAP is",
-    "options": [
-      "Department",
-      "Sub-unit for profitability",
-      "Neither A nor B",
-      "Cost unit"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1068",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q68] What is SAP BW?",
-    "options": [
-      "Business Writing",
-      "Basic Workflow",
-      "Data not provided",
-      "Business Warehouse/Analytics"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1069",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q69] What is a goods receipt?",
-    "options": [
-      "Invoice",
-      "PO",
-      "Both B and C",
-      "Recording received materials"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1070",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q70] LSMW in SAP",
-    "options": [
-      "Option not applicable",
-      "Log System Management",
-      "Legacy System Migration Workbench",
-      "Load System Module"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1071",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q71] SAP Solution Manager is used for",
-    "options": [
-      "UI design",
-      "Database management",
-      "All of the above",
-      "ALM and support"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1072",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q72] What is a business partner in SAP?",
-    "options": [
-      "Organizational unit",
-      "All of the above",
-      "Customer/vendor master data",
-      "Module"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1073",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q73] Controlling area in SAP CO",
-    "options": [
-      "HR unit",
-      "Insufficient information",
-      "Organizational unit for cost control",
-      "Financial unit"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1074",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q74] SAP EWM stands for",
-    "options": [
-      "Extended Web Module",
-      "Enterprise Workflow Module",
-      "Extended Warehouse Management",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1075",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q75] Dunning in SAP FI",
-    "options": [
-      "Goods receipt",
-      "Invoice",
-      "The above is incorrect",
-      "Automated payment reminders"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1076",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q76] SAP TM module handles",
-    "options": [
-      "Technical Management",
-      "The above is incorrect",
-      "Time Management",
-      "Transportation Management"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1077",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q77] What is a SAP landscape?",
-    "options": [
-      "Network topology",
-      "Database cluster",
-      "System arrangement DEV/QA/PROD",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1078",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q78] Authorization object in SAP",
-    "options": [
-      "Cannot be determined",
-      "Stores data",
-      "Transports objects",
-      "Controls access to functions"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1079",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q79] SU01 T-code is used for",
-    "options": [
-      "Table view",
-      "Both B and C",
-      "User management",
-      "ABAP editor"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_1080",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q80] What is a work center in SAP PP?",
-    "options": [
-      "Where production operations occur",
-      "Option not applicable",
-      "Storage location",
-      "Cost center"
-    ],
-    "answer": 0,
-    "explanation": "Work centers define resources for production."
-  },
-  {
-    "id": "sap_1081",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q81] SAP stands for",
-    "options": [
-      "Software Application Platform",
-      "Systems Applications Products",
-      "Systems Automated Products",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1082",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q82] SAP ERP stands for",
-    "options": [
-      "Enterprise Resource Program",
-      "Extended Resource Planning",
-      "Data not provided",
-      "Enterprise Resource Planning"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1083",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q83] SAP HANA is",
-    "options": [
-      "Cloud only",
-      "In-memory database",
-      "NoSQL DB",
-      "Relational DB"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1084",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q84] SAP S/4HANA runs on",
-    "options": [
-      "MySQL",
-      "SAP HANA DB only",
-      "Oracle only",
-      "Any database"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1085",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q85] ABAP stands for",
-    "options": [
-      "Advanced Business Application Programming",
-      "Automated Business App Programming",
-      "All of the above",
-      "Advanced Basic App Programming"
-    ],
-    "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
-  },
-  {
-    "id": "sap_1086",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q86] SAP FI module handles",
-    "options": [
-      "Financial Accounting",
-      "Logistics",
-      "Sales",
-      "Production Planning"
-    ],
-    "answer": 0,
-    "explanation": "FI module manages financial accounting."
-  },
-  {
-    "id": "sap_1087",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q87] SAP CO module handles",
-    "options": [
-      "Financial Accounting",
-      "Controlling",
-      "Procurement",
-      "HR"
-    ],
-    "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
-  },
-  {
-    "id": "sap_1088",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q88] SAP MM module handles",
-    "options": [
-      "Marketing",
-      "Maintenance",
-      "Manufacturing",
-      "Materials Management"
-    ],
-    "answer": 0,
-    "explanation": "MM handles procurement and inventory."
-  },
-  {
-    "id": "sap_1089",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q89] SAP SD module handles",
-    "options": [
-      "Software Development",
-      "System Design",
-      "Neither A nor B",
-      "Sales and Distribution"
-    ],
-    "answer": 0,
-    "explanation": "SD manages order-to-cash process."
-  },
-  {
-    "id": "sap_1090",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q90] SAP PP module handles",
-    "options": [
-      "Production Planning",
-      "Data not provided",
-      "Procurement",
-      "Payroll"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1091",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q91] What is a SAP Client?",
-    "options": [
-      "Server",
-      "Module",
-      "Database",
-      "Organizational unit in SAP"
-    ],
-    "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
-  },
-  {
-    "id": "sap_1092",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q92] T-code in SAP means",
-    "options": [
-      "Transaction code",
-      "Cannot be determined",
-      "Technical code",
-      "Transfer code"
-    ],
-    "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
-  },
-  {
-    "id": "sap_1093",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q93] SE38 is used for",
-    "options": [
-      "ABAP Editor",
-      "Table display",
-      "Both B and C",
+      "Object Navigator — central development tool",
+      "Data Dictionary",
+      "Transport tool",
       "User management"
     ],
     "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
+    "explanation": "The correct answer is Object Navigator — central development tool."
   },
   {
-    "id": "sap_1094",
+    "id": "SAP_ABA_050",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q94] SE16 is used for",
-    "options": [
-      "Both A and B",
-      "Table browser",
-      "Transport",
-      "Program editor"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1095",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q95] Transport request in SAP",
-    "options": [
-      "Moves changes between systems",
-      "Backs up DB",
-      "All of the above",
-      "Stores data"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1096",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q96] SAP Basis team manages",
-    "options": [
-      "Option not applicable",
-      "Logistics",
-      "Finance",
-      "Technical infrastructure"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1097",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q97] What is an IDOC?",
-    "options": [
-      "The above is incorrect",
-      "Internal Document",
-      "Integration Document",
-      "Intermediate Document"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1098",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q98] RFC in SAP stands for",
-    "options": [
-      "Rapid Function Call",
-      "Remote Function Call",
-      "Insufficient information",
-      "Remote File Copy"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1099",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q99] BAPI stands for",
-    "options": [
-      "Both B and C",
-      "Business Automated Program Interface",
-      "Business Application Programming Interface",
-      "Basic API"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1100",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q100] What is SAP Fiori?",
-    "options": [
-      "Database",
-      "Language",
-      "Module",
-      "Modern UI for SAP"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1101",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q101] SAP HR module is also called",
-    "options": [
-      "SAP MM",
-      "SAP HCM",
-      "SAP PP",
-      "SAP FI"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1102",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q102] SAP CRM stands for",
-    "options": [
-      "Core Resource Module",
-      "Central Resource Management",
-      "Customer Relationship Management",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1103",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q103] What is a cost center in SAP?",
-    "options": [
-      "Revenue unit",
-      "Profit center",
-      "Both B and C",
-      "Organizational unit for costs"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1104",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q104] G/L in SAP FI means",
-    "options": [
-      "Global Ledger",
-      "General Line",
-      "Data not provided",
-      "General Ledger"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1105",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q105] SAP PM module handles",
-    "options": [
-      "Data not provided",
-      "Plant Maintenance",
-      "Production Module",
-      "Product Management"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1106",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q106] What is a purchase order in SAP MM?",
-    "options": [
-      "Delivery note",
-      "Document to procure goods",
-      "Sales document",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1107",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q107] Profit center in SAP is",
-    "options": [
-      "Sub-unit for profitability",
-      "Cost unit",
-      "Department",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1108",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q108] What is SAP BW?",
-    "options": [
-      "Basic Workflow",
-      "None of the above",
-      "Business Writing",
-      "Business Warehouse/Analytics"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1109",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q109] What is a goods receipt?",
-    "options": [
-      "Insufficient information",
-      "Recording received materials",
-      "PO",
-      "Invoice"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1110",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q110] LSMW in SAP",
-    "options": [
-      "Option not applicable",
-      "Log System Management",
-      "Legacy System Migration Workbench",
-      "Load System Module"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1111",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q111] SAP Solution Manager is used for",
-    "options": [
-      "UI design",
-      "ALM and support",
-      "Database management",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1112",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q112] What is a business partner in SAP?",
-    "options": [
-      "Customer/vendor master data",
-      "Data not provided",
-      "Organizational unit",
-      "Module"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1113",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q113] Controlling area in SAP CO",
-    "options": [
-      "Financial unit",
-      "HR unit",
-      "Both A and B",
-      "Organizational unit for cost control"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1114",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q114] SAP EWM stands for",
-    "options": [
-      "Data not provided",
-      "Extended Warehouse Management",
-      "Extended Web Module",
-      "Enterprise Workflow Module"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1115",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q115] Dunning in SAP FI",
-    "options": [
-      "Automated payment reminders",
-      "Option not applicable",
-      "Invoice",
-      "Goods receipt"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1116",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q116] SAP TM module handles",
-    "options": [
-      "Transportation Management",
-      "Technical Management",
-      "Both A and B",
-      "Time Management"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1117",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q117] What is a SAP landscape?",
-    "options": [
-      "System arrangement DEV/QA/PROD",
-      "Both B and C",
-      "Database cluster",
-      "Network topology"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1118",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q118] Authorization object in SAP",
-    "options": [
-      "The above is incorrect",
-      "Stores data",
-      "Controls access to functions",
-      "Transports objects"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1119",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q119] SU01 T-code is used for",
-    "options": [
-      "Table view",
-      "The above is incorrect",
-      "User management",
-      "ABAP editor"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_1120",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q120] What is a work center in SAP PP?",
-    "options": [
-      "Where production operations occur",
-      "Both A and B",
-      "Storage location",
-      "Cost center"
-    ],
-    "answer": 0,
-    "explanation": "Work centers define resources for production."
-  },
-  {
-    "id": "sap_1121",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q121] SAP stands for",
-    "options": [
-      "Systems Automated Products",
-      "Both A and B",
-      "Systems Applications Products",
-      "Software Application Platform"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1122",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q122] SAP ERP stands for",
-    "options": [
-      "Enterprise Resource Program",
-      "Enterprise Resource Planning",
-      "Extended Resource Planning",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1123",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q123] SAP HANA is",
-    "options": [
-      "In-memory database",
-      "Cloud only",
-      "NoSQL DB",
-      "Relational DB"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1124",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q124] SAP S/4HANA runs on",
-    "options": [
-      "MySQL",
-      "SAP HANA DB only",
-      "Any database",
-      "Oracle only"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1125",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q125] ABAP stands for",
-    "options": [
-      "Both A and B",
-      "Automated Business App Programming",
-      "Advanced Basic App Programming",
-      "Advanced Business Application Programming"
-    ],
-    "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
-  },
-  {
-    "id": "sap_1126",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q126] SAP FI module handles",
-    "options": [
-      "Sales",
-      "Financial Accounting",
-      "Logistics",
-      "Production Planning"
-    ],
-    "answer": 0,
-    "explanation": "FI module manages financial accounting."
-  },
-  {
-    "id": "sap_1127",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q127] SAP CO module handles",
+    "question": "What is a module pool in ABAP?",
     "options": [
-      "HR",
-      "Financial Accounting",
-      "Controlling",
-      "Procurement"
+      "Screen-based program using DYNPRO screens",
+      "A report program",
+      "A function group",
+      "A class pool"
     ],
     "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
+    "explanation": "The correct answer is Screen-based program using DYNPRO screens."
   },
   {
-    "id": "sap_1128",
+    "id": "SAP_ABA_051",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q128] SAP MM module handles",
-    "options": [
-      "Maintenance",
-      "Materials Management",
-      "Marketing",
-      "Manufacturing"
-    ],
-    "answer": 0,
-    "explanation": "MM handles procurement and inventory."
-  },
-  {
-    "id": "sap_1129",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q129] SAP SD module handles",
+    "question": "What is DYNPRO?",
     "options": [
-      "Software Development",
-      "System Design",
-      "Data not provided",
-      "Sales and Distribution"
+      "Dynamic Program — SAP screen technology",
+      "Dynamic data processing",
+      "Database procedure",
+      "Report type"
     ],
     "answer": 0,
-    "explanation": "SD manages order-to-cash process."
+    "explanation": "The correct answer is Dynamic Program — SAP screen technology."
   },
   {
-    "id": "sap_1130",
+    "id": "SAP_ABA_052",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q130] SAP PP module handles",
-    "options": [
-      "The above is incorrect",
-      "Payroll",
-      "Production Planning",
-      "Procurement"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1131",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q131] What is a SAP Client?",
+    "question": "What is GUI status in ABAP screens?",
     "options": [
-      "Server",
-      "Module",
-      "Database",
-      "Organizational unit in SAP"
+      "Defines the menu, toolbar, and function keys for a screen",
+      "User interface settings",
+      "Screen size",
+      "Program status"
     ],
     "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
+    "explanation": "The correct answer is Defines the menu, toolbar, and function keys for a screen."
   },
   {
-    "id": "sap_1132",
+    "id": "SAP_ABA_053",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q132] T-code in SAP means",
+    "question": "What does READ TABLE do in ABAP?",
     "options": [
-      "Transfer code",
-      "Technical code",
-      "Option not applicable",
-      "Transaction code"
+      "Reads a specific row from an internal table",
+      "Reads from database",
+      "Reads a file",
+      "Reads all rows"
     ],
     "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
+    "explanation": "The correct answer is Reads a specific row from an internal table."
   },
   {
-    "id": "sap_1133",
+    "id": "SAP_ABA_054",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q133] SE38 is used for",
+    "question": "What is a secondary index in ABAP tables?",
     "options": [
-      "Both A and B",
-      "User management",
-      "ABAP Editor",
-      "Table display"
+      "An additional database index on non-primary key fields",
+      "Primary key index",
+      "Unique key only",
+      "Internal table index"
     ],
     "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
+    "explanation": "The correct answer is An additional database index on non-primary key fields."
   },
   {
-    "id": "sap_1134",
+    "id": "SAP_ABA_055",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q134] SE16 is used for",
+    "question": "What is OPEN SQL in ABAP?",
     "options": [
-      "Table browser",
-      "None of the above",
-      "Program editor",
-      "Transport"
+      "ABAP's database-independent SQL subset",
+      "Oracle-specific SQL",
+      "Open source SQL",
+      "Dynamic SQL only"
     ],
     "answer": 0,
-    "explanation": "SE16 displays table contents."
+    "explanation": "The correct answer is ABAP's database-independent SQL subset."
   },
   {
-    "id": "sap_1135",
+    "id": "SAP_ABA_056",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q135] Transport request in SAP",
+    "question": "What is native SQL in ABAP?",
     "options": [
-      "Moves changes between systems",
-      "Stores data",
-      "Backs up DB",
-      "The above is incorrect"
+      "Database-specific SQL executed directly",
+      "ABAP-only SQL",
+      "Open SQL variant",
+      "Standard SQL"
     ],
     "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
+    "explanation": "The correct answer is Database-specific SQL executed directly."
   },
   {
-    "id": "sap_1136",
+    "id": "SAP_ABA_057",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q136] SAP Basis team manages",
+    "question": "What is the EXEC SQL...ENDEXEC block?",
     "options": [
-      "Both A and B",
-      "Logistics",
-      "Technical infrastructure",
-      "Finance"
+      "Executes native SQL statements",
+      "Executes ABAP programs",
+      "Runs function modules",
+      "Calls external procedures"
     ],
     "answer": 0,
-    "explanation": "Basis handles system administration."
+    "explanation": "The correct answer is Executes native SQL statements."
   },
   {
-    "id": "sap_1137",
+    "id": "SAP_ABA_058",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q137] What is an IDOC?",
+    "question": "What is a database view in ABAP Dictionary?",
     "options": [
-      "Integration Document",
-      "Intermediate Document",
-      "Internal Document",
-      "The above is incorrect"
+      "Join of database tables for read-only access",
+      "Update-enabled table join",
+      "Index definition",
+      "Database procedure"
     ],
     "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
+    "explanation": "The correct answer is Join of database tables for read-only access."
   },
   {
-    "id": "sap_1138",
+    "id": "SAP_ABA_059",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q138] RFC in SAP stands for",
+    "question": "What is a maintenance view?",
     "options": [
-      "Remote Function Call",
-      "Rapid Function Call",
-      "None of the above",
-      "Remote File Copy"
+      "Dictionary view allowing table maintenance of multiple tables",
+      "Read-only view",
+      "Report view",
+      "Authorization view"
     ],
     "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
+    "explanation": "The correct answer is Dictionary view allowing table maintenance of multiple tables."
   },
   {
-    "id": "sap_1139",
+    "id": "SAP_ABA_060",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q139] BAPI stands for",
+    "question": "What is ABAP unit testing?",
     "options": [
-      "Both A and B",
-      "Business Automated Program Interface",
-      "Basic API",
-      "Business Application Programming Interface"
+      "Framework for writing and running automated tests in ABAP",
+      "Manual testing",
+      "Performance testing",
+      "Regression testing only"
     ],
     "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
+    "explanation": "The correct answer is Framework for writing and running automated tests in ABAP."
   },
   {
-    "id": "sap_1140",
+    "id": "SAP_ABA_061",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q140] What is SAP Fiori?",
+    "question": "What is the ABAP Test Cockpit (ATC)?",
     "options": [
-      "Database",
-      "Modern UI for SAP",
-      "Language",
-      "Module"
+      "Tool for checking code quality and syntax in ABAP",
+      "Debugger",
+      "Profiler",
+      "Monitor"
     ],
     "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
+    "explanation": "The correct answer is Tool for checking code quality and syntax in ABAP."
   },
   {
-    "id": "sap_1141",
+    "id": "SAP_ABA_062",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q141] SAP HR module is also called",
+    "question": "What is a WHERE clause in ABAP SELECT?",
     "options": [
-      "SAP FI",
-      "SAP HCM",
-      "SAP PP",
-      "SAP MM"
+      "Filters records based on conditions",
+      "Joins tables",
+      "Groups records",
+      "Orders records"
     ],
     "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
+    "explanation": "The correct answer is Filters records based on conditions."
   },
   {
-    "id": "sap_1142",
+    "id": "SAP_ABA_063",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q142] SAP CRM stands for",
+    "question": "What is GROUP BY in ABAP SELECT?",
     "options": [
-      "Core Resource Module",
-      "Central Resource Management",
-      "The above is incorrect",
-      "Customer Relationship Management"
+      "Groups result set rows that have same values",
+      "Orders results",
+      "Filters results",
+      "Joins tables"
     ],
     "answer": 0,
-    "explanation": "CRM manages customer interactions."
+    "explanation": "The correct answer is Groups result set rows that have same values."
   },
   {
-    "id": "sap_1143",
+    "id": "SAP_ABA_064",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q143] What is a cost center in SAP?",
+    "question": "What is ORDER BY in ABAP SELECT?",
     "options": [
-      "Revenue unit",
-      "None of the above",
-      "Organizational unit for costs",
-      "Profit center"
+      "Sorts the result set",
+      "Groups records",
+      "Filters records",
+      "Joins tables"
     ],
     "answer": 0,
-    "explanation": "Cost centers collect and control costs."
+    "explanation": "The correct answer is Sorts the result set."
   },
   {
-    "id": "sap_1144",
+    "id": "SAP_ABA_065",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q144] G/L in SAP FI means",
+    "question": "What is HAVING in ABAP SELECT?",
     "options": [
-      "General Ledger",
-      "Option not applicable",
-      "Global Ledger",
-      "General Line"
+      "Filters grouped records (used with GROUP BY)",
+      "Filters individual records",
+      "Orders groups",
+      "Joins groups"
     ],
     "answer": 0,
-    "explanation": "G/L is the main account book in FI."
+    "explanation": "The correct answer is Filters grouped records (used with GROUP BY)."
   },
   {
-    "id": "sap_1145",
+    "id": "SAP_ABA_066",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q145] SAP PM module handles",
+    "question": "What is a JOIN in ABAP SELECT?",
     "options": [
-      "Product Management",
-      "Data not provided",
-      "Plant Maintenance",
-      "Production Module"
+      "Combines rows from two tables based on related columns",
+      "Merges two programs",
+      "Combines internal tables",
+      "Concatenates strings"
     ],
     "answer": 0,
-    "explanation": "PM manages equipment maintenance."
+    "explanation": "The correct answer is Combines rows from two tables based on related columns."
   },
   {
-    "id": "sap_1146",
+    "id": "SAP_ABA_067",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q146] What is a purchase order in SAP MM?",
+    "question": "What is INNER JOIN?",
     "options": [
-      "Sales document",
-      "Delivery note",
-      "Document to procure goods",
-      "All of the above"
+      "Returns only matching rows from both tables",
+      "Returns all rows from left table",
+      "Returns all rows from right table",
+      "Returns all rows from both tables"
     ],
     "answer": 0,
-    "explanation": "PO is the formal procurement document."
+    "explanation": "The correct answer is Returns only matching rows from both tables."
   },
   {
-    "id": "sap_1147",
+    "id": "SAP_ABA_068",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q147] Profit center in SAP is",
+    "question": "What is LEFT OUTER JOIN?",
     "options": [
-      "Cost unit",
-      "Neither A nor B",
-      "Department",
-      "Sub-unit for profitability"
+      "Returns all rows from left table plus matching rows from right",
+      "Matching rows only",
+      "All rows from right table",
+      "Random rows"
     ],
     "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
+    "explanation": "The correct answer is Returns all rows from left table plus matching rows from right."
   },
   {
-    "id": "sap_1148",
+    "id": "SAP_ABA_069",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q148] What is SAP BW?",
+    "question": "What is FOR ALL ENTRIES in ABAP?",
     "options": [
-      "Business Writing",
-      "Cannot be determined",
-      "Business Warehouse/Analytics",
-      "Basic Workflow"
+      "Selects database records matching entries in an internal table",
+      "Updates all entries",
+      "Deletes all entries",
+      "Locks all entries"
     ],
     "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
+    "explanation": "The correct answer is Selects database records matching entries in an internal table."
   },
   {
-    "id": "sap_1149",
+    "id": "SAP_ABA_070",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q149] What is a goods receipt?",
+    "question": "What is the danger with FOR ALL ENTRIES?",
     "options": [
-      "Recording received materials",
-      "Invoice",
-      "PO",
-      "Cannot be determined"
+      "If internal table is empty, no WHERE clause is applied — returns all rows",
+      "It is always safe",
+      "It requires a key field",
+      "It only works with joins"
     ],
     "answer": 0,
-    "explanation": "GR records inventory received from vendor."
+    "explanation": "The correct answer is If internal table is empty, no WHERE clause is applied — returns all rows."
   },
   {
-    "id": "sap_1150",
+    "id": "SAP_ABA_071",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q150] LSMW in SAP",
+    "question": "What is a COLLECT statement?",
     "options": [
-      "Load System Module",
-      "None of the above",
-      "Legacy System Migration Workbench",
-      "Log System Management"
+      "Adds a row to internal table, summing numeric fields if key exists",
+      "Collects all fields",
+      "Creates a new table",
+      "Deletes duplicates"
     ],
     "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
+    "explanation": "The correct answer is Adds a row to internal table, summing numeric fields if key exists."
   },
   {
-    "id": "sap_1151",
+    "id": "SAP_ABA_072",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q151] SAP Solution Manager is used for",
+    "question": "What is DESCRIBE TABLE used for?",
     "options": [
-      "Database management",
-      "None of the above",
-      "ALM and support",
-      "UI design"
+      "Gets metadata about an internal table (rows, line type, kind)",
+      "Describes a database table",
+      "Shows structure",
+      "Lists fields"
     ],
     "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
+    "explanation": "The correct answer is Gets metadata about an internal table (rows, line type, kind)."
   },
   {
-    "id": "sap_1152",
+    "id": "SAP_ABA_073",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q152] What is a business partner in SAP?",
+    "question": "What is REFRESH in ABAP?",
     "options": [
-      "Customer/vendor master data",
-      "Organizational unit",
-      "Cannot be determined",
-      "Module"
+      "Clears all entries from an internal table",
+      "Refreshes screen",
+      "Resets database connection",
+      "Clears a variable"
     ],
     "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
+    "explanation": "The correct answer is Clears all entries from an internal table."
   },
   {
-    "id": "sap_1153",
+    "id": "SAP_ABA_074",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q153] Controlling area in SAP CO",
+    "question": "What is FREE in ABAP?",
     "options": [
-      "Financial unit",
-      "Neither A nor B",
-      "Organizational unit for cost control",
-      "HR unit"
+      "Releases memory of an internal table",
+      "Frees a lock",
+      "Frees a file",
+      "Frees database connection"
     ],
     "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
+    "explanation": "The correct answer is Releases memory of an internal table."
   },
   {
-    "id": "sap_1154",
+    "id": "SAP_ABA_075",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q154] SAP EWM stands for",
+    "question": "What is SORT statement in ABAP?",
     "options": [
-      "Extended Web Module",
-      "Enterprise Workflow Module",
-      "Both B and C",
-      "Extended Warehouse Management"
+      "Sorts an internal table",
+      "Sorts database table",
+      "Sorts a select result",
+      "Sorts a string"
     ],
     "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
+    "explanation": "The correct answer is Sorts an internal table."
   },
   {
-    "id": "sap_1155",
+    "id": "SAP_ABA_076",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q155] Dunning in SAP FI",
+    "question": "What is DELETE ADJACENT DUPLICATES?",
     "options": [
-      "Goods receipt",
-      "Automated payment reminders",
-      "Invoice",
-      "Option not applicable"
+      "Removes consecutive duplicate rows from a sorted internal table",
+      "Deletes all duplicates anywhere",
+      "Deletes one row",
+      "Removes from database"
     ],
     "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
+    "explanation": "The correct answer is Removes consecutive duplicate rows from a sorted internal table."
   },
   {
-    "id": "sap_1156",
+    "id": "SAP_ABA_077",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q156] SAP TM module handles",
+    "question": "What is a SPOOL request in SAP?",
     "options": [
-      "Transportation Management",
-      "Time Management",
-      "Technical Management",
-      "Both A and B"
+      "A print request stored in spool system before sending to printer",
+      "A background job",
+      "A work process",
+      "A database request"
     ],
     "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
+    "explanation": "The correct answer is A print request stored in spool system before sending to printer."
   },
   {
-    "id": "sap_1157",
+    "id": "SAP_ABA_078",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
+    "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q157] What is a SAP landscape?",
+    "question": "What is SM37 transaction?",
     "options": [
-      "Network topology",
-      "The above is incorrect",
-      "System arrangement DEV/QA/PROD",
-      "Database cluster"
+      "Job Overview — monitors background jobs",
+      "Table maintenance",
+      "Spool overview",
+      "System log"
     ],
     "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
+    "explanation": "The correct answer is Job Overview — monitors background jobs."
   },
   {
-    "id": "sap_1158",
+    "id": "SAP_ABA_079",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q158] Authorization object in SAP",
+    "question": "What is a variant in ABAP?",
     "options": [
-      "Controls access to functions",
-      "Both A and B",
-      "Stores data",
-      "Transports objects"
+      "Saved set of selection screen values for a report",
+      "A data type",
+      "A structure type",
+      "A table type"
     ],
     "answer": 0,
-    "explanation": "Authorization objects define access permissions."
+    "explanation": "The correct answer is Saved set of selection screen values for a report."
   },
   {
-    "id": "sap_1159",
+    "id": "SAP_ABA_080",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q159] SU01 T-code is used for",
+    "question": "What is transaction SE93?",
     "options": [
+      "Transaction Maintenance — create/edit transaction codes",
       "ABAP editor",
-      "Table view",
       "User management",
-      "The above is incorrect"
+      "Data dictionary"
     ],
     "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
+    "explanation": "The correct answer is Transaction Maintenance — create/edit transaction codes."
   },
   {
-    "id": "sap_1160",
+    "id": "SAP_ABA_081",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q160] What is a work center in SAP PP?",
+    "question": "What is TCODE in SAP?",
     "options": [
-      "Storage location",
-      "Cost center",
-      "Where production operations occur",
-      "Neither A nor B"
+      "A short code entered in command field to navigate to a transaction",
+      "A user ID",
+      "A database table",
+      "A program class"
     ],
     "answer": 0,
-    "explanation": "Work centers define resources for production."
+    "explanation": "The correct answer is A short code entered in command field to navigate to a transaction."
   },
   {
-    "id": "sap_1161",
+    "id": "SAP_ABA_082",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q161] SAP stands for",
+    "question": "What is the SAP basis layer?",
     "options": [
-      "Software Application Platform",
-      "Insufficient information",
-      "Systems Applications Products",
-      "Systems Automated Products"
+      "Technical foundation layer managing hardware, OS, and database",
+      "Business logic layer",
+      "Presentation layer",
+      "Application logic"
     ],
     "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
+    "explanation": "The correct answer is Technical foundation layer managing hardware, OS, and database."
   },
   {
-    "id": "sap_1162",
+    "id": "SAP_ABA_083",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q162] SAP ERP stands for",
+    "question": "What is a work process in SAP?",
     "options": [
-      "Cannot be determined",
-      "Enterprise Resource Planning",
-      "Enterprise Resource Program",
-      "Extended Resource Planning"
+      "Server process handling a specific type of task (dialog, background, etc.)",
+      "A user session",
+      "A database thread",
+      "A screen"
     ],
     "answer": 0,
-    "explanation": "ERP integrates core business processes."
+    "explanation": "The correct answer is Server process handling a specific type of task (dialog, background, etc.)."
   },
   {
-    "id": "sap_1163",
+    "id": "SAP_ABA_084",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q163] SAP HANA is",
+    "question": "What is ABAP push channel (APC)?",
     "options": [
-      "Cloud only",
-      "In-memory database",
-      "Relational DB",
-      "NoSQL DB"
+      "WebSocket-based real-time communication in ABAP",
+      "ABAP pub/sub messaging",
+      "ABAP push notifications via RFC",
+      "ABAP data channel"
     ],
     "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
+    "explanation": "The correct answer is WebSocket-based real-time communication in ABAP."
   },
   {
-    "id": "sap_1164",
+    "id": "SAP_ABA_085",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q164] SAP S/4HANA runs on",
+    "question": "What is CDS (Core Data Services) view?",
     "options": [
-      "SAP HANA DB only",
-      "Any database",
-      "MySQL",
-      "Oracle only"
+      "ABAP annotation-based semantic data model on database layer",
+      "Classic database view",
+      "Dictionary view",
+      "Maintenance view"
     ],
     "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
+    "explanation": "The correct answer is ABAP annotation-based semantic data model on database layer."
   },
   {
-    "id": "sap_1165",
+    "id": "SAP_ABA_086",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q165] ABAP stands for",
+    "question": "What are CDS associations?",
     "options": [
-      "Advanced Basic App Programming",
-      "Insufficient information",
-      "Automated Business App Programming",
-      "Advanced Business Application Programming"
+      "Define relationships between CDS entities (like joins)",
+      "CDS indexes",
+      "CDS parameters",
+      "CDS filters"
     ],
     "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
+    "explanation": "The correct answer is Define relationships between CDS entities (like joins)."
   },
   {
-    "id": "sap_1166",
+    "id": "SAP_ABA_087",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q166] SAP FI module handles",
+    "question": "What is AMDP?",
     "options": [
-      "Financial Accounting",
-      "Production Planning",
-      "Logistics",
-      "Sales"
+      "ABAP Managed Database Procedures — ABAP wrapper for SAP HANA procedures",
+      "ABAP method declaration pattern",
+      "Automated data migration procedure",
+      "ABAP module design pattern"
     ],
     "answer": 0,
-    "explanation": "FI module manages financial accounting."
+    "explanation": "The correct answer is ABAP Managed Database Procedures — ABAP wrapper for SAP HANA procedures."
   },
   {
-    "id": "sap_1167",
+    "id": "SAP_ABA_088",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q167] SAP CO module handles",
+    "question": "What is RAP (RESTful ABAP Programming)?",
     "options": [
-      "HR",
-      "Financial Accounting",
-      "Procurement",
-      "Controlling"
+      "Modern ABAP framework for building OData services and Fiori apps",
+      "Rapid ABAP programming",
+      "REST API programming",
+      "Report ABAP pattern"
     ],
     "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
+    "explanation": "The correct answer is Modern ABAP framework for building OData services and Fiori apps."
   },
   {
-    "id": "sap_1168",
+    "id": "SAP_ABA_089",
     "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
+    "section": "ABAP Programming",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q168] SAP MM module handles",
+    "question": "What is a Behavior Definition in RAP?",
     "options": [
-      "Maintenance",
-      "Manufacturing",
-      "Materials Management",
-      "Marketing"
+      "Defines operations (create/update/delete) for a business object",
+      "Defines a class",
+      "Defines a database table",
+      "Defines an API endpoint"
     ],
     "answer": 0,
-    "explanation": "MM handles procurement and inventory."
+    "explanation": "The correct answer is Defines operations (create/update/delete) for a business object."
   },
   {
-    "id": "sap_1169",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q169] SAP SD module handles",
-    "options": [
-      "Software Development",
-      "System Design",
-      "Sales and Distribution",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "SD manages order-to-cash process."
-  },
-  {
-    "id": "sap_1170",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q170] SAP PP module handles",
-    "options": [
-      "Neither A nor B",
-      "Production Planning",
-      "Procurement",
-      "Payroll"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1171",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q171] What is a SAP Client?",
-    "options": [
-      "Server",
-      "Module",
-      "Database",
-      "Organizational unit in SAP"
-    ],
-    "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
-  },
-  {
-    "id": "sap_1172",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q172] T-code in SAP means",
-    "options": [
-      "Transaction code",
-      "Technical code",
-      "Transfer code",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
-  },
-  {
-    "id": "sap_1173",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q173] SE38 is used for",
-    "options": [
-      "ABAP Editor",
-      "Table display",
-      "User management",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
-  },
-  {
-    "id": "sap_1174",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q174] SE16 is used for",
-    "options": [
-      "Program editor",
-      "Table browser",
-      "Transport",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1175",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q175] Transport request in SAP",
-    "options": [
-      "Stores data",
-      "Moves changes between systems",
-      "Data not provided",
-      "Backs up DB"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1176",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q176] SAP Basis team manages",
-    "options": [
-      "Finance",
-      "Logistics",
-      "Technical infrastructure",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1177",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q177] What is an IDOC?",
-    "options": [
-      "Integration Document",
-      "Option not applicable",
-      "Internal Document",
-      "Intermediate Document"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1178",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q178] RFC in SAP stands for",
-    "options": [
-      "Rapid Function Call",
-      "Remote Function Call",
-      "Insufficient information",
-      "Remote File Copy"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1179",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q179] BAPI stands for",
-    "options": [
-      "Business Application Programming Interface",
-      "Option not applicable",
-      "Basic API",
-      "Business Automated Program Interface"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1180",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q180] What is SAP Fiori?",
-    "options": [
-      "Module",
-      "Language",
-      "Modern UI for SAP",
-      "Database"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1181",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q181] SAP HR module is also called",
-    "options": [
-      "SAP MM",
-      "SAP FI",
-      "SAP PP",
-      "SAP HCM"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1182",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q182] SAP CRM stands for",
-    "options": [
-      "Core Resource Module",
-      "Central Resource Management",
-      "Option not applicable",
-      "Customer Relationship Management"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1183",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q183] What is a cost center in SAP?",
-    "options": [
-      "Profit center",
-      "Both A and B",
-      "Organizational unit for costs",
-      "Revenue unit"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1184",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q184] G/L in SAP FI means",
-    "options": [
-      "General Ledger",
-      "None of the above",
-      "Global Ledger",
-      "General Line"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1185",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q185] SAP PM module handles",
-    "options": [
-      "Production Module",
-      "All of the above",
-      "Plant Maintenance",
-      "Product Management"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1186",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q186] What is a purchase order in SAP MM?",
-    "options": [
-      "Document to procure goods",
-      "All of the above",
-      "Sales document",
-      "Delivery note"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1187",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q187] Profit center in SAP is",
-    "options": [
-      "Sub-unit for profitability",
-      "Both B and C",
-      "Cost unit",
-      "Department"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1188",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q188] What is SAP BW?",
-    "options": [
-      "Insufficient information",
-      "Basic Workflow",
-      "Business Warehouse/Analytics",
-      "Business Writing"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1189",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q189] What is a goods receipt?",
-    "options": [
-      "PO",
-      "Invoice",
-      "Insufficient information",
-      "Recording received materials"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1190",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q190] LSMW in SAP",
-    "options": [
-      "Neither A nor B",
-      "Log System Management",
-      "Load System Module",
-      "Legacy System Migration Workbench"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1191",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q191] SAP Solution Manager is used for",
-    "options": [
-      "ALM and support",
-      "The above is incorrect",
-      "UI design",
-      "Database management"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1192",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q192] What is a business partner in SAP?",
-    "options": [
-      "Organizational unit",
-      "Cannot be determined",
-      "Module",
-      "Customer/vendor master data"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1193",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q193] Controlling area in SAP CO",
-    "options": [
-      "Cannot be determined",
-      "Financial unit",
-      "HR unit",
-      "Organizational unit for cost control"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1194",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q194] SAP EWM stands for",
-    "options": [
-      "The above is incorrect",
-      "Extended Warehouse Management",
-      "Enterprise Workflow Module",
-      "Extended Web Module"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1195",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q195] Dunning in SAP FI",
-    "options": [
-      "Goods receipt",
-      "Automated payment reminders",
-      "Invoice",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1196",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q196] SAP TM module handles",
-    "options": [
-      "Time Management",
-      "Transportation Management",
-      "Technical Management",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1197",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q197] What is a SAP landscape?",
-    "options": [
-      "System arrangement DEV/QA/PROD",
-      "Network topology",
-      "None of the above",
-      "Database cluster"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1198",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q198] Authorization object in SAP",
-    "options": [
-      "Controls access to functions",
-      "None of the above",
-      "Stores data",
-      "Transports objects"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1199",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q199] SU01 T-code is used for",
-    "options": [
-      "Table view",
-      "Both A and B",
-      "User management",
-      "ABAP editor"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_1200",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q200] What is a work center in SAP PP?",
-    "options": [
-      "Cost center",
-      "Storage location",
-      "Where production operations occur",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Work centers define resources for production."
-  },
-  {
-    "id": "sap_1201",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q201] SAP stands for",
-    "options": [
-      "Software Application Platform",
-      "Systems Applications Products",
-      "Systems Automated Products",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1202",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q202] SAP ERP stands for",
-    "options": [
-      "Extended Resource Planning",
-      "Option not applicable",
-      "Enterprise Resource Planning",
-      "Enterprise Resource Program"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1203",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q203] SAP HANA is",
-    "options": [
-      "Relational DB",
-      "Cloud only",
-      "NoSQL DB",
-      "In-memory database"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1204",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q204] SAP S/4HANA runs on",
-    "options": [
-      "SAP HANA DB only",
-      "Any database",
-      "MySQL",
-      "Oracle only"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1205",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q205] ABAP stands for",
-    "options": [
-      "The above is incorrect",
-      "Advanced Basic App Programming",
-      "Advanced Business Application Programming",
-      "Automated Business App Programming"
-    ],
-    "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
-  },
-  {
-    "id": "sap_1206",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q206] SAP FI module handles",
-    "options": [
-      "Financial Accounting",
-      "Production Planning",
-      "Logistics",
-      "Sales"
-    ],
-    "answer": 0,
-    "explanation": "FI module manages financial accounting."
-  },
-  {
-    "id": "sap_1207",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q207] SAP CO module handles",
-    "options": [
-      "Procurement",
-      "Financial Accounting",
-      "Controlling",
-      "HR"
-    ],
-    "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
-  },
-  {
-    "id": "sap_1208",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q208] SAP MM module handles",
-    "options": [
-      "Manufacturing",
-      "Materials Management",
-      "Marketing",
-      "Maintenance"
-    ],
-    "answer": 0,
-    "explanation": "MM handles procurement and inventory."
-  },
-  {
-    "id": "sap_1209",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q209] SAP SD module handles",
-    "options": [
-      "Option not applicable",
-      "Sales and Distribution",
-      "Software Development",
-      "System Design"
-    ],
-    "answer": 0,
-    "explanation": "SD manages order-to-cash process."
-  },
-  {
-    "id": "sap_1210",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q210] SAP PP module handles",
-    "options": [
-      "Production Planning",
-      "Neither A nor B",
-      "Payroll",
-      "Procurement"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1211",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q211] What is a SAP Client?",
-    "options": [
-      "Database",
-      "Module",
-      "Server",
-      "Organizational unit in SAP"
-    ],
-    "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
-  },
-  {
-    "id": "sap_1212",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q212] T-code in SAP means",
-    "options": [
-      "Transfer code",
-      "Cannot be determined",
-      "Transaction code",
-      "Technical code"
-    ],
-    "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
-  },
-  {
-    "id": "sap_1213",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q213] SE38 is used for",
-    "options": [
-      "User management",
-      "Table display",
-      "Cannot be determined",
-      "ABAP Editor"
-    ],
-    "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
-  },
-  {
-    "id": "sap_1214",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q214] SE16 is used for",
-    "options": [
-      "Program editor",
-      "Option not applicable",
-      "Transport",
-      "Table browser"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1215",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q215] Transport request in SAP",
-    "options": [
-      "Data not provided",
-      "Moves changes between systems",
-      "Backs up DB",
-      "Stores data"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1216",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q216] SAP Basis team manages",
-    "options": [
-      "Finance",
-      "Technical infrastructure",
-      "Insufficient information",
-      "Logistics"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1217",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q217] What is an IDOC?",
-    "options": [
-      "Intermediate Document",
-      "Integration Document",
-      "The above is incorrect",
-      "Internal Document"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1218",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q218] RFC in SAP stands for",
-    "options": [
-      "Remote Function Call",
-      "Rapid Function Call",
-      "None of the above",
-      "Remote File Copy"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1219",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q219] BAPI stands for",
-    "options": [
-      "Basic API",
-      "Business Automated Program Interface",
-      "All of the above",
-      "Business Application Programming Interface"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1220",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q220] What is SAP Fiori?",
-    "options": [
-      "Modern UI for SAP",
-      "Database",
-      "Module",
-      "Language"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1221",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q221] SAP HR module is also called",
-    "options": [
-      "SAP MM",
-      "SAP PP",
-      "SAP FI",
-      "SAP HCM"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1222",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q222] SAP CRM stands for",
-    "options": [
-      "Customer Relationship Management",
-      "Central Resource Management",
-      "The above is incorrect",
-      "Core Resource Module"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1223",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q223] What is a cost center in SAP?",
-    "options": [
-      "Revenue unit",
-      "Organizational unit for costs",
-      "Both A and B",
-      "Profit center"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1224",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q224] G/L in SAP FI means",
-    "options": [
-      "General Ledger",
-      "General Line",
-      "Data not provided",
-      "Global Ledger"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1225",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q225] SAP PM module handles",
-    "options": [
-      "Option not applicable",
-      "Product Management",
-      "Production Module",
-      "Plant Maintenance"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1226",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q226] What is a purchase order in SAP MM?",
-    "options": [
-      "Sales document",
-      "All of the above",
-      "Document to procure goods",
-      "Delivery note"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1227",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q227] Profit center in SAP is",
-    "options": [
-      "Cost unit",
-      "Sub-unit for profitability",
-      "None of the above",
-      "Department"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1228",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q228] What is SAP BW?",
-    "options": [
-      "None of the above",
-      "Business Writing",
-      "Basic Workflow",
-      "Business Warehouse/Analytics"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1229",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q229] What is a goods receipt?",
-    "options": [
-      "PO",
-      "Invoice",
-      "Insufficient information",
-      "Recording received materials"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1230",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q230] LSMW in SAP",
-    "options": [
-      "Data not provided",
-      "Legacy System Migration Workbench",
-      "Log System Management",
-      "Load System Module"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1231",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q231] SAP Solution Manager is used for",
-    "options": [
-      "ALM and support",
-      "Database management",
-      "All of the above",
-      "UI design"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1232",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q232] What is a business partner in SAP?",
-    "options": [
-      "Both B and C",
-      "Organizational unit",
-      "Module",
-      "Customer/vendor master data"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1233",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q233] Controlling area in SAP CO",
-    "options": [
-      "Insufficient information",
-      "Financial unit",
-      "Organizational unit for cost control",
-      "HR unit"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1234",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q234] SAP EWM stands for",
-    "options": [
-      "Enterprise Workflow Module",
-      "Both A and B",
-      "Extended Web Module",
-      "Extended Warehouse Management"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1235",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q235] Dunning in SAP FI",
-    "options": [
-      "Automated payment reminders",
-      "Invoice",
-      "The above is incorrect",
-      "Goods receipt"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1236",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q236] SAP TM module handles",
-    "options": [
-      "Technical Management",
-      "Time Management",
-      "Transportation Management",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1237",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q237] What is a SAP landscape?",
-    "options": [
-      "System arrangement DEV/QA/PROD",
-      "Database cluster",
-      "The above is incorrect",
-      "Network topology"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1238",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q238] Authorization object in SAP",
-    "options": [
-      "Controls access to functions",
-      "None of the above",
-      "Stores data",
-      "Transports objects"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1239",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q239] SU01 T-code is used for",
-    "options": [
-      "All of the above",
-      "User management",
-      "ABAP editor",
-      "Table view"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_1240",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q240] What is a work center in SAP PP?",
-    "options": [
-      "All of the above",
-      "Storage location",
-      "Cost center",
-      "Where production operations occur"
-    ],
-    "answer": 0,
-    "explanation": "Work centers define resources for production."
-  },
-  {
-    "id": "sap_1241",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q241] SAP stands for",
-    "options": [
-      "Systems Automated Products",
-      "Systems Applications Products",
-      "Software Application Platform",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1242",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q242] SAP ERP stands for",
-    "options": [
-      "Enterprise Resource Planning",
-      "Enterprise Resource Program",
-      "Extended Resource Planning",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1243",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q243] SAP HANA is",
-    "options": [
-      "Cloud only",
-      "In-memory database",
-      "NoSQL DB",
-      "Relational DB"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1244",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q244] SAP S/4HANA runs on",
-    "options": [
-      "Oracle only",
-      "SAP HANA DB only",
-      "Any database",
-      "MySQL"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1245",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q245] ABAP stands for",
-    "options": [
-      "Automated Business App Programming",
-      "Advanced Basic App Programming",
-      "Advanced Business Application Programming",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
-  },
-  {
-    "id": "sap_1246",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q246] SAP FI module handles",
-    "options": [
-      "Sales",
-      "Production Planning",
-      "Financial Accounting",
-      "Logistics"
-    ],
-    "answer": 0,
-    "explanation": "FI module manages financial accounting."
-  },
-  {
-    "id": "sap_1247",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q247] SAP CO module handles",
-    "options": [
-      "Controlling",
-      "Financial Accounting",
-      "HR",
-      "Procurement"
-    ],
-    "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
-  },
-  {
-    "id": "sap_1248",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q248] SAP MM module handles",
-    "options": [
-      "Manufacturing",
-      "Materials Management",
-      "Maintenance",
-      "Marketing"
-    ],
-    "answer": 0,
-    "explanation": "MM handles procurement and inventory."
-  },
-  {
-    "id": "sap_1249",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q249] SAP SD module handles",
-    "options": [
-      "Software Development",
-      "Sales and Distribution",
-      "System Design",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "SD manages order-to-cash process."
-  },
-  {
-    "id": "sap_1250",
-    "topic": "SAP Engineer",
-    "section": "ERP Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q250] SAP PP module handles",
-    "options": [
-      "Procurement",
-      "Payroll",
-      "All of the above",
-      "Production Planning"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1251",
+    "id": "SAP_ABA_090",
     "topic": "SAP Engineer",
     "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q251] What is a SAP Client?",
+    "question": "What is an OData service?",
     "options": [
-      "Database",
-      "Module",
-      "Server",
-      "Organizational unit in SAP"
+      "Open Data Protocol service exposing data via REST/HTTP",
+      "A database service",
+      "An ABAP report service",
+      "A batch service"
     ],
     "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
+    "explanation": "The correct answer is Open Data Protocol service exposing data via REST/HTTP."
   },
   {
-    "id": "sap_1252",
+    "id": "SAP_ABA_091",
     "topic": "SAP Engineer",
     "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q252] T-code in SAP means",
+    "question": "What is transaction SEGW?",
     "options": [
-      "Option not applicable",
-      "Transaction code",
-      "Transfer code",
-      "Technical code"
+      "SAP Gateway Service Builder for OData services",
+      "Segment workbench",
+      "Security gateway",
+      "System event gateway"
     ],
     "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
+    "explanation": "The correct answer is SAP Gateway Service Builder for OData services."
   },
   {
-    "id": "sap_1253",
+    "id": "SAP_ABA_092",
     "topic": "SAP Engineer",
     "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q253] SE38 is used for",
+    "question": "What is SAP Fiori?",
     "options": [
-      "ABAP Editor",
-      "User management",
-      "Table display",
-      "None of the above"
+      "UX design approach and app framework for SAP applications",
+      "SAP module",
+      "Database layer",
+      "ABAP framework"
     ],
     "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
+    "explanation": "The correct answer is UX design approach and app framework for SAP applications."
   },
   {
-    "id": "sap_1254",
+    "id": "SAP_ABA_093",
     "topic": "SAP Engineer",
     "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q254] SE16 is used for",
+    "question": "What is a Fiori Launchpad?",
     "options": [
-      "Program editor",
-      "Transport",
-      "The above is incorrect",
-      "Table browser"
+      "Central entry point that hosts and launches Fiori apps",
+      "An ABAP editor",
+      "A report tool",
+      "A workflow tool"
     ],
     "answer": 0,
-    "explanation": "SE16 displays table contents."
+    "explanation": "The correct answer is Central entry point that hosts and launches Fiori apps."
   },
   {
-    "id": "sap_1255",
+    "id": "SAP_ABA_094",
     "topic": "SAP Engineer",
     "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q255] Transport request in SAP",
+    "question": "What is the difference between classic ABAP and ABAP Cloud?",
     "options": [
-      "Stores data",
-      "Moves changes between systems",
-      "The above is incorrect",
-      "Backs up DB"
+      "ABAP Cloud restricts use of classic APIs; enforces clean core",
+      "No difference",
+      "ABAP Cloud is older",
+      "Classic has more features always"
     ],
     "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
+    "explanation": "The correct answer is ABAP Cloud restricts use of classic APIs; enforces clean core."
   },
   {
-    "id": "sap_1256",
+    "id": "SAP_ABA_095",
     "topic": "SAP Engineer",
     "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q256] SAP Basis team manages",
+    "question": "What is clean core in SAP?",
     "options": [
-      "Both B and C",
-      "Finance",
-      "Technical infrastructure",
-      "Logistics"
+      "Keeping standard SAP code unmodified; extend via SAP-approved techniques",
+      "Cleaning database",
+      "Removing custom code",
+      "Reducing number of modules"
     ],
     "answer": 0,
-    "explanation": "Basis handles system administration."
+    "explanation": "The correct answer is Keeping standard SAP code unmodified; extend via SAP-approved techniques."
   },
   {
-    "id": "sap_1257",
+    "id": "SAP_HAN_096",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q257] What is an IDOC?",
+    "question": "What is SAP HANA?",
     "options": [
-      "Intermediate Document",
-      "Neither A nor B",
-      "Integration Document",
-      "Internal Document"
+      "In-memory columnar database and application platform",
+      "Traditional row-based database",
+      "Business intelligence tool only",
+      "ERP system"
     ],
     "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
+    "explanation": "The correct answer is In-memory columnar database and application platform."
   },
   {
-    "id": "sap_1258",
+    "id": "SAP_HAN_097",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the primary advantage of SAP HANA's in-memory storage?",
+    "options": [
+      "Data is processed in RAM, enabling extremely fast queries",
+      "Unlimited storage",
+      "Better security",
+      "Lower cost"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Data is processed in RAM, enabling extremely fast queries."
+  },
+  {
+    "id": "SAP_HAN_098",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q258] RFC in SAP stands for",
+    "question": "What is columnar storage in HANA?",
     "options": [
-      "Both A and B",
+      "Data stored by column enabling fast aggregations and analytics",
+      "Data stored by row",
+      "Data stored by blocks",
+      "Data stored by page"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Data stored by column enabling fast aggregations and analytics."
+  },
+  {
+    "id": "SAP_HAN_099",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between row store and column store in HANA?",
+    "options": [
+      "Row store is faster for OLTP; column store is faster for OLAP",
+      "No difference",
+      "Row store is always faster",
+      "Column store is always faster"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Row store is faster for OLTP; column store is faster for OLAP."
+  },
+  {
+    "id": "SAP_HAN_100",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is an SAP HANA Studio?",
+    "options": [
+      "Eclipse-based IDE for HANA modeling and administration",
+      "Web-based tool only",
+      "ABAP development tool",
+      "BW modeling tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Eclipse-based IDE for HANA modeling and administration."
+  },
+  {
+    "id": "SAP_HAN_101",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SAP HANA Cockpit?",
+    "options": [
+      "Web-based administration tool for HANA database",
+      "Development environment",
+      "Reporting tool",
+      "Data migration tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Web-based administration tool for HANA database."
+  },
+  {
+    "id": "SAP_HAN_102",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a calculation view in HANA?",
+    "options": [
+      "A graphical information view performing complex calculations",
+      "A simple projection view",
+      "An attribute view",
+      "A stored procedure"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A graphical information view performing complex calculations."
+  },
+  {
+    "id": "SAP_HAN_103",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is an analytic view in HANA (deprecated)?",
+    "options": [
+      "Star-schema view combining fact table with dimensions",
+      "A calculation view",
+      "A projection view",
+      "A HANA table"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Star-schema view combining fact table with dimensions."
+  },
+  {
+    "id": "SAP_HAN_104",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is an attribute view in HANA (deprecated)?",
+    "options": [
+      "Dimension/master data view for reuse in analytic/calculation views",
+      "Fact table view",
+      "Transaction data view",
+      "Calculation view type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Dimension/master data view for reuse in analytic/calculation views."
+  },
+  {
+    "id": "SAP_HAN_105",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is HANA SDA (Smart Data Access)?",
+    "options": [
+      "Virtual access to remote data sources from HANA without data movement",
+      "Data archiving",
+      "Data replication",
+      "Data compression"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Virtual access to remote data sources from HANA without data movement."
+  },
+  {
+    "id": "SAP_HAN_106",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is HANA SDI (Smart Data Integration)?",
+    "options": [
+      "Real-time and batch data integration and replication for HANA",
+      "Security data interface",
+      "Simplified data index",
+      "Structured data integration"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Real-time and batch data integration and replication for HANA."
+  },
+  {
+    "id": "SAP_HAN_107",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is an HANA stored procedure?",
+    "options": [
+      "Server-side logic written in SQLScript or R executed in HANA",
+      "Client-side procedure",
+      "Java procedure",
+      "ABAP procedure"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Server-side logic written in SQLScript or R executed in HANA."
+  },
+  {
+    "id": "SAP_HAN_108",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SQLScript?",
+    "options": [
+      "HANA-specific SQL extension for writing procedures and functions",
+      "Standard SQL only",
+      "JavaScript variant",
+      "Python for HANA"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is HANA-specific SQL extension for writing procedures and functions."
+  },
+  {
+    "id": "SAP_HAN_109",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a HANA table function?",
+    "options": [
+      "Reads data and returns a table result for use in SQL",
+      "Procedure returning a scalar",
+      "View without parameters",
+      "Standard table"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reads data and returns a table result for use in SQL."
+  },
+  {
+    "id": "SAP_HAN_110",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is HANA dynamic tiering?",
+    "options": [
+      "Extension to move rarely accessed data from memory to disk",
+      "Data compression",
+      "Memory optimization",
+      "Column store variant"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Extension to move rarely accessed data from memory to disk."
+  },
+  {
+    "id": "SAP_HAN_111",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a partition in HANA?",
+    "options": [
+      "Splitting a large table into smaller physical units",
+      "An index type",
+      "A view type",
+      "A schema element"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Splitting a large table into smaller physical units."
+  },
+  {
+    "id": "SAP_HAN_112",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What are partition types in HANA?",
+    "options": [
+      "Range, Hash, Round-robin",
+      "Primary, Secondary, Tertiary",
+      "Row, Column, Mixed",
+      "Static, Dynamic, Rolling"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Range, Hash, Round-robin."
+  },
+  {
+    "id": "SAP_HAN_113",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a HANA schema?",
+    "options": [
+      "Named container for database objects (tables, views, procedures)",
+      "A database backup",
+      "An index structure",
+      "A user group"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Named container for database objects (tables, views, procedures)."
+  },
+  {
+    "id": "SAP_HAN_114",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a technical user in HANA?",
+    "options": [
+      "A non-human user account used by applications/services",
+      "An admin user",
+      "An application user",
+      "A batch user"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A non-human user account used by applications/services."
+  },
+  {
+    "id": "SAP_HAN_115",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the GRANT statement in HANA?",
+    "options": [
+      "Gives privileges to users or roles",
+      "Revokes privileges",
+      "Creates users",
+      "Creates roles"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Gives privileges to users or roles."
+  },
+  {
+    "id": "SAP_HAN_116",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a HANA role?",
+    "options": [
+      "Collection of privileges assigned to users",
+      "A user type",
+      "A schema",
+      "A stored procedure"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Collection of privileges assigned to users."
+  },
+  {
+    "id": "SAP_HAN_117",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is an analytic privilege in HANA?",
+    "options": [
+      "Row-level security filter on analytic views",
+      "Column-level security",
+      "Schema privilege",
+      "Object privilege"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Row-level security filter on analytic views."
+  },
+  {
+    "id": "SAP_HAN_118",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is HANA transport (CTS+)?",
+    "options": [
+      "Moving HANA development objects between systems",
+      "Database backup",
+      "Data export",
+      "Schema copy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Moving HANA development objects between systems."
+  },
+  {
+    "id": "SAP_HAN_119",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a HANA delta buffer?",
+    "options": [
+      "Memory area storing recent DML changes before merged to main store",
+      "Transaction log",
+      "Redo log",
+      "Undo log"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Memory area storing recent DML changes before merged to main store."
+  },
+  {
+    "id": "SAP_HAN_120",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the HANA main store?",
+    "options": [
+      "Compressed, read-optimized columnar storage for mature data",
+      "Write buffer",
+      "In-memory cache",
+      "Temporary storage"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Compressed, read-optimized columnar storage for mature data."
+  },
+  {
+    "id": "SAP_HAN_121",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is HANA delta merge?",
+    "options": [
+      "Process of merging delta buffer into main store",
+      "Transaction commit",
+      "Index rebuild",
+      "Backup operation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Process of merging delta buffer into main store."
+  },
+  {
+    "id": "SAP_HAN_122",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is compression in HANA column store?",
+    "options": [
+      "Dictionary encoding and other techniques reducing memory footprint",
+      "Row compression",
+      "Block compression",
+      "File compression"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Dictionary encoding and other techniques reducing memory footprint."
+  },
+  {
+    "id": "SAP_HAN_123",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does EXPLAIN PLAN do in HANA?",
+    "options": [
+      "Shows execution plan for a SQL query",
+      "Explains a procedure",
+      "Shows table structure",
+      "Lists indexes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows execution plan for a SQL query."
+  },
+  {
+    "id": "SAP_HAN_124",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a HANA index?",
+    "options": [
+      "Data structure speeding up data access",
+      "A type of view",
+      "A stored procedure",
+      "A table type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Data structure speeding up data access."
+  },
+  {
+    "id": "SAP_HAN_125",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a full-text index in HANA?",
+    "options": [
+      "Index enabling text search operations on string columns",
+      "Primary key index",
+      "Composite index",
+      "Unique index"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Index enabling text search operations on string columns."
+  },
+  {
+    "id": "SAP_HAN_126",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is geospatial processing in HANA?",
+    "options": [
+      "Native support for spatial data types and location-based queries",
+      "GIS integration",
+      "Map rendering",
+      "GPS tracking"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Native support for spatial data types and location-based queries."
+  },
+  {
+    "id": "SAP_HAN_127",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SAP HANA Predictive Analysis Library (PAL)?",
+    "options": [
+      "Built-in ML and statistical algorithms running inside HANA",
+      "External ML library",
+      "Python ML integration",
+      "R integration only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Built-in ML and statistical algorithms running inside HANA."
+  },
+  {
+    "id": "SAP_HAN_128",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SAP HANA Automated Predictive Library (APL)?",
+    "options": [
+      "Automated ML capabilities built into HANA",
+      "Manual predictive models",
+      "External predictive tool",
+      "Python library"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automated ML capabilities built into HANA."
+  },
+  {
+    "id": "SAP_HAN_129",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SAP BW/4HANA?",
+    "options": [
+      "Next-generation data warehouse built exclusively for SAP HANA",
+      "SAP BW on any database",
+      "ERP system",
+      "Reporting tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Next-generation data warehouse built exclusively for SAP HANA."
+  },
+  {
+    "id": "SAP_HAN_130",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is S/4HANA?",
+    "options": [
+      "SAP's next-generation ERP suite running exclusively on HANA",
+      "SAP ERP on any database",
+      "BW system",
+      "Standalone analytics"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP's next-generation ERP suite running exclusively on HANA."
+  },
+  {
+    "id": "SAP_HAN_131",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the difference between S/4HANA and ECC?",
+    "options": [
+      "S/4HANA runs on HANA only; ECC supports multiple databases",
+      "No functional difference",
+      "ECC is newer",
+      "S/4HANA is older"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is S/4HANA runs on HANA only; ECC supports multiple databases."
+  },
+  {
+    "id": "SAP_HAN_132",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is HANA XS (Extended Application Services)?",
+    "options": [
+      "Application server embedded in HANA for web apps",
+      "An ABAP server",
+      "An external web server",
+      "A database layer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Application server embedded in HANA for web apps."
+  },
+  {
+    "id": "SAP_HAN_133",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is XS Advanced (XSA)?",
+    "options": [
+      "Multi-container application platform in HANA for microservices",
+      "Classic XS variant",
+      "Extended SQL",
+      "SAP Cloud platform"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Multi-container application platform in HANA for microservices."
+  },
+  {
+    "id": "SAP_HAN_134",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is SAP HANA Cloud?",
+    "options": [
+      "Cloud-delivered HANA database as a service",
+      "On-premise HANA only",
+      "Cloud ERP",
+      "Cloud BW"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cloud-delivered HANA database as a service."
+  },
+  {
+    "id": "SAP_HAN_135",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the HANA system landscape?",
+    "options": [
+      "Typically Development, QA, and Production HANA instances",
+      "Single instance",
+      "Two instances",
+      "Five instances"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Typically Development, QA, and Production HANA instances."
+  },
+  {
+    "id": "SAP_HAN_136",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is HANA backup and recovery?",
+    "options": [
+      "Process of creating data snapshots and restoring after failure",
+      "Data archiving",
+      "Data export",
+      "Replication"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Process of creating data snapshots and restoring after failure."
+  },
+  {
+    "id": "SAP_HAN_137",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is HANA system replication?",
+    "options": [
+      "Synchronous/asynchronous replication to standby system for HA",
+      "Backup replication",
+      "Data migration",
+      "Logical replication"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Synchronous/asynchronous replication to standby system for HA."
+  },
+  {
+    "id": "SAP_HAN_138",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the HANA log volume?",
+    "options": [
+      "Stores redo log entries for crash recovery",
+      "Data volume",
+      "Temp volume",
+      "Trace volume"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stores redo log entries for crash recovery."
+  },
+  {
+    "id": "SAP_HAN_139",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the HANA data volume?",
+    "options": [
+      "Stores persistent table and column data",
+      "Log volume",
+      "Trace volume",
+      "Temp volume"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stores persistent table and column data."
+  },
+  {
+    "id": "SAP_HAN_140",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a multitenant database container (MDC) in HANA?",
+    "options": [
+      "Multiple tenant databases in one HANA system",
+      "Multiple HANA systems",
+      "Database federation",
+      "Schema separation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Multiple tenant databases in one HANA system."
+  },
+  {
+    "id": "SAP_HAN_141",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the system database in HANA MDC?",
+    "options": [
+      "Manages the HANA system; contains metadata about tenant DBs",
+      "A tenant database",
+      "The main data database",
+      "An application database"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Manages the HANA system; contains metadata about tenant DBs."
+  },
+  {
+    "id": "SAP_HAN_142",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is HANA tenant database?",
+    "options": [
+      "Isolated database instance within an MDC system",
+      "System database",
+      "Schema in system DB",
+      "Application schema"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Isolated database instance within an MDC system."
+  },
+  {
+    "id": "SAP_HAN_143",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is monitoring in HANA?",
+    "options": [
+      "Tracking system performance, resource usage, and health",
+      "Data backup",
+      "Data replication",
+      "Query execution"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tracking system performance, resource usage, and health."
+  },
+  {
+    "id": "SAP_HAN_144",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is an alert in HANA?",
+    "options": [
+      "Notification triggered when a threshold is exceeded",
+      "A query result",
+      "An error message",
+      "A log entry"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Notification triggered when a threshold is exceeded."
+  },
+  {
+    "id": "SAP_HAN_145",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the HANA Statistics Server?",
+    "options": [
+      "Internal service collecting performance metrics and statistics",
+      "External monitoring tool",
+      "SAP Solution Manager",
+      "OS monitoring"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Internal service collecting performance metrics and statistics."
+  },
+  {
+    "id": "SAP_HAN_146",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is SAP HANA Academy?",
+    "options": [
+      "Free online learning platform for SAP HANA education",
+      "SAP's LMS",
+      "HANA certification exam",
+      "SAP Help Portal"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Free online learning platform for SAP HANA education."
+  },
+  {
+    "id": "SAP_HAN_147",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a HANA database user?",
+    "options": [
+      "An account with credentials for accessing HANA",
+      "A technical account only",
+      "An application server user",
+      "An OS user"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is An account with credentials for accessing HANA."
+  },
+  {
+    "id": "SAP_HAN_148",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is REVOKE in HANA SQL?",
+    "options": [
+      "Removes privileges from a user or role",
+      "Grants privileges",
+      "Creates privileges",
+      "Lists privileges"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Removes privileges from a user or role."
+  },
+  {
+    "id": "SAP_HAN_149",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a HANA sequence?",
+    "options": [
+      "Database object generating unique numeric values",
+      "A sorted index",
+      "An ordered table",
+      "A stored procedure"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Database object generating unique numeric values."
+  },
+  {
+    "id": "SAP_HAN_150",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a synonym in HANA?",
+    "options": [
+      "Alias for a database object in the same or different schema",
+      "A view",
+      "A procedure",
+      "An index"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Alias for a database object in the same or different schema."
+  },
+  {
+    "id": "SAP_HAN_151",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a virtual table in HANA SDA?",
+    "options": [
+      "Pointer to data in a remote source, queried on demand",
+      "A local table",
+      "A cached table",
+      "A replicated table"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pointer to data in a remote source, queried on demand."
+  },
+  {
+    "id": "SAP_HAN_152",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is HANA replication (SLT)?",
+    "options": [
+      "SAP Landscape Transformation — real-time data replication to HANA",
+      "HANA system replication",
+      "Backup replication",
+      "BW extraction"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP Landscape Transformation — real-time data replication to HANA."
+  },
+  {
+    "id": "SAP_HAN_153",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between load vs replicate in SLT?",
+    "options": [
+      "Load is one-time migration; replicate is continuous real-time sync",
+      "No difference",
+      "Replicate is one-time",
+      "Load is continuous"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Load is one-time migration; replicate is continuous real-time sync."
+  },
+  {
+    "id": "SAP_HAN_154",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a HANA graph workspace?",
+    "options": [
+      "In-database graph processing capability for network analysis",
+      "A visualization tool",
+      "A 3D modeling space",
+      "A calculation view"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is In-database graph processing capability for network analysis."
+  },
+  {
+    "id": "SAP_HAN_155",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is HANA streaming analytics?",
+    "options": [
+      "Processing of real-time event streams within HANA",
+      "Batch analytics",
+      "Scheduled analytics",
+      "Historical analytics"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Processing of real-time event streams within HANA."
+  },
+  {
+    "id": "SAP_HAN_156",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SAP Data Intelligence?",
+    "options": [
+      "Intelligent data management and ML pipeline platform integrating with HANA",
+      "A database",
+      "A reporting tool",
+      "An ERP module"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Intelligent data management and ML pipeline platform integrating with HANA."
+  },
+  {
+    "id": "SAP_HAN_157",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a HANA table type?",
+    "options": [
+      "Column, Row, or Global Temporary table",
+      "OLAP, OLTP, Mixed",
+      "Physical, Virtual, Cached",
+      "Standard, Partitioned, Clustered"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Column, Row, or Global Temporary table."
+  },
+  {
+    "id": "SAP_HAN_158",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What are global temporary tables in HANA?",
+    "options": [
+      "Tables persisting only for the current session",
+      "Permanent tables",
+      "Tables in temp schema",
+      "In-memory caches"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tables persisting only for the current session."
+  },
+  {
+    "id": "SAP_HAN_159",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a local temporary table in HANA?",
+    "options": [
+      "Table visible and persisting only within current transaction",
+      "Session-scoped table",
+      "Permanent table",
+      "Global temp table"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Table visible and persisting only within current transaction."
+  },
+  {
+    "id": "SAP_HAN_160",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SELECT ... FOR UPDATE in HANA?",
+    "options": [
+      "Locks rows for update by current transaction",
+      "Updates rows immediately",
+      "Selects locked rows",
+      "Creates a view"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Locks rows for update by current transaction."
+  },
+  {
+    "id": "SAP_HAN_161",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is MVCC (Multi-Version Concurrency Control) in HANA?",
+    "options": [
+      "Manages concurrent access using data versions without blocking reads",
+      "Locking mechanism",
+      "Write-ahead logging",
+      "Checkpoint mechanism"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Manages concurrent access using data versions without blocking reads."
+  },
+  {
+    "id": "SAP_HAN_162",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the unified delta in SAP HANA 2.0?",
+    "options": [
+      "Merges L1 and L2 delta into a single delta store",
+      "A new delta merge",
+      "A backup delta",
+      "A compression type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Merges L1 and L2 delta into a single delta store."
+  },
+  {
+    "id": "SAP_HAN_163",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is HANA NSE (Native Storage Extension)?",
+    "options": [
+      "Warm data tier on disk for less frequently accessed data",
+      "Compression only",
+      "Archiving only",
+      "Column store extension"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Warm data tier on disk for less frequently accessed data."
+  },
+  {
+    "id": "SAP_HAN_164",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between HANA 1.0 SPS and HANA 2.0?",
+    "options": [
+      "HANA 2.0 is MDC-only; SPS has non-MDC options; new features",
+      "No difference",
+      "HANA 1.0 is newer",
+      "HANA 2.0 dropped column store"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is HANA 2.0 is MDC-only; SPS has non-MDC options; new features."
+  },
+  {
+    "id": "SAP_HAN_165",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the transaction for HANA System Overview in Cockpit?",
+    "options": [
+      "HANA Cockpit dashboard (web-based, no classic T-code)",
+      "DBACOCKPIT",
+      "SM12",
+      "ST05"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is HANA Cockpit dashboard (web-based, no classic T-code)."
+  },
+  {
+    "id": "SAP_HAN_166",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is DBACOCKPIT in SAP?",
+    "options": [
+      "DBA transaction for database monitoring in classic SAP GUI",
+      "HANA Studio",
+      "HANA Cockpit",
+      "SAP Solution Manager"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is DBA transaction for database monitoring in classic SAP GUI."
+  },
+  {
+    "id": "SAP_HAN_167",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is connection pool in HANA?",
+    "options": [
+      "Pool of reusable database connections managed for performance",
+      "A network pool",
+      "A thread pool",
+      "A memory pool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pool of reusable database connections managed for performance."
+  },
+  {
+    "id": "SAP_HAN_168",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the HANA workload class?",
+    "options": [
+      "Configuration that controls resource allocation for workloads",
+      "A user group",
+      "A priority class",
+      "A table type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Configuration that controls resource allocation for workloads."
+  },
+  {
+    "id": "SAP_HAN_169",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a HANA admission control?",
+    "options": [
+      "System to prevent memory overload by rejecting low-priority requests",
+      "Security control",
+      "User access control",
+      "Network control"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is System to prevent memory overload by rejecting low-priority requests."
+  },
+  {
+    "id": "SAP_HAN_170",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the HANA SQL trace?",
+    "options": [
+      "Records SQL statements for performance analysis",
+      "Error log",
+      "Backup log",
+      "Replication trace"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Records SQL statements for performance analysis."
+  },
+  {
+    "id": "SAP_HAN_171",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the expensive statement trace in HANA?",
+    "options": [
+      "Logs SQL statements exceeding a defined duration or memory threshold",
+      "All SQL statements",
+      "Error statements",
+      "Failed statements"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Logs SQL statements exceeding a defined duration or memory threshold."
+  },
+  {
+    "id": "SAP_HAN_172",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is kernel profiler in HANA?",
+    "options": [
+      "Low-level profiler for analyzing CPU consumption of HANA threads",
+      "Application profiler",
+      "SQL profiler",
+      "Memory profiler"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Low-level profiler for analyzing CPU consumption of HANA threads."
+  },
+  {
+    "id": "SAP_HAN_173",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is HANA Extended Surveillance?",
+    "options": [
+      "Continuous technical quality check of HANA installations",
+      "Security scanning",
+      "Performance benchmarking",
+      "Data quality check"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Continuous technical quality check of HANA installations."
+  },
+  {
+    "id": "SAP_HAN_174",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SAP Solution Manager (SolMan) role with HANA?",
+    "options": [
+      "Monitoring, alerting, and HANA system management integration",
+      "Development tool",
+      "Data migration tool",
+      "Reporting tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Monitoring, alerting, and HANA system management integration."
+  },
+  {
+    "id": "SAP_HAN_175",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is HANA platform lifecycle management?",
+    "options": [
+      "Managing installations, updates, and patches of HANA software",
+      "Data lifecycle",
+      "Report lifecycle",
+      "Code lifecycle"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Managing installations, updates, and patches of HANA software."
+  },
+  {
+    "id": "SAP_HAN_176",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SUM (Software Update Manager) for HANA?",
+    "options": [
+      "Tool used for HANA system upgrades and migrations",
+      "A DBA tool",
+      "A monitoring tool",
+      "An import tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tool used for HANA system upgrades and migrations."
+  },
+  {
+    "id": "SAP_HAN_177",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is HANA import/export?",
+    "options": [
+      "Moving tables, schemas, and catalog objects between systems",
+      "Data migration only",
+      "Backup variant",
+      "Replication method"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Moving tables, schemas, and catalog objects between systems."
+  },
+  {
+    "id": "SAP_HAN_178",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the HANA HDB command?",
+    "options": [
+      "Command-line tool for starting, stopping, and managing HANA",
+      "An SQL command",
+      "A GUI tool",
+      "A service"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Command-line tool for starting, stopping, and managing HANA."
+  },
+  {
+    "id": "SAP_HAN_179",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is hdbsql?",
+    "options": [
+      "Command-line SQL client for HANA",
+      "HANA GUI tool",
+      "HANA monitor",
+      "HANA backup tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Command-line SQL client for HANA."
+  },
+  {
+    "id": "SAP_HAN_180",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the SAP HANA Hardware Directory?",
+    "options": [
+      "Catalog of certified hardware for HANA deployments",
+      "Software catalog",
+      "Partner directory",
+      "App store"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Catalog of certified hardware for HANA deployments."
+  },
+  {
+    "id": "SAP_HAN_181",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is HANA TDI (Tailored Datacenter Integration)?",
+    "options": [
+      "Flexible deployment of HANA on customer-managed hardware",
+      "Cloud deployment",
+      "Virtual deployment",
+      "Container deployment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Flexible deployment of HANA on customer-managed hardware."
+  },
+  {
+    "id": "SAP_HAN_182",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is HANA Appliance?",
+    "options": [
+      "Pre-configured hardware+software bundle from certified vendors",
+      "Custom hardware only",
+      "Virtual machine only",
+      "Cloud instance"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pre-configured hardware+software bundle from certified vendors."
+  },
+  {
+    "id": "SAP_HAN_183",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SAP HANA Spatial Reference System?",
+    "options": [
+      "Coordinate system definition for geospatial data",
+      "A database schema",
+      "A projection view",
+      "A table type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Coordinate system definition for geospatial data."
+  },
+  {
+    "id": "SAP_HAN_184",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the column store index advisor in HANA?",
+    "options": [
+      "Tool recommending which tables/columns to load into column store",
+      "SQL optimizer",
+      "Data model advisor",
+      "Schema designer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tool recommending which tables/columns to load into column store."
+  },
+  {
+    "id": "SAP_HAN_185",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a table redistribution in HANA scale-out?",
+    "options": [
+      "Rebalancing table partitions across multiple HANA hosts",
+      "Data backup",
+      "Index rebuild",
+      "Statistics update"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Rebalancing table partitions across multiple HANA hosts."
+  },
+  {
+    "id": "SAP_HAN_186",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a HANA scale-out system?",
+    "options": [
+      "Multiple HANA nodes working together as one logical system",
+      "Single-node HANA",
+      "HANA cloud instance",
+      "HANA MDC system"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Multiple HANA nodes working together as one logical system."
+  },
+  {
+    "id": "SAP_HAN_187",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is standby host in HANA scale-out?",
+    "options": [
+      "Passive node taking over if an active worker node fails",
+      "Backup server",
+      "Test server",
+      "Monitoring server"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Passive node taking over if an active worker node fails."
+  },
+  {
+    "id": "SAP_HAN_188",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a HANA persistence layer?",
+    "options": [
+      "Ensures data durability via savepoints, logs, and storage",
+      "Memory management",
+      "Backup service",
+      "Replication service"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Ensures data durability via savepoints, logs, and storage."
+  },
+  {
+    "id": "SAP_HAN_189",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a HANA savepoint?",
+    "options": [
+      "Consistent snapshot of data written from memory to disk periodically",
+      "A transaction savepoint",
+      "A backup point",
+      "A replication point"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Consistent snapshot of data written from memory to disk periodically."
+  },
+  {
+    "id": "SAP_HAN_190",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is row-store locking in HANA?",
+    "options": [
+      "Record-level locking for concurrent DML on row-store tables",
+      "Page-level locking",
+      "Table-level locking",
+      "No locking"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Record-level locking for concurrent DML on row-store tables."
+  },
+  {
+    "id": "SAP_HAN_191",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the HANA license key?",
+    "options": [
+      "Cryptographic key activating HANA for production use",
+      "An API key",
+      "An encryption key",
+      "A user token"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cryptographic key activating HANA for production use."
+  },
+  {
+    "id": "SAP_HAN_192",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the memory limit in HANA configuration?",
+    "options": [
+      "Maximum RAM HANA can use; configurable in global.ini",
+      "CPU limit",
+      "Storage limit",
+      "Network limit"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Maximum RAM HANA can use; configurable in global.ini."
+  },
+  {
+    "id": "SAP_BAS_193",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is SAP BASIS?",
+    "options": [
+      "Technical administration layer managing SAP systems",
+      "Business logic layer",
+      "ABAP development",
+      "UI framework"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Technical administration layer managing SAP systems."
+  },
+  {
+    "id": "SAP_BAS_194",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a SAP landscape?",
+    "options": [
+      "Collection of SAP systems (Dev, QA, Production)",
+      "A single SAP system",
+      "SAP hardware",
+      "SAP software packages"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Collection of SAP systems (Dev, QA, Production)."
+  },
+  {
+    "id": "SAP_BAS_195",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the SAP three-tier architecture?",
+    "options": [
+      "Presentation, Application, and Database layers",
+      "Two-tier client-server",
+      "Single-tier",
+      "Four-tier cloud"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Presentation, Application, and Database layers."
+  },
+  {
+    "id": "SAP_BAS_196",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a transport route in SAP?",
+    "options": [
+      "Defines path for transporting changes between systems",
+      "A network route",
+      "A printing route",
+      "A user route"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defines path for transporting changes between systems."
+  },
+  {
+    "id": "SAP_BAS_197",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is STMS transaction?",
+    "options": [
+      "Transport Management System",
+      "System monitoring",
+      "Spool management",
+      "Session management"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Transport Management System."
+  },
+  {
+    "id": "SAP_BAS_198",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a transport request?",
+    "options": [
+      "Package containing SAP objects to be moved between systems",
+      "A user request",
+      "A database query",
+      "A batch job"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Package containing SAP objects to be moved between systems."
+  },
+  {
+    "id": "SAP_BAS_199",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the CTO role in transport management?",
+    "options": [
+      "Chief Transport Officer — person approving transport releases",
+      "Change Transport Organization",
+      "Client Transport Object",
+      "Customizing Transport Organizer"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Customizing Transport Organizer."
+  },
+  {
+    "id": "SAP_BAS_200",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a client in SAP?",
+    "options": [
+      "Isolated organizational unit in SAP with own data and configuration",
+      "A database schema",
+      "A user group",
+      "A system layer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Isolated organizational unit in SAP with own data and configuration."
+  },
+  {
+    "id": "SAP_BAS_201",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between system copy and client copy?",
+    "options": [
+      "System copy copies entire system; client copy copies one client",
+      "No difference",
+      "Client copy copies the system",
+      "System copy only copies config"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is System copy copies entire system; client copy copies one client."
+  },
+  {
+    "id": "SAP_BAS_202",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SCC4 transaction?",
+    "options": [
+      "Client settings — controls copy and change options per client",
+      "System configuration",
+      "Client monitor",
+      "Component settings"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Client settings — controls copy and change options per client."
+  },
+  {
+    "id": "SAP_BAS_203",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the SAP kernel?",
+    "options": [
+      "Low-level executable programs at the foundation of every SAP system",
+      "ABAP programs",
+      "Java programs",
+      "Database drivers"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Low-level executable programs at the foundation of every SAP system."
+  },
+  {
+    "id": "SAP_BAS_204",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a work process in SAP?",
+    "options": [
+      "Server process type (dialog, background, update, enqueue, spool)",
+      "A background job",
+      "A user session",
+      "A database process"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Server process type (dialog, background, update, enqueue, spool)."
+  },
+  {
+    "id": "SAP_BAS_205",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SM50 transaction?",
+    "options": [
+      "Work Process Overview — monitors active work processes",
+      "System monitor",
+      "Job monitor",
+      "User monitor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Work Process Overview — monitors active work processes."
+  },
+  {
+    "id": "SAP_BAS_206",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SM51 transaction?",
+    "options": [
+      "Shows overview of active application servers in the system",
+      "Work process monitor",
+      "Job monitor",
+      "Batch monitor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows overview of active application servers in the system."
+  },
+  {
+    "id": "SAP_BAS_207",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is an enqueue work process?",
+    "options": [
+      "Manages SAP logical locks (not database locks)",
+      "Queues print jobs",
+      "Queues background jobs",
+      "Manages message flow"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Manages SAP logical locks (not database locks)."
+  },
+  {
+    "id": "SAP_BAS_208",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a message server?",
+    "options": [
+      "Central component managing load balancing and communication between app servers",
+      "An email server",
+      "A document server",
+      "A gateway server"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Central component managing load balancing and communication between app servers."
+  },
+  {
+    "id": "SAP_BAS_209",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a SAP gateway?",
+    "options": [
+      "Enables RFC communication between SAP systems and external programs",
+      "An internet gateway",
+      "A network firewall",
+      "A printing gateway"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Enables RFC communication between SAP systems and external programs."
+  },
+  {
+    "id": "SAP_BAS_210",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is RFC (Remote Function Call)?",
+    "options": [
+      "SAP protocol for calling function modules across systems",
       "Remote File Copy",
-      "Rapid Function Call",
-      "Remote Function Call"
+      "Remote Form Configuration",
+      "Real Function Call"
     ],
     "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
+    "explanation": "The correct answer is SAP protocol for calling function modules across systems."
   },
   {
-    "id": "sap_1259",
+    "id": "SAP_BAS_211",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
+    "section": "ERP Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q259] BAPI stands for",
+    "question": "What is SM59 transaction?",
     "options": [
-      "Business Automated Program Interface",
-      "Business Application Programming Interface",
-      "Basic API",
-      "Insufficient information"
+      "RFC Destination configuration",
+      "System message manager",
+      "Service monitor",
+      "Session overview"
     ],
     "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
+    "explanation": "The correct answer is RFC Destination configuration."
   },
   {
-    "id": "sap_1260",
+    "id": "SAP_BAS_212",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
+    "section": "ERP Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q260] What is SAP Fiori?",
+    "question": "What is a logon group in SAP?",
     "options": [
-      "Database",
-      "Language",
-      "Module",
-      "Modern UI for SAP"
+      "Group of application servers for load-balanced logon",
+      "A user group",
+      "A transport group",
+      "A client group"
     ],
     "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
+    "explanation": "The correct answer is Group of application servers for load-balanced logon."
   },
   {
-    "id": "sap_1261",
+    "id": "SAP_BAS_213",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q261] SAP HR module is also called",
+    "question": "What is transaction SU01?",
     "options": [
-      "SAP PP",
-      "SAP MM",
-      "SAP HCM",
-      "SAP FI"
+      "User maintenance — create, modify, delete SAP users",
+      "Role maintenance",
+      "Profile maintenance",
+      "Authorization object maintenance"
     ],
     "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
+    "explanation": "The correct answer is User maintenance — create, modify, delete SAP users."
   },
   {
-    "id": "sap_1262",
+    "id": "SAP_BAS_214",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
+    "section": "ERP Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q262] SAP CRM stands for",
+    "question": "What is transaction PFCG?",
     "options": [
-      "Both A and B",
-      "Core Resource Module",
-      "Customer Relationship Management",
-      "Central Resource Management"
+      "Role Maintenance — create and maintain authorization roles",
+      "User maintenance",
+      "Profile generator",
+      "Security audit"
     ],
     "answer": 0,
-    "explanation": "CRM manages customer interactions."
+    "explanation": "The correct answer is Role Maintenance — create and maintain authorization roles."
   },
   {
-    "id": "sap_1263",
+    "id": "SAP_BAS_215",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
+    "section": "ERP Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q263] What is a cost center in SAP?",
+    "question": "What is an authorization profile?",
     "options": [
-      "Profit center",
-      "Organizational unit for costs",
-      "Both A and B",
-      "Revenue unit"
+      "Collection of authorization objects assigned to users via roles",
+      "A user group",
+      "A transport object",
+      "A system profile"
     ],
     "answer": 0,
-    "explanation": "Cost centers collect and control costs."
+    "explanation": "The correct answer is Collection of authorization objects assigned to users via roles."
   },
   {
-    "id": "sap_1264",
+    "id": "SAP_BAS_216",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q264] G/L in SAP FI means",
+    "question": "What is SU53?",
     "options": [
-      "General Line",
-      "General Ledger",
-      "Insufficient information",
-      "Global Ledger"
+      "Shows authorization failures — why a user got an authorization error",
+      "User creation",
+      "Role assignment",
+      "Password reset"
     ],
     "answer": 0,
-    "explanation": "G/L is the main account book in FI."
+    "explanation": "The correct answer is Shows authorization failures — why a user got an authorization error."
   },
   {
-    "id": "sap_1265",
+    "id": "SAP_BAS_217",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
+    "section": "ERP Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q265] SAP PM module handles",
+    "question": "What is ST22 transaction?",
     "options": [
-      "Insufficient information",
-      "Plant Maintenance",
-      "Product Management",
-      "Production Module"
+      "ABAP Runtime Error (DUMP) display",
+      "System trace",
+      "Spool overview",
+      "Session monitor"
     ],
     "answer": 0,
-    "explanation": "PM manages equipment maintenance."
+    "explanation": "The correct answer is ABAP Runtime Error (DUMP) display."
   },
   {
-    "id": "sap_1266",
+    "id": "SAP_BAS_218",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
+    "section": "ERP Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q266] What is a purchase order in SAP MM?",
+    "question": "What is SM21 transaction?",
     "options": [
-      "Document to procure goods",
-      "Both B and C",
-      "Sales document",
-      "Delivery note"
+      "System Log — records system events and errors",
+      "Work process monitor",
+      "Job monitor",
+      "User monitor"
     ],
     "answer": 0,
-    "explanation": "PO is the formal procurement document."
+    "explanation": "The correct answer is System Log — records system events and errors."
   },
   {
-    "id": "sap_1267",
+    "id": "SAP_BAS_219",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q267] Profit center in SAP is",
+    "question": "What is a short dump in SAP?",
     "options": [
-      "Cost unit",
-      "Department",
-      "Sub-unit for profitability",
-      "Both A and B"
+      "ABAP runtime error causing program termination — stored in ST22",
+      "A system error",
+      "A transport error",
+      "A database error"
     ],
     "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
+    "explanation": "The correct answer is ABAP runtime error causing program termination — stored in ST22."
   },
   {
-    "id": "sap_1268",
+    "id": "SAP_BAS_220",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q268] What is SAP BW?",
+    "question": "What is a batch job in SAP?",
     "options": [
-      "Business Warehouse/Analytics",
-      "Both A and B",
-      "Basic Workflow",
-      "Business Writing"
+      "Background job running without user interaction on a schedule",
+      "A foreground program",
+      "A real-time process",
+      "A database trigger"
     ],
     "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
+    "explanation": "The correct answer is Background job running without user interaction on a schedule."
   },
   {
-    "id": "sap_1269",
+    "id": "SAP_BAS_221",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
+    "section": "ERP Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q269] What is a goods receipt?",
+    "question": "What is SM36 transaction?",
     "options": [
-      "Option not applicable",
-      "Recording received materials",
-      "PO",
-      "Invoice"
+      "Define Background Job — schedule background programs",
+      "Monitor jobs",
+      "Delete jobs",
+      "Release jobs"
     ],
     "answer": 0,
-    "explanation": "GR records inventory received from vendor."
+    "explanation": "The correct answer is Define Background Job — schedule background programs."
   },
   {
-    "id": "sap_1270",
+    "id": "SAP_BAS_222",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q270] LSMW in SAP",
+    "question": "What is SM37 transaction?",
     "options": [
-      "Log System Management",
-      "Data not provided",
-      "Load System Module",
-      "Legacy System Migration Workbench"
+      "Job Overview — view and manage background jobs",
+      "Define jobs",
+      "Delete jobs",
+      "Schedule jobs"
     ],
     "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
+    "explanation": "The correct answer is Job Overview — view and manage background jobs."
   },
   {
-    "id": "sap_1271",
+    "id": "SAP_BAS_223",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q271] SAP Solution Manager is used for",
+    "question": "What is spooling in SAP?",
     "options": [
-      "UI design",
-      "Database management",
-      "ALM and support",
-      "None of the above"
+      "Temporary storage of print output before sending to printer",
+      "Data archiving",
+      "Database buffering",
+      "Memory management"
     ],
     "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
+    "explanation": "The correct answer is Temporary storage of print output before sending to printer."
   },
   {
-    "id": "sap_1272",
+    "id": "SAP_BAS_224",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
+    "section": "ERP Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q272] What is a business partner in SAP?",
+    "question": "What is SP01 transaction?",
     "options": [
-      "Both A and B",
-      "Organizational unit",
-      "Module",
-      "Customer/vendor master data"
+      "Spool Output Controller — manage print requests",
+      "System profiles",
+      "Session overview",
+      "Spool server config"
     ],
     "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
+    "explanation": "The correct answer is Spool Output Controller — manage print requests."
   },
   {
-    "id": "sap_1273",
+    "id": "SAP_BAS_225",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q273] Controlling area in SAP CO",
+    "question": "What is a table buffer in SAP?",
     "options": [
-      "HR unit",
-      "Organizational unit for cost control",
-      "Financial unit",
-      "Neither A nor B"
+      "Application server memory cache for frequently accessed tables",
+      "Database buffer",
+      "Work process cache",
+      "User session cache"
     ],
     "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
+    "explanation": "The correct answer is Application server memory cache for frequently accessed tables."
   },
   {
-    "id": "sap_1274",
+    "id": "SAP_BAS_226",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
+    "section": "ERP Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q274] SAP EWM stands for",
+    "question": "What is RZ10 transaction?",
     "options": [
-      "Enterprise Workflow Module",
-      "Extended Web Module",
-      "Extended Warehouse Management",
-      "Option not applicable"
+      "Profile Parameter Maintenance — edit SAP system parameters",
+      "System configuration",
+      "RFC management",
+      "Buffer management"
     ],
     "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
+    "explanation": "The correct answer is Profile Parameter Maintenance — edit SAP system parameters."
   },
   {
-    "id": "sap_1275",
+    "id": "SAP_BAS_227",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
+    "section": "ERP Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q275] Dunning in SAP FI",
+    "question": "What is a system profile in SAP?",
     "options": [
-      "Automated payment reminders",
-      "Invoice",
-      "All of the above",
-      "Goods receipt"
+      "File containing system-level parameters (memory, work processes, etc.)",
+      "A user profile",
+      "An authorization profile",
+      "A background profile"
     ],
     "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
+    "explanation": "The correct answer is File containing system-level parameters (memory, work processes, etc.)."
   },
   {
-    "id": "sap_1276",
+    "id": "SAP_BAS_228",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q276] SAP TM module handles",
+    "question": "What is the DEFAULT.PFL profile?",
     "options": [
-      "Time Management",
-      "All of the above",
-      "Transportation Management",
-      "Technical Management"
+      "System profile loaded when SAP instance starts",
+      "User default settings",
+      "Client default config",
+      "Authorization defaults"
     ],
     "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
+    "explanation": "The correct answer is System profile loaded when SAP instance starts."
   },
   {
-    "id": "sap_1277",
+    "id": "SAP_BAS_229",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q277] What is a SAP landscape?",
+    "question": "What is CCMS (Computer Center Management System)?",
     "options": [
-      "Database cluster",
-      "Network topology",
-      "Option not applicable",
-      "System arrangement DEV/QA/PROD"
+      "SAP's monitoring and alert management framework",
+      "A backup tool",
+      "A performance tool",
+      "An ABAP tool"
     ],
     "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
+    "explanation": "The correct answer is SAP's monitoring and alert management framework."
   },
   {
-    "id": "sap_1278",
+    "id": "SAP_BAS_230",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q278] Authorization object in SAP",
+    "question": "What is RZ20 transaction?",
     "options": [
-      "Controls access to functions",
-      "None of the above",
-      "Stores data",
-      "Transports objects"
+      "CCMS Monitoring — view and configure system alerts",
+      "Profile maintenance",
+      "Buffer monitoring",
+      "Work process management"
     ],
     "answer": 0,
-    "explanation": "Authorization objects define access permissions."
+    "explanation": "The correct answer is CCMS Monitoring — view and configure system alerts."
   },
   {
-    "id": "sap_1279",
+    "id": "SAP_BAS_231",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is solution manager early watch alert?",
+    "options": [
+      "Automated health check of SAP systems sent to SolMan",
+      "A debugging tool",
+      "A HANA tool",
+      "An ABAP check"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automated health check of SAP systems sent to SolMan."
+  },
+  {
+    "id": "SAP_BAS_232",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q279] SU01 T-code is used for",
+    "question": "What is SAPNetWeaver?",
     "options": [
-      "Table view",
+      "Technology platform providing infrastructure for SAP applications",
+      "A database",
+      "An ABAP program",
+      "A business module"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Technology platform providing infrastructure for SAP applications."
+  },
+  {
+    "id": "SAP_BAS_233",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the ABAP stack in NetWeaver?",
+    "options": [
+      "Application server for running ABAP programs",
+      "Java server",
+      "Web server",
+      "Database server"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Application server for running ABAP programs."
+  },
+  {
+    "id": "SAP_BAS_234",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the J2EE/Java stack in NetWeaver?",
+    "options": [
+      "Application server for running Java-based SAP components",
+      "ABAP server",
+      "Database layer",
+      "Presentation layer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Application server for running Java-based SAP components."
+  },
+  {
+    "id": "SAP_BAS_235",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SSO (Single Sign-On) in SAP?",
+    "options": [
+      "Authentication allowing one login to access multiple SAP systems",
+      "Security on one system",
+      "Admin tool",
+      "Password manager"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Authentication allowing one login to access multiple SAP systems."
+  },
+  {
+    "id": "SAP_BAS_236",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SNC (Secure Network Communication)?",
+    "options": [
+      "Encrypts data between SAP GUI and application server",
+      "A VPN tool",
+      "A firewall rule",
+      "A TLS certificate"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Encrypts data between SAP GUI and application server."
+  },
+  {
+    "id": "SAP_BAS_237",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is HTTPS in SAP web applications?",
+    "options": [
+      "Encrypted HTTP using SSL/TLS for secure web communication",
+      "A SAP protocol",
+      "A custom protocol",
+      "HTTP only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Encrypted HTTP using SSL/TLS for secure web communication."
+  },
+  {
+    "id": "SAP_BAS_238",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is ICM (Internet Communication Manager)?",
+    "options": [
+      "Handles HTTP/HTTPS/WebSocket connections to SAP application server",
+      "Message server",
+      "Gateway server",
+      "Work process"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Handles HTTP/HTTPS/WebSocket connections to SAP application server."
+  },
+  {
+    "id": "SAP_BAS_239",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the ICM monitor (SMICM)?",
+    "options": [
+      "Transaction for monitoring ICM status and connections",
+      "Work process monitor",
+      "System log",
+      "RFC monitor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Transaction for monitoring ICM status and connections."
+  },
+  {
+    "id": "SAP_BAS_240",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a kernel patch in SAP?",
+    "options": [
+      "Update to the SAP kernel executables for bug fixes and improvements",
+      "An ABAP patch",
+      "A database patch",
+      "A support package"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Update to the SAP kernel executables for bug fixes and improvements."
+  },
+  {
+    "id": "SAP_BAS_241",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a Support Package (SP)?",
+    "options": [
+      "Bundle of SAP corrections applied to a system",
+      "A kernel update",
+      "A database update",
+      "A transport request"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Bundle of SAP corrections applied to a system."
+  },
+  {
+    "id": "SAP_BAS_242",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SPAM transaction?",
+    "options": [
+      "Support Package Manager — applies support packages",
+      "System parameter manager",
+      "Spool parameter administration",
+      "Security patch administrator"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Support Package Manager — applies support packages."
+  },
+  {
+    "id": "SAP_BAS_243",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SUM (Software Update Manager)?",
+    "options": [
+      "Tool for system upgrades and major support package stacks",
+      "Support patch tool only",
+      "HANA tool only",
+      "Transport tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tool for system upgrades and major support package stacks."
+  },
+  {
+    "id": "SAP_BAS_244",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is an SAP note?",
+    "options": [
+      "SAP document with corrections, instructions, and code fixes",
+      "A user manual",
+      "A configuration guide",
+      "A transport request"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP document with corrections, instructions, and code fixes."
+  },
+  {
+    "id": "SAP_BAS_245",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SNOTE transaction?",
+    "options": [
+      "SAP Note Assistant — imports and applies SAP correction notes",
+      "Support note manager",
+      "System notification",
+      "Security note tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP Note Assistant — imports and applies SAP correction notes."
+  },
+  {
+    "id": "SAP_BAS_246",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a client transport in SAP?",
+    "options": [
+      "Moving client-specific customizing data between clients/systems",
+      "Moving ABAP code",
+      "Moving basis settings",
+      "Moving user data only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Moving client-specific customizing data between clients/systems."
+  },
+  {
+    "id": "SAP_BAS_247",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SCC1 transaction?",
+    "options": [
+      "Client Copy using a Transport Request",
+      "New client creation",
+      "Client comparison",
+      "Client analysis"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Client Copy using a Transport Request."
+  },
+  {
+    "id": "SAP_BAS_248",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SMLG transaction?",
+    "options": [
+      "Logon Group Maintenance — configure load balancing groups",
+      "System message log",
+      "Spool monitor",
+      "Session log groups"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Logon Group Maintenance — configure load balancing groups."
+  },
+  {
+    "id": "SAP_BAS_249",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is an instance in SAP?",
+    "options": [
+      "A set of work processes, buffers, and shared memory on one server",
+      "A database server",
+      "A client",
+      "A system"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A set of work processes, buffers, and shared memory on one server."
+  },
+  {
+    "id": "SAP_BAS_250",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a central instance?",
+    "options": [
+      "SAP instance containing message server and enqueue work process",
+      "A worker instance",
+      "A dialog instance",
+      "A background instance"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP instance containing message server and enqueue work process."
+  },
+  {
+    "id": "SAP_BAS_251",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is an additional application server (AAS)?",
+    "options": [
+      "Extra instances added for load balancing/performance",
+      "Central instance",
+      "Message server",
+      "Enqueue server"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Extra instances added for load balancing/performance."
+  },
+  {
+    "id": "SAP_BAS_252",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is ASCS (ABAP Central Services)?",
+    "options": [
+      "Message server and enqueue server for the ABAP stack",
+      "A dialog instance",
+      "A work process type",
+      "A backup instance"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Message server and enqueue server for the ABAP stack."
+  },
+  {
+    "id": "SAP_BAS_253",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a rolling kernel switch?",
+    "options": [
+      "Upgrading SAP kernel with minimal downtime by switching instances",
+      "A batch job",
+      "A system restart",
+      "A database patch"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Upgrading SAP kernel with minimal downtime by switching instances."
+  },
+  {
+    "id": "SAP_BAS_254",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is system downtime in SAP?",
+    "options": [
+      "Period when SAP system is unavailable for users",
+      "Regular maintenance window",
+      "High availability period",
+      "Backup window"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Period when SAP system is unavailable for users."
+  },
+  {
+    "id": "SAP_BAS_255",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is HA (High Availability) in SAP?",
+    "options": [
+      "Architecture minimizing system downtime using redundant components",
+      "Always 100% uptime",
+      "Backup and restore",
+      "Database replication only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Architecture minimizing system downtime using redundant components."
+  },
+  {
+    "id": "SAP_BAS_256",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is DR (Disaster Recovery)?",
+    "options": [
+      "Process of recovering SAP systems after catastrophic failure",
+      "Regular backup",
+      "High availability",
+      "Performance testing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Process of recovering SAP systems after catastrophic failure."
+  },
+  {
+    "id": "SAP_BAS_257",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is an SAP router?",
+    "options": [
+      "Software routing requests between networks for secure SAP access",
+      "A hardware router",
+      "A message server",
+      "An application server"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Software routing requests between networks for secure SAP access."
+  },
+  {
+    "id": "SAP_BAS_258",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is saprouter used for?",
+    "options": [
+      "Secure routing of external connections to SAP support and systems",
+      "Load balancing",
+      "Email routing",
+      "Print routing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Secure routing of external connections to SAP support and systems."
+  },
+  {
+    "id": "SAP_BAS_259",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is BASIS housekeeping?",
+    "options": [
+      "Regular maintenance tasks (log cleanup, table reorganization, job monitoring)",
       "User management",
+      "Transport management",
+      "ABAP development"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Regular maintenance tasks (log cleanup, table reorganization, job monitoring)."
+  },
+  {
+    "id": "SAP_BAS_260",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is DB02 transaction?",
+    "options": [
+      "Database Performance Monitor — monitor database space and performance",
       "ABAP editor",
-      "Data not provided"
+      "System monitor",
+      "Table maintenance"
     ],
     "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
+    "explanation": "The correct answer is Database Performance Monitor — monitor database space and performance."
   },
   {
-    "id": "sap_1280",
+    "id": "SAP_BAS_261",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q280] What is a work center in SAP PP?",
+    "question": "What is ST05 transaction?",
     "options": [
-      "Cost center",
-      "Storage location",
-      "Where production operations occur",
-      "The above is incorrect"
+      "SQL Trace — records database calls for performance analysis",
+      "System log",
+      "Work process trace",
+      "ABAP trace"
     ],
     "answer": 0,
-    "explanation": "Work centers define resources for production."
+    "explanation": "The correct answer is SQL Trace — records database calls for performance analysis."
   },
   {
-    "id": "sap_1281",
+    "id": "SAP_BAS_262",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q281] SAP stands for",
+    "question": "What is ST12 transaction?",
     "options": [
-      "Systems Applications Products",
-      "Software Application Platform",
-      "Neither A nor B",
-      "Systems Automated Products"
+      "ABAP runtime analysis and performance trace",
+      "SQL trace",
+      "System trace",
+      "Enqueue trace"
     ],
     "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
+    "explanation": "The correct answer is ABAP runtime analysis and performance trace."
   },
   {
-    "id": "sap_1282",
+    "id": "SAP_BAS_263",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q282] SAP ERP stands for",
+    "question": "What is the SAP system ID (SID)?",
     "options": [
-      "Enterprise Resource Planning",
-      "Extended Resource Planning",
-      "Enterprise Resource Program",
-      "All of the above"
+      "Three-character identifier for a SAP system (e.g., PRD, QAS, DEV)",
+      "System installation number",
+      "License key",
+      "System type"
     ],
     "answer": 0,
-    "explanation": "ERP integrates core business processes."
+    "explanation": "The correct answer is Three-character identifier for a SAP system (e.g., PRD, QAS, DEV)."
   },
   {
-    "id": "sap_1283",
+    "id": "SAP_BAS_264",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[SAP-Q283] SAP HANA is",
+    "question": "What is the system number in SAP?",
     "options": [
-      "Relational DB",
-      "Cloud only",
-      "In-memory database",
-      "NoSQL DB"
+      "Two-digit number identifying a SAP instance (00-99)",
+      "System ID",
+      "License ID",
+      "Client number"
     ],
     "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
+    "explanation": "The correct answer is Two-digit number identifying a SAP instance (00-99)."
   },
   {
-    "id": "sap_1284",
+    "id": "SAP_BAS_265",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q284] SAP S/4HANA runs on",
+    "question": "What is client 000 used for?",
     "options": [
-      "Any database",
-      "Oracle only",
-      "SAP HANA DB only",
-      "MySQL"
+      "SAP reference client with standard settings — for upgrades and tests",
+      "Production client",
+      "Development client",
+      "Test client"
     ],
     "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
+    "explanation": "The correct answer is SAP reference client with standard settings — for upgrades and tests."
   },
   {
-    "id": "sap_1285",
+    "id": "SAP_BAS_266",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q285] ABAP stands for",
+    "question": "What is client 001 used for?",
     "options": [
-      "Neither A nor B",
-      "Advanced Business Application Programming",
-      "Advanced Basic App Programming",
-      "Automated Business App Programming"
+      "Copy of client 000 for customizing (in fresh systems)",
+      "Production client",
+      "Reference client",
+      "SAP standard client"
     ],
     "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
+    "explanation": "The correct answer is Copy of client 000 for customizing (in fresh systems)."
   },
   {
-    "id": "sap_1286",
+    "id": "SAP_BAS_267",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
+    "section": "ERP Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q286] SAP FI module handles",
+    "question": "What is an IDOC (Intermediate Document)?",
     "options": [
-      "Logistics",
-      "Sales",
-      "Production Planning",
-      "Financial Accounting"
+      "SAP data container for electronic data exchange (EDI)",
+      "A database document",
+      "A transport request",
+      "An ABAP program"
     ],
     "answer": 0,
-    "explanation": "FI module manages financial accounting."
+    "explanation": "The correct answer is SAP data container for electronic data exchange (EDI)."
   },
   {
-    "id": "sap_1287",
+    "id": "SAP_BAS_268",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction BD87?",
+    "options": [
+      "IDOC Monitor — view and reprocess IDOCs",
+      "IDOC creation",
+      "IDOC configuration",
+      "RFC monitor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is IDOC Monitor — view and reprocess IDOCs."
+  },
+  {
+    "id": "SAP_BAS_269",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q287] SAP CO module handles",
+    "question": "What is XI/PI (SAP NetWeaver Process Integration)?",
     "options": [
-      "Procurement",
-      "HR",
+      "SAP middleware for system-to-system integration and message routing",
+      "An ERP module",
+      "A BW tool",
+      "An ABAP runtime"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP middleware for system-to-system integration and message routing."
+  },
+  {
+    "id": "SAP_BAS_270",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SAP CPI (Cloud Platform Integration)?",
+    "options": [
+      "SAP's cloud-based integration platform (successor to PI/PO)",
+      "On-premise PI only",
+      "An ABAP tool",
+      "A HANA tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP's cloud-based integration platform (successor to PI/PO)."
+  },
+  {
+    "id": "SAP_BAS_271",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is change and transport system (CTS)?",
+    "options": [
+      "SAP's tool to manage and transport configuration/code changes",
+      "A file transport tool",
+      "A network tool",
+      "A database tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP's tool to manage and transport configuration/code changes."
+  },
+  {
+    "id": "SAP_BAS_272",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the transport domain?",
+    "options": [
+      "A group of SAP systems managed together in a transport landscape",
+      "A transport type",
+      "A transport route",
+      "A transport class"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A group of SAP systems managed together in a transport landscape."
+  },
+  {
+    "id": "SAP_BAS_273",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a consolidation route?",
+    "options": [
+      "Transport path from development to quality system",
+      "Production path",
+      "Domain path",
+      "System path"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Transport path from development to quality system."
+  },
+  {
+    "id": "SAP_BAS_274",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a delivery route?",
+    "options": [
+      "Transport path from quality to production system",
+      "Dev to QA path",
+      "Domain path",
+      "Consolidation path"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Transport path from quality to production system."
+  },
+  {
+    "id": "SAP_BAS_275",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the tp command?",
+    "options": [
+      "Command-line transport program executing transport steps",
+      "A BASIS command",
+      "A database command",
+      "A kernel command"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Command-line transport program executing transport steps."
+  },
+  {
+    "id": "SAP_BAS_276",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is R3trans?",
+    "options": [
+      "Low-level transport tool that reads/writes transport files",
+      "A high-level transport",
+      "An ABAP program",
+      "A Java tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Low-level transport tool that reads/writes transport files."
+  },
+  {
+    "id": "SAP_BAS_277",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is BDLS transaction?",
+    "options": [
+      "Logical System Name Change — changes system names after client copy",
+      "Transport release",
+      "RFC maintenance",
+      "User synchronization"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Logical System Name Change — changes system names after client copy."
+  },
+  {
+    "id": "SAP_BAS_278",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is background work process (BTC)?",
+    "options": [
+      "Executes scheduled batch jobs without user interaction",
+      "Dialog process",
+      "Update process",
+      "Enqueue process"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Executes scheduled batch jobs without user interaction."
+  },
+  {
+    "id": "SAP_BAS_279",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is an update work process (UPD)?",
+    "options": [
+      "Executes asynchronous database update tasks",
+      "Dialog process",
+      "Background process",
+      "Spool process"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Executes asynchronous database update tasks."
+  },
+  {
+    "id": "SAP_BAS_280",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a dialog work process (DIA)?",
+    "options": [
+      "Handles interactive user requests (screen flows)",
+      "Background process",
+      "Update process",
+      "Enqueue process"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Handles interactive user requests (screen flows)."
+  },
+  {
+    "id": "SAP_BAS_281",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SM04 transaction?",
+    "options": [
+      "User Overview — view and delete active user sessions",
+      "Work process monitor",
+      "System monitor",
+      "Job monitor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is User Overview — view and delete active user sessions."
+  },
+  {
+    "id": "SAP_BAS_282",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is AL08 transaction?",
+    "options": [
+      "Users Logged On — all active users across all application servers",
+      "System log",
+      "Alert monitor",
+      "Batch job monitor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Users Logged On — all active users across all application servers."
+  },
+  {
+    "id": "SAP_BAS_283",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the alert monitor (RZ20)?",
+    "options": [
+      "CCMS tool for monitoring system health and generating alerts",
+      "System log",
+      "Work process monitor",
+      "Transport monitor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is CCMS tool for monitoring system health and generating alerts."
+  },
+  {
+    "id": "SAP_BAS_284",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is JAVA stack administration tool?",
+    "options": [
+      "NWA (NetWeaver Administrator) — web-based admin for Java stack",
+      "SAP GUI",
+      "ABAP Workbench",
+      "HANA Studio"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is NWA (NetWeaver Administrator) — web-based admin for Java stack."
+  },
+  {
+    "id": "SAP_BAS_285",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the SAP MMC (Microsoft Management Console)?",
+    "options": [
+      "Windows tool for starting/stopping SAP instances on Windows",
+      "A Java tool",
+      "A UNIX tool",
+      "A monitoring tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Windows tool for starting/stopping SAP instances on Windows."
+  },
+  {
+    "id": "SAP_BAS_286",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is sapcontrol command?",
+    "options": [
+      "Web service interface for controlling SAP instances from command line",
+      "A kernel command",
+      "An ABAP command",
+      "A database command"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Web service interface for controlling SAP instances from command line."
+  },
+  {
+    "id": "SAP_FI_287",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does SAP FI stand for?",
+    "options": [
+      "Financial Accounting",
+      "Financial Integration",
+      "Fixed Income",
+      "Financial Interface"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Financial Accounting."
+  },
+  {
+    "id": "SAP_FI_288",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the General Ledger (G/L) in SAP FI?",
+    "options": [
+      "Central accounting module recording all business transactions",
+      "Accounts Payable",
+      "Accounts Receivable",
+      "Asset Accounting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Central accounting module recording all business transactions."
+  },
+  {
+    "id": "SAP_FI_289",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a company code in SAP?",
+    "options": [
+      "Smallest organizational unit with complete self-contained accounting",
+      "A business area",
+      "A plant",
+      "A controlling area"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Smallest organizational unit with complete self-contained accounting."
+  },
+  {
+    "id": "SAP_FI_290",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the fiscal year variant?",
+    "options": [
+      "Configuration defining the fiscal year structure (periods) for a company",
+      "A currency config",
+      "A posting period",
+      "A payment term"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Configuration defining the fiscal year structure (periods) for a company."
+  },
+  {
+    "id": "SAP_FI_291",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a posting period in SAP FI?",
+    "options": [
+      "Time period (month) during which transactions can be posted",
+      "A fiscal year",
+      "A company code",
+      "A ledger"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Time period (month) during which transactions can be posted."
+  },
+  {
+    "id": "SAP_FI_292",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction OB52 used for?",
+    "options": [
+      "Open and close posting periods for company codes",
+      "Define posting keys",
+      "Create G/L accounts",
+      "Maintain exchange rates"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Open and close posting periods for company codes."
+  },
+  {
+    "id": "SAP_FI_293",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a chart of accounts?",
+    "options": [
+      "List of all G/L accounts used by one or more company codes",
+      "A cost center plan",
+      "A payment plan",
+      "A tax schema"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is List of all G/L accounts used by one or more company codes."
+  },
+  {
+    "id": "SAP_FI_294",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is an operational chart of accounts?",
+    "options": [
+      "The primary chart of accounts used in daily transactions",
+      "A country-specific COA",
+      "A group COA",
+      "A reference COA"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is The primary chart of accounts used in daily transactions."
+  },
+  {
+    "id": "SAP_FI_295",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is account type in SAP FI?",
+    "options": [
+      "Classifies an account (Asset, Liability, Revenue, Expense, Material)",
+      "Account category in COA",
+      "Account group",
+      "Balance sheet type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Classifies an account (Asset, Liability, Revenue, Expense, Material)."
+  },
+  {
+    "id": "SAP_FI_296",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a document type in SAP FI?",
+    "options": [
+      "Two-character key controlling account types allowed and number range",
+      "A posting key",
+      "A posting period",
+      "A company code setting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Two-character key controlling account types allowed and number range."
+  },
+  {
+    "id": "SAP_FI_297",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a posting key?",
+    "options": [
+      "Two-digit code controlling debit/credit and account type for line items",
+      "A document type",
+      "A number range",
+      "A payment term"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Two-digit code controlling debit/credit and account type for line items."
+  },
+  {
+    "id": "SAP_FI_298",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the reconciliation account in SAP FI?",
+    "options": [
+      "G/L account automatically updated when posting to sub-ledger accounts",
+      "A clearing account",
+      "A transit account",
+      "A bank account"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is G/L account automatically updated when posting to sub-ledger accounts."
+  },
+  {
+    "id": "SAP_FI_299",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the accounts payable (AP) sub-ledger?",
+    "options": [
+      "Records transactions for vendors",
+      "Customer records",
+      "Asset records",
+      "Bank records"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Records transactions for vendors."
+  },
+  {
+    "id": "SAP_FI_300",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the accounts receivable (AR) sub-ledger?",
+    "options": [
+      "Records transactions for customers",
+      "Vendor records",
+      "Asset records",
+      "Cash records"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Records transactions for customers."
+  },
+  {
+    "id": "SAP_FI_301",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a vendor master record?",
+    "options": [
+      "Master data containing vendor information for purchasing and payment",
+      "Customer data",
+      "G/L account data",
+      "Asset data"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Master data containing vendor information for purchasing and payment."
+  },
+  {
+    "id": "SAP_FI_302",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a customer master record?",
+    "options": [
+      "Master data containing customer information for sales and receivables",
+      "Vendor data",
+      "G/L account data",
+      "Employee data"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Master data containing customer information for sales and receivables."
+  },
+  {
+    "id": "SAP_FI_303",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of tolerance groups in FI?",
+    "options": [
+      "Define acceptable differences for payment and clearing transactions",
+      "Define posting limits",
+      "Set authorization levels",
+      "Control document types"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Define acceptable differences for payment and clearing transactions."
+  },
+  {
+    "id": "SAP_FI_304",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is bank reconciliation in SAP FI?",
+    "options": [
+      "Matching SAP bank statement with actual bank transactions",
+      "Vendor payment reconciliation",
+      "Customer payment matching",
+      "Asset reconciliation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Matching SAP bank statement with actual bank transactions."
+  },
+  {
+    "id": "SAP_FI_305",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the electronic bank statement (EBS) in SAP?",
+    "options": [
+      "Automatic import and processing of bank statements",
+      "A manual bank entry",
+      "A bank payment",
+      "A bank clearing doc"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automatic import and processing of bank statements."
+  },
+  {
+    "id": "SAP_FI_306",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a clearing account?",
+    "options": [
+      "Temporary G/L account used to offset debit and credit entries",
+      "A bank account",
+      "A revenue account",
+      "A balance sheet account"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Temporary G/L account used to offset debit and credit entries."
+  },
+  {
+    "id": "SAP_FI_307",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is GR/IR clearing account?",
+    "options": [
+      "Goods Receipt/Invoice Receipt account for unmatched goods and invoices",
+      "A vendor clearing account",
+      "A customer clearing account",
+      "A bank clearing account"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Goods Receipt/Invoice Receipt account for unmatched goods and invoices."
+  },
+  {
+    "id": "SAP_FI_308",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the three-way match in SAP?",
+    "options": [
+      "Matching Purchase Order, Goods Receipt, and Vendor Invoice",
+      "Matching two documents",
+      "Matching four documents",
+      "Matching customer docs"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Matching Purchase Order, Goods Receipt, and Vendor Invoice."
+  },
+  {
+    "id": "SAP_FI_309",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction FB50?",
+    "options": [
+      "Enter G/L Account Document (general journal entry)",
+      "Post vendor invoice",
+      "Post customer invoice",
+      "Clear open items"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Enter G/L Account Document (general journal entry)."
+  },
+  {
+    "id": "SAP_FI_310",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction F-02?",
+    "options": [
+      "Enter G/L Account Posting (complex entry with multiple line items)",
+      "A batch input",
+      "An automatic posting",
+      "A bank posting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Enter G/L Account Posting (complex entry with multiple line items)."
+  },
+  {
+    "id": "SAP_FI_311",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is transaction FB60?",
+    "options": [
+      "Enter Incoming Vendor Invoice",
+      "Post outgoing payment",
+      "Post G/L entry",
+      "Create a vendor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Enter Incoming Vendor Invoice."
+  },
+  {
+    "id": "SAP_FI_312",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction F-43?",
+    "options": [
+      "Post Vendor Invoice (detailed screen)",
+      "Post customer invoice",
+      "Post G/L entry",
+      "Enter a credit memo"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Post Vendor Invoice (detailed screen)."
+  },
+  {
+    "id": "SAP_FI_313",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction F-28?",
+    "options": [
+      "Post Incoming Customer Payments",
+      "Post vendor payments",
+      "Post G/L entries",
+      "Create bank accounts"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Post Incoming Customer Payments."
+  },
+  {
+    "id": "SAP_FI_314",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction F-53?",
+    "options": [
+      "Post Outgoing Vendor Payments",
+      "Post customer receipts",
+      "Post G/L entries",
+      "Clear open items only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Post Outgoing Vendor Payments."
+  },
+  {
+    "id": "SAP_FI_315",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the payment run in SAP FI?",
+    "options": [
+      "Automatic payment program (F110) that processes vendor payments",
+      "A manual payment",
+      "A bank statement",
+      "A payment order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automatic payment program (F110) that processes vendor payments."
+  },
+  {
+    "id": "SAP_FI_316",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction F110?",
+    "options": [
+      "Automatic Payment Program — processes vendor and customer payments",
+      "Manual payment entry",
+      "Bank reconciliation",
+      "Check printing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automatic Payment Program — processes vendor and customer payments."
+  },
+  {
+    "id": "SAP_FI_317",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a dunning process in SAP?",
+    "options": [
+      "Reminding customers about overdue payments",
+      "Paying vendors",
+      "Booking revenue",
+      "Clearing accounts"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reminding customers about overdue payments."
+  },
+  {
+    "id": "SAP_FI_318",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction F150?",
+    "options": [
+      "Dunning Run — sends payment reminders to customers",
+      "Payment run",
+      "Collection run",
+      "Clearing run"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Dunning Run — sends payment reminders to customers."
+  },
+  {
+    "id": "SAP_FI_319",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is asset accounting (FI-AA)?",
+    "options": [
+      "Sub-module tracking acquisition, depreciation, and retirement of assets",
+      "G/L accounting",
+      "AR accounting",
+      "AP accounting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sub-module tracking acquisition, depreciation, and retirement of assets."
+  },
+  {
+    "id": "SAP_FI_320",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is depreciation in asset accounting?",
+    "options": [
+      "Systematic reduction of asset value over its useful life",
+      "An asset write-up",
+      "An asset revaluation",
+      "An asset transfer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Systematic reduction of asset value over its useful life."
+  },
+  {
+    "id": "SAP_FI_321",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is transaction AS01?",
+    "options": [
+      "Create Asset Master Record",
+      "Change asset",
+      "Display asset",
+      "Post asset transaction"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Create Asset Master Record."
+  },
+  {
+    "id": "SAP_FI_322",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction AFAB?",
+    "options": [
+      "Depreciation Run — posts depreciation amounts for assets",
+      "Asset acquisition",
+      "Asset retirement",
+      "Asset transfer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Depreciation Run — posts depreciation amounts for assets."
+  },
+  {
+    "id": "SAP_FI_323",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is special G/L indicator?",
+    "options": [
+      "Code identifying special transactions (down payments, bills)",
+      "A posting key",
+      "A document type",
+      "An account type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Code identifying special transactions (down payments, bills)."
+  },
+  {
+    "id": "SAP_FI_324",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a down payment in SAP FI?",
+    "options": [
+      "Advance payment recorded separately before final invoice",
+      "A full payment",
+      "A partial payment",
+      "A credit memo"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Advance payment recorded separately before final invoice."
+  },
+  {
+    "id": "SAP_FI_325",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a credit memo in SAP FI?",
+    "options": [
+      "Document reducing customer AR or vendor AP balance",
+      "An invoice",
+      "A payment",
+      "A clearing document"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Document reducing customer AR or vendor AP balance."
+  },
+  {
+    "id": "SAP_FI_326",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a goods receipt (GR) document?",
+    "options": [
+      "Records receipt of goods into inventory, creating accounting entries",
+      "A purchase order",
+      "A delivery note",
+      "A vendor invoice"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Records receipt of goods into inventory, creating accounting entries."
+  },
+  {
+    "id": "SAP_FI_327",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the controlling area in SAP?",
+    "options": [
+      "Organizational unit for internal cost accounting (CO module)",
+      "A company code",
+      "A plant",
+      "A business area"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Organizational unit for internal cost accounting (CO module)."
+  },
+  {
+    "id": "SAP_FI_328",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction OBA7?",
+    "options": [
+      "Document Type Maintenance — configure document types",
+      "Posting key config",
+      "Number range config",
+      "Tolerance group config"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Document Type Maintenance — configure document types."
+  },
+  {
+    "id": "SAP_FI_329",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a financial statement version?",
+    "options": [
+      "Defines structure for balance sheet and P&L reporting",
+      "A report template",
+      "A chart of accounts",
+      "A ledger view"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defines structure for balance sheet and P&L reporting."
+  },
+  {
+    "id": "SAP_FI_330",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction F.01?",
+    "options": [
+      "Financial Statements — generate balance sheet and P&L reports",
+      "G/L account report",
+      "Vendor report",
+      "Customer report"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Financial Statements — generate balance sheet and P&L reports."
+  },
+  {
+    "id": "SAP_FI_331",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a parallel ledger in SAP?",
+    "options": [
+      "Additional ledger for different accounting principles (e.g., IFRS)",
+      "A secondary COA",
+      "A sub-ledger",
+      "A backup ledger"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Additional ledger for different accounting principles (e.g., IFRS)."
+  },
+  {
+    "id": "SAP_FI_332",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is New G/L (New General Ledger)?",
+    "options": [
+      "Enhanced G/L with document splitting, parallel ledgers, and more segments",
+      "Classic G/L upgrade",
+      "A new COA",
+      "A new document type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Enhanced G/L with document splitting, parallel ledgers, and more segments."
+  },
+  {
+    "id": "SAP_FI_333",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is document splitting?",
+    "options": [
+      "Divides accounting document line items by business segment for full balance sheets",
+      "A clearing process",
+      "A payment split",
+      "A batch split"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Divides accounting document line items by business segment for full balance sheets."
+  },
+  {
+    "id": "SAP_FI_334",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a segment in New G/L?",
+    "options": [
+      "Organizational unit for segment reporting under IFRS 8",
+      "A company code",
+      "A business area",
+      "A profit center"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Organizational unit for segment reporting under IFRS 8."
+  },
+  {
+    "id": "SAP_FI_335",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is profit center accounting (PCA)?",
+    "options": [
+      "Tracks profitability by profit center within a company",
+      "Cost center accounting",
+      "Segment accounting",
+      "Business area accounting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tracks profitability by profit center within a company."
+  },
+  {
+    "id": "SAP_FI_336",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is cost center accounting?",
+    "options": [
+      "CO sub-module tracking overhead costs by department/unit",
+      "Profit center accounting",
+      "Product costing",
+      "Profitability analysis"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is CO sub-module tracking overhead costs by department/unit."
+  },
+  {
+    "id": "SAP_FI_337",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction KS01?",
+    "options": [
+      "Create Cost Center",
+      "Create profit center",
+      "Create G/L account",
+      "Create cost element"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Create Cost Center."
+  },
+  {
+    "id": "SAP_FI_338",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a cost element in SAP CO?",
+    "options": [
+      "Links G/L accounts to cost accounting categories",
+      "A cost center",
+      "A profit center",
+      "An activity type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Links G/L accounts to cost accounting categories."
+  },
+  {
+    "id": "SAP_FI_339",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is primary cost element?",
+    "options": [
+      "Corresponds directly to a G/L account in FI (e.g., salary expense)",
+      "Secondary cost element",
+      "Activity type",
+      "Statistical key figure"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Corresponds directly to a G/L account in FI (e.g., salary expense)."
+  },
+  {
+    "id": "SAP_FI_340",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a secondary cost element?",
+    "options": [
+      "Used only in CO for allocations, settlements (no FI counterpart)",
+      "A primary cost element",
+      "A G/L account",
+      "A revenue element"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Used only in CO for allocations, settlements (no FI counterpart)."
+  },
+  {
+    "id": "SAP_FI_341",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is internal order in SAP CO?",
+    "options": [
+      "Collects costs for specific activities or projects temporarily",
+      "A purchase order",
+      "A sales order",
+      "A cost center"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Collects costs for specific activities or projects temporarily."
+  },
+  {
+    "id": "SAP_FI_342",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a settlement in SAP CO?",
+    "options": [
+      "Transfers collected costs from an order to a cost center or G/L",
+      "A payment",
+      "An allocation",
+      "A clearing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Transfers collected costs from an order to a cost center or G/L."
+  },
+  {
+    "id": "SAP_FI_343",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a distribution cycle in CO?",
+    "options": [
+      "Allocates costs from sender to receiver cost centers using original cost elements",
+      "An assessment cycle",
+      "A settlement",
+      "A periodic repost"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Allocates costs from sender to receiver cost centers using original cost elements."
+  },
+  {
+    "id": "SAP_FI_344",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is an assessment cycle in CO?",
+    "options": [
+      "Allocates costs using a secondary cost element (lumped total)",
+      "A distribution cycle",
+      "A repost",
+      "A settlement"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Allocates costs using a secondary cost element (lumped total)."
+  },
+  {
+    "id": "SAP_FI_345",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is profitability analysis (CO-PA)?",
+    "options": [
+      "Analyzes profitability by product, customer, region, etc.",
+      "A sales report",
+      "A cost report",
+      "A ledger report"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Analyzes profitability by product, customer, region, etc.."
+  },
+  {
+    "id": "SAP_FI_346",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is product costing?",
+    "options": [
+      "Calculates the cost of producing a product or service",
+      "Sales costing",
+      "Asset costing",
+      "Project costing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Calculates the cost of producing a product or service."
+  },
+  {
+    "id": "SAP_FI_347",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a standard cost estimate?",
+    "options": [
+      "Planned cost calculation for a product used as a reference",
+      "An actual cost",
+      "A target cost",
+      "A budget cost"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Planned cost calculation for a product used as a reference."
+  },
+  {
+    "id": "SAP_FI_348",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is variance calculation in SAP CO?",
+    "options": [
+      "Comparing actual costs against standard/planned costs",
+      "A settlement",
+      "A distribution",
+      "A repost"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Comparing actual costs against standard/planned costs."
+  },
+  {
+    "id": "SAP_FI_349",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is COGS (Cost of Goods Sold)?",
+    "options": [
+      "Cost associated with producing sold goods, posted to P&L",
+      "Revenue",
+      "Operating expense",
+      "Asset cost"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cost associated with producing sold goods, posted to P&L."
+  },
+  {
+    "id": "SAP_FI_350",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction KE30?",
+    "options": [
+      "Execute Profitability Analysis report",
+      "Create cost element",
+      "Run settlement",
+      "Execute distribution"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Execute Profitability Analysis report."
+  },
+  {
+    "id": "SAP_FI_351",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the SAP General Ledger (FI-GL) account balance?",
+    "options": [
+      "Cumulative balance of all posted debits and credits",
+      "A single transaction",
+      "A payment balance",
+      "A vendor balance"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cumulative balance of all posted debits and credits."
+  },
+  {
+    "id": "SAP_FI_352",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction FS10N?",
+    "options": [
+      "G/L Account Balance Display — shows balance and line items",
+      "Create G/L account",
+      "Post G/L entry",
+      "Close a period"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is G/L Account Balance Display — shows balance and line items."
+  },
+  {
+    "id": "SAP_FI_353",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction FBL3N?",
+    "options": [
+      "G/L Account Line Item Display",
+      "G/L balance display",
+      "G/L account maintenance",
+      "Document reversal"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is G/L Account Line Item Display."
+  },
+  {
+    "id": "SAP_FI_354",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction FBL1N?",
+    "options": [
+      "Vendor Line Item Display",
+      "Customer line items",
+      "G/L line items",
+      "Asset line items"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Vendor Line Item Display."
+  },
+  {
+    "id": "SAP_FI_355",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction FBL5N?",
+    "options": [
+      "Customer Line Item Display",
+      "Vendor line items",
+      "G/L line items",
+      "Bank line items"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Customer Line Item Display."
+  },
+  {
+    "id": "SAP_FI_356",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction FB08?",
+    "options": [
+      "Reverse a posted accounting document",
+      "Post a document",
+      "Change a document",
+      "Display a document"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reverse a posted accounting document."
+  },
+  {
+    "id": "SAP_FI_357",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a reversal document in SAP FI?",
+    "options": [
+      "Document that cancels a previously posted document",
+      "A correction entry",
+      "A credit memo",
+      "A down payment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Document that cancels a previously posted document."
+  },
+  {
+    "id": "SAP_FI_358",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction MIRO?",
+    "options": [
+      "Enter Logistics Invoice Verification — post vendor invoices from MM",
+      "Post a G/L entry",
+      "Post a customer invoice",
+      "Post a down payment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Enter Logistics Invoice Verification — post vendor invoices from MM."
+  },
+  {
+    "id": "SAP_FI_359",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the Logistics Invoice Verification (LIV)?",
+    "options": [
+      "MM process of matching and posting vendor invoices for goods received",
+      "A FI-only process",
+      "A payment process",
+      "A G/L process"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is MM process of matching and posting vendor invoices for goods received."
+  },
+  {
+    "id": "SAP_FI_360",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a payment block in SAP?",
+    "options": [
+      "Flag preventing automatic payment of a vendor invoice",
+      "A dunning block",
+      "An authorization block",
+      "A clearing block"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Flag preventing automatic payment of a vendor invoice."
+  },
+  {
+    "id": "SAP_FI_361",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a baseline date in vendor payment terms?",
+    "options": [
+      "Reference date from which payment due date is calculated",
+      "Payment date",
+      "Posting date",
+      "Document date"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reference date from which payment due date is calculated."
+  },
+  {
+    "id": "SAP_FI_362",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is net due date?",
+    "options": [
+      "Date by which payment must be made to avoid late penalties",
+      "Discount date",
+      "Posting date",
+      "Baseline date"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Date by which payment must be made to avoid late penalties."
+  },
+  {
+    "id": "SAP_FI_363",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a cash discount in FI?",
+    "options": [
+      "Reduction in payment amount for early payment",
+      "A vendor rebate",
+      "A customer discount",
+      "A tax reduction"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reduction in payment amount for early payment."
+  },
+  {
+    "id": "SAP_FI_364",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a tax code in SAP FI?",
+    "options": [
+      "Code determining tax rate and account assignment for a transaction",
+      "A document type",
+      "A posting key",
+      "A payment term"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Code determining tax rate and account assignment for a transaction."
+  },
+  {
+    "id": "SAP_FI_365",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction OB40?",
+    "options": [
+      "Tax Account Assignment — links tax codes to G/L accounts",
+      "Tax code creation",
+      "Tax rate definition",
+      "Tax report"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tax Account Assignment — links tax codes to G/L accounts."
+  },
+  {
+    "id": "SAP_FI_366",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a foreign currency revaluation?",
+    "options": [
+      "Adjusting open items in foreign currency to current exchange rate",
+      "A payment",
+      "A clearing",
+      "A document reversal"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Adjusting open items in foreign currency to current exchange rate."
+  },
+  {
+    "id": "SAP_FI_367",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction FAGL_FC_VAL?",
+    "options": [
+      "Foreign Currency Valuation in New G/L",
+      "Classic revaluation",
+      "Asset revaluation",
+      "Period-end closing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Foreign Currency Valuation in New G/L."
+  },
+  {
+    "id": "SAP_FI_368",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is GR/IR account?",
+    "options": [
+      "Clearing account for unmatched goods receipts and vendor invoices",
+      "A bank account",
+      "A customer account",
+      "A cash account"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Clearing account for unmatched goods receipts and vendor invoices."
+  },
+  {
+    "id": "SAP_FI_369",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a substitution in SAP FI?",
+    "options": [
+      "Automatic replacement of field value during document posting",
+      "A validation",
+      "A user exit",
+      "A workflow"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automatic replacement of field value during document posting."
+  },
+  {
+    "id": "SAP_FI_370",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a validation in SAP FI?",
+    "options": [
+      "Rule checking if field values meet conditions — issues error/warning",
+      "A substitution",
+      "A workflow",
+      "A user exit"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Rule checking if field values meet conditions — issues error/warning."
+  },
+  {
+    "id": "SAP_FI_371",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SAP S/4HANA Finance?",
+    "options": [
+      "Simplified finance module on HANA with single source of truth ledger",
+      "A classic FI module",
+      "A BI tool",
+      "A payment system"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Simplified finance module on HANA with single source of truth ledger."
+  },
+  {
+    "id": "SAP_FI_372",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Universal Journal in S/4HANA?",
+    "options": [
+      "Single table (ACDOCA) storing all FI/CO postings",
+      "Multiple tables",
+      "A reporting view",
+      "An archived journal"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Single table (ACDOCA) storing all FI/CO postings."
+  },
+  {
+    "id": "SAP_FI_373",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction FAGLL03 in S/4HANA?",
+    "options": [
+      "G/L Account Line Items — reads from Universal Journal",
+      "Classic FBL3N",
+      "Asset line items",
+      "Vendor line items"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is G/L Account Line Items — reads from Universal Journal."
+  },
+  {
+    "id": "SAP_FI_374",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Credit Management in SAP FI-AR?",
+    "options": [
+      "Controls customer credit limits and monitors exposure",
+      "Dunning process",
+      "Payment process",
+      "Collection process"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Controls customer credit limits and monitors exposure."
+  },
+  {
+    "id": "SAP_FI_375",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction FD32?",
+    "options": [
+      "Customer Credit Limit Maintenance",
+      "Customer account maintenance",
+      "Customer balance display",
+      "Customer line items"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Customer Credit Limit Maintenance."
+  },
+  {
+    "id": "SAP_FI_376",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a noted item in SAP FI?",
+    "options": [
+      "Statistical posting not affecting G/L balance (e.g., guarantees)",
+      "A cleared item",
+      "An open item",
+      "A parked document"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Statistical posting not affecting G/L balance (e.g., guarantees)."
+  },
+  {
+    "id": "SAP_FI_377",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a parked document in SAP FI?",
+    "options": [
+      "A document saved but not yet posted — can be changed before posting",
+      "A posted document",
+      "A reversed document",
+      "A cleared document"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A document saved but not yet posted — can be changed before posting."
+  },
+  {
+    "id": "SAP_FI_378",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction FBV0?",
+    "options": [
+      "Post Parked Documents — posts previously parked FI documents",
+      "Park a document",
+      "Display parked documents",
+      "Reverse parked documents"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Post Parked Documents — posts previously parked FI documents."
+  },
+  {
+    "id": "SAP_FI_379",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is an accrual in SAP FI?",
+    "options": [
+      "Posting expenses/revenues in the period they occur, not when cash moves",
+      "A payment",
+      "A provision",
+      "A tax entry"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Posting expenses/revenues in the period they occur, not when cash moves."
+  },
+  {
+    "id": "SAP_FI_380",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the accrual engine in SAP?",
+    "options": [
+      "Automated calculation and posting of accruals",
+      "A manual accrual tool",
+      "A CO tool",
+      "A payment tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automated calculation and posting of accruals."
+  },
+  {
+    "id": "SAP_FI_381",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a balance sheet in SAP FI?",
+    "options": [
+      "Financial statement showing assets, liabilities, and equity at a point in time",
+      "P&L statement",
+      "Cash flow statement",
+      "Depreciation report"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Financial statement showing assets, liabilities, and equity at a point in time."
+  },
+  {
+    "id": "SAP_FI_382",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the P&L statement?",
+    "options": [
+      "Shows revenue and expenses over a period — net profit/loss",
+      "Balance sheet",
+      "Cash flow statement",
+      "Asset report"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows revenue and expenses over a period — net profit/loss."
+  },
+  {
+    "id": "SAP_CO_383",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does SAP CO stand for?",
+    "options": [
       "Controlling",
-      "Financial Accounting"
+      "Cost Operations",
+      "Company Operations",
+      "Cost Optimization"
     ],
     "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
+    "explanation": "The correct answer is Controlling."
   },
   {
-    "id": "sap_1288",
+    "id": "SAP_CO_384",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the primary purpose of SAP CO?",
+    "options": [
+      "Internal cost accounting and profitability analysis",
+      "External financial reporting",
+      "Customer management",
+      "Vendor management"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Internal cost accounting and profitability analysis."
+  },
+  {
+    "id": "SAP_CO_385",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a controlling area?",
+    "options": [
+      "Organizational unit for cost accounting spanning one or more company codes",
+      "A company code",
+      "A plant",
+      "A profit center"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Organizational unit for cost accounting spanning one or more company codes."
+  },
+  {
+    "id": "SAP_CO_386",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a cost center?",
+    "options": [
+      "Organizational unit collecting overhead costs for a department or function",
+      "A profit center",
+      "An order",
+      "A WBS element"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Organizational unit collecting overhead costs for a department or function."
+  },
+  {
+    "id": "SAP_CO_387",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a profit center?",
+    "options": [
+      "Organizational unit evaluating profitability of a product line or region",
+      "A cost center",
+      "An internal order",
+      "A cost element"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Organizational unit evaluating profitability of a product line or region."
+  },
+  {
+    "id": "SAP_CO_388",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is an internal order in CO?",
+    "options": [
+      "Collects costs and revenues for specific events or activities",
+      "A purchase order",
+      "A sales order",
+      "A production order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Collects costs and revenues for specific events or activities."
+  },
+  {
+    "id": "SAP_CO_389",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q288] SAP MM module handles",
+    "question": "What is a WBS (Work Breakdown Structure) element?",
     "options": [
-      "Maintenance",
+      "Hierarchical project structure element in PS module collecting costs",
+      "A cost center",
+      "A profit center",
+      "An internal order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hierarchical project structure element in PS module collecting costs."
+  },
+  {
+    "id": "SAP_CO_390",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a cost element?",
+    "options": [
+      "Maps G/L accounts to CO cost categories",
+      "A cost center",
+      "A profit center",
+      "An order type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Maps G/L accounts to CO cost categories."
+  },
+  {
+    "id": "SAP_CO_391",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a primary cost element?",
+    "options": [
+      "Created from a G/L account; records external costs",
+      "A CO-only cost element",
+      "A secondary cost element",
+      "An activity type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Created from a G/L account; records external costs."
+  },
+  {
+    "id": "SAP_CO_392",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a secondary cost element?",
+    "options": [
+      "Used only in CO for internal allocations (no G/L account)",
+      "A primary cost element",
+      "An external cost element",
+      "A revenue element"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Used only in CO for internal allocations (no G/L account)."
+  },
+  {
+    "id": "SAP_CO_393",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is an activity type in CO?",
+    "options": [
+      "Unit of work performed by a cost center (e.g., machine hours)",
+      "A cost element",
+      "A cost center",
+      "An order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Unit of work performed by a cost center (e.g., machine hours)."
+  },
+  {
+    "id": "SAP_CO_394",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a statistical key figure?",
+    "options": [
+      "Quantity measure used for allocation (e.g., headcount, area)",
+      "A cost element",
+      "An activity type",
+      "A price"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Quantity measure used for allocation (e.g., headcount, area)."
+  },
+  {
+    "id": "SAP_CO_395",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of distribution in CO?",
+    "options": [
+      "Allocates primary cost elements from sender to receiver cost centers",
+      "Posts secondary costs",
+      "Settles an order",
+      "Updates GL"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Allocates primary cost elements from sender to receiver cost centers."
+  },
+  {
+    "id": "SAP_CO_396",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of assessment in CO?",
+    "options": [
+      "Allocates costs using a single secondary cost element (lumped)",
+      "Allocates with primary elements",
+      "Posts to G/L",
+      "Settles an order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Allocates costs using a single secondary cost element (lumped)."
+  },
+  {
+    "id": "SAP_CO_397",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a periodic repost in CO?",
+    "options": [
+      "Corrects incorrect cost center assignments within a period",
+      "An allocation",
+      "A settlement",
+      "A distribution"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Corrects incorrect cost center assignments within a period."
+  },
+  {
+    "id": "SAP_CO_398",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is actual cost accounting?",
+    "options": [
+      "Records costs as they actually occur",
+      "Planned cost accounting",
+      "Standard cost accounting",
+      "Budget accounting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Records costs as they actually occur."
+  },
+  {
+    "id": "SAP_CO_399",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is plan/budget in CO?",
+    "options": [
+      "Predefined target costs for comparing with actuals",
+      "Actual cost",
+      "Standard cost",
+      "Estimate cost"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Predefined target costs for comparing with actuals."
+  },
+  {
+    "id": "SAP_CO_400",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction KP06?",
+    "options": [
+      "Enter Cost Center Planning",
+      "Display cost center actuals",
+      "Create cost center",
+      "Run depreciation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Enter Cost Center Planning."
+  },
+  {
+    "id": "SAP_CO_401",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is variance analysis in CO?",
+    "options": [
+      "Compares actual vs. planned/standard costs to identify differences",
+      "A report type",
+      "A settlement",
+      "An allocation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Compares actual vs. planned/standard costs to identify differences."
+  },
+  {
+    "id": "SAP_CO_402",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is target cost?",
+    "options": [
+      "Planned cost adjusted for actual activity output",
+      "Actual cost",
+      "Standard cost",
+      "Budget cost"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Planned cost adjusted for actual activity output."
+  },
+  {
+    "id": "SAP_CO_403",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a costing run in CO?",
+    "options": [
+      "Mass execution of product cost estimates for all materials",
+      "A period-end closing step only",
+      "A payment run",
+      "A depreciation run"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Mass execution of product cost estimates for all materials."
+  },
+  {
+    "id": "SAP_CO_404",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is standard cost estimate?",
+    "options": [
+      "Pre-calculated cost for a product used as reference",
+      "Actual cost",
+      "Target cost",
+      "Plan cost"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pre-calculated cost for a product used as reference."
+  },
+  {
+    "id": "SAP_CO_405",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the cost of goods manufactured (COGM)?",
+    "options": [
+      "Total production cost of goods produced in a period",
+      "COGS",
+      "Revenue",
+      "Variance"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Total production cost of goods produced in a period."
+  },
+  {
+    "id": "SAP_CO_406",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is cost of goods sold (COGS)?",
+    "options": [
+      "Cost of goods delivered to customers in a period",
+      "COGM",
+      "Revenue",
+      "Overhead"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cost of goods delivered to customers in a period."
+  },
+  {
+    "id": "SAP_CO_407",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is CO-PC (Product Costing)?",
+    "options": [
+      "CO sub-module for calculating product manufacturing costs",
+      "CO-CCA",
+      "CO-PCA",
+      "CO-PA"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is CO sub-module for calculating product manufacturing costs."
+  },
+  {
+    "id": "SAP_CO_408",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is CO-PA (Profitability Analysis)?",
+    "options": [
+      "Analyzes profitability by market segments",
+      "CO-PC",
+      "CO-CCA",
+      "CO-OPA"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Analyzes profitability by market segments."
+  },
+  {
+    "id": "SAP_CO_409",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is costing-based CO-PA?",
+    "options": [
+      "Stores cost and revenue data by value fields (not G/L accounts)",
+      "Account-based CO-PA",
+      "G/L-based PA",
+      "Contribution margin PA"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stores cost and revenue data by value fields (not G/L accounts)."
+  },
+  {
+    "id": "SAP_CO_410",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is account-based CO-PA?",
+    "options": [
+      "Uses G/L accounts for profitability analysis (recommended in S/4HANA)",
+      "Costing-based CO-PA",
+      "Value field-based PA",
+      "Plan-based PA"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Uses G/L accounts for profitability analysis (recommended in S/4HANA)."
+  },
+  {
+    "id": "SAP_CO_411",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction KE24?",
+    "options": [
+      "Display CO-PA Line Items",
+      "Run CO-PA report",
+      "Create PA characteristic",
+      "Configure PA structure"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Display CO-PA Line Items."
+  },
+  {
+    "id": "SAP_CO_412",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a CO document?",
+    "options": [
+      "Record of a CO posting (internal cost transaction)",
+      "A FI document",
+      "An MM document",
+      "A PP document"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Record of a CO posting (internal cost transaction)."
+  },
+  {
+    "id": "SAP_CO_413",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the relationship between FI and CO in SAP?",
+    "options": [
+      "FI posts to G/L; CO posts to cost objects — linked via reconciliation",
+      "They are independent",
+      "CO posts to FI only",
+      "FI and CO share one document"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is FI posts to G/L; CO posts to cost objects — linked via reconciliation."
+  },
+  {
+    "id": "SAP_CO_414",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the reconciliation ledger?",
+    "options": [
+      "(Classic SAP) Reconciles FI and CO postings for cross-company flows",
+      "A payment ledger",
+      "A balance ledger",
+      "A G/L ledger"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is (Classic SAP) Reconciles FI and CO postings for cross-company flows."
+  },
+  {
+    "id": "SAP_CO_415",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction KB11N?",
+    "options": [
+      "Enter Direct Activity Allocation — manual CO activity posting",
+      "Enter reposting",
+      "Enter statistical key figure",
+      "Enter distribution"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Enter Direct Activity Allocation — manual CO activity posting."
+  },
+  {
+    "id": "SAP_CO_416",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction KB21N?",
+    "options": [
+      "Enter Activity Allocation — allocates activities between cost centers",
+      "Display activity",
+      "Create activity type",
+      "Plan activity"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Enter Activity Allocation — allocates activities between cost centers."
+  },
+  {
+    "id": "SAP_CO_417",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction KB31N?",
+    "options": [
+      "Enter Statistical Key Figures",
+      "Enter activity allocation",
+      "Enter cost posting",
+      "Enter distribution"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Enter Statistical Key Figures."
+  },
+  {
+    "id": "SAP_CO_418",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the cost center hierarchy?",
+    "options": [
+      "Tree structure organizing cost centers into groups",
+      "A profit center hierarchy",
+      "An order hierarchy",
+      "A project hierarchy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tree structure organizing cost centers into groups."
+  },
+  {
+    "id": "SAP_CO_419",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction OKEON?",
+    "options": [
+      "Cost Center Hierarchy — display/maintain cost center groups",
+      "Create cost center",
+      "Create profit center",
+      "Create order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cost Center Hierarchy — display/maintain cost center groups."
+  },
+  {
+    "id": "SAP_CO_420",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is transaction KS03?",
+    "options": [
+      "Display Cost Center",
+      "Change cost center",
+      "Create cost center",
+      "Delete cost center"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Display Cost Center."
+  },
+  {
+    "id": "SAP_CO_421",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction KOB1?",
+    "options": [
+      "Display Actual Cost Line Items for Orders",
+      "Plan line items",
+      "Settlement",
+      "Create order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Display Actual Cost Line Items for Orders."
+  },
+  {
+    "id": "SAP_CO_422",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a settlement rule?",
+    "options": [
+      "Defines how and where collected costs on an order are settled",
+      "A distribution rule",
+      "An assessment rule",
+      "A payment rule"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defines how and where collected costs on an order are settled."
+  },
+  {
+    "id": "SAP_CO_423",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is settlement in CO?",
+    "options": [
+      "Transferring costs from a sender (order) to a receiver (cost center, G/L, PA)",
+      "An allocation",
+      "A distribution",
+      "An assessment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Transferring costs from a sender (order) to a receiver (cost center, G/L, PA)."
+  },
+  {
+    "id": "SAP_CO_424",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction KO88?",
+    "options": [
+      "Actual Settlement of an Internal Order",
+      "Plan settlement",
+      "Create settlement rule",
+      "Display order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Actual Settlement of an Internal Order."
+  },
+  {
+    "id": "SAP_CO_425",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is overhead in CO?",
+    "options": [
+      "Indirect costs allocated to cost objects (rent, utilities, admin)",
+      "Direct material cost",
+      "Direct labor cost",
+      "Sales cost"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Indirect costs allocated to cost objects (rent, utilities, admin)."
+  },
+  {
+    "id": "SAP_CO_426",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is overhead costing sheet?",
+    "options": [
+      "Defines overhead percentage rates applied to production orders",
+      "A settlement rule",
+      "A cost element",
+      "A price list"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defines overhead percentage rates applied to production orders."
+  },
+  {
+    "id": "SAP_CO_427",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is activity price calculation?",
+    "options": [
+      "Determines the rate for activity types (plan price for allocation)",
+      "Variance calculation",
+      "Distribution",
+      "Assessment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Determines the rate for activity types (plan price for allocation)."
+  },
+  {
+    "id": "SAP_CO_428",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction KSPI?",
+    "options": [
+      "Execute Actual Price Calculation for cost centers",
+      "Plan price calculation",
+      "Activity allocation",
+      "Cost distribution"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Execute Actual Price Calculation for cost centers."
+  },
+  {
+    "id": "SAP_CO_429",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a budget in CO?",
+    "options": [
+      "Authorized spending limit for a cost center or order",
+      "A plan",
+      "An estimate",
+      "A forecast"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Authorized spending limit for a cost center or order."
+  },
+  {
+    "id": "SAP_CO_430",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is budget availability control?",
+    "options": [
+      "Checks actual+committed costs against budget and warns/blocks",
+      "Variance analysis",
+      "Settlement check",
+      "Cost distribution"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Checks actual+committed costs against budget and warns/blocks."
+  },
+  {
+    "id": "SAP_CO_431",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction KO30?",
+    "options": [
+      "Activate/deactivate budget availability control for internal orders",
+      "Set budget",
+      "Display budget",
+      "Create order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Activate/deactivate budget availability control for internal orders."
+  },
+  {
+    "id": "SAP_CO_432",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is commitment in CO?",
+    "options": [
+      "Obligation to spend (e.g., purchase order not yet invoiced)",
+      "An actual cost",
+      "A planned cost",
+      "A budget"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Obligation to spend (e.g., purchase order not yet invoiced)."
+  },
+  {
+    "id": "SAP_CO_433",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a cost object?",
+    "options": [
+      "Any SAP object collecting costs (cost center, order, WBS, product)",
+      "A G/L account",
+      "A vendor",
+      "A customer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Any SAP object collecting costs (cost center, order, WBS, product)."
+  },
+  {
+    "id": "SAP_CO_434",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is period-end closing in CO?",
+    "options": [
+      "Month-end activities: allocations, settlements, variance calculation",
+      "Year-end closing",
+      "Fiscal year opening",
+      "Budget planning"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Month-end activities: allocations, settlements, variance calculation."
+  },
+  {
+    "id": "SAP_CO_435",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the CO period-end sequence?",
+    "options": [
+      "Allocations → Activity Price Calc → Settlements → Variance Calc → CO-PA Transfer",
+      "Random order",
+      "Settlements first",
+      "Variance calc first"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Allocations → Activity Price Calc → Settlements → Variance Calc → CO-PA Transfer."
+  },
+  {
+    "id": "SAP_CO_436",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the CO integration with MM?",
+    "options": [
+      "Goods receipts/invoices generate CO postings to cost objects",
+      "CO is independent",
+      "MM posts to FI only",
+      "CO posts to MM"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Goods receipts/invoices generate CO postings to cost objects."
+  },
+  {
+    "id": "SAP_CO_437",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the CO integration with PP (Production Planning)?",
+    "options": [
+      "Production orders collect actual costs from CO and settle to product",
+      "CO is independent",
+      "PP posts to FI only",
+      "CO posts to PP"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Production orders collect actual costs from CO and settle to product."
+  },
+  {
+    "id": "SAP_CO_438",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the CO integration with SD?",
+    "options": [
+      "Revenue from sales orders flows to CO-PA",
+      "CO is independent",
+      "SD posts to FI only",
+      "CO posts to SD"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Revenue from sales orders flows to CO-PA."
+  },
+  {
+    "id": "SAP_CO_439",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a cost collector?",
+    "options": [
+      "Object accumulating costs for product cost by period",
+      "An internal order",
+      "A WBS element",
+      "A cost center"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Object accumulating costs for product cost by period."
+  },
+  {
+    "id": "SAP_CO_440",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is actual costing/material ledger?",
+    "options": [
+      "Calculates actual cost of materials using all price differences",
+      "Standard cost only",
+      "Planned cost",
+      "Estimated cost"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Calculates actual cost of materials using all price differences."
+  },
+  {
+    "id": "SAP_CO_441",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is price determination in material ledger?",
+    "options": [
+      "Calculates actual moving average or periodic unit price",
+      "Standard price calc",
+      "Planned price calc",
+      "Budget price calc"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Calculates actual moving average or periodic unit price."
+  },
+  {
+    "id": "SAP_CO_442",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction MR21?",
+    "options": [
+      "Change Material Price — manual price update in material master",
+      "Create material",
+      "Display material price",
+      "Run costing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Change Material Price — manual price update in material master."
+  },
+  {
+    "id": "SAP_CO_443",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is CCA (Cost Center Accounting)?",
+    "options": [
+      "CO sub-module for cost center planning, allocation, and reporting",
+      "Profit center accounting",
+      "Internal order accounting",
+      "PA analysis"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is CO sub-module for cost center planning, allocation, and reporting."
+  },
+  {
+    "id": "SAP_CO_444",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is OPA (Order and Project Accounting)?",
+    "options": [
+      "CO sub-module tracking costs on internal orders and WBS elements",
+      "CCA",
+      "PCA",
+      "CO-PA"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is CO sub-module tracking costs on internal orders and WBS elements."
+  },
+  {
+    "id": "SAP_CO_445",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is PCA (Profit Center Accounting)?",
+    "options": [
+      "Tracks revenues and costs by profit center for internal reporting",
+      "CCA",
+      "OPA",
+      "CO-PA"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tracks revenues and costs by profit center for internal reporting."
+  },
+  {
+    "id": "SAP_CO_446",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction 1KE8?",
+    "options": [
+      "Transfer Actual Profit Center Data from FI to CO-PCA",
+      "Create profit center",
+      "Display plan",
+      "Run distribution"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Transfer Actual Profit Center Data from FI to CO-PCA."
+  },
+  {
+    "id": "SAP_CO_447",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a template allocation in CO?",
+    "options": [
+      "Dynamic allocation based on formulas and quantity structures",
+      "Fixed allocation",
+      "Statistical allocation",
+      "Budget allocation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Dynamic allocation based on formulas and quantity structures."
+  },
+  {
+    "id": "SAP_CO_448",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transfer price in CO?",
+    "options": [
+      "Price for goods/services exchanged between profit centers",
+      "Market price",
+      "Standard price",
+      "Material price"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Price for goods/services exchanged between profit centers."
+  },
+  {
+    "id": "SAP_CO_449",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is contribution margin?",
+    "options": [
+      "Revenue minus variable costs",
+      "Gross profit",
+      "Net profit",
+      "Operating profit"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Revenue minus variable costs."
+  },
+  {
+    "id": "SAP_CO_450",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is break-even analysis in CO?",
+    "options": [
+      "Finding output level where total revenue equals total cost",
+      "Budget analysis",
+      "Variance analysis",
+      "Settlement analysis"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Finding output level where total revenue equals total cost."
+  },
+  {
+    "id": "SAP_CO_451",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is fixed cost vs variable cost in CO?",
+    "options": [
+      "Fixed costs don't change with output; variable costs do",
+      "Both change with output",
+      "Both are fixed",
+      "Fixed changes, variable stays"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Fixed costs don't change with output; variable costs do."
+  },
+  {
+    "id": "SAP_CO_452",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a rollup in CO hierarchy?",
+    "options": [
+      "Aggregating values from lower to higher nodes in hierarchy",
+      "A distribution",
+      "An allocation",
+      "A repost"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Aggregating values from lower to higher nodes in hierarchy."
+  },
+  {
+    "id": "SAP_CO_453",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction S_ALR_87013611?",
+    "options": [
+      "Cost Centers: Plan/Actual Comparison report",
+      "Profit center report",
+      "Order report",
+      "PA report"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cost Centers: Plan/Actual Comparison report."
+  },
+  {
+    "id": "SAP_CO_454",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction KSB1?",
+    "options": [
+      "Cost Center: Actual Line Items report",
+      "Plan line items",
+      "Cost element report",
+      "Order report"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cost Center: Actual Line Items report."
+  },
+  {
+    "id": "SAP_CO_455",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction GR55?",
+    "options": [
+      "Execute Report Group — runs CO reporting groups",
+      "Create report",
+      "Display report",
+      "Schedule report"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Execute Report Group — runs CO reporting groups."
+  },
+  {
+    "id": "SAP_CO_456",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is CO-OM (Overhead Management)?",
+    "options": [
+      "Sub-component managing overhead cost collection and allocation",
+      "Product costing",
+      "Profitability analysis",
+      "Project accounting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sub-component managing overhead cost collection and allocation."
+  },
+  {
+    "id": "SAP_CO_457",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a resource in CO?",
+    "options": [
+      "Combination of an activity type and cost center for cost calculation",
+      "A cost element",
+      "An order",
+      "A WBS element"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Combination of an activity type and cost center for cost calculation."
+  },
+  {
+    "id": "SAP_CO_458",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is cost splitting in CO?",
+    "options": [
+      "Divides fixed and variable cost portions in activity rates",
+      "Cost distribution",
+      "Cost allocation",
+      "Cost settlement"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Divides fixed and variable cost portions in activity rates."
+  },
+  {
+    "id": "SAP_CO_459",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is actual overhead rate?",
+    "options": [
+      "Overhead rate calculated from actual costs after period end",
+      "Planned overhead rate",
+      "Standard overhead rate",
+      "Budgeted rate"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Overhead rate calculated from actual costs after period end."
+  },
+  {
+    "id": "SAP_CO_460",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is FICO integration?",
+    "options": [
+      "Link between FI (external) and CO (internal) accounting in SAP",
+      "A module name",
+      "An SAP release",
+      "A reporting tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Link between FI (external) and CO (internal) accounting in SAP."
+  },
+  {
+    "id": "SAP_CO_461",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is document number range in CO?",
+    "options": [
+      "Sequence of numbers assigned to CO documents",
+      "A CO account range",
+      "A cost center range",
+      "An order range"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sequence of numbers assigned to CO documents."
+  },
+  {
+    "id": "SAP_CO_462",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction OKB9?",
+    "options": [
+      "Account Assignment for Default Account Assignment in CO",
+      "Create cost center",
+      "Plan cost center",
+      "Create order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Account Assignment for Default Account Assignment in CO."
+  },
+  {
+    "id": "SAP_CO_463",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is TCODE KE30 used for?",
+    "options": [
+      "Execute Profitability Analysis report",
+      "Create PA characteristic",
+      "Configure PA",
+      "Display PA line items"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Execute Profitability Analysis report."
+  },
+  {
+    "id": "SAP_CO_464",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is an EC-PCA vs CO-PA?",
+    "options": [
+      "EC-PCA is classic profit center accounting; CO-PA is advanced profitability analysis",
+      "Same module",
+      "EC-PCA is newer",
+      "CO-PA is for costs only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is EC-PCA is classic profit center accounting; CO-PA is advanced profitability analysis."
+  },
+  {
+    "id": "SAP_CO_465",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction 3KEH?",
+    "options": [
+      "Maintain Default Profit Center Assignment to G/L accounts",
+      "Create profit center",
+      "Display profit center",
+      "Allocate profit center"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Maintain Default Profit Center Assignment to G/L accounts."
+  },
+  {
+    "id": "SAP_CO_466",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a cost split in CO master data?",
+    "options": [
+      "Divides cost center fixed and variable costs for price calculation",
+      "A document split",
+      "A depreciation split",
+      "A revenue split"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Divides cost center fixed and variable costs for price calculation."
+  },
+  {
+    "id": "SAP_CO_467",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction CKMVFM in material ledger?",
+    "options": [
+      "Material Ledger: Closing Entries — actual costing final step",
+      "Material price change",
+      "Material cost estimate",
+      "Material valuation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Material Ledger: Closing Entries — actual costing final step."
+  },
+  {
+    "id": "SAP_CO_468",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the cost component structure?",
+    "options": [
+      "Defines how cost components (material, labor, overhead) are structured in product cost",
+      "A settlement rule",
+      "A distribution rule",
+      "A price structure"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defines how cost components (material, labor, overhead) are structured in product cost."
+  },
+  {
+    "id": "SAP_CO_469",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is process costing in CO?",
+    "options": [
+      "Costing for production processes collecting actual costs by process order",
+      "Product costing",
+      "Order costing",
+      "Batch costing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Costing for production processes collecting actual costs by process order."
+  },
+  {
+    "id": "SAP_CO_470",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is CK11N transaction?",
+    "options": [
+      "Create Standard Cost Estimate for a Material",
+      "Execute costing run",
+      "Mark cost estimate",
+      "Release cost estimate"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Create Standard Cost Estimate for a Material."
+  },
+  {
+    "id": "SAP_CO_471",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is CK40N transaction?",
+    "options": [
+      "Execute Costing Run for multiple materials",
+      "Create cost estimate",
+      "Mark cost estimate",
+      "Release cost estimate"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Execute Costing Run for multiple materials."
+  },
+  {
+    "id": "SAP_CO_472",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is marking a cost estimate?",
+    "options": [
+      "Saving a cost estimate as the planned price for future release",
+      "Releasing the estimate",
+      "Deleting the estimate",
+      "Displaying the estimate"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Saving a cost estimate as the planned price for future release."
+  },
+  {
+    "id": "SAP_CO_473",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is releasing a cost estimate?",
+    "options": [
+      "Activating the cost estimate as the new standard price for the material",
+      "Marking the estimate",
+      "Deleting the estimate",
+      "Recalculating the estimate"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Activating the cost estimate as the new standard price for the material."
+  },
+  {
+    "id": "SAP_CO_474",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a cost estimate with quantity structure?",
+    "options": [
+      "Uses BOM and routing to calculate product cost automatically",
+      "Manual cost estimate",
+      "Price list-based estimate",
+      "Overhead-based estimate"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Uses BOM and routing to calculate product cost automatically."
+  },
+  {
+    "id": "SAP_CO_475",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of KKAX transaction?",
+    "options": [
+      "Display Actual Costing Results for Production Order",
+      "Create production order",
+      "Close production order",
+      "Run settlement"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Display Actual Costing Results for Production Order."
+  },
+  {
+    "id": "SAP_MM_476",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does SAP MM stand for?",
+    "options": [
       "Materials Management",
-      "Marketing",
-      "Manufacturing"
+      "Master Management",
+      "Material Monitoring",
+      "Master Materials"
     ],
     "answer": 0,
-    "explanation": "MM handles procurement and inventory."
+    "explanation": "The correct answer is Materials Management."
   },
   {
-    "id": "sap_1289",
+    "id": "SAP_MM_477",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the purpose of SAP MM?",
+    "options": [
+      "Manages procurement, inventory, and material master data",
+      "Financial accounting",
+      "Sales management",
+      "Production planning"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Manages procurement, inventory, and material master data."
+  },
+  {
+    "id": "SAP_MM_478",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a material master?",
+    "options": [
+      "Central data record for a material containing all material information",
+      "A vendor record",
+      "A purchase order",
+      "A storage location"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Central data record for a material containing all material information."
+  },
+  {
+    "id": "SAP_MM_479",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a vendor master in MM?",
+    "options": [
+      "Master data for a vendor used in purchasing",
+      "Customer master",
+      "Material master",
+      "Storage master"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Master data for a vendor used in purchasing."
+  },
+  {
+    "id": "SAP_MM_480",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a purchase requisition (PR)?",
+    "options": [
+      "An internal request to purchase a material or service",
+      "A purchase order",
+      "A goods receipt",
+      "An invoice"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is An internal request to purchase a material or service."
+  },
+  {
+    "id": "SAP_MM_481",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a purchase order (PO)?",
+    "options": [
+      "A formal document sent to vendor specifying items to buy",
+      "A purchase requisition",
+      "A goods receipt",
+      "A vendor invoice"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A formal document sent to vendor specifying items to buy."
+  },
+  {
+    "id": "SAP_MM_482",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is goods receipt (GR)?",
+    "options": [
+      "Confirmation that ordered goods have been received",
+      "Goods issue",
+      "Return delivery",
+      "Transfer posting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Confirmation that ordered goods have been received."
+  },
+  {
+    "id": "SAP_MM_483",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is goods issue (GI)?",
+    "options": [
+      "Reduction of inventory when materials are consumed or shipped",
+      "Goods receipt",
+      "Return delivery",
+      "Transfer posting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reduction of inventory when materials are consumed or shipped."
+  },
+  {
+    "id": "SAP_MM_484",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q289] SAP SD module handles",
+    "question": "What is a transfer posting?",
     "options": [
-      "Software Development",
+      "Moving stock between storage locations or changing stock type",
+      "Goods receipt",
+      "Goods issue",
+      "Return delivery"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Moving stock between storage locations or changing stock type."
+  },
+  {
+    "id": "SAP_MM_485",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a material document?",
+    "options": [
+      "Record created in system when a goods movement occurs",
+      "A financial document",
+      "A purchase order",
+      "A PR"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Record created in system when a goods movement occurs."
+  },
+  {
+    "id": "SAP_MM_486",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is an accounting document in MM?",
+    "options": [
+      "FI document created parallel to material document for financial impact",
+      "A material document",
+      "A purchase order",
+      "A PR"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is FI document created parallel to material document for financial impact."
+  },
+  {
+    "id": "SAP_MM_487",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is MIGO transaction?",
+    "options": [
+      "Goods Movement — all types of GR, GI, transfer postings",
+      "Create a PO",
+      "Create a PR",
+      "Create a vendor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Goods Movement — all types of GR, GI, transfer postings."
+  },
+  {
+    "id": "SAP_MM_488",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is transaction ME21N?",
+    "options": [
+      "Create Purchase Order",
+      "Create PR",
+      "Create goods receipt",
+      "Create invoice"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Create Purchase Order."
+  },
+  {
+    "id": "SAP_MM_489",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is transaction ME51N?",
+    "options": [
+      "Create Purchase Requisition",
+      "Create PO",
+      "Create contract",
+      "Create scheduling agreement"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Create Purchase Requisition."
+  },
+  {
+    "id": "SAP_MM_490",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction ME11?",
+    "options": [
+      "Create Purchasing Info Record",
+      "Create vendor",
+      "Create contract",
+      "Create PO"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Create Purchasing Info Record."
+  },
+  {
+    "id": "SAP_MM_491",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a purchasing info record?",
+    "options": [
+      "Link between material and vendor with price and delivery info",
+      "A purchase contract",
+      "A source list",
+      "A quota arrangement"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Link between material and vendor with price and delivery info."
+  },
+  {
+    "id": "SAP_MM_492",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a source list in SAP MM?",
+    "options": [
+      "Defines allowed sources of supply for a material",
+      "An info record",
+      "A contract",
+      "A scheduling agreement"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defines allowed sources of supply for a material."
+  },
+  {
+    "id": "SAP_MM_493",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a contract in SAP MM?",
+    "options": [
+      "Long-term agreement with vendor for materials at specified conditions",
+      "A PO",
+      "A PR",
+      "A scheduling agreement"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Long-term agreement with vendor for materials at specified conditions."
+  },
+  {
+    "id": "SAP_MM_494",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a scheduling agreement?",
+    "options": [
+      "Long-term agreement with delivery schedule lines",
+      "A contract",
+      "A PO",
+      "A framework order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Long-term agreement with delivery schedule lines."
+  },
+  {
+    "id": "SAP_MM_495",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a framework order (blanket PO)?",
+    "options": [
+      "Long-term PO for value-based purchasing without specific quantities",
+      "A standard PO",
+      "A scheduling agreement",
+      "A contract"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Long-term PO for value-based purchasing without specific quantities."
+  },
+  {
+    "id": "SAP_MM_496",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the three-way match in MM?",
+    "options": [
+      "PO + GR + Invoice must match for automatic payment",
+      "Two-way match",
+      "Four-way match",
+      "One-way match"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is PO + GR + Invoice must match for automatic payment."
+  },
+  {
+    "id": "SAP_MM_497",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is invoice verification in MM?",
+    "options": [
+      "Checking vendor invoice against PO and GR before payment",
+      "A PR check",
+      "A GR check",
+      "A payment check"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Checking vendor invoice against PO and GR before payment."
+  },
+  {
+    "id": "SAP_MM_498",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction MIRO?",
+    "options": [
+      "Logistics Invoice Verification — post vendor invoice in MM",
+      "Create PO",
+      "Post GR",
+      "Create PR"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Logistics Invoice Verification — post vendor invoice in MM."
+  },
+  {
+    "id": "SAP_MM_499",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the GR/IR account?",
+    "options": [
+      "Clearing account for unmatched goods receipts and invoices",
+      "A bank account",
+      "A vendor account",
+      "A material account"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Clearing account for unmatched goods receipts and invoices."
+  },
+  {
+    "id": "SAP_MM_500",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a material type?",
+    "options": [
+      "Categorizes materials (raw material, finished goods, trading goods, etc.)",
+      "A material group",
+      "An industry sector",
+      "A valuation class"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Categorizes materials (raw material, finished goods, trading goods, etc.)."
+  },
+  {
+    "id": "SAP_MM_501",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a plant in SAP?",
+    "options": [
+      "Organizational unit representing a production facility or warehouse",
+      "A company code",
+      "A storage location",
+      "A purchasing organization"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Organizational unit representing a production facility or warehouse."
+  },
+  {
+    "id": "SAP_MM_502",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a storage location?",
+    "options": [
+      "Sub-unit of a plant where stock is physically stored",
+      "A plant",
+      "A warehouse number",
+      "A bin"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sub-unit of a plant where stock is physically stored."
+  },
+  {
+    "id": "SAP_MM_503",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a warehouse management (WM) system?",
+    "options": [
+      "Manages stock at warehouse/bin level with detailed locations",
+      "Inventory management",
+      "Plant maintenance",
+      "Production planning"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Manages stock at warehouse/bin level with detailed locations."
+  },
+  {
+    "id": "SAP_MM_504",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a batch in SAP MM?",
+    "options": [
+      "A lot of material produced/received under same conditions",
+      "A storage location",
+      "A stock type",
+      "A material group"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A lot of material produced/received under same conditions."
+  },
+  {
+    "id": "SAP_MM_505",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is batch management?",
+    "options": [
+      "Tracking materials in specific batches for quality and traceability",
+      "Serial number management",
+      "Warehouse management",
+      "Inventory management"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tracking materials in specific batches for quality and traceability."
+  },
+  {
+    "id": "SAP_MM_506",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is consignment stock?",
+    "options": [
+      "Vendor-owned stock stored at customer's premises",
+      "Own stock",
+      "Blocked stock",
+      "Unrestricted stock"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Vendor-owned stock stored at customer's premises."
+  },
+  {
+    "id": "SAP_MM_507",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is subcontracting in SAP MM?",
+    "options": [
+      "Sending components to vendor for processing and receiving back",
+      "Standard purchasing",
+      "Service procurement",
+      "Third-party processing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sending components to vendor for processing and receiving back."
+  },
+  {
+    "id": "SAP_MM_508",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a third-party order?",
+    "options": [
+      "Purchase order where vendor delivers directly to customer",
+      "Subcontracting",
+      "Standard PO",
+      "Stock transfer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Purchase order where vendor delivers directly to customer."
+  },
+  {
+    "id": "SAP_MM_509",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a stock transfer order?",
+    "options": [
+      "Move stock between plants or company codes",
+      "A GR",
+      "A GI",
+      "A PR"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Move stock between plants or company codes."
+  },
+  {
+    "id": "SAP_MM_510",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is STO (Stock Transfer Order)?",
+    "options": [
+      "PO used for stock transfers between plants",
+      "A standard PO",
+      "A scheduling agreement",
+      "A framework order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is PO used for stock transfers between plants."
+  },
+  {
+    "id": "SAP_MM_511",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is MRP (Material Requirements Planning)?",
+    "options": [
+      "Calculates material requirements based on demand and stock levels",
+      "A manual reorder process",
+      "An inventory count",
+      "A vendor list"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Calculates material requirements based on demand and stock levels."
+  },
+  {
+    "id": "SAP_MM_512",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction MD01?",
+    "options": [
+      "Run MRP for all materials in a plant",
+      "Run MRP for one material",
+      "Display MRP elements",
+      "Create planned order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Run MRP for all materials in a plant."
+  },
+  {
+    "id": "SAP_MM_513",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a planned order?",
+    "options": [
+      "System-generated proposal for production or purchasing to cover demand",
+      "A purchase requisition",
+      "A purchase order",
+      "A production order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is System-generated proposal for production or purchasing to cover demand."
+  },
+  {
+    "id": "SAP_MM_514",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a reorder point?",
+    "options": [
+      "Inventory level that triggers a new purchase or production order",
+      "Safety stock",
+      "Maximum stock",
+      "Average stock"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Inventory level that triggers a new purchase or production order."
+  },
+  {
+    "id": "SAP_MM_515",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is safety stock?",
+    "options": [
+      "Buffer stock held to prevent stockouts from demand/supply variability",
+      "Reorder point",
+      "Maximum stock",
+      "Cycle stock"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Buffer stock held to prevent stockouts from demand/supply variability."
+  },
+  {
+    "id": "SAP_MM_516",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a physical inventory in SAP?",
+    "options": [
+      "Counting actual stock and reconciling with system stock",
+      "A goods movement",
+      "A stock transfer",
+      "An inventory report"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Counting actual stock and reconciling with system stock."
+  },
+  {
+    "id": "SAP_MM_517",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction MI01?",
+    "options": [
+      "Create Physical Inventory Document",
+      "Post inventory difference",
+      "Enter inventory count",
+      "Approve inventory"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Create Physical Inventory Document."
+  },
+  {
+    "id": "SAP_MM_518",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is valuation in MM?",
+    "options": [
+      "Determining the monetary value of inventory",
+      "A goods movement",
+      "A PR process",
+      "A PO process"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Determining the monetary value of inventory."
+  },
+  {
+    "id": "SAP_MM_519",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is moving average price (MAP)?",
+    "options": [
+      "Price updated with each goods receipt based on weighted average",
+      "Standard price",
+      "Planned price",
+      "Budget price"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Price updated with each goods receipt based on weighted average."
+  },
+  {
+    "id": "SAP_MM_520",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is standard price in MM?",
+    "options": [
+      "Fixed price for a material set during costing; variances posted separately",
+      "Moving average price",
+      "Actual price",
+      "Estimated price"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Fixed price for a material set during costing; variances posted separately."
+  },
+  {
+    "id": "SAP_MM_521",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a price difference in MM?",
+    "options": [
+      "Variance between PO price and moving average price posted to a separate account",
+      "A discount",
+      "A tax",
+      "A freight cost"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Variance between PO price and moving average price posted to a separate account."
+  },
+  {
+    "id": "SAP_MM_522",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a material group?",
+    "options": [
+      "Code grouping materials with similar characteristics for reporting",
+      "A material type",
+      "A valuation class",
+      "An industry sector"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Code grouping materials with similar characteristics for reporting."
+  },
+  {
+    "id": "SAP_MM_523",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a purchasing group?",
+    "options": [
+      "Buyer or group responsible for procurement activities",
+      "A purchasing organization",
+      "A vendor group",
+      "A material group"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Buyer or group responsible for procurement activities."
+  },
+  {
+    "id": "SAP_MM_524",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a purchasing organization?",
+    "options": [
+      "Organizational unit responsible for procurement for one or more plants",
+      "A purchasing group",
+      "A company code",
+      "A plant"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Organizational unit responsible for procurement for one or more plants."
+  },
+  {
+    "id": "SAP_MM_525",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is centralized purchasing?",
+    "options": [
+      "One purchasing organization handles procurement for multiple company codes",
+      "Decentralized purchasing",
+      "Plant-level purchasing",
+      "Cross-company purchasing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is One purchasing organization handles procurement for multiple company codes."
+  },
+  {
+    "id": "SAP_MM_526",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a condition type in MM?",
+    "options": [
+      "Pricing element (price, discount, freight, tax) in purchase order",
+      "A document type",
+      "A material type",
+      "A vendor type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pricing element (price, discount, freight, tax) in purchase order."
+  },
+  {
+    "id": "SAP_MM_527",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a pricing procedure in MM?",
+    "options": [
+      "Sequence of condition types to calculate net price",
+      "A payment term",
+      "A delivery term",
+      "A freight term"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sequence of condition types to calculate net price."
+  },
+  {
+    "id": "SAP_MM_528",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is MRBR transaction?",
+    "options": [
+      "Release Blocked Invoices — releases invoices blocked for payment",
+      "Create invoice",
+      "Verify invoice",
+      "Delete invoice"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Release Blocked Invoices — releases invoices blocked for payment."
+  },
+  {
+    "id": "SAP_MM_529",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a goods receipt-based invoice verification?",
+    "options": [
+      "Invoice can only be posted against a goods receipt",
+      "PO-based verification",
+      "Contract-based verification",
+      "Service-based verification"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Invoice can only be posted against a goods receipt."
+  },
+  {
+    "id": "SAP_MM_530",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is service entry sheet?",
+    "options": [
+      "Document confirming services performed for a service PO",
+      "A goods receipt",
+      "An invoice",
+      "A purchase order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Document confirming services performed for a service PO."
+  },
+  {
+    "id": "SAP_MM_531",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is ML81N transaction?",
+    "options": [
+      "Create/Maintain Service Entry Sheet",
+      "Create service PO",
+      "Post service invoice",
+      "Release service order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Create/Maintain Service Entry Sheet."
+  },
+  {
+    "id": "SAP_MM_532",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a quota arrangement?",
+    "options": [
+      "Distributes procurement of a material among multiple vendors by percentage",
+      "A source list",
+      "A contract",
+      "An info record"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Distributes procurement of a material among multiple vendors by percentage."
+  },
+  {
+    "id": "SAP_MM_533",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the release (approval) strategy for PO?",
+    "options": [
+      "Workflow-based approval process for purchase orders based on criteria",
+      "A document type",
+      "A condition type",
+      "A tolerance group"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Workflow-based approval process for purchase orders based on criteria."
+  },
+  {
+    "id": "SAP_MM_534",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is EKKO table in SAP?",
+    "options": [
+      "Header data of purchase orders",
+      "Line item data of POs",
+      "GR data",
+      "Invoice data"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Header data of purchase orders."
+  },
+  {
+    "id": "SAP_MM_535",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is EKPO table?",
+    "options": [
+      "Line item data of purchase orders",
+      "Header data of POs",
+      "GR data",
+      "Invoice data"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Line item data of purchase orders."
+  },
+  {
+    "id": "SAP_MM_536",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is MSEG table?",
+    "options": [
+      "Material document line items — records all goods movements",
+      "Material master data",
+      "Purchase order data",
+      "Invoice data"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Material document line items — records all goods movements."
+  },
+  {
+    "id": "SAP_MM_537",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is MKPF table?",
+    "options": [
+      "Material document header — header of goods movement documents",
+      "Material document lines",
+      "PO header",
+      "Invoice header"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Material document header — header of goods movement documents."
+  },
+  {
+    "id": "SAP_MM_538",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is RBKP table?",
+    "options": [
+      "Invoice document header (Logistics Invoice Verification)",
+      "Material document",
+      "PO header",
+      "GR header"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Invoice document header (Logistics Invoice Verification)."
+  },
+  {
+    "id": "SAP_MM_539",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is EAN/GTIN in SAP MM?",
+    "options": [
+      "International Article Number / barcode for products",
+      "A material number",
+      "A vendor number",
+      "A batch number"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is International Article Number / barcode for products."
+  },
+  {
+    "id": "SAP_MM_540",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a serial number in SAP?",
+    "options": [
+      "Unique identifier for individual material units for traceability",
+      "A batch number",
+      "A material number",
+      "A storage bin"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Unique identifier for individual material units for traceability."
+  },
+  {
+    "id": "SAP_MM_541",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is automatic account determination in MM?",
+    "options": [
+      "System automatically assigns G/L accounts to goods movements based on config",
+      "Manual account assignment",
+      "Document type assignment",
+      "Cost center assignment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is System automatically assigns G/L accounts to goods movements based on config."
+  },
+  {
+    "id": "SAP_MM_542",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is OBYC transaction?",
+    "options": [
+      "Account Determination for Material Management — configure G/L assignments",
+      "Create accounts",
+      "Define document types",
+      "Assign number ranges"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Account Determination for Material Management — configure G/L assignments."
+  },
+  {
+    "id": "SAP_MM_543",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a movement type in SAP MM?",
+    "options": [
+      "Three-digit code controlling the type of goods movement",
+      "A document type",
+      "A material type",
+      "A posting key"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Three-digit code controlling the type of goods movement."
+  },
+  {
+    "id": "SAP_MM_544",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is movement type 101?",
+    "options": [
+      "Goods Receipt for Purchase Order",
+      "Goods Issue",
+      "Transfer Posting",
+      "Return to Vendor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Goods Receipt for Purchase Order."
+  },
+  {
+    "id": "SAP_MM_545",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is movement type 261?",
+    "options": [
+      "Goods Issue for Production Order",
+      "Goods Receipt",
+      "Transfer to Plant",
+      "Return from Production"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Goods Issue for Production Order."
+  },
+  {
+    "id": "SAP_MM_546",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is movement type 501?",
+    "options": [
+      "Goods Receipt without Purchase Order (into unrestricted stock)",
+      "GR to blocked stock",
+      "GR to QI stock",
+      "Return to vendor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Goods Receipt without Purchase Order (into unrestricted stock)."
+  },
+  {
+    "id": "SAP_MM_547",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is movement type 311?",
+    "options": [
+      "Transfer Posting from one storage location to another",
+      "Plant-to-plant transfer",
+      "Stock type change",
+      "Return to vendor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Transfer Posting from one storage location to another."
+  },
+  {
+    "id": "SAP_MM_548",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a return delivery in MM?",
+    "options": [
+      "Sending goods back to vendor (movement type 122)",
+      "A goods receipt",
+      "A goods issue",
+      "A transfer posting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sending goods back to vendor (movement type 122)."
+  },
+  {
+    "id": "SAP_MM_549",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a credit memo in MM?",
+    "options": [
+      "Vendor issues credit to reduce the invoice amount",
+      "A debit memo",
+      "An invoice",
+      "A payment advice"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Vendor issues credit to reduce the invoice amount."
+  },
+  {
+    "id": "SAP_MM_550",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a debit memo in MM?",
+    "options": [
+      "Customer issues to request reduction in payment to vendor for overcharge",
+      "A credit memo",
+      "A goods receipt",
+      "A PO amendment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Customer issues to request reduction in payment to vendor for overcharge."
+  },
+  {
+    "id": "SAP_MM_551",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is MMBЕ transaction?",
+    "options": [
+      "Stock Overview — shows stock levels across all plants and locations",
+      "Material list",
+      "Goods movement report",
+      "Inventory count report"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stock Overview — shows stock levels across all plants and locations."
+  },
+  {
+    "id": "SAP_MM_552",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is MB52 transaction?",
+    "options": [
+      "Warehouse Stocks of Material — displays stock by storage location",
+      "Stock overview",
+      "Physical inventory list",
+      "GR list"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Warehouse Stocks of Material — displays stock by storage location."
+  },
+  {
+    "id": "SAP_MM_553",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is MB51 transaction?",
+    "options": [
+      "Material Document List — shows all goods movements for a material",
+      "Stock overview",
+      "Physical inventory",
+      "PO list"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Material Document List — shows all goods movements for a material."
+  },
+  {
+    "id": "SAP_MM_554",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is logistics invoice verification (LIV) tolerance?",
+    "options": [
+      "Acceptable price/quantity variance between invoice and PO/GR",
+      "Payment tolerance",
+      "Dunning tolerance",
+      "Clearing tolerance"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Acceptable price/quantity variance between invoice and PO/GR."
+  },
+  {
+    "id": "SAP_MM_555",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is ERS (Evaluated Receipt Settlement)?",
+    "options": [
+      "Automatic invoice creation based on goods receipt without vendor invoice",
+      "Manual invoice verification",
+      "Self-billing",
+      "Invoice posting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automatic invoice creation based on goods receipt without vendor invoice."
+  },
+  {
+    "id": "SAP_MM_556",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a delivery schedule in SAP?",
+    "options": [
+      "Time-phased plan for receiving materials from a vendor",
+      "A PO delivery date",
+      "A GR schedule",
+      "A PR schedule"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Time-phased plan for receiving materials from a vendor."
+  },
+  {
+    "id": "SAP_MM_557",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is JIT (Just-In-Time) delivery in SAP?",
+    "options": [
+      "Receiving materials just when needed, minimizing inventory",
+      "Bulk delivery",
+      "Safety stock delivery",
+      "Consignment delivery"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Receiving materials just when needed, minimizing inventory."
+  },
+  {
+    "id": "SAP_MM_558",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is KANBAN in SAP?",
+    "options": [
+      "Pull-based production control using KANBAN cards for replenishment",
+      "Push-based planning",
+      "MRP planning",
+      "Safety stock planning"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pull-based production control using KANBAN cards for replenishment."
+  },
+  {
+    "id": "SAP_MM_559",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a material ledger in MM?",
+    "options": [
+      "Records material value and quantity flows for actual costing",
+      "A material document",
+      "A G/L ledger",
+      "An inventory ledger"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Records material value and quantity flows for actual costing."
+  },
+  {
+    "id": "SAP_MM_560",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is split valuation?",
+    "options": [
+      "Valuing the same material differently by origin or grade",
+      "Standard valuation",
+      "Average valuation",
+      "FIFO valuation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Valuing the same material differently by origin or grade."
+  },
+  {
+    "id": "SAP_MM_561",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is LIFO valuation?",
+    "options": [
+      "Last In First Out inventory valuation method",
+      "FIFO",
+      "Moving average",
+      "Standard price"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Last In First Out inventory valuation method."
+  },
+  {
+    "id": "SAP_MM_562",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is FIFO valuation?",
+    "options": [
+      "First In First Out inventory valuation method",
+      "LIFO",
+      "Moving average",
+      "Standard price"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is First In First Out inventory valuation method."
+  },
+  {
+    "id": "SAP_MM_563",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is GR blocked stock?",
+    "options": [
+      "Goods received but held pending quality check (movement 103)",
+      "Unrestricted stock",
+      "Restricted stock",
+      "Consignment stock"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Goods received but held pending quality check (movement 103)."
+  },
+  {
+    "id": "SAP_MM_564",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is quality inspection stock?",
+    "options": [
+      "Stock in quality check process not available for use",
+      "Unrestricted stock",
+      "Blocked stock",
+      "Restricted stock"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stock in quality check process not available for use."
+  },
+  {
+    "id": "SAP_MM_565",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the material valuation class?",
+    "options": [
+      "Groups materials with same accounting for G/L account determination",
+      "A material type",
+      "A material group",
+      "An industry sector"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Groups materials with same accounting for G/L account determination."
+  },
+  {
+    "id": "SAP_SD_566",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does SAP SD stand for?",
+    "options": [
       "Sales and Distribution",
-      "Both A and B",
-      "System Design"
+      "Sales and Delivery",
+      "Service and Distribution",
+      "Sales and Data"
     ],
     "answer": 0,
-    "explanation": "SD manages order-to-cash process."
+    "explanation": "The correct answer is Sales and Distribution."
   },
   {
-    "id": "sap_1290",
+    "id": "SAP_SD_567",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the order-to-cash process in SAP SD?",
+    "options": [
+      "Sales Inquiry → Quotation → Order → Delivery → Billing",
+      "PR → PO → GR → Invoice",
+      "Production → Delivery → Billing",
+      "Inquiry → Payment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sales Inquiry → Quotation → Order → Delivery → Billing."
+  },
+  {
+    "id": "SAP_SD_568",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a sales organization in SAP SD?",
+    "options": [
+      "Organizational unit responsible for selling products",
+      "A company code",
+      "A plant",
+      "A distribution channel"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Organizational unit responsible for selling products."
+  },
+  {
+    "id": "SAP_SD_569",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a distribution channel?",
+    "options": [
+      "Way of distributing goods (wholesale, retail, direct)",
+      "A sales organization",
+      "A division",
+      "A plant"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Way of distributing goods (wholesale, retail, direct)."
+  },
+  {
+    "id": "SAP_SD_570",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a division in SAP SD?",
+    "options": [
+      "Groups products or services within a sales organization",
+      "A distribution channel",
+      "A sales area",
+      "A sales office"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Groups products or services within a sales organization."
+  },
+  {
+    "id": "SAP_SD_571",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a sales area?",
+    "options": [
+      "Combination of Sales Organization + Distribution Channel + Division",
+      "A company code",
+      "A plant",
+      "A sales office"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Combination of Sales Organization + Distribution Channel + Division."
+  },
+  {
+    "id": "SAP_SD_572",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a customer master in SD?",
+    "options": [
+      "Master data for customers used in sales and billing",
+      "A vendor master",
+      "A material master",
+      "A contact person"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Master data for customers used in sales and billing."
+  },
+  {
+    "id": "SAP_SD_573",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a partner function in SD?",
+    "options": [
+      "Role in a business transaction (Sold-To, Ship-To, Bill-To, Payer)",
+      "A customer type",
+      "A document type",
+      "A pricing type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Role in a business transaction (Sold-To, Ship-To, Bill-To, Payer)."
+  },
+  {
+    "id": "SAP_SD_574",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the Sold-To party?",
+    "options": [
+      "Customer who places the order",
+      "Delivery address customer",
+      "Invoice recipient",
+      "Payer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Customer who places the order."
+  },
+  {
+    "id": "SAP_SD_575",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the Ship-To party?",
+    "options": [
+      "Customer to whom goods are delivered",
+      "Order placer",
+      "Invoice recipient",
+      "Payer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Customer to whom goods are delivered."
+  },
+  {
+    "id": "SAP_SD_576",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a sales order?",
+    "options": [
+      "Customer's request to purchase goods or services at agreed conditions",
+      "A purchase order",
+      "A delivery order",
+      "A billing document"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Customer's request to purchase goods or services at agreed conditions."
+  },
+  {
+    "id": "SAP_SD_577",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is transaction VA01?",
+    "options": [
+      "Create Sales Order",
+      "Create quotation",
+      "Create delivery",
+      "Create billing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Create Sales Order."
+  },
+  {
+    "id": "SAP_SD_578",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is transaction VA02?",
+    "options": [
+      "Change Sales Order",
+      "Create sales order",
+      "Display sales order",
+      "Copy sales order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Change Sales Order."
+  },
+  {
+    "id": "SAP_SD_579",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a quotation in SD?",
+    "options": [
+      "An offer to a customer specifying price and conditions",
+      "A sales order",
+      "An inquiry",
+      "A contract"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is An offer to a customer specifying price and conditions."
+  },
+  {
+    "id": "SAP_SD_580",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is an inquiry in SD?",
+    "options": [
+      "Customer's request for information about products/prices (before quotation)",
+      "A quotation",
+      "A sales order",
+      "A delivery"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Customer's request for information about products/prices (before quotation)."
+  },
+  {
+    "id": "SAP_SD_581",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a sales contract in SD?",
+    "options": [
+      "Long-term agreement with customer for goods or services",
+      "A sales order",
+      "A quotation",
+      "A billing document"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Long-term agreement with customer for goods or services."
+  },
+  {
+    "id": "SAP_SD_582",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a delivery document in SD?",
+    "options": [
+      "Document authorizing picking and shipping of goods to customer",
+      "A sales order",
+      "A billing document",
+      "A transport document"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Document authorizing picking and shipping of goods to customer."
+  },
+  {
+    "id": "SAP_SD_583",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is transaction VL01N?",
+    "options": [
+      "Create Outbound Delivery",
+      "Create sales order",
+      "Create billing",
+      "Create transfer order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Create Outbound Delivery."
+  },
+  {
+    "id": "SAP_SD_584",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a transfer order in WM?",
+    "options": [
+      "Instruction to move goods within a warehouse to fulfill a delivery",
+      "A delivery",
+      "A sales order",
+      "A GI document"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Instruction to move goods within a warehouse to fulfill a delivery."
+  },
+  {
+    "id": "SAP_SD_585",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is goods issue (GI) in SD?",
+    "options": [
+      "Reducing stock when goods are shipped to customer",
+      "Goods receipt",
+      "Transfer posting",
+      "Billing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reducing stock when goods are shipped to customer."
+  },
+  {
+    "id": "SAP_SD_586",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is transaction VF01?",
+    "options": [
+      "Create Billing Document",
+      "Create delivery",
+      "Create sales order",
+      "Create transfer order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Create Billing Document."
+  },
+  {
+    "id": "SAP_SD_587",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a billing document in SD?",
+    "options": [
+      "Document (invoice, credit memo, debit memo) sent to customer for payment",
+      "A delivery document",
+      "A sales order",
+      "A GI document"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Document (invoice, credit memo, debit memo) sent to customer for payment."
+  },
+  {
+    "id": "SAP_SD_588",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a proforma invoice?",
+    "options": [
+      "A preliminary invoice before actual billing, often used for export",
+      "A commercial invoice",
+      "A credit memo",
+      "A billing document"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A preliminary invoice before actual billing, often used for export."
+  },
+  {
+    "id": "SAP_SD_589",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a credit memo in SD?",
+    "options": [
+      "Reduces a customer's accounts receivable balance",
+      "A debit memo",
+      "An invoice",
+      "A sales return"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reduces a customer's accounts receivable balance."
+  },
+  {
+    "id": "SAP_SD_590",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a debit memo in SD?",
+    "options": [
+      "Increases a customer's accounts receivable balance",
+      "A credit memo",
+      "An invoice",
+      "A returns order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Increases a customer's accounts receivable balance."
+  },
+  {
+    "id": "SAP_SD_591",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a returns order in SD?",
+    "options": [
+      "Sales order for goods being returned by a customer",
+      "A complaints order",
+      "A credit memo request",
+      "A returns delivery"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sales order for goods being returned by a customer."
+  },
+  {
+    "id": "SAP_SD_592",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a condition type in SD pricing?",
+    "options": [
+      "Pricing element (price, discount, freight, tax) in a sales order",
+      "A document type",
+      "A partner function",
+      "A schedule line category"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pricing element (price, discount, freight, tax) in a sales order."
+  },
+  {
+    "id": "SAP_SD_593",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a pricing procedure in SD?",
+    "options": [
+      "Sequence of condition types used to calculate net price for a customer",
+      "A payment term",
+      "A credit limit",
+      "A delivery priority"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sequence of condition types used to calculate net price for a customer."
+  },
+  {
+    "id": "SAP_SD_594",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a condition record in SD?",
+    "options": [
+      "Stored pricing data (price, discount) for a specific condition type",
+      "A pricing procedure",
+      "A condition type",
+      "A sales condition"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stored pricing data (price, discount) for a specific condition type."
+  },
+  {
+    "id": "SAP_SD_595",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction VK11?",
+    "options": [
+      "Create Condition Records for pricing",
+      "Display condition records",
+      "Change condition records",
+      "Delete condition records"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Create Condition Records for pricing."
+  },
+  {
+    "id": "SAP_SD_596",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is availability check (ATP) in SD?",
+    "options": [
+      "Checks if material can be delivered on requested date",
+      "A credit check",
+      "A pricing check",
+      "A stock check only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Checks if material can be delivered on requested date."
+  },
+  {
+    "id": "SAP_SD_597",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is ATP (Available-To-Promise)?",
+    "options": [
+      "Quantity of material confirmed for customer delivery on a date",
+      "Safety stock",
+      "Reorder point",
+      "Total stock"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Quantity of material confirmed for customer delivery on a date."
+  },
+  {
+    "id": "SAP_SD_598",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is credit management in SD?",
+    "options": [
+      "Controls customer credit limit and blocks orders exceeding limit",
+      "Dunning management",
+      "Payment management",
+      "Pricing management"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Controls customer credit limit and blocks orders exceeding limit."
+  },
+  {
+    "id": "SAP_SD_599",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a credit block in SD?",
+    "options": [
+      "Sales order blocked because customer has exceeded credit limit",
+      "A payment block",
+      "A delivery block",
+      "A billing block"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sales order blocked because customer has exceeded credit limit."
+  },
+  {
+    "id": "SAP_SD_600",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction VKM1?",
+    "options": [
+      "Credit Management: Blocked Sales Documents",
+      "Check credit limit",
+      "Release blocked orders",
+      "Change credit limit"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Credit Management: Blocked Sales Documents."
+  },
+  {
+    "id": "SAP_SD_601",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a delivery block?",
+    "options": [
+      "Prevents a delivery from being created for a sales order line",
+      "A billing block",
+      "A credit block",
+      "A picking block"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Prevents a delivery from being created for a sales order line."
+  },
+  {
+    "id": "SAP_SD_602",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a billing block?",
+    "options": [
+      "Prevents invoice creation for a sales order or delivery",
+      "A delivery block",
+      "A credit block",
+      "A GI block"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Prevents invoice creation for a sales order or delivery."
+  },
+  {
+    "id": "SAP_SD_603",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a customer account group?",
+    "options": [
+      "Controls which fields are required/displayed in customer master",
+      "A customer type",
+      "A partner function",
+      "A pricing group"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Controls which fields are required/displayed in customer master."
+  },
+  {
+    "id": "SAP_SD_604",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a material determination in SD?",
+    "options": [
+      "Automatic substitution of one material for another in sales order",
+      "A material listing",
+      "A material exclusion",
+      "A material proposal"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automatic substitution of one material for another in sales order."
+  },
+  {
+    "id": "SAP_SD_605",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a material listing?",
+    "options": [
+      "Restricts which materials a customer can buy",
+      "Material exclusion",
+      "Material determination",
+      "Material substitution"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Restricts which materials a customer can buy."
+  },
+  {
+    "id": "SAP_SD_606",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a material exclusion?",
+    "options": [
+      "Prevents a customer from ordering specific materials",
+      "Material listing",
+      "Material determination",
+      "Material substitution"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Prevents a customer from ordering specific materials."
+  },
+  {
+    "id": "SAP_SD_607",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a free goods determination?",
+    "options": [
+      "Automatically adds free (no-charge) items to sales order based on order quantity",
+      "Pricing determination",
+      "Condition determination",
+      "Discount determination"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automatically adds free (no-charge) items to sales order based on order quantity."
+  },
+  {
+    "id": "SAP_SD_608",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a route in SD?",
+    "options": [
+      "Delivery path from shipping point to customer location",
+      "A delivery type",
+      "A transport route",
+      "A picking route"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Delivery path from shipping point to customer location."
+  },
+  {
+    "id": "SAP_SD_609",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a shipping point?",
+    "options": [
+      "Organizational unit from which goods are shipped",
+      "A storage location",
+      "A plant",
+      "A warehouse"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Organizational unit from which goods are shipped."
+  },
+  {
+    "id": "SAP_SD_610",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a loading point?",
+    "options": [
+      "Sub-unit of shipping point indicating where goods are loaded",
+      "A shipping point",
+      "A storage location",
+      "A plant"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sub-unit of shipping point indicating where goods are loaded."
+  },
+  {
+    "id": "SAP_SD_611",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a picking in WM/SD?",
+    "options": [
+      "Physical removal of goods from storage to prepare for shipment",
+      "Packing",
+      "Loading",
+      "Transferring"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Physical removal of goods from storage to prepare for shipment."
+  },
+  {
+    "id": "SAP_SD_612",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is packing in SD?",
+    "options": [
+      "Putting goods into packaging materials before delivery",
+      "Picking",
+      "Loading",
+      "Shipping"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Putting goods into packaging materials before delivery."
+  },
+  {
+    "id": "SAP_SD_613",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a transport in SD?",
+    "options": [
+      "Grouping of deliveries for actual shipment",
+      "A delivery",
+      "A route",
+      "A transfer order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Grouping of deliveries for actual shipment."
+  },
+  {
+    "id": "SAP_SD_614",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a pro forma invoice?",
+    "options": [
+      "Invoice for customs/shipping purposes without actual billing impact",
+      "Commercial invoice",
+      "Credit invoice",
+      "Debit invoice"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Invoice for customs/shipping purposes without actual billing impact."
+  },
+  {
+    "id": "SAP_SD_615",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is revenue recognition in SD?",
+    "options": [
+      "Process of recording revenue when earned (not just when billed)",
+      "A billing process",
+      "A pricing process",
+      "An AR process"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Process of recording revenue when earned (not just when billed)."
+  },
+  {
+    "id": "SAP_SD_616",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a sales document type?",
+    "options": [
+      "Controls the behavior of a sales transaction (OR, QT, CR, DR...)",
+      "A document flow",
+      "A billing type",
+      "A partner type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Controls the behavior of a sales transaction (OR, QT, CR, DR...)."
+  },
+  {
+    "id": "SAP_SD_617",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is document category in SD?",
+    "options": [
+      "Groups sales document types (order, inquiry, contract, etc.)",
+      "A document type",
+      "A document flow",
+      "A condition category"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Groups sales document types (order, inquiry, contract, etc.)."
+  },
+  {
+    "id": "SAP_SD_618",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a schedule line in SD?",
+    "options": [
+      "Confirms delivery quantity and date for a sales order line item",
+      "A line item",
+      "A delivery item",
+      "A billing item"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Confirms delivery quantity and date for a sales order line item."
+  },
+  {
+    "id": "SAP_SD_619",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the document flow in SD?",
+    "options": [
+      "Linked chain of documents (order → delivery → billing) for traceability",
+      "A pricing procedure",
+      "A condition type",
+      "A partner function"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Linked chain of documents (order → delivery → billing) for traceability."
+  },
+  {
+    "id": "SAP_SD_620",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is transaction VA03?",
+    "options": [
+      "Display Sales Order",
+      "Change sales order",
+      "Create sales order",
+      "Copy sales order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Display Sales Order."
+  },
+  {
+    "id": "SAP_SD_621",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is transaction VF03?",
+    "options": [
+      "Display Billing Document",
+      "Create billing",
+      "Change billing",
+      "Cancel billing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Display Billing Document."
+  },
+  {
+    "id": "SAP_SD_622",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction VL33N?",
+    "options": [
+      "Change Inbound Delivery",
+      "Create inbound delivery",
+      "Display inbound delivery",
+      "Create outbound delivery"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Change Inbound Delivery."
+  },
+  {
+    "id": "SAP_SD_623",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is an inbound delivery in SAP?",
+    "options": [
+      "Document for goods being received from vendor or customer return",
+      "Outbound delivery",
+      "Transfer delivery",
+      "Billing delivery"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Document for goods being received from vendor or customer return."
+  },
+  {
+    "id": "SAP_SD_624",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a returns delivery?",
+    "options": [
+      "Delivery document for goods being returned from customer",
+      "Outbound delivery",
+      "Inbound delivery",
+      "Transfer delivery"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Delivery document for goods being returned from customer."
+  },
+  {
+    "id": "SAP_SD_625",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is rebate processing in SD?",
+    "options": [
+      "Retroactive discount paid to customer based on cumulative sales",
+      "A standard discount",
+      "A one-time discount",
+      "A pricing condition"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Retroactive discount paid to customer based on cumulative sales."
+  },
+  {
+    "id": "SAP_SD_626",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction VBO1?",
+    "options": [
+      "Create Rebate Agreement",
+      "Change rebate",
+      "Display rebate",
+      "Close rebate"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Create Rebate Agreement."
+  },
+  {
+    "id": "SAP_SD_627",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is customer hierarchy in SD?",
+    "options": [
+      "Tree structure of related customers for pricing and reporting",
+      "A partner function structure",
+      "A sales area structure",
+      "A billing structure"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tree structure of related customers for pricing and reporting."
+  },
+  {
+    "id": "SAP_SD_628",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a payment term in SD?",
+    "options": [
+      "Conditions for payment (due date, discount for early payment)",
+      "A delivery term",
+      "A pricing term",
+      "A credit term"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Conditions for payment (due date, discount for early payment)."
+  },
+  {
+    "id": "SAP_SD_629",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Incoterms in SD?",
+    "options": [
+      "International trade terms defining responsibility for delivery and risk",
+      "Payment terms",
+      "Pricing conditions",
+      "Tax conditions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is International trade terms defining responsibility for delivery and risk."
+  },
+  {
+    "id": "SAP_SD_630",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is tax determination in SD?",
+    "options": [
+      "Automatic determination of tax code and amount for billing",
+      "Pricing determination",
+      "Condition determination",
+      "Delivery determination"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automatic determination of tax code and amount for billing."
+  },
+  {
+    "id": "SAP_SD_631",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is VBAK table in SAP SD?",
+    "options": [
+      "Sales order header data",
+      "Sales order line items",
+      "Delivery header",
+      "Billing header"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sales order header data."
+  },
+  {
+    "id": "SAP_SD_632",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is VBAP table?",
+    "options": [
+      "Sales order line item data",
+      "Sales order header",
+      "Delivery items",
+      "Billing items"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sales order line item data."
+  },
+  {
+    "id": "SAP_SD_633",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is LIKP table?",
+    "options": [
+      "Delivery document header data",
+      "Delivery line items",
+      "Sales order header",
+      "Billing header"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Delivery document header data."
+  },
+  {
+    "id": "SAP_SD_634",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is LIPS table?",
+    "options": [
+      "Delivery document item data",
+      "Delivery header",
+      "Sales order items",
+      "Billing items"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Delivery document item data."
+  },
+  {
+    "id": "SAP_SD_635",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is VBRK table?",
+    "options": [
+      "Billing document header",
+      "Billing items",
+      "Sales order header",
+      "Delivery header"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Billing document header."
+  },
+  {
+    "id": "SAP_SD_636",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is VBRP table?",
+    "options": [
+      "Billing document item data",
+      "Billing header",
+      "Delivery items",
+      "Sales order items"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Billing document item data."
+  },
+  {
+    "id": "SAP_SD_637",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a sales representative in SD partner functions?",
+    "options": [
+      "Employee responsible for the customer account (Sales Rep — VE)",
+      "Order placer",
+      "Delivery address",
+      "Invoice recipient"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Employee responsible for the customer account (Sales Rep — VE)."
+  },
+  {
+    "id": "SAP_SD_638",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is batch split in SD?",
+    "options": [
+      "Delivering a sales order quantity from multiple batches",
+      "A partial delivery",
+      "A returns split",
+      "A billing split"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Delivering a sales order quantity from multiple batches."
+  },
+  {
+    "id": "SAP_SD_639",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a rush order?",
+    "options": [
+      "Sales order type where delivery and billing are combined immediately",
+      "A standard order",
+      "A cash sale",
+      "A consignment order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sales order type where delivery and billing are combined immediately."
+  },
+  {
+    "id": "SAP_SD_640",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a cash sale in SD?",
+    "options": [
+      "Order where delivery and billing are immediately printed and processed",
+      "A rush order",
+      "A standard order",
+      "A consignment order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Order where delivery and billing are immediately printed and processed."
+  },
+  {
+    "id": "SAP_SD_641",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a consignment issue?",
+    "options": [
+      "Goods issued from consignment stock to a customer",
+      "A consignment fill-up",
+      "A consignment return",
+      "A consignment order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Goods issued from consignment stock to a customer."
+  },
+  {
+    "id": "SAP_SD_642",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the copy control in SD?",
+    "options": [
+      "Configuration defining how data is copied from one document type to another",
+      "A pricing control",
+      "A document type",
+      "A condition type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Configuration defining how data is copied from one document type to another."
+  },
+  {
+    "id": "SAP_SD_643",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a contract release order?",
+    "options": [
+      "Sales order releasing specific quantities from a sales contract",
+      "A standard order",
+      "A returns order",
+      "A billing request"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sales order releasing specific quantities from a sales contract."
+  },
+  {
+    "id": "SAP_SD_644",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction XD01?",
+    "options": [
+      "Create Customer (centrally — FI + SD views)",
+      "Create customer in SD only",
+      "Create customer in FI only",
+      "Change customer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Create Customer (centrally — FI + SD views)."
+  },
+  {
+    "id": "SAP_SD_645",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction VD01?",
+    "options": [
+      "Create Customer in SD (Sales and Distribution views only)",
+      "Create centrally",
+      "Create in FI only",
+      "Change customer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Create Customer in SD (Sales and Distribution views only)."
+  },
+  {
+    "id": "SAP_SD_646",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a sold-to/ship-to relationship?",
+    "options": [
+      "Different customers can have same sold-to but different ship-to addresses",
+      "Same customer always",
+      "Billing relationship",
+      "Contract relationship"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Different customers can have same sold-to but different ship-to addresses."
+  },
+  {
+    "id": "SAP_SD_647",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a text determination in SD?",
+    "options": [
+      "Automatic copying of texts into sales documents from master data",
+      "A pricing procedure",
+      "A route determination",
+      "A partner determination"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automatic copying of texts into sales documents from master data."
+  },
+  {
+    "id": "SAP_SD_648",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the output determination in SD?",
+    "options": [
+      "Controls which output (print, email, EDI) is generated for a document",
+      "A condition type",
+      "A pricing procedure",
+      "A text determination"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Controls which output (print, email, EDI) is generated for a document."
+  },
+  {
+    "id": "SAP_SD_649",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is message/output type RDOO?",
+    "options": [
+      "Order Confirmation output type in SAP SD",
+      "Delivery note output",
+      "Invoice output",
+      "Packing list output"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Order Confirmation output type in SAP SD."
+  },
+  {
+    "id": "SAP_SD_650",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is ATP categories in SAP?",
+    "options": [
+      "Elements contributing to ATP quantity (stock, receipts, requirements)",
+      "Stock types",
+      "Movement types",
+      "Condition types"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Elements contributing to ATP quantity (stock, receipts, requirements)."
+  },
+  {
+    "id": "SAP_SD_651",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a delivery priority in SD?",
+    "options": [
+      "Controls sequence of deliveries when resources are limited",
+      "A credit priority",
+      "A billing priority",
+      "A pricing priority"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Controls sequence of deliveries when resources are limited."
+  },
+  {
+    "id": "SAP_SD_652",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the goods issue date in SD?",
+    "options": [
+      "Date when goods are physically removed from storage for delivery",
+      "Delivery date",
+      "Billing date",
+      "Posting date"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Date when goods are physically removed from storage for delivery."
+  },
+  {
+    "id": "SAP_SD_653",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction VA05?",
+    "options": [
+      "List of Sales Orders",
+      "List of deliveries",
+      "List of billing documents",
+      "List of quotations"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is List of Sales Orders."
+  },
+  {
+    "id": "SAP_SD_654",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction VF05?",
+    "options": [
+      "List of Billing Documents",
+      "List of sales orders",
+      "List of deliveries",
+      "List of credit memos"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is List of Billing Documents."
+  },
+  {
+    "id": "SAP_SD_655",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transaction VL06O?",
+    "options": [
+      "Outbound Delivery Monitor — manage all outbound deliveries",
+      "Inbound delivery monitor",
+      "Billing monitor",
+      "Sales order list"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Outbound Delivery Monitor — manage all outbound deliveries."
+  },
+  {
+    "id": "SAP_FIO_656",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is SAP Fiori?",
+    "options": [
+      "UX design approach and app framework for SAP with role-based, simple, delightful apps",
+      "An ABAP framework",
+      "A database tool",
+      "An SAP module"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is UX design approach and app framework for SAP with role-based, simple, delightful apps."
+  },
+  {
+    "id": "SAP_FIO_657",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What are the three pillars of SAP Fiori UX?",
+    "options": [
+      "Role-based, responsive, and simple/delightful design",
+      "Fast, secure, scalable",
+      "Mobile, web, desktop",
+      "Modular, extensible, configurable"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Role-based, responsive, and simple/delightful design."
+  },
+  {
+    "id": "SAP_FIO_658",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a Fiori Launchpad?",
+    "options": [
+      "Central entry point hosting Fiori tiles and apps for end users",
+      "An ABAP program",
+      "A database interface",
+      "A transport tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Central entry point hosting Fiori tiles and apps for end users."
+  },
+  {
+    "id": "SAP_FIO_659",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a tile in Fiori Launchpad?",
+    "options": [
+      "Shortcut/entry point to launch a Fiori app",
+      "A button",
+      "A screen",
+      "A report"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shortcut/entry point to launch a Fiori app."
+  },
+  {
+    "id": "SAP_FIO_660",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is UI5 (SAPUI5)?",
+    "options": [
+      "SAP's JavaScript framework for building Fiori apps",
+      "A database tool",
+      "An ABAP library",
+      "A mobile SDK"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP's JavaScript framework for building Fiori apps."
+  },
+  {
+    "id": "SAP_FIO_661",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is OpenUI5?",
+    "options": [
+      "Open-source version of SAPUI5",
+      "A proprietary SAP tool",
+      "A mobile framework",
+      "A database driver"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Open-source version of SAPUI5."
+  },
+  {
+    "id": "SAP_FIO_662",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What technology does SAPUI5 use?",
+    "options": [
+      "JavaScript, HTML5, CSS3, and XML views",
+      "Java",
+      "Python",
+      "ABAP"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is JavaScript, HTML5, CSS3, and XML views."
+  },
+  {
+    "id": "SAP_FIO_663",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is an OData service?",
+    "options": [
+      "RESTful web service used as backend for Fiori apps",
+      "A SOAP service",
+      "A REST service without standards",
+      "An RFC service"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is RESTful web service used as backend for Fiori apps."
+  },
+  {
+    "id": "SAP_FIO_664",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the MVC pattern in SAPUI5?",
+    "options": [
+      "Model-View-Controller — separates data, UI, and logic",
+      "Model-View-Concept",
+      "Multiple View Controller",
+      "Module-View-Component"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Model-View-Controller — separates data, UI, and logic."
+  },
+  {
+    "id": "SAP_FIO_665",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a sap.ui.core.mvc.View?",
+    "options": [
+      "Base class for all SAPUI5 views (XML, JSON, JS, HTML)",
+      "A controller",
+      "A model",
+      "A fragment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Base class for all SAPUI5 views (XML, JSON, JS, HTML)."
+  },
+  {
+    "id": "SAP_FIO_666",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is an XML view in SAPUI5?",
+    "options": [
+      "Declarative view using XML syntax for UI layout",
+      "A JS view",
+      "A HTML view",
+      "A JSON view"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Declarative view using XML syntax for UI layout."
+  },
+  {
+    "id": "SAP_FIO_667",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a controller in SAPUI5?",
+    "options": [
+      "JavaScript file handling event logic for a view",
+      "A model",
+      "A view",
+      "A router"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is JavaScript file handling event logic for a view."
+  },
+  {
+    "id": "SAP_FIO_668",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Component.js in SAPUI5?",
+    "options": [
+      "Entry point of a UI5 application defining metadata and configuration",
+      "An OData model",
+      "A router config",
+      "A manifest file"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Entry point of a UI5 application defining metadata and configuration."
+  },
+  {
+    "id": "SAP_FIO_669",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is manifest.json in UI5?",
+    "options": [
+      "App descriptor defining routing, models, and dependencies",
+      "A UI5 component",
+      "A controller",
+      "A view"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is App descriptor defining routing, models, and dependencies."
+  },
+  {
+    "id": "SAP_FIO_670",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the router in SAPUI5?",
+    "options": [
+      "Handles navigation between views/pages in a single-page app",
+      "A controller",
+      "A model",
+      "A binding"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Handles navigation between views/pages in a single-page app."
+  },
+  {
+    "id": "SAP_FIO_671",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is data binding in SAPUI5?",
+    "options": [
+      "Connects UI controls to data model properties automatically",
+      "Event handling",
+      "Routing",
+      "Internationalization"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Connects UI controls to data model properties automatically."
+  },
+  {
+    "id": "SAP_FIO_672",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is one-way binding in SAPUI5?",
+    "options": [
+      "Data flows from model to view only (view cannot update model)",
+      "Two-way binding",
+      "One-time binding",
+      "No binding"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Data flows from model to view only (view cannot update model)."
+  },
+  {
+    "id": "SAP_FIO_673",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is two-way binding in SAPUI5?",
+    "options": [
+      "Changes in view automatically update the model and vice versa",
+      "One-way binding",
+      "One-time binding",
+      "Event binding"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Changes in view automatically update the model and vice versa."
+  },
+  {
+    "id": "SAP_FIO_674",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a JSON model in UI5?",
+    "options": [
+      "Client-side model holding data in JSON format",
+      "An OData model",
+      "An XML model",
+      "A resource model"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Client-side model holding data in JSON format."
+  },
+  {
+    "id": "SAP_FIO_675",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is an OData model in UI5?",
+    "options": [
+      "Model connecting to a backend OData service for server-side data",
+      "A JSON model",
+      "A resource model",
+      "An XML model"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Model connecting to a backend OData service for server-side data."
+  },
+  {
+    "id": "SAP_FIO_676",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a resource model in UI5?",
+    "options": [
+      "Model used for i18n (internationalization) text properties",
+      "A JSON model",
+      "An OData model",
+      "An XML model"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Model used for i18n (internationalization) text properties."
+  },
+  {
+    "id": "SAP_FIO_677",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is i18n in Fiori apps?",
+    "options": [
+      "Internationalization — supporting multiple languages via properties files",
+      "A data model",
+      "A component",
+      "A router"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Internationalization — supporting multiple languages via properties files."
+  },
+  {
+    "id": "SAP_FIO_678",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Fragment in SAPUI5?",
+    "options": [
+      "Reusable UI snippet without its own controller (e.g., dialog)",
+      "A view",
+      "A component",
+      "A model"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reusable UI snippet without its own controller (e.g., dialog)."
+  },
+  {
+    "id": "SAP_FIO_679",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a dialog in UI5?",
+    "options": [
+      "Modal popup widget for user interaction",
+      "A page",
+      "A view",
+      "A controller"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Modal popup widget for user interaction."
+  },
+  {
+    "id": "SAP_FIO_680",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is aggregation binding in UI5?",
+    "options": [
+      "Binds a list/table control to a collection in the data model",
+      "Property binding",
+      "Expression binding",
+      "Context binding"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Binds a list/table control to a collection in the data model."
+  },
+  {
+    "id": "SAP_FIO_681",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the SAP Fiori Design Language?",
+    "options": [
+      "Set of UX guidelines for consistent, role-based app design",
+      "A programming language",
+      "A UI framework",
+      "A database language"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Set of UX guidelines for consistent, role-based app design."
+  },
+  {
+    "id": "SAP_FIO_682",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What are the Fiori app types?",
+    "options": [
+      "Transactional, Analytical, Factsheet, and Smart Business (KPI) apps",
+      "Static, Dynamic, Hybrid",
+      "Simple, Complex, Dashboard",
+      "Mobile, Desktop, Tablet"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Transactional, Analytical, Factsheet, and Smart Business (KPI) apps."
+  },
+  {
+    "id": "SAP_FIO_683",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a transactional Fiori app?",
+    "options": [
+      "App for creating, editing, or processing business objects",
+      "An analytics app",
+      "A reporting app",
+      "A KPI tile"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is App for creating, editing, or processing business objects."
+  },
+  {
+    "id": "SAP_FIO_684",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is an analytical Fiori app?",
+    "options": [
+      "App displaying charts and data for decision-making",
+      "A transactional app",
+      "A factsheet",
+      "A KPI tile"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is App displaying charts and data for decision-making."
+  },
+  {
+    "id": "SAP_FIO_685",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a factsheet Fiori app?",
+    "options": [
+      "App showing key information about a business object (360 view)",
+      "A transactional app",
+      "An analytical app",
+      "A Smart Business app"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is App showing key information about a business object (360 view)."
+  },
+  {
+    "id": "SAP_FIO_686",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Smart Business KPI tile?",
+    "options": [
+      "Dynamic tile showing live KPI value and trend on launchpad",
+      "A static tile",
+      "A target tile",
+      "A news tile"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Dynamic tile showing live KPI value and trend on launchpad."
+  },
+  {
+    "id": "SAP_FIO_687",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Fiori 3 design standard?",
+    "options": [
+      "Latest Fiori design paradigm with unified shell and new components",
+      "Fiori 1",
+      "Fiori 2",
+      "Fiori 4"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Latest Fiori design paradigm with unified shell and new components."
+  },
+  {
+    "id": "SAP_FIO_688",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SAP Fiori Elements?",
+    "options": [
+      "Framework generating UI from OData metadata annotations reducing custom code",
+      "A UI5 custom framework",
+      "A pure backend framework",
+      "A database framework"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Framework generating UI from OData metadata annotations reducing custom code."
+  },
+  {
+    "id": "SAP_FIO_689",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What are Fiori Elements floorplans?",
+    "options": [
+      "List Report, Object Page, Analytical List Page, Overview Page, Worklist",
+      "Screen types only",
+      "Layout templates only",
+      "Design patterns only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is List Report, Object Page, Analytical List Page, Overview Page, Worklist."
+  },
+  {
+    "id": "SAP_FIO_690",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the List Report floorplan?",
+    "options": [
+      "Fiori Elements template for filter + list view of business objects",
+      "Object Page",
+      "Analytical List Page",
+      "Overview Page"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Fiori Elements template for filter + list view of business objects."
+  },
+  {
+    "id": "SAP_FIO_691",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Object Page floorplan?",
+    "options": [
+      "Fiori Elements template for viewing/editing one business object",
+      "List Report",
+      "Overview Page",
+      "Worklist"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Fiori Elements template for viewing/editing one business object."
+  },
+  {
+    "id": "SAP_FIO_692",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is OData annotation?",
+    "options": [
+      "Metadata decorating OData services to drive Fiori Elements UI rendering",
+      "An OData property",
+      "An OData entity",
+      "An OData function"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Metadata decorating OData services to drive Fiori Elements UI rendering."
+  },
+  {
+    "id": "SAP_FIO_693",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is ABAP CDS annotation?",
+    "options": [
+      "Annotation in CDS view controlling how UI5 renders Fiori Elements",
+      "A CDS association",
+      "A CDS parameter",
+      "A CDS join"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Annotation in CDS view controlling how UI5 renders Fiori Elements."
+  },
+  {
+    "id": "SAP_FIO_694",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is @UI.lineItem annotation?",
+    "options": [
+      "CDS annotation marking fields to display in Fiori list report table",
+      "@UI.identification",
+      "@UI.chart",
+      "@UI.selectionField"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is CDS annotation marking fields to display in Fiori list report table."
+  },
+  {
+    "id": "SAP_FIO_695",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SEGW transaction in SAP?",
+    "options": [
+      "SAP Gateway Service Builder — creates/manages OData services",
+      "ABAP editor",
+      "Table maintenance",
+      "Dictionary tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP Gateway Service Builder — creates/manages OData services."
+  },
+  {
+    "id": "SAP_FIO_696",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the Gateway server?",
+    "options": [
+      "SAP component exposing OData services consumed by Fiori apps",
+      "A web server",
+      "An application server",
+      "A database server"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP component exposing OData services consumed by Fiori apps."
+  },
+  {
+    "id": "SAP_FIO_697",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is /IWFND/ in SAP?",
+    "options": [
+      "SAP Gateway Foundation namespace — gateway infrastructure components",
+      "An ABAP namespace",
+      "An MM namespace",
+      "A Fiori namespace"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP Gateway Foundation namespace — gateway infrastructure components."
+  },
+  {
+    "id": "SAP_FIO_698",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction /IWFND/MAINT_SERVICE?",
+    "options": [
+      "Activate and Maintain Services — register OData services on Gateway",
+      "Activate UI5 app",
+      "Deploy Fiori app",
+      "Create OData metadata"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Activate and Maintain Services — register OData services on Gateway."
+  },
+  {
+    "id": "SAP_FIO_699",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the SAP Fiori Launchpad Designer?",
+    "options": [
+      "Tool for configuring tiles, catalogs, and groups in Fiori Launchpad",
+      "A development tool",
+      "A testing tool",
+      "An admin tool for users"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tool for configuring tiles, catalogs, and groups in Fiori Launchpad."
+  },
+  {
+    "id": "SAP_FIO_700",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Fiori catalog?",
+    "options": [
+      "Collection of target mappings and tiles grouped for role assignment",
+      "A Fiori group",
+      "A Fiori space",
+      "A Fiori page"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Collection of target mappings and tiles grouped for role assignment."
+  },
+  {
+    "id": "SAP_FIO_701",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Fiori group?",
+    "options": [
+      "Collection of tiles displayed on the Fiori home page for a user",
+      "A catalog",
+      "A space",
+      "A role"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Collection of tiles displayed on the Fiori home page for a user."
+  },
+  {
+    "id": "SAP_FIO_702",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a Fiori space?",
+    "options": [
+      "Container in Fiori 3 launchpad replacing classic groups",
+      "A classic group",
+      "A catalog",
+      "A role"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Container in Fiori 3 launchpad replacing classic groups."
+  },
+  {
+    "id": "SAP_FIO_703",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a semantic object in Fiori?",
+    "options": [
+      "Business concept used to navigate between Fiori apps consistently",
+      "A data object",
+      "A UI control",
+      "A service object"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Business concept used to navigate between Fiori apps consistently."
+  },
+  {
+    "id": "SAP_FIO_704",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is intent-based navigation in Fiori?",
+    "options": [
+      "Navigating between apps using semantic object + action without hardcoded URLs",
+      "URL-based navigation",
+      "Deep link navigation",
+      "Cross-app navigation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Navigating between apps using semantic object + action without hardcoded URLs."
+  },
+  {
+    "id": "SAP_FIO_705",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is SAP Business Technology Platform (BTP)?",
+    "options": [
+      "SAP's cloud platform for building, extending, and integrating apps",
+      "An ERP system",
+      "A database",
+      "An operating system"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP's cloud platform for building, extending, and integrating apps."
+  },
+  {
+    "id": "SAP_FIO_706",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the SAP BTP Cockpit?",
+    "options": [
+      "Web interface for managing BTP services, apps, and environments",
+      "A development IDE",
+      "A database tool",
+      "A monitoring tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Web interface for managing BTP services, apps, and environments."
+  },
+  {
+    "id": "SAP_FIO_707",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Cloud Foundry on BTP?",
+    "options": [
+      "Open-source cloud application platform supported by BTP for app deployment",
+      "A container tool",
+      "A CI/CD tool",
+      "A BTP module"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Open-source cloud application platform supported by BTP for app deployment."
+  },
+  {
+    "id": "SAP_FIO_708",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SAP Build Apps?",
+    "options": [
+      "No-code/low-code tool for building Fiori and mobile apps on BTP",
+      "A classic ABAP tool",
+      "A database tool",
+      "An OData tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is No-code/low-code tool for building Fiori and mobile apps on BTP."
+  },
+  {
+    "id": "SAP_FIO_709",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the SAP UI Theme Designer?",
+    "options": [
+      "Tool for customizing visual appearance (colors, fonts) of SAPUI5 apps",
+      "A CSS editor",
+      "A layout editor",
+      "A script editor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tool for customizing visual appearance (colors, fonts) of SAPUI5 apps."
+  },
+  {
+    "id": "SAP_FIO_710",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SAPUI5 flexibility?",
+    "options": [
+      "Allows key users to adapt UI without developer help (key user extensibility)",
+      "A development feature",
+      "A testing feature",
+      "A transport feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Allows key users to adapt UI without developer help (key user extensibility)."
+  },
+  {
+    "id": "SAP_FIO_711",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is UI5 Web Components?",
+    "options": [
+      "Lightweight, framework-agnostic web components following SAP Fiori design",
+      "SAPUI5 only components",
+      "OpenUI5 components",
+      "SAP Fiori tools"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Lightweight, framework-agnostic web components following SAP Fiori design."
+  },
+  {
+    "id": "SAP_FIO_712",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SAP Fiori Tools?",
+    "options": [
+      "VSCode/BAS extension set for developing Fiori apps efficiently",
+      "SAP GUI tool",
+      "ABAP Workbench tool",
+      "Design tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is VSCode/BAS extension set for developing Fiori apps efficiently."
+  },
+  {
+    "id": "SAP_FIO_713",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SAP Business Application Studio (BAS)?",
+    "options": [
+      "Cloud-based IDE for SAP development replacing SAP Web IDE",
+      "A desktop IDE",
+      "An Eclipse plugin",
+      "A Gateway tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cloud-based IDE for SAP development replacing SAP Web IDE."
+  },
+  {
+    "id": "SAP_FIO_714",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is SAP Web IDE?",
+    "options": [
+      "Legacy cloud IDE for Fiori development (replaced by BAS)",
+      "Current SAP IDE",
+      "A desktop tool",
+      "A testing tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Legacy cloud IDE for Fiori development (replaced by BAS)."
+  },
+  {
+    "id": "SAP_FIO_715",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the generator in Fiori Tools?",
+    "options": [
+      "Scaffolding tool creating a Fiori project structure from templates",
+      "A build tool",
+      "A deployment tool",
+      "A testing tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Scaffolding tool creating a Fiori project structure from templates."
+  },
+  {
+    "id": "SAP_FIO_716",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Fiori app deployment to ABAP?",
+    "options": [
+      "Deploying built Fiori app (.zip) to SAP ABAP repository for serving",
+      "BTP deployment",
+      "Cloud deployment",
+      "Local deployment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Deploying built Fiori app (.zip) to SAP ABAP repository for serving."
+  },
+  {
+    "id": "SAP_FIO_717",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the BSP application?",
+    "options": [
+      "Browser Script Pages — ABAP-based web application serving Fiori apps on ABAP stack",
+      "An ABAP report",
+      "A function module",
+      "A class"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Browser Script Pages — ABAP-based web application serving Fiori apps on ABAP stack."
+  },
+  {
+    "id": "SAP_FIO_718",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the SAP Fiori Apps Library?",
+    "options": [
+      "Online catalog of all available SAP Fiori apps with details",
+      "A development tool",
+      "An implementation guide",
+      "A testing framework"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Online catalog of all available SAP Fiori apps with details."
+  },
+  {
+    "id": "SAP_FIO_719",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is accessibility in Fiori?",
+    "options": [
+      "Ensuring Fiori apps are usable by people with disabilities (WCAG compliance)",
+      "A performance feature",
+      "A security feature",
+      "A localization feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Ensuring Fiori apps are usable by people with disabilities (WCAG compliance)."
+  },
+  {
+    "id": "SAP_FIO_720",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is responsive design in Fiori?",
+    "options": [
+      "App adapts layout automatically for desktop, tablet, and mobile screens",
+      "A security design",
+      "A performance design",
+      "A data design"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is App adapts layout automatically for desktop, tablet, and mobile screens."
+  },
+  {
+    "id": "SAP_FIO_721",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a Dynamic Page Layout in UI5?",
+    "options": [
+      "Layout control providing collapsible header with sticky toolbar for Object Page",
+      "A fixed layout",
+      "A responsive layout",
+      "A table layout"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Layout control providing collapsible header with sticky toolbar for Object Page."
+  },
+  {
+    "id": "SAP_FIO_722",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the sap.m library in UI5?",
+    "options": [
+      "Mobile-first controls library (core Fiori controls like Button, List, Page)",
+      "Desktop-only library",
+      "Analytical library",
+      "Smart controls library"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Mobile-first controls library (core Fiori controls like Button, List, Page)."
+  },
+  {
+    "id": "SAP_FIO_723",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the sap.ui.table library?",
+    "options": [
+      "High-performance table controls for large datasets in UI5",
+      "Mobile table library",
+      "Analytical table only",
+      "A responsive table only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is High-performance table controls for large datasets in UI5."
+  },
+  {
+    "id": "SAP_FIO_724",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a SmartTable in Fiori Elements?",
+    "options": [
+      "Auto-generated table from OData metadata with built-in features",
+      "A manual table",
+      "A JSON table",
+      "An XML table"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Auto-generated table from OData metadata with built-in features."
+  },
+  {
+    "id": "SAP_FIO_725",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a SmartFilter in Fiori Elements?",
+    "options": [
+      "Auto-generated filter bar from OData metadata annotations",
+      "A manual filter",
+      "A JSON filter",
+      "A custom filter"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Auto-generated filter bar from OData metadata annotations."
+  },
+  {
+    "id": "SAP_FIO_726",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a SmartForm in Fiori Elements?",
+    "options": [
+      "Auto-generated form from OData metadata for display/edit of object",
+      "A manual form",
+      "A JSON form",
+      "A dialog form"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Auto-generated form from OData metadata for display/edit of object."
+  },
+  {
+    "id": "SAP_FIO_727",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the SAP Fiori design mentors program?",
+    "options": [
+      "SAP initiative training designers to implement Fiori guidelines",
+      "A developer program",
+      "A testing program",
+      "A certification program"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP initiative training designers to implement Fiori guidelines."
+  },
+  {
+    "id": "SAP_FIO_728",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SAP Fiori 2.0 vs Fiori 1.0?",
+    "options": [
+      "Fiori 2.0 introduced an extended shell, side navigation, and semantic colors",
+      "Same features",
+      "Fiori 1.0 is newer",
+      "Fiori 2.0 dropped responsive design"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Fiori 2.0 introduced an extended shell, side navigation, and semantic colors."
+  },
+  {
+    "id": "SAP_FIO_729",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the SAP Fiori certification?",
+    "options": [
+      "SAP's certification verifying expertise in Fiori UX development",
+      "A hardware certification",
+      "A database certification",
+      "An ABAP certification"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP's certification verifying expertise in Fiori UX development."
+  },
+  {
+    "id": "SAP_FIO_730",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a Target Mapping in Fiori Launchpad?",
+    "options": [
+      "Configuration linking a tile to an app using semantic object and action",
+      "A tile configuration",
+      "A catalog entry",
+      "A role assignment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Configuration linking a tile to an app using semantic object and action."
+  },
+  {
+    "id": "SAP_FIO_731",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is cross-app navigation in Fiori?",
+    "options": [
+      "Navigating from one Fiori app to another using semantic object navigation",
+      "Same-app navigation",
+      "Deep link navigation",
+      "URL navigation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Navigating from one Fiori app to another using semantic object navigation."
+  },
+  {
+    "id": "SAP_FIO_732",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Feature Flag in UI5?",
+    "options": [
+      "Mechanism for gradually rolling out new UI features",
+      "A development flag",
+      "A debug flag",
+      "A test flag"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Mechanism for gradually rolling out new UI features."
+  },
+  {
+    "id": "SAP_FIO_733",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is unit testing in SAPUI5?",
+    "options": [
+      "Testing individual JS functions and controllers using QUnit or OPA5",
+      "Integration testing",
+      "End-to-end testing",
+      "Manual testing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Testing individual JS functions and controllers using QUnit or OPA5."
+  },
+  {
+    "id": "SAP_FIO_734",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is OPA5 in UI5?",
+    "options": [
+      "Integration testing framework for SAPUI5 apps (page object based)",
+      "A unit testing tool",
+      "A performance tool",
+      "A security tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Integration testing framework for SAPUI5 apps (page object based)."
+  },
+  {
+    "id": "SAP_FIO_735",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is QUnit in UI5?",
+    "options": [
+      "JavaScript unit testing framework used for testing UI5 controllers",
+      "An integration test tool",
+      "A performance tool",
+      "A UI test tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is JavaScript unit testing framework used for testing UI5 controllers."
+  },
+  {
+    "id": "SAP_FIO_736",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Karma in UI5 testing?",
+    "options": [
+      "Test runner used to execute QUnit tests in browsers",
+      "A test framework",
+      "A mocking library",
+      "A CI tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Test runner used to execute QUnit tests in browsers."
+  },
+  {
+    "id": "SAP_FIO_737",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a mock server in UI5?",
+    "options": [
+      "Simulates OData backend during development/testing without real server",
+      "A real OData server",
+      "A test server",
+      "A production server"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Simulates OData backend during development/testing without real server."
+  },
+  {
+    "id": "SAP_FIO_738",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Flexibility Registrar in UI5?",
+    "options": [
+      "Component allowing key user adaptations to be stored and applied",
+      "A developer tool",
+      "A testing tool",
+      "A build tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Component allowing key user adaptations to be stored and applied."
+  },
+  {
+    "id": "SAP_FIO_739",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the sap.f library?",
+    "options": [
+      "SAP Fiori 2.0 controls library (FlexibleColumnLayout, DynamicPage, etc.)",
+      "Mobile-only library",
+      "Analytical library",
+      "Smart controls library"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP Fiori 2.0 controls library (FlexibleColumnLayout, DynamicPage, etc.)."
+  },
+  {
+    "id": "SAP_FIO_740",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is FlexibleColumnLayout?",
+    "options": [
+      "UI5 control enabling master-detail and two/three column layouts in Fiori",
+      "A responsive grid",
+      "A table layout",
+      "A dialog layout"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is UI5 control enabling master-detail and two/three column layouts in Fiori."
+  },
+  {
+    "id": "SAP_FIO_741",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the SAP Fiori App ID?",
+    "options": [
+      "Unique identifier for each Fiori app in the Fiori Apps Library",
+      "An OData service ID",
+      "A BAS project ID",
+      "A catalog ID"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Unique identifier for each Fiori app in the Fiori Apps Library."
+  },
+  {
+    "id": "SAP_SEC_742",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is SAP security?",
+    "options": [
+      "Protecting SAP systems from unauthorized access, data loss, and attacks",
+      "A backup strategy",
+      "A performance strategy",
+      "A development tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Protecting SAP systems from unauthorized access, data loss, and attacks."
+  },
+  {
+    "id": "SAP_SEC_743",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is an authorization object in SAP?",
+    "options": [
+      "A container of authorization fields controlling access to a function",
+      "A role",
+      "A user group",
+      "A profile"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A container of authorization fields controlling access to a function."
+  },
+  {
+    "id": "SAP_SEC_744",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is transaction SU01?",
+    "options": [
+      "User Management — create, change, delete users",
+      "Role maintenance",
+      "Profile generation",
+      "Authorization check"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is User Management — create, change, delete users."
+  },
+  {
+    "id": "SAP_SEC_745",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a single role?",
+    "options": [
+      "Collection of menu and authorization data assigned to users",
+      "A composite role",
+      "A derived role",
+      "A profile"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Collection of menu and authorization data assigned to users."
+  },
+  {
+    "id": "SAP_SEC_746",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a composite role?",
+    "options": [
+      "Collection of single roles grouped together for assignment",
+      "A single role",
+      "A derived role",
+      "A profile"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Collection of single roles grouped together for assignment."
+  },
+  {
+    "id": "SAP_SEC_747",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a derived role?",
+    "options": [
+      "Role inheriting menu from parent role but with different organizational restrictions",
+      "A composite role",
+      "A single role",
+      "An inherited profile"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Role inheriting menu from parent role but with different organizational restrictions."
+  },
+  {
+    "id": "SAP_SEC_748",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is transaction PFCG?",
+    "options": [
+      "Role Maintenance — create and manage SAP roles",
+      "User maintenance",
+      "Profile generation",
+      "Security audit"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Role Maintenance — create and manage SAP roles."
+  },
+  {
+    "id": "SAP_SEC_749",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SU24 transaction?",
+    "options": [
+      "Maintain Authorization Objects for Transactions — maps objects to T-codes",
+      "User creation",
+      "Role assignment",
+      "Profile maintenance"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Maintain Authorization Objects for Transactions — maps objects to T-codes."
+  },
+  {
+    "id": "SAP_SEC_750",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SU25 transaction?",
+    "options": [
+      "Upgrade tool for authorization default values (SU24 data)",
+      "Create users",
+      "Maintain roles",
+      "Check authorizations"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Upgrade tool for authorization default values (SU24 data)."
+  },
+  {
+    "id": "SAP_SEC_751",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is profile in SAP security?",
+    "options": [
+      "Generated from a role containing authorization objects and field values",
+      "A role",
+      "A composite",
+      "An authorization object"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Generated from a role containing authorization objects and field values."
+  },
+  {
+    "id": "SAP_SEC_752",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is authorization field in SAP?",
+    "options": [
+      "A specific value within an authorization object (e.g., activity, plant)",
+      "An authorization object",
+      "A profile",
+      "A role"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A specific value within an authorization object (e.g., activity, plant)."
+  },
+  {
+    "id": "SAP_SEC_753",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the activity field (ACTVT)?",
+    "options": [
+      "Authorization field controlling allowed activities (create=01, change=02, display=03)",
+      "A field for organizational value",
+      "A user field",
+      "A role field"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Authorization field controlling allowed activities (create=01, change=02, display=03)."
+  },
+  {
+    "id": "SAP_SEC_754",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is AUTHORITY-CHECK ABAP statement?",
+    "options": [
+      "Checks if current user is authorized for specified object and values",
+      "Grants authorization",
+      "Creates authorization",
+      "Lists authorizations"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Checks if current user is authorized for specified object and values."
+  },
+  {
+    "id": "SAP_SEC_755",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SU53 transaction?",
+    "options": [
+      "Displays last failed authorization check for a user",
+      "Check user roles",
+      "Create authorization",
+      "Display user session"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Displays last failed authorization check for a user."
+  },
+  {
+    "id": "SAP_SEC_756",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SAP audit log (SM20)?",
+    "options": [
+      "Security Audit Log — records security-relevant events",
+      "System log",
+      "Work process log",
+      "Database log"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Security Audit Log — records security-relevant events."
+  },
+  {
+    "id": "SAP_SEC_757",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Segregation of Duties (SoD)?",
+    "options": [
+      "Ensuring no single user has conflicting authorizations enabling fraud",
+      "User access control",
+      "Role separation",
+      "Authorization merging"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Ensuring no single user has conflicting authorizations enabling fraud."
+  },
+  {
+    "id": "SAP_SEC_758",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the SAP GRC (Governance, Risk, Compliance) solution?",
+    "options": [
+      "SAP tool for managing SoD conflicts, access risks, and compliance",
+      "A security scanner",
+      "An authorization tool",
+      "A monitoring tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP tool for managing SoD conflicts, access risks, and compliance."
+  },
+  {
+    "id": "SAP_SEC_759",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SAP Access Control?",
+    "options": [
+      "GRC component for provisioning and reviewing user access",
+      "A firewall product",
+      "An encryption tool",
+      "A HANA security tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is GRC component for provisioning and reviewing user access."
+  },
+  {
+    "id": "SAP_SEC_760",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is an access risk in SAP GRC?",
+    "options": [
+      "Combination of conflicting transactions a user should not have together",
+      "A single transaction risk",
+      "A password risk",
+      "A network risk"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Combination of conflicting transactions a user should not have together."
+  },
+  {
+    "id": "SAP_SEC_761",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is emergency access (Firefighter) in GRC?",
+    "options": [
+      "Time-limited super-user access for emergency situations with full logging",
+      "Standard access",
+      "Read-only access",
+      "Batch access"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Time-limited super-user access for emergency situations with full logging."
+  },
+  {
+    "id": "SAP_SEC_762",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is password policy in SAP?",
+    "options": [
+      "Rules controlling password length, complexity, and expiry",
+      "An authorization policy",
+      "A role policy",
+      "A transport policy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Rules controlling password length, complexity, and expiry."
+  },
+  {
+    "id": "SAP_SEC_763",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is SSO (Single Sign-On) in SAP?",
+    "options": [
+      "One login grants access to multiple SAP systems without re-authentication",
+      "Multi-factor auth",
+      "Biometric auth",
+      "Certificate-only auth"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is One login grants access to multiple SAP systems without re-authentication."
+  },
+  {
+    "id": "SAP_SEC_764",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SAML 2.0 in SAP?",
+    "options": [
+      "Standard for SSO and federated identity between SAP and other systems",
+      "A password standard",
+      "An encryption standard",
+      "A firewall standard"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Standard for SSO and federated identity between SAP and other systems."
+  },
+  {
+    "id": "SAP_SEC_765",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is X.509 certificate in SAP?",
+    "options": [
+      "Digital certificate used for encrypted communication and user authentication",
+      "A password type",
+      "A license key",
+      "An authorization object"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Digital certificate used for encrypted communication and user authentication."
+  },
+  {
+    "id": "SAP_SEC_766",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SNC (Secure Network Communication) in SAP?",
+    "options": [
+      "Encrypts network traffic between SAP GUI and application server",
+      "A VPN tool",
+      "A firewall",
+      "An SSL certificate only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Encrypts network traffic between SAP GUI and application server."
+  },
+  {
+    "id": "SAP_SEC_767",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is network security in SAP?",
+    "options": [
+      "Protecting SAP network communication from interception and attacks",
+      "Authorization security",
+      "Data security",
+      "Application security"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Protecting SAP network communication from interception and attacks."
+  },
+  {
+    "id": "SAP_SEC_768",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the SAP router?",
+    "options": [
+      "Software proxy routing secure external connections to SAP systems",
+      "A network router",
+      "A message server",
+      "An application server"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Software proxy routing secure external connections to SAP systems."
+  },
+  {
+    "id": "SAP_SEC_769",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is an SAP vulnerability?",
+    "options": [
+      "A weakness in SAP system that can be exploited by attackers",
+      "An authorization gap",
+      "A configuration issue",
+      "A performance issue"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A weakness in SAP system that can be exploited by attackers."
+  },
+  {
+    "id": "SAP_SEC_770",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the SAP Security Optimization Service?",
+    "options": [
+      "SAP's service reviewing and improving customer security settings",
+      "A vulnerability scanner",
+      "A penetration tester",
+      "A monitoring service"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP's service reviewing and improving customer security settings."
+  },
+  {
+    "id": "SAP_SEC_771",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is code security in ABAP?",
+    "options": [
+      "Writing ABAP code free of injection, buffer overflow, and data exposure risks",
+      "Performance optimization",
+      "Memory management",
+      "Transport security"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Writing ABAP code free of injection, buffer overflow, and data exposure risks."
+  },
+  {
+    "id": "SAP_SEC_772",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SQL injection in SAP ABAP?",
+    "options": [
+      "Inserting malicious SQL through dynamic OPEN SQL to manipulate data",
+      "Buffer overflow",
+      "Cross-site scripting",
+      "Authorization bypass"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Inserting malicious SQL through dynamic OPEN SQL to manipulate data."
+  },
+  {
+    "id": "SAP_SEC_773",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is cross-site scripting (XSS) risk in Fiori?",
+    "options": [
+      "Injecting malicious scripts into web apps through unsanitized user input",
+      "SQL injection",
+      "CSRF attack",
+      "Authorization bypass"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Injecting malicious scripts into web apps through unsanitized user input."
+  },
+  {
+    "id": "SAP_SEC_774",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is CSRF (Cross-Site Request Forgery) in Fiori?",
+    "options": [
+      "Attacker tricks user to perform unwanted actions on authenticated app",
+      "XSS attack",
+      "SQL injection",
+      "Session hijacking"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Attacker tricks user to perform unwanted actions on authenticated app."
+  },
+  {
+    "id": "SAP_SEC_775",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is input validation in security?",
+    "options": [
+      "Checking user input to prevent injection and malicious data",
+      "Output encoding",
+      "Encryption",
+      "Access control"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Checking user input to prevent injection and malicious data."
+  },
+  {
+    "id": "SAP_SEC_776",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is an authorization gap?",
+    "options": [
+      "Situation where required authorization is missing preventing legitimate work",
+      "An access risk",
+      "An SoD conflict",
+      "A role gap"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Situation where required authorization is missing preventing legitimate work."
+  },
+  {
+    "id": "SAP_SEC_777",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is sensitive data in SAP?",
+    "options": [
+      "Data requiring special protection (personal, financial, confidential)",
+      "All data",
+      "Archived data",
+      "Deleted data"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Data requiring special protection (personal, financial, confidential)."
+  },
+  {
+    "id": "SAP_SEC_778",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is GDPR in context of SAP?",
+    "options": [
+      "EU regulation requiring data protection and privacy for personal data in SAP",
+      "A security certification",
+      "A transport regulation",
+      "An authorization standard"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is EU regulation requiring data protection and privacy for personal data in SAP."
+  },
+  {
+    "id": "SAP_SEC_779",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SAP Information Lifecycle Management (ILM)?",
+    "options": [
+      "Manages data retention, archiving, and destruction per legal requirements",
+      "A security tool",
+      "A transport tool",
+      "A reporting tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Manages data retention, archiving, and destruction per legal requirements."
+  },
+  {
+    "id": "SAP_SEC_780",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is data masking in SAP?",
+    "options": [
+      "Hiding sensitive data values from unauthorized users",
+      "Data encryption",
+      "Data deletion",
+      "Data archiving"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hiding sensitive data values from unauthorized users."
+  },
+  {
+    "id": "SAP_SEC_781",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is data encryption in SAP?",
+    "options": [
+      "Converting data to unreadable format only authorized parties can decrypt",
+      "Data masking",
+      "Data compression",
+      "Data signing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Converting data to unreadable format only authorized parties can decrypt."
+  },
+  {
+    "id": "SAP_SEC_782",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Secure Store and Forward (SSF) in SAP?",
+    "options": [
+      "SAP mechanism for digitally signing and encrypting data and messages",
+      "A password store",
+      "A network tool",
+      "An authorization store"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP mechanism for digitally signing and encrypting data and messages."
+  },
+  {
+    "id": "SAP_SEC_783",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is transport security in SAP?",
+    "options": [
+      "Controlling who can create, release, and import transport requests",
+      "Authorization security",
+      "Network security",
+      "Application security"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Controlling who can create, release, and import transport requests."
+  },
+  {
+    "id": "SAP_SEC_784",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is ChaRM (Change Request Management) in GRC/SolMan?",
+    "options": [
+      "Controls SAP change approvals and transport authorizations",
+      "A security scanner",
+      "A GRC tool",
+      "A monitoring tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Controls SAP change approvals and transport authorizations."
+  },
+  {
+    "id": "SAP_SEC_785",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the SAP Security Baseline Tool?",
+    "options": [
+      "Self-service tool for customers to check their SAP security settings against baselines",
+      "A vulnerability scanner",
+      "A compliance report",
+      "A monitoring dashboard"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Self-service tool for customers to check their SAP security settings against baselines."
+  },
+  {
+    "id": "SAP_SEC_786",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is OS-level security for SAP?",
+    "options": [
+      "Securing the operating system hosting SAP (user accounts, file permissions, patches)",
+      "Database security",
+      "Application security",
+      "Network security"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Securing the operating system hosting SAP (user accounts, file permissions, patches)."
+  },
+  {
+    "id": "SAP_SEC_787",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the SAP <sid>adm user?",
+    "options": [
+      "OS-level administrator for a specific SAP system instance",
+      "A database user",
+      "An SAP user",
+      "A basis user"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is OS-level administrator for a specific SAP system instance."
+  },
+  {
+    "id": "SAP_SEC_788",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is hardening an SAP system?",
+    "options": [
+      "Reducing attack surface by disabling unused services, applying patches, restricting access",
+      "A performance activity",
+      "A backup activity",
+      "A monitoring activity"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reducing attack surface by disabling unused services, applying patches, restricting access."
+  },
+  {
+    "id": "SAP_SEC_789",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is vulnerability management in SAP?",
+    "options": [
+      "Regularly identifying and fixing known vulnerabilities in SAP software",
+      "Authorization management",
+      "Transport management",
+      "Performance management"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Regularly identifying and fixing known vulnerabilities in SAP software."
+  },
+  {
+    "id": "SAP_SEC_790",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SAP Notes for security?",
+    "options": [
+      "Corrections released by SAP addressing specific security vulnerabilities",
+      "Feature notes",
+      "Configuration notes",
+      "Performance notes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Corrections released by SAP addressing specific security vulnerabilities."
+  },
+  {
+    "id": "SAP_SEC_791",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a security patch in SAP?",
+    "options": [
+      "ABAP correction or kernel update fixing a known security vulnerability",
+      "A feature update",
+      "A performance update",
+      "A configuration change"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is ABAP correction or kernel update fixing a known security vulnerability."
+  },
+  {
+    "id": "SAP_SEC_792",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction SE01 used for in security context?",
+    "options": [
+      "Managing transport requests — must be controlled to prevent unauthorized changes",
+      "User creation",
+      "Profile maintenance",
+      "Authorization object creation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Managing transport requests — must be controlled to prevent unauthorized changes."
+  },
+  {
+    "id": "SAP_SEC_793",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the RFC gateway security?",
+    "options": [
+      "Configuring gateway to control which external programs can connect",
+      "An authorization control",
+      "A network firewall",
+      "An SSL configuration"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Configuring gateway to control which external programs can connect."
+  },
+  {
+    "id": "SAP_SEC_794",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is ACL (Access Control List) in SAP gateway?",
+    "options": [
+      "List of allowed external programs and hosts for RFC gateway connections",
+      "An authorization object",
+      "A role",
+      "A profile"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is List of allowed external programs and hosts for RFC gateway connections."
+  },
+  {
+    "id": "SAP_SEC_795",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the message server ACL (ms.acl)?",
+    "options": [
+      "Controls which application servers can connect to the message server",
+      "A gateway ACL",
+      "A database ACL",
+      "A user ACL"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Controls which application servers can connect to the message server."
+  },
+  {
+    "id": "SAP_SEC_796",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is remote function call (RFC) security?",
+    "options": [
+      "Securing RFC connections with proper authentication and authorization",
+      "A network security tool",
+      "An encryption method",
+      "A firewall rule"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Securing RFC connections with proper authentication and authorization."
+  },
+  {
+    "id": "SAP_SEC_797",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a trusted RFC connection?",
+    "options": [
+      "Allows system-level trust for RFC calls without user credential re-entry",
+      "A standard RFC",
+      "An HTTPS connection",
+      "A BAPI call"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Allows system-level trust for RFC calls without user credential re-entry."
+  },
+  {
+    "id": "SAP_SEC_798",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a service user in SAP?",
+    "options": [
+      "A user type for system-to-system communication without password change requirement",
+      "A dialog user",
+      "A communication user",
+      "A reference user"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A user type for system-to-system communication without password change requirement."
+  },
+  {
+    "id": "SAP_SEC_799",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a communication user?",
+    "options": [
+      "A user type for RFC/API communication with password but no dialog logon",
+      "A dialog user",
+      "A service user",
+      "A reference user"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A user type for RFC/API communication with password but no dialog logon."
+  },
+  {
+    "id": "SAP_SEC_800",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a reference user?",
+    "options": [
+      "User providing additional authorization to another user without direct assignment",
+      "A system user",
+      "A service user",
+      "A technical user"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is User providing additional authorization to another user without direct assignment."
+  },
+  {
+    "id": "SAP_SEC_801",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SU10 transaction?",
+    "options": [
+      "Mass User Administration — change multiple users at once",
+      "Single user change",
+      "User display",
+      "Role assignment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Mass User Administration — change multiple users at once."
+  },
+  {
+    "id": "SAP_SEC_802",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SUIM transaction?",
+    "options": [
+      "User Information System — search and report on users, roles, and authorizations",
+      "Create users",
+      "Create roles",
+      "Security audit"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is User Information System — search and report on users, roles, and authorizations."
+  },
+  {
+    "id": "SAP_SEC_803",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the critical authorization concept?",
+    "options": [
+      "Authorization objects allowing sensitive actions (debugging, ABAP changes, all access)",
+      "Standard authorization",
+      "Read-only authorization",
+      "Display authorization"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Authorization objects allowing sensitive actions (debugging, ABAP changes, all access)."
+  },
+  {
+    "id": "SAP_SEC_804",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is S_DEVELOP authorization object?",
+    "options": [
+      "Controls access to ABAP development tools (editor, debugger, workbench)",
+      "Authorizes DB access",
+      "Controls user creation",
+      "Controls transport"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Controls access to ABAP development tools (editor, debugger, workbench)."
+  },
+  {
+    "id": "SAP_SEC_805",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is S_TCODE authorization object?",
+    "options": [
+      "Controls access to transaction codes",
+      "Controls program access",
+      "Controls table access",
+      "Controls file access"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Controls access to transaction codes."
+  },
+  {
+    "id": "SAP_SEC_806",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is S_ADMI_FCD authorization object?",
+    "options": [
+      "System administration functions (client copy, table admin, log access)",
+      "Development authorization",
+      "User management",
+      "Transport authorization"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is System administration functions (client copy, table admin, log access)."
+  },
+  {
+    "id": "SAP_SEC_807",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the SCC4 security setting?",
+    "options": [
+      "Controls who can perform client copies and changes to production clients",
+      "A user setting",
+      "A transport setting",
+      "A role setting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Controls who can perform client copies and changes to production clients."
+  },
+  {
+    "id": "SAP_SEC_808",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is profile parameter login/min_password_lng?",
+    "options": [
+      "Sets minimum password length for SAP users",
+      "Maximum password length",
+      "Password complexity",
+      "Password expiry"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sets minimum password length for SAP users."
+  },
+  {
+    "id": "SAP_SEC_809",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is login/fails_to_session_end?",
+    "options": [
+      "Number of failed logon attempts before session is terminated",
+      "Password expiry setting",
+      "Account lock setting",
+      "Session timeout"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Number of failed logon attempts before session is terminated."
+  },
+  {
+    "id": "SAP_SEC_810",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is login/failed_user_auto_unlock?",
+    "options": [
+      "Controls whether locked users are automatically unlocked after midnight",
+      "Manual unlock only",
+      "Immediate unlock",
+      "Never unlock"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Controls whether locked users are automatically unlocked after midnight."
+  },
+  {
+    "id": "SAP_SEC_811",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is transaction SM19?",
+    "options": [
+      "Security Audit Log Configuration — define which events to audit",
+      "Display audit log",
+      "Delete audit log",
+      "Create audit events"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Security Audit Log Configuration — define which events to audit."
+  },
+  {
+    "id": "SAP_SEC_812",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SAP Basis vulnerability: unrestricted gateway access?",
+    "options": [
+      "Gateway allows any external program to register and communicate — a security risk",
+      "A feature",
+      "A configuration",
+      "A minor issue"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Gateway allows any external program to register and communicate — a security risk."
+  },
+  {
+    "id": "SAP_SEC_813",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is defense in depth for SAP?",
+    "options": [
+      "Multiple layers of security (network, OS, DB, application, authorization) working together",
+      "A single security layer",
+      "A firewall-only approach",
+      "An encryption-only approach"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Multiple layers of security (network, OS, DB, application, authorization) working together."
+  },
+  {
+    "id": "SAP_SEC_814",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the SAP Secure Baseline?",
+    "options": [
+      "Minimum security configuration standards recommended by SAP for all systems",
+      "An advanced security",
+      "An optional security",
+      "A performance baseline"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Minimum security configuration standards recommended by SAP for all systems."
+  },
+  {
+    "id": "SAP_SEC_815",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a security review audit for SAP?",
+    "options": [
+      "Systematic assessment of SAP security settings, authorizations, and configurations",
+      "A performance review",
+      "A transport review",
+      "A development review"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Systematic assessment of SAP security settings, authorizations, and configurations."
+  },
+  {
+    "id": "SAP_SEC_816",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is penetration testing for SAP?",
+    "options": [
+      "Simulated attack testing to identify exploitable vulnerabilities in SAP systems",
+      "A security audit",
+      "An authorization review",
+      "A configuration check"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Simulated attack testing to identify exploitable vulnerabilities in SAP systems."
+  },
+  {
+    "id": "SAP_SEC_817",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the SAP Patch Tuesday (Security Notes)?",
+    "options": [
+      "SAP's monthly release of security notes on the second Tuesday of each month",
+      "A weekly release",
+      "A quarterly release",
+      "An annual release"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP's monthly release of security notes on the second Tuesday of each month."
+  },
+  {
+    "id": "SAP_SEC_818",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a digitally signed SAP Note?",
+    "options": [
+      "SAP Note with cryptographic signature ensuring authenticity",
+      "An unsigned note",
+      "A correction transport",
+      "A hotfix"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP Note with cryptographic signature ensuring authenticity."
+  },
+  {
+    "id": "SAP_SEC_819",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SNOTE used for in security?",
+    "options": [
+      "Importing security correction notes to fix ABAP vulnerabilities",
+      "Creating notes",
+      "Deleting notes",
+      "Viewing notes only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Importing security correction notes to fix ABAP vulnerabilities."
+  },
+  {
+    "id": "SAP_SEC_820",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is HANA row-level security?",
+    "options": [
+      "Restricting which rows a user can see using analytic privileges or SQL views",
+      "Column-level security",
+      "Object-level security",
+      "Schema-level security"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Restricting which rows a user can see using analytic privileges or SQL views."
+  },
+  {
+    "id": "SAP_SEC_821",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is HANA object privilege?",
+    "options": [
+      "Grants specific rights on database objects (table, view, procedure)",
+      "A row-level privilege",
+      "A system privilege",
+      "An analytic privilege"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Grants specific rights on database objects (table, view, procedure)."
+  },
+  {
+    "id": "SAP_SEC_822",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a HANA system privilege?",
+    "options": [
+      "Grants system-level rights (create schema, manage users, backup)",
+      "Object privilege",
+      "Analytic privilege",
+      "Row-level privilege"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Grants system-level rights (create schema, manage users, backup)."
+  },
+  {
+    "id": "SAP_SEC_823",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is user provisioning in SAP?",
+    "options": [
+      "Process of creating, modifying, and deactivating user accounts and roles",
+      "User deletion only",
+      "Role creation only",
+      "Password management only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Process of creating, modifying, and deactivating user accounts and roles."
+  },
+  {
+    "id": "SAP_SEC_824",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the principle of least privilege?",
+    "options": [
+      "Users should have only the minimum access needed for their job",
+      "Maximum access principle",
+      "Role-based access",
+      "Admin access principle"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Users should have only the minimum access needed for their job."
+  },
+  {
+    "id": "SAP_SEC_825",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is role recertification?",
+    "options": [
+      "Periodically reviewing user role assignments to remove unnecessary access",
+      "Role creation",
+      "Role modification",
+      "Role deletion"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Periodically reviewing user role assignments to remove unnecessary access."
+  },
+  {
+    "id": "SAP_SEC_826",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is audit trail in SAP security?",
+    "options": [
+      "Log of who did what and when in the SAP system for accountability",
+      "A backup log",
+      "A performance log",
+      "A change transport log"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Log of who did what and when in the SAP system for accountability."
+  },
+  {
+    "id": "SAP_SEC_827",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the SAP Security Guide?",
+    "options": [
+      "Official SAP documentation providing security configuration recommendations",
+      "An ABAP guide",
+      "A Fiori guide",
+      "A Basis guide"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Official SAP documentation providing security configuration recommendations."
+  },
+  {
+    "id": "SAP_SEC_828",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is data loss prevention (DLP) for SAP?",
+    "options": [
+      "Controls and monitors to prevent sensitive SAP data from leaving the organization",
+      "Data backup",
+      "Data archiving",
+      "Data compression"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Controls and monitors to prevent sensitive SAP data from leaving the organization."
+  },
+  {
+    "id": "SAP_SEC_829",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is two-factor authentication (2FA) for SAP?",
+    "options": [
+      "Requiring a second authentication factor in addition to password",
+      "Single factor auth",
+      "Biometric auth",
+      "SSO"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Requiring a second authentication factor in addition to password."
+  },
+  {
+    "id": "SAP_SEC_830",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is multi-factor authentication (MFA)?",
+    "options": [
+      "Authentication requiring two or more verification factors",
+      "Password only",
+      "Biometric only",
+      "SSO"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Authentication requiring two or more verification factors."
+  },
+  {
+    "id": "SAP_SEC_831",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a security token in SAP?",
+    "options": [
+      "A credential (software or hardware) generating one-time passwords for 2FA",
+      "A password",
+      "A digital certificate",
+      "An SAP license"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A credential (software or hardware) generating one-time passwords for 2FA."
+  },
+  {
+    "id": "SAP_SEC_832",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the SAP Identity Management (IdM) system?",
+    "options": [
+      "Centralized user provisioning and role management across SAP and non-SAP systems",
+      "An authorization tool",
+      "A GRC tool",
+      "A monitoring tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Centralized user provisioning and role management across SAP and non-SAP systems."
+  },
+  {
+    "id": "SAP_SEC_833",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SOX compliance in SAP context?",
+    "options": [
+      "Sarbanes-Oxley Act requiring internal controls over financial reporting in SAP",
+      "A security standard",
+      "A performance standard",
+      "A development standard"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sarbanes-Oxley Act requiring internal controls over financial reporting in SAP."
+  },
+  {
+    "id": "SAP_SEC_834",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is change management security in SAP?",
+    "options": [
+      "Controlling who can make configuration and code changes and when",
+      "Transport security",
+      "User management",
+      "Authorization security"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Controlling who can make configuration and code changes and when."
+  },
+  {
+    "id": "SAP_SEC_835",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is S_RFC authorization object?",
+    "options": [
+      "Controls which RFC function groups/modules a user can call remotely",
+      "Controls T-codes",
+      "Controls development",
+      "Controls OS access"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Controls which RFC function groups/modules a user can call remotely."
+  },
+  {
+    "id": "SAP_SEC_836",
+    "topic": "SAP Engineer",
+    "section": "Practical Modules",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the SAP security whitepaper?",
+    "options": [
+      "Official SAP document detailing security architecture and recommendations",
+      "A user guide",
+      "A developer guide",
+      "A training document"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Official SAP document detailing security architecture and recommendations."
+  },
+  {
+    "id": "SAP_FIO_103",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Fiori Launchpad Designer?",
+    "options": [
+      "Tool for configuring tiles, groups and catalogs on Fiori Launchpad",
+      "Launchpad itself",
+      "SAP GUI tool",
+      "Backend tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tool for configuring tiles, groups and catalogs on Fiori Launchpad."
+  },
+  {
+    "id": "SAP_FIO_104",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SAP Fiori Launchpad sandbox?",
+    "options": [
+      "Local test environment for running Fiori apps without backend",
+      "Production Launchpad",
+      "Development system",
+      "S/4HANA system"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Local test environment for running Fiori apps without backend."
+  },
+  {
+    "id": "SAP_FIO_105",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is an OData service in Fiori context?",
+    "options": [
+      "REST-based service exposing SAP backend data/functions to Fiori apps",
+      "BAPI service",
+      "RFC service",
+      "REST API"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is REST-based service exposing SAP backend data/functions to Fiori apps."
+  },
+  {
+    "id": "SAP_FIO_106",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SAP Gateway?",
+    "options": [
+      "Middleware enabling OData service creation from SAP ABAP backend",
+      "SAP Portal",
+      "SAP Web AS",
+      "SAP Router"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Middleware enabling OData service creation from SAP ABAP backend."
+  },
+  {
+    "id": "SAP_FIO_107",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the role of SAP Fiori Reference Apps?",
+    "options": [
+      "Sample applications demonstrating Fiori best practices and patterns",
+      "Required apps",
+      "Production apps",
+      "Test apps"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sample applications demonstrating Fiori best practices and patterns."
+  },
+  {
+    "id": "SAP_FIO_108",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SAP Fiori for iOS?",
+    "options": [
+      "SAP's native iOS SDK for building Fiori-styled native mobile apps",
+      "Web-only Fiori",
+      "Android Fiori",
+      "SAPUI5 for iOS"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP's native iOS SDK for building Fiori-styled native mobile apps."
+  },
+  {
+    "id": "SAP_FIO_109",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SAP Fiori for Android?",
+    "options": [
+      "SAP's native Android SDK for Fiori-styled mobile applications",
+      "Web-only Fiori",
+      "iOS Fiori",
+      "SAPUI5 for Android"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP's native Android SDK for Fiori-styled mobile applications."
+  },
+  {
+    "id": "SAP_FIO_110",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SAP BTP Work Zone?",
+    "options": [
+      "Cloud portal aggregating SAP and third-party apps with Fiori UX",
+      "On-premise portal",
+      "SAP EP",
+      "NetWeaver Portal"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cloud portal aggregating SAP and third-party apps with Fiori UX."
+  },
+  {
+    "id": "SAP_FIO_111",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the Fiori Design Language?",
+    "options": [
+      "SAP's UX design system defining visual and interaction guidelines",
+      "SAPUI5 framework",
+      "SAP GUI design",
+      "SAP Analytics"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP's UX design system defining visual and interaction guidelines."
+  },
+  {
+    "id": "SAP_FIO_112",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SAP Screen Personas?",
+    "options": [
+      "Tool simplifying SAP GUI transactions for specific user roles",
+      "Fiori alternative",
+      "Custom development",
+      "SAP Mobile"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tool simplifying SAP GUI transactions for specific user roles."
+  },
+  {
+    "id": "SAP_ABA_097",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is an ABAP Dictionary?",
+    "options": [
+      "Central repository defining data types, tables, structures used across ABAP",
+      "Program library",
+      "Function library",
+      "Class library"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Central repository defining data types, tables, structures used across ABAP."
+  },
+  {
+    "id": "SAP_ABA_098",
     "topic": "SAP Engineer",
     "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q290] SAP PP module handles",
+    "question": "What is a database view in ABAP?",
     "options": [
-      "Payroll",
-      "Procurement",
-      "Cannot be determined",
-      "Production Planning"
+      "Read-only view joining multiple tables defined in ABAP Dictionary",
+      "Projection view",
+      "Maintenance view",
+      "Help view"
     ],
     "answer": 0,
-    "explanation": "PP manages manufacturing processes."
+    "explanation": "The correct answer is Read-only view joining multiple tables defined in ABAP Dictionary."
   },
   {
-    "id": "sap_1291",
+    "id": "SAP_ABA_099",
     "topic": "SAP Engineer",
     "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q291] What is a SAP Client?",
+    "question": "What is a maintenance view?",
     "options": [
-      "Server",
-      "Module",
-      "Organizational unit in SAP",
-      "Database"
+      "View allowing insert/update/delete across joined tables",
+      "Database view",
+      "Projection view",
+      "Help view"
     ],
     "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
+    "explanation": "The correct answer is View allowing insert/update/delete across joined tables."
   },
   {
-    "id": "sap_1292",
+    "id": "SAP_ABA_100",
     "topic": "SAP Engineer",
     "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q292] T-code in SAP means",
+    "question": "What is a function group?",
     "options": [
-      "Transfer code",
-      "Transaction code",
-      "Technical code",
-      "Cannot be determined"
+      "Container for logically related function modules sharing global data",
+      "Function module",
+      "Class",
+      "Report"
     ],
     "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
+    "explanation": "The correct answer is Container for logically related function modules sharing global data."
   },
   {
-    "id": "sap_1293",
+    "id": "SAP_ABA_101",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is an ABAP report?",
+    "options": [
+      "Executable program used for data processing and output",
+      "Module pool",
+      "Function module",
+      "Class"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Executable program used for data processing and output."
+  },
+  {
+    "id": "SAP_ABA_102",
     "topic": "SAP Engineer",
     "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q293] SE38 is used for",
+    "question": "What is module pool programming?",
     "options": [
-      "Table display",
-      "Data not provided",
-      "ABAP Editor",
+      "ABAP program with screens (dynpros) for interactive GUI applications",
+      "Report",
+      "Function group",
+      "Class"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is ABAP program with screens (dynpros) for interactive GUI applications."
+  },
+  {
+    "id": "SAP_ABA_103",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is dynpro (dynamic program)?",
+    "options": [
+      "Screen in SAP GUI applications with fields, flow logic, and events",
+      "Report output",
+      "ALV grid",
+      "Dialog box"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Screen in SAP GUI applications with fields, flow logic, and events."
+  },
+  {
+    "id": "SAP_ABA_104",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is PAI (Process After Input)?",
+    "options": [
+      "Module pool event triggered when user confirms a screen",
+      "PBO",
+      "PAI logic",
+      "Initialization"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Module pool event triggered when user confirms a screen."
+  },
+  {
+    "id": "SAP_ABA_105",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is PBO (Process Before Output)?",
+    "options": [
+      "Module pool event triggered before screen is displayed",
+      "PAI",
+      "POST",
+      "PREBUILD"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Module pool event triggered before screen is displayed."
+  },
+  {
+    "id": "SAP_ABA_106",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a BAPI (Business Application Programming Interface)?",
+    "options": [
+      "Standardized function module serving as stable API to SAP business objects",
+      "RFC function",
+      "User exit",
+      "Enhancement"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Standardized function module serving as stable API to SAP business objects."
+  },
+  {
+    "id": "SAP_ABA_107",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is COMMIT WORK in ABAP?",
+    "options": [
+      "Saves all database changes made in the current Logical Unit of Work",
+      "ROLLBACK WORK",
+      "WRITE statement",
+      "SELECT ENDSELECT"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Saves all database changes made in the current Logical Unit of Work."
+  },
+  {
+    "id": "SAP_ABA_108",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is ROLLBACK WORK in ABAP?",
+    "options": [
+      "Cancels all database changes made since last COMMIT WORK",
+      "COMMIT WORK",
+      "ABORT",
+      "EXIT"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cancels all database changes made since last COMMIT WORK."
+  },
+  {
+    "id": "SAP_ABA_109",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a logical unit of work (LUW)?",
+    "options": [
+      "Set of database operations that must all succeed or all fail together",
+      "Transaction",
+      "Work area",
+      "LUW variant"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Set of database operations that must all succeed or all fail together."
+  },
+  {
+    "id": "SAP_ABA_110",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is ABAP Objects?",
+    "options": [
+      "Object-oriented extension of ABAP supporting classes and interfaces",
+      "Pure functional",
+      "Procedural only",
+      "Scripting extension"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Object-oriented extension of ABAP supporting classes and interfaces."
+  },
+  {
+    "id": "SAP_ABA_111",
+    "topic": "SAP Engineer",
+    "section": "ABAP Programming",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is an ABAP interface?",
+    "options": [
+      "Defines methods that implementing classes must provide",
+      "Abstract class",
+      "Function group",
+      "Module pool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defines methods that implementing classes must provide."
+  },
+  {
+    "id": "SAP_HAN_098",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is column store advantage in SAP HANA?",
+    "options": [
+      "High compression and fast aggregations due to similar values in columns",
+      "Row store advantage",
+      "No advantage",
+      "Only for small data"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is High compression and fast aggregations due to similar values in columns."
+  },
+  {
+    "id": "SAP_HAN_099",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the HANA in-memory advantage?",
+    "options": [
+      "All data accessed from RAM — eliminates I/O bottleneck for analytics",
+      "Disk access",
+      "Hybrid access",
+      "Sequential access"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is All data accessed from RAM — eliminates I/O bottleneck for analytics."
+  },
+  {
+    "id": "SAP_HAN_100",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is calculation view in HANA?",
+    "options": [
+      "Most flexible view type supporting complex logic, aggregations, projections",
+      "Attribute view",
+      "Analytic view",
+      "Basic view"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Most flexible view type supporting complex logic, aggregations, projections."
+  },
+  {
+    "id": "SAP_HAN_101",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the HANA Live model?",
+    "options": [
+      "Pre-built calculation views exposing SAP application data via HANA",
+      "Custom views",
+      "Basic views",
+      "SQL views"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pre-built calculation views exposing SAP application data via HANA."
+  },
+  {
+    "id": "SAP_HAN_102",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SAP HANA XS (Extended Application Services)?",
+    "options": [
+      "HANA's built-in application server for running apps close to data",
+      "SAP Web AS",
+      "SAP Gateway",
+      "SAP Router"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is HANA's built-in application server for running apps close to data."
+  },
+  {
+    "id": "SAP_HAN_103",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is HANA XSA (Extended Services Advanced)?",
+    "options": [
+      "Modern HANA application server supporting microservices and Cloud Foundry",
+      "Legacy XS",
+      "Basic XS",
+      "HANA Gateway"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Modern HANA application server supporting microservices and Cloud Foundry."
+  },
+  {
+    "id": "SAP_HAN_104",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the HANA SQL console?",
+    "options": [
+      "Tool for executing SQL queries directly against HANA database",
+      "HANA Studio",
+      "HANA Cockpit",
+      "HANA Monitor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tool for executing SQL queries directly against HANA database."
+  },
+  {
+    "id": "SAP_HAN_105",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is HANA performance analysis?",
+    "options": [
+      "Using HANA Studio plan viz to identify expensive query operations",
+      "SAP EarlyWatch",
+      "SAP Solution Manager",
+      "SAP Monitoring"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Using HANA Studio plan viz to identify expensive query operations."
+  },
+  {
+    "id": "SAP_HAN_106",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is delta merge in HANA?",
+    "options": [
+      "Moving data from row-based delta store to column main store",
+      "Data backup",
+      "Data migration",
+      "Data compression"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Moving data from row-based delta store to column main store."
+  },
+  {
+    "id": "SAP_HAN_107",
+    "topic": "SAP Engineer",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is HANA NSE (Native Storage Extension)?",
+    "options": [
+      "Tiering cold data to disk while keeping hot data in memory",
+      "Pure in-memory",
+      "Full disk storage",
+      "Hybrid storage"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tiering cold data to disk while keeping hot data in memory."
+  },
+  {
+    "id": "SAP_BAS_096",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the SAP transport domain?",
+    "options": [
+      "Group of SAP systems managed under one transport configuration",
+      "Single SAP system",
+      "Client landscape",
+      "System group"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Group of SAP systems managed under one transport configuration."
+  },
+  {
+    "id": "SAP_BAS_097",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the CTS (Change and Transport System)?",
+    "options": [
+      "SAP mechanism for moving configuration and development across system landscape",
+      "Change management tool",
+      "Testing system",
+      "Version control"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SAP mechanism for moving configuration and development across system landscape."
+  },
+  {
+    "id": "SAP_BAS_098",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a transport request?",
+    "options": [
+      "Container holding changes to be moved between SAP systems",
+      "System request",
+      "User request",
+      "Change request"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Container holding changes to be moved between SAP systems."
+  },
+  {
+    "id": "SAP_BAS_099",
+    "topic": "SAP Engineer",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of STMS transaction?",
+    "options": [
+      "SAP Transport Management System for managing imports/exports",
+      "System monitoring",
+      "Security management",
       "User management"
     ],
     "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
+    "explanation": "The correct answer is SAP Transport Management System for managing imports/exports."
   },
   {
-    "id": "sap_1294",
+    "id": "SAP_BAS_100",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q294] SE16 is used for",
-    "options": [
-      "Table browser",
-      "Program editor",
-      "None of the above",
-      "Transport"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1295",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q295] Transport request in SAP",
-    "options": [
-      "Cannot be determined",
-      "Stores data",
-      "Moves changes between systems",
-      "Backs up DB"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1296",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q296] SAP Basis team manages",
-    "options": [
-      "Technical infrastructure",
-      "Both A and B",
-      "Finance",
-      "Logistics"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1297",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q297] What is an IDOC?",
-    "options": [
-      "Integration Document",
-      "Intermediate Document",
-      "Internal Document",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1298",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q298] RFC in SAP stands for",
-    "options": [
-      "Cannot be determined",
-      "Rapid Function Call",
-      "Remote Function Call",
-      "Remote File Copy"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1299",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q299] BAPI stands for",
-    "options": [
-      "Basic API",
-      "None of the above",
-      "Business Application Programming Interface",
-      "Business Automated Program Interface"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1300",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q300] What is SAP Fiori?",
-    "options": [
-      "Modern UI for SAP",
-      "Language",
-      "Module",
-      "Database"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1301",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q301] SAP HR module is also called",
-    "options": [
-      "SAP HCM",
-      "SAP MM",
-      "SAP FI",
-      "SAP PP"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1302",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q302] SAP CRM stands for",
-    "options": [
-      "Central Resource Management",
-      "Customer Relationship Management",
-      "Neither A nor B",
-      "Core Resource Module"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1303",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q303] What is a cost center in SAP?",
-    "options": [
-      "Organizational unit for costs",
-      "Revenue unit",
-      "Profit center",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1304",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q304] G/L in SAP FI means",
-    "options": [
-      "General Ledger",
-      "General Line",
-      "Global Ledger",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1305",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q305] SAP PM module handles",
-    "options": [
-      "Data not provided",
-      "Plant Maintenance",
-      "Production Module",
-      "Product Management"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1306",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q306] What is a purchase order in SAP MM?",
-    "options": [
-      "Document to procure goods",
-      "Delivery note",
-      "Sales document",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1307",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q307] Profit center in SAP is",
-    "options": [
-      "Department",
-      "Sub-unit for profitability",
-      "Both A and B",
-      "Cost unit"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1308",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q308] What is SAP BW?",
+    "question": "What is a client copy in SAP?",
     "options": [
-      "Option not applicable",
-      "Basic Workflow",
-      "Business Warehouse/Analytics",
-      "Business Writing"
+      "Copies client configuration and data from source to target client",
+      "System copy",
+      "User copy",
+      "Role copy"
     ],
     "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
+    "explanation": "The correct answer is Copies client configuration and data from source to target client."
   },
   {
-    "id": "sap_1309",
+    "id": "SAP_ABAP_112",
     "topic": "SAP Engineer",
     "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q309] What is a goods receipt?",
-    "options": [
-      "Data not provided",
-      "Invoice",
-      "Recording received materials",
-      "PO"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1310",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q310] LSMW in SAP",
-    "options": [
-      "Both A and B",
-      "Load System Module",
-      "Log System Management",
-      "Legacy System Migration Workbench"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1311",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q311] SAP Solution Manager is used for",
-    "options": [
-      "Neither A nor B",
-      "ALM and support",
-      "Database management",
-      "UI design"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1312",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q312] What is a business partner in SAP?",
-    "options": [
-      "Organizational unit",
-      "Customer/vendor master data",
-      "Module",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1313",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q313] Controlling area in SAP CO",
-    "options": [
-      "HR unit",
-      "Financial unit",
-      "Organizational unit for cost control",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1314",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q314] SAP EWM stands for",
-    "options": [
-      "Enterprise Workflow Module",
-      "Extended Web Module",
-      "Extended Warehouse Management",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1315",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q315] Dunning in SAP FI",
-    "options": [
-      "Automated payment reminders",
-      "Invoice",
-      "The above is incorrect",
-      "Goods receipt"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1316",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q316] SAP TM module handles",
+    "question": "What is the ABAP Test Seam?",
     "options": [
-      "None of the above",
-      "Technical Management",
-      "Transportation Management",
-      "Time Management"
+      "Test hook allowing injection of mock code into production code during testing",
+      "Unit test framework",
+      "Integration test",
+      "Performance test"
     ],
     "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
+    "explanation": "The correct answer is Test hook allowing injection of mock code into production code during testing."
   },
   {
-    "id": "sap_1317",
+    "id": "SAP_ABAP_113",
     "topic": "SAP Engineer",
     "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q317] What is a SAP landscape?",
-    "options": [
-      "Network topology",
-      "Cannot be determined",
-      "System arrangement DEV/QA/PROD",
-      "Database cluster"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1318",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q318] Authorization object in SAP",
-    "options": [
-      "Controls access to functions",
-      "Transports objects",
-      "Stores data",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1319",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q319] SU01 T-code is used for",
+    "question": "What is ABAP Unit?",
     "options": [
-      "Table view",
-      "User management",
-      "None of the above",
-      "ABAP editor"
+      "Built-in unit testing framework for ABAP programs",
+      "Code metrics tool",
+      "Documentation tool",
+      "Performance tool"
     ],
     "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
+    "explanation": "The correct answer is Built-in unit testing framework for ABAP programs."
   },
   {
-    "id": "sap_1320",
+    "id": "SAP_ABAP_114",
     "topic": "SAP Engineer",
     "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q320] What is a work center in SAP PP?",
+    "question": "What is the ABAP Code Inspector?",
     "options": [
-      "Where production operations occur",
-      "Cost center",
-      "The above is incorrect",
-      "Storage location"
+      "Tool checking ABAP code for performance, security, and correctness issues",
+      "Debugger",
+      "Profiler",
+      "Syntax checker"
     ],
     "answer": 0,
-    "explanation": "Work centers define resources for production."
+    "explanation": "The correct answer is Tool checking ABAP code for performance, security, and correctness issues."
   },
   {
-    "id": "sap_1321",
+    "id": "SAP_ABAP_115",
     "topic": "SAP Engineer",
     "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q321] SAP stands for",
+    "question": "What is SAP ABAP Workbench?",
     "options": [
-      "Software Application Platform",
-      "Both B and C",
-      "Systems Automated Products",
-      "Systems Applications Products"
+      "Integrated development environment for ABAP programming in SAP GUI",
+      "Web IDE",
+      "Eclipse IDE",
+      "VS Code plugin"
     ],
     "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
+    "explanation": "The correct answer is Integrated development environment for ABAP programming in SAP GUI."
   },
   {
-    "id": "sap_1322",
+    "id": "SAP_ABAP_116",
     "topic": "SAP Engineer",
     "section": "ABAP Programming",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q322] SAP ERP stands for",
+    "question": "What is transaction SE38?",
     "options": [
-      "Enterprise Resource Planning",
-      "Enterprise Resource Program",
-      "The above is incorrect",
-      "Extended Resource Planning"
+      "ABAP Editor for creating and editing ABAP reports",
+      "Function Module editor",
+      "Class editor",
+      "Data Dictionary"
     ],
     "answer": 0,
-    "explanation": "ERP integrates core business processes."
+    "explanation": "The correct answer is ABAP Editor for creating and editing ABAP reports."
   },
   {
-    "id": "sap_1323",
+    "id": "SAP_HANA_098",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q323] SAP HANA is",
+    "question": "What is SAP HANA Cloud?",
     "options": [
-      "Cloud only",
-      "NoSQL DB",
-      "Relational DB",
-      "In-memory database"
+      "Cloud version of SAP HANA as fully managed database service",
+      "On-premise HANA",
+      "HANA Express",
+      "HANA Studio"
     ],
     "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
+    "explanation": "The correct answer is Cloud version of SAP HANA as fully managed database service."
   },
   {
-    "id": "sap_1324",
+    "id": "SAP_HANA_099",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q324] SAP S/4HANA runs on",
+    "question": "What is the HANA data lake?",
     "options": [
-      "Oracle only",
-      "Any database",
-      "SAP HANA DB only",
-      "MySQL"
+      "Scalable, cost-efficient storage for large volumes of cold data",
+      "Hot data store",
+      "In-memory store",
+      "Archive only"
     ],
     "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
+    "explanation": "The correct answer is Scalable, cost-efficient storage for large volumes of cold data."
   },
   {
-    "id": "sap_1325",
+    "id": "SAP_HANA_100",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q325] ABAP stands for",
+    "question": "What is Graph Engine in SAP HANA?",
     "options": [
-      "Advanced Basic App Programming",
-      "Option not applicable",
-      "Automated Business App Programming",
-      "Advanced Business Application Programming"
+      "Native graph processing for relationship-based data analysis",
+      "Analytics engine",
+      "Text search engine",
+      "Predictive engine"
     ],
     "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
+    "explanation": "The correct answer is Native graph processing for relationship-based data analysis."
   },
   {
-    "id": "sap_1326",
+    "id": "SAP_FI_097",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q326] SAP FI module handles",
+    "question": "What is New GL in SAP?",
     "options": [
-      "Financial Accounting",
-      "Sales",
-      "Logistics",
-      "Production Planning"
+      "Enhanced General Ledger with document splitting, parallel accounting, real-time integration",
+      "Classic GL",
+      "Simple Finance",
+      "S/4HANA Finance"
     ],
     "answer": 0,
-    "explanation": "FI module manages financial accounting."
+    "explanation": "The correct answer is Enhanced General Ledger with document splitting, parallel accounting, real-time integration."
   },
   {
-    "id": "sap_1327",
+    "id": "SAP_FI_098",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q327] SAP CO module handles",
+    "question": "What is document splitting in New GL?",
     "options": [
-      "Controlling",
-      "Procurement",
-      "HR",
-      "Financial Accounting"
+      "Splits line items by profit center or segment for more detailed reporting",
+      "Account splitting",
+      "Currency splitting",
+      "Cost splitting"
     ],
     "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
+    "explanation": "The correct answer is Splits line items by profit center or segment for more detailed reporting."
   },
   {
-    "id": "sap_1328",
+    "id": "SAP_FI_099",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q328] SAP MM module handles",
+    "question": "What is parallel accounting in SAP?",
     "options": [
-      "Manufacturing",
-      "Materials Management",
-      "Maintenance",
-      "Marketing"
+      "Maintain multiple accounting principles (GAAP, IFRS) simultaneously in one system",
+      "Double entry",
+      "Multi-currency",
+      "Multi-company"
     ],
     "answer": 0,
-    "explanation": "MM handles procurement and inventory."
+    "explanation": "The correct answer is Maintain multiple accounting principles (GAAP, IFRS) simultaneously in one system."
   },
   {
-    "id": "sap_1329",
+    "id": "SAP_FI_100",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q329] SAP SD module handles",
+    "question": "What is the leading ledger in SAP?",
     "options": [
-      "Neither A nor B",
-      "Sales and Distribution",
-      "Software Development",
-      "System Design"
+      "Primary accounting ledger driving integrated accounting across modules",
+      "Secondary ledger",
+      "Extension ledger",
+      "Archive ledger"
     ],
     "answer": 0,
-    "explanation": "SD manages order-to-cash process."
+    "explanation": "The correct answer is Primary accounting ledger driving integrated accounting across modules."
   },
   {
-    "id": "sap_1330",
+    "id": "SAP_CO_101",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q330] SAP PP module handles",
+    "question": "What is Product Cost Planning in CO?",
     "options": [
-      "Payroll",
-      "Production Planning",
-      "None of the above",
-      "Procurement"
+      "Calculates standard cost for products based on BOM and routing",
+      "Actual costing",
+      "Period costing",
+      "Order costing"
     ],
     "answer": 0,
-    "explanation": "PP manages manufacturing processes."
+    "explanation": "The correct answer is Calculates standard cost for products based on BOM and routing."
   },
   {
-    "id": "sap_1331",
+    "id": "SAP_CO_102",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q331] What is a SAP Client?",
+    "question": "What is Actual Costing/Material Ledger?",
     "options": [
-      "Organizational unit in SAP",
-      "Server",
-      "Module",
-      "Database"
+      "Calculates actual material costs at period end including price variances",
+      "Standard costing",
+      "Planned costing",
+      "Target costing"
     ],
     "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
+    "explanation": "The correct answer is Calculates actual material costs at period end including price variances."
   },
   {
-    "id": "sap_1332",
+    "id": "SAP_CO_103",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
+    "section": "ERP Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[SAP-Q332] T-code in SAP means",
+    "question": "What is a statistical key figure?",
     "options": [
-      "Transaction code",
-      "Transfer code",
-      "Technical code",
-      "Both A and B"
+      "Quantity-based allocation basis (headcount, area) for cost distribution",
+      "Cost element",
+      "Activity type",
+      "Cost driver"
     ],
     "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
+    "explanation": "The correct answer is Quantity-based allocation basis (headcount, area) for cost distribution."
   },
   {
-    "id": "sap_1333",
+    "id": "SAP_SEC_096",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q333] SE38 is used for",
+    "question": "What is SAP GRC (Governance Risk Compliance)?",
     "options": [
-      "Table display",
-      "User management",
-      "ABAP Editor",
-      "Both B and C"
+      "Suite managing access risk, audit management, and process controls",
+      "Security scanner",
+      "Authorization tool",
+      "Identity management"
     ],
     "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
+    "explanation": "The correct answer is Suite managing access risk, audit management, and process controls."
   },
   {
-    "id": "sap_1334",
+    "id": "SAP_SEC_097",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q334] SE16 is used for",
+    "question": "What is SAP Access Control in GRC?",
     "options": [
-      "Table browser",
-      "Both A and B",
-      "Program editor",
-      "Transport"
+      "Automates user provisioning and SoD conflict detection and remediation",
+      "Network access",
+      "Database access",
+      "File access"
     ],
     "answer": 0,
-    "explanation": "SE16 displays table contents."
+    "explanation": "The correct answer is Automates user provisioning and SoD conflict detection and remediation."
   },
   {
-    "id": "sap_1335",
+    "id": "SAP_SEC_098",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q335] Transport request in SAP",
+    "question": "What is SAP Identity Authentication Service (IAS)?",
     "options": [
-      "Moves changes between systems",
-      "Backs up DB",
-      "Insufficient information",
-      "Stores data"
+      "Cloud identity provider for SSO and user authentication to SAP cloud apps",
+      "On-premise IdP",
+      "LDAP service",
+      "Active Directory"
     ],
     "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
+    "explanation": "The correct answer is Cloud identity provider for SSO and user authentication to SAP cloud apps."
   },
   {
-    "id": "sap_1336",
+    "id": "SAP_SEC_099",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "Practical Modules",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q336] SAP Basis team manages",
+    "question": "What is SAP Cloud Identity Access Governance (IAG)?",
     "options": [
-      "The above is incorrect",
-      "Finance",
-      "Logistics",
-      "Technical infrastructure"
+      "Cloud-based access governance for user access requests and certification",
+      "On-premise IAG",
+      "GRC module",
+      "Access control only"
     ],
     "answer": 0,
-    "explanation": "Basis handles system administration."
+    "explanation": "The correct answer is Cloud-based access governance for user access requests and certification."
   },
   {
-    "id": "sap_1337",
+    "id": "SAP_MM_101",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q337] What is an IDOC?",
+    "question": "What is the material master plant view?",
     "options": [
-      "Internal Document",
-      "None of the above",
-      "Intermediate Document",
-      "Integration Document"
+      "Plant-specific data: MRP settings, storage locations, planning data",
+      "General data",
+      "Sales data",
+      "Accounting data"
     ],
     "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
+    "explanation": "The correct answer is Plant-specific data: MRP settings, storage locations, planning data."
   },
   {
-    "id": "sap_1338",
+    "id": "SAP_MM_102",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q338] RFC in SAP stands for",
+    "question": "What is the source list in MM?",
     "options": [
-      "Remote Function Call",
-      "Rapid Function Call",
-      "Option not applicable",
-      "Remote File Copy"
+      "Approved vendors for a material with validity dates and quantities",
+      "Vendor list",
+      "Price list",
+      "Supply list"
     ],
     "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
+    "explanation": "The correct answer is Approved vendors for a material with validity dates and quantities."
   },
   {
-    "id": "sap_1339",
+    "id": "SAP_SD_101",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q339] BAPI stands for",
+    "question": "What is a delivery block in SAP SD?",
     "options": [
-      "Data not provided",
-      "Business Application Programming Interface",
-      "Basic API",
-      "Business Automated Program Interface"
+      "Prevents delivery creation for sales order (credit check, shortage)",
+      "Payment block",
+      "Invoice block",
+      "Order block"
     ],
     "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
+    "explanation": "The correct answer is Prevents delivery creation for sales order (credit check, shortage)."
   },
   {
-    "id": "sap_1340",
+    "id": "SAP_SD_102",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
+    "section": "ERP Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q340] What is SAP Fiori?",
+    "question": "What is batch management in SD?",
     "options": [
-      "Database",
-      "Module",
-      "Language",
-      "Modern UI for SAP"
+      "Track goods by batch number for traceability (pharma, food)",
+      "Order batching",
+      "Invoice batching",
+      "Delivery batching"
     ],
     "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
+    "explanation": "The correct answer is Track goods by batch number for traceability (pharma, food)."
   },
   {
-    "id": "sap_1341",
+    "id": "SAP_FIO_113",
     "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q341] SAP HR module is also called",
-    "options": [
-      "SAP FI",
-      "SAP MM",
-      "SAP HCM",
-      "SAP PP"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1342",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q342] SAP CRM stands for",
-    "options": [
-      "Insufficient information",
-      "Central Resource Management",
-      "Customer Relationship Management",
-      "Core Resource Module"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1343",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q343] What is a cost center in SAP?",
-    "options": [
-      "Organizational unit for costs",
-      "Neither A nor B",
-      "Profit center",
-      "Revenue unit"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1344",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q344] G/L in SAP FI means",
-    "options": [
-      "General Line",
-      "Insufficient information",
-      "General Ledger",
-      "Global Ledger"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1345",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q345] SAP PM module handles",
-    "options": [
-      "Plant Maintenance",
-      "Product Management",
-      "Production Module",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1346",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q346] What is a purchase order in SAP MM?",
-    "options": [
-      "Neither A nor B",
-      "Sales document",
-      "Document to procure goods",
-      "Delivery note"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1347",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q347] Profit center in SAP is",
-    "options": [
-      "Sub-unit for profitability",
-      "Cost unit",
-      "Department",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1348",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q348] What is SAP BW?",
-    "options": [
-      "None of the above",
-      "Basic Workflow",
-      "Business Writing",
-      "Business Warehouse/Analytics"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1349",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q349] What is a goods receipt?",
-    "options": [
-      "None of the above",
-      "PO",
-      "Invoice",
-      "Recording received materials"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1350",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q350] LSMW in SAP",
-    "options": [
-      "None of the above",
-      "Load System Module",
-      "Log System Management",
-      "Legacy System Migration Workbench"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1351",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q351] SAP Solution Manager is used for",
-    "options": [
-      "Option not applicable",
-      "ALM and support",
-      "Database management",
-      "UI design"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1352",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q352] What is a business partner in SAP?",
-    "options": [
-      "Organizational unit",
-      "Module",
-      "The above is incorrect",
-      "Customer/vendor master data"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1353",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q353] Controlling area in SAP CO",
-    "options": [
-      "Data not provided",
-      "Organizational unit for cost control",
-      "HR unit",
-      "Financial unit"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1354",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q354] SAP EWM stands for",
-    "options": [
-      "Insufficient information",
-      "Enterprise Workflow Module",
-      "Extended Web Module",
-      "Extended Warehouse Management"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1355",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q355] Dunning in SAP FI",
-    "options": [
-      "The above is incorrect",
-      "Invoice",
-      "Goods receipt",
-      "Automated payment reminders"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1356",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q356] SAP TM module handles",
-    "options": [
-      "Time Management",
-      "Transportation Management",
-      "Technical Management",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1357",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q357] What is a SAP landscape?",
-    "options": [
-      "Network topology",
-      "Database cluster",
-      "Cannot be determined",
-      "System arrangement DEV/QA/PROD"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1358",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q358] Authorization object in SAP",
-    "options": [
-      "Controls access to functions",
-      "Transports objects",
-      "Option not applicable",
-      "Stores data"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1359",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q359] SU01 T-code is used for",
-    "options": [
-      "Insufficient information",
-      "Table view",
-      "User management",
-      "ABAP editor"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_1360",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q360] What is a work center in SAP PP?",
-    "options": [
-      "Cannot be determined",
-      "Storage location",
-      "Cost center",
-      "Where production operations occur"
-    ],
-    "answer": 0,
-    "explanation": "Work centers define resources for production."
-  },
-  {
-    "id": "sap_1361",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q361] SAP stands for",
-    "options": [
-      "The above is incorrect",
-      "Systems Automated Products",
-      "Systems Applications Products",
-      "Software Application Platform"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1362",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q362] SAP ERP stands for",
-    "options": [
-      "All of the above",
-      "Extended Resource Planning",
-      "Enterprise Resource Program",
-      "Enterprise Resource Planning"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1363",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q363] SAP HANA is",
-    "options": [
-      "In-memory database",
-      "NoSQL DB",
-      "Relational DB",
-      "Cloud only"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1364",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q364] SAP S/4HANA runs on",
-    "options": [
-      "Oracle only",
-      "Any database",
-      "MySQL",
-      "SAP HANA DB only"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1365",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q365] ABAP stands for",
-    "options": [
-      "Automated Business App Programming",
-      "Advanced Business Application Programming",
-      "Data not provided",
-      "Advanced Basic App Programming"
-    ],
-    "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
-  },
-  {
-    "id": "sap_1366",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q366] SAP FI module handles",
-    "options": [
-      "Logistics",
-      "Production Planning",
-      "Financial Accounting",
-      "Sales"
-    ],
-    "answer": 0,
-    "explanation": "FI module manages financial accounting."
-  },
-  {
-    "id": "sap_1367",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q367] SAP CO module handles",
-    "options": [
-      "Controlling",
-      "Financial Accounting",
-      "Procurement",
-      "HR"
-    ],
-    "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
-  },
-  {
-    "id": "sap_1368",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q368] SAP MM module handles",
-    "options": [
-      "Manufacturing",
-      "Maintenance",
-      "Materials Management",
-      "Marketing"
-    ],
-    "answer": 0,
-    "explanation": "MM handles procurement and inventory."
-  },
-  {
-    "id": "sap_1369",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q369] SAP SD module handles",
-    "options": [
-      "Sales and Distribution",
-      "System Design",
-      "The above is incorrect",
-      "Software Development"
-    ],
-    "answer": 0,
-    "explanation": "SD manages order-to-cash process."
-  },
-  {
-    "id": "sap_1370",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q370] SAP PP module handles",
-    "options": [
-      "Production Planning",
-      "None of the above",
-      "Payroll",
-      "Procurement"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1371",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q371] What is a SAP Client?",
-    "options": [
-      "Database",
-      "Organizational unit in SAP",
-      "Server",
-      "Module"
-    ],
-    "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
-  },
-  {
-    "id": "sap_1372",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q372] T-code in SAP means",
-    "options": [
-      "Transfer code",
-      "Option not applicable",
-      "Transaction code",
-      "Technical code"
-    ],
-    "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
-  },
-  {
-    "id": "sap_1373",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q373] SE38 is used for",
-    "options": [
-      "Both A and B",
-      "Table display",
-      "ABAP Editor",
-      "User management"
-    ],
-    "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
-  },
-  {
-    "id": "sap_1374",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q374] SE16 is used for",
-    "options": [
-      "Program editor",
-      "Insufficient information",
-      "Transport",
-      "Table browser"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1375",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q375] Transport request in SAP",
-    "options": [
-      "Moves changes between systems",
-      "Backs up DB",
-      "Option not applicable",
-      "Stores data"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1376",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q376] SAP Basis team manages",
-    "options": [
-      "Insufficient information",
-      "Logistics",
-      "Finance",
-      "Technical infrastructure"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1377",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q377] What is an IDOC?",
-    "options": [
-      "Intermediate Document",
-      "Integration Document",
-      "Internal Document",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1378",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q378] RFC in SAP stands for",
-    "options": [
-      "Rapid Function Call",
-      "Remote File Copy",
-      "Insufficient information",
-      "Remote Function Call"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1379",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q379] BAPI stands for",
-    "options": [
-      "All of the above",
-      "Business Application Programming Interface",
-      "Basic API",
-      "Business Automated Program Interface"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1380",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q380] What is SAP Fiori?",
-    "options": [
-      "Database",
-      "Modern UI for SAP",
-      "Language",
-      "Module"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1381",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q381] SAP HR module is also called",
-    "options": [
-      "SAP PP",
-      "SAP MM",
-      "SAP FI",
-      "SAP HCM"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1382",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q382] SAP CRM stands for",
-    "options": [
-      "Customer Relationship Management",
-      "Central Resource Management",
-      "Core Resource Module",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1383",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q383] What is a cost center in SAP?",
-    "options": [
-      "Profit center",
-      "Revenue unit",
-      "The above is incorrect",
-      "Organizational unit for costs"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1384",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q384] G/L in SAP FI means",
-    "options": [
-      "General Ledger",
-      "None of the above",
-      "General Line",
-      "Global Ledger"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1385",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q385] SAP PM module handles",
-    "options": [
-      "None of the above",
-      "Product Management",
-      "Production Module",
-      "Plant Maintenance"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1386",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q386] What is a purchase order in SAP MM?",
-    "options": [
-      "Option not applicable",
-      "Sales document",
-      "Delivery note",
-      "Document to procure goods"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1387",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q387] Profit center in SAP is",
-    "options": [
-      "Sub-unit for profitability",
-      "Cost unit",
-      "Option not applicable",
-      "Department"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1388",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q388] What is SAP BW?",
-    "options": [
-      "Business Writing",
-      "Business Warehouse/Analytics",
-      "Neither A nor B",
-      "Basic Workflow"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1389",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q389] What is a goods receipt?",
-    "options": [
-      "Invoice",
-      "Insufficient information",
-      "Recording received materials",
-      "PO"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1390",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q390] LSMW in SAP",
-    "options": [
-      "Log System Management",
-      "Data not provided",
-      "Load System Module",
-      "Legacy System Migration Workbench"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1391",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q391] SAP Solution Manager is used for",
-    "options": [
-      "Both B and C",
-      "Database management",
-      "UI design",
-      "ALM and support"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1392",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q392] What is a business partner in SAP?",
-    "options": [
-      "Module",
-      "Organizational unit",
-      "Data not provided",
-      "Customer/vendor master data"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1393",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q393] Controlling area in SAP CO",
-    "options": [
-      "HR unit",
-      "Insufficient information",
-      "Organizational unit for cost control",
-      "Financial unit"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1394",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q394] SAP EWM stands for",
-    "options": [
-      "Extended Warehouse Management",
-      "Enterprise Workflow Module",
-      "The above is incorrect",
-      "Extended Web Module"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1395",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q395] Dunning in SAP FI",
-    "options": [
-      "Goods receipt",
-      "Automated payment reminders",
-      "Both A and B",
-      "Invoice"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1396",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q396] SAP TM module handles",
-    "options": [
-      "Technical Management",
-      "Both B and C",
-      "Transportation Management",
-      "Time Management"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1397",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q397] What is a SAP landscape?",
-    "options": [
-      "Insufficient information",
-      "Network topology",
-      "System arrangement DEV/QA/PROD",
-      "Database cluster"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1398",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q398] Authorization object in SAP",
-    "options": [
-      "Controls access to functions",
-      "Transports objects",
-      "Stores data",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1399",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q399] SU01 T-code is used for",
-    "options": [
-      "Table view",
-      "ABAP editor",
-      "User management",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_1400",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q400] What is a work center in SAP PP?",
-    "options": [
-      "Storage location",
-      "Neither A nor B",
-      "Where production operations occur",
-      "Cost center"
-    ],
-    "answer": 0,
-    "explanation": "Work centers define resources for production."
-  },
-  {
-    "id": "sap_1401",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q401] SAP stands for",
-    "options": [
-      "Systems Applications Products",
-      "Software Application Platform",
-      "Cannot be determined",
-      "Systems Automated Products"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1402",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q402] SAP ERP stands for",
-    "options": [
-      "Enterprise Resource Program",
-      "Enterprise Resource Planning",
-      "Option not applicable",
-      "Extended Resource Planning"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1403",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q403] SAP HANA is",
-    "options": [
-      "In-memory database",
-      "Cloud only",
-      "Relational DB",
-      "NoSQL DB"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1404",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q404] SAP S/4HANA runs on",
-    "options": [
-      "Oracle only",
-      "SAP HANA DB only",
-      "Any database",
-      "MySQL"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1405",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q405] ABAP stands for",
-    "options": [
-      "Automated Business App Programming",
-      "Neither A nor B",
-      "Advanced Business Application Programming",
-      "Advanced Basic App Programming"
-    ],
-    "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
-  },
-  {
-    "id": "sap_1406",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q406] SAP FI module handles",
-    "options": [
-      "Logistics",
-      "Financial Accounting",
-      "Production Planning",
-      "Sales"
-    ],
-    "answer": 0,
-    "explanation": "FI module manages financial accounting."
-  },
-  {
-    "id": "sap_1407",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q407] SAP CO module handles",
-    "options": [
-      "HR",
-      "Controlling",
-      "Financial Accounting",
-      "Procurement"
-    ],
-    "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
-  },
-  {
-    "id": "sap_1408",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q408] SAP MM module handles",
-    "options": [
-      "Manufacturing",
-      "Materials Management",
-      "Marketing",
-      "Maintenance"
-    ],
-    "answer": 0,
-    "explanation": "MM handles procurement and inventory."
-  },
-  {
-    "id": "sap_1409",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q409] SAP SD module handles",
-    "options": [
-      "Software Development",
-      "All of the above",
-      "Sales and Distribution",
-      "System Design"
-    ],
-    "answer": 0,
-    "explanation": "SD manages order-to-cash process."
-  },
-  {
-    "id": "sap_1410",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q410] SAP PP module handles",
-    "options": [
-      "Procurement",
-      "Production Planning",
-      "Payroll",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1411",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q411] What is a SAP Client?",
-    "options": [
-      "Module",
-      "Server",
-      "Organizational unit in SAP",
-      "Database"
-    ],
-    "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
-  },
-  {
-    "id": "sap_1412",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q412] T-code in SAP means",
-    "options": [
-      "Transfer code",
-      "Neither A nor B",
-      "Transaction code",
-      "Technical code"
-    ],
-    "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
-  },
-  {
-    "id": "sap_1413",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q413] SE38 is used for",
-    "options": [
-      "Table display",
-      "ABAP Editor",
-      "Both B and C",
-      "User management"
-    ],
-    "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
-  },
-  {
-    "id": "sap_1414",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q414] SE16 is used for",
-    "options": [
-      "The above is incorrect",
-      "Transport",
-      "Table browser",
-      "Program editor"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1415",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q415] Transport request in SAP",
-    "options": [
-      "Moves changes between systems",
-      "Backs up DB",
-      "Stores data",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1416",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q416] SAP Basis team manages",
-    "options": [
-      "Technical infrastructure",
-      "Finance",
-      "Option not applicable",
-      "Logistics"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1417",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q417] What is an IDOC?",
-    "options": [
-      "Internal Document",
-      "Both B and C",
-      "Integration Document",
-      "Intermediate Document"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1418",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q418] RFC in SAP stands for",
-    "options": [
-      "Rapid Function Call",
-      "Remote File Copy",
-      "Remote Function Call",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1419",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q419] BAPI stands for",
-    "options": [
-      "Business Automated Program Interface",
-      "Business Application Programming Interface",
-      "Basic API",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1420",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q420] What is SAP Fiori?",
-    "options": [
-      "Language",
-      "Module",
-      "Modern UI for SAP",
-      "Database"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1421",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q421] SAP HR module is also called",
-    "options": [
-      "SAP FI",
-      "SAP HCM",
-      "SAP MM",
-      "SAP PP"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1422",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q422] SAP CRM stands for",
-    "options": [
-      "Core Resource Module",
-      "Data not provided",
-      "Customer Relationship Management",
-      "Central Resource Management"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1423",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q423] What is a cost center in SAP?",
-    "options": [
-      "Revenue unit",
-      "The above is incorrect",
-      "Organizational unit for costs",
-      "Profit center"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1424",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q424] G/L in SAP FI means",
-    "options": [
-      "All of the above",
-      "General Ledger",
-      "General Line",
-      "Global Ledger"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1425",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q425] SAP PM module handles",
-    "options": [
-      "Production Module",
-      "The above is incorrect",
-      "Plant Maintenance",
-      "Product Management"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1426",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q426] What is a purchase order in SAP MM?",
-    "options": [
-      "Sales document",
-      "Both B and C",
-      "Delivery note",
-      "Document to procure goods"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1427",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q427] Profit center in SAP is",
-    "options": [
-      "Neither A nor B",
-      "Cost unit",
-      "Department",
-      "Sub-unit for profitability"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1428",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q428] What is SAP BW?",
-    "options": [
-      "Business Writing",
-      "Basic Workflow",
-      "Both A and B",
-      "Business Warehouse/Analytics"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1429",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q429] What is a goods receipt?",
-    "options": [
-      "Invoice",
-      "All of the above",
-      "Recording received materials",
-      "PO"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1430",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q430] LSMW in SAP",
-    "options": [
-      "Load System Module",
-      "Log System Management",
-      "Legacy System Migration Workbench",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1431",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q431] SAP Solution Manager is used for",
-    "options": [
-      "UI design",
-      "ALM and support",
-      "Data not provided",
-      "Database management"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1432",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q432] What is a business partner in SAP?",
-    "options": [
-      "Customer/vendor master data",
-      "Option not applicable",
-      "Module",
-      "Organizational unit"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1433",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q433] Controlling area in SAP CO",
-    "options": [
-      "Financial unit",
-      "HR unit",
-      "The above is incorrect",
-      "Organizational unit for cost control"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1434",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q434] SAP EWM stands for",
-    "options": [
-      "Enterprise Workflow Module",
-      "Neither A nor B",
-      "Extended Warehouse Management",
-      "Extended Web Module"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1435",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q435] Dunning in SAP FI",
-    "options": [
-      "Invoice",
-      "Automated payment reminders",
-      "Goods receipt",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1436",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q436] SAP TM module handles",
-    "options": [
-      "Time Management",
-      "Technical Management",
-      "All of the above",
-      "Transportation Management"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1437",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q437] What is a SAP landscape?",
-    "options": [
-      "Database cluster",
-      "Network topology",
-      "All of the above",
-      "System arrangement DEV/QA/PROD"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1438",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q438] Authorization object in SAP",
-    "options": [
-      "Controls access to functions",
-      "Stores data",
-      "None of the above",
-      "Transports objects"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1439",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q439] SU01 T-code is used for",
-    "options": [
-      "Table view",
-      "User management",
-      "Data not provided",
-      "ABAP editor"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_1440",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q440] What is a work center in SAP PP?",
-    "options": [
-      "Where production operations occur",
-      "Storage location",
-      "The above is incorrect",
-      "Cost center"
-    ],
-    "answer": 0,
-    "explanation": "Work centers define resources for production."
-  },
-  {
-    "id": "sap_1441",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q441] SAP stands for",
-    "options": [
-      "Software Application Platform",
-      "Systems Applications Products",
-      "Both A and B",
-      "Systems Automated Products"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1442",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q442] SAP ERP stands for",
-    "options": [
-      "Enterprise Resource Planning",
-      "Both A and B",
-      "Extended Resource Planning",
-      "Enterprise Resource Program"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1443",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q443] SAP HANA is",
-    "options": [
-      "NoSQL DB",
-      "Cloud only",
-      "Relational DB",
-      "In-memory database"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1444",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q444] SAP S/4HANA runs on",
-    "options": [
-      "Any database",
-      "SAP HANA DB only",
-      "MySQL",
-      "Oracle only"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1445",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q445] ABAP stands for",
-    "options": [
-      "Advanced Business Application Programming",
-      "Both A and B",
-      "Advanced Basic App Programming",
-      "Automated Business App Programming"
-    ],
-    "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
-  },
-  {
-    "id": "sap_1446",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q446] SAP FI module handles",
-    "options": [
-      "Production Planning",
-      "Sales",
-      "Financial Accounting",
-      "Logistics"
-    ],
-    "answer": 0,
-    "explanation": "FI module manages financial accounting."
-  },
-  {
-    "id": "sap_1447",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q447] SAP CO module handles",
-    "options": [
-      "Procurement",
-      "HR",
-      "Financial Accounting",
-      "Controlling"
-    ],
-    "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
-  },
-  {
-    "id": "sap_1448",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q448] SAP MM module handles",
-    "options": [
-      "Maintenance",
-      "Manufacturing",
-      "Materials Management",
-      "Marketing"
-    ],
-    "answer": 0,
-    "explanation": "MM handles procurement and inventory."
-  },
-  {
-    "id": "sap_1449",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q449] SAP SD module handles",
-    "options": [
-      "Data not provided",
-      "Software Development",
-      "System Design",
-      "Sales and Distribution"
-    ],
-    "answer": 0,
-    "explanation": "SD manages order-to-cash process."
-  },
-  {
-    "id": "sap_1450",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q450] SAP PP module handles",
-    "options": [
-      "Payroll",
-      "Production Planning",
-      "Procurement",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1451",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q451] What is a SAP Client?",
-    "options": [
-      "Organizational unit in SAP",
-      "Server",
-      "Module",
-      "Database"
-    ],
-    "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
-  },
-  {
-    "id": "sap_1452",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q452] T-code in SAP means",
-    "options": [
-      "Technical code",
-      "Transaction code",
-      "Transfer code",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
-  },
-  {
-    "id": "sap_1453",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q453] SE38 is used for",
-    "options": [
-      "None of the above",
-      "ABAP Editor",
-      "User management",
-      "Table display"
-    ],
-    "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
-  },
-  {
-    "id": "sap_1454",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q454] SE16 is used for",
-    "options": [
-      "Program editor",
-      "Transport",
-      "Insufficient information",
-      "Table browser"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1455",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q455] Transport request in SAP",
-    "options": [
-      "Neither A nor B",
-      "Backs up DB",
-      "Moves changes between systems",
-      "Stores data"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1456",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q456] SAP Basis team manages",
-    "options": [
-      "Technical infrastructure",
-      "Both B and C",
-      "Finance",
-      "Logistics"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1457",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q457] What is an IDOC?",
-    "options": [
-      "Internal Document",
-      "Integration Document",
-      "Cannot be determined",
-      "Intermediate Document"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1458",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q458] RFC in SAP stands for",
-    "options": [
-      "Rapid Function Call",
-      "Both A and B",
-      "Remote File Copy",
-      "Remote Function Call"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1459",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q459] BAPI stands for",
-    "options": [
-      "Basic API",
-      "Both A and B",
-      "Business Application Programming Interface",
-      "Business Automated Program Interface"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1460",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q460] What is SAP Fiori?",
-    "options": [
-      "Module",
-      "Language",
-      "Modern UI for SAP",
-      "Database"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1461",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q461] SAP HR module is also called",
-    "options": [
-      "SAP MM",
-      "SAP PP",
-      "SAP FI",
-      "SAP HCM"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1462",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q462] SAP CRM stands for",
-    "options": [
-      "Customer Relationship Management",
-      "The above is incorrect",
-      "Central Resource Management",
-      "Core Resource Module"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1463",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q463] What is a cost center in SAP?",
-    "options": [
-      "Option not applicable",
-      "Profit center",
-      "Revenue unit",
-      "Organizational unit for costs"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1464",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q464] G/L in SAP FI means",
-    "options": [
-      "Global Ledger",
-      "Option not applicable",
-      "General Line",
-      "General Ledger"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1465",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q465] SAP PM module handles",
-    "options": [
-      "Production Module",
-      "Product Management",
-      "None of the above",
-      "Plant Maintenance"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1466",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q466] What is a purchase order in SAP MM?",
-    "options": [
-      "Document to procure goods",
-      "Both B and C",
-      "Sales document",
-      "Delivery note"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1467",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q467] Profit center in SAP is",
-    "options": [
-      "Option not applicable",
-      "Cost unit",
-      "Sub-unit for profitability",
-      "Department"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1468",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q468] What is SAP BW?",
-    "options": [
-      "Business Warehouse/Analytics",
-      "Basic Workflow",
-      "Business Writing",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1469",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q469] What is a goods receipt?",
-    "options": [
-      "Neither A nor B",
-      "Invoice",
-      "PO",
-      "Recording received materials"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1470",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q470] LSMW in SAP",
-    "options": [
-      "None of the above",
-      "Legacy System Migration Workbench",
-      "Load System Module",
-      "Log System Management"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1471",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q471] SAP Solution Manager is used for",
-    "options": [
-      "Database management",
-      "UI design",
-      "ALM and support",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1472",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q472] What is a business partner in SAP?",
-    "options": [
-      "Customer/vendor master data",
-      "Module",
-      "Organizational unit",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1473",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q473] Controlling area in SAP CO",
-    "options": [
-      "Financial unit",
-      "Organizational unit for cost control",
-      "None of the above",
-      "HR unit"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1474",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q474] SAP EWM stands for",
-    "options": [
-      "Extended Warehouse Management",
-      "Enterprise Workflow Module",
-      "Data not provided",
-      "Extended Web Module"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1475",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q475] Dunning in SAP FI",
-    "options": [
-      "Invoice",
-      "Both A and B",
-      "Goods receipt",
-      "Automated payment reminders"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1476",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q476] SAP TM module handles",
-    "options": [
-      "Time Management",
-      "Transportation Management",
-      "The above is incorrect",
-      "Technical Management"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1477",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q477] What is a SAP landscape?",
-    "options": [
-      "System arrangement DEV/QA/PROD",
-      "Both A and B",
-      "Network topology",
-      "Database cluster"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1478",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q478] Authorization object in SAP",
-    "options": [
-      "None of the above",
-      "Controls access to functions",
-      "Transports objects",
-      "Stores data"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1479",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q479] SU01 T-code is used for",
-    "options": [
-      "Insufficient information",
-      "User management",
-      "ABAP editor",
-      "Table view"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_1480",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q480] What is a work center in SAP PP?",
-    "options": [
-      "Cannot be determined",
-      "Storage location",
-      "Cost center",
-      "Where production operations occur"
-    ],
-    "answer": 0,
-    "explanation": "Work centers define resources for production."
-  },
-  {
-    "id": "sap_1481",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q481] SAP stands for",
-    "options": [
-      "Systems Applications Products",
-      "Software Application Platform",
-      "Systems Automated Products",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1482",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q482] SAP ERP stands for",
-    "options": [
-      "Extended Resource Planning",
-      "All of the above",
-      "Enterprise Resource Planning",
-      "Enterprise Resource Program"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1483",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q483] SAP HANA is",
-    "options": [
-      "NoSQL DB",
-      "Cloud only",
-      "In-memory database",
-      "Relational DB"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1484",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q484] SAP S/4HANA runs on",
-    "options": [
-      "Any database",
-      "Oracle only",
-      "MySQL",
-      "SAP HANA DB only"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1485",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q485] ABAP stands for",
-    "options": [
-      "Both B and C",
-      "Advanced Basic App Programming",
-      "Advanced Business Application Programming",
-      "Automated Business App Programming"
-    ],
-    "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
-  },
-  {
-    "id": "sap_1486",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q486] SAP FI module handles",
-    "options": [
-      "Logistics",
-      "Financial Accounting",
-      "Production Planning",
-      "Sales"
-    ],
-    "answer": 0,
-    "explanation": "FI module manages financial accounting."
-  },
-  {
-    "id": "sap_1487",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q487] SAP CO module handles",
-    "options": [
-      "Financial Accounting",
-      "Procurement",
-      "HR",
-      "Controlling"
-    ],
-    "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
-  },
-  {
-    "id": "sap_1488",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q488] SAP MM module handles",
-    "options": [
-      "Manufacturing",
-      "Maintenance",
-      "Materials Management",
-      "Marketing"
-    ],
-    "answer": 0,
-    "explanation": "MM handles procurement and inventory."
-  },
-  {
-    "id": "sap_1489",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q489] SAP SD module handles",
-    "options": [
-      "The above is incorrect",
-      "Software Development",
-      "System Design",
-      "Sales and Distribution"
-    ],
-    "answer": 0,
-    "explanation": "SD manages order-to-cash process."
-  },
-  {
-    "id": "sap_1490",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q490] SAP PP module handles",
-    "options": [
-      "Production Planning",
-      "Procurement",
-      "Option not applicable",
-      "Payroll"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1491",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q491] What is a SAP Client?",
-    "options": [
-      "Organizational unit in SAP",
-      "Server",
-      "Module",
-      "Database"
-    ],
-    "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
-  },
-  {
-    "id": "sap_1492",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q492] T-code in SAP means",
-    "options": [
-      "Technical code",
-      "Transaction code",
-      "Transfer code",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
-  },
-  {
-    "id": "sap_1493",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q493] SE38 is used for",
-    "options": [
-      "None of the above",
-      "Table display",
-      "User management",
-      "ABAP Editor"
-    ],
-    "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
-  },
-  {
-    "id": "sap_1494",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q494] SE16 is used for",
-    "options": [
-      "Table browser",
-      "Program editor",
-      "Insufficient information",
-      "Transport"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1495",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q495] Transport request in SAP",
-    "options": [
-      "Stores data",
-      "Backs up DB",
-      "Moves changes between systems",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1496",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q496] SAP Basis team manages",
-    "options": [
-      "Finance",
-      "None of the above",
-      "Technical infrastructure",
-      "Logistics"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1497",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q497] What is an IDOC?",
-    "options": [
-      "Intermediate Document",
-      "Integration Document",
-      "The above is incorrect",
-      "Internal Document"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1498",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q498] RFC in SAP stands for",
-    "options": [
-      "Remote Function Call",
-      "Remote File Copy",
-      "Rapid Function Call",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1499",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q499] BAPI stands for",
-    "options": [
-      "Business Application Programming Interface",
-      "Basic API",
-      "Business Automated Program Interface",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1500",
-    "topic": "SAP Engineer",
-    "section": "ABAP Programming",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q500] What is SAP Fiori?",
-    "options": [
-      "Database",
-      "Module",
-      "Language",
-      "Modern UI for SAP"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1501",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q501] SAP HR module is also called",
-    "options": [
-      "SAP FI",
-      "SAP HCM",
-      "SAP MM",
-      "SAP PP"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1502",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q502] SAP CRM stands for",
-    "options": [
-      "Customer Relationship Management",
-      "Cannot be determined",
-      "Central Resource Management",
-      "Core Resource Module"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1503",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q503] What is a cost center in SAP?",
-    "options": [
-      "Organizational unit for costs",
-      "Both A and B",
-      "Revenue unit",
-      "Profit center"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1504",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q504] G/L in SAP FI means",
-    "options": [
-      "Global Ledger",
-      "None of the above",
-      "General Line",
-      "General Ledger"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1505",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q505] SAP PM module handles",
-    "options": [
-      "Product Management",
-      "Production Module",
-      "Plant Maintenance",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1506",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q506] What is a purchase order in SAP MM?",
-    "options": [
-      "Document to procure goods",
-      "Sales document",
-      "Delivery note",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1507",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q507] Profit center in SAP is",
-    "options": [
-      "Department",
-      "Sub-unit for profitability",
-      "Both A and B",
-      "Cost unit"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1508",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q508] What is SAP BW?",
-    "options": [
-      "Business Warehouse/Analytics",
-      "All of the above",
-      "Business Writing",
-      "Basic Workflow"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1509",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q509] What is a goods receipt?",
-    "options": [
-      "PO",
-      "Recording received materials",
-      "None of the above",
-      "Invoice"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1510",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q510] LSMW in SAP",
-    "options": [
-      "Log System Management",
-      "Both B and C",
-      "Legacy System Migration Workbench",
-      "Load System Module"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1511",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q511] SAP Solution Manager is used for",
-    "options": [
-      "Cannot be determined",
-      "ALM and support",
-      "Database management",
-      "UI design"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1512",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q512] What is a business partner in SAP?",
-    "options": [
-      "Module",
-      "Customer/vendor master data",
-      "Organizational unit",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1513",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q513] Controlling area in SAP CO",
-    "options": [
-      "Both A and B",
-      "Organizational unit for cost control",
-      "HR unit",
-      "Financial unit"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1514",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q514] SAP EWM stands for",
-    "options": [
-      "Extended Web Module",
-      "Insufficient information",
-      "Extended Warehouse Management",
-      "Enterprise Workflow Module"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1515",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q515] Dunning in SAP FI",
-    "options": [
-      "Goods receipt",
-      "The above is incorrect",
-      "Automated payment reminders",
-      "Invoice"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1516",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q516] SAP TM module handles",
-    "options": [
-      "Time Management",
-      "Technical Management",
-      "Transportation Management",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1517",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q517] What is a SAP landscape?",
-    "options": [
-      "Database cluster",
-      "System arrangement DEV/QA/PROD",
-      "Network topology",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1518",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q518] Authorization object in SAP",
-    "options": [
-      "Transports objects",
-      "Controls access to functions",
-      "Stores data",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1519",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q519] SU01 T-code is used for",
-    "options": [
-      "ABAP editor",
-      "User management",
-      "All of the above",
-      "Table view"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_1520",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q520] What is a work center in SAP PP?",
-    "options": [
-      "Storage location",
-      "Neither A nor B",
-      "Cost center",
-      "Where production operations occur"
-    ],
-    "answer": 0,
-    "explanation": "Work centers define resources for production."
-  },
-  {
-    "id": "sap_1521",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q521] SAP stands for",
-    "options": [
-      "All of the above",
-      "Systems Automated Products",
-      "Systems Applications Products",
-      "Software Application Platform"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1522",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q522] SAP ERP stands for",
-    "options": [
-      "Enterprise Resource Planning",
-      "Extended Resource Planning",
-      "Both A and B",
-      "Enterprise Resource Program"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1523",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q523] SAP HANA is",
-    "options": [
-      "Relational DB",
-      "Cloud only",
-      "NoSQL DB",
-      "In-memory database"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1524",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q524] SAP S/4HANA runs on",
-    "options": [
-      "MySQL",
-      "Oracle only",
-      "Any database",
-      "SAP HANA DB only"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1525",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q525] ABAP stands for",
-    "options": [
-      "The above is incorrect",
-      "Advanced Basic App Programming",
-      "Advanced Business Application Programming",
-      "Automated Business App Programming"
-    ],
-    "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
-  },
-  {
-    "id": "sap_1526",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q526] SAP FI module handles",
-    "options": [
-      "Logistics",
-      "Production Planning",
-      "Financial Accounting",
-      "Sales"
-    ],
-    "answer": 0,
-    "explanation": "FI module manages financial accounting."
-  },
-  {
-    "id": "sap_1527",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q527] SAP CO module handles",
-    "options": [
-      "HR",
-      "Procurement",
-      "Financial Accounting",
-      "Controlling"
-    ],
-    "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
-  },
-  {
-    "id": "sap_1528",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q528] SAP MM module handles",
-    "options": [
-      "Marketing",
-      "Maintenance",
-      "Materials Management",
-      "Manufacturing"
-    ],
-    "answer": 0,
-    "explanation": "MM handles procurement and inventory."
-  },
-  {
-    "id": "sap_1529",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q529] SAP SD module handles",
-    "options": [
-      "System Design",
-      "Sales and Distribution",
-      "Both A and B",
-      "Software Development"
-    ],
-    "answer": 0,
-    "explanation": "SD manages order-to-cash process."
-  },
-  {
-    "id": "sap_1530",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q530] SAP PP module handles",
-    "options": [
-      "Production Planning",
-      "The above is incorrect",
-      "Payroll",
-      "Procurement"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1531",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q531] What is a SAP Client?",
-    "options": [
-      "Server",
-      "Organizational unit in SAP",
-      "Module",
-      "Database"
-    ],
-    "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
-  },
-  {
-    "id": "sap_1532",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q532] T-code in SAP means",
-    "options": [
-      "Both A and B",
-      "Transfer code",
-      "Transaction code",
-      "Technical code"
-    ],
-    "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
-  },
-  {
-    "id": "sap_1533",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q533] SE38 is used for",
-    "options": [
-      "Cannot be determined",
-      "User management",
-      "Table display",
-      "ABAP Editor"
-    ],
-    "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
-  },
-  {
-    "id": "sap_1534",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q534] SE16 is used for",
-    "options": [
-      "Transport",
-      "Program editor",
-      "Both A and B",
-      "Table browser"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1535",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q535] Transport request in SAP",
-    "options": [
-      "Backs up DB",
-      "Moves changes between systems",
-      "Stores data",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1536",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q536] SAP Basis team manages",
-    "options": [
-      "Technical infrastructure",
-      "Logistics",
-      "Data not provided",
-      "Finance"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1537",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q537] What is an IDOC?",
-    "options": [
-      "Both B and C",
-      "Integration Document",
-      "Intermediate Document",
-      "Internal Document"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1538",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q538] RFC in SAP stands for",
-    "options": [
-      "All of the above",
-      "Remote File Copy",
-      "Rapid Function Call",
-      "Remote Function Call"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1539",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q539] BAPI stands for",
-    "options": [
-      "Basic API",
-      "Business Automated Program Interface",
-      "None of the above",
-      "Business Application Programming Interface"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1540",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q540] What is SAP Fiori?",
-    "options": [
-      "Language",
-      "Modern UI for SAP",
-      "Database",
-      "Module"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1541",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q541] SAP HR module is also called",
-    "options": [
-      "SAP FI",
-      "SAP HCM",
-      "SAP MM",
-      "SAP PP"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1542",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q542] SAP CRM stands for",
-    "options": [
-      "Central Resource Management",
-      "Core Resource Module",
-      "Customer Relationship Management",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1543",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q543] What is a cost center in SAP?",
-    "options": [
-      "Organizational unit for costs",
-      "Profit center",
-      "The above is incorrect",
-      "Revenue unit"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1544",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q544] G/L in SAP FI means",
-    "options": [
-      "General Ledger",
-      "Global Ledger",
-      "Cannot be determined",
-      "General Line"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1545",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q545] SAP PM module handles",
-    "options": [
-      "Both B and C",
-      "Product Management",
-      "Production Module",
-      "Plant Maintenance"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1546",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q546] What is a purchase order in SAP MM?",
-    "options": [
-      "Sales document",
-      "Delivery note",
-      "Document to procure goods",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1547",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q547] Profit center in SAP is",
-    "options": [
-      "Sub-unit for profitability",
-      "Department",
-      "Cost unit",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1548",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q548] What is SAP BW?",
-    "options": [
-      "Business Writing",
-      "Business Warehouse/Analytics",
-      "Basic Workflow",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1549",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q549] What is a goods receipt?",
-    "options": [
-      "Invoice",
-      "PO",
-      "Cannot be determined",
-      "Recording received materials"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1550",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q550] LSMW in SAP",
-    "options": [
-      "Load System Module",
-      "Insufficient information",
-      "Legacy System Migration Workbench",
-      "Log System Management"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1551",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q551] SAP Solution Manager is used for",
-    "options": [
-      "The above is incorrect",
-      "UI design",
-      "ALM and support",
-      "Database management"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1552",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q552] What is a business partner in SAP?",
-    "options": [
-      "Module",
-      "Customer/vendor master data",
-      "Organizational unit",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1553",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q553] Controlling area in SAP CO",
-    "options": [
-      "HR unit",
-      "Financial unit",
-      "Organizational unit for cost control",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1554",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q554] SAP EWM stands for",
-    "options": [
-      "Data not provided",
-      "Extended Web Module",
-      "Enterprise Workflow Module",
-      "Extended Warehouse Management"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1555",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q555] Dunning in SAP FI",
-    "options": [
-      "Insufficient information",
-      "Invoice",
-      "Automated payment reminders",
-      "Goods receipt"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1556",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q556] SAP TM module handles",
-    "options": [
-      "Time Management",
-      "Transportation Management",
-      "Technical Management",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1557",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q557] What is a SAP landscape?",
-    "options": [
-      "Cannot be determined",
-      "Database cluster",
-      "Network topology",
-      "System arrangement DEV/QA/PROD"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1558",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q558] Authorization object in SAP",
-    "options": [
-      "Transports objects",
-      "Controls access to functions",
-      "Insufficient information",
-      "Stores data"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1559",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q559] SU01 T-code is used for",
-    "options": [
-      "ABAP editor",
-      "Table view",
-      "Cannot be determined",
-      "User management"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_1560",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q560] What is a work center in SAP PP?",
-    "options": [
-      "Storage location",
-      "Neither A nor B",
-      "Cost center",
-      "Where production operations occur"
-    ],
-    "answer": 0,
-    "explanation": "Work centers define resources for production."
-  },
-  {
-    "id": "sap_1561",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q561] SAP stands for",
-    "options": [
-      "Systems Automated Products",
-      "Systems Applications Products",
-      "Software Application Platform",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1562",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q562] SAP ERP stands for",
-    "options": [
-      "Enterprise Resource Program",
-      "Enterprise Resource Planning",
-      "All of the above",
-      "Extended Resource Planning"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1563",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q563] SAP HANA is",
-    "options": [
-      "Relational DB",
-      "Cloud only",
-      "NoSQL DB",
-      "In-memory database"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1564",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q564] SAP S/4HANA runs on",
-    "options": [
-      "Oracle only",
-      "MySQL",
-      "Any database",
-      "SAP HANA DB only"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1565",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q565] ABAP stands for",
-    "options": [
-      "Advanced Basic App Programming",
-      "Advanced Business Application Programming",
-      "Neither A nor B",
-      "Automated Business App Programming"
-    ],
-    "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
-  },
-  {
-    "id": "sap_1566",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q566] SAP FI module handles",
-    "options": [
-      "Production Planning",
-      "Logistics",
-      "Financial Accounting",
-      "Sales"
-    ],
-    "answer": 0,
-    "explanation": "FI module manages financial accounting."
-  },
-  {
-    "id": "sap_1567",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q567] SAP CO module handles",
-    "options": [
-      "Controlling",
-      "HR",
-      "Procurement",
-      "Financial Accounting"
-    ],
-    "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
-  },
-  {
-    "id": "sap_1568",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q568] SAP MM module handles",
-    "options": [
-      "Maintenance",
-      "Marketing",
-      "Manufacturing",
-      "Materials Management"
-    ],
-    "answer": 0,
-    "explanation": "MM handles procurement and inventory."
-  },
-  {
-    "id": "sap_1569",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q569] SAP SD module handles",
-    "options": [
-      "System Design",
-      "Sales and Distribution",
-      "Software Development",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "SD manages order-to-cash process."
-  },
-  {
-    "id": "sap_1570",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q570] SAP PP module handles",
-    "options": [
-      "Payroll",
-      "Production Planning",
-      "Data not provided",
-      "Procurement"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1571",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q571] What is a SAP Client?",
-    "options": [
-      "Server",
-      "Database",
-      "Organizational unit in SAP",
-      "Module"
-    ],
-    "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
-  },
-  {
-    "id": "sap_1572",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q572] T-code in SAP means",
-    "options": [
-      "Transaction code",
-      "Transfer code",
-      "Technical code",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
-  },
-  {
-    "id": "sap_1573",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q573] SE38 is used for",
-    "options": [
-      "Both B and C",
-      "User management",
-      "Table display",
-      "ABAP Editor"
-    ],
-    "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
-  },
-  {
-    "id": "sap_1574",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q574] SE16 is used for",
-    "options": [
-      "All of the above",
-      "Table browser",
-      "Program editor",
-      "Transport"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1575",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q575] Transport request in SAP",
-    "options": [
-      "Stores data",
-      "Backs up DB",
-      "Moves changes between systems",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1576",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q576] SAP Basis team manages",
-    "options": [
-      "Finance",
-      "Technical infrastructure",
-      "Cannot be determined",
-      "Logistics"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1577",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q577] What is an IDOC?",
-    "options": [
-      "Internal Document",
-      "Both B and C",
-      "Integration Document",
-      "Intermediate Document"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1578",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q578] RFC in SAP stands for",
-    "options": [
-      "Neither A nor B",
-      "Remote Function Call",
-      "Rapid Function Call",
-      "Remote File Copy"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1579",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q579] BAPI stands for",
-    "options": [
-      "Business Automated Program Interface",
-      "Basic API",
-      "Business Application Programming Interface",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1580",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q580] What is SAP Fiori?",
-    "options": [
-      "Database",
-      "Module",
-      "Language",
-      "Modern UI for SAP"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1581",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q581] SAP HR module is also called",
-    "options": [
-      "SAP FI",
-      "SAP MM",
-      "SAP PP",
-      "SAP HCM"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1582",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q582] SAP CRM stands for",
-    "options": [
-      "Customer Relationship Management",
-      "The above is incorrect",
-      "Central Resource Management",
-      "Core Resource Module"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1583",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q583] What is a cost center in SAP?",
-    "options": [
-      "Organizational unit for costs",
-      "Revenue unit",
-      "Profit center",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1584",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q584] G/L in SAP FI means",
-    "options": [
-      "General Line",
-      "Global Ledger",
-      "Option not applicable",
-      "General Ledger"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1585",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q585] SAP PM module handles",
-    "options": [
-      "Product Management",
-      "Production Module",
-      "Plant Maintenance",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1586",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q586] What is a purchase order in SAP MM?",
-    "options": [
-      "Delivery note",
-      "None of the above",
-      "Document to procure goods",
-      "Sales document"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1587",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q587] Profit center in SAP is",
-    "options": [
-      "Department",
-      "Sub-unit for profitability",
-      "Cost unit",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1588",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q588] What is SAP BW?",
-    "options": [
-      "Business Writing",
-      "The above is incorrect",
-      "Basic Workflow",
-      "Business Warehouse/Analytics"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1589",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q589] What is a goods receipt?",
-    "options": [
-      "None of the above",
-      "Invoice",
-      "Recording received materials",
-      "PO"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1590",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q590] LSMW in SAP",
-    "options": [
-      "Log System Management",
-      "Legacy System Migration Workbench",
-      "Load System Module",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1591",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q591] SAP Solution Manager is used for",
-    "options": [
-      "ALM and support",
-      "Cannot be determined",
-      "UI design",
-      "Database management"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1592",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q592] What is a business partner in SAP?",
-    "options": [
-      "Customer/vendor master data",
-      "Neither A nor B",
-      "Module",
-      "Organizational unit"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1593",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q593] Controlling area in SAP CO",
-    "options": [
-      "Financial unit",
-      "Both A and B",
-      "HR unit",
-      "Organizational unit for cost control"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1594",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q594] SAP EWM stands for",
-    "options": [
-      "Extended Warehouse Management",
-      "Enterprise Workflow Module",
-      "Extended Web Module",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1595",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q595] Dunning in SAP FI",
-    "options": [
-      "Invoice",
-      "Automated payment reminders",
-      "Both B and C",
-      "Goods receipt"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1596",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q596] SAP TM module handles",
-    "options": [
-      "Neither A nor B",
-      "Transportation Management",
-      "Technical Management",
-      "Time Management"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1597",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q597] What is a SAP landscape?",
-    "options": [
-      "Neither A nor B",
-      "System arrangement DEV/QA/PROD",
-      "Network topology",
-      "Database cluster"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1598",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q598] Authorization object in SAP",
-    "options": [
-      "Controls access to functions",
-      "Data not provided",
-      "Transports objects",
-      "Stores data"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1599",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q599] SU01 T-code is used for",
-    "options": [
-      "User management",
-      "Table view",
-      "ABAP editor",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_1600",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q600] What is a work center in SAP PP?",
-    "options": [
-      "Option not applicable",
-      "Cost center",
-      "Storage location",
-      "Where production operations occur"
-    ],
-    "answer": 0,
-    "explanation": "Work centers define resources for production."
-  },
-  {
-    "id": "sap_1601",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q601] SAP stands for",
-    "options": [
-      "Systems Automated Products",
-      "Systems Applications Products",
-      "Software Application Platform",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1602",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q602] SAP ERP stands for",
-    "options": [
-      "Extended Resource Planning",
-      "None of the above",
-      "Enterprise Resource Program",
-      "Enterprise Resource Planning"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1603",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q603] SAP HANA is",
-    "options": [
-      "In-memory database",
-      "Relational DB",
-      "NoSQL DB",
-      "Cloud only"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1604",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q604] SAP S/4HANA runs on",
-    "options": [
-      "MySQL",
-      "Oracle only",
-      "Any database",
-      "SAP HANA DB only"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1605",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q605] ABAP stands for",
-    "options": [
-      "Automated Business App Programming",
-      "Both A and B",
-      "Advanced Business Application Programming",
-      "Advanced Basic App Programming"
-    ],
-    "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
-  },
-  {
-    "id": "sap_1606",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q606] SAP FI module handles",
-    "options": [
-      "Logistics",
-      "Sales",
-      "Financial Accounting",
-      "Production Planning"
-    ],
-    "answer": 0,
-    "explanation": "FI module manages financial accounting."
-  },
-  {
-    "id": "sap_1607",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q607] SAP CO module handles",
-    "options": [
-      "Financial Accounting",
-      "HR",
-      "Controlling",
-      "Procurement"
-    ],
-    "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
-  },
-  {
-    "id": "sap_1608",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q608] SAP MM module handles",
-    "options": [
-      "Maintenance",
-      "Manufacturing",
-      "Marketing",
-      "Materials Management"
-    ],
-    "answer": 0,
-    "explanation": "MM handles procurement and inventory."
-  },
-  {
-    "id": "sap_1609",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q609] SAP SD module handles",
-    "options": [
-      "Sales and Distribution",
-      "Software Development",
-      "System Design",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "SD manages order-to-cash process."
-  },
-  {
-    "id": "sap_1610",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q610] SAP PP module handles",
-    "options": [
-      "Payroll",
-      "Production Planning",
-      "Procurement",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1611",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q611] What is a SAP Client?",
-    "options": [
-      "Database",
-      "Server",
-      "Module",
-      "Organizational unit in SAP"
-    ],
-    "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
-  },
-  {
-    "id": "sap_1612",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q612] T-code in SAP means",
-    "options": [
-      "Transaction code",
-      "None of the above",
-      "Technical code",
-      "Transfer code"
-    ],
-    "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
-  },
-  {
-    "id": "sap_1613",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q613] SE38 is used for",
-    "options": [
-      "Neither A nor B",
-      "User management",
-      "ABAP Editor",
-      "Table display"
-    ],
-    "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
-  },
-  {
-    "id": "sap_1614",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q614] SE16 is used for",
-    "options": [
-      "Table browser",
-      "Insufficient information",
-      "Program editor",
-      "Transport"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1615",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q615] Transport request in SAP",
-    "options": [
-      "Backs up DB",
-      "Stores data",
-      "Moves changes between systems",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1616",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q616] SAP Basis team manages",
-    "options": [
-      "Cannot be determined",
-      "Logistics",
-      "Technical infrastructure",
-      "Finance"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1617",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q617] What is an IDOC?",
-    "options": [
-      "Integration Document",
-      "Both A and B",
-      "Intermediate Document",
-      "Internal Document"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1618",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q618] RFC in SAP stands for",
-    "options": [
-      "Remote File Copy",
-      "Both A and B",
-      "Remote Function Call",
-      "Rapid Function Call"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1619",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q619] BAPI stands for",
-    "options": [
-      "The above is incorrect",
-      "Business Automated Program Interface",
-      "Business Application Programming Interface",
-      "Basic API"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1620",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q620] What is SAP Fiori?",
-    "options": [
-      "Database",
-      "Modern UI for SAP",
-      "Module",
-      "Language"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1621",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q621] SAP HR module is also called",
-    "options": [
-      "SAP HCM",
-      "SAP FI",
-      "SAP PP",
-      "SAP MM"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1622",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q622] SAP CRM stands for",
-    "options": [
-      "Core Resource Module",
-      "Customer Relationship Management",
-      "Central Resource Management",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1623",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q623] What is a cost center in SAP?",
-    "options": [
-      "Revenue unit",
-      "Profit center",
-      "Insufficient information",
-      "Organizational unit for costs"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1624",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q624] G/L in SAP FI means",
-    "options": [
-      "Data not provided",
-      "Global Ledger",
-      "General Ledger",
-      "General Line"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1625",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q625] SAP PM module handles",
-    "options": [
-      "Production Module",
-      "Both B and C",
-      "Product Management",
-      "Plant Maintenance"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1626",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q626] What is a purchase order in SAP MM?",
-    "options": [
-      "Document to procure goods",
-      "Sales document",
-      "The above is incorrect",
-      "Delivery note"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1627",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q627] Profit center in SAP is",
-    "options": [
-      "Sub-unit for profitability",
-      "Department",
-      "Cannot be determined",
-      "Cost unit"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1628",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q628] What is SAP BW?",
-    "options": [
-      "Business Writing",
-      "Basic Workflow",
-      "Both A and B",
-      "Business Warehouse/Analytics"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1629",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q629] What is a goods receipt?",
-    "options": [
-      "Recording received materials",
-      "PO",
-      "Neither A nor B",
-      "Invoice"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1630",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q630] LSMW in SAP",
-    "options": [
-      "Load System Module",
-      "Log System Management",
-      "Option not applicable",
-      "Legacy System Migration Workbench"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1631",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q631] SAP Solution Manager is used for",
-    "options": [
-      "ALM and support",
-      "UI design",
-      "Database management",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1632",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q632] What is a business partner in SAP?",
-    "options": [
-      "Organizational unit",
-      "Data not provided",
-      "Module",
-      "Customer/vendor master data"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1633",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q633] Controlling area in SAP CO",
-    "options": [
-      "Financial unit",
-      "Cannot be determined",
-      "HR unit",
-      "Organizational unit for cost control"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1634",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q634] SAP EWM stands for",
-    "options": [
-      "Enterprise Workflow Module",
-      "Option not applicable",
-      "Extended Web Module",
-      "Extended Warehouse Management"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1635",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q635] Dunning in SAP FI",
-    "options": [
-      "Option not applicable",
-      "Goods receipt",
-      "Automated payment reminders",
-      "Invoice"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1636",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q636] SAP TM module handles",
-    "options": [
-      "Data not provided",
-      "Time Management",
-      "Transportation Management",
-      "Technical Management"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1637",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q637] What is a SAP landscape?",
-    "options": [
-      "System arrangement DEV/QA/PROD",
-      "Network topology",
-      "Database cluster",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1638",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q638] Authorization object in SAP",
-    "options": [
-      "Option not applicable",
-      "Controls access to functions",
-      "Stores data",
-      "Transports objects"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1639",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q639] SU01 T-code is used for",
-    "options": [
-      "ABAP editor",
-      "Table view",
-      "None of the above",
-      "User management"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_1640",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q640] What is a work center in SAP PP?",
-    "options": [
-      "Where production operations occur",
-      "Cost center",
-      "Cannot be determined",
-      "Storage location"
-    ],
-    "answer": 0,
-    "explanation": "Work centers define resources for production."
-  },
-  {
-    "id": "sap_1641",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q641] SAP stands for",
-    "options": [
-      "Software Application Platform",
-      "Systems Automated Products",
-      "Cannot be determined",
-      "Systems Applications Products"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1642",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q642] SAP ERP stands for",
-    "options": [
-      "Enterprise Resource Planning",
-      "Insufficient information",
-      "Extended Resource Planning",
-      "Enterprise Resource Program"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1643",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q643] SAP HANA is",
-    "options": [
-      "In-memory database",
-      "NoSQL DB",
-      "Relational DB",
-      "Cloud only"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1644",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q644] SAP S/4HANA runs on",
-    "options": [
-      "Any database",
-      "SAP HANA DB only",
-      "MySQL",
-      "Oracle only"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1645",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q645] ABAP stands for",
-    "options": [
-      "Advanced Basic App Programming",
-      "Advanced Business Application Programming",
-      "Both A and B",
-      "Automated Business App Programming"
-    ],
-    "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
-  },
-  {
-    "id": "sap_1646",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q646] SAP FI module handles",
-    "options": [
-      "Production Planning",
-      "Financial Accounting",
-      "Sales",
-      "Logistics"
-    ],
-    "answer": 0,
-    "explanation": "FI module manages financial accounting."
-  },
-  {
-    "id": "sap_1647",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q647] SAP CO module handles",
-    "options": [
-      "Financial Accounting",
-      "Procurement",
-      "HR",
-      "Controlling"
-    ],
-    "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
-  },
-  {
-    "id": "sap_1648",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q648] SAP MM module handles",
-    "options": [
-      "Materials Management",
-      "Marketing",
-      "Manufacturing",
-      "Maintenance"
-    ],
-    "answer": 0,
-    "explanation": "MM handles procurement and inventory."
-  },
-  {
-    "id": "sap_1649",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q649] SAP SD module handles",
-    "options": [
-      "Sales and Distribution",
-      "System Design",
-      "Both B and C",
-      "Software Development"
-    ],
-    "answer": 0,
-    "explanation": "SD manages order-to-cash process."
-  },
-  {
-    "id": "sap_1650",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q650] SAP PP module handles",
-    "options": [
-      "Procurement",
-      "Production Planning",
-      "The above is incorrect",
-      "Payroll"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1651",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q651] What is a SAP Client?",
-    "options": [
-      "Organizational unit in SAP",
-      "Database",
-      "Module",
-      "Server"
-    ],
-    "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
-  },
-  {
-    "id": "sap_1652",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q652] T-code in SAP means",
-    "options": [
-      "Transaction code",
-      "None of the above",
-      "Transfer code",
-      "Technical code"
-    ],
-    "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
-  },
-  {
-    "id": "sap_1653",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q653] SE38 is used for",
-    "options": [
-      "User management",
-      "ABAP Editor",
-      "Neither A nor B",
-      "Table display"
-    ],
-    "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
-  },
-  {
-    "id": "sap_1654",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q654] SE16 is used for",
-    "options": [
-      "None of the above",
-      "Program editor",
-      "Transport",
-      "Table browser"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1655",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q655] Transport request in SAP",
-    "options": [
-      "None of the above",
-      "Stores data",
-      "Backs up DB",
-      "Moves changes between systems"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1656",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q656] SAP Basis team manages",
-    "options": [
-      "Both B and C",
-      "Finance",
-      "Logistics",
-      "Technical infrastructure"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1657",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q657] What is an IDOC?",
-    "options": [
-      "Integration Document",
-      "Intermediate Document",
-      "Internal Document",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1658",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q658] RFC in SAP stands for",
-    "options": [
-      "Rapid Function Call",
-      "Remote File Copy",
-      "Both A and B",
-      "Remote Function Call"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1659",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q659] BAPI stands for",
-    "options": [
-      "Business Application Programming Interface",
-      "The above is incorrect",
-      "Basic API",
-      "Business Automated Program Interface"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1660",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q660] What is SAP Fiori?",
-    "options": [
-      "Modern UI for SAP",
-      "Language",
-      "Database",
-      "Module"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1661",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q661] SAP HR module is also called",
-    "options": [
-      "SAP PP",
-      "SAP FI",
-      "SAP MM",
-      "SAP HCM"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1662",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q662] SAP CRM stands for",
-    "options": [
-      "Core Resource Module",
-      "Both B and C",
-      "Central Resource Management",
-      "Customer Relationship Management"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1663",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q663] What is a cost center in SAP?",
-    "options": [
-      "Revenue unit",
-      "Option not applicable",
-      "Organizational unit for costs",
-      "Profit center"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1664",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q664] G/L in SAP FI means",
-    "options": [
-      "General Line",
-      "General Ledger",
-      "The above is incorrect",
-      "Global Ledger"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1665",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q665] SAP PM module handles",
-    "options": [
-      "Plant Maintenance",
-      "Cannot be determined",
-      "Product Management",
-      "Production Module"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1666",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q666] What is a purchase order in SAP MM?",
-    "options": [
-      "Document to procure goods",
-      "Cannot be determined",
-      "Sales document",
-      "Delivery note"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1667",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q667] Profit center in SAP is",
-    "options": [
-      "Department",
-      "Sub-unit for profitability",
-      "Neither A nor B",
-      "Cost unit"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1668",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q668] What is SAP BW?",
-    "options": [
-      "Both B and C",
-      "Business Warehouse/Analytics",
-      "Business Writing",
-      "Basic Workflow"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1669",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q669] What is a goods receipt?",
-    "options": [
-      "Recording received materials",
-      "Neither A nor B",
-      "PO",
-      "Invoice"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1670",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q670] LSMW in SAP",
-    "options": [
-      "Load System Module",
-      "Log System Management",
-      "Option not applicable",
-      "Legacy System Migration Workbench"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1671",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q671] SAP Solution Manager is used for",
-    "options": [
-      "The above is incorrect",
-      "Database management",
-      "UI design",
-      "ALM and support"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1672",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q672] What is a business partner in SAP?",
-    "options": [
-      "Customer/vendor master data",
-      "Both B and C",
-      "Module",
-      "Organizational unit"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1673",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q673] Controlling area in SAP CO",
-    "options": [
-      "HR unit",
-      "Insufficient information",
-      "Financial unit",
-      "Organizational unit for cost control"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1674",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q674] SAP EWM stands for",
-    "options": [
-      "Enterprise Workflow Module",
-      "Extended Warehouse Management",
-      "Extended Web Module",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1675",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q675] Dunning in SAP FI",
-    "options": [
-      "Automated payment reminders",
-      "Cannot be determined",
-      "Goods receipt",
-      "Invoice"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1676",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q676] SAP TM module handles",
-    "options": [
-      "Technical Management",
-      "Transportation Management",
-      "Time Management",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1677",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q677] What is a SAP landscape?",
-    "options": [
-      "Both B and C",
-      "Network topology",
-      "System arrangement DEV/QA/PROD",
-      "Database cluster"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1678",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q678] Authorization object in SAP",
-    "options": [
-      "Neither A nor B",
-      "Transports objects",
-      "Controls access to functions",
-      "Stores data"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1679",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q679] SU01 T-code is used for",
-    "options": [
-      "ABAP editor",
-      "User management",
-      "The above is incorrect",
-      "Table view"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_1680",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q680] What is a work center in SAP PP?",
-    "options": [
-      "Storage location",
-      "None of the above",
-      "Where production operations occur",
-      "Cost center"
-    ],
-    "answer": 0,
-    "explanation": "Work centers define resources for production."
-  },
-  {
-    "id": "sap_1681",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q681] SAP stands for",
-    "options": [
-      "Systems Automated Products",
-      "Insufficient information",
-      "Systems Applications Products",
-      "Software Application Platform"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1682",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q682] SAP ERP stands for",
-    "options": [
-      "Enterprise Resource Program",
-      "Option not applicable",
-      "Enterprise Resource Planning",
-      "Extended Resource Planning"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1683",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q683] SAP HANA is",
-    "options": [
-      "Relational DB",
-      "In-memory database",
-      "NoSQL DB",
-      "Cloud only"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1684",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q684] SAP S/4HANA runs on",
-    "options": [
-      "Oracle only",
-      "SAP HANA DB only",
-      "Any database",
-      "MySQL"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1685",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q685] ABAP stands for",
-    "options": [
-      "Insufficient information",
-      "Advanced Business Application Programming",
-      "Automated Business App Programming",
-      "Advanced Basic App Programming"
-    ],
-    "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
-  },
-  {
-    "id": "sap_1686",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q686] SAP FI module handles",
-    "options": [
-      "Logistics",
-      "Production Planning",
-      "Financial Accounting",
-      "Sales"
-    ],
-    "answer": 0,
-    "explanation": "FI module manages financial accounting."
-  },
-  {
-    "id": "sap_1687",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q687] SAP CO module handles",
-    "options": [
-      "Financial Accounting",
-      "Controlling",
-      "Procurement",
-      "HR"
-    ],
-    "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
-  },
-  {
-    "id": "sap_1688",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q688] SAP MM module handles",
-    "options": [
-      "Manufacturing",
-      "Maintenance",
-      "Marketing",
-      "Materials Management"
-    ],
-    "answer": 0,
-    "explanation": "MM handles procurement and inventory."
-  },
-  {
-    "id": "sap_1689",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q689] SAP SD module handles",
-    "options": [
-      "Neither A nor B",
-      "System Design",
-      "Sales and Distribution",
-      "Software Development"
-    ],
-    "answer": 0,
-    "explanation": "SD manages order-to-cash process."
-  },
-  {
-    "id": "sap_1690",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q690] SAP PP module handles",
-    "options": [
-      "Data not provided",
-      "Payroll",
-      "Production Planning",
-      "Procurement"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1691",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q691] What is a SAP Client?",
-    "options": [
-      "Server",
-      "Module",
-      "Database",
-      "Organizational unit in SAP"
-    ],
-    "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
-  },
-  {
-    "id": "sap_1692",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q692] T-code in SAP means",
-    "options": [
-      "Transaction code",
-      "Transfer code",
-      "Option not applicable",
-      "Technical code"
-    ],
-    "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
-  },
-  {
-    "id": "sap_1693",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q693] SE38 is used for",
-    "options": [
-      "User management",
-      "Neither A nor B",
-      "ABAP Editor",
-      "Table display"
-    ],
-    "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
-  },
-  {
-    "id": "sap_1694",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q694] SE16 is used for",
-    "options": [
-      "Table browser",
-      "Data not provided",
-      "Transport",
-      "Program editor"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1695",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q695] Transport request in SAP",
-    "options": [
-      "Moves changes between systems",
-      "Stores data",
-      "Backs up DB",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1696",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q696] SAP Basis team manages",
-    "options": [
-      "Logistics",
-      "Insufficient information",
-      "Finance",
-      "Technical infrastructure"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1697",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q697] What is an IDOC?",
-    "options": [
-      "Data not provided",
-      "Intermediate Document",
-      "Internal Document",
-      "Integration Document"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1698",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q698] RFC in SAP stands for",
-    "options": [
-      "Remote Function Call",
-      "Rapid Function Call",
-      "Remote File Copy",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1699",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q699] BAPI stands for",
-    "options": [
-      "Insufficient information",
-      "Basic API",
-      "Business Automated Program Interface",
-      "Business Application Programming Interface"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1700",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q700] What is SAP Fiori?",
-    "options": [
-      "Database",
-      "Module",
-      "Language",
-      "Modern UI for SAP"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1701",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q701] SAP HR module is also called",
-    "options": [
-      "SAP PP",
-      "SAP MM",
-      "SAP HCM",
-      "SAP FI"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1702",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q702] SAP CRM stands for",
-    "options": [
-      "Core Resource Module",
-      "The above is incorrect",
-      "Customer Relationship Management",
-      "Central Resource Management"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1703",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q703] What is a cost center in SAP?",
-    "options": [
-      "Organizational unit for costs",
-      "None of the above",
-      "Profit center",
-      "Revenue unit"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1704",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q704] G/L in SAP FI means",
-    "options": [
-      "Global Ledger",
-      "Neither A nor B",
-      "General Line",
-      "General Ledger"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1705",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q705] SAP PM module handles",
-    "options": [
-      "Product Management",
-      "Plant Maintenance",
-      "Cannot be determined",
-      "Production Module"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1706",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q706] What is a purchase order in SAP MM?",
-    "options": [
-      "All of the above",
-      "Document to procure goods",
-      "Delivery note",
-      "Sales document"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1707",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q707] Profit center in SAP is",
-    "options": [
-      "Sub-unit for profitability",
-      "Department",
-      "Cost unit",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1708",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q708] What is SAP BW?",
-    "options": [
-      "The above is incorrect",
-      "Basic Workflow",
-      "Business Writing",
-      "Business Warehouse/Analytics"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1709",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q709] What is a goods receipt?",
-    "options": [
-      "Recording received materials",
-      "Both A and B",
-      "PO",
-      "Invoice"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1710",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q710] LSMW in SAP",
-    "options": [
-      "Load System Module",
-      "Cannot be determined",
-      "Legacy System Migration Workbench",
-      "Log System Management"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1711",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q711] SAP Solution Manager is used for",
-    "options": [
-      "Database management",
-      "ALM and support",
-      "UI design",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1712",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q712] What is a business partner in SAP?",
-    "options": [
-      "Neither A nor B",
-      "Module",
-      "Organizational unit",
-      "Customer/vendor master data"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1713",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q713] Controlling area in SAP CO",
-    "options": [
-      "Neither A nor B",
-      "Organizational unit for cost control",
-      "Financial unit",
-      "HR unit"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1714",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q714] SAP EWM stands for",
-    "options": [
-      "Enterprise Workflow Module",
-      "Extended Web Module",
-      "Both B and C",
-      "Extended Warehouse Management"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1715",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q715] Dunning in SAP FI",
-    "options": [
-      "Both A and B",
-      "Invoice",
-      "Automated payment reminders",
-      "Goods receipt"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1716",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q716] SAP TM module handles",
-    "options": [
-      "Time Management",
-      "Both A and B",
-      "Technical Management",
-      "Transportation Management"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1717",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q717] What is a SAP landscape?",
-    "options": [
-      "System arrangement DEV/QA/PROD",
-      "Network topology",
-      "The above is incorrect",
-      "Database cluster"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1718",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q718] Authorization object in SAP",
-    "options": [
-      "All of the above",
-      "Transports objects",
-      "Controls access to functions",
-      "Stores data"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1719",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q719] SU01 T-code is used for",
-    "options": [
-      "Table view",
-      "ABAP editor",
-      "All of the above",
-      "User management"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_1720",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q720] What is a work center in SAP PP?",
-    "options": [
-      "Storage location",
-      "Where production operations occur",
-      "Data not provided",
-      "Cost center"
-    ],
-    "answer": 0,
-    "explanation": "Work centers define resources for production."
-  },
-  {
-    "id": "sap_1721",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q721] SAP stands for",
-    "options": [
-      "None of the above",
-      "Systems Applications Products",
-      "Systems Automated Products",
-      "Software Application Platform"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1722",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q722] SAP ERP stands for",
-    "options": [
-      "Enterprise Resource Planning",
-      "Extended Resource Planning",
-      "Enterprise Resource Program",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1723",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q723] SAP HANA is",
-    "options": [
-      "NoSQL DB",
-      "Cloud only",
-      "In-memory database",
-      "Relational DB"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1724",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q724] SAP S/4HANA runs on",
-    "options": [
-      "Oracle only",
-      "SAP HANA DB only",
-      "MySQL",
-      "Any database"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1725",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q725] ABAP stands for",
-    "options": [
-      "Advanced Basic App Programming",
-      "Automated Business App Programming",
-      "Both A and B",
-      "Advanced Business Application Programming"
-    ],
-    "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
-  },
-  {
-    "id": "sap_1726",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q726] SAP FI module handles",
-    "options": [
-      "Sales",
-      "Logistics",
-      "Financial Accounting",
-      "Production Planning"
-    ],
-    "answer": 0,
-    "explanation": "FI module manages financial accounting."
-  },
-  {
-    "id": "sap_1727",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q727] SAP CO module handles",
-    "options": [
-      "Financial Accounting",
-      "HR",
-      "Controlling",
-      "Procurement"
-    ],
-    "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
-  },
-  {
-    "id": "sap_1728",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q728] SAP MM module handles",
-    "options": [
-      "Maintenance",
-      "Marketing",
-      "Manufacturing",
-      "Materials Management"
-    ],
-    "answer": 0,
-    "explanation": "MM handles procurement and inventory."
-  },
-  {
-    "id": "sap_1729",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q729] SAP SD module handles",
-    "options": [
-      "Data not provided",
-      "Sales and Distribution",
-      "Software Development",
-      "System Design"
-    ],
-    "answer": 0,
-    "explanation": "SD manages order-to-cash process."
-  },
-  {
-    "id": "sap_1730",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q730] SAP PP module handles",
-    "options": [
-      "All of the above",
-      "Payroll",
-      "Production Planning",
-      "Procurement"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1731",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q731] What is a SAP Client?",
-    "options": [
-      "Server",
-      "Database",
-      "Organizational unit in SAP",
-      "Module"
-    ],
-    "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
-  },
-  {
-    "id": "sap_1732",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q732] T-code in SAP means",
-    "options": [
-      "Transaction code",
-      "The above is incorrect",
-      "Transfer code",
-      "Technical code"
-    ],
-    "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
-  },
-  {
-    "id": "sap_1733",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q733] SE38 is used for",
-    "options": [
-      "Table display",
-      "User management",
-      "ABAP Editor",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
-  },
-  {
-    "id": "sap_1734",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q734] SE16 is used for",
-    "options": [
-      "The above is incorrect",
-      "Transport",
-      "Table browser",
-      "Program editor"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1735",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q735] Transport request in SAP",
-    "options": [
-      "Backs up DB",
-      "Cannot be determined",
-      "Moves changes between systems",
-      "Stores data"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1736",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q736] SAP Basis team manages",
-    "options": [
-      "Data not provided",
-      "Technical infrastructure",
-      "Finance",
-      "Logistics"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1737",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q737] What is an IDOC?",
-    "options": [
-      "Integration Document",
-      "Both A and B",
-      "Internal Document",
-      "Intermediate Document"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1738",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q738] RFC in SAP stands for",
-    "options": [
-      "Remote Function Call",
-      "Neither A nor B",
-      "Rapid Function Call",
-      "Remote File Copy"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1739",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q739] BAPI stands for",
-    "options": [
-      "Basic API",
-      "Business Automated Program Interface",
-      "None of the above",
-      "Business Application Programming Interface"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1740",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q740] What is SAP Fiori?",
-    "options": [
-      "Modern UI for SAP",
-      "Module",
-      "Database",
-      "Language"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1741",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q741] SAP HR module is also called",
-    "options": [
-      "SAP PP",
-      "SAP MM",
-      "SAP HCM",
-      "SAP FI"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1742",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q742] SAP CRM stands for",
-    "options": [
-      "Central Resource Management",
-      "Customer Relationship Management",
-      "Cannot be determined",
-      "Core Resource Module"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1743",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q743] What is a cost center in SAP?",
-    "options": [
-      "Organizational unit for costs",
-      "Profit center",
-      "Insufficient information",
-      "Revenue unit"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1744",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q744] G/L in SAP FI means",
-    "options": [
-      "General Line",
-      "The above is incorrect",
-      "Global Ledger",
-      "General Ledger"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1745",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q745] SAP PM module handles",
-    "options": [
-      "Option not applicable",
-      "Production Module",
-      "Product Management",
-      "Plant Maintenance"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1746",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q746] What is a purchase order in SAP MM?",
-    "options": [
-      "Sales document",
-      "Cannot be determined",
-      "Delivery note",
-      "Document to procure goods"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1747",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q747] Profit center in SAP is",
-    "options": [
-      "None of the above",
-      "Sub-unit for profitability",
-      "Department",
-      "Cost unit"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1748",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q748] What is SAP BW?",
-    "options": [
-      "Option not applicable",
-      "Business Warehouse/Analytics",
-      "Business Writing",
-      "Basic Workflow"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1749",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q749] What is a goods receipt?",
-    "options": [
-      "Invoice",
-      "Recording received materials",
-      "PO",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1750",
-    "topic": "SAP Engineer",
-    "section": "Cloud & Architecture",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q750] LSMW in SAP",
-    "options": [
-      "Log System Management",
-      "The above is incorrect",
-      "Legacy System Migration Workbench",
-      "Load System Module"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1751",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q751] SAP Solution Manager is used for",
-    "options": [
-      "ALM and support",
-      "The above is incorrect",
-      "Database management",
-      "UI design"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1752",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q752] What is a business partner in SAP?",
-    "options": [
-      "Data not provided",
-      "Organizational unit",
-      "Module",
-      "Customer/vendor master data"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1753",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q753] Controlling area in SAP CO",
-    "options": [
-      "Organizational unit for cost control",
-      "HR unit",
-      "All of the above",
-      "Financial unit"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1754",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q754] SAP EWM stands for",
-    "options": [
-      "Extended Web Module",
-      "Both B and C",
-      "Enterprise Workflow Module",
-      "Extended Warehouse Management"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1755",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q755] Dunning in SAP FI",
-    "options": [
-      "Invoice",
-      "Automated payment reminders",
-      "Goods receipt",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1756",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q756] SAP TM module handles",
-    "options": [
-      "Time Management",
-      "Insufficient information",
-      "Technical Management",
-      "Transportation Management"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1757",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q757] What is a SAP landscape?",
-    "options": [
-      "Data not provided",
-      "Database cluster",
-      "Network topology",
-      "System arrangement DEV/QA/PROD"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1758",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q758] Authorization object in SAP",
-    "options": [
-      "Transports objects",
-      "Controls access to functions",
-      "Stores data",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1759",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q759] SU01 T-code is used for",
-    "options": [
-      "All of the above",
-      "Table view",
-      "User management",
-      "ABAP editor"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_1760",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q760] What is a work center in SAP PP?",
-    "options": [
-      "Storage location",
-      "Cost center",
-      "Where production operations occur",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Work centers define resources for production."
-  },
-  {
-    "id": "sap_1761",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q761] SAP stands for",
-    "options": [
-      "Systems Applications Products",
-      "Systems Automated Products",
-      "Software Application Platform",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1762",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q762] SAP ERP stands for",
-    "options": [
-      "Enterprise Resource Planning",
-      "Extended Resource Planning",
-      "All of the above",
-      "Enterprise Resource Program"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1763",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q763] SAP HANA is",
-    "options": [
-      "Relational DB",
-      "In-memory database",
-      "NoSQL DB",
-      "Cloud only"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1764",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q764] SAP S/4HANA runs on",
-    "options": [
-      "Oracle only",
-      "MySQL",
-      "Any database",
-      "SAP HANA DB only"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1765",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q765] ABAP stands for",
-    "options": [
-      "Automated Business App Programming",
-      "Both B and C",
-      "Advanced Basic App Programming",
-      "Advanced Business Application Programming"
-    ],
-    "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
-  },
-  {
-    "id": "sap_1766",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q766] SAP FI module handles",
-    "options": [
-      "Logistics",
-      "Financial Accounting",
-      "Production Planning",
-      "Sales"
-    ],
-    "answer": 0,
-    "explanation": "FI module manages financial accounting."
-  },
-  {
-    "id": "sap_1767",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q767] SAP CO module handles",
-    "options": [
-      "Procurement",
-      "HR",
-      "Controlling",
-      "Financial Accounting"
-    ],
-    "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
-  },
-  {
-    "id": "sap_1768",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q768] SAP MM module handles",
-    "options": [
-      "Manufacturing",
-      "Materials Management",
-      "Maintenance",
-      "Marketing"
-    ],
-    "answer": 0,
-    "explanation": "MM handles procurement and inventory."
-  },
-  {
-    "id": "sap_1769",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q769] SAP SD module handles",
-    "options": [
-      "The above is incorrect",
-      "Sales and Distribution",
-      "Software Development",
-      "System Design"
-    ],
-    "answer": 0,
-    "explanation": "SD manages order-to-cash process."
-  },
-  {
-    "id": "sap_1770",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q770] SAP PP module handles",
-    "options": [
-      "The above is incorrect",
-      "Procurement",
-      "Production Planning",
-      "Payroll"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1771",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q771] What is a SAP Client?",
-    "options": [
-      "Database",
-      "Organizational unit in SAP",
-      "Module",
-      "Server"
-    ],
-    "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
-  },
-  {
-    "id": "sap_1772",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q772] T-code in SAP means",
-    "options": [
-      "Technical code",
-      "Insufficient information",
-      "Transaction code",
-      "Transfer code"
-    ],
-    "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
-  },
-  {
-    "id": "sap_1773",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q773] SE38 is used for",
-    "options": [
-      "ABAP Editor",
-      "Table display",
-      "User management",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
-  },
-  {
-    "id": "sap_1774",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q774] SE16 is used for",
-    "options": [
-      "Program editor",
-      "Transport",
-      "Table browser",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1775",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q775] Transport request in SAP",
-    "options": [
-      "Stores data",
-      "Backs up DB",
-      "The above is incorrect",
-      "Moves changes between systems"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1776",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q776] SAP Basis team manages",
-    "options": [
-      "Finance",
-      "Technical infrastructure",
-      "Logistics",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1777",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q777] What is an IDOC?",
-    "options": [
-      "Intermediate Document",
-      "Integration Document",
-      "The above is incorrect",
-      "Internal Document"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1778",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q778] RFC in SAP stands for",
-    "options": [
-      "None of the above",
-      "Rapid Function Call",
-      "Remote Function Call",
-      "Remote File Copy"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1779",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q779] BAPI stands for",
-    "options": [
-      "Basic API",
-      "Business Automated Program Interface",
-      "The above is incorrect",
-      "Business Application Programming Interface"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1780",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q780] What is SAP Fiori?",
-    "options": [
-      "Database",
-      "Language",
-      "Module",
-      "Modern UI for SAP"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1781",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q781] SAP HR module is also called",
-    "options": [
-      "SAP PP",
-      "SAP HCM",
-      "SAP MM",
-      "SAP FI"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1782",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q782] SAP CRM stands for",
-    "options": [
-      "Central Resource Management",
-      "Core Resource Module",
-      "Customer Relationship Management",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1783",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q783] What is a cost center in SAP?",
-    "options": [
-      "Revenue unit",
-      "Organizational unit for costs",
-      "Cannot be determined",
-      "Profit center"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1784",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q784] G/L in SAP FI means",
-    "options": [
-      "Global Ledger",
-      "General Line",
-      "General Ledger",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1785",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q785] SAP PM module handles",
-    "options": [
-      "The above is incorrect",
-      "Plant Maintenance",
-      "Product Management",
-      "Production Module"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1786",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q786] What is a purchase order in SAP MM?",
-    "options": [
-      "Delivery note",
-      "Neither A nor B",
-      "Sales document",
-      "Document to procure goods"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1787",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q787] Profit center in SAP is",
-    "options": [
-      "Sub-unit for profitability",
-      "Cost unit",
-      "Department",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1788",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q788] What is SAP BW?",
-    "options": [
-      "Business Warehouse/Analytics",
-      "Business Writing",
-      "Neither A nor B",
-      "Basic Workflow"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1789",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q789] What is a goods receipt?",
-    "options": [
-      "Invoice",
-      "None of the above",
-      "PO",
-      "Recording received materials"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1790",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q790] LSMW in SAP",
-    "options": [
-      "Cannot be determined",
-      "Load System Module",
-      "Legacy System Migration Workbench",
-      "Log System Management"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1791",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q791] SAP Solution Manager is used for",
-    "options": [
-      "Database management",
-      "UI design",
-      "Both B and C",
-      "ALM and support"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1792",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q792] What is a business partner in SAP?",
-    "options": [
-      "The above is incorrect",
-      "Module",
-      "Customer/vendor master data",
-      "Organizational unit"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1793",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q793] Controlling area in SAP CO",
-    "options": [
-      "Organizational unit for cost control",
-      "HR unit",
-      "Financial unit",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1794",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q794] SAP EWM stands for",
-    "options": [
-      "Extended Web Module",
-      "Enterprise Workflow Module",
-      "Extended Warehouse Management",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1795",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q795] Dunning in SAP FI",
-    "options": [
-      "Automated payment reminders",
-      "Goods receipt",
-      "Invoice",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1796",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q796] SAP TM module handles",
-    "options": [
-      "Technical Management",
-      "Both B and C",
-      "Time Management",
-      "Transportation Management"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1797",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q797] What is a SAP landscape?",
-    "options": [
-      "Network topology",
-      "The above is incorrect",
-      "System arrangement DEV/QA/PROD",
-      "Database cluster"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1798",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q798] Authorization object in SAP",
-    "options": [
-      "None of the above",
-      "Controls access to functions",
-      "Transports objects",
-      "Stores data"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1799",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q799] SU01 T-code is used for",
-    "options": [
-      "Table view",
-      "All of the above",
-      "ABAP editor",
-      "User management"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_1800",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q800] What is a work center in SAP PP?",
-    "options": [
-      "Data not provided",
-      "Storage location",
-      "Cost center",
-      "Where production operations occur"
-    ],
-    "answer": 0,
-    "explanation": "Work centers define resources for production."
-  },
-  {
-    "id": "sap_1801",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q801] SAP stands for",
-    "options": [
-      "Both B and C",
-      "Software Application Platform",
-      "Systems Applications Products",
-      "Systems Automated Products"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1802",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q802] SAP ERP stands for",
-    "options": [
-      "Enterprise Resource Program",
-      "All of the above",
-      "Enterprise Resource Planning",
-      "Extended Resource Planning"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1803",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q803] SAP HANA is",
-    "options": [
-      "NoSQL DB",
-      "In-memory database",
-      "Relational DB",
-      "Cloud only"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1804",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q804] SAP S/4HANA runs on",
-    "options": [
-      "MySQL",
-      "SAP HANA DB only",
-      "Oracle only",
-      "Any database"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1805",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q805] ABAP stands for",
-    "options": [
-      "Automated Business App Programming",
-      "Advanced Basic App Programming",
-      "Both B and C",
-      "Advanced Business Application Programming"
-    ],
-    "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
-  },
-  {
-    "id": "sap_1806",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q806] SAP FI module handles",
-    "options": [
-      "Production Planning",
-      "Logistics",
-      "Sales",
-      "Financial Accounting"
-    ],
-    "answer": 0,
-    "explanation": "FI module manages financial accounting."
-  },
-  {
-    "id": "sap_1807",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q807] SAP CO module handles",
-    "options": [
-      "Procurement",
-      "Controlling",
-      "HR",
-      "Financial Accounting"
-    ],
-    "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
-  },
-  {
-    "id": "sap_1808",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q808] SAP MM module handles",
-    "options": [
-      "Marketing",
-      "Maintenance",
-      "Manufacturing",
-      "Materials Management"
-    ],
-    "answer": 0,
-    "explanation": "MM handles procurement and inventory."
-  },
-  {
-    "id": "sap_1809",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q809] SAP SD module handles",
-    "options": [
-      "Software Development",
-      "Sales and Distribution",
-      "System Design",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "SD manages order-to-cash process."
-  },
-  {
-    "id": "sap_1810",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q810] SAP PP module handles",
-    "options": [
-      "Cannot be determined",
-      "Production Planning",
-      "Payroll",
-      "Procurement"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1811",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q811] What is a SAP Client?",
-    "options": [
-      "Organizational unit in SAP",
-      "Module",
-      "Server",
-      "Database"
-    ],
-    "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
-  },
-  {
-    "id": "sap_1812",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q812] T-code in SAP means",
-    "options": [
-      "Transfer code",
-      "Technical code",
-      "The above is incorrect",
-      "Transaction code"
-    ],
-    "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
-  },
-  {
-    "id": "sap_1813",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q813] SE38 is used for",
-    "options": [
-      "ABAP Editor",
-      "All of the above",
-      "Table display",
-      "User management"
-    ],
-    "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
-  },
-  {
-    "id": "sap_1814",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q814] SE16 is used for",
-    "options": [
-      "Table browser",
-      "Option not applicable",
-      "Program editor",
-      "Transport"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1815",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q815] Transport request in SAP",
-    "options": [
-      "Cannot be determined",
-      "Moves changes between systems",
-      "Stores data",
-      "Backs up DB"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1816",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q816] SAP Basis team manages",
-    "options": [
-      "Logistics",
-      "Insufficient information",
-      "Finance",
-      "Technical infrastructure"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1817",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q817] What is an IDOC?",
-    "options": [
-      "Intermediate Document",
-      "Internal Document",
-      "Cannot be determined",
-      "Integration Document"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1818",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q818] RFC in SAP stands for",
-    "options": [
-      "All of the above",
-      "Remote Function Call",
-      "Remote File Copy",
-      "Rapid Function Call"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1819",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q819] BAPI stands for",
-    "options": [
-      "Basic API",
-      "Business Application Programming Interface",
-      "All of the above",
-      "Business Automated Program Interface"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1820",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q820] What is SAP Fiori?",
-    "options": [
-      "Database",
-      "Modern UI for SAP",
-      "Module",
-      "Language"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1821",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q821] SAP HR module is also called",
-    "options": [
-      "SAP FI",
-      "SAP HCM",
-      "SAP PP",
-      "SAP MM"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1822",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q822] SAP CRM stands for",
-    "options": [
-      "Core Resource Module",
-      "Central Resource Management",
-      "Customer Relationship Management",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1823",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q823] What is a cost center in SAP?",
-    "options": [
-      "None of the above",
-      "Profit center",
-      "Revenue unit",
-      "Organizational unit for costs"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1824",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q824] G/L in SAP FI means",
-    "options": [
-      "Global Ledger",
-      "General Ledger",
-      "Data not provided",
-      "General Line"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1825",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q825] SAP PM module handles",
-    "options": [
-      "None of the above",
-      "Production Module",
-      "Product Management",
-      "Plant Maintenance"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1826",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q826] What is a purchase order in SAP MM?",
-    "options": [
-      "Insufficient information",
-      "Sales document",
-      "Document to procure goods",
-      "Delivery note"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1827",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q827] Profit center in SAP is",
-    "options": [
-      "Cost unit",
-      "Sub-unit for profitability",
-      "Both A and B",
-      "Department"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1828",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q828] What is SAP BW?",
-    "options": [
-      "Business Warehouse/Analytics",
-      "Basic Workflow",
-      "Business Writing",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1829",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q829] What is a goods receipt?",
-    "options": [
-      "Recording received materials",
-      "PO",
-      "Cannot be determined",
-      "Invoice"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1830",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q830] LSMW in SAP",
-    "options": [
-      "Log System Management",
-      "None of the above",
-      "Legacy System Migration Workbench",
-      "Load System Module"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1831",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q831] SAP Solution Manager is used for",
-    "options": [
-      "UI design",
-      "Database management",
-      "Data not provided",
-      "ALM and support"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1832",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q832] What is a business partner in SAP?",
-    "options": [
-      "Organizational unit",
-      "Customer/vendor master data",
-      "Module",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1833",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q833] Controlling area in SAP CO",
-    "options": [
-      "All of the above",
-      "HR unit",
-      "Organizational unit for cost control",
-      "Financial unit"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1834",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q834] SAP EWM stands for",
-    "options": [
-      "Extended Web Module",
-      "Enterprise Workflow Module",
-      "Insufficient information",
-      "Extended Warehouse Management"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1835",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q835] Dunning in SAP FI",
-    "options": [
-      "Automated payment reminders",
-      "Goods receipt",
-      "Both B and C",
-      "Invoice"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1836",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q836] SAP TM module handles",
-    "options": [
-      "Transportation Management",
-      "Technical Management",
-      "Time Management",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1837",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q837] What is a SAP landscape?",
-    "options": [
-      "Neither A nor B",
-      "System arrangement DEV/QA/PROD",
-      "Network topology",
-      "Database cluster"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1838",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q838] Authorization object in SAP",
-    "options": [
-      "Cannot be determined",
-      "Stores data",
-      "Controls access to functions",
-      "Transports objects"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1839",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q839] SU01 T-code is used for",
-    "options": [
-      "Insufficient information",
-      "ABAP editor",
-      "User management",
-      "Table view"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_1840",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q840] What is a work center in SAP PP?",
-    "options": [
-      "None of the above",
-      "Storage location",
-      "Where production operations occur",
-      "Cost center"
-    ],
-    "answer": 0,
-    "explanation": "Work centers define resources for production."
-  },
-  {
-    "id": "sap_1841",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q841] SAP stands for",
-    "options": [
-      "Software Application Platform",
-      "Systems Applications Products",
-      "Systems Automated Products",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1842",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q842] SAP ERP stands for",
-    "options": [
-      "The above is incorrect",
-      "Extended Resource Planning",
-      "Enterprise Resource Planning",
-      "Enterprise Resource Program"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1843",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q843] SAP HANA is",
-    "options": [
-      "Cloud only",
-      "Relational DB",
-      "In-memory database",
-      "NoSQL DB"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1844",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q844] SAP S/4HANA runs on",
-    "options": [
-      "MySQL",
-      "Oracle only",
-      "Any database",
-      "SAP HANA DB only"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1845",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q845] ABAP stands for",
-    "options": [
-      "All of the above",
-      "Advanced Business Application Programming",
-      "Automated Business App Programming",
-      "Advanced Basic App Programming"
-    ],
-    "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
-  },
-  {
-    "id": "sap_1846",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q846] SAP FI module handles",
-    "options": [
-      "Financial Accounting",
-      "Production Planning",
-      "Sales",
-      "Logistics"
-    ],
-    "answer": 0,
-    "explanation": "FI module manages financial accounting."
-  },
-  {
-    "id": "sap_1847",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q847] SAP CO module handles",
-    "options": [
-      "Controlling",
-      "Financial Accounting",
-      "Procurement",
-      "HR"
-    ],
-    "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
-  },
-  {
-    "id": "sap_1848",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q848] SAP MM module handles",
-    "options": [
-      "Materials Management",
-      "Manufacturing",
-      "Maintenance",
-      "Marketing"
-    ],
-    "answer": 0,
-    "explanation": "MM handles procurement and inventory."
-  },
-  {
-    "id": "sap_1849",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q849] SAP SD module handles",
-    "options": [
-      "Sales and Distribution",
-      "Data not provided",
-      "Software Development",
-      "System Design"
-    ],
-    "answer": 0,
-    "explanation": "SD manages order-to-cash process."
-  },
-  {
-    "id": "sap_1850",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q850] SAP PP module handles",
-    "options": [
-      "Production Planning",
-      "Payroll",
-      "Procurement",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1851",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q851] What is a SAP Client?",
-    "options": [
-      "Server",
-      "Database",
-      "Module",
-      "Organizational unit in SAP"
-    ],
-    "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
-  },
-  {
-    "id": "sap_1852",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q852] T-code in SAP means",
-    "options": [
-      "Transfer code",
-      "Transaction code",
-      "Cannot be determined",
-      "Technical code"
-    ],
-    "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
-  },
-  {
-    "id": "sap_1853",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q853] SE38 is used for",
-    "options": [
-      "ABAP Editor",
-      "Insufficient information",
-      "User management",
-      "Table display"
-    ],
-    "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
-  },
-  {
-    "id": "sap_1854",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q854] SE16 is used for",
-    "options": [
-      "Table browser",
-      "Transport",
-      "The above is incorrect",
-      "Program editor"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1855",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q855] Transport request in SAP",
-    "options": [
-      "Neither A nor B",
-      "Stores data",
-      "Backs up DB",
-      "Moves changes between systems"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1856",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q856] SAP Basis team manages",
-    "options": [
-      "All of the above",
-      "Finance",
-      "Technical infrastructure",
-      "Logistics"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1857",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q857] What is an IDOC?",
-    "options": [
-      "Internal Document",
-      "The above is incorrect",
-      "Intermediate Document",
-      "Integration Document"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1858",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q858] RFC in SAP stands for",
-    "options": [
-      "Remote File Copy",
-      "All of the above",
-      "Rapid Function Call",
-      "Remote Function Call"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1859",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q859] BAPI stands for",
-    "options": [
-      "Cannot be determined",
-      "Basic API",
-      "Business Automated Program Interface",
-      "Business Application Programming Interface"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1860",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q860] What is SAP Fiori?",
-    "options": [
-      "Module",
-      "Database",
-      "Modern UI for SAP",
-      "Language"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1861",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q861] SAP HR module is also called",
-    "options": [
-      "SAP FI",
-      "SAP MM",
-      "SAP HCM",
-      "SAP PP"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1862",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q862] SAP CRM stands for",
-    "options": [
-      "The above is incorrect",
-      "Central Resource Management",
-      "Customer Relationship Management",
-      "Core Resource Module"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1863",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q863] What is a cost center in SAP?",
-    "options": [
-      "The above is incorrect",
-      "Revenue unit",
-      "Organizational unit for costs",
-      "Profit center"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1864",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q864] G/L in SAP FI means",
-    "options": [
-      "Option not applicable",
-      "General Ledger",
-      "Global Ledger",
-      "General Line"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1865",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q865] SAP PM module handles",
-    "options": [
-      "Production Module",
-      "Product Management",
-      "Plant Maintenance",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1866",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q866] What is a purchase order in SAP MM?",
-    "options": [
-      "Sales document",
-      "Document to procure goods",
-      "Delivery note",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1867",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q867] Profit center in SAP is",
-    "options": [
-      "Sub-unit for profitability",
-      "Department",
-      "None of the above",
-      "Cost unit"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1868",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q868] What is SAP BW?",
-    "options": [
-      "Business Writing",
-      "All of the above",
-      "Basic Workflow",
-      "Business Warehouse/Analytics"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1869",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q869] What is a goods receipt?",
-    "options": [
-      "PO",
-      "Insufficient information",
-      "Invoice",
-      "Recording received materials"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1870",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q870] LSMW in SAP",
-    "options": [
-      "Log System Management",
-      "Legacy System Migration Workbench",
-      "Cannot be determined",
-      "Load System Module"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1871",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q871] SAP Solution Manager is used for",
-    "options": [
-      "Database management",
-      "ALM and support",
-      "UI design",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1872",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q872] What is a business partner in SAP?",
-    "options": [
-      "Both B and C",
-      "Organizational unit",
-      "Customer/vendor master data",
-      "Module"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1873",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q873] Controlling area in SAP CO",
-    "options": [
-      "HR unit",
-      "Financial unit",
-      "Data not provided",
-      "Organizational unit for cost control"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1874",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q874] SAP EWM stands for",
-    "options": [
-      "Insufficient information",
-      "Enterprise Workflow Module",
-      "Extended Web Module",
-      "Extended Warehouse Management"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1875",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q875] Dunning in SAP FI",
-    "options": [
-      "Invoice",
-      "Goods receipt",
-      "The above is incorrect",
-      "Automated payment reminders"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1876",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q876] SAP TM module handles",
-    "options": [
-      "Time Management",
-      "Transportation Management",
-      "Neither A nor B",
-      "Technical Management"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1877",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q877] What is a SAP landscape?",
-    "options": [
-      "Database cluster",
-      "Network topology",
-      "System arrangement DEV/QA/PROD",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1878",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q878] Authorization object in SAP",
-    "options": [
-      "Transports objects",
-      "Controls access to functions",
-      "Neither A nor B",
-      "Stores data"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1879",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q879] SU01 T-code is used for",
-    "options": [
-      "ABAP editor",
-      "Table view",
-      "Insufficient information",
-      "User management"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_1880",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q880] What is a work center in SAP PP?",
-    "options": [
-      "Cost center",
-      "Where production operations occur",
-      "Insufficient information",
-      "Storage location"
-    ],
-    "answer": 0,
-    "explanation": "Work centers define resources for production."
-  },
-  {
-    "id": "sap_1881",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q881] SAP stands for",
-    "options": [
-      "Systems Automated Products",
-      "Cannot be determined",
-      "Software Application Platform",
-      "Systems Applications Products"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1882",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q882] SAP ERP stands for",
-    "options": [
-      "Enterprise Resource Planning",
-      "Enterprise Resource Program",
-      "Extended Resource Planning",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1883",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q883] SAP HANA is",
-    "options": [
-      "Relational DB",
-      "NoSQL DB",
-      "In-memory database",
-      "Cloud only"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1884",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q884] SAP S/4HANA runs on",
-    "options": [
-      "Oracle only",
-      "MySQL",
-      "Any database",
-      "SAP HANA DB only"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1885",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q885] ABAP stands for",
-    "options": [
-      "Neither A nor B",
-      "Advanced Business Application Programming",
-      "Advanced Basic App Programming",
-      "Automated Business App Programming"
-    ],
-    "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
-  },
-  {
-    "id": "sap_1886",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q886] SAP FI module handles",
-    "options": [
-      "Sales",
-      "Financial Accounting",
-      "Production Planning",
-      "Logistics"
-    ],
-    "answer": 0,
-    "explanation": "FI module manages financial accounting."
-  },
-  {
-    "id": "sap_1887",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q887] SAP CO module handles",
-    "options": [
-      "Procurement",
-      "HR",
-      "Controlling",
-      "Financial Accounting"
-    ],
-    "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
-  },
-  {
-    "id": "sap_1888",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q888] SAP MM module handles",
-    "options": [
-      "Maintenance",
-      "Materials Management",
-      "Marketing",
-      "Manufacturing"
-    ],
-    "answer": 0,
-    "explanation": "MM handles procurement and inventory."
-  },
-  {
-    "id": "sap_1889",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q889] SAP SD module handles",
-    "options": [
-      "System Design",
-      "The above is incorrect",
-      "Sales and Distribution",
-      "Software Development"
-    ],
-    "answer": 0,
-    "explanation": "SD manages order-to-cash process."
-  },
-  {
-    "id": "sap_1890",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q890] SAP PP module handles",
-    "options": [
-      "All of the above",
-      "Production Planning",
-      "Payroll",
-      "Procurement"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1891",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q891] What is a SAP Client?",
-    "options": [
-      "Module",
-      "Database",
-      "Server",
-      "Organizational unit in SAP"
-    ],
-    "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
-  },
-  {
-    "id": "sap_1892",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q892] T-code in SAP means",
-    "options": [
-      "Transaction code",
-      "Technical code",
-      "Transfer code",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
-  },
-  {
-    "id": "sap_1893",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q893] SE38 is used for",
-    "options": [
-      "Table display",
-      "All of the above",
-      "ABAP Editor",
-      "User management"
-    ],
-    "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
-  },
-  {
-    "id": "sap_1894",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q894] SE16 is used for",
-    "options": [
-      "Transport",
-      "Table browser",
-      "Program editor",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1895",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q895] Transport request in SAP",
-    "options": [
-      "Moves changes between systems",
-      "The above is incorrect",
-      "Stores data",
-      "Backs up DB"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1896",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q896] SAP Basis team manages",
-    "options": [
-      "Both B and C",
-      "Technical infrastructure",
-      "Logistics",
-      "Finance"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1897",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q897] What is an IDOC?",
-    "options": [
-      "Internal Document",
-      "Integration Document",
-      "Intermediate Document",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1898",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q898] RFC in SAP stands for",
-    "options": [
-      "Remote Function Call",
-      "Remote File Copy",
-      "The above is incorrect",
-      "Rapid Function Call"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1899",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q899] BAPI stands for",
-    "options": [
-      "Business Automated Program Interface",
-      "Both A and B",
-      "Basic API",
-      "Business Application Programming Interface"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1900",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q900] What is SAP Fiori?",
-    "options": [
-      "Module",
-      "Language",
-      "Modern UI for SAP",
-      "Database"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1901",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q901] SAP HR module is also called",
-    "options": [
-      "SAP MM",
-      "SAP PP",
-      "SAP FI",
-      "SAP HCM"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1902",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q902] SAP CRM stands for",
-    "options": [
-      "All of the above",
-      "Central Resource Management",
-      "Core Resource Module",
-      "Customer Relationship Management"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1903",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q903] What is a cost center in SAP?",
-    "options": [
-      "Organizational unit for costs",
-      "Revenue unit",
-      "Profit center",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1904",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q904] G/L in SAP FI means",
-    "options": [
-      "Global Ledger",
-      "All of the above",
-      "General Ledger",
-      "General Line"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1905",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q905] SAP PM module handles",
-    "options": [
-      "None of the above",
-      "Product Management",
-      "Production Module",
-      "Plant Maintenance"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1906",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q906] What is a purchase order in SAP MM?",
-    "options": [
-      "Sales document",
-      "Document to procure goods",
-      "The above is incorrect",
-      "Delivery note"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1907",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q907] Profit center in SAP is",
-    "options": [
-      "Both A and B",
-      "Department",
-      "Cost unit",
-      "Sub-unit for profitability"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1908",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q908] What is SAP BW?",
-    "options": [
-      "Business Warehouse/Analytics",
-      "None of the above",
-      "Basic Workflow",
-      "Business Writing"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1909",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q909] What is a goods receipt?",
-    "options": [
-      "Invoice",
-      "PO",
-      "Recording received materials",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1910",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q910] LSMW in SAP",
-    "options": [
-      "Load System Module",
-      "Legacy System Migration Workbench",
-      "Log System Management",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1911",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q911] SAP Solution Manager is used for",
-    "options": [
-      "All of the above",
-      "UI design",
-      "Database management",
-      "ALM and support"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1912",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q912] What is a business partner in SAP?",
-    "options": [
-      "Customer/vendor master data",
-      "Data not provided",
-      "Module",
-      "Organizational unit"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1913",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q913] Controlling area in SAP CO",
-    "options": [
-      "Organizational unit for cost control",
-      "HR unit",
-      "Financial unit",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1914",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q914] SAP EWM stands for",
-    "options": [
-      "Extended Web Module",
-      "Enterprise Workflow Module",
-      "The above is incorrect",
-      "Extended Warehouse Management"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1915",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q915] Dunning in SAP FI",
-    "options": [
-      "Automated payment reminders",
-      "Invoice",
-      "Goods receipt",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1916",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q916] SAP TM module handles",
-    "options": [
-      "The above is incorrect",
-      "Transportation Management",
-      "Time Management",
-      "Technical Management"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1917",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q917] What is a SAP landscape?",
-    "options": [
-      "System arrangement DEV/QA/PROD",
-      "Database cluster",
-      "Insufficient information",
-      "Network topology"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1918",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q918] Authorization object in SAP",
-    "options": [
-      "Controls access to functions",
-      "Stores data",
-      "Both B and C",
-      "Transports objects"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1919",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q919] SU01 T-code is used for",
-    "options": [
-      "User management",
-      "ABAP editor",
-      "Option not applicable",
-      "Table view"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_1920",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q920] What is a work center in SAP PP?",
-    "options": [
-      "Where production operations occur",
-      "Insufficient information",
-      "Storage location",
-      "Cost center"
-    ],
-    "answer": 0,
-    "explanation": "Work centers define resources for production."
-  },
-  {
-    "id": "sap_1921",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q921] SAP stands for",
-    "options": [
-      "None of the above",
-      "Systems Applications Products",
-      "Software Application Platform",
-      "Systems Automated Products"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1922",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q922] SAP ERP stands for",
-    "options": [
-      "Enterprise Resource Program",
-      "Both B and C",
-      "Enterprise Resource Planning",
-      "Extended Resource Planning"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1923",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q923] SAP HANA is",
-    "options": [
-      "Cloud only",
-      "Relational DB",
-      "NoSQL DB",
-      "In-memory database"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1924",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q924] SAP S/4HANA runs on",
-    "options": [
-      "Oracle only",
-      "SAP HANA DB only",
-      "Any database",
-      "MySQL"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1925",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q925] ABAP stands for",
-    "options": [
-      "Advanced Basic App Programming",
-      "Advanced Business Application Programming",
-      "The above is incorrect",
-      "Automated Business App Programming"
-    ],
-    "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
-  },
-  {
-    "id": "sap_1926",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q926] SAP FI module handles",
-    "options": [
-      "Production Planning",
-      "Logistics",
-      "Financial Accounting",
-      "Sales"
-    ],
-    "answer": 0,
-    "explanation": "FI module manages financial accounting."
-  },
-  {
-    "id": "sap_1927",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q927] SAP CO module handles",
-    "options": [
-      "Financial Accounting",
-      "Controlling",
-      "Procurement",
-      "HR"
-    ],
-    "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
-  },
-  {
-    "id": "sap_1928",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q928] SAP MM module handles",
-    "options": [
-      "Manufacturing",
-      "Marketing",
-      "Materials Management",
-      "Maintenance"
-    ],
-    "answer": 0,
-    "explanation": "MM handles procurement and inventory."
-  },
-  {
-    "id": "sap_1929",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q929] SAP SD module handles",
-    "options": [
-      "System Design",
-      "Cannot be determined",
-      "Sales and Distribution",
-      "Software Development"
-    ],
-    "answer": 0,
-    "explanation": "SD manages order-to-cash process."
-  },
-  {
-    "id": "sap_1930",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q930] SAP PP module handles",
-    "options": [
-      "Payroll",
-      "Procurement",
-      "All of the above",
-      "Production Planning"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1931",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q931] What is a SAP Client?",
-    "options": [
-      "Organizational unit in SAP",
-      "Database",
-      "Server",
-      "Module"
-    ],
-    "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
-  },
-  {
-    "id": "sap_1932",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q932] T-code in SAP means",
-    "options": [
-      "Both A and B",
-      "Transaction code",
-      "Transfer code",
-      "Technical code"
-    ],
-    "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
-  },
-  {
-    "id": "sap_1933",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q933] SE38 is used for",
-    "options": [
-      "Table display",
-      "User management",
-      "Insufficient information",
-      "ABAP Editor"
-    ],
-    "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
-  },
-  {
-    "id": "sap_1934",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q934] SE16 is used for",
-    "options": [
-      "Transport",
-      "Table browser",
-      "Option not applicable",
-      "Program editor"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1935",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q935] Transport request in SAP",
-    "options": [
-      "Backs up DB",
-      "Stores data",
-      "Moves changes between systems",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1936",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q936] SAP Basis team manages",
-    "options": [
-      "Finance",
-      "Neither A nor B",
-      "Technical infrastructure",
-      "Logistics"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1937",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q937] What is an IDOC?",
-    "options": [
-      "Intermediate Document",
-      "Internal Document",
-      "Integration Document",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1938",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q938] RFC in SAP stands for",
-    "options": [
-      "Remote File Copy",
-      "Remote Function Call",
-      "Both B and C",
-      "Rapid Function Call"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1939",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q939] BAPI stands for",
-    "options": [
-      "Business Automated Program Interface",
-      "Business Application Programming Interface",
-      "Basic API",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1940",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q940] What is SAP Fiori?",
-    "options": [
-      "Language",
-      "Module",
-      "Database",
-      "Modern UI for SAP"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1941",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q941] SAP HR module is also called",
-    "options": [
-      "SAP HCM",
-      "SAP MM",
-      "SAP FI",
-      "SAP PP"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1942",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q942] SAP CRM stands for",
-    "options": [
-      "Central Resource Management",
-      "Customer Relationship Management",
-      "Core Resource Module",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1943",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q943] What is a cost center in SAP?",
-    "options": [
-      "Revenue unit",
-      "The above is incorrect",
-      "Organizational unit for costs",
-      "Profit center"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1944",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q944] G/L in SAP FI means",
-    "options": [
-      "Insufficient information",
-      "General Ledger",
-      "General Line",
-      "Global Ledger"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1945",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q945] SAP PM module handles",
-    "options": [
-      "Cannot be determined",
-      "Plant Maintenance",
-      "Production Module",
-      "Product Management"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1946",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q946] What is a purchase order in SAP MM?",
-    "options": [
-      "Sales document",
-      "Document to procure goods",
-      "Cannot be determined",
-      "Delivery note"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1947",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q947] Profit center in SAP is",
-    "options": [
-      "Sub-unit for profitability",
-      "Department",
-      "Cost unit",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1948",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q948] What is SAP BW?",
-    "options": [
-      "Basic Workflow",
-      "Business Writing",
-      "Option not applicable",
-      "Business Warehouse/Analytics"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1949",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q949] What is a goods receipt?",
-    "options": [
-      "PO",
-      "Recording received materials",
-      "Invoice",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1950",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q950] LSMW in SAP",
-    "options": [
-      "Legacy System Migration Workbench",
-      "Option not applicable",
-      "Load System Module",
-      "Log System Management"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1951",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q951] SAP Solution Manager is used for",
-    "options": [
-      "None of the above",
-      "UI design",
-      "ALM and support",
-      "Database management"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1952",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q952] What is a business partner in SAP?",
-    "options": [
-      "Organizational unit",
-      "Customer/vendor master data",
-      "Module",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1953",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q953] Controlling area in SAP CO",
-    "options": [
-      "Neither A nor B",
-      "HR unit",
-      "Organizational unit for cost control",
-      "Financial unit"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1954",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q954] SAP EWM stands for",
-    "options": [
-      "The above is incorrect",
-      "Extended Web Module",
-      "Extended Warehouse Management",
-      "Enterprise Workflow Module"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1955",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q955] Dunning in SAP FI",
-    "options": [
-      "Automated payment reminders",
-      "The above is incorrect",
-      "Invoice",
-      "Goods receipt"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1956",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q956] SAP TM module handles",
-    "options": [
-      "Time Management",
-      "Technical Management",
-      "Neither A nor B",
-      "Transportation Management"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1957",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q957] What is a SAP landscape?",
-    "options": [
-      "Database cluster",
-      "All of the above",
-      "System arrangement DEV/QA/PROD",
-      "Network topology"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1958",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q958] Authorization object in SAP",
-    "options": [
-      "Controls access to functions",
-      "Both A and B",
-      "Stores data",
-      "Transports objects"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1959",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q959] SU01 T-code is used for",
-    "options": [
-      "ABAP editor",
-      "User management",
-      "Neither A nor B",
-      "Table view"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_1960",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q960] What is a work center in SAP PP?",
-    "options": [
-      "Where production operations occur",
-      "Storage location",
-      "Both A and B",
-      "Cost center"
-    ],
-    "answer": 0,
-    "explanation": "Work centers define resources for production."
-  },
-  {
-    "id": "sap_1961",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q961] SAP stands for",
-    "options": [
-      "Systems Automated Products",
-      "Software Application Platform",
-      "Systems Applications Products",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "SAP stands for Systeme, Anwendungen, Produkte."
-  },
-  {
-    "id": "sap_1962",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q962] SAP ERP stands for",
-    "options": [
-      "Enterprise Resource Planning",
-      "All of the above",
-      "Enterprise Resource Program",
-      "Extended Resource Planning"
-    ],
-    "answer": 0,
-    "explanation": "ERP integrates core business processes."
-  },
-  {
-    "id": "sap_1963",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q963] SAP HANA is",
-    "options": [
-      "Relational DB",
-      "Cloud only",
-      "In-memory database",
-      "NoSQL DB"
-    ],
-    "answer": 0,
-    "explanation": "SAP HANA is an in-memory computing platform."
-  },
-  {
-    "id": "sap_1964",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q964] SAP S/4HANA runs on",
-    "options": [
-      "MySQL",
-      "Oracle only",
-      "SAP HANA DB only",
-      "Any database"
-    ],
-    "answer": 0,
-    "explanation": "S/4HANA requires HANA as the underlying database."
-  },
-  {
-    "id": "sap_1965",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q965] ABAP stands for",
-    "options": [
-      "Automated Business App Programming",
-      "Advanced Business Application Programming",
-      "Data not provided",
-      "Advanced Basic App Programming"
-    ],
-    "answer": 0,
-    "explanation": "ABAP is SAP's proprietary language."
-  },
-  {
-    "id": "sap_1966",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q966] SAP FI module handles",
-    "options": [
-      "Logistics",
-      "Production Planning",
-      "Sales",
-      "Financial Accounting"
-    ],
-    "answer": 0,
-    "explanation": "FI module manages financial accounting."
-  },
-  {
-    "id": "sap_1967",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q967] SAP CO module handles",
-    "options": [
-      "HR",
-      "Procurement",
-      "Financial Accounting",
-      "Controlling"
-    ],
-    "answer": 0,
-    "explanation": "CO manages internal cost and revenue."
-  },
-  {
-    "id": "sap_1968",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q968] SAP MM module handles",
-    "options": [
-      "Materials Management",
-      "Marketing",
-      "Maintenance",
-      "Manufacturing"
-    ],
-    "answer": 0,
-    "explanation": "MM handles procurement and inventory."
-  },
-  {
-    "id": "sap_1969",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q969] SAP SD module handles",
-    "options": [
-      "System Design",
-      "Software Development",
-      "Sales and Distribution",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "SD manages order-to-cash process."
-  },
-  {
-    "id": "sap_1970",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q970] SAP PP module handles",
-    "options": [
-      "Procurement",
-      "Data not provided",
-      "Payroll",
-      "Production Planning"
-    ],
-    "answer": 0,
-    "explanation": "PP manages manufacturing processes."
-  },
-  {
-    "id": "sap_1971",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q971] What is a SAP Client?",
-    "options": [
-      "Organizational unit in SAP",
-      "Server",
-      "Database",
-      "Module"
-    ],
-    "answer": 0,
-    "explanation": "A client is an independent unit in SAP."
-  },
-  {
-    "id": "sap_1972",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q972] T-code in SAP means",
-    "options": [
-      "Transaction code",
-      "Transfer code",
-      "Both B and C",
-      "Technical code"
-    ],
-    "answer": 0,
-    "explanation": "T-codes navigate to SAP functions quickly."
-  },
-  {
-    "id": "sap_1973",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q973] SE38 is used for",
-    "options": [
-      "ABAP Editor",
-      "User management",
-      "Table display",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "SE38 opens the ABAP program editor."
-  },
-  {
-    "id": "sap_1974",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q974] SE16 is used for",
-    "options": [
-      "Program editor",
-      "Transport",
-      "Table browser",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "SE16 displays table contents."
-  },
-  {
-    "id": "sap_1975",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q975] Transport request in SAP",
-    "options": [
-      "Moves changes between systems",
-      "None of the above",
-      "Backs up DB",
-      "Stores data"
-    ],
-    "answer": 0,
-    "explanation": "Transports migrate configs from DEV to PROD."
-  },
-  {
-    "id": "sap_1976",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q976] SAP Basis team manages",
-    "options": [
-      "Insufficient information",
-      "Logistics",
-      "Finance",
-      "Technical infrastructure"
-    ],
-    "answer": 0,
-    "explanation": "Basis handles system administration."
-  },
-  {
-    "id": "sap_1977",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q977] What is an IDOC?",
-    "options": [
-      "Internal Document",
-      "Intermediate Document",
-      "Integration Document",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "IDOCs are SAP's data interchange format."
-  },
-  {
-    "id": "sap_1978",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q978] RFC in SAP stands for",
-    "options": [
-      "Remote Function Call",
-      "Remote File Copy",
-      "Rapid Function Call",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "RFC enables communication between SAP systems."
-  },
-  {
-    "id": "sap_1979",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q979] BAPI stands for",
-    "options": [
-      "Business Application Programming Interface",
-      "Business Automated Program Interface",
-      "None of the above",
-      "Basic API"
-    ],
-    "answer": 0,
-    "explanation": "BAPIs are standard SAP interfaces."
-  },
-  {
-    "id": "sap_1980",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q980] What is SAP Fiori?",
-    "options": [
-      "Database",
-      "Module",
-      "Language",
-      "Modern UI for SAP"
-    ],
-    "answer": 0,
-    "explanation": "Fiori provides role-based UX on any device."
-  },
-  {
-    "id": "sap_1981",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q981] SAP HR module is also called",
-    "options": [
-      "SAP FI",
-      "SAP MM",
-      "SAP PP",
-      "SAP HCM"
-    ],
-    "answer": 0,
-    "explanation": "Human Capital Management handles HR processes."
-  },
-  {
-    "id": "sap_1982",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q982] SAP CRM stands for",
-    "options": [
-      "Cannot be determined",
-      "Core Resource Module",
-      "Central Resource Management",
-      "Customer Relationship Management"
-    ],
-    "answer": 0,
-    "explanation": "CRM manages customer interactions."
-  },
-  {
-    "id": "sap_1983",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q983] What is a cost center in SAP?",
-    "options": [
-      "The above is incorrect",
-      "Profit center",
-      "Revenue unit",
-      "Organizational unit for costs"
-    ],
-    "answer": 0,
-    "explanation": "Cost centers collect and control costs."
-  },
-  {
-    "id": "sap_1984",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q984] G/L in SAP FI means",
-    "options": [
-      "General Ledger",
-      "General Line",
-      "Cannot be determined",
-      "Global Ledger"
-    ],
-    "answer": 0,
-    "explanation": "G/L is the main account book in FI."
-  },
-  {
-    "id": "sap_1985",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q985] SAP PM module handles",
-    "options": [
-      "Data not provided",
-      "Plant Maintenance",
-      "Production Module",
-      "Product Management"
-    ],
-    "answer": 0,
-    "explanation": "PM manages equipment maintenance."
-  },
-  {
-    "id": "sap_1986",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q986] What is a purchase order in SAP MM?",
-    "options": [
-      "None of the above",
-      "Delivery note",
-      "Document to procure goods",
-      "Sales document"
-    ],
-    "answer": 0,
-    "explanation": "PO is the formal procurement document."
-  },
-  {
-    "id": "sap_1987",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q987] Profit center in SAP is",
-    "options": [
-      "Sub-unit for profitability",
-      "The above is incorrect",
-      "Cost unit",
-      "Department"
-    ],
-    "answer": 0,
-    "explanation": "Profit centers analyze profitability by segment."
-  },
-  {
-    "id": "sap_1988",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q988] What is SAP BW?",
-    "options": [
-      "The above is incorrect",
-      "Business Writing",
-      "Basic Workflow",
-      "Business Warehouse/Analytics"
-    ],
-    "answer": 0,
-    "explanation": "BW is SAP's data warehousing solution."
-  },
-  {
-    "id": "sap_1989",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q989] What is a goods receipt?",
-    "options": [
-      "Invoice",
-      "Cannot be determined",
-      "Recording received materials",
-      "PO"
-    ],
-    "answer": 0,
-    "explanation": "GR records inventory received from vendor."
-  },
-  {
-    "id": "sap_1990",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q990] LSMW in SAP",
-    "options": [
-      "None of the above",
-      "Legacy System Migration Workbench",
-      "Log System Management",
-      "Load System Module"
-    ],
-    "answer": 0,
-    "explanation": "LSMW migrates legacy data into SAP."
-  },
-  {
-    "id": "sap_1991",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q991] SAP Solution Manager is used for",
-    "options": [
-      "Database management",
-      "None of the above",
-      "UI design",
-      "ALM and support"
-    ],
-    "answer": 0,
-    "explanation": "Solution Manager manages SAP implementations."
-  },
-  {
-    "id": "sap_1992",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q992] What is a business partner in SAP?",
-    "options": [
-      "Module",
-      "Both A and B",
-      "Customer/vendor master data",
-      "Organizational unit"
-    ],
-    "answer": 0,
-    "explanation": "Business Partner consolidates customer/vendor data."
-  },
-  {
-    "id": "sap_1993",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q993] Controlling area in SAP CO",
-    "options": [
-      "Financial unit",
-      "Organizational unit for cost control",
-      "All of the above",
-      "HR unit"
-    ],
-    "answer": 0,
-    "explanation": "Controlling area groups cost/profit centers."
-  },
-  {
-    "id": "sap_1994",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q994] SAP EWM stands for",
-    "options": [
-      "Enterprise Workflow Module",
-      "The above is incorrect",
-      "Extended Web Module",
-      "Extended Warehouse Management"
-    ],
-    "answer": 0,
-    "explanation": "EWM manages complex warehouse operations."
-  },
-  {
-    "id": "sap_1995",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q995] Dunning in SAP FI",
-    "options": [
-      "Invoice",
-      "Automated payment reminders",
-      "Goods receipt",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Dunning sends reminders for overdue payments."
-  },
-  {
-    "id": "sap_1996",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q996] SAP TM module handles",
-    "options": [
-      "Transportation Management",
-      "Time Management",
-      "Technical Management",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "TM plans and optimizes transportation."
-  },
-  {
-    "id": "sap_1997",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q997] What is a SAP landscape?",
-    "options": [
-      "Database cluster",
-      "Network topology",
-      "System arrangement DEV/QA/PROD",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Landscape defines the system environment tiers."
-  },
-  {
-    "id": "sap_1998",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q998] Authorization object in SAP",
-    "options": [
-      "Transports objects",
-      "Controls access to functions",
-      "Stores data",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Authorization objects define access permissions."
-  },
-  {
-    "id": "sap_1999",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[SAP-Q999] SU01 T-code is used for",
-    "options": [
-      "Table view",
-      "User management",
-      "The above is incorrect",
-      "ABAP editor"
-    ],
-    "answer": 0,
-    "explanation": "SU01 creates and manages SAP users."
-  },
-  {
-    "id": "sap_2000",
-    "topic": "SAP Engineer",
-    "section": "Practical Modules",
-    "difficulty": "Medium",
+    "section": "Cloud & Architecture",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[SAP-Q1000] What is a work center in SAP PP?",
+    "question": "What is SAP Analytics Cloud integration with Fiori?",
     "options": [
-      "Storage location",
-      "Where production operations occur",
-      "Cost center",
-      "Both B and C"
+      "Embeds SAC stories and analytics in Fiori Launchpad tiles",
+      "Separate tool",
+      "BW integration",
+      "Crystal Reports"
     ],
     "answer": 0,
-    "explanation": "Work centers define resources for production."
+    "explanation": "The correct answer is Embeds SAC stories and analytics in Fiori Launchpad tiles."
   }
 ];

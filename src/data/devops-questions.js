@@ -1,16002 +1,14402 @@
 export const devopsQuestions = [
   {
-    "id": "devops_1001",
+    "id": "DEVOPS_DOC_001",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q1] DevOps combines",
+    "question": "What is Docker?",
     "options": [
-      "Cannot be determined",
-      "Design and Ops",
-      "Development and Operations",
-      "Dev and QA"
+      "Platform for packaging applications into portable containers",
+      "VM software",
+      "CI/CD tool",
+      "Cloud provider"
     ],
     "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
+    "explanation": "The correct answer is Platform for packaging applications into portable containers."
   },
   {
-    "id": "devops_1002",
+    "id": "DEVOPS_DOC_002",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q2] CI stands for",
+    "question": "What is a Docker container?",
     "options": [
-      "Code Integration",
-      "Continuous Inspection",
-      "Continuous Integration",
-      "Option not applicable"
+      "Lightweight isolated runtime environment sharing host OS kernel",
+      "Virtual machine",
+      "Disk image",
+      "Process only"
     ],
     "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
+    "explanation": "The correct answer is Lightweight isolated runtime environment sharing host OS kernel."
   },
   {
-    "id": "devops_1003",
+    "id": "DEVOPS_DOC_003",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q3] CD stands for",
+    "question": "What is a Docker image?",
     "options": [
-      "Both A and B",
-      "Code Deployment",
-      "Continuous Design",
-      "Continuous Delivery/Deployment"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1004",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q4] Docker is used for",
-    "options": [
-      "Virtualization",
-      "Insufficient information",
-      "Containerization",
-      "Orchestration"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1005",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q5] Kubernetes is used for",
-    "options": [
-      "Containerization",
-      "Container orchestration",
-      "Neither A nor B",
-      "CI/CD"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1006",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q6] Jenkins is",
-    "options": [
-      "Container tool",
-      "Version control",
-      "Data not provided",
-      "CI/CD automation server"
-    ],
-    "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
-  },
-  {
-    "id": "devops_1007",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q7] Git is",
-    "options": [
-      "Container",
-      "None of the above",
-      "CI tool",
-      "Distributed version control"
-    ],
-    "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
-  },
-  {
-    "id": "devops_1008",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q8] What is Infrastructure as Code?",
-    "options": [
-      "The above is incorrect",
-      "Cloud only",
-      "Manual server config",
-      "Managing infra via code"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1009",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q9] Terraform is used for",
-    "options": [
-      "Option not applicable",
-      "Containerization",
-      "IaC / cloud provisioning",
-      "Monitoring"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1010",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q10] Ansible is used for",
-    "options": [
-      "Configuration management",
-      "CI/CD",
-      "Option not applicable",
-      "Container orchestration"
-    ],
-    "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
-  },
-  {
-    "id": "devops_1011",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q11] What is a pipeline?",
-    "options": [
-      "Database",
-      "Automated workflow stages",
-      "Manual process",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
-  },
-  {
-    "id": "devops_1012",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q12] Blue-Green deployment",
-    "options": [
-      "Neither A nor B",
-      "Rolling update",
-      "Canary release",
-      "Zero-downtime deployment strategy"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1013",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q13] Canary deployment",
-    "options": [
-      "None of the above",
-      "Blue-green",
-      "Full rollout",
-      "Gradual rollout to subset"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1014",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q14] What is monitoring in DevOps?",
-    "options": [
-      "Deployment",
-      "None of the above",
-      "Tracking system health",
-      "Testing"
-    ],
-    "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
-  },
-  {
-    "id": "devops_1015",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q15] Prometheus is",
-    "options": [
-      "Container",
-      "Metrics monitoring tool",
-      "CI server",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
-  },
-  {
-    "id": "devops_1016",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q16] Grafana is used for",
-    "options": [
-      "Visualization dashboards",
-      "IaC",
-      "All of the above",
-      "CI/CD"
-    ],
-    "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
-  },
-  {
-    "id": "devops_1017",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q17] What is a microservice?",
-    "options": [
-      "Insufficient information",
-      "Monolithic app",
-      "Database",
-      "Small independent service"
-    ],
-    "answer": 0,
-    "explanation": "Microservices are independently deployable services."
-  },
-  {
-    "id": "devops_1018",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q18] Load balancer does",
-    "options": [
-      "All of the above",
-      "Stores data",
-      "Monitors logs",
-      "Distributes traffic"
-    ],
-    "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
-  },
-  {
-    "id": "devops_1019",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q19] What is auto-scaling?",
-    "options": [
-      "Fixed resources",
-      "Adjusting resources based on demand",
-      "Data not provided",
-      "Manual scaling"
-    ],
-    "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
-  },
-  {
-    "id": "devops_1020",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q20] ELK stack includes",
-    "options": [
-      "Express Logstash Kafka",
-      "Elasticsearch Logstash Kibana",
-      "Elastic Linux Kubernetes",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "ELK is a popular log management stack."
-  },
-  {
-    "id": "devops_1021",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q21] What is a container image?",
-    "options": [
-      "Read-only template for containers",
-      "Option not applicable",
+      "Read-only template for creating containers",
       "Running container",
-      "Virtual machine"
+      "VM snapshot",
+      "Zip archive"
     ],
     "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
+    "explanation": "The correct answer is Read-only template for creating containers."
   },
   {
-    "id": "devops_1022",
+    "id": "DEVOPS_DOC_004",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a Dockerfile?",
+    "options": [
+      "Script with instructions to build a Docker image",
+      "Container config",
+      "Docker binary",
+      "Registry file"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Script with instructions to build a Docker image."
+  },
+  {
+    "id": "DEVOPS_DOC_005",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does FROM in Dockerfile do?",
+    "options": [
+      "Specifies the base image for the build",
+      "Sets working directory",
+      "Copies files",
+      "Runs commands"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Specifies the base image for the build."
+  },
+  {
+    "id": "DEVOPS_DOC_006",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does RUN in Dockerfile do?",
+    "options": [
+      "Executes commands in a new layer during build",
+      "Runs container",
+      "Starts services",
+      "Copies files"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Executes commands in a new layer during build."
+  },
+  {
+    "id": "DEVOPS_DOC_007",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does COPY in Dockerfile do?",
+    "options": [
+      "Copies files from host to image filesystem",
+      "Copies environment vars",
+      "Runs commands",
+      "Exposes ports"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Copies files from host to image filesystem."
+  },
+  {
+    "id": "DEVOPS_DOC_008",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does CMD in Dockerfile do?",
+    "options": [
+      "Default command to run when container starts",
+      "Build command",
+      "Install command",
+      "Copy command"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Default command to run when container starts."
+  },
+  {
+    "id": "DEVOPS_DOC_009",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between CMD and ENTRYPOINT?",
+    "options": [
+      "ENTRYPOINT is always executed; CMD provides default arguments",
+      "No difference",
+      "CMD is always executed",
+      "ENTRYPOINT is optional"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is ENTRYPOINT is always executed; CMD provides default arguments."
+  },
+  {
+    "id": "DEVOPS_DOC_010",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q22] Dockerfile is",
+    "question": "What does EXPOSE in Dockerfile do?",
     "options": [
+      "Documents which port container listens on (doesn't actually publish)",
+      "Opens port on host",
+      "Creates port mapping",
+      "Blocks port"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Documents which port container listens on (doesn't actually publish)."
+  },
+  {
+    "id": "DEVOPS_DOC_011",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does ENV in Dockerfile do?",
+    "options": [
+      "Sets environment variable in the image",
+      "Runs environment",
+      "Exports variable",
+      "Installs package"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sets environment variable in the image."
+  },
+  {
+    "id": "DEVOPS_DOC_012",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does WORKDIR in Dockerfile do?",
+    "options": [
+      "Sets the working directory for subsequent instructions",
+      "Changes user",
+      "Changes permissions",
+      "Creates directory only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sets the working directory for subsequent instructions."
+  },
+  {
+    "id": "DEVOPS_DOC_013",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Docker volume?",
+    "options": [
+      "Persistent storage that exists outside container lifecycle",
+      "Temporary storage",
+      "Memory storage",
+      "Cache storage"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Persistent storage that exists outside container lifecycle."
+  },
+  {
+    "id": "DEVOPS_DOC_014",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a bind mount?",
+    "options": [
+      "Mounts a host filesystem path into the container",
+      "Docker volume",
+      "Temp file",
+      "Memory mount"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Mounts a host filesystem path into the container."
+  },
+  {
+    "id": "DEVOPS_DOC_015",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does docker build do?",
+    "options": [
+      "Builds a Docker image from a Dockerfile",
+      "Runs container",
+      "Pulls image",
+      "Pushes image"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Builds a Docker image from a Dockerfile."
+  },
+  {
+    "id": "DEVOPS_DOC_016",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does docker run do?",
+    "options": [
+      "Creates and starts a container from an image",
+      "Builds image",
+      "Stops container",
+      "Removes container"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates and starts a container from an image."
+  },
+  {
+    "id": "DEVOPS_DOC_017",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does -d flag in docker run do?",
+    "options": [
+      "Runs container in detached (background) mode",
+      "Deletes after exit",
+      "Adds debug mode",
+      "Disables networking"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Runs container in detached (background) mode."
+  },
+  {
+    "id": "DEVOPS_DOC_018",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does -p 8080:80 flag do?",
+    "options": [
+      "Maps host port 8080 to container port 80",
+      "Maps volumes",
+      "Sets memory",
+      "Adds network"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Maps host port 8080 to container port 80."
+  },
+  {
+    "id": "DEVOPS_DOC_019",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does docker ps do?",
+    "options": [
+      "Lists running containers",
+      "Lists images",
+      "Lists volumes",
+      "Lists networks"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Lists running containers."
+  },
+  {
+    "id": "DEVOPS_DOC_020",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does docker ps -a do?",
+    "options": [
+      "Lists all containers (running and stopped)",
+      "Lists all images",
+      "Lists all volumes",
+      "Lists all networks"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Lists all containers (running and stopped)."
+  },
+  {
+    "id": "DEVOPS_DOC_021",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does docker images do?",
+    "options": [
+      "Lists locally stored images",
+      "Lists containers",
+      "Lists volumes",
+      "Lists registries"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Lists locally stored images."
+  },
+  {
+    "id": "DEVOPS_DOC_022",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does docker pull do?",
+    "options": [
+      "Downloads image from registry",
+      "Builds image",
+      "Runs container",
+      "Pushes image"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Downloads image from registry."
+  },
+  {
+    "id": "DEVOPS_DOC_023",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does docker push do?",
+    "options": [
+      "Uploads image to a registry",
+      "Pulls image",
+      "Builds image",
+      "Runs container"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Uploads image to a registry."
+  },
+  {
+    "id": "DEVOPS_DOC_024",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is Docker Hub?",
+    "options": [
+      "Public registry for Docker images",
+      "Docker's CI/CD tool",
+      "Docker's cluster manager",
+      "Docker's IDE"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Public registry for Docker images."
+  },
+  {
+    "id": "DEVOPS_DOC_025",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does docker exec do?",
+    "options": [
+      "Runs a command inside running container",
+      "Builds image",
+      "Starts new container",
+      "Runs on host"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Runs a command inside running container."
+  },
+  {
+    "id": "DEVOPS_DOC_026",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does docker logs do?",
+    "options": [
+      "Shows container stdout/stderr logs",
+      "Shows system logs",
+      "Shows build logs",
+      "Shows image logs"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows container stdout/stderr logs."
+  },
+  {
+    "id": "DEVOPS_DOC_027",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does docker stop do?",
+    "options": [
+      "Gracefully stops a running container (SIGTERM)",
+      "Force kills",
+      "Removes container",
+      "Pauses container"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Gracefully stops a running container (SIGTERM)."
+  },
+  {
+    "id": "DEVOPS_DOC_028",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does docker rm do?",
+    "options": [
+      "Removes a stopped container",
+      "Removes image",
+      "Removes volume",
+      "Removes network"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Removes a stopped container."
+  },
+  {
+    "id": "DEVOPS_DOC_029",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does docker rmi do?",
+    "options": [
+      "Removes a Docker image",
+      "Removes container",
+      "Removes volume",
+      "Removes network"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Removes a Docker image."
+  },
+  {
+    "id": "DEVOPS_DOC_030",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is Docker Compose?",
+    "options": [
+      "Tool for defining multi-container apps with docker-compose.yml",
+      "Single container tool",
+      "Container registry",
+      "Container monitoring"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tool for defining multi-container apps with docker-compose.yml."
+  },
+  {
+    "id": "DEVOPS_DOC_031",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the purpose of docker-compose.yml?",
+    "options": [
+      "Defines services, networks, and volumes for multi-container apps",
+      "Dockerfile replacement",
+      "Image config",
+      "Build script"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defines services, networks, and volumes for multi-container apps."
+  },
+  {
+    "id": "DEVOPS_DOC_032",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does docker-compose up do?",
+    "options": [
+      "Creates and starts all services in compose file",
+      "Builds only",
+      "Stops services",
+      "Removes services"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates and starts all services in compose file."
+  },
+  {
+    "id": "DEVOPS_DOC_033",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does docker-compose down do?",
+    "options": [
+      "Stops and removes containers, networks, and volumes",
+      "Just stops containers",
+      "Just removes images",
+      "Just removes volumes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stops and removes containers, networks, and volumes."
+  },
+  {
+    "id": "DEVOPS_DOC_034",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Docker network?",
+    "options": [
+      "Virtual network enabling containers to communicate",
+      "Container storage",
+      "Image layer",
+      "Build cache"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Virtual network enabling containers to communicate."
+  },
+  {
+    "id": "DEVOPS_DOC_035",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What are the default Docker network drivers?",
+    "options": [
+      "bridge, host, none, overlay",
+      "tcp, udp, nat",
+      "internal, external, shared",
+      "public, private, isolated"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is bridge, host, none, overlay."
+  },
+  {
+    "id": "DEVOPS_DOC_036",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the bridge network in Docker?",
+    "options": [
+      "Default network for containers on single host",
+      "Multi-host network",
+      "Host networking",
+      "No networking"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Default network for containers on single host."
+  },
+  {
+    "id": "DEVOPS_DOC_037",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is overlay network in Docker?",
+    "options": [
+      "Multi-host network for Docker Swarm services",
+      "Single host network",
+      "Bridge variant",
+      "DNS network"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Multi-host network for Docker Swarm services."
+  },
+  {
+    "id": "DEVOPS_DOC_038",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Docker layer caching?",
+    "options": [
+      "Reusing unchanged Dockerfile layers to speed up builds",
+      "Container caching",
+      "Network caching",
+      "Volume caching"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reusing unchanged Dockerfile layers to speed up builds."
+  },
+  {
+    "id": "DEVOPS_DOC_039",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Why should you order Dockerfile instructions from least to most frequently changed?",
+    "options": [
+      "To maximize layer cache utilization",
+      "For readability",
+      "For security",
+      "For performance"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is To maximize layer cache utilization."
+  },
+  {
+    "id": "DEVOPS_DOC_040",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a multi-stage Dockerfile build?",
+    "options": [
+      "Using multiple FROM statements to create smaller production images",
+      "Multiple containers",
+      "Multi-arch builds",
+      "Parallel builds"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Using multiple FROM statements to create smaller production images."
+  },
+  {
+    "id": "DEVOPS_DOC_041",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the difference between image and container?",
+    "options": [
+      "Image is template; container is running instance of image",
+      "Same thing",
+      "Container is smaller",
+      "Image is running"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Image is template; container is running instance of image."
+  },
+  {
+    "id": "DEVOPS_DOC_042",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Docker Swarm?",
+    "options": [
+      "Native Docker cluster management and orchestration tool",
+      "Registry tool",
+      "Monitoring tool",
+      "Security tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Native Docker cluster management and orchestration tool."
+  },
+  {
+    "id": "DEVOPS_DOC_043",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the difference between Docker Swarm and Kubernetes?",
+    "options": [
+      "K8s is more powerful with larger ecosystem; Swarm is simpler",
+      "No difference",
+      "Swarm is more complex",
+      "K8s is Docker-only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is K8s is more powerful with larger ecosystem; Swarm is simpler."
+  },
+  {
+    "id": "DEVOPS_DOC_044",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a Docker registry?",
+    "options": [
+      "Storage and distribution system for Docker images",
+      "Container manager",
+      "Build system",
+      "Monitoring system"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Storage and distribution system for Docker images."
+  },
+  {
+    "id": "DEVOPS_DOC_045",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a private registry?",
+    "options": [
+      "Registry accessible only within organization (e.g., ECR, GCR)",
+      "Public registry",
+      "Local registry",
+      "Encrypted registry"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Registry accessible only within organization (e.g., ECR, GCR)."
+  },
+  {
+    "id": "DEVOPS_DOC_046",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does .dockerignore do?",
+    "options": [
+      "Excludes files/directories from the build context",
+      "Ignores Docker commands",
+      "Skips layers",
+      "Excludes networks"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Excludes files/directories from the build context."
+  },
+  {
+    "id": "DEVOPS_DOC_047",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the HEALTHCHECK instruction?",
+    "options": [
+      "Defines command Docker uses to check if container is healthy",
+      "Sets up monitoring",
+      "Logs health data",
+      "Monitors CPU"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defines command Docker uses to check if container is healthy."
+  },
+  {
+    "id": "DEVOPS_DOC_048",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is docker inspect?",
+    "options": [
+      "Returns detailed JSON information about Docker objects",
+      "Runs containers",
+      "Builds images",
+      "Shows logs"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Returns detailed JSON information about Docker objects."
+  },
+  {
+    "id": "DEVOPS_DOC_049",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is docker stats?",
+    "options": [
+      "Shows live resource usage (CPU, memory) of containers",
+      "Shows logs",
+      "Shows images",
+      "Shows networks"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows live resource usage (CPU, memory) of containers."
+  },
+  {
+    "id": "DEVOPS_DOC_050",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the principle of immutable containers?",
+    "options": [
+      "Containers should not be modified in place — rebuild and redeploy",
+      "Containers are permanent",
+      "Containers can't be deleted",
+      "Images are mutable"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Containers should not be modified in place — rebuild and redeploy."
+  },
+  {
+    "id": "DEVOPS_DOC_051",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a scratch image?",
+    "options": [
+      "Minimal empty base image for building from scratch",
+      "Default base image",
+      "Debug image",
+      "Test image"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Minimal empty base image for building from scratch."
+  },
+  {
+    "id": "DEVOPS_DOC_052",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does USER instruction in Dockerfile do?",
+    "options": [
+      "Sets the user for running subsequent commands (security best practice)",
+      "Creates user",
+      "Deletes user",
+      "Lists users"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sets the user for running subsequent commands (security best practice)."
+  },
+  {
+    "id": "DEVOPS_DOC_053",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is container orchestration?",
+    "options": [
+      "Automating deployment, scaling, and management of containers",
+      "Manual management",
+      "Container building",
+      "Image distribution"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automating deployment, scaling, and management of containers."
+  },
+  {
+    "id": "DEVOPS_DOC_054",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is tini?",
+    "options": [
+      "Minimal init system to handle PID 1 signal handling in containers",
+      "Container OS",
+      "Build tool",
+      "Monitoring agent"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Minimal init system to handle PID 1 signal handling in containers."
+  },
+  {
+    "id": "DEVOPS_DOC_055",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a Docker socket?",
+    "options": [
+      "Unix socket (/var/run/docker.sock) for communicating with Docker daemon",
+      "Network socket",
+      "File socket",
+      "Volume socket"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Unix socket (/var/run/docker.sock) for communicating with Docker daemon."
+  },
+  {
+    "id": "DEVOPS_DOC_056",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the Docker daemon?",
+    "options": [
+      "Background service managing Docker objects (images, containers, networks)",
+      "CLI tool",
+      "Registry server",
+      "Build cache"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Background service managing Docker objects (images, containers, networks)."
+  },
+  {
+    "id": "DEVOPS_DOC_057",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is context in docker build?",
+    "options": [
+      "Files sent to Docker daemon for building (current directory by default)",
+      "Build cache",
+      "Layer context",
+      "Network context"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Files sent to Docker daemon for building (current directory by default)."
+  },
+  {
+    "id": "DEVOPS_DOC_058",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the ADD instruction vs COPY?",
+    "options": [
+      "ADD can untar archives and fetch URLs; COPY is simpler and preferred",
+      "No difference",
+      "COPY is deprecated",
+      "ADD is deprecated"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is ADD can untar archives and fetch URLs; COPY is simpler and preferred."
+  },
+  {
+    "id": "DEVOPS_DOC_059",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is docker prune?",
+    "options": [
+      "Removes unused Docker objects (containers, images, networks, volumes)",
+      "Rebuilds images",
+      "Pulls updates",
+      "Cleans logs"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Removes unused Docker objects (containers, images, networks, volumes)."
+  },
+  {
+    "id": "DEVOPS_DOC_060",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the difference between docker stop and docker kill?",
+    "options": [
+      "stop sends SIGTERM; kill sends SIGKILL immediately",
+      "No difference",
+      "kill is graceful",
+      "stop is immediate"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is stop sends SIGTERM; kill sends SIGKILL immediately."
+  },
+  {
+    "id": "DEVOPS_DOC_061",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a container restart policy?",
+    "options": [
+      "Configures whether/when Docker auto-restarts containers (always, on-failure)",
+      "Resource limit",
+      "Network policy",
+      "Volume policy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Configures whether/when Docker auto-restarts containers (always, on-failure)."
+  },
+  {
+    "id": "DEVOPS_DOC_062",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is dind (Docker in Docker)?",
+    "options": [
+      "Running Docker daemon inside a Docker container",
+      "Docker development mode",
+      "Container testing",
+      "Debug mode"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Running Docker daemon inside a Docker container."
+  },
+  {
+    "id": "DEVOPS_DOC_063",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a read-only container?",
+    "options": [
+      "Container with --read-only flag, filesystem cannot be written to",
+      "Container with no volumes",
+      "Container without exec",
+      "Container with no logs"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Container with --read-only flag, filesystem cannot be written to."
+  },
+  {
+    "id": "DEVOPS_DOC_064",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Docker content trust?",
+    "options": [
+      "Signs and verifies Docker images for security",
+      "Content delivery",
+      "Image compression",
+      "Image encryption"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Signs and verifies Docker images for security."
+  },
+  {
+    "id": "DEVOPS_DOC_065",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a Docker plugin?",
+    "options": [
+      "Extension adding functionality to Docker daemon (logging, volumes)",
+      "Docker extension",
+      "Image plugin",
+      "Container plugin"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Extension adding functionality to Docker daemon (logging, volumes)."
+  },
+  {
+    "id": "DEVOPS_DOC_066",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is --no-cache in docker build?",
+    "options": [
+      "Disables layer caching, performs fresh build from scratch",
+      "Disables build logs",
+      "Disables network",
+      "Disables volumes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Disables layer caching, performs fresh build from scratch."
+  },
+  {
+    "id": "DEVOPS_DOC_067",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of ARG in Dockerfile?",
+    "options": [
+      "Defines build-time variables passed via --build-arg",
+      "Runtime variable",
+      "Environment variable",
+      "Secret variable"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defines build-time variables passed via --build-arg."
+  },
+  {
+    "id": "DEVOPS_DOC_068",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between ARG and ENV in Dockerfile?",
+    "options": [
+      "ARG is build-time only; ENV persists in the image and runtime",
+      "No difference",
+      "ARG persists longer",
+      "ENV is build-time only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is ARG is build-time only; ENV persists in the image and runtime."
+  },
+  {
+    "id": "DEVOPS_DOC_069",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a Docker namespace?",
+    "options": [
+      "Linux feature providing process isolation for containers",
+      "Network namespace only",
+      "Docker's naming convention",
+      "Registry namespace"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Linux feature providing process isolation for containers."
+  },
+  {
+    "id": "DEVOPS_DOC_070",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a cgroup?",
+    "options": [
+      "Linux feature limiting resource (CPU, memory) usage for containers",
+      "Container group",
+      "Network group",
+      "Process group"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Linux feature limiting resource (CPU, memory) usage for containers."
+  },
+  {
+    "id": "DEVOPS_DOC_071",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is seccomp in Docker security?",
+    "options": [
+      "System call filtering to restrict container capabilities",
+      "Secret communication",
+      "Security compliance",
+      "Certificate management"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is System call filtering to restrict container capabilities."
+  },
+  {
+    "id": "DEVOPS_DOC_072",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a multi-arch image?",
+    "options": [
+      "Single image tag serving different CPU architectures (amd64, arm64)",
+      "Multi-layer image",
+      "Multi-stage build",
+      "Multiple images"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Single image tag serving different CPU architectures (amd64, arm64)."
+  },
+  {
+    "id": "DEVOPS_DOC_073",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is ONBUILD instruction?",
+    "options": [
+      "Adds trigger instruction to execute when image is used as base",
+      "Always runs on build",
+      "Runs on container start",
+      "Runs on pull"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Adds trigger instruction to execute when image is used as base."
+  },
+  {
+    "id": "DEVOPS_DOC_074",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does docker tag do?",
+    "options": [
+      "Creates a new tag for an existing image",
+      "Renames container",
+      "Labels volume",
+      "Tags network"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates a new tag for an existing image."
+  },
+  {
+    "id": "DEVOPS_DOC_075",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Docker's copy-on-write filesystem?",
+    "options": [
+      "Containers share image layers and only write differences",
+      "Full filesystem copy",
+      "Read-only filesystem",
+      "Write-only filesystem"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Containers share image layers and only write differences."
+  },
+  {
+    "id": "DEVOPS_DOC_076",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a LABEL in Dockerfile?",
+    "options": [
+      "Adds metadata key-value pairs to image (author, version, etc.)",
+      "Adds environment var",
+      "Renames layer",
+      "Tags the image"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Adds metadata key-value pairs to image (author, version, etc.)."
+  },
+  {
+    "id": "DEVOPS_DOC_077",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the init flag in docker run?",
+    "options": [
+      "Runs init process as PID 1 for proper signal handling",
+      "Initializes volumes",
+      "Initializes network",
+      "Starts daemon"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Runs init process as PID 1 for proper signal handling."
+  },
+  {
+    "id": "DEVOPS_DOC_078",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is container drift?",
+    "options": [
+      "Production container having different state than original image",
+      "Container update",
+      "Configuration change",
+      "Version drift"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Production container having different state than original image."
+  },
+  {
+    "id": "DEVOPS_DOC_079",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Distroless image?",
+    "options": [
+      "Minimal image containing only application and runtime, no shell",
+      "Debug image",
+      "Base OS image",
+      "Empty image"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Minimal image containing only application and runtime, no shell."
+  },
+  {
+    "id": "DEVOPS_DOC_080",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is BuildKit?",
+    "options": [
+      "Next-generation Docker build engine with better performance and security",
+      "Registry tool",
       "Container runtime",
-      "Both A and B",
-      "Script to build Docker image",
-      "Kubernetes config"
+      "Build cache"
     ],
     "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
+    "explanation": "The correct answer is Next-generation Docker build engine with better performance and security."
   },
   {
-    "id": "devops_1023",
+    "id": "DEVOPS_DOC_081",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q23] Kubernetes Pod is",
+    "question": "What is the purpose of STOPSIGNAL in Dockerfile?",
     "options": [
-      "Service",
-      "Data not provided",
-      "Node",
-      "Smallest deployable unit"
+      "Sets the signal sent to container to stop it",
+      "Starts container",
+      "Logs signals",
+      "Blocks signals"
     ],
     "answer": 0,
-    "explanation": "A Pod contains one or more containers."
+    "explanation": "The correct answer is Sets the signal sent to container to stop it."
   },
   {
-    "id": "devops_1024",
+    "id": "DEVOPS_DOC_082",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is docker commit?",
+    "options": [
+      "Creates image from running container's current state (anti-pattern)",
+      "Best practice",
+      "Testing tool",
+      "Backup method"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates image from running container's current state (anti-pattern)."
+  },
+  {
+    "id": "DEVOPS_DOC_083",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a tmpfs mount?",
+    "options": [
+      "Temporary filesystem stored in host memory, not persisted",
+      "Permanent volume",
+      "Disk-backed storage",
+      "Network storage"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Temporary filesystem stored in host memory, not persisted."
+  },
+  {
+    "id": "DEVOPS_DOC_084",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q24] Helm in Kubernetes",
+    "question": "What is container image scanning?",
     "options": [
-      "Both A and B",
-      "Monitoring",
+      "Checking container images for known security vulnerabilities",
+      "Performance scanning",
+      "Log scanning",
+      "Network scanning"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Checking container images for known security vulnerabilities."
+  },
+  {
+    "id": "DEVOPS_DOC_085",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What tool is commonly used for image scanning?",
+    "options": [
+      "Trivy or Snyk",
+      "Prometheus",
+      "Grafana",
+      "Jaeger"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Trivy or Snyk."
+  },
+  {
+    "id": "DEVOPS_DOC_086",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is OCI (Open Container Initiative)?",
+    "options": [
+      "Standards for container formats and runtimes",
+      "Open source container",
+      "Oracle Container Interface",
+      "Optional Container Init"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Standards for container formats and runtimes."
+  },
+  {
+    "id": "DEVOPS_DOC_087",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is containerd?",
+    "options": [
+      "Industry-standard container runtime used by Kubernetes",
+      "Docker Compose alternative",
+      "Registry server",
+      "Build tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Industry-standard container runtime used by Kubernetes."
+  },
+  {
+    "id": "DEVOPS_DOC_088",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is runc?",
+    "options": [
+      "Low-level OCI container runtime used by containerd",
+      "High-level runtime",
+      "Registry tool",
+      "Build engine"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Low-level OCI container runtime used by containerd."
+  },
+  {
+    "id": "DEVOPS_DOC_089",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between docker run -v and --mount?",
+    "options": [
+      "--mount is more explicit and recommended; -v is shorthand",
+      "No difference",
+      "-v is deprecated",
+      "--mount is deprecated"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is --mount is more explicit and recommended; -v is shorthand."
+  },
+  {
+    "id": "DEVOPS_DOC_090",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a named volume vs anonymous volume?",
+    "options": [
+      "Named has user-defined name; anonymous has Docker-generated hash",
+      "No difference",
+      "Named volumes are temporary",
+      "Anonymous volumes persist longer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Named has user-defined name; anonymous has Docker-generated hash."
+  },
+  {
+    "id": "DEVOPS_DOC_091",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is volume driver?",
+    "options": [
+      "Plugin for storing volumes on external storage (NFS, cloud)",
+      "Storage compression",
+      "Volume encryption",
+      "Volume backup"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Plugin for storing volumes on external storage (NFS, cloud)."
+  },
+  {
+    "id": "DEVOPS_DOC_092",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does docker volume prune do?",
+    "options": [
+      "Removes all unused (not mounted by any container) volumes",
+      "Removes all volumes",
+      "Compresses volumes",
+      "Lists volumes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Removes all unused (not mounted by any container) volumes."
+  },
+  {
+    "id": "DEVOPS_DOC_093",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is docker save and docker load?",
+    "options": [
+      "Save exports image to tar; load imports tar as image",
+      "Save runs container; load builds",
+      "Both deprecated",
+      "Same as push/pull"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Save exports image to tar; load imports tar as image."
+  },
+  {
+    "id": "DEVOPS_DOC_094",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a distro-specific image tag (e.g., alpine, slim)?",
+    "options": [
+      "Alpine/slim are minimal variants; alpine uses musl libc",
+      "Different OS",
+      "Different architecture",
+      "Different version"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Alpine/slim are minimal variants; alpine uses musl libc."
+  },
+  {
+    "id": "DEVOPS_KUB_001",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is Kubernetes (K8s)?",
+    "options": [
+      "Open-source container orchestration platform for automating deployment and scaling",
+      "Docker alternative",
+      "Cloud provider",
+      "CI/CD tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Open-source container orchestration platform for automating deployment and scaling."
+  },
+  {
+    "id": "DEVOPS_KUB_002",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a Pod in Kubernetes?",
+    "options": [
+      "Smallest deployable unit, one or more containers sharing network/storage",
+      "Single container only",
+      "Virtual machine",
+      "Service"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Smallest deployable unit, one or more containers sharing network/storage."
+  },
+  {
+    "id": "DEVOPS_KUB_003",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a Node in Kubernetes?",
+    "options": [
+      "Physical or virtual machine in the cluster running Pods",
+      "Pod group",
+      "Namespace",
+      "Service"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Physical or virtual machine in the cluster running Pods."
+  },
+  {
+    "id": "DEVOPS_KUB_004",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a Cluster in Kubernetes?",
+    "options": [
+      "Group of nodes managed by Kubernetes control plane",
+      "Single node",
+      "Pod group",
+      "Namespace"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Group of nodes managed by Kubernetes control plane."
+  },
+  {
+    "id": "DEVOPS_KUB_005",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the Control Plane?",
+    "options": [
+      "Set of components managing the cluster (API server, etcd, scheduler, controller)",
+      "Worker nodes",
+      "Pod group",
+      "Service mesh"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Set of components managing the cluster (API server, etcd, scheduler, controller)."
+  },
+  {
+    "id": "DEVOPS_KUB_006",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the API server in K8s?",
+    "options": [
+      "Front-end for K8s control plane, processes REST API requests",
+      "Worker component",
+      "Storage system",
+      "Network plugin"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Front-end for K8s control plane, processes REST API requests."
+  },
+  {
+    "id": "DEVOPS_KUB_007",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is etcd?",
+    "options": [
+      "Distributed key-value store used as K8s cluster backing store",
+      "Container runtime",
+      "Scheduler",
+      "Load balancer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Distributed key-value store used as K8s cluster backing store."
+  },
+  {
+    "id": "DEVOPS_KUB_008",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the Scheduler in K8s?",
+    "options": [
+      "Assigns unscheduled Pods to nodes based on resource availability",
+      "Handles API requests",
+      "Manages state",
+      "Stores configuration"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Assigns unscheduled Pods to nodes based on resource availability."
+  },
+  {
+    "id": "DEVOPS_KUB_009",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Deployment in K8s?",
+    "options": [
+      "Manages ReplicaSet ensuring desired number of identical Pods running",
+      "Single Pod manager",
+      "Node manager",
+      "Network config"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Manages ReplicaSet ensuring desired number of identical Pods running."
+  },
+  {
+    "id": "DEVOPS_KUB_010",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a ReplicaSet?",
+    "options": [
+      "Ensures a specified number of Pod replicas are running at all times",
+      "Deployment itself",
+      "Service type",
+      "Namespace"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Ensures a specified number of Pod replicas are running at all times."
+  },
+  {
+    "id": "DEVOPS_KUB_011",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a Service in K8s?",
+    "options": [
+      "Stable network endpoint with DNS name to access a set of Pods",
+      "Physical machine",
+      "Pod group",
+      "Configuration"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stable network endpoint with DNS name to access a set of Pods."
+  },
+  {
+    "id": "DEVOPS_KUB_012",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is ClusterIP service?",
+    "options": [
+      "Exposes service on internal cluster IP (default, not externally accessible)",
+      "External service",
+      "Load balancer",
+      "Node port"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Exposes service on internal cluster IP (default, not externally accessible)."
+  },
+  {
+    "id": "DEVOPS_KUB_013",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is NodePort service?",
+    "options": [
+      "Exposes service on each Node's IP at a static port",
+      "Internal service",
+      "Load balancer",
+      "Ingress"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Exposes service on each Node's IP at a static port."
+  },
+  {
+    "id": "DEVOPS_KUB_014",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is LoadBalancer service?",
+    "options": [
+      "Provisions external load balancer from cloud provider to expose service",
+      "Internal service",
+      "Cluster service",
+      "DNS service"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Provisions external load balancer from cloud provider to expose service."
+  },
+  {
+    "id": "DEVOPS_KUB_015",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Ingress in K8s?",
+    "options": [
+      "API object managing external HTTP/HTTPS access to services in cluster",
+      "Service type",
+      "Egress",
+      "Network policy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is API object managing external HTTP/HTTPS access to services in cluster."
+  },
+  {
+    "id": "DEVOPS_KUB_016",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a Namespace in K8s?",
+    "options": [
+      "Virtual cluster for organizing and isolating resources within a cluster",
+      "Node group",
+      "Service group",
+      "Pod group"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Virtual cluster for organizing and isolating resources within a cluster."
+  },
+  {
+    "id": "DEVOPS_KUB_017",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a ConfigMap?",
+    "options": [
+      "Stores non-confidential configuration data as key-value pairs",
+      "Secret storage",
+      "Log storage",
+      "Volume type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stores non-confidential configuration data as key-value pairs."
+  },
+  {
+    "id": "DEVOPS_KUB_018",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a Secret in K8s?",
+    "options": [
+      "Stores sensitive data like passwords and tokens, base64-encoded",
+      "Plain config storage",
+      "Log storage",
+      "Volume type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stores sensitive data like passwords and tokens, base64-encoded."
+  },
+  {
+    "id": "DEVOPS_KUB_019",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a PersistentVolume (PV)?",
+    "options": [
+      "Storage resource provisioned by admin or dynamically",
+      "Temporary storage",
+      "Container memory",
+      "Network storage only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Storage resource provisioned by admin or dynamically."
+  },
+  {
+    "id": "DEVOPS_KUB_020",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a PersistentVolumeClaim (PVC)?",
+    "options": [
+      "Request for storage by a user, binds to a matching PV",
+      "Volume itself",
+      "Network request",
+      "Resource quota"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Request for storage by a user, binds to a matching PV."
+  },
+  {
+    "id": "DEVOPS_KUB_021",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a StatefulSet?",
+    "options": [
+      "Like Deployment but for stateful apps with stable IDs and storage",
+      "Stateless Deployment",
+      "Pod manager",
+      "Volume manager"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Like Deployment but for stateful apps with stable IDs and storage."
+  },
+  {
+    "id": "DEVOPS_KUB_022",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a DaemonSet?",
+    "options": [
+      "Ensures one Pod copy runs on each (or specific) node",
+      "Multiple Pods per node",
+      "Single Pod cluster-wide",
+      "Service type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Ensures one Pod copy runs on each (or specific) node."
+  },
+  {
+    "id": "DEVOPS_KUB_023",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Job in K8s?",
+    "options": [
+      "Runs a Pod to completion (one-off task)",
+      "Continuous service",
+      "Daemon process",
+      "Cron task"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Runs a Pod to completion (one-off task)."
+  },
+  {
+    "id": "DEVOPS_KUB_024",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a CronJob in K8s?",
+    "options": [
+      "Runs Jobs on a time-based schedule",
+      "Continuous job",
+      "Daemon job",
+      "One-time job"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Runs Jobs on a time-based schedule."
+  },
+  {
+    "id": "DEVOPS_KUB_025",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is kubectl?",
+    "options": [
+      "CLI tool for interacting with Kubernetes clusters",
+      "K8s web UI",
+      "K8s API server",
+      "K8s dashboard"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is CLI tool for interacting with Kubernetes clusters."
+  },
+  {
+    "id": "DEVOPS_KUB_026",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does kubectl get pods do?",
+    "options": [
+      "Lists all Pods in current namespace",
+      "Lists all nodes",
+      "Lists all services",
+      "Lists all deployments"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Lists all Pods in current namespace."
+  },
+  {
+    "id": "DEVOPS_KUB_027",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does kubectl apply -f do?",
+    "options": [
+      "Creates or updates resources defined in YAML file",
+      "Deletes resources",
+      "Gets resources",
+      "Lists resources"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates or updates resources defined in YAML file."
+  },
+  {
+    "id": "DEVOPS_KUB_028",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does kubectl describe pod do?",
+    "options": [
+      "Shows detailed information about a specific Pod",
+      "Deletes pod",
+      "Lists events only",
+      "Shows logs"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows detailed information about a specific Pod."
+  },
+  {
+    "id": "DEVOPS_KUB_029",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does kubectl logs do?",
+    "options": [
+      "Shows container logs from a Pod",
+      "Shows node logs",
+      "Shows cluster events",
+      "Shows system logs"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows container logs from a Pod."
+  },
+  {
+    "id": "DEVOPS_KUB_030",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does kubectl exec -it do?",
+    "options": [
+      "Opens interactive terminal inside a running container",
+      "Runs batch command",
+      "Shows logs",
+      "Restarts container"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Opens interactive terminal inside a running container."
+  },
+  {
+    "id": "DEVOPS_KUB_031",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a liveness probe?",
+    "options": [
+      "Checks if container is still running; restarts if failed",
+      "Checks readiness",
+      "Checks startup",
+      "Health score"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Checks if container is still running; restarts if failed."
+  },
+  {
+    "id": "DEVOPS_KUB_032",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a readiness probe?",
+    "options": [
+      "Checks if container is ready to receive traffic",
+      "Checks if running",
+      "Restarts container",
+      "Checks startup"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Checks if container is ready to receive traffic."
+  },
+  {
+    "id": "DEVOPS_KUB_033",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a startup probe?",
+    "options": [
+      "Checks if application has started; disables liveness during startup",
+      "Readiness variant",
+      "Health check",
+      "Restart policy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Checks if application has started; disables liveness during startup."
+  },
+  {
+    "id": "DEVOPS_KUB_034",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is resource requests in K8s?",
+    "options": [
+      "Minimum resources guaranteed to a container",
+      "Maximum resources",
+      "Average resources",
+      "Burst resources"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Minimum resources guaranteed to a container."
+  },
+  {
+    "id": "DEVOPS_KUB_035",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is resource limits in K8s?",
+    "options": [
+      "Maximum resources a container can use",
+      "Minimum resources",
+      "Average resources",
+      "Reserved resources"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Maximum resources a container can use."
+  },
+  {
+    "id": "DEVOPS_KUB_036",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Horizontal Pod Autoscaler (HPA)?",
+    "options": [
+      "Automatically scales Pod replicas based on CPU/memory metrics",
+      "Scales nodes",
+      "Scales storage",
+      "Scales services"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automatically scales Pod replicas based on CPU/memory metrics."
+  },
+  {
+    "id": "DEVOPS_KUB_037",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Vertical Pod Autoscaler (VPA)?",
+    "options": [
+      "Adjusts CPU/memory requests of running Pods",
+      "Scales Pod count",
+      "Scales nodes",
+      "Scales storage"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Adjusts CPU/memory requests of running Pods."
+  },
+  {
+    "id": "DEVOPS_KUB_038",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Cluster Autoscaler?",
+    "options": [
+      "Automatically adds/removes nodes based on pending Pods and utilization",
+      "Scales Pods",
+      "Scales services",
+      "Scales namespaces"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automatically adds/removes nodes based on pending Pods and utilization."
+  },
+  {
+    "id": "DEVOPS_KUB_039",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Helm chart?",
+    "options": [
+      "Package of pre-configured K8s resources for easy deployment",
+      "Docker image",
+      "K8s config file",
+      "CI/CD template"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Package of pre-configured K8s resources for easy deployment."
+  },
+  {
+    "id": "DEVOPS_KUB_040",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Helm?",
+    "options": [
+      "Kubernetes package manager for templating and managing releases",
+      "Docker manager",
+      "CI/CD tool",
+      "Config tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Kubernetes package manager for templating and managing releases."
+  },
+  {
+    "id": "DEVOPS_KUB_041",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a taint in K8s?",
+    "options": [
+      "Mark on node preventing unacceptable Pods from scheduling on it",
+      "Pod label",
+      "Node label",
+      "Resource limit"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Mark on node preventing unacceptable Pods from scheduling on it."
+  },
+  {
+    "id": "DEVOPS_KUB_042",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a toleration in K8s?",
+    "options": [
+      "Allows a Pod to schedule on a node with a matching taint",
+      "Node restriction",
+      "Pod limit",
+      "Resource quota"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Allows a Pod to schedule on a node with a matching taint."
+  },
+  {
+    "id": "DEVOPS_KUB_043",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a node affinity?",
+    "options": [
+      "Rules preferring or requiring pods to be scheduled on specific nodes",
+      "Taint system",
+      "Pod grouping",
+      "Namespace constraint"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Rules preferring or requiring pods to be scheduled on specific nodes."
+  },
+  {
+    "id": "DEVOPS_KUB_044",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is pod affinity/anti-affinity?",
+    "options": [
+      "Rules scheduling pods near or away from other pods",
+      "Node preference",
+      "Resource limit",
+      "Network policy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Rules scheduling pods near or away from other pods."
+  },
+  {
+    "id": "DEVOPS_KUB_045",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is RBAC in Kubernetes?",
+    "options": [
+      "Role-Based Access Control for managing permissions",
+      "Registry Based Access",
+      "Resource Based Config",
+      "Runtime Binary Access Control"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Role-Based Access Control for managing permissions."
+  },
+  {
+    "id": "DEVOPS_KUB_046",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a ServiceAccount?",
+    "options": [
+      "Identity for pods to authenticate with K8s API",
+      "User account",
+      "Node account",
+      "Cluster account"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Identity for pods to authenticate with K8s API."
+  },
+  {
+    "id": "DEVOPS_KUB_047",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a NetworkPolicy?",
+    "options": [
+      "Rules controlling traffic flow between Pods and namespaces",
+      "Service type",
+      "Node firewall",
+      "Ingress only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Rules controlling traffic flow between Pods and namespaces."
+  },
+  {
+    "id": "DEVOPS_KUB_048",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is kube-proxy?",
+    "options": [
+      "Maintains network rules on nodes for service communication",
+      "API proxy",
+      "Build proxy",
+      "Registry proxy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Maintains network rules on nodes for service communication."
+  },
+  {
+    "id": "DEVOPS_KUB_049",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is CoreDNS in K8s?",
+    "options": [
+      "Default DNS server providing service discovery via DNS names",
+      "DNS alternative",
+      "External DNS",
+      "Registry DNS"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Default DNS server providing service discovery via DNS names."
+  },
+  {
+    "id": "DEVOPS_KUB_050",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Istio?",
+    "options": [
+      "Service mesh for K8s providing traffic management, security, observability",
+      "Ingress controller",
       "Container runtime",
       "Package manager"
     ],
     "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
+    "explanation": "The correct answer is Service mesh for K8s providing traffic management, security, observability."
   },
   {
-    "id": "devops_1025",
+    "id": "DEVOPS_KUB_051",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q25] What is a deployment in k8s?",
-    "options": [
-      "Manages Pod replicas",
-      "Single container",
-      "Neither A nor B",
-      "Storage unit"
-    ],
-    "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
-  },
-  {
-    "id": "devops_1026",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q26] Rolling update strategy",
-    "options": [
-      "Insufficient information",
-      "Updates pods gradually",
-      "All at once",
-      "Blue-green"
-    ],
-    "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
-  },
-  {
-    "id": "devops_1027",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q27] What is a secret in k8s?",
-    "options": [
-      "Config map",
-      "Log file",
-      "Stores sensitive data",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1028",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q28] ConfigMap in k8s",
-    "options": [
-      "Manages pods",
-      "None of the above",
-      "Stores non-sensitive config",
-      "Stores secrets"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1029",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q29] YAML files in DevOps",
-    "options": [
-      "Binary configs",
-      "Configuration/definition files",
-      "Compiled files",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1030",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q30] What is GitOps?",
-    "options": [
-      "Git as source of truth for infra",
-      "Neither A nor B",
-      "CI tool",
-      "Git hosting"
-    ],
-    "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
-  },
-  {
-    "id": "devops_1031",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q31] What is a service mesh?",
-    "options": [
-      "Infrastructure layer for service comm",
-      "API gateway",
-      "Load balancer",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
-  },
-  {
-    "id": "devops_1032",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q32] Shift left testing means",
-    "options": [
-      "Manual testing",
-      "Testing earlier in SDLC",
-      "Testing at end",
-      "Insufficient data"
-    ],
-    "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
-  },
-  {
-    "id": "devops_1033",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q33] What is mean time to recovery (MTTR)?",
-    "options": [
-      "Average time to restore service",
-      "Deploy time",
-      "Build time",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
-  },
-  {
-    "id": "devops_1034",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q34] SRE stands for",
-    "options": [
-      "Option not applicable",
-      "Software Release Engineering",
-      "System Resource Engineering",
-      "Site Reliability Engineering"
-    ],
-    "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
-  },
-  {
-    "id": "devops_1035",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q35] What is chaos engineering?",
-    "options": [
-      "Normal testing",
-      "Intentional failure testing",
-      "Both B and C",
-      "Load testing"
-    ],
-    "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
-  },
-  {
-    "id": "devops_1036",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q36] Artifact repository stores",
-    "options": [
-      "Built software artifacts",
-      "The argument is invalid",
-      "Logs",
-      "Source code"
-    ],
-    "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
-  },
-  {
-    "id": "devops_1037",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q37] What is feature flag?",
-    "options": [
-      "Git branch",
-      "Cannot be determined",
-      "Toggle features without deploy",
-      "Test case"
-    ],
-    "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
-  },
-  {
-    "id": "devops_1038",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q38] What is observability?",
-    "options": [
-      "Only metrics",
-      "Option not applicable",
-      "Only logs",
-      "Logs metrics traces"
-    ],
-    "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
-  },
-  {
-    "id": "devops_1039",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q39] What is a rollback?",
-    "options": [
-      "Option not applicable",
-      "New release",
-      "Forward deploy",
-      "Reverting to previous version"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1040",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q40] DevSecOps means",
-    "options": [
-      "Security team separate",
-      "Both A and B",
-      "Security integrated into DevOps",
-      "Dev without security"
-    ],
-    "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
-  },
-  {
-    "id": "devops_1041",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q41] DevOps combines",
-    "options": [
-      "Development and Operations",
-      "Dev and QA",
-      "Design and Ops",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
-  },
-  {
-    "id": "devops_1042",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q42] CI stands for",
-    "options": [
-      "Continuous Inspection",
-      "Code Integration",
-      "Option not applicable",
-      "Continuous Integration"
-    ],
-    "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
-  },
-  {
-    "id": "devops_1043",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q43] CD stands for",
-    "options": [
-      "Continuous Design",
-      "Neither A nor B",
-      "Code Deployment",
-      "Continuous Delivery/Deployment"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1044",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q44] Docker is used for",
-    "options": [
-      "Containerization",
-      "Virtualization",
-      "Orchestration",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1045",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q45] Kubernetes is used for",
-    "options": [
-      "Containerization",
-      "CI/CD",
-      "Insufficient information",
-      "Container orchestration"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1046",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q46] Jenkins is",
-    "options": [
-      "CI/CD automation server",
-      "Version control",
-      "Container tool",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
-  },
-  {
-    "id": "devops_1047",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q47] Git is",
-    "options": [
-      "Distributed version control",
-      "Cannot be determined",
-      "CI tool",
-      "Container"
-    ],
-    "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
-  },
-  {
-    "id": "devops_1048",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q48] What is Infrastructure as Code?",
-    "options": [
-      "Cloud only",
-      "Insufficient information",
-      "Manual server config",
-      "Managing infra via code"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1049",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q49] Terraform is used for",
-    "options": [
-      "IaC / cloud provisioning",
-      "Monitoring",
-      "Both A and B",
-      "Containerization"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1050",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q50] Ansible is used for",
-    "options": [
-      "CI/CD",
-      "Container orchestration",
-      "Both A and B",
-      "Configuration management"
-    ],
-    "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
-  },
-  {
-    "id": "devops_1051",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q51] What is a pipeline?",
-    "options": [
-      "Automated workflow stages",
-      "Data not provided",
-      "Database",
-      "Manual process"
-    ],
-    "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
-  },
-  {
-    "id": "devops_1052",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q52] Blue-Green deployment",
-    "options": [
-      "Canary release",
-      "Zero-downtime deployment strategy",
-      "Insufficient information",
-      "Rolling update"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1053",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q53] Canary deployment",
-    "options": [
-      "Blue-green",
-      "Full rollout",
-      "Gradual rollout to subset",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1054",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q54] What is monitoring in DevOps?",
-    "options": [
-      "Testing",
-      "Neither A nor B",
-      "Tracking system health",
-      "Deployment"
-    ],
-    "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
-  },
-  {
-    "id": "devops_1055",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q55] Prometheus is",
-    "options": [
-      "Neither A nor B",
-      "Container",
-      "CI server",
-      "Metrics monitoring tool"
-    ],
-    "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
-  },
-  {
-    "id": "devops_1056",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q56] Grafana is used for",
-    "options": [
-      "The above is incorrect",
-      "CI/CD",
-      "IaC",
-      "Visualization dashboards"
-    ],
-    "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
-  },
-  {
-    "id": "devops_1057",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q57] What is a microservice?",
-    "options": [
-      "Database",
-      "The above is incorrect",
-      "Small independent service",
-      "Monolithic app"
-    ],
-    "answer": 0,
-    "explanation": "Microservices are independently deployable services."
-  },
-  {
-    "id": "devops_1058",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q58] Load balancer does",
-    "options": [
-      "Distributes traffic",
-      "The above is incorrect",
-      "Stores data",
-      "Monitors logs"
-    ],
-    "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
-  },
-  {
-    "id": "devops_1059",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q59] What is auto-scaling?",
-    "options": [
-      "Fixed resources",
-      "Adjusting resources based on demand",
-      "Manual scaling",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
-  },
-  {
-    "id": "devops_1060",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q60] ELK stack includes",
-    "options": [
-      "Both B and C",
-      "Express Logstash Kafka",
-      "Elastic Linux Kubernetes",
-      "Elasticsearch Logstash Kibana"
-    ],
-    "answer": 0,
-    "explanation": "ELK is a popular log management stack."
-  },
-  {
-    "id": "devops_1061",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q61] What is a container image?",
-    "options": [
-      "Virtual machine",
-      "Neither A nor B",
-      "Read-only template for containers",
-      "Running container"
-    ],
-    "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
-  },
-  {
-    "id": "devops_1062",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q62] Dockerfile is",
-    "options": [
-      "Container runtime",
-      "None of the above",
-      "Script to build Docker image",
-      "Kubernetes config"
-    ],
-    "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
-  },
-  {
-    "id": "devops_1063",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q63] Kubernetes Pod is",
-    "options": [
-      "Both A and B",
-      "Smallest deployable unit",
-      "Node",
-      "Service"
-    ],
-    "answer": 0,
-    "explanation": "A Pod contains one or more containers."
-  },
-  {
-    "id": "devops_1064",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q64] Helm in Kubernetes",
-    "options": [
-      "Monitoring",
-      "Container runtime",
-      "Package manager",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
-  },
-  {
-    "id": "devops_1065",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q65] What is a deployment in k8s?",
-    "options": [
-      "Storage unit",
-      "Single container",
-      "Manages Pod replicas",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
-  },
-  {
-    "id": "devops_1066",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q66] Rolling update strategy",
-    "options": [
-      "Updates pods gradually",
-      "Both A and B",
-      "Blue-green",
-      "All at once"
-    ],
-    "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
-  },
-  {
-    "id": "devops_1067",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q67] What is a secret in k8s?",
-    "options": [
-      "Data not provided",
-      "Config map",
-      "Log file",
-      "Stores sensitive data"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1068",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q68] ConfigMap in k8s",
-    "options": [
-      "Stores non-sensitive config",
-      "Manages pods",
-      "Insufficient information",
-      "Stores secrets"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1069",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q69] YAML files in DevOps",
-    "options": [
-      "Compiled files",
-      "Configuration/definition files",
-      "Both B and C",
-      "Binary configs"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1070",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q70] What is GitOps?",
-    "options": [
-      "Git hosting",
-      "Data not provided",
-      "Git as source of truth for infra",
-      "CI tool"
-    ],
-    "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
-  },
-  {
-    "id": "devops_1071",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q71] What is a service mesh?",
-    "options": [
-      "Neither A nor B",
-      "Load balancer",
-      "API gateway",
-      "Infrastructure layer for service comm"
-    ],
-    "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
-  },
-  {
-    "id": "devops_1072",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q72] Shift left testing means",
-    "options": [
-      "Manual testing",
-      "Testing earlier in SDLC",
-      "Testing at end",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
-  },
-  {
-    "id": "devops_1073",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q73] What is mean time to recovery (MTTR)?",
-    "options": [
-      "Build time",
-      "Cannot be determined",
-      "Average time to restore service",
-      "Deploy time"
-    ],
-    "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
-  },
-  {
-    "id": "devops_1074",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q74] SRE stands for",
-    "options": [
-      "Site Reliability Engineering",
-      "System Resource Engineering",
-      "Software Release Engineering",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
-  },
-  {
-    "id": "devops_1075",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q75] What is chaos engineering?",
-    "options": [
-      "Intentional failure testing",
-      "Normal testing",
-      "Neither A nor B",
-      "Load testing"
-    ],
-    "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
-  },
-  {
-    "id": "devops_1076",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q76] Artifact repository stores",
-    "options": [
-      "Cannot be determined",
-      "Built software artifacts",
-      "Logs",
-      "Source code"
-    ],
-    "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
-  },
-  {
-    "id": "devops_1077",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q77] What is feature flag?",
-    "options": [
-      "Toggle features without deploy",
-      "Option not applicable",
-      "Git branch",
-      "Test case"
-    ],
-    "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
-  },
-  {
-    "id": "devops_1078",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q78] What is observability?",
-    "options": [
-      "Only metrics",
-      "Logs metrics traces",
-      "All of the above",
-      "Only logs"
-    ],
-    "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
-  },
-  {
-    "id": "devops_1079",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q79] What is a rollback?",
-    "options": [
-      "Neither A nor B",
-      "Reverting to previous version",
-      "New release",
-      "Forward deploy"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1080",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q80] DevSecOps means",
-    "options": [
-      "Security integrated into DevOps",
-      "Security team separate",
-      "The above is incorrect",
-      "Dev without security"
-    ],
-    "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
-  },
-  {
-    "id": "devops_1081",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q81] DevOps combines",
-    "options": [
-      "Design and Ops",
-      "The above is incorrect",
-      "Development and Operations",
-      "Dev and QA"
-    ],
-    "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
-  },
-  {
-    "id": "devops_1082",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q82] CI stands for",
-    "options": [
-      "Code Integration",
-      "Both B and C",
-      "Continuous Inspection",
-      "Continuous Integration"
-    ],
-    "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
-  },
-  {
-    "id": "devops_1083",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q83] CD stands for",
-    "options": [
-      "Continuous Delivery/Deployment",
-      "Cannot be determined",
-      "Code Deployment",
-      "Continuous Design"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1084",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q84] Docker is used for",
-    "options": [
-      "Virtualization",
-      "Insufficient information",
-      "Containerization",
-      "Orchestration"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1085",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q85] Kubernetes is used for",
-    "options": [
-      "Container orchestration",
-      "Option not applicable",
-      "Containerization",
-      "CI/CD"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1086",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q86] Jenkins is",
-    "options": [
-      "CI/CD automation server",
-      "Container tool",
-      "Version control",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
-  },
-  {
-    "id": "devops_1087",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q87] Git is",
-    "options": [
-      "Container",
-      "Insufficient information",
-      "Distributed version control",
-      "CI tool"
-    ],
-    "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
-  },
-  {
-    "id": "devops_1088",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q88] What is Infrastructure as Code?",
-    "options": [
-      "Manual server config",
-      "Managing infra via code",
-      "None of the above",
-      "Cloud only"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1089",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q89] Terraform is used for",
-    "options": [
-      "Both A and B",
-      "Monitoring",
-      "Containerization",
-      "IaC / cloud provisioning"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1090",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q90] Ansible is used for",
-    "options": [
-      "Configuration management",
-      "Container orchestration",
-      "CI/CD",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
-  },
-  {
-    "id": "devops_1091",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q91] What is a pipeline?",
-    "options": [
-      "Automated workflow stages",
-      "Manual process",
-      "Database",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
-  },
-  {
-    "id": "devops_1092",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q92] Blue-Green deployment",
-    "options": [
-      "Neither A nor B",
-      "Zero-downtime deployment strategy",
-      "Canary release",
-      "Rolling update"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1093",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q93] Canary deployment",
-    "options": [
-      "Data not provided",
-      "Blue-green",
-      "Full rollout",
-      "Gradual rollout to subset"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1094",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q94] What is monitoring in DevOps?",
-    "options": [
-      "Deployment",
-      "Tracking system health",
-      "Both B and C",
-      "Testing"
-    ],
-    "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
-  },
-  {
-    "id": "devops_1095",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q95] Prometheus is",
-    "options": [
-      "CI server",
-      "Insufficient information",
-      "Container",
-      "Metrics monitoring tool"
-    ],
-    "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
-  },
-  {
-    "id": "devops_1096",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q96] Grafana is used for",
-    "options": [
-      "CI/CD",
-      "None of the above",
-      "Visualization dashboards",
-      "IaC"
-    ],
-    "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
-  },
-  {
-    "id": "devops_1097",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q97] What is a microservice?",
+    "question": "What is a sidecar container?",
     "options": [
-      "Database",
-      "Monolithic app",
-      "Data not provided",
-      "Small independent service"
+      "Additional container in a Pod sharing resources with main container",
+      "Second pod",
+      "Service container",
+      "Init container"
     ],
     "answer": 0,
-    "explanation": "Microservices are independently deployable services."
+    "explanation": "The correct answer is Additional container in a Pod sharing resources with main container."
   },
   {
-    "id": "devops_1098",
+    "id": "DEVOPS_KUB_052",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q98] Load balancer does",
-    "options": [
-      "Monitors logs",
-      "Distributes traffic",
-      "Stores data",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
-  },
-  {
-    "id": "devops_1099",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q99] What is auto-scaling?",
-    "options": [
-      "Both A and B",
-      "Manual scaling",
-      "Fixed resources",
-      "Adjusting resources based on demand"
-    ],
-    "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
-  },
-  {
-    "id": "devops_1100",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q100] ELK stack includes",
-    "options": [
-      "None of the above",
-      "Elasticsearch Logstash Kibana",
-      "Express Logstash Kafka",
-      "Elastic Linux Kubernetes"
-    ],
-    "answer": 0,
-    "explanation": "ELK is a popular log management stack."
-  },
-  {
-    "id": "devops_1101",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q101] What is a container image?",
-    "options": [
-      "Running container",
-      "Read-only template for containers",
-      "All of the above",
-      "Virtual machine"
-    ],
-    "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
-  },
-  {
-    "id": "devops_1102",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q102] Dockerfile is",
-    "options": [
-      "Script to build Docker image",
-      "All of the above",
-      "Container runtime",
-      "Kubernetes config"
-    ],
-    "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
-  },
-  {
-    "id": "devops_1103",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q103] Kubernetes Pod is",
-    "options": [
-      "Cannot be determined",
-      "Node",
-      "Smallest deployable unit",
-      "Service"
-    ],
-    "answer": 0,
-    "explanation": "A Pod contains one or more containers."
-  },
-  {
-    "id": "devops_1104",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q104] Helm in Kubernetes",
-    "options": [
-      "Neither A nor B",
-      "Monitoring",
-      "Package manager",
-      "Container runtime"
-    ],
-    "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
-  },
-  {
-    "id": "devops_1105",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q105] What is a deployment in k8s?",
-    "options": [
-      "Manages Pod replicas",
-      "All of the above",
-      "Storage unit",
-      "Single container"
-    ],
-    "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
-  },
-  {
-    "id": "devops_1106",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q106] Rolling update strategy",
-    "options": [
-      "Updates pods gradually",
-      "Both B and C",
-      "Blue-green",
-      "All at once"
-    ],
-    "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
-  },
-  {
-    "id": "devops_1107",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q107] What is a secret in k8s?",
-    "options": [
-      "None of the above",
-      "Log file",
-      "Stores sensitive data",
-      "Config map"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1108",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q108] ConfigMap in k8s",
-    "options": [
-      "All of the above",
-      "Stores non-sensitive config",
-      "Manages pods",
-      "Stores secrets"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1109",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q109] YAML files in DevOps",
-    "options": [
-      "Compiled files",
-      "Binary configs",
-      "Option not applicable",
-      "Configuration/definition files"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1110",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q110] What is GitOps?",
-    "options": [
-      "Git as source of truth for infra",
-      "Git hosting",
-      "Insufficient information",
-      "CI tool"
-    ],
-    "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
-  },
-  {
-    "id": "devops_1111",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q111] What is a service mesh?",
-    "options": [
-      "Load balancer",
-      "Cannot be determined",
-      "API gateway",
-      "Infrastructure layer for service comm"
-    ],
-    "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
-  },
-  {
-    "id": "devops_1112",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q112] Shift left testing means",
-    "options": [
-      "Testing at end",
-      "All of the above",
-      "Testing earlier in SDLC",
-      "Manual testing"
-    ],
-    "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
-  },
-  {
-    "id": "devops_1113",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q113] What is mean time to recovery (MTTR)?",
-    "options": [
-      "Average time to restore service",
-      "The above is incorrect",
-      "Build time",
-      "Deploy time"
-    ],
-    "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
-  },
-  {
-    "id": "devops_1114",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q114] SRE stands for",
-    "options": [
-      "Software Release Engineering",
-      "System Resource Engineering",
-      "Cannot be determined",
-      "Site Reliability Engineering"
-    ],
-    "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
-  },
-  {
-    "id": "devops_1115",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q115] What is chaos engineering?",
-    "options": [
-      "All of the above",
-      "Load testing",
-      "Normal testing",
-      "Intentional failure testing"
-    ],
-    "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
-  },
-  {
-    "id": "devops_1116",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q116] Artifact repository stores",
-    "options": [
-      "Source code",
-      "Insufficient data",
-      "Logs",
-      "Built software artifacts"
-    ],
-    "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
-  },
-  {
-    "id": "devops_1117",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q117] What is feature flag?",
-    "options": [
-      "Test case",
-      "Git branch",
-      "Toggle features without deploy",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
-  },
-  {
-    "id": "devops_1118",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q118] What is observability?",
-    "options": [
-      "Logs metrics traces",
-      "Only logs",
-      "Both A and B",
-      "Only metrics"
-    ],
-    "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
-  },
-  {
-    "id": "devops_1119",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q119] What is a rollback?",
-    "options": [
-      "New release",
-      "Reverting to previous version",
-      "The above is incorrect",
-      "Forward deploy"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1120",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q120] DevSecOps means",
-    "options": [
-      "None of the above",
-      "Dev without security",
-      "Security team separate",
-      "Security integrated into DevOps"
-    ],
-    "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
-  },
-  {
-    "id": "devops_1121",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q121] DevOps combines",
-    "options": [
-      "Development and Operations",
-      "Both A and B",
-      "Design and Ops",
-      "Dev and QA"
-    ],
-    "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
-  },
-  {
-    "id": "devops_1122",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q122] CI stands for",
-    "options": [
-      "Continuous Integration",
-      "Both A and B",
-      "Code Integration",
-      "Continuous Inspection"
-    ],
-    "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
-  },
-  {
-    "id": "devops_1123",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q123] CD stands for",
-    "options": [
-      "Continuous Delivery/Deployment",
-      "Data not provided",
-      "Continuous Design",
-      "Code Deployment"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1124",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q124] Docker is used for",
-    "options": [
-      "Both A and B",
-      "Containerization",
-      "Orchestration",
-      "Virtualization"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1125",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q125] Kubernetes is used for",
-    "options": [
-      "Container orchestration",
-      "CI/CD",
-      "Both B and C",
-      "Containerization"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1126",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q126] Jenkins is",
-    "options": [
-      "Version control",
-      "Both B and C",
-      "Container tool",
-      "CI/CD automation server"
-    ],
-    "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
-  },
-  {
-    "id": "devops_1127",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q127] Git is",
-    "options": [
-      "CI tool",
-      "Distributed version control",
-      "Insufficient information",
-      "Container"
-    ],
-    "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
-  },
-  {
-    "id": "devops_1128",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q128] What is Infrastructure as Code?",
-    "options": [
-      "Manual server config",
-      "The above is incorrect",
-      "Cloud only",
-      "Managing infra via code"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1129",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q129] Terraform is used for",
-    "options": [
-      "IaC / cloud provisioning",
-      "None of the above",
-      "Containerization",
-      "Monitoring"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1130",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q130] Ansible is used for",
+    "question": "What is an init container?",
     "options": [
-      "None of the above",
-      "CI/CD",
-      "Configuration management",
-      "Container orchestration"
+      "Specialized container running before app containers in a Pod",
+      "Sidecar container",
+      "Service container",
+      "Debug container"
     ],
     "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
+    "explanation": "The correct answer is Specialized container running before app containers in a Pod."
   },
   {
-    "id": "devops_1131",
+    "id": "DEVOPS_KUB_053",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
+    "section": "Docker & K8s",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q131] What is a pipeline?",
+    "question": "What is K8s rolling update?",
     "options": [
-      "Manual process",
-      "Database",
-      "Data not provided",
-      "Automated workflow stages"
+      "Gradually replaces old Pods with new ones to avoid downtime",
+      "Replace all at once",
+      "Blue-green deployment",
+      "Canary deployment"
     ],
     "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
+    "explanation": "The correct answer is Gradually replaces old Pods with new ones to avoid downtime."
   },
   {
-    "id": "devops_1132",
+    "id": "DEVOPS_KUB_054",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
+    "section": "Docker & K8s",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q132] Blue-Green deployment",
+    "question": "What is blue-green deployment?",
     "options": [
+      "Two identical environments — switch traffic from blue to green",
       "Rolling update",
-      "Canary release",
-      "Zero-downtime deployment strategy",
-      "All of the above"
+      "Canary deployment",
+      "Shadow deployment"
     ],
     "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
+    "explanation": "The correct answer is Two identical environments — switch traffic from blue to green."
   },
   {
-    "id": "devops_1133",
+    "id": "DEVOPS_KUB_055",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
+    "section": "Docker & K8s",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q133] Canary deployment",
+    "question": "What is canary deployment?",
     "options": [
-      "Both B and C",
-      "Full rollout",
+      "Gradually routing a small percentage of traffic to new version",
+      "Rolling update",
       "Blue-green",
-      "Gradual rollout to subset"
+      "Shadow deployment"
     ],
     "answer": 0,
-    "explanation": "Canary releases to small user subset first."
+    "explanation": "The correct answer is Gradually routing a small percentage of traffic to new version."
   },
   {
-    "id": "devops_1134",
+    "id": "DEVOPS_KUB_056",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q134] What is monitoring in DevOps?",
+    "question": "What is etcd backup?",
     "options": [
-      "Deployment",
-      "Testing",
-      "Insufficient information",
-      "Tracking system health"
+      "Critical operation protecting cluster state and configuration",
+      "Optional maintenance",
+      "Log backup",
+      "Container backup"
     ],
     "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
+    "explanation": "The correct answer is Critical operation protecting cluster state and configuration."
   },
   {
-    "id": "devops_1135",
+    "id": "DEVOPS_KUB_057",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
+    "section": "Docker & K8s",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q135] Prometheus is",
+    "question": "What is kubectl port-forward?",
     "options": [
-      "Container",
-      "Insufficient information",
-      "CI server",
-      "Metrics monitoring tool"
+      "Forwards local port to Pod port for debugging",
+      "Exposes service",
+      "Creates service",
+      "Load balances"
     ],
     "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
+    "explanation": "The correct answer is Forwards local port to Pod port for debugging."
   },
   {
-    "id": "devops_1136",
+    "id": "DEVOPS_KUB_058",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q136] Grafana is used for",
+    "question": "What is K8s RBAC Role vs ClusterRole?",
     "options": [
-      "IaC",
-      "Visualization dashboards",
-      "Data not provided",
-      "CI/CD"
+      "Role is namespace-scoped; ClusterRole is cluster-wide",
+      "No difference",
+      "Role is cluster-wide",
+      "ClusterRole is namespace-scoped"
     ],
     "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
+    "explanation": "The correct answer is Role is namespace-scoped; ClusterRole is cluster-wide."
   },
   {
-    "id": "devops_1137",
+    "id": "DEVOPS_KUB_059",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q137] What is a microservice?",
+    "question": "What is a ResourceQuota?",
     "options": [
-      "Monolithic app",
-      "Database",
-      "None of the above",
-      "Small independent service"
+      "Limits total resource consumption within a namespace",
+      "Node limit",
+      "Cluster limit",
+      "Pod limit"
     ],
     "answer": 0,
-    "explanation": "Microservices are independently deployable services."
+    "explanation": "The correct answer is Limits total resource consumption within a namespace."
   },
   {
-    "id": "devops_1138",
+    "id": "DEVOPS_KUB_060",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q138] Load balancer does",
+    "question": "What is LimitRange?",
     "options": [
-      "Monitors logs",
-      "Distributes traffic",
-      "Stores data",
-      "Option not applicable"
+      "Sets default resource limits and constraints for containers in namespace",
+      "ResourceQuota variant",
+      "Cluster-wide limit",
+      "Storage limit"
     ],
     "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
+    "explanation": "The correct answer is Sets default resource limits and constraints for containers in namespace."
   },
   {
-    "id": "devops_1139",
+    "id": "DEVOPS_KUB_061",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
+    "section": "Docker & K8s",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q139] What is auto-scaling?",
+    "question": "What does kubectl rollout undo do?",
     "options": [
-      "Fixed resources",
-      "Option not applicable",
-      "Adjusting resources based on demand",
-      "Manual scaling"
+      "Rolls back Deployment to previous revision",
+      "Rolls forward",
+      "Removes deployment",
+      "Pauses deployment"
     ],
     "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
+    "explanation": "The correct answer is Rolls back Deployment to previous revision."
   },
   {
-    "id": "devops_1140",
+    "id": "DEVOPS_KUB_062",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q140] ELK stack includes",
+    "question": "What is a K8s Operator?",
     "options": [
-      "Express Logstash Kafka",
-      "Elastic Linux Kubernetes",
-      "Elasticsearch Logstash Kibana",
-      "None of the above"
+      "Custom controller extending K8s to manage complex stateful applications",
+      "Helm alternative",
+      "CI/CD tool",
+      "Monitoring tool"
     ],
     "answer": 0,
-    "explanation": "ELK is a popular log management stack."
+    "explanation": "The correct answer is Custom controller extending K8s to manage complex stateful applications."
   },
   {
-    "id": "devops_1141",
+    "id": "DEVOPS_KUB_063",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q141] What is a container image?",
+    "question": "What is Custom Resource Definition (CRD)?",
     "options": [
-      "Read-only template for containers",
-      "Virtual machine",
-      "Insufficient information",
-      "Running container"
+      "Extends K8s API with custom resource types",
+      "Custom namespace",
+      "Custom service",
+      "Custom pod type"
     ],
     "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
+    "explanation": "The correct answer is Extends K8s API with custom resource types."
   },
   {
-    "id": "devops_1142",
+    "id": "DEVOPS_KUB_064",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
+    "section": "Docker & K8s",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q142] Dockerfile is",
+    "question": "What is kubeconfig?",
     "options": [
-      "Container runtime",
-      "Kubernetes config",
-      "All of the above",
-      "Script to build Docker image"
+      "Configuration file with cluster credentials and context for kubectl",
+      "K8s config dir",
+      "Helm config",
+      "Build config"
     ],
     "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
+    "explanation": "The correct answer is Configuration file with cluster credentials and context for kubectl."
   },
   {
-    "id": "devops_1143",
+    "id": "DEVOPS_KUB_065",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
+    "section": "Docker & K8s",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q143] Kubernetes Pod is",
+    "question": "What is a K8s context?",
     "options": [
-      "Smallest deployable unit",
-      "Node",
-      "Service",
-      "The above is incorrect"
+      "Named combination of cluster, user, and namespace for kubectl",
+      "Security context",
+      "Pod context",
+      "Resource context"
     ],
     "answer": 0,
-    "explanation": "A Pod contains one or more containers."
+    "explanation": "The correct answer is Named combination of cluster, user, and namespace for kubectl."
   },
   {
-    "id": "devops_1144",
+    "id": "DEVOPS_KUB_066",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q144] Helm in Kubernetes",
+    "question": "What is pod disruption budget (PDB)?",
     "options": [
-      "Monitoring",
-      "Package manager",
-      "Neither A nor B",
-      "Container runtime"
+      "Minimum available pods during voluntary disruptions (e.g., upgrades)",
+      "Resource limit",
+      "Network policy",
+      "Pod schedule"
     ],
     "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
+    "explanation": "The correct answer is Minimum available pods during voluntary disruptions (e.g., upgrades)."
   },
   {
-    "id": "devops_1145",
+    "id": "DEVOPS_KUB_067",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q145] What is a deployment in k8s?",
+    "question": "What is K8s federation?",
     "options": [
-      "All of the above",
-      "Manages Pod replicas",
-      "Storage unit",
-      "Single container"
+      "Managing multiple K8s clusters as one",
+      "Single cluster feature",
+      "Node grouping",
+      "Namespace grouping"
     ],
     "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
+    "explanation": "The correct answer is Managing multiple K8s clusters as one."
   },
   {
-    "id": "devops_1146",
+    "id": "DEVOPS_KUB_068",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q146] Rolling update strategy",
+    "question": "What is Kustomize?",
     "options": [
-      "Updates pods gradually",
-      "Blue-green",
-      "Both A and B",
-      "All at once"
+      "K8s native configuration management using overlay patches",
+      "Helm alternative (similar)",
+      "CI/CD tool",
+      "Monitoring tool"
     ],
     "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
+    "explanation": "The correct answer is K8s native configuration management using overlay patches."
   },
   {
-    "id": "devops_1147",
+    "id": "DEVOPS_KUB_069",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q147] What is a secret in k8s?",
+    "question": "What is ArgoCD?",
     "options": [
-      "Stores sensitive data",
-      "Cannot be determined",
-      "Log file",
-      "Config map"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1148",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q148] ConfigMap in k8s",
-    "options": [
-      "Stores non-sensitive config",
-      "Option not applicable",
-      "Manages pods",
-      "Stores secrets"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1149",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q149] YAML files in DevOps",
-    "options": [
-      "Compiled files",
-      "Binary configs",
-      "Both B and C",
-      "Configuration/definition files"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1150",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q150] What is GitOps?",
-    "options": [
+      "GitOps continuous delivery tool for K8s",
       "CI tool",
-      "Git as source of truth for infra",
-      "Cannot be determined",
-      "Git hosting"
+      "Monitoring tool",
+      "Service mesh"
     ],
     "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
+    "explanation": "The correct answer is GitOps continuous delivery tool for K8s."
   },
   {
-    "id": "devops_1151",
+    "id": "DEVOPS_KUB_070",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Flux?",
+    "options": [
+      "GitOps operator for K8s reconciling cluster state with Git",
+      "CI tool",
+      "Container runtime",
+      "Package manager"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is GitOps operator for K8s reconciling cluster state with Git."
+  },
+  {
+    "id": "DEVOPS_KUB_071",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of namespaces in K8s multi-tenancy?",
+    "options": [
+      "Isolate teams/environments sharing same cluster",
+      "Network isolation only",
+      "Pod isolation only",
+      "Resource isolation only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Isolate teams/environments sharing same cluster."
+  },
+  {
+    "id": "DEVOPS_KUB_072",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is K8s pod lifecycle: Pending state?",
+    "options": [
+      "Pod accepted but containers not yet running (waiting for scheduling/image pull)",
+      "Pod is running",
+      "Pod has failed",
+      "Pod is complete"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pod accepted but containers not yet running (waiting for scheduling/image pull)."
+  },
+  {
+    "id": "DEVOPS_KUB_073",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is K8s pod status CrashLoopBackOff?",
+    "options": [
+      "Container keeps crashing and K8s is backing off restart attempts",
+      "Network error",
+      "Image not found",
+      "Resource limit hit"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Container keeps crashing and K8s is backing off restart attempts."
+  },
+  {
+    "id": "DEVOPS_KUB_074",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is K8s pod status ImagePullBackOff?",
+    "options": [
+      "K8s can't pull container image (wrong name, auth, network)",
+      "Container crash",
+      "Resource limit",
+      "Scheduling failure"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is K8s can't pull container image (wrong name, auth, network)."
+  },
+  {
+    "id": "DEVOPS_KUB_075",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is OOM (Out of Memory) kill in K8s?",
+    "options": [
+      "Container exceeds memory limit and is killed by kernel",
+      "CPU limit hit",
+      "Network failure",
+      "Disk full"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Container exceeds memory limit and is killed by kernel."
+  },
+  {
+    "id": "DEVOPS_KUB_076",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is kube-scheduler's bin-packing vs spreading?",
+    "options": [
+      "Bin-packing fills nodes densely; spreading distributes across nodes",
+      "Same algorithm",
+      "Scheduler doesn't decide placement",
+      "Only bin-packing exists"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Bin-packing fills nodes densely; spreading distributes across nodes."
+  },
+  {
+    "id": "DEVOPS_KUB_077",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Priority Class in K8s?",
+    "options": [
+      "Assigns scheduling priority to Pods; high-priority pods preempt low ones",
+      "Resource limit",
+      "Pod label",
+      "Namespace priority"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Assigns scheduling priority to Pods; high-priority pods preempt low ones."
+  },
+  {
+    "id": "DEVOPS_KUB_078",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is eviction in K8s?",
+    "options": [
+      "Removing pods from nodes under resource pressure",
+      "Deleting pods",
+      "Scaling down",
+      "Node removal"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Removing pods from nodes under resource pressure."
+  },
+  {
+    "id": "DEVOPS_KUB_079",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is K8s API versioning (e.g., v1, apps/v1)?",
+    "options": [
+      "Different stability levels: core (v1), extensions (apps/v1, etc.)",
+      "Version history",
+      "Changelog",
+      "API keys"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Different stability levels: core (v1), extensions (apps/v1, etc.)."
+  },
+  {
+    "id": "DEVOPS_KUB_080",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is kubectl top?",
+    "options": [
+      "Shows resource (CPU/memory) usage of pods/nodes",
+      "Shows logs",
+      "Shows events",
+      "Shows configs"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows resource (CPU/memory) usage of pods/nodes."
+  },
+  {
+    "id": "DEVOPS_KUB_081",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a K8s Admission Controller?",
+    "options": [
+      "Plugin intercepting API requests before persistence to validate/mutate",
+      "Security plugin",
+      "Network plugin",
+      "Storage plugin"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Plugin intercepting API requests before persistence to validate/mutate."
+  },
+  {
+    "id": "DEVOPS_KUB_082",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is OPA (Open Policy Agent) in K8s?",
+    "options": [
+      "Policy engine enforcing fine-grained access control",
+      "Open Pod Agent",
+      "Optional Policy Add-on",
+      "Optional Pod Admin"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Policy engine enforcing fine-grained access control."
+  },
+  {
+    "id": "DEVOPS_KUB_083",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Gatekeeper?",
+    "options": [
+      "OPA admission controller for K8s policy enforcement",
+      "Network gateway",
+      "Security gateway",
+      "API gateway"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is OPA admission controller for K8s policy enforcement."
+  },
+  {
+    "id": "DEVOPS_KUB_084",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is GitOps?",
+    "options": [
+      "Using Git as single source of truth; automation reconciles cluster to Git state",
+      "CI/CD approach only",
+      "Manual deployment",
+      "Push-based deployment only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Using Git as single source of truth; automation reconciles cluster to Git state."
+  },
+  {
+    "id": "DEVOPS_KUB_085",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is pull-based vs push-based GitOps?",
+    "options": [
+      "Pull: operator watches Git and pulls changes; Push: CI pushes to cluster",
+      "No difference",
+      "Pull is deprecated",
+      "Push is more secure"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pull: operator watches Git and pulls changes; Push: CI pushes to cluster."
+  },
+  {
+    "id": "DEVOPS_KUB_086",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Velero?",
+    "options": [
+      "Backup and restore tool for Kubernetes cluster resources and volumes",
+      "Monitoring tool",
+      "Ingress controller",
+      "Service mesh"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Backup and restore tool for Kubernetes cluster resources and volumes."
+  },
+  {
+    "id": "DEVOPS_KUB_087",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between K8s StatefulSet and Deployment for databases?",
+    "options": [
+      "StatefulSet provides stable network IDs and persistent storage per pod",
+      "No difference",
+      "Deployments handle state better",
+      "StatefulSets are deprecated"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is StatefulSet provides stable network IDs and persistent storage per pod."
+  },
+  {
+    "id": "DEVOPS_KUB_088",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is ephemeral container?",
+    "options": [
+      "Temporary container added to running pod for debugging",
+      "Init container",
+      "Sidecar container",
+      "Test container"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Temporary container added to running pod for debugging."
+  },
+  {
+    "id": "DEVOPS_KUB_089",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is kubectl debug?",
+    "options": [
+      "Creates debug container to troubleshoot running pods/nodes",
+      "Runs debug mode",
+      "Shows debug logs",
+      "Enables verbose mode"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates debug container to troubleshoot running pods/nodes."
+  },
+  {
+    "id": "DEVOPS_KUB_090",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is K8s certificate rotation?",
+    "options": [
+      "Automatic renewal of TLS certificates used by control plane",
+      "Manual only",
+      "Not supported",
+      "Helm feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automatic renewal of TLS certificates used by control plane."
+  },
+  {
+    "id": "DEVOPS_KUB_091",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is kubeadm?",
+    "options": [
+      "Tool for bootstrapping K8s clusters following best practices",
+      "Kubectl alternative",
+      "Helm alternative",
+      "Monitoring tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tool for bootstrapping K8s clusters following best practices."
+  },
+  {
+    "id": "DEVOPS_KUB_092",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of node labels?",
+    "options": [
+      "Metadata for organizing nodes and controlling pod scheduling",
+      "Naming nodes",
+      "Network routing",
+      "Storage assignment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Metadata for organizing nodes and controlling pod scheduling."
+  },
+  {
+    "id": "DEVOPS_KUB_093",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does kubectl scale do?",
+    "options": [
+      "Changes number of replicas in Deployment/ReplicaSet/StatefulSet",
+      "Scales nodes",
+      "Changes resource limits",
+      "Changes image"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Changes number of replicas in Deployment/ReplicaSet/StatefulSet."
+  },
+  {
+    "id": "DEVOPS_CI_001",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is CI (Continuous Integration)?",
+    "options": [
+      "Automatically building and testing code on every commit",
+      "Continuous deployment",
+      "Manual testing",
+      "Version control"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automatically building and testing code on every commit."
+  },
+  {
+    "id": "DEVOPS_CI_002",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is CD (Continuous Delivery)?",
+    "options": [
+      "Automated process ensuring code is always in deployable state",
+      "Building code",
+      "Testing only",
+      "Version control"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automated process ensuring code is always in deployable state."
+  },
+  {
+    "id": "DEVOPS_CI_003",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q151] What is a service mesh?",
+    "question": "What is Continuous Deployment?",
     "options": [
-      "None of the above",
-      "API gateway",
-      "Load balancer",
-      "Infrastructure layer for service comm"
+      "Automatically deploying every passed build to production",
+      "Continuous delivery",
+      "Manual deployment",
+      "Testing only"
     ],
     "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
+    "explanation": "The correct answer is Automatically deploying every passed build to production."
   },
   {
-    "id": "devops_1152",
+    "id": "DEVOPS_CI_004",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q152] Shift left testing means",
+    "question": "What is the difference between Continuous Delivery and Deployment?",
     "options": [
-      "Testing earlier in SDLC",
-      "Testing at end",
-      "None of the above",
+      "Delivery requires manual approval; Deployment is fully automatic",
+      "No difference",
+      "Delivery is automatic",
+      "Deployment needs approval"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Delivery requires manual approval; Deployment is fully automatic."
+  },
+  {
+    "id": "DEVOPS_CI_005",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is Jenkins?",
+    "options": [
+      "Open-source automation server for building CI/CD pipelines",
+      "Cloud CI/CD only",
+      "Docker tool",
+      "Git server"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Open-source automation server for building CI/CD pipelines."
+  },
+  {
+    "id": "DEVOPS_CI_006",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Jenkinsfile?",
+    "options": [
+      "Declarative or scripted pipeline definition as code in Git",
+      "Jenkins config file",
+      "Build artifact",
+      "Test report"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Declarative or scripted pipeline definition as code in Git."
+  },
+  {
+    "id": "DEVOPS_CI_007",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What are Jenkins stages?",
+    "options": [
+      "Logical divisions of a pipeline (Build, Test, Deploy)",
+      "Server regions",
+      "Node groups",
+      "Test suites"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Logical divisions of a pipeline (Build, Test, Deploy)."
+  },
+  {
+    "id": "DEVOPS_CI_008",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is GitHub Actions?",
+    "options": [
+      "CI/CD platform integrated directly into GitHub repositories",
+      "GitHub's version control",
+      "GitHub Pages",
+      "GitHub Security"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is CI/CD platform integrated directly into GitHub repositories."
+  },
+  {
+    "id": "DEVOPS_CI_009",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a workflow in GitHub Actions?",
+    "options": [
+      "Automated process defined in .yml file triggered by events",
+      "Repository config",
+      "Branch config",
+      "Deployment config"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automated process defined in .yml file triggered by events."
+  },
+  {
+    "id": "DEVOPS_CI_010",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a job in GitHub Actions?",
+    "options": [
+      "Set of steps running on the same runner",
+      "Single command",
+      "Pipeline stage",
+      "Repository"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Set of steps running on the same runner."
+  },
+  {
+    "id": "DEVOPS_CI_011",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a step in GitHub Actions?",
+    "options": [
+      "Individual task (action or shell command) within a job",
+      "Complete pipeline",
+      "Job group",
+      "Workflow"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Individual task (action or shell command) within a job."
+  },
+  {
+    "id": "DEVOPS_CI_012",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a runner in GitHub Actions?",
+    "options": [
+      "Server that executes the workflow jobs",
+      "Developer machine",
+      "Container only",
+      "Virtual machine only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Server that executes the workflow jobs."
+  },
+  {
+    "id": "DEVOPS_CI_013",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is GitLab CI/CD?",
+    "options": [
+      "Built-in CI/CD platform in GitLab using .gitlab-ci.yml",
+      "External CI tool",
+      "Separate product",
+      "GitHub feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Built-in CI/CD platform in GitLab using .gitlab-ci.yml."
+  },
+  {
+    "id": "DEVOPS_CI_014",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a pipeline in GitLab CI?",
+    "options": [
+      "Series of stages and jobs triggered on code changes",
+      "Repository structure",
+      "Branch config",
+      "Merge request"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Series of stages and jobs triggered on code changes."
+  },
+  {
+    "id": "DEVOPS_CI_015",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is CircleCI?",
+    "options": [
+      "Cloud-based CI/CD platform for fast builds",
+      "On-premise only CI",
+      "Docker-only CI",
+      "GitHub-only CI"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cloud-based CI/CD platform for fast builds."
+  },
+  {
+    "id": "DEVOPS_CI_016",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Travis CI?",
+    "options": [
+      "Hosted CI service commonly used for open source projects",
+      "GitLab CI",
+      "Jenkins cloud",
+      "CircleCI variant"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hosted CI service commonly used for open source projects."
+  },
+  {
+    "id": "DEVOPS_CI_017",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is Azure DevOps Pipelines?",
+    "options": [
+      "Microsoft's CI/CD service integrated with Azure cloud",
+      "AWS CI/CD",
+      "Google CI/CD",
+      "GitHub CI/CD"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Microsoft's CI/CD service integrated with Azure cloud."
+  },
+  {
+    "id": "DEVOPS_CI_018",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is AWS CodePipeline?",
+    "options": [
+      "Amazon's CI/CD service for automating release pipelines",
+      "Azure CI/CD",
+      "Jenkins cloud",
+      "GitHub CI/CD"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Amazon's CI/CD service for automating release pipelines."
+  },
+  {
+    "id": "DEVOPS_CI_019",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is artifact in CI/CD?",
+    "options": [
+      "Build output (binary, Docker image, JAR) produced by pipeline",
+      "Source code",
+      "Test report",
+      "Log file"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Build output (binary, Docker image, JAR) produced by pipeline."
+  },
+  {
+    "id": "DEVOPS_CI_020",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is artifact registry?",
+    "options": [
+      "Repository storing build artifacts (e.g., JFrog Artifactory, Nexus)",
+      "Docker registry",
+      "Git server",
+      "CI server"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Repository storing build artifacts (e.g., JFrog Artifactory, Nexus)."
+  },
+  {
+    "id": "DEVOPS_CI_021",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a build trigger?",
+    "options": [
+      "Event (push, PR, schedule) that starts a CI/CD pipeline",
+      "Build command",
+      "Deployment step",
+      "Test runner"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Event (push, PR, schedule) that starts a CI/CD pipeline."
+  },
+  {
+    "id": "DEVOPS_CI_022",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is branch protection?",
+    "options": [
+      "Rules preventing direct commits to protected branches (requires PR)",
+      "Branch deletion prevention",
+      "Branch naming",
+      "Branch merging only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Rules preventing direct commits to protected branches (requires PR)."
+  },
+  {
+    "id": "DEVOPS_CI_023",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a pull request (PR)?",
+    "options": [
+      "Proposal to merge changes from one branch to another with review",
+      "Code backup",
+      "Branch deletion",
+      "Release tag"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Proposal to merge changes from one branch to another with review."
+  },
+  {
+    "id": "DEVOPS_CI_024",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is code review in CI/CD?",
+    "options": [
+      "Manual inspection of code changes before merging to main branch",
+      "Automated testing",
+      "Code formatting",
+      "Build step"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Manual inspection of code changes before merging to main branch."
+  },
+  {
+    "id": "DEVOPS_CI_025",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a release pipeline vs build pipeline?",
+    "options": [
+      "Build creates artifact; release deploys it to environments",
+      "Same pipeline",
+      "Build includes deployment",
+      "Release creates artifact"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Build creates artifact; release deploys it to environments."
+  },
+  {
+    "id": "DEVOPS_CI_026",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is environment in CI/CD?",
+    "options": [
+      "Deployment target: dev, staging, production",
+      "Pipeline stage",
+      "Server type",
+      "Container"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Deployment target: dev, staging, production."
+  },
+  {
+    "id": "DEVOPS_CI_027",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a deployment gate?",
+    "options": [
+      "Condition that must pass before deploying to next environment",
+      "Build trigger",
+      "Test condition",
+      "Monitoring check"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Condition that must pass before deploying to next environment."
+  },
+  {
+    "id": "DEVOPS_CI_028",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is blue-green deployment in CI/CD?",
+    "options": [
+      "Two identical production environments for zero-downtime releases",
+      "Rolling deployment",
+      "Canary deployment",
+      "Shadow mode"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Two identical production environments for zero-downtime releases."
+  },
+  {
+    "id": "DEVOPS_CI_029",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is canary release?",
+    "options": [
+      "Releasing to small % of users first to validate before full rollout",
+      "Full release",
+      "Blue-green",
+      "Staged release"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Releasing to small % of users first to validate before full rollout."
+  },
+  {
+    "id": "DEVOPS_CI_030",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a feature flag?",
+    "options": [
+      "Toggle enabling/disabling features without deploying new code",
+      "Git branch",
+      "Environment variable",
+      "Build flag"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Toggle enabling/disabling features without deploying new code."
+  },
+  {
+    "id": "DEVOPS_CI_031",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the trunk-based development branching strategy?",
+    "options": [
+      "All developers commit to main (trunk) frequently, short-lived branches",
+      "Git Flow",
+      "GitHub Flow",
+      "Feature branching"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is All developers commit to main (trunk) frequently, short-lived branches."
+  },
+  {
+    "id": "DEVOPS_CI_032",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Git Flow?",
+    "options": [
+      "Branching strategy with main, develop, feature, release, hotfix branches",
+      "Trunk-based",
+      "GitHub Flow",
+      "Simple branching"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Branching strategy with main, develop, feature, release, hotfix branches."
+  },
+  {
+    "id": "DEVOPS_CI_033",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a hotfix in CI/CD?",
+    "options": [
+      "Emergency fix deployed directly to production (bypassing normal process)",
+      "Minor fix",
+      "Scheduled fix",
+      "Backlog fix"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Emergency fix deployed directly to production (bypassing normal process)."
+  },
+  {
+    "id": "DEVOPS_CI_034",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a rollback strategy?",
+    "options": [
+      "Plan to revert to previous version if new deployment fails",
+      "Deployment plan",
+      "Testing plan",
+      "Monitoring plan"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Plan to revert to previous version if new deployment fails."
+  },
+  {
+    "id": "DEVOPS_CI_035",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is semantic versioning (SemVer)?",
+    "options": [
+      "Major.Minor.Patch version numbering (e.g., 2.1.3)",
+      "Random versioning",
+      "Date versioning",
+      "Build number only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Major.Minor.Patch version numbering (e.g., 2.1.3)."
+  },
+  {
+    "id": "DEVOPS_CI_036",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does MAJOR version increment mean in SemVer?",
+    "options": [
+      "Breaking API changes",
+      "New features",
+      "Bug fixes",
+      "Internal changes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Breaking API changes."
+  },
+  {
+    "id": "DEVOPS_CI_037",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does MINOR version increment mean in SemVer?",
+    "options": [
+      "New backward-compatible features",
+      "Breaking changes",
+      "Bug fixes",
+      "Performance improvements"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is New backward-compatible features."
+  },
+  {
+    "id": "DEVOPS_CI_038",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does PATCH version increment mean in SemVer?",
+    "options": [
+      "Backward-compatible bug fixes",
+      "New features",
+      "Breaking changes",
+      "Security patches"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Backward-compatible bug fixes."
+  },
+  {
+    "id": "DEVOPS_CI_039",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a monorepo?",
+    "options": [
+      "Single repository containing multiple projects/services",
+      "One repository for one project",
+      "Repo for production only",
+      "Repository strategy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Single repository containing multiple projects/services."
+  },
+  {
+    "id": "DEVOPS_CI_040",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a polyrepo?",
+    "options": [
+      "Separate repository per service/project",
+      "Single shared repo",
+      "Mono repository",
+      "Hybrid repo"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Separate repository per service/project."
+  },
+  {
+    "id": "DEVOPS_CI_041",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is DORA metrics?",
+    "options": [
+      "DevOps Research and Assessment: deployment frequency, lead time, MTTR, change failure rate",
+      "Docker Registry Access",
+      "Deployment Operations Report API",
+      "DevOps Reference Architecture"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is DevOps Research and Assessment: deployment frequency, lead time, MTTR, change failure rate."
+  },
+  {
+    "id": "DEVOPS_CI_042",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is deployment frequency in DORA?",
+    "options": [
+      "How often code is deployed to production",
+      "How fast code is deployed",
+      "How many failed deployments",
+      "How long deployments take"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is How often code is deployed to production."
+  },
+  {
+    "id": "DEVOPS_CI_043",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is lead time for changes?",
+    "options": [
+      "Time from commit to running in production",
+      "Time to deploy",
+      "Time to test",
+      "Time to review"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Time from commit to running in production."
+  },
+  {
+    "id": "DEVOPS_CI_044",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is MTTR (Mean Time To Recovery)?",
+    "options": [
+      "Average time to recover from a production failure",
+      "Mean deployment time",
+      "Mean test time",
+      "Mean build time"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Average time to recover from a production failure."
+  },
+  {
+    "id": "DEVOPS_CI_045",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is change failure rate?",
+    "options": [
+      "Percentage of deployments causing production failures",
+      "Deployment success rate",
+      "Test failure rate",
+      "Build failure rate"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Percentage of deployments causing production failures."
+  },
+  {
+    "id": "DEVOPS_CI_046",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a pipeline as code?",
+    "options": [
+      "Defining CI/CD pipeline in version-controlled files (Jenkinsfile, .yml)",
+      "Running pipelines",
+      "Testing pipelines",
+      "Managing pipelines"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defining CI/CD pipeline in version-controlled files (Jenkinsfile, .yml)."
+  },
+  {
+    "id": "DEVOPS_CI_047",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is sonarqube?",
+    "options": [
+      "Static code analysis platform for code quality and security scanning",
+      "Test runner",
+      "Build tool",
+      "Container registry"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Static code analysis platform for code quality and security scanning."
+  },
+  {
+    "id": "DEVOPS_CI_048",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SAST (Static Application Security Testing)?",
+    "options": [
+      "Analyzing source code for vulnerabilities without running it",
+      "Dynamic testing",
+      "Penetration testing",
+      "Load testing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Analyzing source code for vulnerabilities without running it."
+  },
+  {
+    "id": "DEVOPS_CI_049",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is DAST (Dynamic Application Security Testing)?",
+    "options": [
+      "Testing running application for vulnerabilities",
+      "Static analysis",
+      "Code review",
+      "Dependency scanning"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Testing running application for vulnerabilities."
+  },
+  {
+    "id": "DEVOPS_CI_050",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is dependency scanning in CI/CD?",
+    "options": [
+      "Checking third-party dependencies for known vulnerabilities",
+      "Code quality check",
+      "Test coverage",
+      "Build optimization"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Checking third-party dependencies for known vulnerabilities."
+  },
+  {
+    "id": "DEVOPS_CI_051",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a build cache in CI/CD?",
+    "options": [
+      "Storing build dependencies to speed up subsequent pipeline runs",
+      "Build artifact",
+      "Test cache",
+      "Log cache"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Storing build dependencies to speed up subsequent pipeline runs."
+  },
+  {
+    "id": "DEVOPS_CI_052",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is matrix testing?",
+    "options": [
+      "Running tests across multiple OS/language version combinations",
+      "Multiple test files",
+      "Parallel testing",
+      "Random test order"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Running tests across multiple OS/language version combinations."
+  },
+  {
+    "id": "DEVOPS_CI_053",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is environment variable management in CI/CD?",
+    "options": [
+      "Securely storing and injecting secrets/config into pipelines",
+      "Variable naming",
+      "Code formatting",
+      "Build configuration"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Securely storing and injecting secrets/config into pipelines."
+  },
+  {
+    "id": "DEVOPS_CI_054",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Docker-based CI agent?",
+    "options": [
+      "CI runner using Docker containers as ephemeral build environments",
+      "Permanent CI server",
+      "VM-based agent",
+      "Cloud-only agent"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is CI runner using Docker containers as ephemeral build environments."
+  },
+  {
+    "id": "DEVOPS_CI_055",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is GitOps in CI/CD context?",
+    "options": [
+      "Using Git as source of truth for deployment, automated reconciliation",
+      "CI/CD alternative",
+      "Git workflow",
+      "Branch strategy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Using Git as source of truth for deployment, automated reconciliation."
+  },
+  {
+    "id": "DEVOPS_CI_056",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is infrastructure as code testing?",
+    "options": [
+      "Validating IaC files (Terraform, CloudFormation) in CI pipeline",
+      "Application testing",
+      "Load testing",
+      "Security testing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Validating IaC files (Terraform, CloudFormation) in CI pipeline."
+  },
+  {
+    "id": "DEVOPS_CI_057",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is shift-left testing?",
+    "options": [
+      "Moving testing earlier in development lifecycle to catch bugs sooner",
+      "Moving tests to production",
+      "Testing after deployment",
       "Manual testing"
     ],
     "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
+    "explanation": "The correct answer is Moving testing earlier in development lifecycle to catch bugs sooner."
   },
   {
-    "id": "devops_1153",
+    "id": "DEVOPS_CI_058",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is test-driven development (TDD)?",
+    "options": [
+      "Writing tests before writing the code they test",
+      "Test after code",
+      "Manual testing",
+      "Automated testing only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Writing tests before writing the code they test."
+  },
+  {
+    "id": "DEVOPS_CI_059",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q153] What is mean time to recovery (MTTR)?",
+    "question": "What is behavior-driven development (BDD)?",
     "options": [
-      "Data not provided",
-      "Deploy time",
-      "Average time to restore service",
+      "Using natural language (Gherkin) to describe tests from business perspective",
+      "TDD variant",
+      "Manual testing",
+      "E2E testing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Using natural language (Gherkin) to describe tests from business perspective."
+  },
+  {
+    "id": "DEVOPS_CI_060",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a nightly build?",
+    "options": [
+      "Automated build and test run scheduled each night",
+      "Continuous build",
+      "Real-time build",
+      "Weekly build"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automated build and test run scheduled each night."
+  },
+  {
+    "id": "DEVOPS_CI_061",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is parallel test execution?",
+    "options": [
+      "Running multiple test suites simultaneously to reduce total time",
+      "Sequential testing",
+      "Ordered testing",
+      "Priority testing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Running multiple test suites simultaneously to reduce total time."
+  },
+  {
+    "id": "DEVOPS_CI_062",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a release candidate (RC)?",
+    "options": [
+      "Final pre-release version for testing before official release",
+      "Beta version",
+      "Alpha version",
+      "Production version"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Final pre-release version for testing before official release."
+  },
+  {
+    "id": "DEVOPS_CI_063",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is auto-scaling CI runners?",
+    "options": [
+      "Dynamically provisioning/removing runners based on job queue",
+      "Fixed runner pool",
+      "Manual runner management",
+      "Cloud-only feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Dynamically provisioning/removing runners based on job queue."
+  },
+  {
+    "id": "DEVOPS_CI_064",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Tekton?",
+    "options": [
+      "Kubernetes-native CI/CD framework using CRDs",
+      "Jenkins alternative (K8s-native)",
+      "Docker tool",
+      "Git server"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Kubernetes-native CI/CD framework using CRDs."
+  },
+  {
+    "id": "DEVOPS_CI_065",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is ArgoCD's role in CI/CD?",
+    "options": [
+      "GitOps continuous delivery watching Git and syncing to K8s",
+      "CI build tool",
+      "Testing framework",
+      "Security scanner"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is GitOps continuous delivery watching Git and syncing to K8s."
+  },
+  {
+    "id": "DEVOPS_CI_066",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Spinnaker?",
+    "options": [
+      "Multi-cloud continuous delivery platform by Netflix",
+      "CI tool",
+      "Security tool",
+      "Monitoring tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Multi-cloud continuous delivery platform by Netflix."
+  },
+  {
+    "id": "DEVOPS_CI_067",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is an integration test environment?",
+    "options": [
+      "Dedicated environment where services are tested together",
+      "Production environment",
+      "Development environment",
+      "Staging environment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Dedicated environment where services are tested together."
+  },
+  {
+    "id": "DEVOPS_CI_068",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is smoke testing in CI/CD?",
+    "options": [
+      "Quick basic tests after deployment to verify critical functionality works",
+      "Full test suite",
+      "Performance tests",
+      "Security tests"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Quick basic tests after deployment to verify critical functionality works."
+  },
+  {
+    "id": "DEVOPS_CI_069",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is regression testing?",
+    "options": [
+      "Testing existing functionality after changes to ensure nothing broke",
+      "New feature testing",
+      "Performance testing",
+      "Security testing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Testing existing functionality after changes to ensure nothing broke."
+  },
+  {
+    "id": "DEVOPS_CI_070",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the fail-fast principle in CI/CD?",
+    "options": [
+      "Run fastest, most likely to fail tests first to give quick feedback",
+      "Run slowest tests first",
+      "Run all tests in parallel",
+      "Run tests randomly"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Run fastest, most likely to fail tests first to give quick feedback."
+  },
+  {
+    "id": "DEVOPS_CI_071",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a deployment manifest?",
+    "options": [
+      "YAML/JSON file describing desired state of K8s resources",
+      "Dockerfile",
+      "Jenkinsfile",
+      "GitHub Actions workflow"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is YAML/JSON file describing desired state of K8s resources."
+  },
+  {
+    "id": "DEVOPS_CI_072",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is infrastructure drift?",
+    "options": [
+      "Divergence between actual infrastructure and IaC definition",
+      "Code drift",
+      "Configuration drift",
+      "State drift"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Divergence between actual infrastructure and IaC definition."
+  },
+  {
+    "id": "DEVOPS_CI_073",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is immutable infrastructure?",
+    "options": [
+      "Infrastructure never modified — replaced with new instances on change",
+      "Mutable infrastructure",
+      "Configuration management",
+      "Automated patching"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Infrastructure never modified — replaced with new instances on change."
+  },
+  {
+    "id": "DEVOPS_CI_074",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is GitLab's Auto DevOps?",
+    "options": [
+      "Auto-configuring CI/CD pipeline based on language and framework detection",
+      "GitLab feature for runners",
+      "Auto-scaling feature",
+      "Security feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Auto-configuring CI/CD pipeline based on language and framework detection."
+  },
+  {
+    "id": "DEVOPS_CI_075",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Dependabot?",
+    "options": [
+      "GitHub tool auto-creating PRs for outdated dependency updates",
+      "Security scanner",
+      "Code reviewer",
+      "Build tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is GitHub tool auto-creating PRs for outdated dependency updates."
+  },
+  {
+    "id": "DEVOPS_CI_076",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a release gate/quality gate?",
+    "options": [
+      "Automated check ensuring code meets quality standards before progressing",
+      "Deployment step",
+      "Manual approval",
+      "Build trigger"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automated check ensuring code meets quality standards before progressing."
+  },
+  {
+    "id": "DEVOPS_CI_077",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is deployment validation?",
+    "options": [
+      "Automated checks after deployment to verify application health",
+      "Pre-deployment check",
+      "Code review",
+      "Build step"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automated checks after deployment to verify application health."
+  },
+  {
+    "id": "DEVOPS_CI_078",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a self-hosted runner in GitHub Actions?",
+    "options": [
+      "Runner deployed on your own infrastructure instead of GitHub's",
+      "GitHub-managed runner",
+      "Docker runner",
+      "Cloud runner"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Runner deployed on your own infrastructure instead of GitHub's."
+  },
+  {
+    "id": "DEVOPS_CI_079",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is cache invalidation in CI/CD?",
+    "options": [
+      "Clearing build cache when dependencies change to ensure fresh builds",
+      "Cache deletion",
+      "Cache policy",
+      "Build policy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Clearing build cache when dependencies change to ensure fresh builds."
+  },
+  {
+    "id": "DEVOPS_CI_080",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is environment parity?",
+    "options": [
+      "Keeping dev, staging, and production as identical as possible",
+      "Environment naming",
+      "Server sizing",
+      "Tool selection"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Keeping dev, staging, and production as identical as possible."
+  },
+  {
+    "id": "DEVOPS_CI_081",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is progressive delivery?",
+    "options": [
+      "Advanced deployment strategies (canary, feature flags) controlling rollout risk",
+      "Basic deployment",
+      "Blue-green only",
+      "Manual deployment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Advanced deployment strategies (canary, feature flags) controlling rollout risk."
+  },
+  {
+    "id": "DEVOPS_CI_082",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of code coverage gates?",
+    "options": [
+      "Block merges if code coverage drops below threshold",
+      "Show coverage only",
+      "Speed up builds",
+      "Optimize tests"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Block merges if code coverage drops below threshold."
+  },
+  {
+    "id": "DEVOPS_TER_001",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is Terraform?",
+    "options": [
+      "Infrastructure as Code tool for provisioning cloud resources declaratively",
+      "Configuration management",
+      "CI/CD tool",
+      "Container orchestrator"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Infrastructure as Code tool for provisioning cloud resources declaratively."
+  },
+  {
+    "id": "DEVOPS_TER_002",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What language does Terraform use?",
+    "options": [
+      "HCL (HashiCorp Configuration Language)",
+      "YAML",
+      "JSON only",
+      "Python"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is HCL (HashiCorp Configuration Language)."
+  },
+  {
+    "id": "DEVOPS_TER_003",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a Terraform provider?",
+    "options": [
+      "Plugin enabling Terraform to interact with a specific API (AWS, GCP)",
+      "Terraform module",
+      "State file",
+      "Workspace"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Plugin enabling Terraform to interact with a specific API (AWS, GCP)."
+  },
+  {
+    "id": "DEVOPS_TER_004",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a Terraform resource?",
+    "options": [
+      "Declares a specific infrastructure object to be created/managed",
+      "Module",
+      "Variable",
+      "Output"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Declares a specific infrastructure object to be created/managed."
+  },
+  {
+    "id": "DEVOPS_TER_005",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does terraform init do?",
+    "options": [
+      "Initializes working directory: downloads providers and modules",
+      "Creates resources",
+      "Destroys resources",
+      "Plans changes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Initializes working directory: downloads providers and modules."
+  },
+  {
+    "id": "DEVOPS_TER_006",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does terraform plan do?",
+    "options": [
+      "Shows what changes Terraform will make without applying them",
+      "Applies changes",
+      "Destroys resources",
+      "Initializes directory"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows what changes Terraform will make without applying them."
+  },
+  {
+    "id": "DEVOPS_TER_007",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does terraform apply do?",
+    "options": [
+      "Creates or modifies infrastructure according to plan",
+      "Plans changes",
+      "Destroys resources",
+      "Shows state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates or modifies infrastructure according to plan."
+  },
+  {
+    "id": "DEVOPS_TER_008",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does terraform destroy do?",
+    "options": [
+      "Destroys all resources managed by current Terraform config",
+      "Creates resources",
+      "Updates resources",
+      "Shows resources"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Destroys all resources managed by current Terraform config."
+  },
+  {
+    "id": "DEVOPS_TER_009",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Terraform state?",
+    "options": [
+      "File (terraform.tfstate) recording actual infrastructure state",
+      "Configuration file",
+      "Variable file",
+      "Module registry"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is File (terraform.tfstate) recording actual infrastructure state."
+  },
+  {
+    "id": "DEVOPS_TER_010",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "Why is Terraform state important?",
+    "options": [
+      "Allows Terraform to map config to real resources and detect drift",
+      "For logging",
+      "For security",
+      "For performance"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Allows Terraform to map config to real resources and detect drift."
+  },
+  {
+    "id": "DEVOPS_TER_011",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is remote state?",
+    "options": [
+      "Storing terraform.tfstate in remote backend (S3, Terraform Cloud)",
+      "Local state",
+      "Encrypted state",
+      "Shared variable"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Storing terraform.tfstate in remote backend (S3, Terraform Cloud)."
+  },
+  {
+    "id": "DEVOPS_TER_012",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Terraform backend?",
+    "options": [
+      "Where state is stored and operations are executed (S3, Azure Blob, etc.)",
+      "Provider",
+      "Module",
+      "Variable"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Where state is stored and operations are executed (S3, Azure Blob, etc.)."
+  },
+  {
+    "id": "DEVOPS_TER_013",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is state locking?",
+    "options": [
+      "Preventing concurrent state modifications (e.g., via DynamoDB lock)",
+      "Encrypting state",
+      "Backing up state",
+      "Versioning state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Preventing concurrent state modifications (e.g., via DynamoDB lock)."
+  },
+  {
+    "id": "DEVOPS_TER_014",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Terraform module?",
+    "options": [
+      "Reusable container of Terraform resources for a logical component",
+      "A resource",
+      "A provider",
+      "A variable"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reusable container of Terraform resources for a logical component."
+  },
+  {
+    "id": "DEVOPS_TER_015",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a Terraform variable?",
+    "options": [
+      "Input parameter for Terraform configuration (type, default, description)",
+      "Output value",
+      "Resource name",
+      "Module name"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Input parameter for Terraform configuration (type, default, description)."
+  },
+  {
+    "id": "DEVOPS_TER_016",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Terraform output?",
+    "options": [
+      "Value exposed after apply, used by other modules or pipelines",
+      "Input variable",
+      "Resource attribute",
+      "Provider setting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Value exposed after apply, used by other modules or pipelines."
+  },
+  {
+    "id": "DEVOPS_TER_017",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is terraform.tfvars file?",
+    "options": [
+      "File containing variable values for a Terraform configuration",
+      "State file",
+      "Provider config",
+      "Module definition"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is File containing variable values for a Terraform configuration."
+  },
+  {
+    "id": "DEVOPS_TER_018",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the count meta-argument?",
+    "options": [
+      "Creates multiple instances of a resource",
+      "Creates zero resources",
+      "Counts existing resources",
+      "Limits resources"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates multiple instances of a resource."
+  },
+  {
+    "id": "DEVOPS_TER_019",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the for_each meta-argument?",
+    "options": [
+      "Creates one resource instance per element in map/set",
+      "Creates loop",
+      "Iterates outputs",
+      "Counts resources"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates one resource instance per element in map/set."
+  },
+  {
+    "id": "DEVOPS_TER_020",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between count and for_each?",
+    "options": [
+      "for_each uses stable string keys; count uses numeric index",
+      "No difference",
+      "count is better always",
+      "for_each is deprecated"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is for_each uses stable string keys; count uses numeric index."
+  },
+  {
+    "id": "DEVOPS_TER_021",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a data source in Terraform?",
+    "options": [
+      "Fetches read-only information from existing resources or APIs",
+      "Creates resources",
+      "Modifies resources",
+      "Destroys resources"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Fetches read-only information from existing resources or APIs."
+  },
+  {
+    "id": "DEVOPS_TER_022",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is terraform fmt?",
+    "options": [
+      "Formats Terraform files to canonical style",
+      "Plans changes",
+      "Validates config",
+      "Shows state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Formats Terraform files to canonical style."
+  },
+  {
+    "id": "DEVOPS_TER_023",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is terraform validate?",
+    "options": [
+      "Validates configuration syntax and internal consistency",
+      "Formats files",
+      "Plans changes",
+      "Applies changes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Validates configuration syntax and internal consistency."
+  },
+  {
+    "id": "DEVOPS_TER_024",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is terraform import?",
+    "options": [
+      "Brings existing infrastructure under Terraform management",
+      "Creates resources",
+      "Exports state",
+      "Removes resources"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Brings existing infrastructure under Terraform management."
+  },
+  {
+    "id": "DEVOPS_TER_025",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is terraform taint?",
+    "options": [
+      "Marks resource for destruction and recreation on next apply (deprecated)",
+      "Tags resource",
+      "Validates resource",
+      "Locks resource"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Marks resource for destruction and recreation on next apply (deprecated)."
+  },
+  {
+    "id": "DEVOPS_TER_026",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What replaced terraform taint?",
+    "options": [
+      "terraform apply -replace=resource.name",
+      "terraform recreate",
+      "terraform refresh",
+      "terraform destroy + apply"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is terraform apply -replace=resource.name."
+  },
+  {
+    "id": "DEVOPS_TER_027",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is terraform refresh?",
+    "options": [
+      "Updates state file to match real-world infrastructure",
+      "Plans changes",
+      "Applies changes",
+      "Formats files"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Updates state file to match real-world infrastructure."
+  },
+  {
+    "id": "DEVOPS_TER_028",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the lifecycle meta-argument?",
+    "options": [
+      "Controls behavior: create_before_destroy, prevent_destroy, ignore_changes",
+      "Resource lifecycle",
+      "Provider lifecycle",
+      "Module lifecycle"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Controls behavior: create_before_destroy, prevent_destroy, ignore_changes."
+  },
+  {
+    "id": "DEVOPS_TER_029",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does create_before_destroy do?",
+    "options": [
+      "Creates replacement before destroying old resource",
+      "Destroys then creates",
+      "Prevents destroy",
+      "Ignores changes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates replacement before destroying old resource."
+  },
+  {
+    "id": "DEVOPS_TER_030",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does prevent_destroy do?",
+    "options": [
+      "Prevents terraform destroy from deleting specific resource",
+      "Forces recreation",
+      "Creates first",
+      "Ignores changes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Prevents terraform destroy from deleting specific resource."
+  },
+  {
+    "id": "DEVOPS_TER_031",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does ignore_changes do?",
+    "options": [
+      "Ignores specified attribute changes from drifting state",
+      "Prevents changes",
+      "Forces changes",
+      "Detects changes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Ignores specified attribute changes from drifting state."
+  },
+  {
+    "id": "DEVOPS_TER_032",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a workspace in Terraform?",
+    "options": [
+      "Separate state instances for same configuration (dev, prod)",
+      "Git workspace",
+      "Cloud workspace",
+      "Module namespace"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Separate state instances for same configuration (dev, prod)."
+  },
+  {
+    "id": "DEVOPS_TER_033",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the default workspace?",
+    "options": [
+      "'default' workspace created automatically in Terraform",
+      "first workspace",
+      "main workspace",
+      "prod workspace"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is 'default' workspace created automatically in Terraform."
+  },
+  {
+    "id": "DEVOPS_TER_034",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Terraform Cloud?",
+    "options": [
+      "HashiCorp's managed service for Terraform collaboration and remote runs",
+      "Open-source Terraform",
+      "Terraform alternative",
+      "AWS service"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is HashiCorp's managed service for Terraform collaboration and remote runs."
+  },
+  {
+    "id": "DEVOPS_TER_035",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Sentinel?",
+    "options": [
+      "HashiCorp's policy-as-code framework for governance in Terraform Enterprise",
+      "Security scanner",
+      "Configuration tool",
+      "State manager"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is HashiCorp's policy-as-code framework for governance in Terraform Enterprise."
+  },
+  {
+    "id": "DEVOPS_TER_036",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is module registry?",
+    "options": [
+      "Centralized repository of reusable Terraform modules",
+      "State registry",
+      "Provider registry",
+      "Variable registry"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Centralized repository of reusable Terraform modules."
+  },
+  {
+    "id": "DEVOPS_TER_037",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a provider lock file?",
+    "options": [
+      "terraform.lock.hcl — pins provider versions for reproducibility",
+      "State file",
+      "Variable file",
+      "Module file"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is terraform.lock.hcl — pins provider versions for reproducibility."
+  },
+  {
+    "id": "DEVOPS_TER_038",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is dynamic block in Terraform?",
+    "options": [
+      "Generates nested configuration blocks programmatically",
+      "Static config",
+      "Loop expression",
+      "Conditional block"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Generates nested configuration blocks programmatically."
+  },
+  {
+    "id": "DEVOPS_TER_039",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is locals in Terraform?",
+    "options": [
+      "Named values computed from expressions, used like variables",
+      "Input variables",
+      "Output values",
+      "Resource arguments"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Named values computed from expressions, used like variables."
+  },
+  {
+    "id": "DEVOPS_TER_040",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is depends_on meta-argument?",
+    "options": [
+      "Explicitly declares dependency between resources when implicit fails",
+      "Version constraint",
+      "Provider dependency",
+      "Module dependency"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Explicitly declares dependency between resources when implicit fails."
+  },
+  {
+    "id": "DEVOPS_TER_041",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the provisioner in Terraform?",
+    "options": [
+      "Executes scripts on local or remote resource after creation (use sparingly)",
+      "Resource manager",
+      "State manager",
+      "Variable manager"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Executes scripts on local or remote resource after creation (use sparingly)."
+  },
+  {
+    "id": "DEVOPS_TER_042",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is user_data in cloud resources (Terraform)?",
+    "options": [
+      "Script run on VM first boot (cloud-init)",
+      "Terraform variable",
+      "Provider secret",
+      "Module input"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Script run on VM first boot (cloud-init)."
+  },
+  {
+    "id": "DEVOPS_TER_043",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is terraform show?",
+    "options": [
+      "Displays human-readable output of state or plan file",
+      "Shows resources",
+      "Plans changes",
+      "Validates config"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Displays human-readable output of state or plan file."
+  },
+  {
+    "id": "DEVOPS_TER_044",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is terraform state list?",
+    "options": [
+      "Lists resources in current state file",
+      "Shows details",
+      "Shows outputs",
+      "Plans changes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Lists resources in current state file."
+  },
+  {
+    "id": "DEVOPS_TER_045",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is terraform state show?",
+    "options": [
+      "Shows detailed attributes of specific resource in state",
+      "Lists resources",
+      "Plans changes",
+      "Validates"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows detailed attributes of specific resource in state."
+  },
+  {
+    "id": "DEVOPS_TER_046",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is terraform state rm?",
+    "options": [
+      "Removes resource from state without destroying it (for import elsewhere)",
+      "Destroys resource",
+      "Plans removal",
+      "Lists resources"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Removes resource from state without destroying it (for import elsewhere)."
+  },
+  {
+    "id": "DEVOPS_TER_047",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is terraform state mv?",
+    "options": [
+      "Moves resource in state (renaming or moving to module)",
+      "Copies resource",
+      "Lists resources",
+      "Plans changes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Moves resource in state (renaming or moving to module)."
+  },
+  {
+    "id": "DEVOPS_TER_048",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the purpose of terraform output?",
+    "options": [
+      "Prints values of outputs from root module or sub-module",
+      "Shows state",
+      "Applies changes",
+      "Plans changes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Prints values of outputs from root module or sub-module."
+  },
+  {
+    "id": "DEVOPS_TER_049",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is version constraint in required_providers?",
+    "options": [
+      "Locks provider to compatible version range",
+      "Forces latest version",
+      "Lists versions",
+      "Disables updates"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Locks provider to compatible version range."
+  },
+  {
+    "id": "DEVOPS_TER_050",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a null_resource?",
+    "options": [
+      "Resource with no specific provider action, used to run provisioners",
+      "Empty resource",
+      "Debug resource",
+      "Test resource"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Resource with no specific provider action, used to run provisioners."
+  },
+  {
+    "id": "DEVOPS_TER_051",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is terraform console?",
+    "options": [
+      "Interactive REPL for evaluating Terraform expressions",
+      "GUI for Terraform",
+      "Debug console",
+      "State explorer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Interactive REPL for evaluating Terraform expressions."
+  },
+  {
+    "id": "DEVOPS_TER_052",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the difference between resource and data source?",
+    "options": [
+      "Resource creates/manages; data source reads existing without managing",
+      "No difference",
+      "Data creates resources",
+      "Resource reads data"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Resource creates/manages; data source reads existing without managing."
+  },
+  {
+    "id": "DEVOPS_TER_053",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the -target flag in terraform apply?",
+    "options": [
+      "Applies changes to only specified resource(s)",
+      "Targets environment",
+      "Selects workspace",
+      "Filters output"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Applies changes to only specified resource(s)."
+  },
+  {
+    "id": "DEVOPS_TER_054",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is -var flag in terraform apply?",
+    "options": [
+      "Passes variable value from command line",
+      "Sets target",
+      "Sets workspace",
+      "Sets backend"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Passes variable value from command line."
+  },
+  {
+    "id": "DEVOPS_TER_055",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the difference between == and = in Terraform?",
+    "options": [
+      "= assigns value; == is for comparison in conditions",
+      "No difference",
+      "Both assign",
+      "Both compare"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is = assigns value; == is for comparison in conditions."
+  },
+  {
+    "id": "DEVOPS_TER_056",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a template_file data source?",
+    "options": [
+      "Renders a template with variable substitutions (older pattern)",
+      "Module loader",
+      "Resource template",
+      "Provider template"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Renders a template with variable substitutions (older pattern)."
+  },
+  {
+    "id": "DEVOPS_TER_057",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is templatefile() function?",
+    "options": [
+      "Built-in function replacing template_file, renders template with vars",
+      "State function",
+      "Provider function",
+      "Module function"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Built-in function replacing template_file, renders template with vars."
+  },
+  {
+    "id": "DEVOPS_TER_058",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is for expression in Terraform?",
+    "options": [
+      "Transforms collections using comprehension-like syntax",
+      "for loop",
+      "Iteration count",
+      "Module loop"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Transforms collections using comprehension-like syntax."
+  },
+  {
+    "id": "DEVOPS_TER_059",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is conditional expression in Terraform?",
+    "options": [
+      "condition ? true_val : false_val — ternary operator",
+      "If-else statement",
+      "Switch statement",
+      "Unless expression"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is condition ? true_val : false_val — ternary operator."
+  },
+  {
+    "id": "DEVOPS_TER_060",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is splat expression (*)?",
+    "options": [
+      "Shorthand to get attribute from all elements in list",
+      "Wildcard",
+      "Multiplication",
+      "Pointer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shorthand to get attribute from all elements in list."
+  },
+  {
+    "id": "DEVOPS_TER_061",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a moved block in Terraform?",
+    "options": [
+      "Allows renaming/moving resources without destroy/recreate",
+      "Deprecated feature",
+      "Import helper",
+      "Module mover"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Allows renaming/moving resources without destroy/recreate."
+  },
+  {
+    "id": "DEVOPS_TER_062",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is check block in Terraform 1.5+?",
+    "options": [
+      "Custom validation condition checked after apply to assert expected state",
+      "Pre-condition check",
+      "Variable check",
+      "Output check"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Custom validation condition checked after apply to assert expected state."
+  },
+  {
+    "id": "DEVOPS_TER_063",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is precondition/postcondition?",
+    "options": [
+      "Assertions on resource inputs/outputs that must be true",
+      "Variable validation",
+      "Output validation",
+      "State validation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Assertions on resource inputs/outputs that must be true."
+  },
+  {
+    "id": "DEVOPS_TER_064",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Terragrunt?",
+    "options": [
+      "Thin wrapper around Terraform for DRY configurations and remote state",
+      "Terraform alternative",
+      "Ansible alternative",
+      "CI/CD tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Thin wrapper around Terraform for DRY configurations and remote state."
+  },
+  {
+    "id": "DEVOPS_TER_065",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Pulumi vs Terraform?",
+    "options": [
+      "Pulumi uses real programming languages; Terraform uses HCL",
+      "No difference",
+      "Pulumi is HCL-based",
+      "Terraform uses Python"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pulumi uses real programming languages; Terraform uses HCL."
+  },
+  {
+    "id": "DEVOPS_TER_066",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is CDK for Terraform (CDKTF)?",
+    "options": [
+      "Write Terraform configs in TypeScript/Python using AWS CDK-style API",
+      "AWS CDK only",
+      "Terraform GUI",
+      "Visual config tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Write Terraform configs in TypeScript/Python using AWS CDK-style API."
+  },
+  {
+    "id": "DEVOPS_TER_067",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is resource drift in Terraform?",
+    "options": [
+      "Real infrastructure differs from Terraform state",
+      "Code error",
+      "State corruption",
+      "Provider bug"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Real infrastructure differs from Terraform state."
+  },
+  {
+    "id": "DEVOPS_TER_068",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does terraform providers do?",
+    "options": [
+      "Lists providers required by current configuration",
+      "Shows state",
+      "Plans changes",
+      "Validates config"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Lists providers required by current configuration."
+  },
+  {
+    "id": "DEVOPS_TER_069",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of .terraform directory?",
+    "options": [
+      "Stores downloaded providers and modules (auto-created by init)",
+      "State storage",
+      "Variable storage",
+      "Config storage"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stores downloaded providers and modules (auto-created by init)."
+  },
+  {
+    "id": "DEVOPS_TER_070",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is terraformer?",
+    "options": [
+      "Tool reverse-engineering existing infrastructure to Terraform code",
+      "Terraform alternative",
+      "Testing tool",
+      "Provider tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tool reverse-engineering existing infrastructure to Terraform code."
+  },
+  {
+    "id": "DEVOPS_TER_071",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of required_version in Terraform?",
+    "options": [
+      "Constrains which Terraform CLI version can use the configuration",
+      "Variable requirement",
+      "Provider version",
+      "Module version"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Constrains which Terraform CLI version can use the configuration."
+  },
+  {
+    "id": "DEVOPS_TER_072",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a partial backend configuration?",
+    "options": [
+      "Specifying only some backend settings in config, rest from CLI/env",
+      "Incomplete config",
+      "Error state",
+      "Advanced pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Specifying only some backend settings in config, rest from CLI/env."
+  },
+  {
+    "id": "DEVOPS_TER_073",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is terraform force-unlock?",
+    "options": [
+      "Manually releases state lock if automatic unlock failed",
+      "Refreshes state",
+      "Validates state",
+      "Formats state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Manually releases state lock if automatic unlock failed."
+  },
+  {
+    "id": "DEVOPS_TER_074",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the importance of storing state in S3 with versioning?",
+    "options": [
+      "Allows recovery from accidental state corruption or deletion",
+      "Faster access",
+      "Encryption only",
+      "Cost reduction"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Allows recovery from accidental state corruption or deletion."
+  },
+  {
+    "id": "DEVOPS_TER_075",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Terraform registry?",
+    "options": [
+      "Public/private repository for sharing modules and providers",
+      "State registry",
+      "Artifact registry",
+      "Container registry"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Public/private repository for sharing modules and providers."
+  },
+  {
+    "id": "DEVOPS_TER_076",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of tags in cloud resources via Terraform?",
+    "options": [
+      "Metadata for cost allocation, filtering, and governance",
+      "Resource naming",
+      "Security labeling",
+      "Version tracking"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Metadata for cost allocation, filtering, and governance."
+  },
+  {
+    "id": "DEVOPS_TER_077",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is cloud-agnostic infrastructure code?",
+    "options": [
+      "IaC working across multiple cloud providers",
+      "Cloud-specific code",
+      "Single cloud code",
+      "Provider-dependent code"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is IaC working across multiple cloud providers."
+  },
+  {
+    "id": "DEVOPS_TER_078",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the depends_on use case for modules?",
+    "options": [
+      "When module has hidden dependencies not captured by resource references",
+      "Always use it",
+      "Never use it",
+      "Only for providers"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is When module has hidden dependencies not captured by resource references."
+  },
+  {
+    "id": "DEVOPS_TER_079",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What are provider aliases used for?",
+    "options": [
+      "Managing multiple instances of same provider (e.g., multiple AWS regions)",
+      "Renaming providers",
+      "Versioning providers",
+      "Disabling providers"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Managing multiple instances of same provider (e.g., multiple AWS regions)."
+  },
+  {
+    "id": "DEVOPS_TER_080",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the replace_triggered_by lifecycle argument?",
+    "options": [
+      "Forces resource replacement when another resource changes",
+      "Replaces on any change",
+      "Prevents replacement",
+      "Ignores replacement"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Forces resource replacement when another resource changes."
+  },
+  {
+    "id": "DEVOPS_MON_001",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is observability?",
+    "options": [
+      "Ability to understand internal state from external outputs (metrics, logs, traces)",
+      "Just monitoring",
+      "Just logging",
+      "Just alerting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Ability to understand internal state from external outputs (metrics, logs, traces)."
+  },
+  {
+    "id": "DEVOPS_MON_002",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What are the three pillars of observability?",
+    "options": [
+      "Metrics, Logs, Traces",
+      "CPU, Memory, Disk",
+      "Alerts, Dashboards, Reports",
+      "Deploy, Test, Monitor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Metrics, Logs, Traces."
+  },
+  {
+    "id": "DEVOPS_MON_003",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is Prometheus?",
+    "options": [
+      "Open-source monitoring system scraping and storing time-series metrics",
+      "Log aggregator",
+      "Tracing tool",
+      "Alerting system"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Open-source monitoring system scraping and storing time-series metrics."
+  },
+  {
+    "id": "DEVOPS_MON_004",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the Prometheus data model?",
+    "options": [
+      "Time-series identified by metric name and label key-value pairs",
+      "JSON logs",
+      "SQL tables",
+      "Binary metrics"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Time-series identified by metric name and label key-value pairs."
+  },
+  {
+    "id": "DEVOPS_MON_005",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is PromQL?",
+    "options": [
+      "Prometheus Query Language for querying time-series data",
+      "SQL variant",
+      "Log query language",
+      "Metric DSL"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Prometheus Query Language for querying time-series data."
+  },
+  {
+    "id": "DEVOPS_MON_006",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Prometheus exporter?",
+    "options": [
+      "Exposes metrics in Prometheus format from external systems",
+      "Prometheus itself",
+      "Push gateway",
+      "Alertmanager"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Exposes metrics in Prometheus format from external systems."
+  },
+  {
+    "id": "DEVOPS_MON_007",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is Grafana?",
+    "options": [
+      "Visualization platform for metrics, logs, and traces from multiple sources",
+      "Monitoring backend",
+      "Alert manager",
+      "Log aggregator"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Visualization platform for metrics, logs, and traces from multiple sources."
+  },
+  {
+    "id": "DEVOPS_MON_008",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is Grafana dashboard?",
+    "options": [
+      "Collection of panels visualizing metrics and data from data sources",
+      "Alert rule",
+      "Notification channel",
+      "Query editor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Collection of panels visualizing metrics and data from data sources."
+  },
+  {
+    "id": "DEVOPS_MON_009",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Alertmanager in Prometheus?",
+    "options": [
+      "Handles alert routing, grouping, silencing, and notification",
+      "Metrics storage",
+      "Query engine",
+      "Scrape target"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Handles alert routing, grouping, silencing, and notification."
+  },
+  {
+    "id": "DEVOPS_MON_010",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Prometheus alert rule?",
+    "options": [
+      "Condition that fires when PromQL expression is true for duration",
+      "Dashboard panel",
+      "Scrape config",
+      "Exporter"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Condition that fires when PromQL expression is true for duration."
+  },
+  {
+    "id": "DEVOPS_MON_011",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the Loki stack?",
+    "options": [
+      "Grafana Loki for log aggregation, Promtail for collection",
+      "ELK alternative",
+      "Prometheus variant",
+      "Tracing tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Grafana Loki for log aggregation, Promtail for collection."
+  },
+  {
+    "id": "DEVOPS_MON_012",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is ELK stack?",
+    "options": [
+      "Elasticsearch, Logstash, Kibana for log management",
+      "Monitoring stack",
+      "Tracing stack",
+      "Metrics stack"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Elasticsearch, Logstash, Kibana for log management."
+  },
+  {
+    "id": "DEVOPS_MON_013",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is Elasticsearch?",
+    "options": [
+      "Distributed search and analytics engine for log/data storage",
+      "Visualization tool",
+      "Log collector",
+      "Alerting system"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Distributed search and analytics engine for log/data storage."
+  },
+  {
+    "id": "DEVOPS_MON_014",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is Logstash?",
+    "options": [
+      "Data processing pipeline for collecting, transforming, and sending logs",
+      "Search engine",
+      "Visualization",
+      "Alerting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Data processing pipeline for collecting, transforming, and sending logs."
+  },
+  {
+    "id": "DEVOPS_MON_015",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is Kibana?",
+    "options": [
+      "Visualization and exploration interface for Elasticsearch data",
+      "Log storage",
+      "Data collector",
+      "Search engine"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Visualization and exploration interface for Elasticsearch data."
+  },
+  {
+    "id": "DEVOPS_MON_016",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Fluentd/Fluent Bit?",
+    "options": [
+      "Log collectors/forwarders aggregating logs from multiple sources",
+      "Log storage",
+      "Visualization",
+      "Alerting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Log collectors/forwarders aggregating logs from multiple sources."
+  },
+  {
+    "id": "DEVOPS_MON_017",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is distributed tracing?",
+    "options": [
+      "Tracking request as it travels through multiple microservices",
+      "Log aggregation",
+      "Metric collection",
+      "Alert management"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tracking request as it travels through multiple microservices."
+  },
+  {
+    "id": "DEVOPS_MON_018",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Jaeger?",
+    "options": [
+      "Open-source distributed tracing platform (CNCF)",
+      "Metrics tool",
+      "Log tool",
+      "Alert tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Open-source distributed tracing platform (CNCF)."
+  },
+  {
+    "id": "DEVOPS_MON_019",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Zipkin?",
+    "options": [
+      "Distributed tracing system originally by Twitter",
+      "Metrics tool",
+      "Log tool",
+      "Grafana alternative"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Distributed tracing system originally by Twitter."
+  },
+  {
+    "id": "DEVOPS_MON_020",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is OpenTelemetry?",
+    "options": [
+      "Vendor-neutral standard for collecting metrics, logs, and traces",
+      "Proprietary monitoring",
+      "Single vendor solution",
+      "Log format only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Vendor-neutral standard for collecting metrics, logs, and traces."
+  },
+  {
+    "id": "DEVOPS_MON_021",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a span in distributed tracing?",
+    "options": [
+      "Single unit of work representing one operation in a trace",
+      "Complete trace",
+      "Log entry",
+      "Metric value"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Single unit of work representing one operation in a trace."
+  },
+  {
+    "id": "DEVOPS_MON_022",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a trace in distributed tracing?",
+    "options": [
+      "Complete journey of a request through all services",
+      "Single span",
+      "Log aggregation",
+      "Metric series"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Complete journey of a request through all services."
+  },
+  {
+    "id": "DEVOPS_MON_023",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is trace context propagation?",
+    "options": [
+      "Passing trace ID across service boundaries for correlation",
+      "Log correlation",
+      "Metric labeling",
+      "Alert correlation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Passing trace ID across service boundaries for correlation."
+  },
+  {
+    "id": "DEVOPS_MON_024",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SLI (Service Level Indicator)?",
+    "options": [
+      "Metric measuring a specific aspect of service performance",
+      "SLA definition",
+      "SLO breach",
+      "Alert threshold"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Metric measuring a specific aspect of service performance."
+  },
+  {
+    "id": "DEVOPS_MON_025",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SLO (Service Level Objective)?",
+    "options": [
+      "Target value for an SLI (e.g., 99.9% uptime)",
+      "Contract with customer",
+      "Alert threshold",
+      "Metric query"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Target value for an SLI (e.g., 99.9% uptime)."
+  },
+  {
+    "id": "DEVOPS_MON_026",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is SLA (Service Level Agreement)?",
+    "options": [
+      "Contractual commitment to customers about service levels",
+      "Internal target",
+      "Metric definition",
+      "Alert rule"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Contractual commitment to customers about service levels."
+  },
+  {
+    "id": "DEVOPS_MON_027",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is error budget?",
+    "options": [
+      "Amount of downtime/errors allowed before SLO is breached",
+      "Alert threshold",
+      "Cost budget",
+      "Resource quota"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Amount of downtime/errors allowed before SLO is breached."
+  },
+  {
+    "id": "DEVOPS_MON_028",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is RED method of monitoring?",
+    "options": [
+      "Rate, Errors, Duration — key metrics for services",
+      "Reliability, Efficiency, Durability",
+      "Read, Execute, Delete",
+      "Resource, Event, Dependency"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Rate, Errors, Duration — key metrics for services."
+  },
+  {
+    "id": "DEVOPS_MON_029",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is USE method of monitoring?",
+    "options": [
+      "Utilization, Saturation, Errors — for infrastructure resources",
+      "Usage, Storage, Efficiency",
+      "User, System, Event",
+      "Update, Scale, Error"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Utilization, Saturation, Errors — for infrastructure resources."
+  },
+  {
+    "id": "DEVOPS_MON_030",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Four Golden Signals?",
+    "options": [
+      "Latency, Traffic, Errors, Saturation (Google's monitoring approach)",
+      "4 SLIs",
+      "4 alerting rules",
+      "4 log levels"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Latency, Traffic, Errors, Saturation (Google's monitoring approach)."
+  },
+  {
+    "id": "DEVOPS_MON_031",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is latency in monitoring?",
+    "options": [
+      "Time to serve a request (p50, p95, p99 percentiles)",
+      "CPU usage",
+      "Memory usage",
+      "Disk I/O"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Time to serve a request (p50, p95, p99 percentiles)."
+  },
+  {
+    "id": "DEVOPS_MON_032",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is saturation in monitoring?",
+    "options": [
+      "How full a resource is (CPU, memory, queue depth)",
+      "Error rate",
+      "Request rate",
+      "Response time"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is How full a resource is (CPU, memory, queue depth)."
+  },
+  {
+    "id": "DEVOPS_MON_033",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a metric cardinality problem?",
+    "options": [
+      "Too many unique label combinations causing memory explosion in Prometheus",
+      "Too many metrics",
+      "Too many dashboards",
+      "Too many alerts"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Too many unique label combinations causing memory explosion in Prometheus."
+  },
+  {
+    "id": "DEVOPS_MON_034",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a scrape interval in Prometheus?",
+    "options": [
+      "Frequency at which Prometheus collects metrics from targets",
+      "Alert interval",
+      "Retention period",
+      "Query timeout"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Frequency at which Prometheus collects metrics from targets."
+  },
+  {
+    "id": "DEVOPS_MON_035",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Prometheus pushgateway?",
+    "options": [
+      "Intermediary for pushing metrics from short-lived jobs",
+      "Pull mechanism",
+      "Alert forwarder",
+      "Log collector"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Intermediary for pushing metrics from short-lived jobs."
+  },
+  {
+    "id": "DEVOPS_MON_036",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a counter metric type?",
+    "options": [
+      "Monotonically increasing value (resets on restart) — e.g., total requests",
+      "Can decrease",
+      "Can go negative",
+      "Fixed value"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Monotonically increasing value (resets on restart) — e.g., total requests."
+  },
+  {
+    "id": "DEVOPS_MON_037",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a gauge metric type?",
+    "options": [
+      "Value that can go up and down — e.g., current memory usage",
+      "Always increases",
+      "Always decreases",
+      "Counter variant"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Value that can go up and down — e.g., current memory usage."
+  },
+  {
+    "id": "DEVOPS_MON_038",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a histogram metric type?",
+    "options": [
+      "Samples observations in configurable buckets (e.g., request duration)",
+      "Single value",
+      "Monotonic counter",
+      "Label-only metric"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Samples observations in configurable buckets (e.g., request duration)."
+  },
+  {
+    "id": "DEVOPS_MON_039",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a summary metric type?",
+    "options": [
+      "Calculates configurable quantiles over a sliding time window",
+      "Histogram variant",
+      "Counter variant",
+      "Gauge variant"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Calculates configurable quantiles over a sliding time window."
+  },
+  {
+    "id": "DEVOPS_MON_040",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is health check endpoint?",
+    "options": [
+      "API endpoint (/health, /ready) reporting application health status",
+      "Monitoring dashboard",
+      "Alert rule",
+      "Tracing endpoint"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is API endpoint (/health, /ready) reporting application health status."
+  },
+  {
+    "id": "DEVOPS_MON_041",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the difference between /health and /ready?",
+    "options": [
+      "Health checks if app is alive; ready checks if ready to serve traffic",
+      "No difference",
+      "Health checks readiness",
+      "Ready checks liveness"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Health checks if app is alive; ready checks if ready to serve traffic."
+  },
+  {
+    "id": "DEVOPS_MON_042",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is on-call rotation?",
+    "options": [
+      "Scheduling team members to be responsible for incident response",
+      "Development schedule",
+      "Sprint rotation",
+      "Meeting schedule"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Scheduling team members to be responsible for incident response."
+  },
+  {
+    "id": "DEVOPS_MON_043",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is incident management?",
+    "options": [
+      "Process for detecting, responding to, and resolving production issues",
+      "Change management",
+      "Release management",
+      "Capacity management"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Process for detecting, responding to, and resolving production issues."
+  },
+  {
+    "id": "DEVOPS_MON_044",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is MTBF (Mean Time Between Failures)?",
+    "options": [
+      "Average time between system failures",
+      "Recovery time",
+      "Deployment time",
       "Build time"
     ],
     "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
+    "explanation": "The correct answer is Average time between system failures."
   },
   {
-    "id": "devops_1154",
+    "id": "DEVOPS_MON_045",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q154] SRE stands for",
+    "question": "What is postmortem (incident retrospective)?",
     "options": [
-      "System Resource Engineering",
-      "Site Reliability Engineering",
-      "Software Release Engineering",
-      "Insufficient information"
+      "Blameless analysis of incident cause and prevention measures",
+      "Blame assignment",
+      "Firing decision",
+      "Bug report"
     ],
     "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
+    "explanation": "The correct answer is Blameless analysis of incident cause and prevention measures."
   },
   {
-    "id": "devops_1155",
+    "id": "DEVOPS_MON_046",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q155] What is chaos engineering?",
+    "question": "What is synthetic monitoring?",
     "options": [
-      "Insufficient information",
-      "Normal testing",
-      "Load testing",
-      "Intentional failure testing"
+      "Simulating user interactions to proactively test application availability",
+      "Real user monitoring",
+      "Log monitoring",
+      "Metric monitoring"
     ],
     "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
+    "explanation": "The correct answer is Simulating user interactions to proactively test application availability."
   },
   {
-    "id": "devops_1156",
+    "id": "DEVOPS_MON_047",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q156] Artifact repository stores",
+    "question": "What is Real User Monitoring (RUM)?",
     "options": [
-      "Both A and C",
-      "Built software artifacts",
-      "Source code",
-      "Logs"
+      "Collecting performance data from actual user browsers",
+      "Synthetic monitoring",
+      "Server monitoring",
+      "API monitoring"
     ],
     "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
+    "explanation": "The correct answer is Collecting performance data from actual user browsers."
   },
   {
-    "id": "devops_1157",
+    "id": "DEVOPS_MON_048",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q157] What is feature flag?",
+    "question": "What is APM (Application Performance Monitoring)?",
     "options": [
-      "Neither A nor B",
-      "Git branch",
-      "Test case",
-      "Toggle features without deploy"
+      "Monitoring application behavior and performance in production",
+      "Infrastructure monitoring",
+      "Network monitoring",
+      "Log monitoring"
     ],
     "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
+    "explanation": "The correct answer is Monitoring application behavior and performance in production."
   },
   {
-    "id": "devops_1158",
+    "id": "DEVOPS_MON_049",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q158] What is observability?",
+    "question": "What is New Relic?",
     "options": [
-      "Only metrics",
-      "Only logs",
-      "Logs metrics traces",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
-  },
-  {
-    "id": "devops_1159",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q159] What is a rollback?",
-    "options": [
-      "Both B and C",
-      "Reverting to previous version",
-      "New release",
-      "Forward deploy"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1160",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q160] DevSecOps means",
-    "options": [
-      "Dev without security",
-      "Data not provided",
-      "Security team separate",
-      "Security integrated into DevOps"
-    ],
-    "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
-  },
-  {
-    "id": "devops_1161",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q161] DevOps combines",
-    "options": [
-      "Development and Operations",
-      "Design and Ops",
-      "Option not applicable",
-      "Dev and QA"
-    ],
-    "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
-  },
-  {
-    "id": "devops_1162",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q162] CI stands for",
-    "options": [
-      "Continuous Integration",
-      "The above is incorrect",
-      "Code Integration",
-      "Continuous Inspection"
-    ],
-    "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
-  },
-  {
-    "id": "devops_1163",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q163] CD stands for",
-    "options": [
-      "Cannot be determined",
-      "Continuous Delivery/Deployment",
-      "Code Deployment",
-      "Continuous Design"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1164",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q164] Docker is used for",
-    "options": [
-      "All of the above",
-      "Orchestration",
-      "Containerization",
-      "Virtualization"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1165",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q165] Kubernetes is used for",
-    "options": [
-      "Containerization",
-      "CI/CD",
-      "Cannot be determined",
-      "Container orchestration"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1166",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q166] Jenkins is",
-    "options": [
-      "Option not applicable",
-      "CI/CD automation server",
-      "Version control",
+      "Full-stack APM and observability platform",
+      "Open-source only tool",
+      "On-premise monitoring",
       "Container tool"
     ],
     "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
+    "explanation": "The correct answer is Full-stack APM and observability platform."
   },
   {
-    "id": "devops_1167",
+    "id": "DEVOPS_MON_050",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q167] Git is",
+    "question": "What is Datadog?",
     "options": [
-      "Container",
-      "Distributed version control",
-      "Data not provided",
-      "CI tool"
+      "Cloud monitoring and analytics platform with APM, logs, metrics",
+      "Open-source tool",
+      "Self-hosted only",
+      "K8s-only tool"
     ],
     "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
+    "explanation": "The correct answer is Cloud monitoring and analytics platform with APM, logs, metrics."
   },
   {
-    "id": "devops_1168",
+    "id": "DEVOPS_MON_051",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q168] What is Infrastructure as Code?",
+    "question": "What is Dynatrace?",
     "options": [
-      "Manual server config",
-      "Neither A nor B",
-      "Managing infra via code",
-      "Cloud only"
+      "AI-powered full-stack observability and monitoring platform",
+      "Open-source tool",
+      "Log-only tool",
+      "Metrics-only tool"
     ],
     "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
+    "explanation": "The correct answer is AI-powered full-stack observability and monitoring platform."
   },
   {
-    "id": "devops_1169",
+    "id": "DEVOPS_MON_052",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q169] Terraform is used for",
+    "question": "What is CloudWatch?",
     "options": [
-      "Monitoring",
-      "IaC / cloud provisioning",
-      "Containerization",
-      "None of the above"
+      "AWS native monitoring service for AWS resources and applications",
+      "Azure monitoring",
+      "GCP monitoring",
+      "K8s monitoring"
     ],
     "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
+    "explanation": "The correct answer is AWS native monitoring service for AWS resources and applications."
   },
   {
-    "id": "devops_1170",
+    "id": "DEVOPS_MON_053",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q170] Ansible is used for",
+    "question": "What is Azure Monitor?",
     "options": [
-      "Container orchestration",
-      "CI/CD",
-      "Both B and C",
-      "Configuration management"
+      "Microsoft's monitoring service for Azure resources",
+      "AWS monitoring",
+      "GCP monitoring",
+      "Open-source tool"
     ],
     "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
+    "explanation": "The correct answer is Microsoft's monitoring service for Azure resources."
   },
   {
-    "id": "devops_1171",
+    "id": "DEVOPS_MON_054",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q171] What is a pipeline?",
+    "question": "What is Google Cloud Monitoring?",
     "options": [
-      "Database",
-      "Manual process",
-      "Automated workflow stages",
-      "Neither A nor B"
+      "GCP's native monitoring service (formerly Stackdriver)",
+      "AWS service",
+      "Azure service",
+      "Open-source tool"
     ],
     "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
+    "explanation": "The correct answer is GCP's native monitoring service (formerly Stackdriver)."
   },
   {
-    "id": "devops_1172",
+    "id": "DEVOPS_MON_055",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q172] Blue-Green deployment",
+    "question": "What is PagerDuty?",
     "options": [
-      "Rolling update",
-      "Zero-downtime deployment strategy",
-      "Canary release",
-      "Insufficient information"
+      "Incident management and on-call scheduling platform",
+      "Monitoring tool",
+      "CI/CD tool",
+      "Container tool"
     ],
     "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
+    "explanation": "The correct answer is Incident management and on-call scheduling platform."
   },
   {
-    "id": "devops_1173",
+    "id": "DEVOPS_MON_056",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q173] Canary deployment",
+    "question": "What is VictorOps (Splunk On-Call)?",
     "options": [
-      "Gradual rollout to subset",
-      "Full rollout",
-      "Neither A nor B",
-      "Blue-green"
+      "Incident management and on-call scheduling platform",
+      "Monitoring tool",
+      "Log tool",
+      "Tracing tool"
     ],
     "answer": 0,
-    "explanation": "Canary releases to small user subset first."
+    "explanation": "The correct answer is Incident management and on-call scheduling platform."
   },
   {
-    "id": "devops_1174",
+    "id": "DEVOPS_MON_057",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q174] What is monitoring in DevOps?",
+    "question": "What is the purpose of runbooks?",
     "options": [
-      "Deployment",
-      "Testing",
-      "Tracking system health",
-      "None of the above"
+      "Step-by-step procedures for handling known operational issues",
+      "Code documentation",
+      "API documentation",
+      "Test documentation"
     ],
     "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
+    "explanation": "The correct answer is Step-by-step procedures for handling known operational issues."
   },
   {
-    "id": "devops_1175",
+    "id": "DEVOPS_MON_058",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q175] Prometheus is",
+    "question": "What is log level?",
     "options": [
-      "Container",
-      "CI server",
-      "The above is incorrect",
-      "Metrics monitoring tool"
+      "Severity classification: DEBUG, INFO, WARN, ERROR, FATAL",
+      "Log format",
+      "Log timestamp",
+      "Log source"
     ],
     "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
+    "explanation": "The correct answer is Severity classification: DEBUG, INFO, WARN, ERROR, FATAL."
   },
   {
-    "id": "devops_1176",
+    "id": "DEVOPS_MON_059",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q176] Grafana is used for",
+    "question": "What is structured logging?",
     "options": [
-      "Visualization dashboards",
-      "IaC",
-      "Insufficient information",
-      "CI/CD"
+      "Logs in machine-parseable format (JSON) with consistent fields",
+      "Unformatted logs",
+      "Binary logs",
+      "Compressed logs"
     ],
     "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
+    "explanation": "The correct answer is Logs in machine-parseable format (JSON) with consistent fields."
   },
   {
-    "id": "devops_1177",
+    "id": "DEVOPS_MON_060",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q177] What is a microservice?",
+    "question": "What is centralized logging?",
     "options": [
-      "Small independent service",
-      "Neither A nor B",
-      "Monolithic app",
-      "Database"
+      "Collecting all application logs in one system for search and analysis",
+      "Local log files",
+      "Syslog only",
+      "Database logs"
     ],
     "answer": 0,
-    "explanation": "Microservices are independently deployable services."
+    "explanation": "The correct answer is Collecting all application logs in one system for search and analysis."
   },
   {
-    "id": "devops_1178",
+    "id": "DEVOPS_MON_061",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q178] Load balancer does",
+    "question": "What is log retention policy?",
     "options": [
-      "Distributes traffic",
-      "Stores data",
-      "Monitors logs",
-      "Cannot be determined"
+      "Rules defining how long logs are stored before deletion or archival",
+      "Log format",
+      "Log level",
+      "Log rotation"
     ],
     "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
+    "explanation": "The correct answer is Rules defining how long logs are stored before deletion or archival."
   },
   {
-    "id": "devops_1179",
+    "id": "DEVOPS_MON_062",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q179] What is auto-scaling?",
+    "question": "What is a correlation ID?",
     "options": [
-      "Fixed resources",
-      "Manual scaling",
-      "Insufficient information",
-      "Adjusting resources based on demand"
+      "Unique ID propagated across services to correlate logs for one request",
+      "User ID",
+      "Session ID",
+      "Transaction ID"
     ],
     "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
+    "explanation": "The correct answer is Unique ID propagated across services to correlate logs for one request."
   },
   {
-    "id": "devops_1180",
+    "id": "DEVOPS_MON_063",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q180] ELK stack includes",
+    "question": "What is the difference between monitoring and observability?",
     "options": [
-      "Elastic Linux Kubernetes",
-      "Express Logstash Kafka",
-      "Option not applicable",
-      "Elasticsearch Logstash Kibana"
+      "Monitoring checks known failures; observability enables understanding unknown issues",
+      "Same thing",
+      "Observability is simpler",
+      "Monitoring is more advanced"
     ],
     "answer": 0,
-    "explanation": "ELK is a popular log management stack."
+    "explanation": "The correct answer is Monitoring checks known failures; observability enables understanding unknown issues."
   },
   {
-    "id": "devops_1181",
+    "id": "DEVOPS_MON_064",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q181] What is a container image?",
+    "question": "What is the cardinality of labels in Prometheus?",
     "options": [
-      "Read-only template for containers",
-      "Virtual machine",
-      "Running container",
-      "Option not applicable"
+      "Number of unique label value combinations — high cardinality is expensive",
+      "Number of metrics",
+      "Number of targets",
+      "Number of queries"
     ],
     "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
+    "explanation": "The correct answer is Number of unique label value combinations — high cardinality is expensive."
   },
   {
-    "id": "devops_1182",
+    "id": "DEVOPS_MON_065",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q182] Dockerfile is",
+    "question": "What is recording rule in Prometheus?",
     "options": [
-      "Script to build Docker image",
-      "Option not applicable",
-      "Kubernetes config",
-      "Container runtime"
+      "Pre-computes expensive PromQL queries into new metrics for speed",
+      "Alert rule",
+      "Scrape rule",
+      "Aggregation"
     ],
     "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
+    "explanation": "The correct answer is Pre-computes expensive PromQL queries into new metrics for speed."
   },
   {
-    "id": "devops_1183",
+    "id": "DEVOPS_MON_066",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q183] Kubernetes Pod is",
+    "question": "What is the Thanos project?",
     "options": [
-      "Node",
-      "Smallest deployable unit",
-      "Service",
-      "Both A and B"
+      "Extends Prometheus for long-term storage and global querying",
+      "Prometheus fork",
+      "Log aggregator",
+      "Tracing tool"
     ],
     "answer": 0,
-    "explanation": "A Pod contains one or more containers."
+    "explanation": "The correct answer is Extends Prometheus for long-term storage and global querying."
   },
   {
-    "id": "devops_1184",
+    "id": "DEVOPS_MON_067",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q184] Helm in Kubernetes",
+    "question": "What is Cortex?",
     "options": [
-      "The above is incorrect",
-      "Package manager",
-      "Monitoring",
-      "Container runtime"
+      "Horizontally scalable, multi-tenant, long-term Prometheus storage",
+      "Prometheus fork",
+      "Grafana plugin",
+      "Alert manager"
     ],
     "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
+    "explanation": "The correct answer is Horizontally scalable, multi-tenant, long-term Prometheus storage."
   },
   {
-    "id": "devops_1185",
+    "id": "DEVOPS_MON_068",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q185] What is a deployment in k8s?",
+    "question": "What is Mimir?",
     "options": [
-      "Both A and B",
-      "Storage unit",
-      "Manages Pod replicas",
-      "Single container"
+      "Grafana's horizontally scalable Prometheus backend",
+      "Cortex replacement",
+      "Prometheus extension",
+      "Log tool"
     ],
     "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
+    "explanation": "The correct answer is Grafana's horizontally scalable Prometheus backend."
   },
   {
-    "id": "devops_1186",
+    "id": "DEVOPS_MON_069",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q186] Rolling update strategy",
+    "question": "What is Tempo (Grafana)?",
     "options": [
-      "Blue-green",
-      "All at once",
-      "Updates pods gradually",
-      "Cannot be determined"
+      "Grafana's open-source distributed tracing backend",
+      "Log tool",
+      "Metrics tool",
+      "Alert tool"
     ],
     "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
+    "explanation": "The correct answer is Grafana's open-source distributed tracing backend."
   },
   {
-    "id": "devops_1187",
+    "id": "DEVOPS_MON_070",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q187] What is a secret in k8s?",
+    "question": "What is the role of labels in Prometheus alerting?",
     "options": [
-      "Config map",
-      "Log file",
-      "Stores sensitive data",
-      "Both B and C"
+      "Labels route alerts to specific receivers in Alertmanager",
+      "Labels are cosmetic",
+      "Labels disable alerts",
+      "Labels filter logs"
     ],
     "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
+    "explanation": "The correct answer is Labels route alerts to specific receivers in Alertmanager."
   },
   {
-    "id": "devops_1188",
+    "id": "DEVOPS_MON_071",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q188] ConfigMap in k8s",
+    "question": "What is inhibition rule in Alertmanager?",
     "options": [
-      "Manages pods",
-      "Stores secrets",
-      "Both B and C",
-      "Stores non-sensitive config"
+      "Suppresses certain alerts when another related alert is firing",
+      "Silencing rule",
+      "Routing rule",
+      "Grouping rule"
     ],
     "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
+    "explanation": "The correct answer is Suppresses certain alerts when another related alert is firing."
   },
   {
-    "id": "devops_1189",
+    "id": "DEVOPS_MON_072",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q189] YAML files in DevOps",
+    "question": "What is silencing in Alertmanager?",
     "options": [
-      "Configuration/definition files",
-      "Compiled files",
-      "The above is incorrect",
-      "Binary configs"
+      "Muting alerts for a time period (e.g., during planned maintenance)",
+      "Alert deletion",
+      "Alert grouping",
+      "Alert routing"
     ],
     "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
+    "explanation": "The correct answer is Muting alerts for a time period (e.g., during planned maintenance)."
   },
   {
-    "id": "devops_1190",
+    "id": "DEVOPS_MON_073",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q190] What is GitOps?",
+    "question": "What is anomaly detection in monitoring?",
     "options": [
-      "Git as source of truth for infra",
-      "Neither A nor B",
-      "Git hosting",
-      "CI tool"
+      "Automatically identifying unusual patterns in metrics",
+      "Manual alerting",
+      "Log analysis",
+      "Capacity planning"
     ],
     "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
+    "explanation": "The correct answer is Automatically identifying unusual patterns in metrics."
   },
   {
-    "id": "devops_1191",
+    "id": "DEVOPS_MON_074",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q191] What is a service mesh?",
+    "question": "What is canary monitoring?",
     "options": [
-      "All of the above",
-      "API gateway",
-      "Infrastructure layer for service comm",
-      "Load balancer"
+      "Monitoring a small % deployment before full rollout",
+      "Full monitoring",
+      "Synthetic monitoring",
+      "RUM"
     ],
     "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
+    "explanation": "The correct answer is Monitoring a small % deployment before full rollout."
   },
   {
-    "id": "devops_1192",
+    "id": "DEVOPS_MON_075",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q192] Shift left testing means",
+    "question": "What is capacity planning?",
     "options": [
-      "Testing at end",
-      "Manual testing",
-      "The argument is invalid",
-      "Testing earlier in SDLC"
+      "Forecasting and provisioning resources before they hit limits",
+      "Incident response",
+      "Alert management",
+      "Log management"
     ],
     "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
+    "explanation": "The correct answer is Forecasting and provisioning resources before they hit limits."
   },
   {
-    "id": "devops_1193",
+    "id": "DEVOPS_MON_076",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q193] What is mean time to recovery (MTTR)?",
+    "question": "What is SLO burn rate alert?",
     "options": [
-      "Deploy time",
-      "Build time",
-      "Data not provided",
-      "Average time to restore service"
+      "Alert when error budget is being consumed too fast",
+      "Standard alert",
+      "Uptime alert",
+      "Latency alert"
     ],
     "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
+    "explanation": "The correct answer is Alert when error budget is being consumed too fast."
   },
   {
-    "id": "devops_1194",
+    "id": "DEVOPS_MON_077",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q194] SRE stands for",
+    "question": "What is multi-window multi-burn-rate alert?",
     "options": [
-      "Software Release Engineering",
-      "Insufficient information",
-      "Site Reliability Engineering",
-      "System Resource Engineering"
+      "Advanced SLO alerting detecting fast and slow error budget burns",
+      "Single window alert",
+      "Log alert",
+      "Metric alert"
     ],
     "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
+    "explanation": "The correct answer is Advanced SLO alerting detecting fast and slow error budget burns."
   },
   {
-    "id": "devops_1195",
+    "id": "DEVOPS_MON_078",
     "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q195] What is chaos engineering?",
+    "question": "What is the node_exporter?",
     "options": [
-      "Normal testing",
-      "None of the above",
-      "Load testing",
-      "Intentional failure testing"
+      "Prometheus exporter for hardware and OS metrics on Linux",
+      "Container metrics",
+      "K8s metrics",
+      "Database metrics"
     ],
     "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
+    "explanation": "The correct answer is Prometheus exporter for hardware and OS metrics on Linux."
   },
   {
-    "id": "devops_1196",
+    "id": "DEVOPS_MON_079",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is kube-state-metrics?",
+    "options": [
+      "Exposes K8s cluster state as Prometheus metrics",
+      "Node metrics",
+      "Pod log collector",
+      "Tracing agent"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Exposes K8s cluster state as Prometheus metrics."
+  },
+  {
+    "id": "DEVOPS_MON_080",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Prometheus federation?",
+    "options": [
+      "Prometheus scraping metrics from other Prometheus servers for aggregation",
+      "HA clustering",
+      "Long-term storage",
+      "Cross-datacenter sync"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Prometheus scraping metrics from other Prometheus servers for aggregation."
+  },
+  {
+    "id": "DEVOPS_MON_081",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the scrape_interval vs evaluation_interval in Prometheus?",
+    "options": [
+      "Scrape collects metrics; evaluation checks alert rules",
+      "Same setting",
+      "Evaluation collects metrics",
+      "Scrape checks rules"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Scrape collects metrics; evaluation checks alert rules."
+  },
+  {
+    "id": "DEVOPS_MON_082",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a dead man's switch alert in monitoring?",
+    "options": [
+      "Alert that fires when a monitoring system stops working",
+      "Alert for downtime",
+      "Alert for errors",
+      "Alert for latency"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Alert that fires when a monitoring system stops working."
+  },
+  {
+    "id": "DEVOPS_MON_083",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is chaos engineering?",
+    "options": [
+      "Intentionally introducing failures to test system resilience",
+      "Random testing",
+      "Stress testing",
+      "Load testing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Intentionally introducing failures to test system resilience."
+  },
+  {
+    "id": "DEVOPS_MON_084",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Chaos Monkey?",
+    "options": [
+      "Netflix tool randomly terminating instances to test resilience",
+      "Monitoring tool",
+      "Log collector",
+      "CI/CD tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Netflix tool randomly terminating instances to test resilience."
+  },
+  {
+    "id": "DEVOPS_MON_085",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of alerting fatigue prevention?",
+    "options": [
+      "Reducing noisy, low-signal alerts to prevent team ignoring real issues",
+      "Reducing monitoring",
+      "Reducing teams",
+      "Increasing alerts"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reducing noisy, low-signal alerts to prevent team ignoring real issues."
+  },
+  {
+    "id": "DEVOPS_GIT_001",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is Git?",
+    "options": [
+      "Distributed version control system tracking code changes",
+      "Centralized VCS",
+      "CI/CD tool",
+      "Code editor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Distributed version control system tracking code changes."
+  },
+  {
+    "id": "DEVOPS_GIT_002",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does git init do?",
+    "options": [
+      "Initializes a new Git repository in current directory",
+      "Clones repository",
+      "Creates commit",
+      "Adds remote"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Initializes a new Git repository in current directory."
+  },
+  {
+    "id": "DEVOPS_GIT_003",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does git clone do?",
+    "options": [
+      "Creates a local copy of a remote repository",
+      "Initializes repo",
+      "Creates branch",
+      "Adds files"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates a local copy of a remote repository."
+  },
+  {
+    "id": "DEVOPS_GIT_004",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does git add do?",
+    "options": [
+      "Stages changes for next commit",
+      "Commits changes",
+      "Pushes changes",
+      "Creates branch"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stages changes for next commit."
+  },
+  {
+    "id": "DEVOPS_GIT_005",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does git commit do?",
+    "options": [
+      "Records staged changes in repository history",
+      "Stages changes",
+      "Pushes to remote",
+      "Creates branch"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Records staged changes in repository history."
+  },
+  {
+    "id": "DEVOPS_GIT_006",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does git push do?",
+    "options": [
+      "Uploads local commits to remote repository",
+      "Downloads commits",
+      "Stages changes",
+      "Creates commit"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Uploads local commits to remote repository."
+  },
+  {
+    "id": "DEVOPS_GIT_007",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does git pull do?",
+    "options": [
+      "Fetches remote changes and merges into current branch",
+      "Pushes changes",
+      "Stages changes",
+      "Creates branch"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Fetches remote changes and merges into current branch."
+  },
+  {
+    "id": "DEVOPS_GIT_008",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q196] Artifact repository stores",
+    "question": "What is the difference between git fetch and git pull?",
     "options": [
-      "The statement is false",
-      "Logs",
+      "Fetch downloads without merging; pull downloads and merges",
+      "No difference",
+      "Fetch merges too",
+      "Pull doesn't merge"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Fetch downloads without merging; pull downloads and merges."
+  },
+  {
+    "id": "DEVOPS_GIT_009",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does git status do?",
+    "options": [
+      "Shows working tree status (staged, unstaged, untracked files)",
+      "Shows commit history",
+      "Shows branches",
+      "Shows remotes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows working tree status (staged, unstaged, untracked files)."
+  },
+  {
+    "id": "DEVOPS_GIT_010",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does git log do?",
+    "options": [
+      "Shows commit history",
+      "Shows file differences",
+      "Shows branches",
+      "Shows remotes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows commit history."
+  },
+  {
+    "id": "DEVOPS_GIT_011",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does git diff do?",
+    "options": [
+      "Shows differences between working tree and last commit",
+      "Shows commit log",
+      "Shows branch list",
+      "Shows staged changes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows differences between working tree and last commit."
+  },
+  {
+    "id": "DEVOPS_GIT_012",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does git branch do?",
+    "options": [
+      "Lists, creates, or deletes branches",
+      "Creates commit",
+      "Switches branches",
+      "Merges branches"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Lists, creates, or deletes branches."
+  },
+  {
+    "id": "DEVOPS_GIT_013",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does git checkout do?",
+    "options": [
+      "Switches branches or restores working tree files",
+      "Creates branches",
+      "Merges branches",
+      "Pushes branches"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Switches branches or restores working tree files."
+  },
+  {
+    "id": "DEVOPS_GIT_014",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does git switch do?",
+    "options": [
+      "Modern replacement for git checkout for switching branches",
+      "Creates commits",
+      "Merges branches",
+      "Shows logs"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Modern replacement for git checkout for switching branches."
+  },
+  {
+    "id": "DEVOPS_GIT_015",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does git merge do?",
+    "options": [
+      "Integrates changes from another branch into current branch",
+      "Creates branch",
+      "Rebases branch",
+      "Deletes branch"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Integrates changes from another branch into current branch."
+  },
+  {
+    "id": "DEVOPS_GIT_016",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the difference between merge and rebase?",
+    "options": [
+      "Merge creates merge commit; rebase rewrites history for linear log",
+      "No difference",
+      "Rebase creates merge commit",
+      "Merge rewrites history"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Merge creates merge commit; rebase rewrites history for linear log."
+  },
+  {
+    "id": "DEVOPS_GIT_017",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does git rebase do?",
+    "options": [
+      "Moves/combines commits by reapplying them on top of another branch",
+      "Merges branches",
+      "Deletes commits",
+      "Stages files"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Moves/combines commits by reapplying them on top of another branch."
+  },
+  {
+    "id": "DEVOPS_GIT_018",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a merge conflict?",
+    "options": [
+      "Occurs when two branches change same part of same file differently",
+      "Build error",
+      "Git error",
+      "Push error"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Occurs when two branches change same part of same file differently."
+  },
+  {
+    "id": "DEVOPS_GIT_019",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "How do you resolve a merge conflict?",
+    "options": [
+      "Edit conflicted file, remove markers, git add, git commit",
+      "Delete the file",
+      "Use git reset",
+      "Use git revert"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Edit conflicted file, remove markers, git add, git commit."
+  },
+  {
+    "id": "DEVOPS_GIT_020",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does git stash do?",
+    "options": [
+      "Temporarily saves uncommitted changes to a clean working directory",
+      "Commits changes",
+      "Deletes changes",
+      "Pushes changes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Temporarily saves uncommitted changes to a clean working directory."
+  },
+  {
+    "id": "DEVOPS_GIT_021",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does git stash pop do?",
+    "options": [
+      "Restores last stashed changes and removes from stash",
+      "Deletes stash",
+      "Lists stashes",
+      "Creates stash"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Restores last stashed changes and removes from stash."
+  },
+  {
+    "id": "DEVOPS_GIT_022",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does git reset do?",
+    "options": [
+      "Moves HEAD and branch pointer to specified commit",
+      "Commits changes",
+      "Pushes changes",
+      "Merges changes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Moves HEAD and branch pointer to specified commit."
+  },
+  {
+    "id": "DEVOPS_GIT_023",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between git reset --soft, --mixed, --hard?",
+    "options": [
+      "soft: keeps staged+working; mixed: keeps working only; hard: discards all",
+      "No difference",
+      "Hard keeps files",
+      "Soft discards all"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is soft: keeps staged+working; mixed: keeps working only; hard: discards all."
+  },
+  {
+    "id": "DEVOPS_GIT_024",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does git revert do?",
+    "options": [
+      "Creates new commit undoing changes from a previous commit (non-destructive)",
+      "Deletes commit",
+      "Amends commit",
+      "Hides commit"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates new commit undoing changes from a previous commit (non-destructive)."
+  },
+  {
+    "id": "DEVOPS_GIT_025",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between git reset and git revert?",
+    "options": [
+      "Reset moves HEAD (destructive); revert creates new commit (safe)",
+      "No difference",
+      "Both are destructive",
+      "Both are safe"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reset moves HEAD (destructive); revert creates new commit (safe)."
+  },
+  {
+    "id": "DEVOPS_GIT_026",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does git cherry-pick do?",
+    "options": [
+      "Applies a specific commit from another branch to current branch",
+      "Merges branches",
+      "Copies all commits",
+      "Creates branch"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Applies a specific commit from another branch to current branch."
+  },
+  {
+    "id": "DEVOPS_GIT_027",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does git tag do?",
+    "options": [
+      "Creates a named reference to a specific commit (releases)",
+      "Creates branch",
+      "Creates commit",
+      "Marks files"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates a named reference to a specific commit (releases)."
+  },
+  {
+    "id": "DEVOPS_GIT_028",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is an annotated tag vs lightweight tag?",
+    "options": [
+      "Annotated: full object with message; lightweight: just a pointer",
+      "No difference",
+      "Annotated is temporary",
+      "Lightweight has message"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Annotated: full object with message; lightweight: just a pointer."
+  },
+  {
+    "id": "DEVOPS_GIT_029",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is HEAD in Git?",
+    "options": [
+      "Pointer to currently checked-out commit or branch",
+      "Remote reference",
+      "Staged area",
+      "Stash"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pointer to currently checked-out commit or branch."
+  },
+  {
+    "id": "DEVOPS_GIT_030",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is detached HEAD state?",
+    "options": [
+      "HEAD points directly to commit, not a branch",
+      "Normal state",
+      "Error state",
+      "Merge state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is HEAD points directly to commit, not a branch."
+  },
+  {
+    "id": "DEVOPS_GIT_031",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does git remote do?",
+    "options": [
+      "Manages connections to remote repositories",
+      "Creates commits",
+      "Manages branches",
+      "Manages stashes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Manages connections to remote repositories."
+  },
+  {
+    "id": "DEVOPS_GIT_032",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does git remote add do?",
+    "options": [
+      "Adds a new remote repository connection",
+      "Removes remote",
+      "Lists remotes",
+      "Fetches remote"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Adds a new remote repository connection."
+  },
+  {
+    "id": "DEVOPS_GIT_033",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is origin?",
+    "options": [
+      "Default name for primary remote repository",
+      "Local branch",
+      "Default branch",
+      "Working directory"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Default name for primary remote repository."
+  },
+  {
+    "id": "DEVOPS_GIT_034",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is upstream?",
+    "options": [
+      "Remote repository you forked from (or main remote)",
+      "Default remote",
+      "Branch name",
+      "Tag"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Remote repository you forked from (or main remote)."
+  },
+  {
+    "id": "DEVOPS_GIT_035",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does git bisect do?",
+    "options": [
+      "Binary search through commits to find which introduced a bug",
+      "Splits repository",
+      "Finds branches",
+      "Lists commits"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Binary search through commits to find which introduced a bug."
+  },
+  {
+    "id": "DEVOPS_GIT_036",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does git blame do?",
+    "options": [
+      "Shows who changed each line of a file and when",
+      "Blames for errors",
+      "Shows commit log",
+      "Shows branches"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows who changed each line of a file and when."
+  },
+  {
+    "id": "DEVOPS_GIT_037",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is .gitignore?",
+    "options": [
+      "File listing patterns of files Git should not track",
+      "Git config file",
+      "Git state file",
+      "Branch config"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is File listing patterns of files Git should not track."
+  },
+  {
+    "id": "DEVOPS_GIT_038",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Git hook?",
+    "options": [
+      "Script triggered by Git events (pre-commit, post-push)",
+      "Branch protection",
+      "Remote config",
+      "Merge strategy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Script triggered by Git events (pre-commit, post-push)."
+  },
+  {
+    "id": "DEVOPS_GIT_039",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a pre-commit hook?",
+    "options": [
+      "Script running before each commit (e.g., linting, tests)",
+      "Post-commit hook",
+      "Push hook",
+      "Merge hook"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Script running before each commit (e.g., linting, tests)."
+  },
+  {
+    "id": "DEVOPS_GIT_040",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the staging area (index)?",
+    "options": [
+      "Intermediate area where changes are prepared before committing",
+      "Repository",
+      "Working tree",
+      "Stash"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Intermediate area where changes are prepared before committing."
+  },
+  {
+    "id": "DEVOPS_GIT_041",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does git add -p do?",
+    "options": [
+      "Interactively stages specific chunks of changes (patch mode)",
+      "Adds all files",
+      "Stages one file",
+      "Unstages files"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Interactively stages specific chunks of changes (patch mode)."
+  },
+  {
+    "id": "DEVOPS_GIT_042",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is git commit --amend?",
+    "options": [
+      "Modifies the last commit (message or files)",
+      "Creates new commit",
+      "Deletes commit",
+      "Stages commit"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Modifies the last commit (message or files)."
+  },
+  {
+    "id": "DEVOPS_GIT_043",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does git reflog do?",
+    "options": [
+      "Shows history of all HEAD changes, including resets and checkouts",
+      "Shows branch log",
+      "Shows remote log",
+      "Shows stash log"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows history of all HEAD changes, including resets and checkouts."
+  },
+  {
+    "id": "DEVOPS_GIT_044",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Why is git reflog useful?",
+    "options": [
+      "Can recover lost commits after accidental reset or branch deletion",
+      "Just for reference",
+      "Shows all files",
+      "Shows merge history"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Can recover lost commits after accidental reset or branch deletion."
+  },
+  {
+    "id": "DEVOPS_GIT_045",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a squash merge?",
+    "options": [
+      "Combines all commits from a branch into one before merging",
+      "Regular merge",
+      "Fast-forward merge",
+      "Rebase merge"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Combines all commits from a branch into one before merging."
+  },
+  {
+    "id": "DEVOPS_GIT_046",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is fast-forward merge?",
+    "options": [
+      "Moves branch pointer forward without creating merge commit (linear history)",
+      "Creates merge commit",
+      "Squashes commits",
+      "Rebases commits"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Moves branch pointer forward without creating merge commit (linear history)."
+  },
+  {
+    "id": "DEVOPS_GIT_047",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the --no-ff flag?",
+    "options": [
+      "Forces merge commit even when fast-forward is possible",
+      "Fast-forward flag",
+      "Squash flag",
+      "Rebase flag"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Forces merge commit even when fast-forward is possible."
+  },
+  {
+    "id": "DEVOPS_GIT_048",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is an interactive rebase?",
+    "options": [
+      "git rebase -i — allows squash, reword, drop, reorder commits",
+      "Automatic rebase",
+      "Simple rebase",
+      "Merge rebase"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is git rebase -i — allows squash, reword, drop, reorder commits."
+  },
+  {
+    "id": "DEVOPS_GIT_049",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is squashing commits?",
+    "options": [
+      "Combining multiple commits into one for cleaner history",
+      "Splitting commits",
+      "Ordering commits",
+      "Deleting commits"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Combining multiple commits into one for cleaner history."
+  },
+  {
+    "id": "DEVOPS_GIT_050",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the GitHub Flow branching model?",
+    "options": [
+      "main + short-lived feature branches + PR to merge",
+      "Git Flow",
+      "Trunk-based",
+      "Release branches"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is main + short-lived feature branches + PR to merge."
+  },
+  {
+    "id": "DEVOPS_GIT_051",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of git pull --rebase?",
+    "options": [
+      "Pulls remote changes and rebases local commits instead of merge commit",
+      "Regular pull",
+      "Force pull",
+      "Shallow pull"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pulls remote changes and rebases local commits instead of merge commit."
+  },
+  {
+    "id": "DEVOPS_GIT_052",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a shallow clone?",
+    "options": [
+      "Clones only limited commit history (--depth N) for faster download",
+      "Full clone",
+      "Partial clone",
+      "Mirror clone"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Clones only limited commit history (--depth N) for faster download."
+  },
+  {
+    "id": "DEVOPS_GIT_053",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is git submodule?",
+    "options": [
+      "Embeds another repository inside a parent repository at a specific commit",
+      "Branch strategy",
+      "Tag strategy",
+      "Merge strategy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Embeds another repository inside a parent repository at a specific commit."
+  },
+  {
+    "id": "DEVOPS_GIT_054",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does git worktree do?",
+    "options": [
+      "Allows multiple working directories from same repository",
+      "Multiple repos",
+      "Branch copies",
+      "Clone variants"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Allows multiple working directories from same repository."
+  },
+  {
+    "id": "DEVOPS_GIT_055",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is git archive?",
+    "options": [
+      "Creates archive (zip/tar) of repository content",
+      "Backup command",
+      "Clone command",
+      "Export command"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates archive (zip/tar) of repository content."
+  },
+  {
+    "id": "DEVOPS_GIT_056",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is git shortlog?",
+    "options": [
+      "Summarizes git log output by author",
+      "Short commit log",
+      "Branch summary",
+      "Tag summary"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Summarizes git log output by author."
+  },
+  {
+    "id": "DEVOPS_GIT_057",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is git grep?",
+    "options": [
+      "Searches for patterns in tracked files",
+      "Log search",
+      "Branch search",
+      "Remote search"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Searches for patterns in tracked files."
+  },
+  {
+    "id": "DEVOPS_GIT_058",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does ORIG_HEAD contain after a merge?",
+    "options": [
+      "Reference to previous HEAD before the merge",
+      "Current HEAD",
+      "Upstream branch",
+      "Stash reference"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reference to previous HEAD before the merge."
+  },
+  {
+    "id": "DEVOPS_GIT_059",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is FETCH_HEAD?",
+    "options": [
+      "Latest fetched commit from last git fetch",
+      "Remote HEAD",
+      "Merge head",
+      "Original HEAD"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Latest fetched commit from last git fetch."
+  },
+  {
+    "id": "DEVOPS_GIT_060",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is MERGE_HEAD?",
+    "options": [
+      "Commit being merged in a currently active merge",
+      "Fetch head",
+      "Original head",
+      "Current head"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Commit being merged in a currently active merge."
+  },
+  {
+    "id": "DEVOPS_GIT_061",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is git gc?",
+    "options": [
+      "Garbage collection — cleans up unnecessary files and optimizes repo",
+      "Gets commits",
+      "Creates archives",
+      "Lists refs"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Garbage collection — cleans up unnecessary files and optimizes repo."
+  },
+  {
+    "id": "DEVOPS_GIT_062",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is git prune?",
+    "options": [
+      "Removes objects unreachable from any reference",
+      "Lists branches",
+      "Cleans working dir",
+      "Resets index"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Removes objects unreachable from any reference."
+  },
+  {
+    "id": "DEVOPS_GIT_063",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is git remote prune origin?",
+    "options": [
+      "Removes stale remote-tracking branches deleted on remote",
+      "Deletes local branches",
+      "Fetches remote",
+      "Updates remote"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Removes stale remote-tracking branches deleted on remote."
+  },
+  {
+    "id": "DEVOPS_GIT_064",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a bare repository?",
+    "options": [
+      "Repository without working tree, used as remote/server",
+      "Standard repo",
+      "Shallow repo",
+      "Mirror repo"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Repository without working tree, used as remote/server."
+  },
+  {
+    "id": "DEVOPS_GIT_065",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is git bundle?",
+    "options": [
+      "Creates single file containing repository data for offline transfer",
+      "Archive file",
+      "Backup file",
+      "Config file"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates single file containing repository data for offline transfer."
+  },
+  {
+    "id": "DEVOPS_GIT_066",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does git clean do?",
+    "options": [
+      "Removes untracked files from working directory",
+      "Stages files",
+      "Commits files",
+      "Deletes tracked files"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Removes untracked files from working directory."
+  },
+  {
+    "id": "DEVOPS_GIT_067",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the difference between tracked and untracked files?",
+    "options": [
+      "Tracked files are known to Git; untracked are new, not yet added",
+      "No difference",
+      "Tracked are staged",
+      "Untracked are committed"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tracked files are known to Git; untracked are new, not yet added."
+  },
+  {
+    "id": "DEVOPS_GIT_068",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is modified vs staged vs committed?",
+    "options": [
+      "Modified: changed but not staged; staged: ready to commit; committed: in history",
+      "Same states",
+      "Modified is staged",
+      "Staged is committed"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Modified: changed but not staged; staged: ready to commit; committed: in history."
+  },
+  {
+    "id": "DEVOPS_GIT_069",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does git log --oneline do?",
+    "options": [
+      "Shows condensed one-line format for each commit",
+      "Full log",
+      "Branch log",
+      "Remote log"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows condensed one-line format for each commit."
+  },
+  {
+    "id": "DEVOPS_GIT_070",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does git log --graph do?",
+    "options": [
+      "Shows ASCII graph of branch and merge history",
+      "Flat log",
+      "File log",
+      "Remote log"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows ASCII graph of branch and merge history."
+  },
+  {
+    "id": "DEVOPS_GIT_071",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is git config --global?",
+    "options": [
+      "Sets configuration for all repositories for current user",
+      "Per-repo config",
+      "System config",
+      "Temporary config"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sets configuration for all repositories for current user."
+  },
+  {
+    "id": "DEVOPS_GIT_072",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of commit signing?",
+    "options": [
+      "Verifies commit was made by specific person using GPG key",
+      "Performance",
+      "CI requirement",
+      "Code style"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Verifies commit was made by specific person using GPG key."
+  },
+  {
+    "id": "DEVOPS_GIT_073",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is git rerere?",
+    "options": [
+      "Reuse Recorded Resolution — auto-applies previous conflict resolutions",
+      "Revert tool",
+      "Rebase helper",
+      "Merge tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reuse Recorded Resolution — auto-applies previous conflict resolutions."
+  },
+  {
+    "id": "DEVOPS_GIT_074",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the rule about rewriting public history?",
+    "options": [
+      "Never rebase or force-push commits already shared with others",
+      "Always rewrite",
+      "Rewrite as needed",
+      "Force push is fine"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Never rebase or force-push commits already shared with others."
+  },
+  {
+    "id": "DEVOPS_GIT_075",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is force push (git push -f)?",
+    "options": [
+      "Overwrites remote history (dangerous for shared branches)",
+      "Safe push",
+      "Normal push",
+      "Slow push"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Overwrites remote history (dangerous for shared branches)."
+  },
+  {
+    "id": "DEVOPS_GIT_076",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is git push --force-with-lease?",
+    "options": [
+      "Safer force push that fails if remote was updated since last fetch",
+      "Normal force push",
+      "Safe alternative to -f",
+      "Required for rebasing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Safer force push that fails if remote was updated since last fetch."
+  },
+  {
+    "id": "DEVOPS_GIT_077",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is conventional commits?",
+    "options": [
+      "Structured commit message format (feat:, fix:, chore:, etc.)",
+      "Coding convention",
+      "Branch naming",
+      "Git hook"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Structured commit message format (feat:, fix:, chore:, etc.)."
+  },
+  {
+    "id": "DEVOPS_GIT_078",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is semantic-release?",
+    "options": [
+      "Automates versioning and changelog based on conventional commits",
+      "Manual versioning",
+      "Tag management",
+      "Branch strategy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automates versioning and changelog based on conventional commits."
+  },
+  {
+    "id": "DEVOPS_GIT_079",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is git-flow tool?",
+    "options": [
+      "CLI implementing the Git Flow branching strategy",
+      "Built-in Git",
+      "GitHub feature",
+      "GitLab feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is CLI implementing the Git Flow branching strategy."
+  },
+  {
+    "id": "DEVOPS_GIT_080",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of PR (Pull Request) templates?",
+    "options": [
+      "Standardize PR descriptions for consistency and completeness",
+      "Required by Git",
+      "GitHub default",
+      "Branch template"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Standardize PR descriptions for consistency and completeness."
+  },
+  {
+    "id": "DEVOPS_GIT_081",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is CODEOWNERS file?",
+    "options": [
+      "Defines who must review changes to specific files/directories",
+      "Git config",
+      "Branch protection",
+      "PR template"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defines who must review changes to specific files/directories."
+  },
+  {
+    "id": "DEVOPS_GIT_082",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does Signed-off-by mean in commits?",
+    "options": [
+      "Developer certifies they have rights to contribute the code (DCO)",
+      "Required by Git",
+      "Code review step",
+      "PR approval"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Developer certifies they have rights to contribute the code (DCO)."
+  },
+  {
+    "id": "DEVOPS_GIT_083",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the DCO (Developer Certificate of Origin)?",
+    "options": [
+      "Certification that contribution is original work (used by Linux kernel et al.)",
+      "Code ownership",
+      "License header",
+      "Copyright notice"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Certification that contribution is original work (used by Linux kernel et al.)."
+  },
+  {
+    "id": "DEVOPS_GIT_084",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Large File Storage (LFS) in Git?",
+    "options": [
+      "Extension for versioning large files outside main repository",
+      "Binary storage",
+      "Cloud storage",
+      "Backup system"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Extension for versioning large files outside main repository."
+  },
+  {
+    "id": "DEVOPS_GIT_085",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does git ls-files do?",
+    "options": [
+      "Lists all tracked files in the repository",
+      "Shows log",
+      "Shows status",
+      "Shows remotes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Lists all tracked files in the repository."
+  },
+  {
+    "id": "DEVOPS_GIT_086",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the sparse-checkout feature?",
+    "options": [
+      "Checks out only specific files/directories from large repos",
+      "Shallow clone",
+      "Partial merge",
+      "Submodule feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Checks out only specific files/directories from large repos."
+  },
+  {
+    "id": "DEVOPS_GIT_087",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of git notes?",
+    "options": [
+      "Attach additional text to commits without changing commit hash",
+      "Commit amendment",
+      "Tag alternative",
+      "Branch note"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Attach additional text to commits without changing commit hash."
+  },
+  {
+    "id": "DEVOPS_PIP_001",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a DevOps pipeline?",
+    "options": [
+      "Automated sequence of steps from code commit to production deployment",
+      "Manual deployment",
+      "CI only",
+      "Testing only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automated sequence of steps from code commit to production deployment."
+  },
+  {
+    "id": "DEVOPS_PIP_002",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What are the typical stages of a CI/CD pipeline?",
+    "options": [
+      "Source → Build → Test → Deploy → Monitor",
+      "Code → Run → Done",
+      "Write → Push → Done",
+      "Plan → Apply → Done"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Source → Build → Test → Deploy → Monitor."
+  },
+  {
+    "id": "DEVOPS_PIP_003",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a pipeline trigger?",
+    "options": [
+      "Event (commit, tag, PR, schedule) that starts a pipeline run",
+      "Pipeline stage",
+      "Build step",
+      "Test result"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Event (commit, tag, PR, schedule) that starts a pipeline run."
+  },
+  {
+    "id": "DEVOPS_PIP_004",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a webhook?",
+    "options": [
+      "HTTP callback notifying external systems about events (code pushes)",
+      "Scheduled trigger",
+      "Manual trigger",
+      "API call only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is HTTP callback notifying external systems about events (code pushes)."
+  },
+  {
+    "id": "DEVOPS_PIP_005",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a build artifact?",
+    "options": [
+      "File produced by build pipeline (binary, Docker image, JAR)",
       "Source code",
-      "Built software artifacts"
+      "Test report",
+      "Log file"
     ],
     "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
+    "explanation": "The correct answer is File produced by build pipeline (binary, Docker image, JAR)."
   },
   {
-    "id": "devops_1197",
+    "id": "DEVOPS_PIP_006",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q197] What is feature flag?",
+    "question": "What is artifact versioning?",
     "options": [
-      "Test case",
-      "Toggle features without deploy",
-      "Cannot be determined",
-      "Git branch"
+      "Tagging build outputs with version numbers for traceability",
+      "Random naming",
+      "Sequential ID only",
+      "Build number"
     ],
     "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
+    "explanation": "The correct answer is Tagging build outputs with version numbers for traceability."
   },
   {
-    "id": "devops_1198",
+    "id": "DEVOPS_PIP_007",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a multi-stage pipeline?",
+    "options": [
+      "Pipeline with distinct phases: build, unit test, integration test, deploy",
+      "Single-stage pipeline",
+      "Linear build",
+      "Parallel jobs only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pipeline with distinct phases: build, unit test, integration test, deploy."
+  },
+  {
+    "id": "DEVOPS_PIP_008",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q198] What is observability?",
+    "question": "What is a pipeline as code?",
     "options": [
-      "Logs metrics traces",
-      "Only logs",
-      "Insufficient information",
-      "Only metrics"
+      "Defining pipeline configuration in version-controlled file",
+      "Manual configuration",
+      "GUI configuration",
+      "Database config"
     ],
     "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
+    "explanation": "The correct answer is Defining pipeline configuration in version-controlled file."
   },
   {
-    "id": "devops_1199",
+    "id": "DEVOPS_PIP_009",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What are Declarative vs Scripted Pipelines in Jenkins?",
+    "options": [
+      "Declarative uses structured syntax; Scripted uses Groovy code",
+      "No difference",
+      "Declarative is Groovy",
+      "Scripted uses YAML"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Declarative uses structured syntax; Scripted uses Groovy code."
+  },
+  {
+    "id": "DEVOPS_PIP_010",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q199] What is a rollback?",
+    "question": "What is a parallel stage?",
     "options": [
-      "New release",
-      "Data not provided",
-      "Reverting to previous version",
-      "Forward deploy"
+      "Multiple steps running simultaneously to reduce total pipeline time",
+      "Sequential stages",
+      "Dependent stages",
+      "Final stage"
     ],
     "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
+    "explanation": "The correct answer is Multiple steps running simultaneously to reduce total pipeline time."
   },
   {
-    "id": "devops_1200",
+    "id": "DEVOPS_PIP_011",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q200] DevSecOps means",
+    "question": "What is a pipeline stage gate?",
     "options": [
-      "Security team separate",
-      "Insufficient information",
-      "Security integrated into DevOps",
-      "Dev without security"
+      "Manual approval required before proceeding to next stage",
+      "Automated check",
+      "Test result",
+      "Build step"
     ],
     "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
+    "explanation": "The correct answer is Manual approval required before proceeding to next stage."
   },
   {
-    "id": "devops_1201",
+    "id": "DEVOPS_PIP_012",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q201] DevOps combines",
+    "question": "What is environment promotion?",
     "options": [
-      "Development and Operations",
-      "Dev and QA",
-      "Design and Ops",
-      "Data not provided"
+      "Moving artifact through dev → staging → production environments",
+      "Deployment scaling",
+      "Container promotion",
+      "Branch promotion"
     ],
     "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
+    "explanation": "The correct answer is Moving artifact through dev → staging → production environments."
   },
   {
-    "id": "devops_1202",
+    "id": "DEVOPS_PIP_013",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q202] CI stands for",
+    "question": "What is the difference between a build server and an agent?",
     "options": [
-      "Continuous Inspection",
-      "Code Integration",
-      "Continuous Integration",
-      "Data not provided"
+      "Build server coordinates; agent executes jobs",
+      "No difference",
+      "Agent coordinates",
+      "Server executes"
     ],
     "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
+    "explanation": "The correct answer is Build server coordinates; agent executes jobs."
   },
   {
-    "id": "devops_1203",
+    "id": "DEVOPS_PIP_014",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a shared library in Jenkins?",
+    "options": [
+      "Reusable Groovy code shared across multiple pipelines",
+      "Plugin",
+      "Module",
+      "Template"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reusable Groovy code shared across multiple pipelines."
+  },
+  {
+    "id": "DEVOPS_PIP_015",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q203] CD stands for",
+    "question": "What is a pipeline template?",
     "options": [
-      "Data not provided",
-      "Code Deployment",
-      "Continuous Delivery/Deployment",
-      "Continuous Design"
+      "Pre-built pipeline definition that teams can reuse/extend",
+      "Custom pipeline",
+      "Starter pipeline",
+      "Test pipeline"
     ],
     "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
+    "explanation": "The correct answer is Pre-built pipeline definition that teams can reuse/extend."
   },
   {
-    "id": "devops_1204",
+    "id": "DEVOPS_PIP_016",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q204] Docker is used for",
+    "question": "What is a self-service pipeline?",
     "options": [
-      "Virtualization",
-      "Orchestration",
-      "Containerization",
-      "Cannot be determined"
+      "Developers create/configure their own pipelines without ops team",
+      "Automated pipeline",
+      "Manual pipeline",
+      "Shared pipeline"
     ],
     "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
+    "explanation": "The correct answer is Developers create/configure their own pipelines without ops team."
   },
   {
-    "id": "devops_1205",
+    "id": "DEVOPS_PIP_017",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q205] Kubernetes is used for",
+    "question": "What is the build context in Docker within CI?",
     "options": [
-      "Option not applicable",
-      "CI/CD",
-      "Containerization",
-      "Container orchestration"
+      "Files available to Docker daemon during image build",
+      "Build stage",
+      "Docker layer",
+      "Build cache"
     ],
     "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
+    "explanation": "The correct answer is Files available to Docker daemon during image build."
   },
   {
-    "id": "devops_1206",
+    "id": "DEVOPS_PIP_018",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q206] Jenkins is",
+    "question": "What is layer caching in Docker CI builds?",
     "options": [
-      "Version control",
-      "Container tool",
-      "CI/CD automation server",
-      "Option not applicable"
+      "Reusing unchanged Docker layers to speed up builds",
+      "Build caching",
+      "Test caching",
+      "Artifact caching"
     ],
     "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
+    "explanation": "The correct answer is Reusing unchanged Docker layers to speed up builds."
   },
   {
-    "id": "devops_1207",
+    "id": "DEVOPS_PIP_019",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is kaniko?",
+    "options": [
+      "Tool for building Docker images inside Kubernetes without Docker daemon",
+      "Docker alternative",
+      "K8s image",
+      "CI runner"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tool for building Docker images inside Kubernetes without Docker daemon."
+  },
+  {
+    "id": "DEVOPS_PIP_020",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is buildah?",
+    "options": [
+      "Tool building OCI images without Docker daemon (rootless)",
+      "Docker fork",
+      "Container runner",
+      "CI agent"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tool building OCI images without Docker daemon (rootless)."
+  },
+  {
+    "id": "DEVOPS_PIP_021",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a pipeline graph?",
+    "options": [
+      "Visual representation of pipeline stages and dependencies",
+      "Code graph",
+      "Network topology",
+      "Deployment map"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Visual representation of pipeline stages and dependencies."
+  },
+  {
+    "id": "DEVOPS_PIP_022",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q207] Git is",
+    "question": "What is pipeline observability?",
     "options": [
-      "Insufficient information",
-      "CI tool",
-      "Distributed version control",
-      "Container"
+      "Monitoring pipeline health, duration, failure rate, and bottlenecks",
+      "Code observability",
+      "Build logging",
+      "Test tracking"
     ],
     "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
+    "explanation": "The correct answer is Monitoring pipeline health, duration, failure rate, and bottlenecks."
   },
   {
-    "id": "devops_1208",
+    "id": "DEVOPS_PIP_023",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is flaky test?",
+    "options": [
+      "Test that sometimes passes and sometimes fails without code changes",
+      "Always failing test",
+      "Always passing test",
+      "Skipped test"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Test that sometimes passes and sometimes fails without code changes."
+  },
+  {
+    "id": "DEVOPS_PIP_024",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is test quarantine?",
+    "options": [
+      "Isolating flaky tests to prevent blocking pipelines while fixing",
+      "Test deletion",
+      "Test skipping",
+      "Test mocking"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Isolating flaky tests to prevent blocking pipelines while fixing."
+  },
+  {
+    "id": "DEVOPS_PIP_025",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a monorepo pipeline challenge?",
+    "options": [
+      "Determining which services to build/test based on changed files",
+      "Too many branches",
+      "Too many stages",
+      "Too many runners"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Determining which services to build/test based on changed files."
+  },
+  {
+    "id": "DEVOPS_PIP_026",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is affected testing in monorepos?",
+    "options": [
+      "Running tests only for packages affected by changed files",
+      "Full test suite",
+      "Random testing",
+      "Sequential testing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Running tests only for packages affected by changed files."
+  },
+  {
+    "id": "DEVOPS_PIP_027",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q208] What is Infrastructure as Code?",
+    "question": "What is pipeline caching?",
     "options": [
-      "Cloud only",
-      "Manual server config",
-      "Managing infra via code",
-      "Data not provided"
+      "Storing dependencies between runs to avoid re-downloading",
+      "Build artifact",
+      "Log storage",
+      "State storage"
     ],
     "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
+    "explanation": "The correct answer is Storing dependencies between runs to avoid re-downloading."
   },
   {
-    "id": "devops_1209",
+    "id": "DEVOPS_PIP_028",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a Docker layer cache mount in BuildKit?",
+    "options": [
+      "Mounts build cache directory as Docker layer during build",
+      "Volume mount",
+      "Temp mount",
+      "Secret mount"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Mounts build cache directory as Docker layer during build."
+  },
+  {
+    "id": "DEVOPS_PIP_029",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q209] Terraform is used for",
+    "question": "What is secret management in pipelines?",
     "options": [
-      "IaC / cloud provisioning",
-      "Option not applicable",
-      "Containerization",
-      "Monitoring"
+      "Securely storing and injecting credentials into pipeline steps",
+      "Environment variables",
+      "Config files",
+      "Hard-coded values"
     ],
     "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
+    "explanation": "The correct answer is Securely storing and injecting credentials into pipeline steps."
   },
   {
-    "id": "devops_1210",
+    "id": "DEVOPS_PIP_030",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q210] Ansible is used for",
+    "question": "What tools are used for secret management in CI/CD?",
     "options": [
-      "Container orchestration",
-      "CI/CD",
-      "Configuration management",
-      "Cannot be determined"
+      "HashiCorp Vault, AWS Secrets Manager, Azure Key Vault",
+      "Environment variables only",
+      "Config files",
+      "Git secrets"
     ],
     "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
+    "explanation": "The correct answer is HashiCorp Vault, AWS Secrets Manager, Azure Key Vault."
   },
   {
-    "id": "devops_1211",
+    "id": "DEVOPS_PIP_031",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is code coverage in CI?",
+    "options": [
+      "Percentage of code executed by automated tests",
+      "Test count",
+      "Build time",
+      "Deployment frequency"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Percentage of code executed by automated tests."
+  },
+  {
+    "id": "DEVOPS_PIP_032",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q211] What is a pipeline?",
+    "question": "What is the quality gate in CI?",
     "options": [
-      "Option not applicable",
-      "Manual process",
-      "Database",
-      "Automated workflow stages"
+      "Condition blocking merge/deploy if code quality metrics fail threshold",
+      "Build condition",
+      "Test condition",
+      "Deploy condition"
     ],
     "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
+    "explanation": "The correct answer is Condition blocking merge/deploy if code quality metrics fail threshold."
   },
   {
-    "id": "devops_1212",
+    "id": "DEVOPS_PIP_033",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q212] Blue-Green deployment",
+    "question": "What is lint checking in CI?",
     "options": [
-      "Zero-downtime deployment strategy",
-      "Rolling update",
-      "Cannot be determined",
-      "Canary release"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1213",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q213] Canary deployment",
-    "options": [
-      "Blue-green",
-      "Gradual rollout to subset",
-      "Both B and C",
-      "Full rollout"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1214",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q214] What is monitoring in DevOps?",
-    "options": [
-      "Tracking system health",
+      "Automated code style and error analysis",
+      "Compilation",
       "Testing",
-      "Neither A nor B",
       "Deployment"
     ],
     "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
+    "explanation": "The correct answer is Automated code style and error analysis."
   },
   {
-    "id": "devops_1215",
+    "id": "DEVOPS_PIP_034",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q215] Prometheus is",
+    "question": "What is static analysis in CI?",
     "options": [
-      "CI server",
-      "Metrics monitoring tool",
-      "Neither A nor B",
-      "Container"
+      "Analyzing code without executing it for bugs and quality issues",
+      "Dynamic testing",
+      "Performance testing",
+      "Security testing"
     ],
     "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
+    "explanation": "The correct answer is Analyzing code without executing it for bugs and quality issues."
   },
   {
-    "id": "devops_1216",
+    "id": "DEVOPS_PIP_035",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q216] Grafana is used for",
+    "question": "What is OWASP dependency check?",
     "options": [
-      "CI/CD",
-      "Data not provided",
-      "IaC",
-      "Visualization dashboards"
+      "Scans dependencies for known CVEs",
+      "Code quality tool",
+      "License checker",
+      "Performance tool"
     ],
     "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
+    "explanation": "The correct answer is Scans dependencies for known CVEs."
   },
   {
-    "id": "devops_1217",
+    "id": "DEVOPS_PIP_036",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q217] What is a microservice?",
+    "question": "What is Snyk in CI/CD?",
     "options": [
-      "Monolithic app",
-      "Cannot be determined",
-      "Small independent service",
-      "Database"
+      "Security platform scanning code and dependencies for vulnerabilities",
+      "Performance tool",
+      "Code formatter",
+      "Test runner"
     ],
     "answer": 0,
-    "explanation": "Microservices are independently deployable services."
+    "explanation": "The correct answer is Security platform scanning code and dependencies for vulnerabilities."
   },
   {
-    "id": "devops_1218",
+    "id": "DEVOPS_PIP_037",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a deployment pipeline vs release pipeline?",
+    "options": [
+      "Deployment runs per commit; release governs which artifacts reach production",
+      "Same pipeline",
+      "Deploy is manual",
+      "Release is automated"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Deployment runs per commit; release governs which artifacts reach production."
+  },
+  {
+    "id": "DEVOPS_PIP_038",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q218] Load balancer does",
+    "question": "What is change management in CI/CD?",
     "options": [
-      "Monitors logs",
-      "Distributes traffic",
-      "Both A and B",
-      "Stores data"
+      "Process ensuring changes are approved and recorded before deployment",
+      "Random changes",
+      "Automatic changes",
+      "Uncontrolled changes"
     ],
     "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
+    "explanation": "The correct answer is Process ensuring changes are approved and recorded before deployment."
   },
   {
-    "id": "devops_1219",
+    "id": "DEVOPS_PIP_039",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q219] What is auto-scaling?",
+    "question": "What is ChatOps?",
     "options": [
-      "Fixed resources",
-      "Adjusting resources based on demand",
-      "Manual scaling",
-      "The above is incorrect"
+      "Using chat tools (Slack) to trigger and monitor deployments",
+      "Automated deployment",
+      "Manual ops",
+      "DevOps culture"
     ],
     "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
+    "explanation": "The correct answer is Using chat tools (Slack) to trigger and monitor deployments."
   },
   {
-    "id": "devops_1220",
+    "id": "DEVOPS_PIP_040",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q220] ELK stack includes",
+    "question": "What is the pipeline success rate metric?",
     "options": [
-      "Data not provided",
-      "Elasticsearch Logstash Kibana",
-      "Express Logstash Kafka",
-      "Elastic Linux Kubernetes"
+      "Percentage of pipeline runs that complete successfully",
+      "Test count",
+      "Build count",
+      "Deploy count"
     ],
     "answer": 0,
-    "explanation": "ELK is a popular log management stack."
+    "explanation": "The correct answer is Percentage of pipeline runs that complete successfully."
   },
   {
-    "id": "devops_1221",
+    "id": "DEVOPS_PIP_041",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q221] What is a container image?",
+    "question": "What is mean time to pipeline completion?",
     "options": [
-      "Virtual machine",
-      "Read-only template for containers",
-      "Running container",
-      "Option not applicable"
+      "Average duration from trigger to finished pipeline run",
+      "MTTR",
+      "MTBF",
+      "Lead time"
     ],
     "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
+    "explanation": "The correct answer is Average duration from trigger to finished pipeline run."
   },
   {
-    "id": "devops_1222",
+    "id": "DEVOPS_PIP_042",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is pipeline idempotency?",
+    "options": [
+      "Running pipeline multiple times produces same result",
+      "Immutability",
+      "Repeatability",
+      "Reliability"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Running pipeline multiple times produces same result."
+  },
+  {
+    "id": "DEVOPS_PIP_043",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q222] Dockerfile is",
+    "question": "What is a pipeline cleanup step?",
     "options": [
-      "Container runtime",
-      "Neither A nor B",
-      "Kubernetes config",
-      "Script to build Docker image"
+      "Removes temporary files, containers, and resources after run",
+      "Final deployment",
+      "Post-notification",
+      "Archive step"
     ],
     "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
+    "explanation": "The correct answer is Removes temporary files, containers, and resources after run."
   },
   {
-    "id": "devops_1223",
+    "id": "DEVOPS_PIP_044",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q223] Kubernetes Pod is",
+    "question": "What is retry mechanism in pipelines?",
     "options": [
-      "Node",
-      "Option not applicable",
-      "Smallest deployable unit",
-      "Service"
+      "Automatically re-running failed steps a specified number of times",
+      "Manual retry",
+      "Error ignore",
+      "Skip on failure"
     ],
     "answer": 0,
-    "explanation": "A Pod contains one or more containers."
+    "explanation": "The correct answer is Automatically re-running failed steps a specified number of times."
   },
   {
-    "id": "devops_1224",
+    "id": "DEVOPS_PIP_045",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is timeout in pipeline steps?",
+    "options": [
+      "Maximum time a step can run before being killed",
+      "Minimum time",
+      "Retry count",
+      "Failure threshold"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Maximum time a step can run before being killed."
+  },
+  {
+    "id": "DEVOPS_PIP_046",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is fan-out/fan-in pipeline pattern?",
+    "options": [
+      "Fan-out: parallel jobs; Fan-in: waits for all to complete before proceeding",
+      "Single thread",
+      "Sequential only",
+      "Batch processing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Fan-out: parallel jobs; Fan-in: waits for all to complete before proceeding."
+  },
+  {
+    "id": "DEVOPS_PIP_047",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q224] Helm in Kubernetes",
+    "question": "What is a workspace in CI/CD pipelines?",
     "options": [
-      "Container runtime",
-      "Package manager",
-      "Monitoring",
-      "Data not provided"
+      "Shared storage for artifacts between pipeline stages/jobs",
+      "Build server",
+      "Artifact registry",
+      "Source control"
     ],
     "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
+    "explanation": "The correct answer is Shared storage for artifacts between pipeline stages/jobs."
   },
   {
-    "id": "devops_1225",
+    "id": "DEVOPS_PIP_048",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q225] What is a deployment in k8s?",
+    "question": "What is pipeline migration?",
     "options": [
-      "Single container",
-      "Storage unit",
-      "Manages Pod replicas",
-      "Data not provided"
+      "Moving pipeline definitions from one CI/CD platform to another",
+      "Code migration",
+      "Data migration",
+      "Server migration"
     ],
     "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
+    "explanation": "The correct answer is Moving pipeline definitions from one CI/CD platform to another."
   },
   {
-    "id": "devops_1226",
+    "id": "DEVOPS_PIP_049",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the role of environment variables in pipelines?",
+    "options": [
+      "Pass configuration, credentials, and feature flags to pipeline steps",
+      "Store state",
+      "Log output",
+      "Track metrics"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pass configuration, credentials, and feature flags to pipeline steps."
+  },
+  {
+    "id": "DEVOPS_PIP_050",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a composite action in GitHub Actions?",
+    "options": [
+      "Reusable action combining multiple steps into one callable unit",
+      "Single action",
+      "JavaScript action",
+      "Docker action"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reusable action combining multiple steps into one callable unit."
+  },
+  {
+    "id": "DEVOPS_PIP_051",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a reusable workflow in GitHub Actions?",
+    "options": [
+      "Entire workflow called from another workflow",
+      "Composite action",
+      "Template workflow",
+      "Shared workflow"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Entire workflow called from another workflow."
+  },
+  {
+    "id": "DEVOPS_PIP_052",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q226] Rolling update strategy",
+    "question": "What is path filtering in CI triggers?",
     "options": [
-      "Updates pods gradually",
-      "All of the above",
-      "Blue-green",
-      "All at once"
+      "Run pipeline only when specific file paths change",
+      "Branch filtering",
+      "Tag filtering",
+      "User filtering"
     ],
     "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
+    "explanation": "The correct answer is Run pipeline only when specific file paths change."
   },
   {
-    "id": "devops_1227",
+    "id": "DEVOPS_PIP_053",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is scheduled pipeline?",
+    "options": [
+      "Pipeline triggered at specific time intervals (cron)",
+      "Event-driven pipeline",
+      "Manual pipeline",
+      "Push-triggered pipeline"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pipeline triggered at specific time intervals (cron)."
+  },
+  {
+    "id": "DEVOPS_PIP_054",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q227] What is a secret in k8s?",
+    "question": "What is a smoke test in pipeline?",
     "options": [
-      "Stores sensitive data",
-      "Config map",
-      "Neither A nor B",
-      "Log file"
+      "Quick test after deployment verifying critical paths work",
+      "Full regression",
+      "Unit test",
+      "Performance test"
     ],
     "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
+    "explanation": "The correct answer is Quick test after deployment verifying critical paths work."
   },
   {
-    "id": "devops_1228",
+    "id": "DEVOPS_PIP_055",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is pipeline as product?",
+    "options": [
+      "Treating CI/CD pipeline as a first-class product with SLAs and ownership",
+      "DevOps practice",
+      "Agile practice",
+      "Lean practice"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Treating CI/CD pipeline as a first-class product with SLAs and ownership."
+  },
+  {
+    "id": "DEVOPS_PIP_056",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q228] ConfigMap in k8s",
+    "question": "What is the difference between rolling deployment and recreate?",
     "options": [
-      "Neither A nor B",
-      "Stores non-sensitive config",
-      "Manages pods",
-      "Stores secrets"
+      "Rolling replaces pods gradually; recreate stops all then starts new",
+      "No difference",
+      "Rolling stops all first",
+      "Recreate is gradual"
     ],
     "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
+    "explanation": "The correct answer is Rolling replaces pods gradually; recreate stops all then starts new."
   },
   {
-    "id": "devops_1229",
+    "id": "DEVOPS_PIP_057",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q229] YAML files in DevOps",
+    "question": "What is infrastructure pipeline?",
     "options": [
-      "Compiled files",
-      "Binary configs",
-      "The above is incorrect",
-      "Configuration/definition files"
+      "CI/CD pipeline for provisioning infrastructure (Terraform pipeline)",
+      "Application pipeline",
+      "Test pipeline",
+      "Security pipeline"
     ],
     "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
+    "explanation": "The correct answer is CI/CD pipeline for provisioning infrastructure (Terraform pipeline)."
   },
   {
-    "id": "devops_1230",
+    "id": "DEVOPS_PIP_058",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is GitOps pipeline?",
+    "options": [
+      "Pipeline reconciling cluster state with desired state in Git",
+      "Push-based pipeline",
+      "Pull-based only",
+      "Manual pipeline"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pipeline reconciling cluster state with desired state in Git."
+  },
+  {
+    "id": "DEVOPS_PIP_059",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q230] What is GitOps?",
+    "question": "What is a deployment token?",
     "options": [
-      "CI tool",
-      "Git hosting",
-      "All of the above",
-      "Git as source of truth for infra"
+      "Short-lived credential granting pipeline access to deploy",
+      "Long-lived credential",
+      "User password",
+      "SSH key only"
     ],
     "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
+    "explanation": "The correct answer is Short-lived credential granting pipeline access to deploy."
   },
   {
-    "id": "devops_1231",
+    "id": "DEVOPS_PIP_060",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is pipeline YAML anchors?",
+    "options": [
+      "YAML feature for reusing configuration blocks within same file",
+      "YAML comments",
+      "YAML includes",
+      "YAML imports"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is YAML feature for reusing configuration blocks within same file."
+  },
+  {
+    "id": "DEVOPS_PIP_061",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q231] What is a service mesh?",
+    "question": "What is matrix in GitHub Actions?",
     "options": [
-      "Infrastructure layer for service comm",
-      "Option not applicable",
-      "API gateway",
-      "Load balancer"
+      "Run same job with different input combinations (OS, language version)",
+      "Single run configuration",
+      "Parallel test strategy",
+      "Multi-env deployment"
     ],
     "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
+    "explanation": "The correct answer is Run same job with different input combinations (OS, language version)."
   },
   {
-    "id": "devops_1232",
+    "id": "DEVOPS_PIP_062",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q232] Shift left testing means",
+    "question": "What is a self-healing pipeline?",
     "options": [
-      "Both A and C",
-      "Testing at end",
-      "Testing earlier in SDLC",
-      "Manual testing"
+      "Pipeline that detects and recovers from transient failures automatically",
+      "Manual recovery",
+      "Alert-based recovery",
+      "Restart-only recovery"
     ],
     "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
+    "explanation": "The correct answer is Pipeline that detects and recovers from transient failures automatically."
   },
   {
-    "id": "devops_1233",
+    "id": "DEVOPS_PIP_063",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q233] What is mean time to recovery (MTTR)?",
+    "question": "What is a golden path pipeline?",
     "options": [
-      "Deploy time",
-      "Average time to restore service",
-      "Cannot be determined",
-      "Build time"
+      "Opinionated, pre-built pipeline for standard technology stacks",
+      "Custom pipeline",
+      "Manual pipeline",
+      "Legacy pipeline"
     ],
     "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
+    "explanation": "The correct answer is Opinionated, pre-built pipeline for standard technology stacks."
   },
   {
-    "id": "devops_1234",
+    "id": "DEVOPS_PIP_064",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q234] SRE stands for",
+    "question": "What is deployment ring in pipelines?",
     "options": [
-      "Both B and C",
-      "System Resource Engineering",
-      "Site Reliability Engineering",
-      "Software Release Engineering"
+      "Gradual rollout starting with internal users, then early adopters, then everyone",
+      "Blue-green deployment",
+      "Canary deployment",
+      "Feature flag"
     ],
     "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
+    "explanation": "The correct answer is Gradual rollout starting with internal users, then early adopters, then everyone."
   },
   {
-    "id": "devops_1235",
+    "id": "DEVOPS_PIP_065",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q235] What is chaos engineering?",
+    "question": "What is the purpose of the build manifest?",
     "options": [
-      "Both A and B",
-      "Load testing",
-      "Normal testing",
-      "Intentional failure testing"
+      "Records exactly what went into a build for reproducibility",
+      "Deployment target",
+      "Test results",
+      "Artifact list"
     ],
     "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
+    "explanation": "The correct answer is Records exactly what went into a build for reproducibility."
   },
   {
-    "id": "devops_1236",
+    "id": "DEVOPS_PIP_066",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q236] Artifact repository stores",
+    "question": "What is SBOM (Software Bill of Materials)?",
     "options": [
-      "Built software artifacts",
-      "Source code",
-      "Logs",
-      "The statement is false"
+      "List of all open-source components and dependencies in software",
+      "Build manifest",
+      "Deployment manifest",
+      "Security report"
     ],
     "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
+    "explanation": "The correct answer is List of all open-source components and dependencies in software."
   },
   {
-    "id": "devops_1237",
+    "id": "DEVOPS_PIP_067",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q237] What is feature flag?",
+    "question": "What is provenance attestation in CI/CD?",
     "options": [
-      "Git branch",
-      "Test case",
-      "Option not applicable",
-      "Toggle features without deploy"
+      "Cryptographically signed record of how an artifact was built",
+      "Build log",
+      "Test report",
+      "Security scan"
     ],
     "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
+    "explanation": "The correct answer is Cryptographically signed record of how an artifact was built."
   },
   {
-    "id": "devops_1238",
+    "id": "DEVOPS_PIP_068",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q238] What is observability?",
+    "question": "What is SLSA framework?",
     "options": [
-      "Only logs",
-      "The above is incorrect",
-      "Logs metrics traces",
-      "Only metrics"
+      "Supply-chain Levels for Software Artifacts — security framework for build integrity",
+      "SLA framework",
+      "Software License Agreement",
+      "Service Level Agreement"
     ],
     "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
+    "explanation": "The correct answer is Supply-chain Levels for Software Artifacts — security framework for build integrity."
   },
   {
-    "id": "devops_1239",
+    "id": "DEVOPS_PIP_069",
     "topic": "DevOps Engineer",
     "section": "CI/CD & Git",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q239] What is a rollback?",
+    "question": "What is sigstore?",
     "options": [
-      "Forward deploy",
-      "New release",
-      "Reverting to previous version",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1240",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q240] DevSecOps means",
-    "options": [
-      "Security integrated into DevOps",
-      "The above is incorrect",
-      "Security team separate",
-      "Dev without security"
-    ],
-    "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
-  },
-  {
-    "id": "devops_1241",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q241] DevOps combines",
-    "options": [
-      "Development and Operations",
-      "Option not applicable",
-      "Dev and QA",
-      "Design and Ops"
-    ],
-    "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
-  },
-  {
-    "id": "devops_1242",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q242] CI stands for",
-    "options": [
-      "Continuous Inspection",
-      "Code Integration",
-      "Continuous Integration",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
-  },
-  {
-    "id": "devops_1243",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q243] CD stands for",
-    "options": [
-      "Option not applicable",
-      "Continuous Design",
-      "Code Deployment",
-      "Continuous Delivery/Deployment"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1244",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q244] Docker is used for",
-    "options": [
-      "Virtualization",
-      "Containerization",
-      "Neither A nor B",
-      "Orchestration"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1245",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q245] Kubernetes is used for",
-    "options": [
-      "CI/CD",
-      "Container orchestration",
-      "Cannot be determined",
-      "Containerization"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1246",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q246] Jenkins is",
-    "options": [
-      "CI/CD automation server",
-      "The above is incorrect",
-      "Version control",
-      "Container tool"
-    ],
-    "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
-  },
-  {
-    "id": "devops_1247",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q247] Git is",
-    "options": [
-      "Container",
-      "The above is incorrect",
-      "Distributed version control",
-      "CI tool"
-    ],
-    "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
-  },
-  {
-    "id": "devops_1248",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q248] What is Infrastructure as Code?",
-    "options": [
-      "Option not applicable",
-      "Managing infra via code",
-      "Manual server config",
-      "Cloud only"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1249",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q249] Terraform is used for",
-    "options": [
-      "Cannot be determined",
-      "Monitoring",
-      "Containerization",
-      "IaC / cloud provisioning"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1250",
-    "topic": "DevOps Engineer",
-    "section": "CI/CD & Git",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q250] Ansible is used for",
-    "options": [
-      "Configuration management",
-      "Neither A nor B",
-      "Container orchestration",
-      "CI/CD"
-    ],
-    "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
-  },
-  {
-    "id": "devops_1251",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q251] What is a pipeline?",
-    "options": [
-      "Manual process",
-      "Automated workflow stages",
-      "Database",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
-  },
-  {
-    "id": "devops_1252",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q252] Blue-Green deployment",
-    "options": [
-      "Option not applicable",
-      "Zero-downtime deployment strategy",
-      "Rolling update",
-      "Canary release"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1253",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q253] Canary deployment",
-    "options": [
-      "Gradual rollout to subset",
-      "Blue-green",
-      "Option not applicable",
-      "Full rollout"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1254",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q254] What is monitoring in DevOps?",
-    "options": [
-      "Testing",
-      "The above is incorrect",
-      "Deployment",
-      "Tracking system health"
-    ],
-    "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
-  },
-  {
-    "id": "devops_1255",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q255] Prometheus is",
-    "options": [
-      "Insufficient information",
-      "Container",
-      "Metrics monitoring tool",
-      "CI server"
-    ],
-    "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
-  },
-  {
-    "id": "devops_1256",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q256] Grafana is used for",
-    "options": [
-      "The above is incorrect",
-      "IaC",
-      "CI/CD",
-      "Visualization dashboards"
-    ],
-    "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
-  },
-  {
-    "id": "devops_1257",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q257] What is a microservice?",
-    "options": [
-      "Monolithic app",
-      "Small independent service",
-      "Database",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Microservices are independently deployable services."
-  },
-  {
-    "id": "devops_1258",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q258] Load balancer does",
-    "options": [
-      "Monitors logs",
-      "Distributes traffic",
-      "Neither A nor B",
-      "Stores data"
-    ],
-    "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
-  },
-  {
-    "id": "devops_1259",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q259] What is auto-scaling?",
-    "options": [
-      "Fixed resources",
-      "All of the above",
-      "Manual scaling",
-      "Adjusting resources based on demand"
-    ],
-    "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
-  },
-  {
-    "id": "devops_1260",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q260] ELK stack includes",
-    "options": [
-      "Elasticsearch Logstash Kibana",
-      "Elastic Linux Kubernetes",
-      "Cannot be determined",
-      "Express Logstash Kafka"
-    ],
-    "answer": 0,
-    "explanation": "ELK is a popular log management stack."
-  },
-  {
-    "id": "devops_1261",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q261] What is a container image?",
-    "options": [
-      "Virtual machine",
-      "The above is incorrect",
-      "Read-only template for containers",
-      "Running container"
-    ],
-    "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
-  },
-  {
-    "id": "devops_1262",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q262] Dockerfile is",
-    "options": [
-      "Kubernetes config",
-      "Option not applicable",
-      "Container runtime",
-      "Script to build Docker image"
-    ],
-    "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
-  },
-  {
-    "id": "devops_1263",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q263] Kubernetes Pod is",
-    "options": [
-      "Service",
-      "Node",
-      "Smallest deployable unit",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "A Pod contains one or more containers."
-  },
-  {
-    "id": "devops_1264",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q264] Helm in Kubernetes",
-    "options": [
-      "Container runtime",
-      "Neither A nor B",
-      "Package manager",
-      "Monitoring"
-    ],
-    "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
-  },
-  {
-    "id": "devops_1265",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q265] What is a deployment in k8s?",
-    "options": [
-      "Manages Pod replicas",
-      "Storage unit",
-      "Single container",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
-  },
-  {
-    "id": "devops_1266",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q266] Rolling update strategy",
-    "options": [
-      "Blue-green",
-      "Updates pods gradually",
-      "All at once",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
-  },
-  {
-    "id": "devops_1267",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q267] What is a secret in k8s?",
-    "options": [
-      "Log file",
-      "Stores sensitive data",
-      "Config map",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1268",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q268] ConfigMap in k8s",
-    "options": [
-      "Stores non-sensitive config",
-      "Manages pods",
-      "Stores secrets",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1269",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q269] YAML files in DevOps",
-    "options": [
-      "Binary configs",
-      "Configuration/definition files",
-      "Compiled files",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1270",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q270] What is GitOps?",
-    "options": [
-      "Git hosting",
-      "Git as source of truth for infra",
-      "CI tool",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
-  },
-  {
-    "id": "devops_1271",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q271] What is a service mesh?",
-    "options": [
-      "None of the above",
-      "API gateway",
-      "Load balancer",
-      "Infrastructure layer for service comm"
-    ],
-    "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
-  },
-  {
-    "id": "devops_1272",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q272] Shift left testing means",
-    "options": [
-      "Testing earlier in SDLC",
-      "Manual testing",
-      "All of the above",
-      "Testing at end"
-    ],
-    "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
-  },
-  {
-    "id": "devops_1273",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q273] What is mean time to recovery (MTTR)?",
-    "options": [
-      "Insufficient information",
-      "Build time",
-      "Deploy time",
-      "Average time to restore service"
-    ],
-    "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
-  },
-  {
-    "id": "devops_1274",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q274] SRE stands for",
-    "options": [
-      "System Resource Engineering",
-      "None of the above",
-      "Software Release Engineering",
-      "Site Reliability Engineering"
-    ],
-    "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
-  },
-  {
-    "id": "devops_1275",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q275] What is chaos engineering?",
-    "options": [
-      "Cannot be determined",
-      "Intentional failure testing",
-      "Normal testing",
-      "Load testing"
-    ],
-    "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
-  },
-  {
-    "id": "devops_1276",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q276] Artifact repository stores",
-    "options": [
-      "Source code",
-      "The argument is invalid",
-      "Built software artifacts",
-      "Logs"
-    ],
-    "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
-  },
-  {
-    "id": "devops_1277",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q277] What is feature flag?",
-    "options": [
-      "Toggle features without deploy",
-      "Test case",
-      "Git branch",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
-  },
-  {
-    "id": "devops_1278",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q278] What is observability?",
-    "options": [
-      "Logs metrics traces",
-      "Only metrics",
-      "Only logs",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
-  },
-  {
-    "id": "devops_1279",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q279] What is a rollback?",
-    "options": [
-      "New release",
-      "Reverting to previous version",
-      "Option not applicable",
-      "Forward deploy"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1280",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q280] DevSecOps means",
-    "options": [
-      "Security integrated into DevOps",
-      "Security team separate",
-      "The above is incorrect",
-      "Dev without security"
-    ],
-    "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
-  },
-  {
-    "id": "devops_1281",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q281] DevOps combines",
-    "options": [
-      "Both B and C",
-      "Development and Operations",
-      "Design and Ops",
-      "Dev and QA"
-    ],
-    "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
-  },
-  {
-    "id": "devops_1282",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q282] CI stands for",
-    "options": [
-      "Continuous Integration",
-      "Code Integration",
-      "Data not provided",
-      "Continuous Inspection"
-    ],
-    "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
-  },
-  {
-    "id": "devops_1283",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q283] CD stands for",
-    "options": [
-      "Continuous Design",
-      "Both B and C",
-      "Continuous Delivery/Deployment",
-      "Code Deployment"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1284",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q284] Docker is used for",
-    "options": [
-      "Orchestration",
-      "Containerization",
-      "Virtualization",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1285",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q285] Kubernetes is used for",
-    "options": [
-      "CI/CD",
-      "Container orchestration",
-      "Containerization",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1286",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q286] Jenkins is",
-    "options": [
-      "Data not provided",
-      "Version control",
-      "CI/CD automation server",
-      "Container tool"
-    ],
-    "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
-  },
-  {
-    "id": "devops_1287",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q287] Git is",
-    "options": [
-      "Container",
-      "None of the above",
-      "Distributed version control",
-      "CI tool"
-    ],
-    "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
-  },
-  {
-    "id": "devops_1288",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q288] What is Infrastructure as Code?",
-    "options": [
-      "Managing infra via code",
-      "Neither A nor B",
-      "Manual server config",
-      "Cloud only"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1289",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q289] Terraform is used for",
-    "options": [
-      "IaC / cloud provisioning",
-      "Monitoring",
-      "All of the above",
-      "Containerization"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1290",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q290] Ansible is used for",
-    "options": [
-      "Container orchestration",
-      "Neither A nor B",
-      "Configuration management",
-      "CI/CD"
-    ],
-    "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
-  },
-  {
-    "id": "devops_1291",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q291] What is a pipeline?",
-    "options": [
-      "Database",
-      "Manual process",
-      "Automated workflow stages",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
-  },
-  {
-    "id": "devops_1292",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q292] Blue-Green deployment",
-    "options": [
-      "Rolling update",
-      "Canary release",
-      "All of the above",
-      "Zero-downtime deployment strategy"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1293",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q293] Canary deployment",
-    "options": [
-      "Full rollout",
-      "Gradual rollout to subset",
-      "None of the above",
-      "Blue-green"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1294",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q294] What is monitoring in DevOps?",
-    "options": [
-      "Testing",
-      "The above is incorrect",
-      "Deployment",
-      "Tracking system health"
-    ],
-    "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
-  },
-  {
-    "id": "devops_1295",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q295] Prometheus is",
-    "options": [
-      "Insufficient information",
-      "Metrics monitoring tool",
-      "CI server",
-      "Container"
-    ],
-    "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
-  },
-  {
-    "id": "devops_1296",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q296] Grafana is used for",
-    "options": [
-      "Visualization dashboards",
-      "IaC",
-      "CI/CD",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
-  },
-  {
-    "id": "devops_1297",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q297] What is a microservice?",
-    "options": [
-      "Monolithic app",
-      "Neither A nor B",
-      "Small independent service",
-      "Database"
-    ],
-    "answer": 0,
-    "explanation": "Microservices are independently deployable services."
-  },
-  {
-    "id": "devops_1298",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q298] Load balancer does",
-    "options": [
-      "Stores data",
-      "Monitors logs",
-      "Distributes traffic",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
-  },
-  {
-    "id": "devops_1299",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q299] What is auto-scaling?",
-    "options": [
-      "Manual scaling",
-      "Adjusting resources based on demand",
-      "Fixed resources",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
-  },
-  {
-    "id": "devops_1300",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q300] ELK stack includes",
-    "options": [
-      "Express Logstash Kafka",
-      "Elastic Linux Kubernetes",
-      "None of the above",
-      "Elasticsearch Logstash Kibana"
-    ],
-    "answer": 0,
-    "explanation": "ELK is a popular log management stack."
-  },
-  {
-    "id": "devops_1301",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q301] What is a container image?",
-    "options": [
-      "Option not applicable",
-      "Read-only template for containers",
-      "Virtual machine",
-      "Running container"
-    ],
-    "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
-  },
-  {
-    "id": "devops_1302",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q302] Dockerfile is",
-    "options": [
-      "None of the above",
-      "Container runtime",
-      "Script to build Docker image",
-      "Kubernetes config"
-    ],
-    "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
-  },
-  {
-    "id": "devops_1303",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q303] Kubernetes Pod is",
-    "options": [
-      "Smallest deployable unit",
-      "Neither A nor B",
-      "Service",
-      "Node"
-    ],
-    "answer": 0,
-    "explanation": "A Pod contains one or more containers."
-  },
-  {
-    "id": "devops_1304",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q304] Helm in Kubernetes",
-    "options": [
-      "Container runtime",
-      "Package manager",
-      "Monitoring",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
-  },
-  {
-    "id": "devops_1305",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q305] What is a deployment in k8s?",
-    "options": [
-      "Both A and B",
-      "Storage unit",
-      "Single container",
-      "Manages Pod replicas"
-    ],
-    "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
-  },
-  {
-    "id": "devops_1306",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q306] Rolling update strategy",
-    "options": [
-      "Data not provided",
-      "Updates pods gradually",
-      "All at once",
-      "Blue-green"
-    ],
-    "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
-  },
-  {
-    "id": "devops_1307",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q307] What is a secret in k8s?",
-    "options": [
-      "Both B and C",
-      "Config map",
-      "Stores sensitive data",
-      "Log file"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1308",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q308] ConfigMap in k8s",
-    "options": [
-      "None of the above",
-      "Stores non-sensitive config",
-      "Manages pods",
-      "Stores secrets"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1309",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q309] YAML files in DevOps",
-    "options": [
-      "Both A and B",
-      "Compiled files",
-      "Binary configs",
-      "Configuration/definition files"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1310",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q310] What is GitOps?",
-    "options": [
-      "Git hosting",
-      "CI tool",
-      "Data not provided",
-      "Git as source of truth for infra"
-    ],
-    "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
-  },
-  {
-    "id": "devops_1311",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q311] What is a service mesh?",
-    "options": [
-      "Load balancer",
-      "API gateway",
-      "Infrastructure layer for service comm",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
-  },
-  {
-    "id": "devops_1312",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q312] Shift left testing means",
-    "options": [
-      "The premise is wrong",
-      "Testing at end",
-      "Manual testing",
-      "Testing earlier in SDLC"
-    ],
-    "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
-  },
-  {
-    "id": "devops_1313",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q313] What is mean time to recovery (MTTR)?",
-    "options": [
-      "Average time to restore service",
-      "Build time",
-      "The above is incorrect",
-      "Deploy time"
-    ],
-    "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
-  },
-  {
-    "id": "devops_1314",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q314] SRE stands for",
-    "options": [
-      "Both B and C",
-      "Site Reliability Engineering",
-      "System Resource Engineering",
-      "Software Release Engineering"
-    ],
-    "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
-  },
-  {
-    "id": "devops_1315",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q315] What is chaos engineering?",
-    "options": [
-      "Intentional failure testing",
-      "Normal testing",
-      "Load testing",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
-  },
-  {
-    "id": "devops_1316",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q316] Artifact repository stores",
-    "options": [
-      "The argument is invalid",
-      "Built software artifacts",
-      "Source code",
-      "Logs"
-    ],
-    "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
-  },
-  {
-    "id": "devops_1317",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q317] What is feature flag?",
-    "options": [
-      "Test case",
-      "Toggle features without deploy",
-      "Git branch",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
-  },
-  {
-    "id": "devops_1318",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q318] What is observability?",
-    "options": [
-      "None of the above",
-      "Only metrics",
-      "Only logs",
-      "Logs metrics traces"
-    ],
-    "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
-  },
-  {
-    "id": "devops_1319",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q319] What is a rollback?",
-    "options": [
-      "New release",
-      "Reverting to previous version",
-      "Neither A nor B",
-      "Forward deploy"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1320",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q320] DevSecOps means",
-    "options": [
-      "Dev without security",
-      "Both A and B",
-      "Security team separate",
-      "Security integrated into DevOps"
-    ],
-    "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
-  },
-  {
-    "id": "devops_1321",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q321] DevOps combines",
-    "options": [
-      "Insufficient information",
-      "Dev and QA",
-      "Development and Operations",
-      "Design and Ops"
-    ],
-    "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
-  },
-  {
-    "id": "devops_1322",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q322] CI stands for",
-    "options": [
-      "Code Integration",
-      "Data not provided",
-      "Continuous Inspection",
-      "Continuous Integration"
-    ],
-    "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
-  },
-  {
-    "id": "devops_1323",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q323] CD stands for",
-    "options": [
-      "Neither A nor B",
-      "Continuous Design",
-      "Code Deployment",
-      "Continuous Delivery/Deployment"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1324",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q324] Docker is used for",
-    "options": [
-      "Orchestration",
-      "The above is incorrect",
-      "Containerization",
-      "Virtualization"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1325",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q325] Kubernetes is used for",
-    "options": [
-      "All of the above",
-      "CI/CD",
-      "Containerization",
-      "Container orchestration"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1326",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q326] Jenkins is",
-    "options": [
-      "Neither A nor B",
-      "CI/CD automation server",
-      "Version control",
-      "Container tool"
-    ],
-    "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
-  },
-  {
-    "id": "devops_1327",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q327] Git is",
-    "options": [
-      "Container",
-      "Insufficient information",
-      "CI tool",
-      "Distributed version control"
-    ],
-    "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
-  },
-  {
-    "id": "devops_1328",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q328] What is Infrastructure as Code?",
-    "options": [
-      "Manual server config",
-      "Managing infra via code",
-      "Both A and B",
-      "Cloud only"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1329",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q329] Terraform is used for",
-    "options": [
-      "Data not provided",
-      "IaC / cloud provisioning",
-      "Monitoring",
-      "Containerization"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1330",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q330] Ansible is used for",
-    "options": [
-      "Container orchestration",
-      "None of the above",
-      "Configuration management",
-      "CI/CD"
-    ],
-    "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
-  },
-  {
-    "id": "devops_1331",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q331] What is a pipeline?",
-    "options": [
-      "Manual process",
-      "Database",
-      "Insufficient information",
-      "Automated workflow stages"
-    ],
-    "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
-  },
-  {
-    "id": "devops_1332",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q332] Blue-Green deployment",
-    "options": [
-      "Rolling update",
-      "Canary release",
-      "Zero-downtime deployment strategy",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1333",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q333] Canary deployment",
-    "options": [
-      "Blue-green",
-      "Gradual rollout to subset",
-      "Full rollout",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1334",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q334] What is monitoring in DevOps?",
-    "options": [
-      "Deployment",
-      "Tracking system health",
-      "Testing",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
-  },
-  {
-    "id": "devops_1335",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q335] Prometheus is",
-    "options": [
-      "Both A and B",
-      "Metrics monitoring tool",
-      "Container",
-      "CI server"
-    ],
-    "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
-  },
-  {
-    "id": "devops_1336",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q336] Grafana is used for",
-    "options": [
-      "CI/CD",
-      "Visualization dashboards",
-      "Both B and C",
-      "IaC"
-    ],
-    "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
-  },
-  {
-    "id": "devops_1337",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q337] What is a microservice?",
-    "options": [
-      "Small independent service",
-      "Monolithic app",
-      "Database",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Microservices are independently deployable services."
-  },
-  {
-    "id": "devops_1338",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q338] Load balancer does",
-    "options": [
-      "Both B and C",
-      "Distributes traffic",
-      "Stores data",
-      "Monitors logs"
-    ],
-    "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
-  },
-  {
-    "id": "devops_1339",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q339] What is auto-scaling?",
-    "options": [
-      "Fixed resources",
-      "Adjusting resources based on demand",
-      "Manual scaling",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
-  },
-  {
-    "id": "devops_1340",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q340] ELK stack includes",
-    "options": [
-      "Elastic Linux Kubernetes",
-      "Both A and B",
-      "Elasticsearch Logstash Kibana",
-      "Express Logstash Kafka"
-    ],
-    "answer": 0,
-    "explanation": "ELK is a popular log management stack."
-  },
-  {
-    "id": "devops_1341",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q341] What is a container image?",
-    "options": [
-      "Running container",
-      "Read-only template for containers",
-      "None of the above",
-      "Virtual machine"
-    ],
-    "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
-  },
-  {
-    "id": "devops_1342",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q342] Dockerfile is",
-    "options": [
-      "Kubernetes config",
-      "Container runtime",
-      "Neither A nor B",
-      "Script to build Docker image"
-    ],
-    "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
-  },
-  {
-    "id": "devops_1343",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q343] Kubernetes Pod is",
-    "options": [
-      "Node",
-      "Service",
-      "All of the above",
-      "Smallest deployable unit"
-    ],
-    "answer": 0,
-    "explanation": "A Pod contains one or more containers."
-  },
-  {
-    "id": "devops_1344",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q344] Helm in Kubernetes",
-    "options": [
-      "Container runtime",
-      "Both A and B",
-      "Package manager",
-      "Monitoring"
-    ],
-    "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
-  },
-  {
-    "id": "devops_1345",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q345] What is a deployment in k8s?",
-    "options": [
-      "Both A and B",
-      "Manages Pod replicas",
-      "Storage unit",
-      "Single container"
-    ],
-    "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
-  },
-  {
-    "id": "devops_1346",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q346] Rolling update strategy",
-    "options": [
-      "All at once",
-      "Updates pods gradually",
-      "The above is incorrect",
-      "Blue-green"
-    ],
-    "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
-  },
-  {
-    "id": "devops_1347",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q347] What is a secret in k8s?",
-    "options": [
-      "Data not provided",
-      "Config map",
-      "Log file",
-      "Stores sensitive data"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1348",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q348] ConfigMap in k8s",
-    "options": [
-      "Both B and C",
-      "Stores secrets",
-      "Manages pods",
-      "Stores non-sensitive config"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1349",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q349] YAML files in DevOps",
-    "options": [
-      "Configuration/definition files",
-      "Binary configs",
-      "Neither A nor B",
-      "Compiled files"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1350",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q350] What is GitOps?",
-    "options": [
-      "Git hosting",
-      "CI tool",
-      "Both A and B",
-      "Git as source of truth for infra"
-    ],
-    "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
-  },
-  {
-    "id": "devops_1351",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q351] What is a service mesh?",
-    "options": [
-      "API gateway",
-      "Infrastructure layer for service comm",
-      "Load balancer",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
-  },
-  {
-    "id": "devops_1352",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q352] Shift left testing means",
-    "options": [
-      "Manual testing",
-      "Testing at end",
-      "Testing earlier in SDLC",
-      "The argument is invalid"
-    ],
-    "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
-  },
-  {
-    "id": "devops_1353",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q353] What is mean time to recovery (MTTR)?",
-    "options": [
-      "Build time",
-      "Deploy time",
-      "Average time to restore service",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
-  },
-  {
-    "id": "devops_1354",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q354] SRE stands for",
-    "options": [
-      "Software Release Engineering",
-      "Cannot be determined",
-      "Site Reliability Engineering",
-      "System Resource Engineering"
-    ],
-    "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
-  },
-  {
-    "id": "devops_1355",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q355] What is chaos engineering?",
-    "options": [
-      "Load testing",
-      "Intentional failure testing",
-      "The above is incorrect",
-      "Normal testing"
-    ],
-    "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
-  },
-  {
-    "id": "devops_1356",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q356] Artifact repository stores",
-    "options": [
-      "Built software artifacts",
-      "Source code",
-      "Logs",
-      "Insufficient data"
-    ],
-    "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
-  },
-  {
-    "id": "devops_1357",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q357] What is feature flag?",
-    "options": [
-      "All of the above",
-      "Git branch",
-      "Test case",
-      "Toggle features without deploy"
-    ],
-    "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
-  },
-  {
-    "id": "devops_1358",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q358] What is observability?",
-    "options": [
-      "Only metrics",
-      "Only logs",
-      "Logs metrics traces",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
-  },
-  {
-    "id": "devops_1359",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q359] What is a rollback?",
-    "options": [
-      "Reverting to previous version",
-      "New release",
-      "None of the above",
-      "Forward deploy"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1360",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q360] DevSecOps means",
-    "options": [
-      "Dev without security",
-      "Security team separate",
-      "Security integrated into DevOps",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
-  },
-  {
-    "id": "devops_1361",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q361] DevOps combines",
-    "options": [
-      "Cannot be determined",
-      "Design and Ops",
-      "Development and Operations",
-      "Dev and QA"
-    ],
-    "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
-  },
-  {
-    "id": "devops_1362",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q362] CI stands for",
-    "options": [
-      "Continuous Integration",
-      "Data not provided",
-      "Continuous Inspection",
-      "Code Integration"
-    ],
-    "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
-  },
-  {
-    "id": "devops_1363",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q363] CD stands for",
-    "options": [
-      "All of the above",
-      "Continuous Delivery/Deployment",
-      "Continuous Design",
-      "Code Deployment"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1364",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q364] Docker is used for",
-    "options": [
-      "Orchestration",
-      "Virtualization",
-      "Neither A nor B",
-      "Containerization"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1365",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q365] Kubernetes is used for",
-    "options": [
-      "Cannot be determined",
-      "Container orchestration",
-      "Containerization",
-      "CI/CD"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1366",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q366] Jenkins is",
-    "options": [
-      "Container tool",
-      "Data not provided",
-      "CI/CD automation server",
-      "Version control"
-    ],
-    "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
-  },
-  {
-    "id": "devops_1367",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q367] Git is",
-    "options": [
-      "Cannot be determined",
-      "CI tool",
-      "Container",
-      "Distributed version control"
-    ],
-    "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
-  },
-  {
-    "id": "devops_1368",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q368] What is Infrastructure as Code?",
-    "options": [
-      "Data not provided",
-      "Cloud only",
-      "Manual server config",
-      "Managing infra via code"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1369",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q369] Terraform is used for",
-    "options": [
-      "IaC / cloud provisioning",
-      "Monitoring",
-      "Data not provided",
-      "Containerization"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1370",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q370] Ansible is used for",
-    "options": [
-      "Container orchestration",
-      "Configuration management",
-      "CI/CD",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
-  },
-  {
-    "id": "devops_1371",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q371] What is a pipeline?",
-    "options": [
-      "Database",
-      "Manual process",
-      "Automated workflow stages",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
-  },
-  {
-    "id": "devops_1372",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q372] Blue-Green deployment",
-    "options": [
-      "Canary release",
-      "Both A and B",
-      "Rolling update",
-      "Zero-downtime deployment strategy"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1373",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q373] Canary deployment",
-    "options": [
-      "Gradual rollout to subset",
-      "Blue-green",
-      "Full rollout",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1374",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q374] What is monitoring in DevOps?",
-    "options": [
-      "Testing",
-      "Insufficient information",
-      "Deployment",
-      "Tracking system health"
-    ],
-    "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
-  },
-  {
-    "id": "devops_1375",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q375] Prometheus is",
-    "options": [
-      "Container",
-      "Cannot be determined",
-      "CI server",
-      "Metrics monitoring tool"
-    ],
-    "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
-  },
-  {
-    "id": "devops_1376",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q376] Grafana is used for",
-    "options": [
-      "IaC",
-      "All of the above",
-      "CI/CD",
-      "Visualization dashboards"
-    ],
-    "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
-  },
-  {
-    "id": "devops_1377",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q377] What is a microservice?",
-    "options": [
-      "Database",
-      "Cannot be determined",
-      "Monolithic app",
-      "Small independent service"
-    ],
-    "answer": 0,
-    "explanation": "Microservices are independently deployable services."
-  },
-  {
-    "id": "devops_1378",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q378] Load balancer does",
-    "options": [
-      "Stores data",
-      "Monitors logs",
-      "Distributes traffic",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
-  },
-  {
-    "id": "devops_1379",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q379] What is auto-scaling?",
-    "options": [
-      "Adjusting resources based on demand",
-      "Manual scaling",
-      "Fixed resources",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
-  },
-  {
-    "id": "devops_1380",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q380] ELK stack includes",
-    "options": [
-      "Express Logstash Kafka",
-      "Elastic Linux Kubernetes",
-      "Option not applicable",
-      "Elasticsearch Logstash Kibana"
-    ],
-    "answer": 0,
-    "explanation": "ELK is a popular log management stack."
-  },
-  {
-    "id": "devops_1381",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q381] What is a container image?",
-    "options": [
-      "Virtual machine",
-      "Read-only template for containers",
-      "Running container",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
-  },
-  {
-    "id": "devops_1382",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q382] Dockerfile is",
-    "options": [
-      "Both A and B",
-      "Script to build Docker image",
-      "Container runtime",
-      "Kubernetes config"
-    ],
-    "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
-  },
-  {
-    "id": "devops_1383",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q383] Kubernetes Pod is",
-    "options": [
-      "Service",
-      "Node",
-      "Data not provided",
-      "Smallest deployable unit"
-    ],
-    "answer": 0,
-    "explanation": "A Pod contains one or more containers."
-  },
-  {
-    "id": "devops_1384",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q384] Helm in Kubernetes",
-    "options": [
-      "Package manager",
-      "Container runtime",
-      "Monitoring",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
-  },
-  {
-    "id": "devops_1385",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q385] What is a deployment in k8s?",
-    "options": [
-      "Storage unit",
-      "Single container",
-      "Neither A nor B",
-      "Manages Pod replicas"
-    ],
-    "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
-  },
-  {
-    "id": "devops_1386",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q386] Rolling update strategy",
-    "options": [
-      "Updates pods gradually",
-      "Cannot be determined",
-      "Blue-green",
-      "All at once"
-    ],
-    "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
-  },
-  {
-    "id": "devops_1387",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q387] What is a secret in k8s?",
-    "options": [
-      "Neither A nor B",
-      "Stores sensitive data",
-      "Log file",
-      "Config map"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1388",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q388] ConfigMap in k8s",
-    "options": [
-      "Data not provided",
-      "Manages pods",
-      "Stores non-sensitive config",
-      "Stores secrets"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1389",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q389] YAML files in DevOps",
-    "options": [
-      "Configuration/definition files",
-      "Compiled files",
-      "Binary configs",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1390",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q390] What is GitOps?",
-    "options": [
-      "Both A and B",
-      "CI tool",
-      "Git as source of truth for infra",
-      "Git hosting"
-    ],
-    "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
-  },
-  {
-    "id": "devops_1391",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q391] What is a service mesh?",
-    "options": [
-      "API gateway",
-      "Load balancer",
-      "Infrastructure layer for service comm",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
-  },
-  {
-    "id": "devops_1392",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q392] Shift left testing means",
-    "options": [
-      "Testing at end",
-      "Manual testing",
-      "Testing earlier in SDLC",
-      "Both A and C"
-    ],
-    "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
-  },
-  {
-    "id": "devops_1393",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q393] What is mean time to recovery (MTTR)?",
-    "options": [
-      "Average time to restore service",
-      "Cannot be determined",
-      "Build time",
-      "Deploy time"
-    ],
-    "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
-  },
-  {
-    "id": "devops_1394",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q394] SRE stands for",
-    "options": [
-      "Insufficient information",
-      "Software Release Engineering",
-      "Site Reliability Engineering",
-      "System Resource Engineering"
-    ],
-    "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
-  },
-  {
-    "id": "devops_1395",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q395] What is chaos engineering?",
-    "options": [
-      "Intentional failure testing",
-      "Cannot be determined",
-      "Normal testing",
-      "Load testing"
-    ],
-    "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
-  },
-  {
-    "id": "devops_1396",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q396] Artifact repository stores",
-    "options": [
-      "Logs",
-      "Source code",
-      "Built software artifacts",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
-  },
-  {
-    "id": "devops_1397",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q397] What is feature flag?",
-    "options": [
-      "Git branch",
-      "Data not provided",
-      "Test case",
-      "Toggle features without deploy"
-    ],
-    "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
-  },
-  {
-    "id": "devops_1398",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q398] What is observability?",
-    "options": [
-      "Only logs",
-      "Logs metrics traces",
-      "Insufficient information",
-      "Only metrics"
-    ],
-    "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
-  },
-  {
-    "id": "devops_1399",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q399] What is a rollback?",
-    "options": [
-      "Reverting to previous version",
-      "All of the above",
-      "New release",
-      "Forward deploy"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1400",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q400] DevSecOps means",
-    "options": [
-      "Option not applicable",
-      "Dev without security",
-      "Security integrated into DevOps",
-      "Security team separate"
-    ],
-    "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
-  },
-  {
-    "id": "devops_1401",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q401] DevOps combines",
-    "options": [
-      "Development and Operations",
-      "Dev and QA",
-      "Design and Ops",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
-  },
-  {
-    "id": "devops_1402",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q402] CI stands for",
-    "options": [
-      "Insufficient information",
-      "Code Integration",
-      "Continuous Integration",
-      "Continuous Inspection"
-    ],
-    "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
-  },
-  {
-    "id": "devops_1403",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q403] CD stands for",
-    "options": [
-      "The above is incorrect",
-      "Code Deployment",
-      "Continuous Design",
-      "Continuous Delivery/Deployment"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1404",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q404] Docker is used for",
-    "options": [
-      "Data not provided",
-      "Orchestration",
-      "Containerization",
-      "Virtualization"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1405",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q405] Kubernetes is used for",
-    "options": [
-      "CI/CD",
-      "Containerization",
-      "Container orchestration",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1406",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q406] Jenkins is",
-    "options": [
-      "Container tool",
-      "CI/CD automation server",
-      "None of the above",
-      "Version control"
-    ],
-    "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
-  },
-  {
-    "id": "devops_1407",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q407] Git is",
-    "options": [
-      "Container",
-      "The above is incorrect",
-      "CI tool",
-      "Distributed version control"
-    ],
-    "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
-  },
-  {
-    "id": "devops_1408",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q408] What is Infrastructure as Code?",
-    "options": [
-      "Managing infra via code",
-      "Manual server config",
-      "Neither A nor B",
-      "Cloud only"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1409",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q409] Terraform is used for",
-    "options": [
-      "Monitoring",
-      "Insufficient information",
-      "IaC / cloud provisioning",
-      "Containerization"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1410",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q410] Ansible is used for",
-    "options": [
-      "CI/CD",
-      "Container orchestration",
-      "Configuration management",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
-  },
-  {
-    "id": "devops_1411",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q411] What is a pipeline?",
-    "options": [
-      "Database",
-      "Data not provided",
-      "Automated workflow stages",
-      "Manual process"
-    ],
-    "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
-  },
-  {
-    "id": "devops_1412",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q412] Blue-Green deployment",
-    "options": [
-      "Zero-downtime deployment strategy",
-      "Rolling update",
-      "Option not applicable",
-      "Canary release"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1413",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q413] Canary deployment",
-    "options": [
-      "Gradual rollout to subset",
-      "Blue-green",
-      "Both B and C",
-      "Full rollout"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1414",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q414] What is monitoring in DevOps?",
-    "options": [
-      "Testing",
-      "Deployment",
-      "Tracking system health",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
-  },
-  {
-    "id": "devops_1415",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q415] Prometheus is",
-    "options": [
-      "Metrics monitoring tool",
-      "Container",
-      "Option not applicable",
-      "CI server"
-    ],
-    "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
-  },
-  {
-    "id": "devops_1416",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q416] Grafana is used for",
-    "options": [
-      "CI/CD",
-      "Cannot be determined",
-      "IaC",
-      "Visualization dashboards"
-    ],
-    "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
-  },
-  {
-    "id": "devops_1417",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q417] What is a microservice?",
-    "options": [
-      "The above is incorrect",
-      "Monolithic app",
-      "Small independent service",
-      "Database"
-    ],
-    "answer": 0,
-    "explanation": "Microservices are independently deployable services."
-  },
-  {
-    "id": "devops_1418",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q418] Load balancer does",
-    "options": [
-      "Distributes traffic",
-      "Stores data",
-      "Both B and C",
-      "Monitors logs"
-    ],
-    "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
-  },
-  {
-    "id": "devops_1419",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q419] What is auto-scaling?",
-    "options": [
-      "Manual scaling",
-      "Adjusting resources based on demand",
-      "Cannot be determined",
-      "Fixed resources"
-    ],
-    "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
-  },
-  {
-    "id": "devops_1420",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q420] ELK stack includes",
-    "options": [
-      "Neither A nor B",
-      "Express Logstash Kafka",
-      "Elastic Linux Kubernetes",
-      "Elasticsearch Logstash Kibana"
-    ],
-    "answer": 0,
-    "explanation": "ELK is a popular log management stack."
-  },
-  {
-    "id": "devops_1421",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q421] What is a container image?",
-    "options": [
-      "None of the above",
-      "Read-only template for containers",
-      "Virtual machine",
-      "Running container"
-    ],
-    "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
-  },
-  {
-    "id": "devops_1422",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q422] Dockerfile is",
-    "options": [
-      "Data not provided",
-      "Script to build Docker image",
-      "Kubernetes config",
-      "Container runtime"
-    ],
-    "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
-  },
-  {
-    "id": "devops_1423",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q423] Kubernetes Pod is",
-    "options": [
-      "Smallest deployable unit",
-      "Service",
-      "Node",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "A Pod contains one or more containers."
-  },
-  {
-    "id": "devops_1424",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q424] Helm in Kubernetes",
-    "options": [
-      "Data not provided",
-      "Monitoring",
-      "Container runtime",
+      "Open standard for signing software artifacts and verifying their provenance",
+      "Certificate authority",
+      "Container registry",
       "Package manager"
     ],
     "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
+    "explanation": "The correct answer is Open standard for signing software artifacts and verifying their provenance."
   },
   {
-    "id": "devops_1425",
+    "id": "DEVOPS_PIP_070",
     "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q425] What is a deployment in k8s?",
-    "options": [
-      "Storage unit",
-      "Manages Pod replicas",
-      "Single container",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
-  },
-  {
-    "id": "devops_1426",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q426] Rolling update strategy",
-    "options": [
-      "Blue-green",
-      "All at once",
-      "Option not applicable",
-      "Updates pods gradually"
-    ],
-    "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
-  },
-  {
-    "id": "devops_1427",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q427] What is a secret in k8s?",
-    "options": [
-      "Stores sensitive data",
-      "Log file",
-      "Config map",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1428",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q428] ConfigMap in k8s",
-    "options": [
-      "Manages pods",
-      "Stores secrets",
-      "Stores non-sensitive config",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1429",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q429] YAML files in DevOps",
-    "options": [
-      "Configuration/definition files",
-      "Binary configs",
-      "Insufficient information",
-      "Compiled files"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1430",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q430] What is GitOps?",
-    "options": [
-      "Git as source of truth for infra",
-      "Option not applicable",
-      "CI tool",
-      "Git hosting"
-    ],
-    "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
-  },
-  {
-    "id": "devops_1431",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q431] What is a service mesh?",
-    "options": [
-      "API gateway",
-      "Load balancer",
-      "The above is incorrect",
-      "Infrastructure layer for service comm"
-    ],
-    "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
-  },
-  {
-    "id": "devops_1432",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q432] Shift left testing means",
-    "options": [
-      "Testing at end",
-      "Both A and C",
-      "Manual testing",
-      "Testing earlier in SDLC"
-    ],
-    "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
-  },
-  {
-    "id": "devops_1433",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q433] What is mean time to recovery (MTTR)?",
-    "options": [
-      "All of the above",
-      "Build time",
-      "Deploy time",
-      "Average time to restore service"
-    ],
-    "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
-  },
-  {
-    "id": "devops_1434",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q434] SRE stands for",
-    "options": [
-      "Software Release Engineering",
-      "Site Reliability Engineering",
-      "System Resource Engineering",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
-  },
-  {
-    "id": "devops_1435",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q435] What is chaos engineering?",
-    "options": [
-      "Normal testing",
-      "Load testing",
-      "Intentional failure testing",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
-  },
-  {
-    "id": "devops_1436",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q436] Artifact repository stores",
-    "options": [
-      "Cannot be determined",
-      "Source code",
-      "Logs",
-      "Built software artifacts"
-    ],
-    "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
-  },
-  {
-    "id": "devops_1437",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q437] What is feature flag?",
-    "options": [
-      "Test case",
-      "Git branch",
-      "Toggle features without deploy",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
-  },
-  {
-    "id": "devops_1438",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q438] What is observability?",
-    "options": [
-      "Only logs",
-      "None of the above",
-      "Logs metrics traces",
-      "Only metrics"
-    ],
-    "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
-  },
-  {
-    "id": "devops_1439",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q439] What is a rollback?",
-    "options": [
-      "Forward deploy",
-      "New release",
-      "Both A and B",
-      "Reverting to previous version"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1440",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q440] DevSecOps means",
-    "options": [
-      "Security team separate",
-      "None of the above",
-      "Security integrated into DevOps",
-      "Dev without security"
-    ],
-    "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
-  },
-  {
-    "id": "devops_1441",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q441] DevOps combines",
-    "options": [
-      "Development and Operations",
-      "Both A and B",
-      "Design and Ops",
-      "Dev and QA"
-    ],
-    "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
-  },
-  {
-    "id": "devops_1442",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q442] CI stands for",
-    "options": [
-      "Continuous Inspection",
-      "Insufficient information",
-      "Code Integration",
-      "Continuous Integration"
-    ],
-    "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
-  },
-  {
-    "id": "devops_1443",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q443] CD stands for",
-    "options": [
-      "Continuous Delivery/Deployment",
-      "Code Deployment",
-      "The above is incorrect",
-      "Continuous Design"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1444",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q444] Docker is used for",
-    "options": [
-      "Neither A nor B",
-      "Virtualization",
-      "Containerization",
-      "Orchestration"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1445",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q445] Kubernetes is used for",
-    "options": [
-      "Container orchestration",
-      "Insufficient information",
-      "Containerization",
-      "CI/CD"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1446",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q446] Jenkins is",
-    "options": [
-      "Both B and C",
-      "CI/CD automation server",
-      "Container tool",
-      "Version control"
-    ],
-    "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
-  },
-  {
-    "id": "devops_1447",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q447] Git is",
-    "options": [
-      "The above is incorrect",
-      "Distributed version control",
-      "CI tool",
-      "Container"
-    ],
-    "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
-  },
-  {
-    "id": "devops_1448",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q448] What is Infrastructure as Code?",
-    "options": [
-      "Manual server config",
-      "Managing infra via code",
-      "The above is incorrect",
-      "Cloud only"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1449",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q449] Terraform is used for",
-    "options": [
-      "IaC / cloud provisioning",
-      "Containerization",
-      "Monitoring",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1450",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q450] Ansible is used for",
-    "options": [
-      "CI/CD",
-      "Container orchestration",
-      "Configuration management",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
-  },
-  {
-    "id": "devops_1451",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q451] What is a pipeline?",
-    "options": [
-      "Database",
-      "Automated workflow stages",
-      "All of the above",
-      "Manual process"
-    ],
-    "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
-  },
-  {
-    "id": "devops_1452",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q452] Blue-Green deployment",
-    "options": [
-      "Data not provided",
-      "Rolling update",
-      "Canary release",
-      "Zero-downtime deployment strategy"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1453",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q453] Canary deployment",
-    "options": [
-      "Data not provided",
-      "Full rollout",
-      "Blue-green",
-      "Gradual rollout to subset"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1454",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q454] What is monitoring in DevOps?",
-    "options": [
-      "Cannot be determined",
-      "Deployment",
-      "Tracking system health",
-      "Testing"
-    ],
-    "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
-  },
-  {
-    "id": "devops_1455",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q455] Prometheus is",
-    "options": [
-      "Metrics monitoring tool",
-      "Insufficient information",
-      "CI server",
-      "Container"
-    ],
-    "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
-  },
-  {
-    "id": "devops_1456",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q456] Grafana is used for",
-    "options": [
-      "Neither A nor B",
-      "IaC",
-      "Visualization dashboards",
-      "CI/CD"
-    ],
-    "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
-  },
-  {
-    "id": "devops_1457",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q457] What is a microservice?",
-    "options": [
-      "Database",
-      "Small independent service",
-      "None of the above",
-      "Monolithic app"
-    ],
-    "answer": 0,
-    "explanation": "Microservices are independently deployable services."
-  },
-  {
-    "id": "devops_1458",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q458] Load balancer does",
-    "options": [
-      "Stores data",
-      "Data not provided",
-      "Distributes traffic",
-      "Monitors logs"
-    ],
-    "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
-  },
-  {
-    "id": "devops_1459",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q459] What is auto-scaling?",
-    "options": [
-      "Data not provided",
-      "Adjusting resources based on demand",
-      "Manual scaling",
-      "Fixed resources"
-    ],
-    "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
-  },
-  {
-    "id": "devops_1460",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q460] ELK stack includes",
-    "options": [
-      "Elastic Linux Kubernetes",
-      "Express Logstash Kafka",
-      "All of the above",
-      "Elasticsearch Logstash Kibana"
-    ],
-    "answer": 0,
-    "explanation": "ELK is a popular log management stack."
-  },
-  {
-    "id": "devops_1461",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q461] What is a container image?",
-    "options": [
-      "Virtual machine",
-      "Running container",
-      "None of the above",
-      "Read-only template for containers"
-    ],
-    "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
-  },
-  {
-    "id": "devops_1462",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q462] Dockerfile is",
-    "options": [
-      "Kubernetes config",
-      "Script to build Docker image",
-      "Container runtime",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
-  },
-  {
-    "id": "devops_1463",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q463] Kubernetes Pod is",
-    "options": [
-      "Service",
-      "Smallest deployable unit",
-      "Both B and C",
-      "Node"
-    ],
-    "answer": 0,
-    "explanation": "A Pod contains one or more containers."
-  },
-  {
-    "id": "devops_1464",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q464] Helm in Kubernetes",
-    "options": [
-      "Package manager",
-      "Both B and C",
-      "Container runtime",
-      "Monitoring"
-    ],
-    "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
-  },
-  {
-    "id": "devops_1465",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q465] What is a deployment in k8s?",
-    "options": [
-      "Storage unit",
-      "The above is incorrect",
-      "Manages Pod replicas",
-      "Single container"
-    ],
-    "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
-  },
-  {
-    "id": "devops_1466",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q466] Rolling update strategy",
-    "options": [
-      "Blue-green",
-      "Updates pods gradually",
-      "Neither A nor B",
-      "All at once"
-    ],
-    "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
-  },
-  {
-    "id": "devops_1467",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q467] What is a secret in k8s?",
-    "options": [
-      "Log file",
-      "Both B and C",
-      "Config map",
-      "Stores sensitive data"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1468",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q468] ConfigMap in k8s",
-    "options": [
-      "Stores secrets",
-      "Both A and B",
-      "Stores non-sensitive config",
-      "Manages pods"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1469",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q469] YAML files in DevOps",
-    "options": [
-      "Configuration/definition files",
-      "Compiled files",
-      "Binary configs",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1470",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q470] What is GitOps?",
-    "options": [
-      "All of the above",
-      "Git hosting",
-      "Git as source of truth for infra",
-      "CI tool"
-    ],
-    "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
-  },
-  {
-    "id": "devops_1471",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q471] What is a service mesh?",
-    "options": [
-      "Infrastructure layer for service comm",
-      "Option not applicable",
-      "API gateway",
-      "Load balancer"
-    ],
-    "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
-  },
-  {
-    "id": "devops_1472",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q472] Shift left testing means",
-    "options": [
-      "Testing at end",
-      "Manual testing",
-      "All of the above",
-      "Testing earlier in SDLC"
-    ],
-    "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
-  },
-  {
-    "id": "devops_1473",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q473] What is mean time to recovery (MTTR)?",
-    "options": [
-      "Average time to restore service",
-      "Build time",
-      "Deploy time",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
-  },
-  {
-    "id": "devops_1474",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q474] SRE stands for",
-    "options": [
-      "Site Reliability Engineering",
-      "Both A and B",
-      "System Resource Engineering",
-      "Software Release Engineering"
-    ],
-    "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
-  },
-  {
-    "id": "devops_1475",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q475] What is chaos engineering?",
-    "options": [
-      "Intentional failure testing",
-      "Normal testing",
-      "Load testing",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
-  },
-  {
-    "id": "devops_1476",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q476] Artifact repository stores",
-    "options": [
-      "All of the above",
-      "Built software artifacts",
-      "Source code",
-      "Logs"
-    ],
-    "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
-  },
-  {
-    "id": "devops_1477",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q477] What is feature flag?",
-    "options": [
-      "Both A and B",
-      "Git branch",
-      "Toggle features without deploy",
-      "Test case"
-    ],
-    "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
-  },
-  {
-    "id": "devops_1478",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q478] What is observability?",
-    "options": [
-      "None of the above",
-      "Only logs",
-      "Logs metrics traces",
-      "Only metrics"
-    ],
-    "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
-  },
-  {
-    "id": "devops_1479",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q479] What is a rollback?",
-    "options": [
-      "Forward deploy",
-      "New release",
-      "Cannot be determined",
-      "Reverting to previous version"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1480",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q480] DevSecOps means",
-    "options": [
-      "Security team separate",
-      "Security integrated into DevOps",
-      "Option not applicable",
-      "Dev without security"
-    ],
-    "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
-  },
-  {
-    "id": "devops_1481",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q481] DevOps combines",
-    "options": [
-      "Neither A nor B",
-      "Dev and QA",
-      "Development and Operations",
-      "Design and Ops"
-    ],
-    "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
-  },
-  {
-    "id": "devops_1482",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q482] CI stands for",
-    "options": [
-      "Cannot be determined",
-      "Code Integration",
-      "Continuous Integration",
-      "Continuous Inspection"
-    ],
-    "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
-  },
-  {
-    "id": "devops_1483",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q483] CD stands for",
-    "options": [
-      "Continuous Delivery/Deployment",
-      "Code Deployment",
-      "Option not applicable",
-      "Continuous Design"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1484",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q484] Docker is used for",
-    "options": [
-      "Containerization",
-      "Orchestration",
-      "Virtualization",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1485",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q485] Kubernetes is used for",
-    "options": [
-      "Containerization",
-      "Container orchestration",
-      "CI/CD",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1486",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q486] Jenkins is",
-    "options": [
-      "CI/CD automation server",
-      "Neither A nor B",
-      "Version control",
-      "Container tool"
-    ],
-    "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
-  },
-  {
-    "id": "devops_1487",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q487] Git is",
-    "options": [
-      "Distributed version control",
-      "CI tool",
-      "The above is incorrect",
-      "Container"
-    ],
-    "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
-  },
-  {
-    "id": "devops_1488",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q488] What is Infrastructure as Code?",
-    "options": [
-      "Manual server config",
-      "Cloud only",
-      "Insufficient information",
-      "Managing infra via code"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1489",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q489] Terraform is used for",
-    "options": [
-      "Cannot be determined",
-      "Monitoring",
-      "IaC / cloud provisioning",
-      "Containerization"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1490",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q490] Ansible is used for",
-    "options": [
-      "Insufficient information",
-      "Container orchestration",
-      "CI/CD",
-      "Configuration management"
-    ],
-    "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
-  },
-  {
-    "id": "devops_1491",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q491] What is a pipeline?",
-    "options": [
-      "Database",
-      "Data not provided",
-      "Manual process",
-      "Automated workflow stages"
-    ],
-    "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
-  },
-  {
-    "id": "devops_1492",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q492] Blue-Green deployment",
-    "options": [
-      "Canary release",
-      "Cannot be determined",
-      "Zero-downtime deployment strategy",
-      "Rolling update"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1493",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q493] Canary deployment",
-    "options": [
-      "Gradual rollout to subset",
-      "Full rollout",
-      "None of the above",
-      "Blue-green"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1494",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q494] What is monitoring in DevOps?",
-    "options": [
-      "Tracking system health",
-      "Deployment",
-      "Testing",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
-  },
-  {
-    "id": "devops_1495",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q495] Prometheus is",
-    "options": [
-      "Metrics monitoring tool",
-      "Cannot be determined",
-      "CI server",
-      "Container"
-    ],
-    "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
-  },
-  {
-    "id": "devops_1496",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q496] Grafana is used for",
-    "options": [
-      "Option not applicable",
-      "IaC",
-      "Visualization dashboards",
-      "CI/CD"
-    ],
-    "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
-  },
-  {
-    "id": "devops_1497",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q497] What is a microservice?",
-    "options": [
-      "Database",
-      "Monolithic app",
-      "All of the above",
-      "Small independent service"
-    ],
-    "answer": 0,
-    "explanation": "Microservices are independently deployable services."
-  },
-  {
-    "id": "devops_1498",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q498] Load balancer does",
-    "options": [
-      "Monitors logs",
-      "Stores data",
-      "None of the above",
-      "Distributes traffic"
-    ],
-    "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
-  },
-  {
-    "id": "devops_1499",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q499] What is auto-scaling?",
-    "options": [
-      "Manual scaling",
-      "Fixed resources",
-      "Adjusting resources based on demand",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
-  },
-  {
-    "id": "devops_1500",
-    "topic": "DevOps Engineer",
-    "section": "Docker & K8s",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q500] ELK stack includes",
-    "options": [
-      "Express Logstash Kafka",
-      "Elastic Linux Kubernetes",
-      "Elasticsearch Logstash Kibana",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "ELK is a popular log management stack."
-  },
-  {
-    "id": "devops_1501",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q501] What is a container image?",
-    "options": [
-      "Virtual machine",
-      "Read-only template for containers",
-      "Running container",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
-  },
-  {
-    "id": "devops_1502",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q502] Dockerfile is",
-    "options": [
-      "Script to build Docker image",
-      "The above is incorrect",
-      "Kubernetes config",
-      "Container runtime"
-    ],
-    "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
-  },
-  {
-    "id": "devops_1503",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q503] Kubernetes Pod is",
-    "options": [
-      "Service",
-      "Option not applicable",
-      "Smallest deployable unit",
-      "Node"
-    ],
-    "answer": 0,
-    "explanation": "A Pod contains one or more containers."
-  },
-  {
-    "id": "devops_1504",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q504] Helm in Kubernetes",
-    "options": [
-      "Container runtime",
-      "Option not applicable",
-      "Monitoring",
-      "Package manager"
-    ],
-    "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
-  },
-  {
-    "id": "devops_1505",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q505] What is a deployment in k8s?",
-    "options": [
-      "Storage unit",
-      "Manages Pod replicas",
-      "Single container",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
-  },
-  {
-    "id": "devops_1506",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q506] Rolling update strategy",
-    "options": [
-      "Blue-green",
-      "Cannot be determined",
-      "All at once",
-      "Updates pods gradually"
-    ],
-    "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
-  },
-  {
-    "id": "devops_1507",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q507] What is a secret in k8s?",
-    "options": [
-      "Log file",
-      "Stores sensitive data",
-      "Data not provided",
-      "Config map"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1508",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q508] ConfigMap in k8s",
-    "options": [
-      "Stores non-sensitive config",
-      "Manages pods",
-      "Stores secrets",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1509",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q509] YAML files in DevOps",
-    "options": [
-      "Binary configs",
-      "Compiled files",
-      "Configuration/definition files",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1510",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q510] What is GitOps?",
-    "options": [
-      "CI tool",
-      "Option not applicable",
-      "Git hosting",
-      "Git as source of truth for infra"
-    ],
-    "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
-  },
-  {
-    "id": "devops_1511",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q511] What is a service mesh?",
-    "options": [
-      "API gateway",
-      "Option not applicable",
-      "Load balancer",
-      "Infrastructure layer for service comm"
-    ],
-    "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
-  },
-  {
-    "id": "devops_1512",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q512] Shift left testing means",
-    "options": [
-      "Manual testing",
-      "Insufficient data",
-      "Testing at end",
-      "Testing earlier in SDLC"
-    ],
-    "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
-  },
-  {
-    "id": "devops_1513",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q513] What is mean time to recovery (MTTR)?",
-    "options": [
-      "Deploy time",
-      "Average time to restore service",
-      "Build time",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
-  },
-  {
-    "id": "devops_1514",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q514] SRE stands for",
-    "options": [
-      "System Resource Engineering",
-      "Software Release Engineering",
-      "Insufficient information",
-      "Site Reliability Engineering"
-    ],
-    "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
-  },
-  {
-    "id": "devops_1515",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q515] What is chaos engineering?",
-    "options": [
-      "Load testing",
-      "Normal testing",
-      "Intentional failure testing",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
-  },
-  {
-    "id": "devops_1516",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q516] Artifact repository stores",
-    "options": [
-      "Cannot be determined",
-      "Source code",
-      "Logs",
-      "Built software artifacts"
-    ],
-    "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
-  },
-  {
-    "id": "devops_1517",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q517] What is feature flag?",
-    "options": [
-      "Toggle features without deploy",
-      "Insufficient information",
-      "Git branch",
-      "Test case"
-    ],
-    "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
-  },
-  {
-    "id": "devops_1518",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q518] What is observability?",
-    "options": [
-      "Logs metrics traces",
-      "All of the above",
-      "Only metrics",
-      "Only logs"
-    ],
-    "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
-  },
-  {
-    "id": "devops_1519",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q519] What is a rollback?",
-    "options": [
-      "New release",
-      "Reverting to previous version",
-      "Forward deploy",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1520",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q520] DevSecOps means",
-    "options": [
-      "Neither A nor B",
-      "Security integrated into DevOps",
-      "Security team separate",
-      "Dev without security"
-    ],
-    "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
-  },
-  {
-    "id": "devops_1521",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q521] DevOps combines",
-    "options": [
-      "Neither A nor B",
-      "Design and Ops",
-      "Dev and QA",
-      "Development and Operations"
-    ],
-    "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
-  },
-  {
-    "id": "devops_1522",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q522] CI stands for",
-    "options": [
-      "Code Integration",
-      "Continuous Inspection",
-      "Continuous Integration",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
-  },
-  {
-    "id": "devops_1523",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q523] CD stands for",
-    "options": [
-      "Continuous Design",
-      "Continuous Delivery/Deployment",
-      "Code Deployment",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1524",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q524] Docker is used for",
-    "options": [
-      "Both A and B",
-      "Virtualization",
-      "Containerization",
-      "Orchestration"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1525",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q525] Kubernetes is used for",
-    "options": [
-      "Both B and C",
-      "CI/CD",
-      "Containerization",
-      "Container orchestration"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1526",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q526] Jenkins is",
-    "options": [
-      "CI/CD automation server",
-      "Version control",
-      "Container tool",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
-  },
-  {
-    "id": "devops_1527",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q527] Git is",
-    "options": [
-      "CI tool",
-      "Container",
-      "Distributed version control",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
-  },
-  {
-    "id": "devops_1528",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q528] What is Infrastructure as Code?",
-    "options": [
-      "Cloud only",
-      "Option not applicable",
-      "Manual server config",
-      "Managing infra via code"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1529",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q529] Terraform is used for",
-    "options": [
-      "IaC / cloud provisioning",
-      "Monitoring",
-      "Both A and B",
-      "Containerization"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1530",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q530] Ansible is used for",
-    "options": [
-      "Configuration management",
-      "CI/CD",
-      "Container orchestration",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
-  },
-  {
-    "id": "devops_1531",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q531] What is a pipeline?",
-    "options": [
-      "Automated workflow stages",
-      "Database",
-      "Both A and B",
-      "Manual process"
-    ],
-    "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
-  },
-  {
-    "id": "devops_1532",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q532] Blue-Green deployment",
-    "options": [
-      "Canary release",
-      "Rolling update",
-      "The above is incorrect",
-      "Zero-downtime deployment strategy"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1533",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q533] Canary deployment",
-    "options": [
-      "Blue-green",
-      "Full rollout",
-      "None of the above",
-      "Gradual rollout to subset"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1534",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q534] What is monitoring in DevOps?",
-    "options": [
-      "None of the above",
-      "Tracking system health",
-      "Deployment",
-      "Testing"
-    ],
-    "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
-  },
-  {
-    "id": "devops_1535",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q535] Prometheus is",
-    "options": [
-      "Metrics monitoring tool",
-      "Data not provided",
-      "CI server",
-      "Container"
-    ],
-    "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
-  },
-  {
-    "id": "devops_1536",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q536] Grafana is used for",
-    "options": [
-      "IaC",
-      "CI/CD",
-      "Visualization dashboards",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
-  },
-  {
-    "id": "devops_1537",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q537] What is a microservice?",
-    "options": [
-      "Database",
-      "Small independent service",
-      "Monolithic app",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "Microservices are independently deployable services."
-  },
-  {
-    "id": "devops_1538",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q538] Load balancer does",
-    "options": [
-      "Stores data",
-      "The above is incorrect",
-      "Distributes traffic",
-      "Monitors logs"
-    ],
-    "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
-  },
-  {
-    "id": "devops_1539",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q539] What is auto-scaling?",
-    "options": [
-      "Adjusting resources based on demand",
-      "Fixed resources",
-      "The above is incorrect",
-      "Manual scaling"
-    ],
-    "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
-  },
-  {
-    "id": "devops_1540",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q540] ELK stack includes",
-    "options": [
-      "Elastic Linux Kubernetes",
-      "Neither A nor B",
-      "Elasticsearch Logstash Kibana",
-      "Express Logstash Kafka"
-    ],
-    "answer": 0,
-    "explanation": "ELK is a popular log management stack."
-  },
-  {
-    "id": "devops_1541",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q541] What is a container image?",
-    "options": [
-      "Running container",
-      "Virtual machine",
-      "Read-only template for containers",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
-  },
-  {
-    "id": "devops_1542",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q542] Dockerfile is",
-    "options": [
-      "Kubernetes config",
-      "Neither A nor B",
-      "Script to build Docker image",
-      "Container runtime"
-    ],
-    "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
-  },
-  {
-    "id": "devops_1543",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q543] Kubernetes Pod is",
-    "options": [
-      "Data not provided",
-      "Service",
-      "Node",
-      "Smallest deployable unit"
-    ],
-    "answer": 0,
-    "explanation": "A Pod contains one or more containers."
-  },
-  {
-    "id": "devops_1544",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q544] Helm in Kubernetes",
-    "options": [
-      "None of the above",
-      "Container runtime",
-      "Package manager",
-      "Monitoring"
-    ],
-    "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
-  },
-  {
-    "id": "devops_1545",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q545] What is a deployment in k8s?",
-    "options": [
-      "Single container",
-      "Storage unit",
-      "None of the above",
-      "Manages Pod replicas"
-    ],
-    "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
-  },
-  {
-    "id": "devops_1546",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q546] Rolling update strategy",
-    "options": [
-      "Blue-green",
-      "Updates pods gradually",
-      "All at once",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
-  },
-  {
-    "id": "devops_1547",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q547] What is a secret in k8s?",
-    "options": [
-      "Log file",
-      "Config map",
-      "Stores sensitive data",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1548",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q548] ConfigMap in k8s",
-    "options": [
-      "Stores secrets",
-      "Both B and C",
-      "Stores non-sensitive config",
-      "Manages pods"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1549",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q549] YAML files in DevOps",
-    "options": [
-      "Compiled files",
-      "Configuration/definition files",
-      "The above is incorrect",
-      "Binary configs"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1550",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q550] What is GitOps?",
-    "options": [
-      "Git hosting",
-      "CI tool",
-      "None of the above",
-      "Git as source of truth for infra"
-    ],
-    "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
-  },
-  {
-    "id": "devops_1551",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q551] What is a service mesh?",
-    "options": [
-      "Load balancer",
-      "Infrastructure layer for service comm",
-      "API gateway",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
-  },
-  {
-    "id": "devops_1552",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q552] Shift left testing means",
-    "options": [
-      "Cannot be determined",
-      "Testing earlier in SDLC",
-      "Manual testing",
-      "Testing at end"
-    ],
-    "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
-  },
-  {
-    "id": "devops_1553",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q553] What is mean time to recovery (MTTR)?",
-    "options": [
-      "Neither A nor B",
-      "Deploy time",
-      "Build time",
-      "Average time to restore service"
-    ],
-    "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
-  },
-  {
-    "id": "devops_1554",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q554] SRE stands for",
-    "options": [
-      "Software Release Engineering",
-      "Neither A nor B",
-      "System Resource Engineering",
-      "Site Reliability Engineering"
-    ],
-    "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
-  },
-  {
-    "id": "devops_1555",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q555] What is chaos engineering?",
-    "options": [
-      "Normal testing",
-      "Both A and B",
-      "Load testing",
-      "Intentional failure testing"
-    ],
-    "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
-  },
-  {
-    "id": "devops_1556",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q556] Artifact repository stores",
-    "options": [
-      "Built software artifacts",
-      "Both A and C",
-      "Logs",
-      "Source code"
-    ],
-    "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
-  },
-  {
-    "id": "devops_1557",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q557] What is feature flag?",
-    "options": [
-      "Git branch",
-      "Both A and B",
-      "Toggle features without deploy",
-      "Test case"
-    ],
-    "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
-  },
-  {
-    "id": "devops_1558",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q558] What is observability?",
-    "options": [
-      "Logs metrics traces",
-      "Insufficient information",
-      "Only logs",
-      "Only metrics"
-    ],
-    "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
-  },
-  {
-    "id": "devops_1559",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q559] What is a rollback?",
-    "options": [
-      "Forward deploy",
-      "Reverting to previous version",
-      "None of the above",
-      "New release"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1560",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q560] DevSecOps means",
+    "question": "What is cosign?",
     "options": [
-      "Neither A nor B",
-      "Security team separate",
-      "Security integrated into DevOps",
-      "Dev without security"
+      "Tool from sigstore for signing and verifying container images",
+      "Docker command",
+      "K8s plugin",
+      "CI plugin"
     ],
     "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
+    "explanation": "The correct answer is Tool from sigstore for signing and verifying container images."
   },
   {
-    "id": "devops_1561",
+    "id": "DEVOPS_PIP_071",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q561] DevOps combines",
+    "question": "What is pipeline dependency graph?",
     "options": [
-      "Development and Operations",
-      "Design and Ops",
-      "Dev and QA",
-      "All of the above"
+      "DAG showing order and dependencies of all pipeline steps/jobs",
+      "Linear steps",
+      "Random steps",
+      "Sequential steps"
     ],
     "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
+    "explanation": "The correct answer is DAG showing order and dependencies of all pipeline steps/jobs."
   },
   {
-    "id": "devops_1562",
+    "id": "DEVOPS_PIP_072",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q562] CI stands for",
+    "question": "What is long-running test handling?",
     "options": [
-      "Code Integration",
-      "Data not provided",
-      "Continuous Inspection",
-      "Continuous Integration"
+      "Timeouts, parallelism, and test selection to manage slow tests",
+      "Test deletion",
+      "Test skipping",
+      "Test quarantine"
     ],
     "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
+    "explanation": "The correct answer is Timeouts, parallelism, and test selection to manage slow tests."
   },
   {
-    "id": "devops_1563",
+    "id": "DEVOPS_PIP_073",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q563] CD stands for",
+    "question": "What is test impact analysis?",
     "options": [
-      "Code Deployment",
-      "Continuous Design",
-      "Continuous Delivery/Deployment",
-      "Neither A nor B"
+      "Determining which tests are affected by code changes to run selectively",
+      "Running all tests",
+      "Random testing",
+      "Skipping tests"
     ],
     "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
+    "explanation": "The correct answer is Determining which tests are affected by code changes to run selectively."
   },
   {
-    "id": "devops_1564",
+    "id": "DEVOPS_PIP_074",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q564] Docker is used for",
+    "question": "What is binary authorization?",
     "options": [
-      "Orchestration",
-      "Virtualization",
-      "The above is incorrect",
-      "Containerization"
+      "Policy requiring builds to be attested before deployment to GKE",
+      "Container scanning",
+      "Code review",
+      "Manual approval"
     ],
     "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
+    "explanation": "The correct answer is Policy requiring builds to be attested before deployment to GKE."
   },
   {
-    "id": "devops_1565",
+    "id": "DEVOPS_PIP_075",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q565] Kubernetes is used for",
+    "question": "What is the security pipeline concept?",
     "options": [
-      "Containerization",
-      "CI/CD",
-      "Cannot be determined",
-      "Container orchestration"
+      "Integrating security scanning into every stage of CI/CD pipeline",
+      "DevSecOps",
+      "Manual security",
+      "Post-deployment security"
     ],
     "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
+    "explanation": "The correct answer is Integrating security scanning into every stage of CI/CD pipeline."
   },
   {
-    "id": "devops_1566",
+    "id": "DEVOPS_PIP_076",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q566] Jenkins is",
+    "question": "What is shift-right testing?",
     "options": [
-      "Version control",
-      "CI/CD automation server",
-      "Data not provided",
-      "Container tool"
+      "Testing in production with monitoring, chaos engineering, A/B tests",
+      "Pre-production testing",
+      "Unit testing",
+      "Static testing"
     ],
     "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
+    "explanation": "The correct answer is Testing in production with monitoring, chaos engineering, A/B tests."
   },
   {
-    "id": "devops_1567",
+    "id": "DEVOPS_PIP_077",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q567] Git is",
+    "question": "What is a canary analysis pipeline?",
     "options": [
-      "Distributed version control",
-      "CI tool",
-      "None of the above",
-      "Container"
+      "Automated metrics comparison between canary and baseline deployments",
+      "Manual canary",
+      "Simple canary",
+      "Blue-green pipeline"
     ],
     "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
+    "explanation": "The correct answer is Automated metrics comparison between canary and baseline deployments."
   },
   {
-    "id": "devops_1568",
+    "id": "DEVOPS_PIP_078",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "CI/CD & Git",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q568] What is Infrastructure as Code?",
+    "question": "What is the purpose of build numbering?",
     "options": [
-      "Cloud only",
-      "Both A and B",
-      "Manual server config",
-      "Managing infra via code"
+      "Unique identifier for each build for traceability and rollback",
+      "Build naming",
+      "Build ordering",
+      "Build logging"
     ],
     "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
+    "explanation": "The correct answer is Unique identifier for each build for traceability and rollback."
   },
   {
-    "id": "devops_1569",
+    "id": "DEVOPS_PIP_079",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q569] Terraform is used for",
+    "question": "What is the pipeline contract?",
     "options": [
-      "Insufficient information",
-      "Containerization",
-      "IaC / cloud provisioning",
-      "Monitoring"
+      "Agreement between pipeline and teams on inputs, outputs, and SLAs",
+      "Pipeline config",
+      "Pipeline template",
+      "Pipeline code"
     ],
     "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
+    "explanation": "The correct answer is Agreement between pipeline and teams on inputs, outputs, and SLAs."
   },
   {
-    "id": "devops_1570",
+    "id": "DEVOPS_PIP_080",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q570] Ansible is used for",
+    "question": "What is supply chain security in CI/CD?",
     "options": [
-      "CI/CD",
-      "All of the above",
-      "Container orchestration",
-      "Configuration management"
+      "Protecting the integrity of code, build, and deployment processes",
+      "Network security",
+      "Application security",
+      "Data security"
     ],
     "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
+    "explanation": "The correct answer is Protecting the integrity of code, build, and deployment processes."
   },
   {
-    "id": "devops_1571",
+    "id": "DEVOPS_PIP_081",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q571] What is a pipeline?",
+    "question": "What is hermetic build?",
     "options": [
-      "Database",
-      "Manual process",
-      "Insufficient information",
-      "Automated workflow stages"
+      "Build that runs without network access, using only declared dependencies",
+      "Standard build",
+      "Cached build",
+      "Optimized build"
     ],
     "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
+    "explanation": "The correct answer is Build that runs without network access, using only declared dependencies."
   },
   {
-    "id": "devops_1572",
+    "id": "DEVOPS_PIP_082",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q572] Blue-Green deployment",
+    "question": "What is reproducible build?",
     "options": [
-      "Rolling update",
-      "Canary release",
-      "Neither A nor B",
-      "Zero-downtime deployment strategy"
+      "Rebuilding same source always produces bit-for-bit identical artifact",
+      "Standard build",
+      "Fast build",
+      "Secure build"
     ],
     "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
+    "explanation": "The correct answer is Rebuilding same source always produces bit-for-bit identical artifact."
   },
   {
-    "id": "devops_1573",
+    "id": "DEVOPS_PIP_083",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q573] Canary deployment",
+    "question": "What is the purpose of checksums in artifact distribution?",
     "options": [
-      "Full rollout",
-      "Gradual rollout to subset",
-      "All of the above",
-      "Blue-green"
+      "Verify artifact integrity and detect tampering during download",
+      "Performance check",
+      "Version check",
+      "License check"
     ],
     "answer": 0,
-    "explanation": "Canary releases to small user subset first."
+    "explanation": "The correct answer is Verify artifact integrity and detect tampering during download."
   },
   {
-    "id": "devops_1574",
+    "id": "DEVOPS_PIP_084",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "CI/CD & Git",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q574] What is monitoring in DevOps?",
+    "question": "What is a pipeline health dashboard?",
     "options": [
-      "Tracking system health",
-      "Cannot be determined",
-      "Deployment",
-      "Testing"
+      "Real-time view of pipeline status, success rate, and queue depth",
+      "Deployment dashboard",
+      "Monitoring dashboard",
+      "Security dashboard"
     ],
     "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
+    "explanation": "The correct answer is Real-time view of pipeline status, success rate, and queue depth."
   },
   {
-    "id": "devops_1575",
+    "id": "DEVOPS_SEC_001",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q575] Prometheus is",
+    "question": "What is DevSecOps?",
     "options": [
-      "CI server",
-      "All of the above",
-      "Metrics monitoring tool",
-      "Container"
+      "Integrating security practices into DevOps pipeline from the start",
+      "Security team only",
+      "Post-deployment security",
+      "Manual security audits"
     ],
     "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
+    "explanation": "The correct answer is Integrating security practices into DevOps pipeline from the start."
   },
   {
-    "id": "devops_1576",
+    "id": "DEVOPS_SEC_002",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q576] Grafana is used for",
+    "question": "What is the principle of least privilege?",
     "options": [
-      "Visualization dashboards",
-      "IaC",
-      "CI/CD",
-      "Neither A nor B"
+      "Grant only minimum permissions needed for a task",
+      "Full admin access",
+      "No permissions",
+      "Maximum permissions"
     ],
     "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
+    "explanation": "The correct answer is Grant only minimum permissions needed for a task."
   },
   {
-    "id": "devops_1577",
+    "id": "DEVOPS_SEC_003",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q577] What is a microservice?",
+    "question": "What is zero trust security?",
     "options": [
-      "Insufficient information",
-      "Monolithic app",
-      "Small independent service",
-      "Database"
+      "Never trust, always verify — validate every request regardless of origin",
+      "Trust internal network",
+      "Trust VPN users",
+      "Trust nothing ever"
     ],
     "answer": 0,
-    "explanation": "Microservices are independently deployable services."
+    "explanation": "The correct answer is Never trust, always verify — validate every request regardless of origin."
   },
   {
-    "id": "devops_1578",
+    "id": "DEVOPS_SEC_004",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q578] Load balancer does",
+    "question": "What is a CVE?",
     "options": [
-      "Cannot be determined",
-      "Stores data",
-      "Monitors logs",
-      "Distributes traffic"
+      "Common Vulnerabilities and Exposures — identifier for security vulnerabilities",
+      "Certificate Validation Error",
+      "Container Volume Error",
+      "Continuous Vulnerability Evaluation"
     ],
     "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
+    "explanation": "The correct answer is Common Vulnerabilities and Exposures — identifier for security vulnerabilities."
   },
   {
-    "id": "devops_1579",
+    "id": "DEVOPS_SEC_005",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q579] What is auto-scaling?",
+    "question": "What is a CVSS score?",
     "options": [
-      "Manual scaling",
-      "Adjusting resources based on demand",
-      "Fixed resources",
-      "Neither A nor B"
+      "Numeric score 0-10 rating severity of a vulnerability",
+      "Certificate score",
+      "Compliance score",
+      "Continuous verification score"
     ],
     "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
+    "explanation": "The correct answer is Numeric score 0-10 rating severity of a vulnerability."
   },
   {
-    "id": "devops_1580",
+    "id": "DEVOPS_SEC_006",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q580] ELK stack includes",
+    "question": "What is dependency confusion attack?",
     "options": [
-      "Express Logstash Kafka",
-      "Elastic Linux Kubernetes",
-      "Elasticsearch Logstash Kibana",
-      "All of the above"
+      "Attacker publishes malicious package with same name as internal package",
+      "Man-in-middle attack",
+      "SQL injection",
+      "XSS attack"
     ],
     "answer": 0,
-    "explanation": "ELK is a popular log management stack."
+    "explanation": "The correct answer is Attacker publishes malicious package with same name as internal package."
   },
   {
-    "id": "devops_1581",
+    "id": "DEVOPS_SEC_007",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q581] What is a container image?",
+    "question": "What is supply chain attack?",
     "options": [
-      "Option not applicable",
-      "Read-only template for containers",
-      "Virtual machine",
-      "Running container"
+      "Compromising software during build/distribution rather than at target directly",
+      "Network attack",
+      "Endpoint attack",
+      "Social engineering"
     ],
     "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
+    "explanation": "The correct answer is Compromising software during build/distribution rather than at target directly."
   },
   {
-    "id": "devops_1582",
+    "id": "DEVOPS_SEC_008",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q582] Dockerfile is",
+    "question": "What is container image hardening?",
     "options": [
-      "Script to build Docker image",
-      "Container runtime",
-      "Kubernetes config",
-      "Data not provided"
+      "Minimizing image surface area: non-root user, no unnecessary tools",
+      "Container optimization",
+      "Container testing",
+      "Container deployment"
     ],
     "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
+    "explanation": "The correct answer is Minimizing image surface area: non-root user, no unnecessary tools."
   },
   {
-    "id": "devops_1583",
+    "id": "DEVOPS_SEC_009",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q583] Kubernetes Pod is",
+    "question": "What is Pod Security Admission in K8s?",
     "options": [
-      "Insufficient information",
-      "Service",
-      "Node",
-      "Smallest deployable unit"
+      "Built-in admission controller enforcing security standards for pods",
+      "Network policy",
+      "RBAC",
+      "Service mesh"
     ],
     "answer": 0,
-    "explanation": "A Pod contains one or more containers."
+    "explanation": "The correct answer is Built-in admission controller enforcing security standards for pods."
   },
   {
-    "id": "devops_1584",
+    "id": "DEVOPS_SEC_010",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q584] Helm in Kubernetes",
+    "question": "What is network segmentation?",
     "options": [
-      "Option not applicable",
-      "Monitoring",
-      "Package manager",
-      "Container runtime"
+      "Dividing network into isolated segments to limit breach impact",
+      "Network optimization",
+      "Network monitoring",
+      "Network routing"
     ],
     "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
+    "explanation": "The correct answer is Dividing network into isolated segments to limit breach impact."
   },
   {
-    "id": "devops_1585",
+    "id": "DEVOPS_SEC_011",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q585] What is a deployment in k8s?",
+    "question": "What is TLS (Transport Layer Security)?",
     "options": [
-      "The above is incorrect",
-      "Storage unit",
-      "Single container",
-      "Manages Pod replicas"
+      "Cryptographic protocol for secure communication over networks",
+      "HTTP protocol",
+      "SSH protocol",
+      "DNS protocol"
     ],
     "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
+    "explanation": "The correct answer is Cryptographic protocol for secure communication over networks."
   },
   {
-    "id": "devops_1586",
+    "id": "DEVOPS_SEC_012",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q586] Rolling update strategy",
+    "question": "What is mutual TLS (mTLS)?",
     "options": [
-      "Data not provided",
-      "Blue-green",
-      "All at once",
-      "Updates pods gradually"
+      "Both client and server authenticate each other with certificates",
+      "One-way TLS",
+      "No TLS",
+      "Weak TLS"
     ],
     "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
+    "explanation": "The correct answer is Both client and server authenticate each other with certificates."
   },
   {
-    "id": "devops_1587",
+    "id": "DEVOPS_SEC_013",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q587] What is a secret in k8s?",
+    "question": "What is a service mesh security benefit?",
     "options": [
-      "Config map",
-      "None of the above",
-      "Stores sensitive data",
-      "Log file"
+      "Automatic mTLS between all service-to-service communications",
+      "Performance improvement",
+      "Cost reduction",
+      "Deployment speed"
     ],
     "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
+    "explanation": "The correct answer is Automatic mTLS between all service-to-service communications."
   },
   {
-    "id": "devops_1588",
+    "id": "DEVOPS_SEC_014",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q588] ConfigMap in k8s",
+    "question": "What is secrets rotation?",
     "options": [
-      "Stores non-sensitive config",
-      "Option not applicable",
-      "Manages pods",
-      "Stores secrets"
+      "Periodically changing passwords and keys to limit exposure window",
+      "Key deletion",
+      "Secret backup",
+      "Secret encryption"
     ],
     "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
+    "explanation": "The correct answer is Periodically changing passwords and keys to limit exposure window."
   },
   {
-    "id": "devops_1589",
+    "id": "DEVOPS_SEC_015",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q589] YAML files in DevOps",
+    "question": "What is HashiCorp Vault?",
     "options": [
-      "Compiled files",
-      "Configuration/definition files",
-      "Binary configs",
-      "Insufficient information"
+      "Secrets management platform with dynamic secrets and encryption",
+      "K8s tool",
+      "CI/CD tool",
+      "Monitoring tool"
     ],
     "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
+    "explanation": "The correct answer is Secrets management platform with dynamic secrets and encryption."
   },
   {
-    "id": "devops_1590",
+    "id": "DEVOPS_SEC_016",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q590] What is GitOps?",
+    "question": "What is dynamic secret?",
     "options": [
-      "Git as source of truth for infra",
-      "Git hosting",
-      "Both B and C",
-      "CI tool"
+      "Short-lived, auto-generated credential created on demand by Vault",
+      "Static password",
+      "Stored credential",
+      "Rotated password"
     ],
     "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
+    "explanation": "The correct answer is Short-lived, auto-generated credential created on demand by Vault."
   },
   {
-    "id": "devops_1591",
+    "id": "DEVOPS_SEC_017",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q591] What is a service mesh?",
+    "question": "What is RBAC in cloud security?",
     "options": [
-      "Load balancer",
-      "Infrastructure layer for service comm",
-      "API gateway",
-      "The above is incorrect"
+      "Role-Based Access Control assigning permissions through roles",
+      "Resource-Based Access Control",
+      "Rule-Based Access Control",
+      "Registry-Based Access Control"
     ],
     "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
+    "explanation": "The correct answer is Role-Based Access Control assigning permissions through roles."
   },
   {
-    "id": "devops_1592",
+    "id": "DEVOPS_SEC_018",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q592] Shift left testing means",
+    "question": "What is IAM (Identity and Access Management)?",
     "options": [
-      "Testing earlier in SDLC",
-      "Manual testing",
-      "The premise is wrong",
-      "Testing at end"
+      "Service managing who has access to what cloud resources",
+      "Container manager",
+      "Network manager",
+      "Storage manager"
     ],
     "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
+    "explanation": "The correct answer is Service managing who has access to what cloud resources."
   },
   {
-    "id": "devops_1593",
+    "id": "DEVOPS_SEC_019",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q593] What is mean time to recovery (MTTR)?",
+    "question": "What is the difference between authentication and authorization?",
     "options": [
-      "Deploy time",
-      "Build time",
-      "The above is incorrect",
-      "Average time to restore service"
+      "Authentication verifies identity; authorization determines permissions",
+      "Same thing",
+      "Authorization verifies identity",
+      "Authentication checks permissions"
     ],
     "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
+    "explanation": "The correct answer is Authentication verifies identity; authorization determines permissions."
   },
   {
-    "id": "devops_1594",
+    "id": "DEVOPS_SEC_020",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q594] SRE stands for",
+    "question": "What is MFA (Multi-Factor Authentication)?",
     "options": [
-      "Software Release Engineering",
-      "System Resource Engineering",
-      "Site Reliability Engineering",
-      "Both B and C"
+      "Requiring two or more verification factors to access a system",
+      "Single password",
+      "Biometrics only",
+      "Certificate only"
     ],
     "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
+    "explanation": "The correct answer is Requiring two or more verification factors to access a system."
   },
   {
-    "id": "devops_1595",
+    "id": "DEVOPS_SEC_021",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q595] What is chaos engineering?",
+    "question": "What is SAST (Static Application Security Testing)?",
     "options": [
-      "Both B and C",
-      "Normal testing",
-      "Intentional failure testing",
+      "Scanning source code for vulnerabilities without execution",
+      "Dynamic testing",
+      "Penetration testing",
       "Load testing"
     ],
     "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
+    "explanation": "The correct answer is Scanning source code for vulnerabilities without execution."
   },
   {
-    "id": "devops_1596",
+    "id": "DEVOPS_SEC_022",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q596] Artifact repository stores",
+    "question": "What is DAST (Dynamic Application Security Testing)?",
     "options": [
-      "Logs",
-      "Source code",
-      "Built software artifacts",
-      "The premise is wrong"
+      "Testing running application for vulnerabilities",
+      "Static code analysis",
+      "Source code review",
+      "Dependency scanning"
     ],
     "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
+    "explanation": "The correct answer is Testing running application for vulnerabilities."
   },
   {
-    "id": "devops_1597",
+    "id": "DEVOPS_SEC_023",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q597] What is feature flag?",
-    "options": [
-      "Cannot be determined",
-      "Toggle features without deploy",
-      "Test case",
-      "Git branch"
-    ],
-    "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
-  },
-  {
-    "id": "devops_1598",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q598] What is observability?",
-    "options": [
-      "Only logs",
-      "Only metrics",
-      "Logs metrics traces",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
-  },
-  {
-    "id": "devops_1599",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q599] What is a rollback?",
-    "options": [
-      "Reverting to previous version",
-      "Forward deploy",
-      "Both A and B",
-      "New release"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1600",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q600] DevSecOps means",
-    "options": [
-      "Neither A nor B",
-      "Dev without security",
-      "Security integrated into DevOps",
-      "Security team separate"
-    ],
-    "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
-  },
-  {
-    "id": "devops_1601",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q601] DevOps combines",
-    "options": [
-      "Design and Ops",
-      "Development and Operations",
-      "Dev and QA",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
-  },
-  {
-    "id": "devops_1602",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q602] CI stands for",
-    "options": [
-      "Code Integration",
-      "Continuous Inspection",
-      "None of the above",
-      "Continuous Integration"
-    ],
-    "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
-  },
-  {
-    "id": "devops_1603",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q603] CD stands for",
-    "options": [
-      "Continuous Design",
-      "Continuous Delivery/Deployment",
-      "None of the above",
-      "Code Deployment"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1604",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q604] Docker is used for",
-    "options": [
-      "Virtualization",
-      "Orchestration",
-      "The above is incorrect",
-      "Containerization"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1605",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q605] Kubernetes is used for",
-    "options": [
-      "Containerization",
-      "Container orchestration",
-      "CI/CD",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1606",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q606] Jenkins is",
-    "options": [
-      "None of the above",
-      "Container tool",
-      "Version control",
-      "CI/CD automation server"
-    ],
-    "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
-  },
-  {
-    "id": "devops_1607",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q607] Git is",
-    "options": [
-      "CI tool",
-      "Container",
-      "Distributed version control",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
-  },
-  {
-    "id": "devops_1608",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q608] What is Infrastructure as Code?",
-    "options": [
-      "Manual server config",
-      "Data not provided",
-      "Managing infra via code",
-      "Cloud only"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1609",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q609] Terraform is used for",
-    "options": [
-      "Containerization",
-      "The above is incorrect",
-      "Monitoring",
-      "IaC / cloud provisioning"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1610",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q610] Ansible is used for",
-    "options": [
-      "Both B and C",
-      "Container orchestration",
-      "Configuration management",
-      "CI/CD"
-    ],
-    "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
-  },
-  {
-    "id": "devops_1611",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q611] What is a pipeline?",
-    "options": [
-      "Database",
-      "Automated workflow stages",
-      "Data not provided",
-      "Manual process"
-    ],
-    "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
-  },
-  {
-    "id": "devops_1612",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q612] Blue-Green deployment",
-    "options": [
-      "Zero-downtime deployment strategy",
-      "Data not provided",
-      "Canary release",
-      "Rolling update"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1613",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q613] Canary deployment",
-    "options": [
-      "Gradual rollout to subset",
-      "Data not provided",
-      "Blue-green",
-      "Full rollout"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1614",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q614] What is monitoring in DevOps?",
-    "options": [
-      "Tracking system health",
-      "All of the above",
-      "Deployment",
-      "Testing"
-    ],
-    "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
-  },
-  {
-    "id": "devops_1615",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q615] Prometheus is",
-    "options": [
-      "Metrics monitoring tool",
-      "Neither A nor B",
-      "CI server",
-      "Container"
-    ],
-    "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
-  },
-  {
-    "id": "devops_1616",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q616] Grafana is used for",
-    "options": [
-      "Data not provided",
-      "IaC",
-      "Visualization dashboards",
-      "CI/CD"
-    ],
-    "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
-  },
-  {
-    "id": "devops_1617",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q617] What is a microservice?",
-    "options": [
-      "All of the above",
-      "Monolithic app",
-      "Database",
-      "Small independent service"
-    ],
-    "answer": 0,
-    "explanation": "Microservices are independently deployable services."
-  },
-  {
-    "id": "devops_1618",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q618] Load balancer does",
-    "options": [
-      "Monitors logs",
-      "Distributes traffic",
-      "Stores data",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
-  },
-  {
-    "id": "devops_1619",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q619] What is auto-scaling?",
-    "options": [
-      "The above is incorrect",
-      "Fixed resources",
-      "Manual scaling",
-      "Adjusting resources based on demand"
-    ],
-    "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
-  },
-  {
-    "id": "devops_1620",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q620] ELK stack includes",
-    "options": [
-      "Neither A nor B",
-      "Express Logstash Kafka",
-      "Elasticsearch Logstash Kibana",
-      "Elastic Linux Kubernetes"
-    ],
-    "answer": 0,
-    "explanation": "ELK is a popular log management stack."
-  },
-  {
-    "id": "devops_1621",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q621] What is a container image?",
-    "options": [
-      "Virtual machine",
-      "Read-only template for containers",
-      "Running container",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
-  },
-  {
-    "id": "devops_1622",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q622] Dockerfile is",
-    "options": [
-      "Kubernetes config",
-      "None of the above",
-      "Container runtime",
-      "Script to build Docker image"
-    ],
-    "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
-  },
-  {
-    "id": "devops_1623",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q623] Kubernetes Pod is",
-    "options": [
-      "Service",
-      "Smallest deployable unit",
-      "Node",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "A Pod contains one or more containers."
-  },
-  {
-    "id": "devops_1624",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q624] Helm in Kubernetes",
-    "options": [
-      "Container runtime",
-      "Neither A nor B",
-      "Package manager",
-      "Monitoring"
-    ],
-    "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
-  },
-  {
-    "id": "devops_1625",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q625] What is a deployment in k8s?",
-    "options": [
-      "The above is incorrect",
-      "Single container",
-      "Storage unit",
-      "Manages Pod replicas"
-    ],
-    "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
-  },
-  {
-    "id": "devops_1626",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q626] Rolling update strategy",
-    "options": [
-      "All at once",
-      "Updates pods gradually",
-      "None of the above",
-      "Blue-green"
-    ],
-    "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
-  },
-  {
-    "id": "devops_1627",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q627] What is a secret in k8s?",
-    "options": [
-      "Log file",
-      "Neither A nor B",
-      "Stores sensitive data",
-      "Config map"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1628",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q628] ConfigMap in k8s",
-    "options": [
-      "Manages pods",
-      "Stores secrets",
-      "All of the above",
-      "Stores non-sensitive config"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1629",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q629] YAML files in DevOps",
-    "options": [
-      "Insufficient information",
-      "Binary configs",
-      "Configuration/definition files",
-      "Compiled files"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1630",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q630] What is GitOps?",
-    "options": [
-      "Option not applicable",
-      "Git as source of truth for infra",
-      "Git hosting",
-      "CI tool"
-    ],
-    "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
-  },
-  {
-    "id": "devops_1631",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q631] What is a service mesh?",
-    "options": [
-      "Infrastructure layer for service comm",
-      "API gateway",
-      "Load balancer",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
-  },
-  {
-    "id": "devops_1632",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q632] Shift left testing means",
-    "options": [
-      "Manual testing",
-      "The statement is false",
-      "Testing earlier in SDLC",
-      "Testing at end"
-    ],
-    "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
-  },
-  {
-    "id": "devops_1633",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q633] What is mean time to recovery (MTTR)?",
-    "options": [
-      "Average time to restore service",
-      "Deploy time",
-      "Build time",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
-  },
-  {
-    "id": "devops_1634",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q634] SRE stands for",
-    "options": [
-      "System Resource Engineering",
-      "Site Reliability Engineering",
-      "The above is incorrect",
-      "Software Release Engineering"
-    ],
-    "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
-  },
-  {
-    "id": "devops_1635",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q635] What is chaos engineering?",
-    "options": [
-      "Option not applicable",
-      "Load testing",
-      "Intentional failure testing",
-      "Normal testing"
-    ],
-    "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
-  },
-  {
-    "id": "devops_1636",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q636] Artifact repository stores",
-    "options": [
-      "Built software artifacts",
-      "Source code",
-      "Logs",
-      "Insufficient data"
-    ],
-    "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
-  },
-  {
-    "id": "devops_1637",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q637] What is feature flag?",
-    "options": [
-      "The above is incorrect",
-      "Git branch",
-      "Toggle features without deploy",
-      "Test case"
-    ],
-    "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
-  },
-  {
-    "id": "devops_1638",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q638] What is observability?",
-    "options": [
-      "Neither A nor B",
-      "Logs metrics traces",
-      "Only metrics",
-      "Only logs"
-    ],
-    "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
-  },
-  {
-    "id": "devops_1639",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q639] What is a rollback?",
-    "options": [
-      "New release",
-      "Insufficient information",
-      "Reverting to previous version",
-      "Forward deploy"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1640",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q640] DevSecOps means",
-    "options": [
-      "Neither A nor B",
-      "Dev without security",
-      "Security integrated into DevOps",
-      "Security team separate"
-    ],
-    "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
-  },
-  {
-    "id": "devops_1641",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q641] DevOps combines",
-    "options": [
-      "Development and Operations",
-      "Dev and QA",
-      "Design and Ops",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
-  },
-  {
-    "id": "devops_1642",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q642] CI stands for",
-    "options": [
-      "The above is incorrect",
-      "Continuous Integration",
-      "Continuous Inspection",
-      "Code Integration"
-    ],
-    "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
-  },
-  {
-    "id": "devops_1643",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q643] CD stands for",
-    "options": [
-      "Continuous Delivery/Deployment",
-      "Continuous Design",
-      "All of the above",
-      "Code Deployment"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1644",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q644] Docker is used for",
-    "options": [
-      "Orchestration",
-      "Containerization",
-      "Virtualization",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1645",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q645] Kubernetes is used for",
-    "options": [
-      "CI/CD",
-      "Containerization",
-      "Container orchestration",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1646",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q646] Jenkins is",
-    "options": [
-      "Insufficient information",
-      "CI/CD automation server",
-      "Version control",
-      "Container tool"
-    ],
-    "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
-  },
-  {
-    "id": "devops_1647",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q647] Git is",
-    "options": [
-      "CI tool",
-      "Container",
-      "Neither A nor B",
-      "Distributed version control"
-    ],
-    "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
-  },
-  {
-    "id": "devops_1648",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q648] What is Infrastructure as Code?",
-    "options": [
-      "Cloud only",
-      "Manual server config",
-      "Managing infra via code",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1649",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q649] Terraform is used for",
-    "options": [
-      "Monitoring",
-      "Containerization",
-      "Cannot be determined",
-      "IaC / cloud provisioning"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1650",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q650] Ansible is used for",
-    "options": [
-      "Configuration management",
-      "Container orchestration",
-      "CI/CD",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
-  },
-  {
-    "id": "devops_1651",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q651] What is a pipeline?",
-    "options": [
-      "Both B and C",
-      "Manual process",
-      "Database",
-      "Automated workflow stages"
-    ],
-    "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
-  },
-  {
-    "id": "devops_1652",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q652] Blue-Green deployment",
-    "options": [
-      "Data not provided",
-      "Rolling update",
-      "Zero-downtime deployment strategy",
-      "Canary release"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1653",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q653] Canary deployment",
-    "options": [
-      "Cannot be determined",
-      "Blue-green",
-      "Gradual rollout to subset",
-      "Full rollout"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1654",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q654] What is monitoring in DevOps?",
-    "options": [
-      "Tracking system health",
-      "Cannot be determined",
-      "Testing",
-      "Deployment"
-    ],
-    "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
-  },
-  {
-    "id": "devops_1655",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q655] Prometheus is",
-    "options": [
-      "Metrics monitoring tool",
-      "Both A and B",
-      "Container",
-      "CI server"
-    ],
-    "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
-  },
-  {
-    "id": "devops_1656",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q656] Grafana is used for",
-    "options": [
-      "Visualization dashboards",
-      "Neither A nor B",
-      "IaC",
-      "CI/CD"
-    ],
-    "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
-  },
-  {
-    "id": "devops_1657",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q657] What is a microservice?",
-    "options": [
-      "Database",
-      "Neither A nor B",
-      "Small independent service",
-      "Monolithic app"
-    ],
-    "answer": 0,
-    "explanation": "Microservices are independently deployable services."
-  },
-  {
-    "id": "devops_1658",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q658] Load balancer does",
-    "options": [
-      "Distributes traffic",
-      "Neither A nor B",
-      "Stores data",
-      "Monitors logs"
-    ],
-    "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
-  },
-  {
-    "id": "devops_1659",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q659] What is auto-scaling?",
-    "options": [
-      "Adjusting resources based on demand",
-      "Option not applicable",
-      "Fixed resources",
-      "Manual scaling"
-    ],
-    "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
-  },
-  {
-    "id": "devops_1660",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q660] ELK stack includes",
-    "options": [
-      "Express Logstash Kafka",
-      "Elastic Linux Kubernetes",
-      "Both A and B",
-      "Elasticsearch Logstash Kibana"
-    ],
-    "answer": 0,
-    "explanation": "ELK is a popular log management stack."
-  },
-  {
-    "id": "devops_1661",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q661] What is a container image?",
-    "options": [
-      "Running container",
-      "Read-only template for containers",
-      "Virtual machine",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
-  },
-  {
-    "id": "devops_1662",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q662] Dockerfile is",
-    "options": [
-      "None of the above",
-      "Container runtime",
-      "Kubernetes config",
-      "Script to build Docker image"
-    ],
-    "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
-  },
-  {
-    "id": "devops_1663",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q663] Kubernetes Pod is",
-    "options": [
-      "Neither A nor B",
-      "Service",
-      "Smallest deployable unit",
-      "Node"
-    ],
-    "answer": 0,
-    "explanation": "A Pod contains one or more containers."
-  },
-  {
-    "id": "devops_1664",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q664] Helm in Kubernetes",
-    "options": [
-      "Container runtime",
-      "Monitoring",
-      "Package manager",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
-  },
-  {
-    "id": "devops_1665",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q665] What is a deployment in k8s?",
-    "options": [
-      "Both B and C",
-      "Single container",
-      "Storage unit",
-      "Manages Pod replicas"
-    ],
-    "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
-  },
-  {
-    "id": "devops_1666",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q666] Rolling update strategy",
-    "options": [
-      "Both B and C",
-      "Blue-green",
-      "All at once",
-      "Updates pods gradually"
-    ],
-    "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
-  },
-  {
-    "id": "devops_1667",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q667] What is a secret in k8s?",
-    "options": [
-      "Stores sensitive data",
-      "Log file",
-      "All of the above",
-      "Config map"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1668",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q668] ConfigMap in k8s",
-    "options": [
-      "Stores non-sensitive config",
-      "Manages pods",
-      "Data not provided",
-      "Stores secrets"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1669",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q669] YAML files in DevOps",
-    "options": [
-      "Compiled files",
-      "Binary configs",
-      "All of the above",
-      "Configuration/definition files"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1670",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q670] What is GitOps?",
-    "options": [
-      "Cannot be determined",
-      "CI tool",
-      "Git as source of truth for infra",
-      "Git hosting"
-    ],
-    "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
-  },
-  {
-    "id": "devops_1671",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q671] What is a service mesh?",
-    "options": [
-      "Load balancer",
-      "Infrastructure layer for service comm",
-      "API gateway",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
-  },
-  {
-    "id": "devops_1672",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q672] Shift left testing means",
+    "question": "What is IAST (Interactive Application Security Testing)?",
     "options": [
-      "Testing at end",
-      "Testing earlier in SDLC",
-      "The argument is invalid",
+      "Agent inside running app analyzing behavior during functional testing",
+      "SAST variant",
+      "DAST variant",
       "Manual testing"
     ],
     "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
+    "explanation": "The correct answer is Agent inside running app analyzing behavior during functional testing."
   },
   {
-    "id": "devops_1673",
+    "id": "DEVOPS_SEC_024",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q673] What is mean time to recovery (MTTR)?",
+    "question": "What is penetration testing?",
     "options": [
-      "Build time",
-      "Deploy time",
-      "None of the above",
-      "Average time to restore service"
+      "Authorized simulated attack to identify security vulnerabilities",
+      "Bug bounty",
+      "Security scan",
+      "Code review"
     ],
     "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
+    "explanation": "The correct answer is Authorized simulated attack to identify security vulnerabilities."
   },
   {
-    "id": "devops_1674",
+    "id": "DEVOPS_SEC_025",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q674] SRE stands for",
+    "question": "What is bug bounty program?",
     "options": [
-      "System Resource Engineering",
-      "Software Release Engineering",
-      "Site Reliability Engineering",
-      "Cannot be determined"
+      "Reward program for security researchers finding vulnerabilities",
+      "Penetration test",
+      "Security audit",
+      "Compliance check"
     ],
     "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
+    "explanation": "The correct answer is Reward program for security researchers finding vulnerabilities."
   },
   {
-    "id": "devops_1675",
+    "id": "DEVOPS_SEC_026",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q675] What is chaos engineering?",
+    "question": "What is OWASP Top 10?",
     "options": [
-      "Option not applicable",
-      "Intentional failure testing",
-      "Normal testing",
-      "Load testing"
+      "List of top 10 web application security risks",
+      "OWASP tools",
+      "Security standards",
+      "Compliance framework"
     ],
     "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
+    "explanation": "The correct answer is List of top 10 web application security risks."
   },
   {
-    "id": "devops_1676",
+    "id": "DEVOPS_SEC_027",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q676] Artifact repository stores",
+    "question": "What is SQL injection?",
     "options": [
-      "Source code",
-      "Logs",
-      "All of the above",
-      "Built software artifacts"
+      "Inserting malicious SQL into input to manipulate database queries",
+      "XSS attack",
+      "CSRF attack",
+      "Man-in-middle"
     ],
     "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
+    "explanation": "The correct answer is Inserting malicious SQL into input to manipulate database queries."
   },
   {
-    "id": "devops_1677",
+    "id": "DEVOPS_SEC_028",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q677] What is feature flag?",
+    "question": "What is XSS (Cross-Site Scripting)?",
     "options": [
-      "Test case",
-      "Git branch",
-      "Toggle features without deploy",
-      "Both B and C"
+      "Injecting malicious scripts into web pages viewed by other users",
+      "SQL injection",
+      "CSRF",
+      "Buffer overflow"
     ],
     "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
+    "explanation": "The correct answer is Injecting malicious scripts into web pages viewed by other users."
   },
   {
-    "id": "devops_1678",
+    "id": "DEVOPS_SEC_029",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q678] What is observability?",
+    "question": "What is CSRF (Cross-Site Request Forgery)?",
     "options": [
-      "Logs metrics traces",
-      "Only logs",
-      "Only metrics",
-      "Option not applicable"
+      "Tricking authenticated users into executing unwanted actions",
+      "XSS",
+      "SQL injection",
+      "Phishing"
     ],
     "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
+    "explanation": "The correct answer is Tricking authenticated users into executing unwanted actions."
   },
   {
-    "id": "devops_1679",
+    "id": "DEVOPS_SEC_030",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q679] What is a rollback?",
+    "question": "What is SSRF (Server-Side Request Forgery)?",
     "options": [
-      "Forward deploy",
-      "New release",
-      "The above is incorrect",
-      "Reverting to previous version"
+      "Attacker causes server to make requests to internal/arbitrary URLs",
+      "CSRF variant",
+      "XSS variant",
+      "SQL injection"
     ],
     "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
+    "explanation": "The correct answer is Attacker causes server to make requests to internal/arbitrary URLs."
   },
   {
-    "id": "devops_1680",
+    "id": "DEVOPS_SEC_031",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q680] DevSecOps means",
+    "question": "What is a WAF (Web Application Firewall)?",
     "options": [
-      "Dev without security",
-      "Security integrated into DevOps",
-      "Option not applicable",
-      "Security team separate"
+      "Filters and monitors HTTP traffic to protect web applications",
+      "Network firewall",
+      "Database firewall",
+      "Container firewall"
     ],
     "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
+    "explanation": "The correct answer is Filters and monitors HTTP traffic to protect web applications."
   },
   {
-    "id": "devops_1681",
+    "id": "DEVOPS_SEC_032",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q681] DevOps combines",
+    "question": "What is rate limiting?",
     "options": [
-      "Neither A nor B",
-      "Development and Operations",
-      "Design and Ops",
-      "Dev and QA"
+      "Restricting number of requests per time period to prevent abuse",
+      "Speed limiting",
+      "Traffic shaping",
+      "Load balancing"
     ],
     "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
+    "explanation": "The correct answer is Restricting number of requests per time period to prevent abuse."
   },
   {
-    "id": "devops_1682",
+    "id": "DEVOPS_SEC_033",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q682] CI stands for",
+    "question": "What is DDoS protection?",
     "options": [
-      "Both B and C",
-      "Continuous Inspection",
-      "Code Integration",
-      "Continuous Integration"
+      "Defending against Distributed Denial of Service attacks flooding with traffic",
+      "Regular DoS defense",
+      "Anti-bot protection",
+      "Firewall rule"
     ],
     "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
+    "explanation": "The correct answer is Defending against Distributed Denial of Service attacks flooding with traffic."
   },
   {
-    "id": "devops_1683",
+    "id": "DEVOPS_SEC_034",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q683] CD stands for",
+    "question": "What is container escape?",
     "options": [
-      "Code Deployment",
-      "Cannot be determined",
-      "Continuous Design",
-      "Continuous Delivery/Deployment"
+      "Attacker breaking out of container to access host system",
+      "Container optimization",
+      "Container monitoring",
+      "Container debugging"
     ],
     "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
+    "explanation": "The correct answer is Attacker breaking out of container to access host system."
   },
   {
-    "id": "devops_1684",
+    "id": "DEVOPS_SEC_035",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q684] Docker is used for",
+    "question": "What is seccomp in container security?",
     "options": [
-      "Virtualization",
-      "Containerization",
-      "Orchestration",
-      "The above is incorrect"
+      "Linux kernel feature filtering system calls containers can make",
+      "Security certificate",
+      "Secret compression",
+      "Secure compilation"
     ],
     "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
+    "explanation": "The correct answer is Linux kernel feature filtering system calls containers can make."
   },
   {
-    "id": "devops_1685",
+    "id": "DEVOPS_SEC_036",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q685] Kubernetes is used for",
+    "question": "What is AppArmor?",
     "options": [
-      "Neither A nor B",
-      "Containerization",
-      "Container orchestration",
-      "CI/CD"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1686",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q686] Jenkins is",
-    "options": [
-      "CI/CD automation server",
-      "Version control",
-      "Both A and B",
+      "Linux security module providing mandatory access control for processes",
+      "Application monitor",
+      "Network security",
       "Container tool"
     ],
     "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
+    "explanation": "The correct answer is Linux security module providing mandatory access control for processes."
   },
   {
-    "id": "devops_1687",
+    "id": "DEVOPS_SEC_037",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q687] Git is",
+    "question": "What is a security context in K8s?",
     "options": [
-      "None of the above",
-      "Container",
-      "CI tool",
-      "Distributed version control"
+      "Defines privilege and access control settings for a Pod/container",
+      "Auth context",
+      "Namespace context",
+      "Network context"
     ],
     "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
+    "explanation": "The correct answer is Defines privilege and access control settings for a Pod/container."
   },
   {
-    "id": "devops_1688",
+    "id": "DEVOPS_SEC_038",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q688] What is Infrastructure as Code?",
+    "question": "What is runAsNonRoot in K8s security?",
     "options": [
-      "Neither A nor B",
-      "Cloud only",
-      "Managing infra via code",
-      "Manual server config"
+      "Ensures container runs as non-root user (best practice)",
+      "Enables root access",
+      "Required for K8s",
+      "Monitoring setting"
     ],
     "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
+    "explanation": "The correct answer is Ensures container runs as non-root user (best practice)."
   },
   {
-    "id": "devops_1689",
+    "id": "DEVOPS_SEC_039",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q689] Terraform is used for",
+    "question": "What is allowPrivilegeEscalation: false?",
     "options": [
-      "IaC / cloud provisioning",
-      "Monitoring",
-      "Both A and B",
-      "Containerization"
+      "Prevents container process from gaining more privileges than parent",
+      "Enables privilege",
+      "Required setting",
+      "Optional security"
     ],
     "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
+    "explanation": "The correct answer is Prevents container process from gaining more privileges than parent."
   },
   {
-    "id": "devops_1690",
+    "id": "DEVOPS_SEC_040",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q690] Ansible is used for",
+    "question": "What is readOnlyRootFilesystem?",
     "options": [
-      "Container orchestration",
-      "Configuration management",
-      "CI/CD",
-      "Option not applicable"
+      "Makes container root filesystem read-only (limits attack surface)",
+      "Disables writing",
+      "Performance setting",
+      "Required by K8s"
     ],
     "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
+    "explanation": "The correct answer is Makes container root filesystem read-only (limits attack surface)."
   },
   {
-    "id": "devops_1691",
+    "id": "DEVOPS_SEC_041",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q691] What is a pipeline?",
+    "question": "What is image signing?",
     "options": [
-      "Manual process",
-      "Database",
-      "Insufficient information",
-      "Automated workflow stages"
+      "Cryptographically signing images to verify they haven't been tampered",
+      "Image compression",
+      "Image tagging",
+      "Image labeling"
     ],
     "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
+    "explanation": "The correct answer is Cryptographically signing images to verify they haven't been tampered."
   },
   {
-    "id": "devops_1692",
+    "id": "DEVOPS_SEC_042",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q692] Blue-Green deployment",
+    "question": "What is the principle of defense in depth?",
     "options": [
-      "None of the above",
-      "Zero-downtime deployment strategy",
-      "Rolling update",
-      "Canary release"
+      "Multiple security layers so compromising one doesn't expose everything",
+      "Single security layer",
+      "Perimeter security only",
+      "Encryption only"
     ],
     "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
+    "explanation": "The correct answer is Multiple security layers so compromising one doesn't expose everything."
   },
   {
-    "id": "devops_1693",
+    "id": "DEVOPS_SEC_043",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q693] Canary deployment",
+    "question": "What is a security audit log?",
     "options": [
-      "Insufficient information",
-      "Gradual rollout to subset",
-      "Full rollout",
-      "Blue-green"
+      "Immutable record of security-relevant events for investigation",
+      "Regular application log",
+      "Performance log",
+      "Error log"
     ],
     "answer": 0,
-    "explanation": "Canary releases to small user subset first."
+    "explanation": "The correct answer is Immutable record of security-relevant events for investigation."
   },
   {
-    "id": "devops_1694",
+    "id": "DEVOPS_SEC_044",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q694] What is monitoring in DevOps?",
+    "question": "What is SIEM (Security Information and Event Management)?",
     "options": [
-      "Tracking system health",
-      "Testing",
-      "Both B and C",
-      "Deployment"
+      "System collecting and analyzing security logs for threat detection",
+      "Log aggregation only",
+      "Monitoring only",
+      "Alerting only"
     ],
     "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
+    "explanation": "The correct answer is System collecting and analyzing security logs for threat detection."
   },
   {
-    "id": "devops_1695",
+    "id": "DEVOPS_SEC_045",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q695] Prometheus is",
+    "question": "What is SOC (Security Operations Center)?",
     "options": [
-      "Container",
-      "Metrics monitoring tool",
-      "Insufficient information",
-      "CI server"
+      "Team monitoring and responding to security incidents",
+      "DevOps team",
+      "SRE team",
+      "Platform team"
     ],
     "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
+    "explanation": "The correct answer is Team monitoring and responding to security incidents."
   },
   {
-    "id": "devops_1696",
+    "id": "DEVOPS_SEC_046",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q696] Grafana is used for",
+    "question": "What is data encryption at rest?",
     "options": [
-      "None of the above",
-      "IaC",
-      "CI/CD",
-      "Visualization dashboards"
+      "Encrypting stored data to protect against unauthorized access",
+      "In-transit encryption",
+      "Application encryption",
+      "Key encryption"
     ],
     "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
+    "explanation": "The correct answer is Encrypting stored data to protect against unauthorized access."
   },
   {
-    "id": "devops_1697",
+    "id": "DEVOPS_SEC_047",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q697] What is a microservice?",
+    "question": "What is data encryption in transit?",
     "options": [
-      "Small independent service",
-      "Monolithic app",
-      "Database",
-      "Insufficient information"
+      "Encrypting data as it moves across networks (TLS/HTTPS)",
+      "At-rest encryption",
+      "Database encryption",
+      "Key encryption"
     ],
     "answer": 0,
-    "explanation": "Microservices are independently deployable services."
+    "explanation": "The correct answer is Encrypting data as it moves across networks (TLS/HTTPS)."
   },
   {
-    "id": "devops_1698",
+    "id": "DEVOPS_SEC_048",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q698] Load balancer does",
+    "question": "What is key management?",
     "options": [
-      "Insufficient information",
-      "Distributes traffic",
-      "Monitors logs",
-      "Stores data"
+      "Securely generating, storing, rotating, and deleting cryptographic keys",
+      "Password management",
+      "Secret rotation",
+      "Certificate management"
     ],
     "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
+    "explanation": "The correct answer is Securely generating, storing, rotating, and deleting cryptographic keys."
   },
   {
-    "id": "devops_1699",
+    "id": "DEVOPS_SEC_049",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q699] What is auto-scaling?",
+    "question": "What is PKI (Public Key Infrastructure)?",
     "options": [
-      "Fixed resources",
-      "All of the above",
-      "Adjusting resources based on demand",
-      "Manual scaling"
+      "System managing digital certificates and public key encryption",
+      "Public Key Index",
+      "Private Key Infrastructure",
+      "Platform Key Integration"
     ],
     "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
+    "explanation": "The correct answer is System managing digital certificates and public key encryption."
   },
   {
-    "id": "devops_1700",
+    "id": "DEVOPS_SEC_050",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q700] ELK stack includes",
+    "question": "What is a digital certificate?",
     "options": [
-      "Both A and B",
-      "Elastic Linux Kubernetes",
-      "Elasticsearch Logstash Kibana",
-      "Express Logstash Kafka"
+      "Electronic document binding a public key to an entity's identity",
+      "Password",
+      "Token",
+      "API key"
     ],
     "answer": 0,
-    "explanation": "ELK is a popular log management stack."
+    "explanation": "The correct answer is Electronic document binding a public key to an entity's identity."
   },
   {
-    "id": "devops_1701",
+    "id": "DEVOPS_SEC_051",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q701] What is a container image?",
+    "question": "What is certificate rotation?",
     "options": [
-      "Read-only template for containers",
-      "Virtual machine",
-      "Running container",
-      "The above is incorrect"
+      "Replacing expiring certificates before they expire to prevent outages",
+      "Certificate creation",
+      "Certificate deletion",
+      "Certificate signing"
     ],
     "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
+    "explanation": "The correct answer is Replacing expiring certificates before they expire to prevent outages."
   },
   {
-    "id": "devops_1702",
+    "id": "DEVOPS_SEC_052",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q702] Dockerfile is",
+    "question": "What is Let's Encrypt?",
     "options": [
-      "Container runtime",
-      "Script to build Docker image",
-      "Both A and B",
-      "Kubernetes config"
+      "Free, automated certificate authority for TLS certificates",
+      "Paid certificate authority",
+      "Hardware security module",
+      "VPN provider"
     ],
     "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
+    "explanation": "The correct answer is Free, automated certificate authority for TLS certificates."
   },
   {
-    "id": "devops_1703",
+    "id": "DEVOPS_SEC_053",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q703] Kubernetes Pod is",
+    "question": "What is SSO (Single Sign-On)?",
     "options": [
-      "Service",
-      "Node",
-      "All of the above",
-      "Smallest deployable unit"
+      "One authentication granting access to multiple applications",
+      "Multiple logins",
+      "MFA alternative",
+      "Password manager"
     ],
     "answer": 0,
-    "explanation": "A Pod contains one or more containers."
+    "explanation": "The correct answer is One authentication granting access to multiple applications."
   },
   {
-    "id": "devops_1704",
+    "id": "DEVOPS_SEC_054",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q704] Helm in Kubernetes",
+    "question": "What is OAuth 2.0?",
     "options": [
-      "Package manager",
-      "Monitoring",
-      "Insufficient information",
+      "Authorization framework allowing limited third-party access to resources",
+      "Authentication protocol",
+      "Encryption standard",
+      "Certificate protocol"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Authorization framework allowing limited third-party access to resources."
+  },
+  {
+    "id": "DEVOPS_SEC_055",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is OIDC (OpenID Connect)?",
+    "options": [
+      "Identity layer on top of OAuth 2.0 for authentication",
+      "OAuth replacement",
+      "Encryption protocol",
+      "Certificate standard"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Identity layer on top of OAuth 2.0 for authentication."
+  },
+  {
+    "id": "DEVOPS_SEC_056",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a JWT (JSON Web Token)?",
+    "options": [
+      "Compact, self-contained token for securely transmitting information",
+      "API key",
+      "Session cookie",
+      "CSRF token"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Compact, self-contained token for securely transmitting information."
+  },
+  {
+    "id": "DEVOPS_SEC_057",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is JWT structure?",
+    "options": [
+      "Header.Payload.Signature — three base64url-encoded parts",
+      "Two parts",
+      "Four parts",
+      "Single encoded string"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Header.Payload.Signature — three base64url-encoded parts."
+  },
+  {
+    "id": "DEVOPS_SEC_058",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the problem with storing JWT in localStorage?",
+    "options": [
+      "Vulnerable to XSS — attacker can steal token with injected script",
+      "No problem",
+      "Faster than cookies",
+      "Required by standard"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Vulnerable to XSS — attacker can steal token with injected script."
+  },
+  {
+    "id": "DEVOPS_SEC_059",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SPIFFE/SPIRE?",
+    "options": [
+      "Standards for workload identity in cloud-native environments",
+      "Service mesh tool",
+      "API gateway",
       "Container runtime"
     ],
     "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
+    "explanation": "The correct answer is Standards for workload identity in cloud-native environments."
   },
   {
-    "id": "devops_1705",
+    "id": "DEVOPS_SEC_060",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q705] What is a deployment in k8s?",
+    "question": "What is network policy in K8s security?",
     "options": [
-      "Single container",
-      "Manages Pod replicas",
-      "Option not applicable",
-      "Storage unit"
+      "Controls ingress/egress traffic between pods using label selectors",
+      "Service type",
+      "Firewall",
+      "Ingress controller"
     ],
     "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
+    "explanation": "The correct answer is Controls ingress/egress traffic between pods using label selectors."
   },
   {
-    "id": "devops_1706",
+    "id": "DEVOPS_SEC_061",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q706] Rolling update strategy",
+    "question": "What is baseline vs restricted pod security standard?",
     "options": [
-      "Option not applicable",
-      "All at once",
-      "Blue-green",
-      "Updates pods gradually"
+      "Baseline: minimal restrictions; Restricted: follows current hardening best practices",
+      "Same standard",
+      "Baseline is stricter",
+      "Restricted is deprecated"
     ],
     "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
+    "explanation": "The correct answer is Baseline: minimal restrictions; Restricted: follows current hardening best practices."
   },
   {
-    "id": "devops_1707",
+    "id": "DEVOPS_SEC_062",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q707] What is a secret in k8s?",
+    "question": "What is SBOM security benefit?",
     "options": [
-      "All of the above",
-      "Log file",
-      "Stores sensitive data",
-      "Config map"
+      "Knowing exactly what's in software to quickly identify vulnerable components",
+      "Performance benefit",
+      "Cost benefit",
+      "Compliance benefit"
     ],
     "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
+    "explanation": "The correct answer is Knowing exactly what's in software to quickly identify vulnerable components."
   },
   {
-    "id": "devops_1708",
+    "id": "DEVOPS_SEC_063",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q708] ConfigMap in k8s",
+    "question": "What is code signing in CI/CD?",
     "options": [
-      "Stores secrets",
-      "Stores non-sensitive config",
-      "The above is incorrect",
-      "Manages pods"
+      "Attaching digital signature to code to verify authenticity and integrity",
+      "Code encryption",
+      "Code compression",
+      "Code formatting"
     ],
     "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
+    "explanation": "The correct answer is Attaching digital signature to code to verify authenticity and integrity."
   },
   {
-    "id": "devops_1709",
+    "id": "DEVOPS_SEC_064",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q709] YAML files in DevOps",
+    "question": "What is vulnerability disclosure?",
     "options": [
-      "Compiled files",
-      "Configuration/definition files",
-      "The above is incorrect",
-      "Binary configs"
+      "Process for reporting and communicating security vulnerabilities responsibly",
+      "Bug reporting",
+      "Feature request",
+      "Security audit"
     ],
     "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
+    "explanation": "The correct answer is Process for reporting and communicating security vulnerabilities responsibly."
   },
   {
-    "id": "devops_1710",
+    "id": "DEVOPS_SEC_065",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q710] What is GitOps?",
+    "question": "What is the security principle of fail securely?",
     "options": [
-      "Option not applicable",
-      "Git hosting",
-      "Git as source of truth for infra",
-      "CI tool"
+      "On failure, default to secure state (deny access) rather than open",
+      "Fail open",
+      "Fail fast",
+      "Fail gracefully"
     ],
     "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
+    "explanation": "The correct answer is On failure, default to secure state (deny access) rather than open."
   },
   {
-    "id": "devops_1711",
+    "id": "DEVOPS_SEC_066",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q711] What is a service mesh?",
+    "question": "What is security scanning in container registries?",
     "options": [
+      "Automatic scanning of images on push for known vulnerabilities",
+      "Performance scanning",
+      "Size scanning",
+      "License scanning"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automatic scanning of images on push for known vulnerabilities."
+  },
+  {
+    "id": "DEVOPS_SEC_067",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is runtime security?",
+    "options": [
+      "Detecting and preventing threats in running containers and workloads",
+      "Build-time security",
+      "Registry security",
+      "Network security"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Detecting and preventing threats in running containers and workloads."
+  },
+  {
+    "id": "DEVOPS_SEC_068",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Falco?",
+    "options": [
+      "Cloud-native runtime security tool detecting threats in containers/K8s",
+      "Container registry",
+      "Monitoring tool",
+      "Service mesh"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cloud-native runtime security tool detecting threats in containers/K8s."
+  },
+  {
+    "id": "DEVOPS_SEC_069",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Trivy?",
+    "options": [
+      "Vulnerability scanner for containers, filesystems, and repositories",
+      "Performance tool",
+      "Monitoring tool",
+      "CI/CD tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Vulnerability scanner for containers, filesystems, and repositories."
+  },
+  {
+    "id": "DEVOPS_SEC_070",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is OIDC federation in CI/CD?",
+    "options": [
+      "Allowing CI/CD to authenticate to cloud using OIDC tokens (no long-lived secrets)",
+      "Password-based auth",
+      "Certificate-based auth",
+      "API key auth"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Allowing CI/CD to authenticate to cloud using OIDC tokens (no long-lived secrets)."
+  },
+  {
+    "id": "DEVOPS_SEC_071",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the AWS IRSA (IAM Roles for Service Accounts)?",
+    "options": [
+      "K8s service accounts assuming AWS IAM roles via OIDC federation",
+      "Direct IAM access",
+      "Instance profiles",
+      "API keys"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is K8s service accounts assuming AWS IAM roles via OIDC federation."
+  },
+  {
+    "id": "DEVOPS_SEC_072",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Workload Identity in GCP?",
+    "options": [
+      "Kubernetes service accounts mapped to GCP IAM for secure cloud access",
+      "VM identity",
+      "User identity",
+      "Service account"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Kubernetes service accounts mapped to GCP IAM for secure cloud access."
+  },
+  {
+    "id": "DEVOPS_SEC_073",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is security posture management?",
+    "options": [
+      "Continuously assessing and improving security configuration",
+      "Single security check",
+      "Annual audit",
+      "Compliance only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Continuously assessing and improving security configuration."
+  },
+  {
+    "id": "DEVOPS_SEC_074",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is CSPM (Cloud Security Posture Management)?",
+    "options": [
+      "Identifying misconfiguration risks in cloud environments",
+      "Container security",
+      "Network security",
+      "Application security"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Identifying misconfiguration risks in cloud environments."
+  },
+  {
+    "id": "DEVOPS_SEC_075",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is privilege escalation prevention?",
+    "options": [
+      "Blocking containers from gaining more privileges than at start",
+      "Enabling privileges",
+      "Monitoring privileges",
+      "Logging privileges"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Blocking containers from gaining more privileges than at start."
+  },
+  {
+    "id": "DEVOPS_SEC_076",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is image tag immutability?",
+    "options": [
+      "Preventing tags from being overwritten to ensure deployment integrity",
+      "Tag creation",
+      "Tag deletion",
+      "Tag rotation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Preventing tags from being overwritten to ensure deployment integrity."
+  },
+  {
+    "id": "DEVOPS_SEC_077",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is admission control?",
+    "options": [
+      "Intercepting K8s API requests to validate/mutate resources for security",
       "API gateway",
-      "Infrastructure layer for service comm",
-      "None of the above",
+      "Service mesh",
+      "Network policy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Intercepting K8s API requests to validate/mutate resources for security."
+  },
+  {
+    "id": "DEVOPS_SEC_078",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is OPA (Open Policy Agent)?",
+    "options": [
+      "General-purpose policy engine for cloud-native authorization",
+      "Open Platform Agent",
+      "Optional Policy Admin",
+      "Operator Policy Agent"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is General-purpose policy engine for cloud-native authorization."
+  },
+  {
+    "id": "DEVOPS_SEC_079",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a security baseline?",
+    "options": [
+      "Minimum security requirements that all systems must meet",
+      "Maximum security",
+      "Optional security",
+      "Recommended security"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Minimum security requirements that all systems must meet."
+  },
+  {
+    "id": "DEVOPS_SEC_080",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is threat modeling?",
+    "options": [
+      "Identifying potential threats and vulnerabilities in system design phase",
+      "Penetration testing",
+      "Security audit",
+      "Code review"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Identifying potential threats and vulnerabilities in system design phase."
+  },
+  {
+    "id": "DEVOPS_SEC_081",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the STRIDE framework?",
+    "options": [
+      "Spoofing, Tampering, Repudiation, Info Disclosure, DoS, Elevation of Privilege",
+      "Security testing",
+      "Compliance framework",
+      "Monitoring framework"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Spoofing, Tampering, Repudiation, Info Disclosure, DoS, Elevation of Privilege."
+  },
+  {
+    "id": "DEVOPS_SEC_082",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is compliance as code?",
+    "options": [
+      "Defining compliance requirements as automated policy checks in pipeline",
+      "Manual compliance",
+      "Annual audit",
+      "Security team only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defining compliance requirements as automated policy checks in pipeline."
+  },
+  {
+    "id": "DEVOPS_SEC_083",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is CIS Benchmarks?",
+    "options": [
+      "Security configuration guidelines for hardening systems and cloud services",
+      "Common Intrusion Standards",
+      "Certified Information Security",
+      "Compliance Is Security"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Security configuration guidelines for hardening systems and cloud services."
+  },
+  {
+    "id": "DEVOPS_SEC_084",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SOC 2 compliance?",
+    "options": [
+      "Trust services criteria for security, availability, confidentiality of cloud services",
+      "Security Operations Center 2",
+      "Standard of Compliance 2",
+      "System Operations Control 2"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Trust services criteria for security, availability, confidentiality of cloud services."
+  },
+  {
+    "id": "DEVOPS_SEC_085",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is GDPR impact on DevOps?",
+    "options": [
+      "Data privacy requirements affecting how personal data is stored/processed in pipelines",
+      "No impact",
+      "Only legal impact",
+      "Only frontend impact"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Data privacy requirements affecting how personal data is stored/processed in pipelines."
+  },
+  {
+    "id": "DEVOPS_SEC_086",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the role of security champions?",
+    "options": [
+      "Developers embedded in teams who advocate for security practices",
+      "Security team only",
+      "External consultants",
+      "Auditors"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Developers embedded in teams who advocate for security practices."
+  },
+  {
+    "id": "DEVOPS_SEC_087",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is red team vs blue team?",
+    "options": [
+      "Red team attacks; blue team defends to test security posture",
+      "Both attack",
+      "Both defend",
+      "No difference"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Red team attacks; blue team defends to test security posture."
+  },
+  {
+    "id": "DEVOPS_SEC_088",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a purple team exercise?",
+    "options": [
+      "Red and blue teams collaborate to improve both attack and defense",
+      "Red team only",
+      "Blue team only",
+      "Security audit"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Red and blue teams collaborate to improve both attack and defense."
+  },
+  {
+    "id": "DEVOPS_SEC_089",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is CVE scanning frequency best practice?",
+    "options": [
+      "Continuous scanning — on push, schedule, and triggered by new CVE releases",
+      "Weekly only",
+      "Monthly only",
+      "Annually"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Continuous scanning — on push, schedule, and triggered by new CVE releases."
+  },
+  {
+    "id": "DEVOPS_SEC_090",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is credential scanning?",
+    "options": [
+      "Detecting secrets accidentally committed to source code repositories",
+      "Performance scanning",
+      "License scanning",
+      "Code quality scanning"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Detecting secrets accidentally committed to source code repositories."
+  },
+  {
+    "id": "DEVOPS_SEC_091",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is GitGuardian?",
+    "options": [
+      "Tool for detecting secrets and credentials exposed in Git repositories",
+      "CI/CD tool",
+      "Container scanner",
+      "K8s tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tool for detecting secrets and credentials exposed in Git repositories."
+  },
+  {
+    "id": "DEVOPS_SEC_092",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is gitleaks?",
+    "options": [
+      "Open-source tool for detecting hardcoded secrets in Git repositories",
+      "Git log analyzer",
+      "Performance tool",
+      "License checker"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Open-source tool for detecting hardcoded secrets in Git repositories."
+  },
+  {
+    "id": "DEVOPS_CLO_001",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is cloud computing?",
+    "options": [
+      "Delivering IT resources (compute, storage, networking) over the internet on demand",
+      "On-premise data center",
+      "Local server farm",
+      "Physical hardware"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Delivering IT resources (compute, storage, networking) over the internet on demand."
+  },
+  {
+    "id": "DEVOPS_CLO_002",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What are the three cloud service models?",
+    "options": [
+      "IaaS, PaaS, SaaS",
+      "Hardware, Software, Network",
+      "Public, Private, Hybrid",
+      "Compute, Storage, Database"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is IaaS, PaaS, SaaS."
+  },
+  {
+    "id": "DEVOPS_CLO_003",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is IaaS?",
+    "options": [
+      "Infrastructure as a Service — virtual machines, storage, networking",
+      "Platform services",
+      "Software services",
+      "Function services"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Infrastructure as a Service — virtual machines, storage, networking."
+  },
+  {
+    "id": "DEVOPS_CLO_004",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is PaaS?",
+    "options": [
+      "Platform as a Service — managed runtime for deploying applications",
+      "Infrastructure services",
+      "Software services",
+      "Database only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Platform as a Service — managed runtime for deploying applications."
+  },
+  {
+    "id": "DEVOPS_CLO_005",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is SaaS?",
+    "options": [
+      "Software as a Service — fully managed application (Gmail, Salesforce)",
+      "Infrastructure services",
+      "Platform services",
+      "Container services"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Software as a Service — fully managed application (Gmail, Salesforce)."
+  },
+  {
+    "id": "DEVOPS_CLO_006",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is FaaS?",
+    "options": [
+      "Function as a Service — serverless function execution (Lambda, Cloud Functions)",
+      "File as a Service",
+      "Feature as a Service",
+      "Frontend as a Service"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Function as a Service — serverless function execution (Lambda, Cloud Functions)."
+  },
+  {
+    "id": "DEVOPS_CLO_007",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is serverless computing?",
+    "options": [
+      "Cloud executes code without managing server infrastructure",
+      "Managed VMs",
+      "Bare metal",
+      "Containers only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cloud executes code without managing server infrastructure."
+  },
+  {
+    "id": "DEVOPS_CLO_008",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is AWS?",
+    "options": [
+      "Amazon's cloud platform — largest cloud provider",
+      "Microsoft's cloud",
+      "Google's cloud",
+      "IBM's cloud"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Amazon's cloud platform — largest cloud provider."
+  },
+  {
+    "id": "DEVOPS_CLO_009",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is Azure?",
+    "options": [
+      "Microsoft's cloud platform",
+      "Amazon's cloud",
+      "Google's cloud",
+      "Oracle's cloud"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Microsoft's cloud platform."
+  },
+  {
+    "id": "DEVOPS_CLO_010",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is GCP (Google Cloud Platform)?",
+    "options": [
+      "Google's cloud infrastructure and services platform",
+      "Amazon's cloud",
+      "Microsoft's cloud",
+      "Alibaba's cloud"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Google's cloud infrastructure and services platform."
+  },
+  {
+    "id": "DEVOPS_CLO_011",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is AWS EC2?",
+    "options": [
+      "Elastic Compute Cloud — virtual servers in AWS",
+      "Storage service",
+      "Database service",
+      "Network service"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Elastic Compute Cloud — virtual servers in AWS."
+  },
+  {
+    "id": "DEVOPS_CLO_012",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is AWS S3?",
+    "options": [
+      "Simple Storage Service — object storage in AWS",
+      "Compute service",
+      "Database service",
+      "Network service"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Simple Storage Service — object storage in AWS."
+  },
+  {
+    "id": "DEVOPS_CLO_013",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is AWS Lambda?",
+    "options": [
+      "Serverless function service running code without managing servers",
+      "Container service",
+      "VM service",
+      "Database service"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Serverless function service running code without managing servers."
+  },
+  {
+    "id": "DEVOPS_CLO_014",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is AWS RDS?",
+    "options": [
+      "Relational Database Service — managed relational databases",
+      "Object storage",
+      "VM service",
+      "Cache service"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Relational Database Service — managed relational databases."
+  },
+  {
+    "id": "DEVOPS_CLO_015",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is AWS VPC?",
+    "options": [
+      "Virtual Private Cloud — isolated network environment in AWS",
+      "Virtual machine",
+      "Storage cluster",
+      "Container network"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Virtual Private Cloud — isolated network environment in AWS."
+  },
+  {
+    "id": "DEVOPS_CLO_016",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a cloud region?",
+    "options": [
+      "Geographic area containing multiple availability zones",
+      "Single data center",
+      "Network zone",
+      "Service area"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Geographic area containing multiple availability zones."
+  },
+  {
+    "id": "DEVOPS_CLO_017",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is an availability zone?",
+    "options": [
+      "Isolated data centers within a region for fault tolerance",
+      "Full region",
+      "Network segment",
+      "Server rack"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Isolated data centers within a region for fault tolerance."
+  },
+  {
+    "id": "DEVOPS_CLO_018",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is multi-region deployment?",
+    "options": [
+      "Running applications across multiple geographic regions for resilience",
+      "Single AZ deployment",
+      "Multi-zone deployment",
+      "Multi-cloud"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Running applications across multiple geographic regions for resilience."
+  },
+  {
+    "id": "DEVOPS_CLO_019",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is cloud elasticity?",
+    "options": [
+      "Automatically scaling resources up/down based on demand",
+      "Fixed capacity",
+      "Manual scaling",
+      "Infinite capacity"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automatically scaling resources up/down based on demand."
+  },
+  {
+    "id": "DEVOPS_CLO_020",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is auto-scaling in cloud?",
+    "options": [
+      "Automatically adjusting number of compute resources based on load",
+      "Manual scaling",
+      "Fixed scaling",
+      "Scheduled scaling only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automatically adjusting number of compute resources based on load."
+  },
+  {
+    "id": "DEVOPS_CLO_021",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a load balancer?",
+    "options": [
+      "Distributes incoming traffic across multiple servers/instances",
+      "Single server proxy",
+      "Database proxy",
+      "CDN"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Distributes incoming traffic across multiple servers/instances."
+  },
+  {
+    "id": "DEVOPS_CLO_022",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is AWS ELB?",
+    "options": [
+      "Elastic Load Balancer — distributes traffic across EC2 instances",
+      "Elastic Block storage",
+      "Event Log Broker",
+      "External Link Balancer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Elastic Load Balancer — distributes traffic across EC2 instances."
+  },
+  {
+    "id": "DEVOPS_CLO_023",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between ALB and NLB in AWS?",
+    "options": [
+      "ALB works at HTTP layer (L7); NLB works at TCP layer (L4)",
+      "No difference",
+      "ALB is for TCP",
+      "NLB is for HTTP"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is ALB works at HTTP layer (L7); NLB works at TCP layer (L4)."
+  },
+  {
+    "id": "DEVOPS_CLO_024",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is AWS CloudFront?",
+    "options": [
+      "Content Delivery Network (CDN) for distributing content globally",
+      "Cloud database",
+      "Cloud function",
+      "Cloud storage"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Content Delivery Network (CDN) for distributing content globally."
+  },
+  {
+    "id": "DEVOPS_CLO_025",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a CDN?",
+    "options": [
+      "Network of distributed servers delivering content from nearest location",
+      "Cloud database",
+      "Load balancer",
+      "API gateway"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Network of distributed servers delivering content from nearest location."
+  },
+  {
+    "id": "DEVOPS_CLO_026",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is AWS IAM?",
+    "options": [
+      "Identity and Access Management — controls access to AWS resources",
+      "Instance Access Management",
+      "Infrastructure API Manager",
+      "Image Asset Manager"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Identity and Access Management — controls access to AWS resources."
+  },
+  {
+    "id": "DEVOPS_CLO_027",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is an IAM role vs IAM user?",
+    "options": [
+      "Role is temporary credentials for services; user is permanent human identity",
+      "Same thing",
+      "Role is permanent",
+      "User is temporary"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Role is temporary credentials for services; user is permanent human identity."
+  },
+  {
+    "id": "DEVOPS_CLO_028",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is an IAM policy?",
+    "options": [
+      "Document defining allowed/denied actions on AWS resources",
+      "Configuration file",
+      "Network rule",
+      "Security certificate"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Document defining allowed/denied actions on AWS resources."
+  },
+  {
+    "id": "DEVOPS_CLO_029",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is AWS CloudWatch?",
+    "options": [
+      "Monitoring and logging service for AWS resources",
+      "Database service",
+      "Container service",
+      "Network service"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Monitoring and logging service for AWS resources."
+  },
+  {
+    "id": "DEVOPS_CLO_030",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is AWS ECS?",
+    "options": [
+      "Elastic Container Service — managed Docker container orchestration",
+      "Kubernetes-only service",
+      "VM service",
+      "Serverless service"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Elastic Container Service — managed Docker container orchestration."
+  },
+  {
+    "id": "DEVOPS_CLO_031",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is AWS EKS?",
+    "options": [
+      "Elastic Kubernetes Service — managed Kubernetes on AWS",
+      "Container registry",
+      "EC2 variant",
+      "Serverless service"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Elastic Kubernetes Service — managed Kubernetes on AWS."
+  },
+  {
+    "id": "DEVOPS_CLO_032",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is AWS Fargate?",
+    "options": [
+      "Serverless compute engine for containers (ECS/EKS without managing nodes)",
+      "VM service",
+      "Container registry",
       "Load balancer"
     ],
     "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
+    "explanation": "The correct answer is Serverless compute engine for containers (ECS/EKS without managing nodes)."
   },
   {
-    "id": "devops_1712",
+    "id": "DEVOPS_CLO_033",
     "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
+    "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q712] Shift left testing means",
+    "question": "What is AWS ECR?",
     "options": [
-      "All of the above",
-      "Manual testing",
-      "Testing at end",
-      "Testing earlier in SDLC"
-    ],
-    "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
-  },
-  {
-    "id": "devops_1713",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q713] What is mean time to recovery (MTTR)?",
-    "options": [
-      "Build time",
-      "Average time to restore service",
-      "Data not provided",
-      "Deploy time"
-    ],
-    "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
-  },
-  {
-    "id": "devops_1714",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q714] SRE stands for",
-    "options": [
-      "Software Release Engineering",
-      "Site Reliability Engineering",
-      "System Resource Engineering",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
-  },
-  {
-    "id": "devops_1715",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q715] What is chaos engineering?",
-    "options": [
-      "Cannot be determined",
-      "Normal testing",
-      "Load testing",
-      "Intentional failure testing"
-    ],
-    "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
-  },
-  {
-    "id": "devops_1716",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q716] Artifact repository stores",
-    "options": [
-      "Logs",
-      "Built software artifacts",
-      "The argument is invalid",
-      "Source code"
-    ],
-    "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
-  },
-  {
-    "id": "devops_1717",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q717] What is feature flag?",
-    "options": [
-      "Toggle features without deploy",
-      "Git branch",
-      "All of the above",
-      "Test case"
-    ],
-    "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
-  },
-  {
-    "id": "devops_1718",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q718] What is observability?",
-    "options": [
-      "Only logs",
-      "Only metrics",
-      "Neither A nor B",
-      "Logs metrics traces"
-    ],
-    "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
-  },
-  {
-    "id": "devops_1719",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q719] What is a rollback?",
-    "options": [
-      "Forward deploy",
-      "Cannot be determined",
-      "Reverting to previous version",
-      "New release"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1720",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q720] DevSecOps means",
-    "options": [
-      "Security integrated into DevOps",
-      "Security team separate",
-      "Dev without security",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
-  },
-  {
-    "id": "devops_1721",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q721] DevOps combines",
-    "options": [
-      "Development and Operations",
-      "All of the above",
-      "Design and Ops",
-      "Dev and QA"
-    ],
-    "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
-  },
-  {
-    "id": "devops_1722",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q722] CI stands for",
-    "options": [
-      "Code Integration",
-      "Continuous Inspection",
-      "Both B and C",
-      "Continuous Integration"
-    ],
-    "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
-  },
-  {
-    "id": "devops_1723",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q723] CD stands for",
-    "options": [
-      "Continuous Design",
-      "Continuous Delivery/Deployment",
-      "Code Deployment",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1724",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q724] Docker is used for",
-    "options": [
-      "None of the above",
-      "Containerization",
-      "Orchestration",
-      "Virtualization"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1725",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q725] Kubernetes is used for",
-    "options": [
-      "CI/CD",
-      "All of the above",
-      "Container orchestration",
-      "Containerization"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1726",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q726] Jenkins is",
-    "options": [
-      "Cannot be determined",
-      "Version control",
-      "CI/CD automation server",
-      "Container tool"
-    ],
-    "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
-  },
-  {
-    "id": "devops_1727",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q727] Git is",
-    "options": [
-      "CI tool",
-      "Data not provided",
-      "Distributed version control",
-      "Container"
-    ],
-    "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
-  },
-  {
-    "id": "devops_1728",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q728] What is Infrastructure as Code?",
-    "options": [
-      "Managing infra via code",
-      "Cloud only",
-      "Data not provided",
-      "Manual server config"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1729",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q729] Terraform is used for",
-    "options": [
-      "None of the above",
-      "Monitoring",
-      "Containerization",
-      "IaC / cloud provisioning"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1730",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q730] Ansible is used for",
-    "options": [
-      "Option not applicable",
-      "Container orchestration",
-      "CI/CD",
-      "Configuration management"
-    ],
-    "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
-  },
-  {
-    "id": "devops_1731",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q731] What is a pipeline?",
-    "options": [
-      "Database",
-      "Automated workflow stages",
-      "Manual process",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
-  },
-  {
-    "id": "devops_1732",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q732] Blue-Green deployment",
-    "options": [
-      "Zero-downtime deployment strategy",
-      "Canary release",
-      "All of the above",
-      "Rolling update"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1733",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q733] Canary deployment",
-    "options": [
-      "Full rollout",
-      "Both A and B",
-      "Gradual rollout to subset",
-      "Blue-green"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1734",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q734] What is monitoring in DevOps?",
-    "options": [
-      "All of the above",
-      "Testing",
-      "Deployment",
-      "Tracking system health"
-    ],
-    "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
-  },
-  {
-    "id": "devops_1735",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q735] Prometheus is",
-    "options": [
-      "Metrics monitoring tool",
-      "Neither A nor B",
-      "CI server",
-      "Container"
-    ],
-    "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
-  },
-  {
-    "id": "devops_1736",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q736] Grafana is used for",
-    "options": [
-      "CI/CD",
-      "The above is incorrect",
-      "Visualization dashboards",
-      "IaC"
-    ],
-    "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
-  },
-  {
-    "id": "devops_1737",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q737] What is a microservice?",
-    "options": [
-      "Monolithic app",
-      "Small independent service",
-      "Database",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Microservices are independently deployable services."
-  },
-  {
-    "id": "devops_1738",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q738] Load balancer does",
-    "options": [
-      "Stores data",
-      "None of the above",
-      "Monitors logs",
-      "Distributes traffic"
-    ],
-    "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
-  },
-  {
-    "id": "devops_1739",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q739] What is auto-scaling?",
-    "options": [
-      "Fixed resources",
-      "Option not applicable",
-      "Adjusting resources based on demand",
-      "Manual scaling"
-    ],
-    "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
-  },
-  {
-    "id": "devops_1740",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q740] ELK stack includes",
-    "options": [
-      "Elasticsearch Logstash Kibana",
-      "All of the above",
-      "Elastic Linux Kubernetes",
-      "Express Logstash Kafka"
-    ],
-    "answer": 0,
-    "explanation": "ELK is a popular log management stack."
-  },
-  {
-    "id": "devops_1741",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q741] What is a container image?",
-    "options": [
-      "Running container",
-      "Read-only template for containers",
-      "Virtual machine",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
-  },
-  {
-    "id": "devops_1742",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q742] Dockerfile is",
-    "options": [
-      "Script to build Docker image",
+      "Elastic Container Registry — private Docker image registry in AWS",
       "Container runtime",
-      "Option not applicable",
-      "Kubernetes config"
-    ],
-    "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
-  },
-  {
-    "id": "devops_1743",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q743] Kubernetes Pod is",
-    "options": [
-      "Both B and C",
-      "Smallest deployable unit",
-      "Node",
-      "Service"
-    ],
-    "answer": 0,
-    "explanation": "A Pod contains one or more containers."
-  },
-  {
-    "id": "devops_1744",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q744] Helm in Kubernetes",
-    "options": [
-      "Container runtime",
-      "Package manager",
-      "Monitoring",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
-  },
-  {
-    "id": "devops_1745",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q745] What is a deployment in k8s?",
-    "options": [
-      "Manages Pod replicas",
-      "Storage unit",
-      "Data not provided",
-      "Single container"
-    ],
-    "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
-  },
-  {
-    "id": "devops_1746",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q746] Rolling update strategy",
-    "options": [
-      "Blue-green",
-      "Updates pods gradually",
-      "All at once",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
-  },
-  {
-    "id": "devops_1747",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q747] What is a secret in k8s?",
-    "options": [
-      "Log file",
-      "Stores sensitive data",
-      "None of the above",
-      "Config map"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1748",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q748] ConfigMap in k8s",
-    "options": [
-      "Stores non-sensitive config",
-      "Stores secrets",
-      "Insufficient information",
-      "Manages pods"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1749",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q749] YAML files in DevOps",
-    "options": [
-      "Compiled files",
-      "Binary configs",
-      "Configuration/definition files",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1750",
-    "topic": "DevOps Engineer",
-    "section": "IaC & Linux",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q750] What is GitOps?",
-    "options": [
-      "Git hosting",
-      "Git as source of truth for infra",
-      "Insufficient information",
-      "CI tool"
-    ],
-    "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
-  },
-  {
-    "id": "devops_1751",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q751] What is a service mesh?",
-    "options": [
-      "Infrastructure layer for service comm",
-      "Load balancer",
-      "Neither A nor B",
-      "API gateway"
-    ],
-    "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
-  },
-  {
-    "id": "devops_1752",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q752] Shift left testing means",
-    "options": [
-      "Testing earlier in SDLC",
-      "Both A and C",
-      "Manual testing",
-      "Testing at end"
-    ],
-    "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
-  },
-  {
-    "id": "devops_1753",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q753] What is mean time to recovery (MTTR)?",
-    "options": [
-      "Build time",
-      "Average time to restore service",
-      "Both A and B",
-      "Deploy time"
-    ],
-    "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
-  },
-  {
-    "id": "devops_1754",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q754] SRE stands for",
-    "options": [
-      "System Resource Engineering",
-      "Both A and B",
-      "Site Reliability Engineering",
-      "Software Release Engineering"
-    ],
-    "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
-  },
-  {
-    "id": "devops_1755",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q755] What is chaos engineering?",
-    "options": [
-      "Normal testing",
-      "Intentional failure testing",
-      "Option not applicable",
-      "Load testing"
-    ],
-    "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
-  },
-  {
-    "id": "devops_1756",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q756] Artifact repository stores",
-    "options": [
-      "The argument is invalid",
-      "Logs",
-      "Source code",
-      "Built software artifacts"
-    ],
-    "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
-  },
-  {
-    "id": "devops_1757",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q757] What is feature flag?",
-    "options": [
-      "The above is incorrect",
-      "Toggle features without deploy",
-      "Test case",
-      "Git branch"
-    ],
-    "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
-  },
-  {
-    "id": "devops_1758",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q758] What is observability?",
-    "options": [
-      "Only logs",
-      "None of the above",
-      "Only metrics",
-      "Logs metrics traces"
-    ],
-    "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
-  },
-  {
-    "id": "devops_1759",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q759] What is a rollback?",
-    "options": [
-      "Reverting to previous version",
-      "Forward deploy",
-      "Both B and C",
-      "New release"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1760",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q760] DevSecOps means",
-    "options": [
-      "Security integrated into DevOps",
-      "Security team separate",
-      "Dev without security",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
-  },
-  {
-    "id": "devops_1761",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q761] DevOps combines",
-    "options": [
-      "Design and Ops",
-      "Both A and B",
-      "Dev and QA",
-      "Development and Operations"
-    ],
-    "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
-  },
-  {
-    "id": "devops_1762",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q762] CI stands for",
-    "options": [
-      "Code Integration",
-      "The above is incorrect",
-      "Continuous Integration",
-      "Continuous Inspection"
-    ],
-    "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
-  },
-  {
-    "id": "devops_1763",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q763] CD stands for",
-    "options": [
-      "None of the above",
-      "Continuous Delivery/Deployment",
-      "Continuous Design",
-      "Code Deployment"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1764",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q764] Docker is used for",
-    "options": [
-      "Containerization",
-      "Virtualization",
-      "Both A and B",
-      "Orchestration"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1765",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q765] Kubernetes is used for",
-    "options": [
       "Container orchestration",
-      "Neither A nor B",
-      "CI/CD",
-      "Containerization"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1766",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q766] Jenkins is",
-    "options": [
-      "CI/CD automation server",
-      "Insufficient information",
-      "Container tool",
-      "Version control"
-    ],
-    "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
-  },
-  {
-    "id": "devops_1767",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q767] Git is",
-    "options": [
-      "Distributed version control",
-      "CI tool",
-      "The above is incorrect",
-      "Container"
-    ],
-    "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
-  },
-  {
-    "id": "devops_1768",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q768] What is Infrastructure as Code?",
-    "options": [
-      "All of the above",
-      "Managing infra via code",
-      "Cloud only",
-      "Manual server config"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1769",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q769] Terraform is used for",
-    "options": [
-      "The above is incorrect",
-      "Monitoring",
-      "Containerization",
-      "IaC / cloud provisioning"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1770",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q770] Ansible is used for",
-    "options": [
-      "CI/CD",
-      "Configuration management",
-      "Container orchestration",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
-  },
-  {
-    "id": "devops_1771",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q771] What is a pipeline?",
-    "options": [
-      "Both A and B",
-      "Database",
-      "Automated workflow stages",
-      "Manual process"
-    ],
-    "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
-  },
-  {
-    "id": "devops_1772",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q772] Blue-Green deployment",
-    "options": [
-      "Rolling update",
-      "Zero-downtime deployment strategy",
-      "The above is incorrect",
-      "Canary release"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1773",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q773] Canary deployment",
-    "options": [
-      "Blue-green",
-      "Full rollout",
-      "Gradual rollout to subset",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1774",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q774] What is monitoring in DevOps?",
-    "options": [
-      "Tracking system health",
-      "All of the above",
-      "Testing",
-      "Deployment"
-    ],
-    "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
-  },
-  {
-    "id": "devops_1775",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q775] Prometheus is",
-    "options": [
-      "None of the above",
-      "Container",
-      "CI server",
-      "Metrics monitoring tool"
-    ],
-    "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
-  },
-  {
-    "id": "devops_1776",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q776] Grafana is used for",
-    "options": [
-      "Insufficient information",
-      "Visualization dashboards",
-      "CI/CD",
-      "IaC"
-    ],
-    "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
-  },
-  {
-    "id": "devops_1777",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q777] What is a microservice?",
-    "options": [
-      "Small independent service",
-      "Both A and B",
-      "Database",
-      "Monolithic app"
-    ],
-    "answer": 0,
-    "explanation": "Microservices are independently deployable services."
-  },
-  {
-    "id": "devops_1778",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q778] Load balancer does",
-    "options": [
-      "Monitors logs",
-      "Distributes traffic",
-      "Stores data",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
-  },
-  {
-    "id": "devops_1779",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q779] What is auto-scaling?",
-    "options": [
-      "Data not provided",
-      "Adjusting resources based on demand",
-      "Manual scaling",
-      "Fixed resources"
-    ],
-    "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
-  },
-  {
-    "id": "devops_1780",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q780] ELK stack includes",
-    "options": [
-      "Elastic Linux Kubernetes",
-      "Elasticsearch Logstash Kibana",
-      "All of the above",
-      "Express Logstash Kafka"
-    ],
-    "answer": 0,
-    "explanation": "ELK is a popular log management stack."
-  },
-  {
-    "id": "devops_1781",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q781] What is a container image?",
-    "options": [
-      "Read-only template for containers",
-      "Running container",
-      "Insufficient information",
-      "Virtual machine"
-    ],
-    "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
-  },
-  {
-    "id": "devops_1782",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q782] Dockerfile is",
-    "options": [
-      "Container runtime",
-      "The above is incorrect",
-      "Kubernetes config",
-      "Script to build Docker image"
-    ],
-    "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
-  },
-  {
-    "id": "devops_1783",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q783] Kubernetes Pod is",
-    "options": [
-      "Node",
-      "Neither A nor B",
-      "Smallest deployable unit",
-      "Service"
-    ],
-    "answer": 0,
-    "explanation": "A Pod contains one or more containers."
-  },
-  {
-    "id": "devops_1784",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q784] Helm in Kubernetes",
-    "options": [
-      "Container runtime",
-      "Package manager",
-      "Monitoring",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
-  },
-  {
-    "id": "devops_1785",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q785] What is a deployment in k8s?",
-    "options": [
-      "Manages Pod replicas",
-      "Storage unit",
-      "Neither A nor B",
-      "Single container"
-    ],
-    "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
-  },
-  {
-    "id": "devops_1786",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q786] Rolling update strategy",
-    "options": [
-      "All at once",
-      "Updates pods gradually",
-      "Blue-green",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
-  },
-  {
-    "id": "devops_1787",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q787] What is a secret in k8s?",
-    "options": [
-      "Config map",
-      "Stores sensitive data",
-      "Insufficient information",
-      "Log file"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1788",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q788] ConfigMap in k8s",
-    "options": [
-      "Stores non-sensitive config",
-      "Manages pods",
-      "Stores secrets",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1789",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q789] YAML files in DevOps",
-    "options": [
-      "Binary configs",
-      "Compiled files",
-      "Configuration/definition files",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1790",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q790] What is GitOps?",
-    "options": [
-      "CI tool",
-      "Neither A nor B",
-      "Git hosting",
-      "Git as source of truth for infra"
-    ],
-    "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
-  },
-  {
-    "id": "devops_1791",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q791] What is a service mesh?",
-    "options": [
-      "Both B and C",
-      "Infrastructure layer for service comm",
-      "Load balancer",
-      "API gateway"
-    ],
-    "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
-  },
-  {
-    "id": "devops_1792",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q792] Shift left testing means",
-    "options": [
-      "Manual testing",
-      "Cannot be determined",
-      "Testing at end",
-      "Testing earlier in SDLC"
-    ],
-    "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
-  },
-  {
-    "id": "devops_1793",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q793] What is mean time to recovery (MTTR)?",
-    "options": [
-      "Build time",
-      "Average time to restore service",
-      "Deploy time",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
-  },
-  {
-    "id": "devops_1794",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q794] SRE stands for",
-    "options": [
-      "Option not applicable",
-      "Software Release Engineering",
-      "System Resource Engineering",
-      "Site Reliability Engineering"
-    ],
-    "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
-  },
-  {
-    "id": "devops_1795",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q795] What is chaos engineering?",
-    "options": [
-      "All of the above",
-      "Normal testing",
-      "Load testing",
-      "Intentional failure testing"
-    ],
-    "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
-  },
-  {
-    "id": "devops_1796",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q796] Artifact repository stores",
-    "options": [
-      "Logs",
-      "Source code",
-      "The statement is false",
-      "Built software artifacts"
-    ],
-    "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
-  },
-  {
-    "id": "devops_1797",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q797] What is feature flag?",
-    "options": [
-      "Git branch",
-      "Option not applicable",
-      "Toggle features without deploy",
-      "Test case"
-    ],
-    "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
-  },
-  {
-    "id": "devops_1798",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q798] What is observability?",
-    "options": [
-      "Both A and B",
-      "Only metrics",
-      "Logs metrics traces",
-      "Only logs"
-    ],
-    "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
-  },
-  {
-    "id": "devops_1799",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q799] What is a rollback?",
-    "options": [
-      "New release",
-      "Reverting to previous version",
-      "Option not applicable",
-      "Forward deploy"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1800",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q800] DevSecOps means",
-    "options": [
-      "Security team separate",
-      "Option not applicable",
-      "Security integrated into DevOps",
-      "Dev without security"
-    ],
-    "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
-  },
-  {
-    "id": "devops_1801",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q801] DevOps combines",
-    "options": [
-      "Design and Ops",
-      "Both A and B",
-      "Development and Operations",
-      "Dev and QA"
-    ],
-    "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
-  },
-  {
-    "id": "devops_1802",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q802] CI stands for",
-    "options": [
-      "Code Integration",
-      "The above is incorrect",
-      "Continuous Inspection",
-      "Continuous Integration"
-    ],
-    "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
-  },
-  {
-    "id": "devops_1803",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q803] CD stands for",
-    "options": [
-      "Continuous Design",
-      "Cannot be determined",
-      "Code Deployment",
-      "Continuous Delivery/Deployment"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1804",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q804] Docker is used for",
-    "options": [
-      "Orchestration",
-      "Insufficient information",
-      "Virtualization",
-      "Containerization"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1805",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q805] Kubernetes is used for",
-    "options": [
-      "Containerization",
-      "Container orchestration",
-      "CI/CD",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1806",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q806] Jenkins is",
-    "options": [
-      "Version control",
-      "CI/CD automation server",
-      "Container tool",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
-  },
-  {
-    "id": "devops_1807",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q807] Git is",
-    "options": [
-      "Container",
-      "Distributed version control",
-      "The above is incorrect",
-      "CI tool"
-    ],
-    "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
-  },
-  {
-    "id": "devops_1808",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q808] What is Infrastructure as Code?",
-    "options": [
-      "Both A and B",
-      "Manual server config",
-      "Cloud only",
-      "Managing infra via code"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1809",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q809] Terraform is used for",
-    "options": [
-      "Monitoring",
-      "Containerization",
-      "IaC / cloud provisioning",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1810",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q810] Ansible is used for",
-    "options": [
-      "Configuration management",
-      "CI/CD",
-      "Container orchestration",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
-  },
-  {
-    "id": "devops_1811",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q811] What is a pipeline?",
-    "options": [
-      "Both B and C",
-      "Automated workflow stages",
-      "Manual process",
-      "Database"
-    ],
-    "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
-  },
-  {
-    "id": "devops_1812",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q812] Blue-Green deployment",
-    "options": [
-      "Zero-downtime deployment strategy",
-      "Option not applicable",
-      "Canary release",
-      "Rolling update"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1813",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q813] Canary deployment",
-    "options": [
-      "Gradual rollout to subset",
-      "Full rollout",
-      "Blue-green",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1814",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q814] What is monitoring in DevOps?",
-    "options": [
-      "Option not applicable",
-      "Tracking system health",
-      "Testing",
-      "Deployment"
-    ],
-    "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
-  },
-  {
-    "id": "devops_1815",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q815] Prometheus is",
-    "options": [
-      "CI server",
-      "Metrics monitoring tool",
-      "Container",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
-  },
-  {
-    "id": "devops_1816",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q816] Grafana is used for",
-    "options": [
-      "IaC",
-      "Visualization dashboards",
-      "Both A and B",
-      "CI/CD"
-    ],
-    "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
-  },
-  {
-    "id": "devops_1817",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q817] What is a microservice?",
-    "options": [
-      "Data not provided",
-      "Monolithic app",
-      "Database",
-      "Small independent service"
-    ],
-    "answer": 0,
-    "explanation": "Microservices are independently deployable services."
-  },
-  {
-    "id": "devops_1818",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q818] Load balancer does",
-    "options": [
-      "Cannot be determined",
-      "Monitors logs",
-      "Stores data",
-      "Distributes traffic"
-    ],
-    "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
-  },
-  {
-    "id": "devops_1819",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q819] What is auto-scaling?",
-    "options": [
-      "Adjusting resources based on demand",
-      "Fixed resources",
-      "Manual scaling",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
-  },
-  {
-    "id": "devops_1820",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q820] ELK stack includes",
-    "options": [
-      "Elasticsearch Logstash Kibana",
-      "Express Logstash Kafka",
-      "None of the above",
-      "Elastic Linux Kubernetes"
-    ],
-    "answer": 0,
-    "explanation": "ELK is a popular log management stack."
-  },
-  {
-    "id": "devops_1821",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q821] What is a container image?",
-    "options": [
-      "Read-only template for containers",
-      "Running container",
-      "Virtual machine",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
-  },
-  {
-    "id": "devops_1822",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q822] Dockerfile is",
-    "options": [
-      "Kubernetes config",
-      "None of the above",
-      "Container runtime",
-      "Script to build Docker image"
-    ],
-    "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
-  },
-  {
-    "id": "devops_1823",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q823] Kubernetes Pod is",
-    "options": [
-      "Insufficient information",
-      "Smallest deployable unit",
-      "Service",
-      "Node"
-    ],
-    "answer": 0,
-    "explanation": "A Pod contains one or more containers."
-  },
-  {
-    "id": "devops_1824",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q824] Helm in Kubernetes",
-    "options": [
-      "All of the above",
-      "Package manager",
-      "Monitoring",
-      "Container runtime"
-    ],
-    "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
-  },
-  {
-    "id": "devops_1825",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q825] What is a deployment in k8s?",
-    "options": [
-      "None of the above",
-      "Single container",
-      "Storage unit",
-      "Manages Pod replicas"
-    ],
-    "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
-  },
-  {
-    "id": "devops_1826",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q826] Rolling update strategy",
-    "options": [
-      "None of the above",
-      "Updates pods gradually",
-      "All at once",
-      "Blue-green"
-    ],
-    "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
-  },
-  {
-    "id": "devops_1827",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q827] What is a secret in k8s?",
-    "options": [
-      "Config map",
-      "Stores sensitive data",
-      "Log file",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1828",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q828] ConfigMap in k8s",
-    "options": [
-      "Stores non-sensitive config",
-      "All of the above",
-      "Stores secrets",
-      "Manages pods"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1829",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q829] YAML files in DevOps",
-    "options": [
-      "Compiled files",
-      "Configuration/definition files",
-      "Binary configs",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1830",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q830] What is GitOps?",
-    "options": [
-      "Git hosting",
-      "Git as source of truth for infra",
-      "The above is incorrect",
-      "CI tool"
-    ],
-    "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
-  },
-  {
-    "id": "devops_1831",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q831] What is a service mesh?",
-    "options": [
-      "Load balancer",
-      "Both A and B",
-      "Infrastructure layer for service comm",
-      "API gateway"
-    ],
-    "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
-  },
-  {
-    "id": "devops_1832",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q832] Shift left testing means",
-    "options": [
-      "Manual testing",
-      "The statement is false",
-      "Testing earlier in SDLC",
-      "Testing at end"
-    ],
-    "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
-  },
-  {
-    "id": "devops_1833",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q833] What is mean time to recovery (MTTR)?",
-    "options": [
-      "Average time to restore service",
-      "Build time",
-      "None of the above",
-      "Deploy time"
-    ],
-    "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
-  },
-  {
-    "id": "devops_1834",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q834] SRE stands for",
-    "options": [
-      "Software Release Engineering",
-      "System Resource Engineering",
-      "Cannot be determined",
-      "Site Reliability Engineering"
-    ],
-    "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
-  },
-  {
-    "id": "devops_1835",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q835] What is chaos engineering?",
-    "options": [
-      "Load testing",
-      "Normal testing",
-      "Insufficient information",
-      "Intentional failure testing"
-    ],
-    "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
-  },
-  {
-    "id": "devops_1836",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q836] Artifact repository stores",
-    "options": [
-      "Source code",
-      "Logs",
-      "None of the above",
-      "Built software artifacts"
-    ],
-    "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
-  },
-  {
-    "id": "devops_1837",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q837] What is feature flag?",
-    "options": [
-      "Test case",
-      "Cannot be determined",
-      "Toggle features without deploy",
-      "Git branch"
-    ],
-    "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
-  },
-  {
-    "id": "devops_1838",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q838] What is observability?",
-    "options": [
-      "All of the above",
-      "Logs metrics traces",
-      "Only logs",
-      "Only metrics"
-    ],
-    "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
-  },
-  {
-    "id": "devops_1839",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q839] What is a rollback?",
-    "options": [
-      "Reverting to previous version",
-      "Option not applicable",
-      "Forward deploy",
-      "New release"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1840",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q840] DevSecOps means",
-    "options": [
-      "Dev without security",
-      "None of the above",
-      "Security integrated into DevOps",
-      "Security team separate"
-    ],
-    "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
-  },
-  {
-    "id": "devops_1841",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q841] DevOps combines",
-    "options": [
-      "Insufficient information",
-      "Development and Operations",
-      "Design and Ops",
-      "Dev and QA"
-    ],
-    "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
-  },
-  {
-    "id": "devops_1842",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q842] CI stands for",
-    "options": [
-      "Insufficient information",
-      "Continuous Inspection",
-      "Code Integration",
-      "Continuous Integration"
-    ],
-    "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
-  },
-  {
-    "id": "devops_1843",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q843] CD stands for",
-    "options": [
-      "Continuous Design",
-      "Continuous Delivery/Deployment",
-      "Code Deployment",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1844",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q844] Docker is used for",
-    "options": [
-      "Orchestration",
-      "Both B and C",
-      "Containerization",
-      "Virtualization"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1845",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q845] Kubernetes is used for",
-    "options": [
-      "CI/CD",
-      "Container orchestration",
-      "Containerization",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1846",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q846] Jenkins is",
-    "options": [
-      "Container tool",
-      "CI/CD automation server",
-      "Version control",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
-  },
-  {
-    "id": "devops_1847",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q847] Git is",
-    "options": [
-      "Distributed version control",
-      "Container",
-      "Neither A nor B",
-      "CI tool"
-    ],
-    "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
-  },
-  {
-    "id": "devops_1848",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q848] What is Infrastructure as Code?",
-    "options": [
-      "Neither A nor B",
-      "Managing infra via code",
-      "Cloud only",
-      "Manual server config"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1849",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q849] Terraform is used for",
-    "options": [
-      "Containerization",
-      "IaC / cloud provisioning",
-      "Option not applicable",
-      "Monitoring"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1850",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q850] Ansible is used for",
-    "options": [
-      "Container orchestration",
-      "Configuration management",
-      "CI/CD",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
-  },
-  {
-    "id": "devops_1851",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q851] What is a pipeline?",
-    "options": [
-      "Manual process",
-      "All of the above",
-      "Database",
-      "Automated workflow stages"
-    ],
-    "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
-  },
-  {
-    "id": "devops_1852",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q852] Blue-Green deployment",
-    "options": [
-      "Zero-downtime deployment strategy",
-      "Rolling update",
-      "Canary release",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1853",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q853] Canary deployment",
-    "options": [
-      "Full rollout",
-      "All of the above",
-      "Blue-green",
-      "Gradual rollout to subset"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1854",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q854] What is monitoring in DevOps?",
-    "options": [
-      "Data not provided",
-      "Tracking system health",
-      "Deployment",
-      "Testing"
-    ],
-    "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
-  },
-  {
-    "id": "devops_1855",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q855] Prometheus is",
-    "options": [
-      "Container",
-      "Cannot be determined",
-      "Metrics monitoring tool",
-      "CI server"
-    ],
-    "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
-  },
-  {
-    "id": "devops_1856",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q856] Grafana is used for",
-    "options": [
-      "CI/CD",
-      "Data not provided",
-      "Visualization dashboards",
-      "IaC"
-    ],
-    "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
-  },
-  {
-    "id": "devops_1857",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q857] What is a microservice?",
-    "options": [
-      "Monolithic app",
-      "Database",
-      "Small independent service",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Microservices are independently deployable services."
-  },
-  {
-    "id": "devops_1858",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q858] Load balancer does",
-    "options": [
-      "Monitors logs",
-      "Distributes traffic",
-      "Stores data",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
-  },
-  {
-    "id": "devops_1859",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q859] What is auto-scaling?",
-    "options": [
-      "Adjusting resources based on demand",
-      "Fixed resources",
-      "Manual scaling",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
-  },
-  {
-    "id": "devops_1860",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q860] ELK stack includes",
-    "options": [
-      "Express Logstash Kafka",
-      "Elasticsearch Logstash Kibana",
-      "Elastic Linux Kubernetes",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "ELK is a popular log management stack."
-  },
-  {
-    "id": "devops_1861",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q861] What is a container image?",
-    "options": [
-      "Running container",
-      "The above is incorrect",
-      "Read-only template for containers",
-      "Virtual machine"
-    ],
-    "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
-  },
-  {
-    "id": "devops_1862",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q862] Dockerfile is",
-    "options": [
-      "Container runtime",
-      "All of the above",
-      "Script to build Docker image",
-      "Kubernetes config"
-    ],
-    "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
-  },
-  {
-    "id": "devops_1863",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q863] Kubernetes Pod is",
-    "options": [
-      "Node",
-      "Service",
-      "Smallest deployable unit",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "A Pod contains one or more containers."
-  },
-  {
-    "id": "devops_1864",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q864] Helm in Kubernetes",
-    "options": [
-      "Package manager",
-      "Container runtime",
-      "Option not applicable",
-      "Monitoring"
-    ],
-    "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
-  },
-  {
-    "id": "devops_1865",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q865] What is a deployment in k8s?",
-    "options": [
-      "Both B and C",
-      "Manages Pod replicas",
-      "Storage unit",
-      "Single container"
-    ],
-    "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
-  },
-  {
-    "id": "devops_1866",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q866] Rolling update strategy",
-    "options": [
-      "All at once",
-      "Updates pods gradually",
-      "Blue-green",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
-  },
-  {
-    "id": "devops_1867",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q867] What is a secret in k8s?",
-    "options": [
-      "Stores sensitive data",
-      "Log file",
-      "None of the above",
-      "Config map"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1868",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q868] ConfigMap in k8s",
-    "options": [
-      "Stores non-sensitive config",
-      "Both A and B",
-      "Manages pods",
-      "Stores secrets"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1869",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q869] YAML files in DevOps",
-    "options": [
-      "Binary configs",
-      "Configuration/definition files",
-      "Compiled files",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1870",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q870] What is GitOps?",
-    "options": [
-      "Git hosting",
-      "CI tool",
-      "Git as source of truth for infra",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
-  },
-  {
-    "id": "devops_1871",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q871] What is a service mesh?",
-    "options": [
-      "API gateway",
-      "Infrastructure layer for service comm",
-      "Both A and B",
       "Load balancer"
     ],
     "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
+    "explanation": "The correct answer is Elastic Container Registry — private Docker image registry in AWS."
   },
   {
-    "id": "devops_1872",
+    "id": "DEVOPS_CLO_034",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q872] Shift left testing means",
+    "question": "What is Azure AKS?",
     "options": [
-      "Testing earlier in SDLC",
-      "Manual testing",
-      "The premise is wrong",
-      "Testing at end"
+      "Azure Kubernetes Service — managed Kubernetes on Azure",
+      "Azure container registry",
+      "Azure VM service",
+      "Azure serverless"
     ],
     "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
+    "explanation": "The correct answer is Azure Kubernetes Service — managed Kubernetes on Azure."
   },
   {
-    "id": "devops_1873",
+    "id": "DEVOPS_CLO_035",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q873] What is mean time to recovery (MTTR)?",
+    "question": "What is GKE?",
     "options": [
-      "Build time",
-      "Both A and B",
-      "Average time to restore service",
-      "Deploy time"
+      "Google Kubernetes Engine — managed Kubernetes on GCP",
+      "Google Container Registry",
+      "Google VM service",
+      "Google serverless"
     ],
     "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
+    "explanation": "The correct answer is Google Kubernetes Engine — managed Kubernetes on GCP."
   },
   {
-    "id": "devops_1874",
+    "id": "DEVOPS_CLO_036",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q874] SRE stands for",
+    "question": "What is infrastructure as code in cloud?",
     "options": [
-      "System Resource Engineering",
-      "Site Reliability Engineering",
-      "Neither A nor B",
-      "Software Release Engineering"
+      "Provisioning cloud resources via code (Terraform, CloudFormation)",
+      "Manual provisioning",
+      "GUI provisioning",
+      "API provisioning"
     ],
     "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
+    "explanation": "The correct answer is Provisioning cloud resources via code (Terraform, CloudFormation)."
   },
   {
-    "id": "devops_1875",
+    "id": "DEVOPS_CLO_037",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q875] What is chaos engineering?",
+    "question": "What is AWS CloudFormation?",
     "options": [
-      "Load testing",
-      "Intentional failure testing",
-      "Normal testing",
-      "Data not provided"
+      "AWS's native IaC service for provisioning AWS resources",
+      "Terraform for AWS",
+      "Monitoring service",
+      "Deployment service"
     ],
     "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
+    "explanation": "The correct answer is AWS's native IaC service for provisioning AWS resources."
   },
   {
-    "id": "devops_1876",
+    "id": "DEVOPS_CLO_038",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q876] Artifact repository stores",
+    "question": "What is the Shared Responsibility Model?",
     "options": [
-      "Both A and C",
-      "Built software artifacts",
-      "Source code",
-      "Logs"
+      "Cloud provider secures infrastructure; customer secures their data and apps",
+      "Customer secures everything",
+      "Provider secures everything",
+      "Split by region"
     ],
     "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
+    "explanation": "The correct answer is Cloud provider secures infrastructure; customer secures their data and apps."
   },
   {
-    "id": "devops_1877",
+    "id": "DEVOPS_CLO_039",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q877] What is feature flag?",
+    "question": "What is cloud cost optimization?",
     "options": [
-      "Test case",
-      "The above is incorrect",
-      "Git branch",
-      "Toggle features without deploy"
+      "Strategies to reduce cloud spending (right-sizing, reserved instances)",
+      "Increasing capacity",
+      "Adding services",
+      "Migrating on-premise"
     ],
     "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
+    "explanation": "The correct answer is Strategies to reduce cloud spending (right-sizing, reserved instances)."
   },
   {
-    "id": "devops_1878",
+    "id": "DEVOPS_CLO_040",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q878] What is observability?",
+    "question": "What are reserved instances in AWS?",
     "options": [
-      "All of the above",
-      "Logs metrics traces",
-      "Only metrics",
-      "Only logs"
+      "Committing to 1 or 3 year usage for significant discount vs on-demand",
+      "Always on",
+      "Emergency capacity",
+      "Free tier"
     ],
     "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
+    "explanation": "The correct answer is Committing to 1 or 3 year usage for significant discount vs on-demand."
   },
   {
-    "id": "devops_1879",
+    "id": "DEVOPS_CLO_041",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q879] What is a rollback?",
+    "question": "What are spot instances?",
     "options": [
-      "Forward deploy",
-      "Reverting to previous version",
-      "Both B and C",
-      "New release"
+      "Spare AWS capacity at steep discount but can be interrupted",
+      "Reserved instances",
+      "On-demand instances",
+      "Dedicated instances"
     ],
     "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
+    "explanation": "The correct answer is Spare AWS capacity at steep discount but can be interrupted."
   },
   {
-    "id": "devops_1880",
+    "id": "DEVOPS_CLO_042",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q880] DevSecOps means",
+    "question": "What is AWS Savings Plans?",
     "options": [
-      "Both B and C",
-      "Security team separate",
-      "Dev without security",
-      "Security integrated into DevOps"
+      "Flexible pricing model with commitment to consistent usage for discount",
+      "Free tier",
+      "Reserved instances",
+      "Spot pricing"
     ],
     "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
+    "explanation": "The correct answer is Flexible pricing model with commitment to consistent usage for discount."
   },
   {
-    "id": "devops_1881",
+    "id": "DEVOPS_CLO_043",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q881] DevOps combines",
+    "question": "What is FinOps?",
     "options": [
-      "Development and Operations",
-      "Design and Ops",
-      "Dev and QA",
-      "Neither A nor B"
+      "Practice combining finance, operations, and engineering for cloud cost management",
+      "Financial operations",
+      "DevOps finance",
+      "Cloud billing"
     ],
     "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
+    "explanation": "The correct answer is Practice combining finance, operations, and engineering for cloud cost management."
   },
   {
-    "id": "devops_1882",
+    "id": "DEVOPS_CLO_044",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q882] CI stands for",
+    "question": "What is multi-cloud strategy?",
     "options": [
-      "Option not applicable",
-      "Continuous Integration",
-      "Continuous Inspection",
-      "Code Integration"
+      "Using services from multiple cloud providers to avoid lock-in",
+      "Single cloud",
+      "Hybrid cloud",
+      "Private cloud"
     ],
     "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
+    "explanation": "The correct answer is Using services from multiple cloud providers to avoid lock-in."
   },
   {
-    "id": "devops_1883",
+    "id": "DEVOPS_CLO_045",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q883] CD stands for",
+    "question": "What is hybrid cloud?",
     "options": [
-      "Continuous Design",
-      "All of the above",
-      "Code Deployment",
-      "Continuous Delivery/Deployment"
+      "Combining private (on-premise) and public cloud environments",
+      "Multi-cloud",
+      "Single cloud",
+      "Edge cloud"
     ],
     "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
+    "explanation": "The correct answer is Combining private (on-premise) and public cloud environments."
   },
   {
-    "id": "devops_1884",
+    "id": "DEVOPS_CLO_046",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q884] Docker is used for",
+    "question": "What is edge computing?",
     "options": [
-      "Containerization",
-      "Both B and C",
-      "Virtualization",
-      "Orchestration"
+      "Processing data near where it is generated rather than central cloud",
+      "Core cloud",
+      "Regional cloud",
+      "Data center"
     ],
     "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
+    "explanation": "The correct answer is Processing data near where it is generated rather than central cloud."
   },
   {
-    "id": "devops_1885",
+    "id": "DEVOPS_CLO_047",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q885] Kubernetes is used for",
+    "question": "What is AWS Direct Connect?",
     "options": [
-      "Option not applicable",
-      "Container orchestration",
-      "Containerization",
-      "CI/CD"
+      "Dedicated private network connection between on-premise and AWS",
+      "VPN connection",
+      "Internet connection",
+      "Peering connection"
     ],
     "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
+    "explanation": "The correct answer is Dedicated private network connection between on-premise and AWS."
   },
   {
-    "id": "devops_1886",
+    "id": "DEVOPS_CLO_048",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q886] Jenkins is",
+    "question": "What is VPC peering?",
     "options": [
-      "The above is incorrect",
-      "Container tool",
-      "Version control",
-      "CI/CD automation server"
+      "Direct network connection between two VPCs within same or different accounts",
+      "Internet gateway",
+      "VPN gateway",
+      "Transit gateway"
     ],
     "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
+    "explanation": "The correct answer is Direct network connection between two VPCs within same or different accounts."
   },
   {
-    "id": "devops_1887",
+    "id": "DEVOPS_CLO_049",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q887] Git is",
+    "question": "What is Transit Gateway?",
     "options": [
-      "Distributed version control",
-      "CI tool",
-      "Option not applicable",
-      "Container"
+      "Central hub connecting multiple VPCs and on-premise networks",
+      "VPC peering",
+      "Direct Connect",
+      "Internet gateway"
     ],
     "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
+    "explanation": "The correct answer is Central hub connecting multiple VPCs and on-premise networks."
   },
   {
-    "id": "devops_1888",
+    "id": "DEVOPS_CLO_050",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[DEVOPS-Q888] What is Infrastructure as Code?",
+    "question": "What is AWS Route 53?",
     "options": [
-      "Manual server config",
-      "Managing infra via code",
-      "None of the above",
-      "Cloud only"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1889",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q889] Terraform is used for",
-    "options": [
-      "Containerization",
-      "Monitoring",
-      "Insufficient information",
-      "IaC / cloud provisioning"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1890",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q890] Ansible is used for",
-    "options": [
-      "Neither A nor B",
-      "Container orchestration",
-      "CI/CD",
-      "Configuration management"
-    ],
-    "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
-  },
-  {
-    "id": "devops_1891",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q891] What is a pipeline?",
-    "options": [
-      "Automated workflow stages",
-      "Database",
-      "Manual process",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
-  },
-  {
-    "id": "devops_1892",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q892] Blue-Green deployment",
-    "options": [
-      "Rolling update",
-      "Canary release",
-      "Zero-downtime deployment strategy",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1893",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q893] Canary deployment",
-    "options": [
-      "Option not applicable",
-      "Gradual rollout to subset",
-      "Blue-green",
-      "Full rollout"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1894",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q894] What is monitoring in DevOps?",
-    "options": [
-      "Option not applicable",
-      "Deployment",
-      "Tracking system health",
-      "Testing"
-    ],
-    "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
-  },
-  {
-    "id": "devops_1895",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q895] Prometheus is",
-    "options": [
-      "CI server",
-      "Metrics monitoring tool",
-      "Both A and B",
-      "Container"
-    ],
-    "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
-  },
-  {
-    "id": "devops_1896",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q896] Grafana is used for",
-    "options": [
-      "Visualization dashboards",
-      "The above is incorrect",
-      "IaC",
-      "CI/CD"
-    ],
-    "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
-  },
-  {
-    "id": "devops_1897",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q897] What is a microservice?",
-    "options": [
-      "The above is incorrect",
-      "Database",
-      "Small independent service",
-      "Monolithic app"
-    ],
-    "answer": 0,
-    "explanation": "Microservices are independently deployable services."
-  },
-  {
-    "id": "devops_1898",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q898] Load balancer does",
-    "options": [
-      "Distributes traffic",
-      "Monitors logs",
-      "Insufficient information",
-      "Stores data"
-    ],
-    "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
-  },
-  {
-    "id": "devops_1899",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q899] What is auto-scaling?",
-    "options": [
-      "Manual scaling",
-      "Adjusting resources based on demand",
-      "Fixed resources",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
-  },
-  {
-    "id": "devops_1900",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q900] ELK stack includes",
-    "options": [
-      "All of the above",
-      "Elastic Linux Kubernetes",
-      "Express Logstash Kafka",
-      "Elasticsearch Logstash Kibana"
-    ],
-    "answer": 0,
-    "explanation": "ELK is a popular log management stack."
-  },
-  {
-    "id": "devops_1901",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q901] What is a container image?",
-    "options": [
-      "Virtual machine",
-      "Running container",
-      "The above is incorrect",
-      "Read-only template for containers"
-    ],
-    "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
-  },
-  {
-    "id": "devops_1902",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q902] Dockerfile is",
-    "options": [
-      "Container runtime",
-      "Kubernetes config",
-      "Script to build Docker image",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
-  },
-  {
-    "id": "devops_1903",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q903] Kubernetes Pod is",
-    "options": [
-      "Service",
-      "Smallest deployable unit",
-      "Node",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "A Pod contains one or more containers."
-  },
-  {
-    "id": "devops_1904",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q904] Helm in Kubernetes",
-    "options": [
-      "Package manager",
-      "Neither A nor B",
-      "Monitoring",
-      "Container runtime"
-    ],
-    "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
-  },
-  {
-    "id": "devops_1905",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q905] What is a deployment in k8s?",
-    "options": [
-      "Manages Pod replicas",
-      "Data not provided",
-      "Single container",
-      "Storage unit"
-    ],
-    "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
-  },
-  {
-    "id": "devops_1906",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q906] Rolling update strategy",
-    "options": [
-      "All of the above",
-      "Blue-green",
-      "Updates pods gradually",
-      "All at once"
-    ],
-    "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
-  },
-  {
-    "id": "devops_1907",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q907] What is a secret in k8s?",
-    "options": [
-      "Config map",
-      "Stores sensitive data",
-      "Data not provided",
-      "Log file"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1908",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q908] ConfigMap in k8s",
-    "options": [
-      "Both A and B",
-      "Manages pods",
-      "Stores non-sensitive config",
-      "Stores secrets"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1909",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q909] YAML files in DevOps",
-    "options": [
-      "All of the above",
-      "Compiled files",
-      "Configuration/definition files",
-      "Binary configs"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1910",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q910] What is GitOps?",
-    "options": [
-      "Git as source of truth for infra",
-      "All of the above",
-      "CI tool",
-      "Git hosting"
-    ],
-    "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
-  },
-  {
-    "id": "devops_1911",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q911] What is a service mesh?",
-    "options": [
+      "Scalable DNS and domain management service in AWS",
       "Load balancer",
-      "Infrastructure layer for service comm",
-      "Both A and B",
+      "CDN",
+      "VPC router"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Scalable DNS and domain management service in AWS."
+  },
+  {
+    "id": "DEVOPS_CLO_051",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a NAT Gateway?",
+    "options": [
+      "Allows instances in private subnet to initiate outbound internet traffic",
+      "Internet gateway",
+      "VPN gateway",
+      "Transit gateway"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Allows instances in private subnet to initiate outbound internet traffic."
+  },
+  {
+    "id": "DEVOPS_CLO_052",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is an Internet Gateway?",
+    "options": [
+      "Connects VPC to the public internet",
+      "NAT gateway",
+      "Transit gateway",
+      "Peering connection"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Connects VPC to the public internet."
+  },
+  {
+    "id": "DEVOPS_CLO_053",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a private subnet?",
+    "options": [
+      "Subnet with no direct internet access (uses NAT for outbound)",
+      "Public subnet",
+      "DMZ subnet",
+      "Management subnet"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Subnet with no direct internet access (uses NAT for outbound)."
+  },
+  {
+    "id": "DEVOPS_CLO_054",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a security group in AWS?",
+    "options": [
+      "Virtual firewall controlling inbound/outbound traffic for EC2 instances",
+      "Network ACL",
+      "IAM policy",
+      "VPC policy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Virtual firewall controlling inbound/outbound traffic for EC2 instances."
+  },
+  {
+    "id": "DEVOPS_CLO_055",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between security group and NACL?",
+    "options": [
+      "Security groups are stateful (at instance level); NACLs are stateless (at subnet level)",
+      "No difference",
+      "NACLs are stateful",
+      "Security groups are stateless"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Security groups are stateful (at instance level); NACLs are stateless (at subnet level)."
+  },
+  {
+    "id": "DEVOPS_CLO_056",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is AWS SQS?",
+    "options": [
+      "Simple Queue Service — managed message queuing",
+      "Simple Query Service",
+      "Streaming service",
+      "Storage service"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Simple Queue Service — managed message queuing."
+  },
+  {
+    "id": "DEVOPS_CLO_057",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is AWS SNS?",
+    "options": [
+      "Simple Notification Service — pub/sub messaging",
+      "Social Network Service",
+      "Storage Network Service",
+      "Streaming notification"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Simple Notification Service — pub/sub messaging."
+  },
+  {
+    "id": "DEVOPS_CLO_058",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is AWS EventBridge?",
+    "options": [
+      "Serverless event bus connecting AWS services and custom apps",
+      "Queue service",
+      "Streaming service",
       "API gateway"
     ],
     "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
+    "explanation": "The correct answer is Serverless event bus connecting AWS services and custom apps."
   },
   {
-    "id": "devops_1912",
+    "id": "DEVOPS_CLO_059",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q912] Shift left testing means",
+    "question": "What is event-driven architecture?",
     "options": [
-      "Testing earlier in SDLC",
-      "Manual testing",
-      "Testing at end",
-      "Both A and C"
+      "Services communicate via events/messages rather than direct calls",
+      "Synchronous architecture",
+      "Monolithic architecture",
+      "Microservice pattern"
     ],
     "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
+    "explanation": "The correct answer is Services communicate via events/messages rather than direct calls."
   },
   {
-    "id": "devops_1913",
+    "id": "DEVOPS_CLO_060",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q913] What is mean time to recovery (MTTR)?",
+    "question": "What is AWS API Gateway?",
     "options": [
-      "The above is incorrect",
-      "Deploy time",
-      "Build time",
-      "Average time to restore service"
-    ],
-    "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
-  },
-  {
-    "id": "devops_1914",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q914] SRE stands for",
-    "options": [
-      "Site Reliability Engineering",
-      "Cannot be determined",
-      "System Resource Engineering",
-      "Software Release Engineering"
-    ],
-    "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
-  },
-  {
-    "id": "devops_1915",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q915] What is chaos engineering?",
-    "options": [
-      "Normal testing",
-      "Load testing",
-      "Intentional failure testing",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
-  },
-  {
-    "id": "devops_1916",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q916] Artifact repository stores",
-    "options": [
-      "Cannot be determined",
-      "Source code",
-      "Logs",
-      "Built software artifacts"
-    ],
-    "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
-  },
-  {
-    "id": "devops_1917",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q917] What is feature flag?",
-    "options": [
-      "Toggle features without deploy",
-      "Both B and C",
-      "Git branch",
-      "Test case"
-    ],
-    "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
-  },
-  {
-    "id": "devops_1918",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q918] What is observability?",
-    "options": [
-      "Logs metrics traces",
-      "Cannot be determined",
-      "Only metrics",
-      "Only logs"
-    ],
-    "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
-  },
-  {
-    "id": "devops_1919",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q919] What is a rollback?",
-    "options": [
-      "Forward deploy",
-      "New release",
-      "Reverting to previous version",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1920",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q920] DevSecOps means",
-    "options": [
-      "Security integrated into DevOps",
-      "Insufficient information",
-      "Dev without security",
-      "Security team separate"
-    ],
-    "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
-  },
-  {
-    "id": "devops_1921",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q921] DevOps combines",
-    "options": [
-      "Dev and QA",
-      "Design and Ops",
-      "Development and Operations",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
-  },
-  {
-    "id": "devops_1922",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q922] CI stands for",
-    "options": [
-      "Code Integration",
-      "Continuous Inspection",
-      "Continuous Integration",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
-  },
-  {
-    "id": "devops_1923",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q923] CD stands for",
-    "options": [
-      "Continuous Design",
-      "Option not applicable",
-      "Code Deployment",
-      "Continuous Delivery/Deployment"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1924",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q924] Docker is used for",
-    "options": [
-      "Virtualization",
-      "Orchestration",
-      "Containerization",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1925",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q925] Kubernetes is used for",
-    "options": [
-      "CI/CD",
-      "Neither A nor B",
-      "Containerization",
-      "Container orchestration"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1926",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q926] Jenkins is",
-    "options": [
-      "CI/CD automation server",
-      "Version control",
-      "Container tool",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
-  },
-  {
-    "id": "devops_1927",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q927] Git is",
-    "options": [
-      "Container",
-      "Option not applicable",
-      "Distributed version control",
-      "CI tool"
-    ],
-    "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
-  },
-  {
-    "id": "devops_1928",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q928] What is Infrastructure as Code?",
-    "options": [
-      "Managing infra via code",
-      "Cloud only",
-      "None of the above",
-      "Manual server config"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1929",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q929] Terraform is used for",
-    "options": [
-      "Monitoring",
-      "IaC / cloud provisioning",
-      "Containerization",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1930",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q930] Ansible is used for",
-    "options": [
-      "Configuration management",
-      "Cannot be determined",
-      "CI/CD",
-      "Container orchestration"
-    ],
-    "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
-  },
-  {
-    "id": "devops_1931",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q931] What is a pipeline?",
-    "options": [
-      "Manual process",
-      "Automated workflow stages",
-      "Database",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
-  },
-  {
-    "id": "devops_1932",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q932] Blue-Green deployment",
-    "options": [
-      "Zero-downtime deployment strategy",
-      "All of the above",
-      "Rolling update",
-      "Canary release"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1933",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q933] Canary deployment",
-    "options": [
-      "Gradual rollout to subset",
-      "Both A and B",
-      "Full rollout",
-      "Blue-green"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1934",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q934] What is monitoring in DevOps?",
-    "options": [
-      "Tracking system health",
-      "Testing",
-      "Deployment",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
-  },
-  {
-    "id": "devops_1935",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q935] Prometheus is",
-    "options": [
-      "CI server",
-      "Container",
-      "Metrics monitoring tool",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
-  },
-  {
-    "id": "devops_1936",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q936] Grafana is used for",
-    "options": [
-      "IaC",
-      "Visualization dashboards",
-      "All of the above",
-      "CI/CD"
-    ],
-    "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
-  },
-  {
-    "id": "devops_1937",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q937] What is a microservice?",
-    "options": [
-      "Database",
-      "Small independent service",
-      "Monolithic app",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Microservices are independently deployable services."
-  },
-  {
-    "id": "devops_1938",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q938] Load balancer does",
-    "options": [
-      "Distributes traffic",
-      "Neither A nor B",
-      "Monitors logs",
-      "Stores data"
-    ],
-    "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
-  },
-  {
-    "id": "devops_1939",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q939] What is auto-scaling?",
-    "options": [
-      "Fixed resources",
-      "Adjusting resources based on demand",
-      "Manual scaling",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
-  },
-  {
-    "id": "devops_1940",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q940] ELK stack includes",
-    "options": [
-      "Elasticsearch Logstash Kibana",
-      "Elastic Linux Kubernetes",
-      "Express Logstash Kafka",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "ELK is a popular log management stack."
-  },
-  {
-    "id": "devops_1941",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q941] What is a container image?",
-    "options": [
-      "Cannot be determined",
-      "Read-only template for containers",
-      "Running container",
-      "Virtual machine"
-    ],
-    "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
-  },
-  {
-    "id": "devops_1942",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q942] Dockerfile is",
-    "options": [
-      "Script to build Docker image",
-      "None of the above",
-      "Container runtime",
-      "Kubernetes config"
-    ],
-    "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
-  },
-  {
-    "id": "devops_1943",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q943] Kubernetes Pod is",
-    "options": [
-      "Smallest deployable unit",
-      "Service",
-      "None of the above",
-      "Node"
-    ],
-    "answer": 0,
-    "explanation": "A Pod contains one or more containers."
-  },
-  {
-    "id": "devops_1944",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q944] Helm in Kubernetes",
-    "options": [
-      "Container runtime",
-      "Neither A nor B",
-      "Package manager",
-      "Monitoring"
-    ],
-    "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
-  },
-  {
-    "id": "devops_1945",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q945] What is a deployment in k8s?",
-    "options": [
-      "Storage unit",
-      "Both A and B",
-      "Single container",
-      "Manages Pod replicas"
-    ],
-    "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
-  },
-  {
-    "id": "devops_1946",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q946] Rolling update strategy",
-    "options": [
-      "Blue-green",
-      "Updates pods gradually",
-      "Option not applicable",
-      "All at once"
-    ],
-    "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
-  },
-  {
-    "id": "devops_1947",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q947] What is a secret in k8s?",
-    "options": [
-      "Log file",
-      "Stores sensitive data",
-      "Config map",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1948",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q948] ConfigMap in k8s",
-    "options": [
-      "Manages pods",
-      "Stores non-sensitive config",
-      "Stores secrets",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1949",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q949] YAML files in DevOps",
-    "options": [
-      "Data not provided",
-      "Binary configs",
-      "Configuration/definition files",
-      "Compiled files"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1950",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q950] What is GitOps?",
-    "options": [
-      "CI tool",
-      "Git as source of truth for infra",
-      "Git hosting",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
-  },
-  {
-    "id": "devops_1951",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q951] What is a service mesh?",
-    "options": [
-      "All of the above",
+      "Managed service for creating, publishing, and securing REST/WebSocket APIs",
       "Load balancer",
-      "Infrastructure layer for service comm",
-      "API gateway"
+      "CDN",
+      "VPN gateway"
     ],
     "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
+    "explanation": "The correct answer is Managed service for creating, publishing, and securing REST/WebSocket APIs."
   },
   {
-    "id": "devops_1952",
+    "id": "DEVOPS_CLO_061",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[DEVOPS-Q952] Shift left testing means",
+    "question": "What is service mesh in cloud-native?",
     "options": [
-      "The statement is false",
-      "Testing earlier in SDLC",
-      "Manual testing",
-      "Testing at end"
-    ],
-    "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
-  },
-  {
-    "id": "devops_1953",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q953] What is mean time to recovery (MTTR)?",
-    "options": [
-      "Deploy time",
-      "Build time",
-      "The above is incorrect",
-      "Average time to restore service"
-    ],
-    "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
-  },
-  {
-    "id": "devops_1954",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q954] SRE stands for",
-    "options": [
-      "Software Release Engineering",
-      "None of the above",
-      "System Resource Engineering",
-      "Site Reliability Engineering"
-    ],
-    "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
-  },
-  {
-    "id": "devops_1955",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q955] What is chaos engineering?",
-    "options": [
-      "Intentional failure testing",
-      "Normal testing",
-      "Insufficient information",
-      "Load testing"
-    ],
-    "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
-  },
-  {
-    "id": "devops_1956",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q956] Artifact repository stores",
-    "options": [
-      "Built software artifacts",
-      "Source code",
-      "Logs",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
-  },
-  {
-    "id": "devops_1957",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q957] What is feature flag?",
-    "options": [
-      "Git branch",
-      "Test case",
-      "The above is incorrect",
-      "Toggle features without deploy"
-    ],
-    "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
-  },
-  {
-    "id": "devops_1958",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q958] What is observability?",
-    "options": [
-      "Only metrics",
-      "Only logs",
-      "Logs metrics traces",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
-  },
-  {
-    "id": "devops_1959",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q959] What is a rollback?",
-    "options": [
-      "Reverting to previous version",
-      "Insufficient information",
-      "Forward deploy",
-      "New release"
-    ],
-    "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
-  },
-  {
-    "id": "devops_1960",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q960] DevSecOps means",
-    "options": [
-      "Security team separate",
-      "Security integrated into DevOps",
-      "Dev without security",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
-  },
-  {
-    "id": "devops_1961",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q961] DevOps combines",
-    "options": [
-      "Dev and QA",
-      "Design and Ops",
-      "Data not provided",
-      "Development and Operations"
-    ],
-    "answer": 0,
-    "explanation": "DevOps bridges development and operations teams."
-  },
-  {
-    "id": "devops_1962",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q962] CI stands for",
-    "options": [
-      "Continuous Inspection",
-      "Continuous Integration",
-      "Option not applicable",
-      "Code Integration"
-    ],
-    "answer": 0,
-    "explanation": "CI automatically integrates code changes frequently."
-  },
-  {
-    "id": "devops_1963",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q963] CD stands for",
-    "options": [
-      "Cannot be determined",
-      "Continuous Design",
-      "Continuous Delivery/Deployment",
-      "Code Deployment"
-    ],
-    "answer": 0,
-    "explanation": "CD automates delivery or deployment of applications."
-  },
-  {
-    "id": "devops_1964",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q964] Docker is used for",
-    "options": [
-      "Containerization",
-      "Orchestration",
-      "Virtualization",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "Docker packages apps into portable containers."
-  },
-  {
-    "id": "devops_1965",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q965] Kubernetes is used for",
-    "options": [
-      "Container orchestration",
-      "CI/CD",
-      "Containerization",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Kubernetes automates deployment of containers."
-  },
-  {
-    "id": "devops_1966",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q966] Jenkins is",
-    "options": [
-      "Container tool",
-      "Version control",
-      "CI/CD automation server",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Jenkins automates build, test, deploy pipelines."
-  },
-  {
-    "id": "devops_1967",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q967] Git is",
-    "options": [
-      "CI tool",
-      "Both B and C",
-      "Container",
-      "Distributed version control"
-    ],
-    "answer": 0,
-    "explanation": "Git tracks code changes in a distributed manner."
-  },
-  {
-    "id": "devops_1968",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q968] What is Infrastructure as Code?",
-    "options": [
-      "Managing infra via code",
-      "None of the above",
-      "Manual server config",
-      "Cloud only"
-    ],
-    "answer": 0,
-    "explanation": "IaC provisions infrastructure using code files."
-  },
-  {
-    "id": "devops_1969",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q969] Terraform is used for",
-    "options": [
-      "None of the above",
-      "Containerization",
-      "IaC / cloud provisioning",
-      "Monitoring"
-    ],
-    "answer": 0,
-    "explanation": "Terraform provisions infrastructure declaratively."
-  },
-  {
-    "id": "devops_1970",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q970] Ansible is used for",
-    "options": [
-      "Both B and C",
-      "Configuration management",
-      "CI/CD",
-      "Container orchestration"
-    ],
-    "answer": 0,
-    "explanation": "Ansible automates configuration and deployment."
-  },
-  {
-    "id": "devops_1971",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q971] What is a pipeline?",
-    "options": [
-      "Automated workflow stages",
-      "Manual process",
-      "Database",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Pipelines automate build/test/deploy stages."
-  },
-  {
-    "id": "devops_1972",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q972] Blue-Green deployment",
-    "options": [
-      "Canary release",
-      "Rolling update",
-      "Both A and B",
-      "Zero-downtime deployment strategy"
-    ],
-    "answer": 0,
-    "explanation": "Blue-green switches between two identical environments."
-  },
-  {
-    "id": "devops_1973",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q973] Canary deployment",
-    "options": [
-      "Gradual rollout to subset",
-      "Cannot be determined",
-      "Full rollout",
-      "Blue-green"
-    ],
-    "answer": 0,
-    "explanation": "Canary releases to small user subset first."
-  },
-  {
-    "id": "devops_1974",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q974] What is monitoring in DevOps?",
-    "options": [
-      "Deployment",
-      "Tracking system health",
-      "Testing",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Monitoring observes application and infrastructure health."
-  },
-  {
-    "id": "devops_1975",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q975] Prometheus is",
-    "options": [
-      "Metrics monitoring tool",
-      "CI server",
-      "Container",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Prometheus collects and stores metrics."
-  },
-  {
-    "id": "devops_1976",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q976] Grafana is used for",
-    "options": [
-      "Cannot be determined",
-      "Visualization dashboards",
-      "IaC",
-      "CI/CD"
-    ],
-    "answer": 0,
-    "explanation": "Grafana visualizes metrics from Prometheus and others."
-  },
-  {
-    "id": "devops_1977",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q977] What is a microservice?",
-    "options": [
-      "Small independent service",
-      "Monolithic app",
-      "Database",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Microservices are independently deployable services."
-  },
-  {
-    "id": "devops_1978",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q978] Load balancer does",
-    "options": [
-      "Monitors logs",
-      "Distributes traffic",
-      "Stores data",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Load balancers distribute requests across servers."
-  },
-  {
-    "id": "devops_1979",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q979] What is auto-scaling?",
-    "options": [
-      "Fixed resources",
-      "Manual scaling",
-      "Both A and B",
-      "Adjusting resources based on demand"
-    ],
-    "answer": 0,
-    "explanation": "Auto-scaling adds/removes instances automatically."
-  },
-  {
-    "id": "devops_1980",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q980] ELK stack includes",
-    "options": [
-      "Elasticsearch Logstash Kibana",
-      "Elastic Linux Kubernetes",
-      "Express Logstash Kafka",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "ELK is a popular log management stack."
-  },
-  {
-    "id": "devops_1981",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q981] What is a container image?",
-    "options": [
-      "Running container",
-      "Insufficient information",
-      "Virtual machine",
-      "Read-only template for containers"
-    ],
-    "answer": 0,
-    "explanation": "Images are blueprints for creating containers."
-  },
-  {
-    "id": "devops_1982",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q982] Dockerfile is",
-    "options": [
-      "All of the above",
-      "Container runtime",
-      "Kubernetes config",
-      "Script to build Docker image"
-    ],
-    "answer": 0,
-    "explanation": "Dockerfile defines instructions to build an image."
-  },
-  {
-    "id": "devops_1983",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q983] Kubernetes Pod is",
-    "options": [
-      "Smallest deployable unit",
-      "Neither A nor B",
-      "Node",
-      "Service"
-    ],
-    "answer": 0,
-    "explanation": "A Pod contains one or more containers."
-  },
-  {
-    "id": "devops_1984",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q984] Helm in Kubernetes",
-    "options": [
-      "Monitoring",
-      "Package manager",
-      "Cannot be determined",
-      "Container runtime"
-    ],
-    "answer": 0,
-    "explanation": "Helm manages Kubernetes application packages."
-  },
-  {
-    "id": "devops_1985",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q985] What is a deployment in k8s?",
-    "options": [
-      "Manages Pod replicas",
-      "Storage unit",
-      "Single container",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Deployments declaratively manage replica sets."
-  },
-  {
-    "id": "devops_1986",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q986] Rolling update strategy",
-    "options": [
-      "Blue-green",
-      "Neither A nor B",
-      "All at once",
-      "Updates pods gradually"
-    ],
-    "answer": 0,
-    "explanation": "Rolling updates replace pods incrementally."
-  },
-  {
-    "id": "devops_1987",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q987] What is a secret in k8s?",
-    "options": [
-      "Log file",
-      "Stores sensitive data",
-      "Option not applicable",
-      "Config map"
-    ],
-    "answer": 0,
-    "explanation": "Secrets store passwords/tokens securely in k8s."
-  },
-  {
-    "id": "devops_1988",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q988] ConfigMap in k8s",
-    "options": [
-      "Stores non-sensitive config",
-      "Both B and C",
-      "Manages pods",
-      "Stores secrets"
-    ],
-    "answer": 0,
-    "explanation": "ConfigMaps decouple config from container images."
-  },
-  {
-    "id": "devops_1989",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q989] YAML files in DevOps",
-    "options": [
-      "Both B and C",
-      "Configuration/definition files",
-      "Compiled files",
-      "Binary configs"
-    ],
-    "answer": 0,
-    "explanation": "YAML is human-readable config format widely used."
-  },
-  {
-    "id": "devops_1990",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q990] What is GitOps?",
-    "options": [
-      "Git as source of truth for infra",
-      "Option not applicable",
-      "CI tool",
-      "Git hosting"
-    ],
-    "answer": 0,
-    "explanation": "GitOps uses Git repos to drive infrastructure changes."
-  },
-  {
-    "id": "devops_1991",
-    "topic": "DevOps Engineer",
-    "section": "Cloud & Security",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[DEVOPS-Q991] What is a service mesh?",
-    "options": [
+      "Infrastructure layer handling service-to-service communication (Istio, Linkerd)",
       "Load balancer",
-      "None of the above",
       "API gateway",
-      "Infrastructure layer for service comm"
+      "Message queue"
     ],
     "answer": 0,
-    "explanation": "Service meshes like Istio manage microservice comms."
+    "explanation": "The correct answer is Infrastructure layer handling service-to-service communication (Istio, Linkerd)."
   },
   {
-    "id": "devops_1992",
+    "id": "DEVOPS_CLO_062",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q992] Shift left testing means",
+    "question": "What is cloud-native application?",
     "options": [
-      "Testing earlier in SDLC",
-      "Cannot be determined",
-      "Testing at end",
-      "Manual testing"
+      "Application designed specifically for cloud environments (12-factor, microservices)",
+      "Legacy application",
+      "On-premise app",
+      "Traditional app"
     ],
     "answer": 0,
-    "explanation": "Shift left moves testing closer to development."
+    "explanation": "The correct answer is Application designed specifically for cloud environments (12-factor, microservices)."
   },
   {
-    "id": "devops_1993",
+    "id": "DEVOPS_CLO_063",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the 12-factor app methodology?",
+    "options": [
+      "Best practices for building scalable, maintainable cloud-native apps",
+      "AWS best practices",
+      "K8s guidelines",
+      "CI/CD standards"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Best practices for building scalable, maintainable cloud-native apps."
+  },
+  {
+    "id": "DEVOPS_CLO_064",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is factor III (Config) in 12-factor?",
+    "options": [
+      "Store configuration in environment variables, not code",
+      "Database connection",
+      "Feature flags",
+      "Caching config"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Store configuration in environment variables, not code."
+  },
+  {
+    "id": "DEVOPS_CLO_065",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is factor VI (Processes) in 12-factor?",
+    "options": [
+      "Execute app as stateless processes with no shared state",
+      "Networking",
+      "Storage",
+      "Security"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Execute app as stateless processes with no shared state."
+  },
+  {
+    "id": "DEVOPS_CLO_066",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q993] What is mean time to recovery (MTTR)?",
+    "question": "What is a microservice architecture?",
     "options": [
-      "Build time",
-      "Deploy time",
-      "Cannot be determined",
-      "Average time to restore service"
+      "Decomposing application into small, independently deployable services",
+      "Monolithic architecture",
+      "SOA",
+      "Serverless architecture"
     ],
     "answer": 0,
-    "explanation": "MTTR measures how quickly systems recover from failure."
+    "explanation": "The correct answer is Decomposing application into small, independently deployable services."
   },
   {
-    "id": "devops_1994",
+    "id": "DEVOPS_CLO_067",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q994] SRE stands for",
+    "question": "What is service discovery?",
     "options": [
-      "Insufficient information",
-      "System Resource Engineering",
-      "Site Reliability Engineering",
-      "Software Release Engineering"
+      "How microservices find and connect to each other dynamically",
+      "DNS only",
+      "Load balancing",
+      "API gateway"
     ],
     "answer": 0,
-    "explanation": "SRE applies software engineering to operations."
+    "explanation": "The correct answer is How microservices find and connect to each other dynamically."
   },
   {
-    "id": "devops_1995",
+    "id": "DEVOPS_CLO_068",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is AWS service discovery (Cloud Map)?",
+    "options": [
+      "Managed service discovery for cloud resources and microservices",
+      "Route 53 variant",
+      "Load balancer",
+      "API registry"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Managed service discovery for cloud resources and microservices."
+  },
+  {
+    "id": "DEVOPS_CLO_069",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is circuit breaker pattern?",
+    "options": [
+      "Stops requests to failing service and fails fast to prevent cascade",
+      "Retry pattern",
+      "Timeout pattern",
+      "Bulkhead pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stops requests to failing service and fails fast to prevent cascade."
+  },
+  {
+    "id": "DEVOPS_CLO_070",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is bulkhead pattern?",
+    "options": [
+      "Isolating resources for different services to prevent one failing all",
+      "Circuit breaker",
+      "Retry pattern",
+      "Fallback pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Isolating resources for different services to prevent one failing all."
+  },
+  {
+    "id": "DEVOPS_CLO_071",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q995] What is chaos engineering?",
+    "question": "What is retry with exponential backoff?",
     "options": [
-      "Normal testing",
-      "Intentional failure testing",
-      "Option not applicable",
-      "Load testing"
+      "Retrying failed requests with increasing delay to reduce load",
+      "Fixed retry",
+      "Immediate retry",
+      "Single retry"
     ],
     "answer": 0,
-    "explanation": "Chaos engineering tests resilience via failures."
+    "explanation": "The correct answer is Retrying failed requests with increasing delay to reduce load."
   },
   {
-    "id": "devops_1996",
+    "id": "DEVOPS_CLO_072",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is eventual consistency?",
+    "options": [
+      "Distributed systems where all nodes will eventually have same data (not immediate)",
+      "Strong consistency",
+      "Immediate consistency",
+      "No consistency"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Distributed systems where all nodes will eventually have same data (not immediate)."
+  },
+  {
+    "id": "DEVOPS_CLO_073",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is CAP theorem?",
+    "options": [
+      "Consistency, Availability, Partition Tolerance — can only guarantee 2 of 3",
+      "3 cloud models",
+      "Cloud SLA",
+      "Distributed design"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Consistency, Availability, Partition Tolerance — can only guarantee 2 of 3."
+  },
+  {
+    "id": "DEVOPS_CLO_074",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q996] Artifact repository stores",
+    "question": "What is a stateless service?",
     "options": [
-      "Cannot be determined",
-      "Built software artifacts",
-      "Source code",
-      "Logs"
+      "Service that stores no session state and can be replaced by any instance",
+      "Stateful service",
+      "Cached service",
+      "Database service"
     ],
     "answer": 0,
-    "explanation": "Nexus/JFrog store build artifacts for deployment."
+    "explanation": "The correct answer is Service that stores no session state and can be replaced by any instance."
   },
   {
-    "id": "devops_1997",
+    "id": "DEVOPS_CLO_075",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is object storage vs block storage?",
+    "options": [
+      "Object: flat namespace with metadata; Block: low-level raw storage",
+      "No difference",
+      "Block has metadata",
+      "Object is faster"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Object: flat namespace with metadata; Block: low-level raw storage."
+  },
+  {
+    "id": "DEVOPS_CLO_076",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q997] What is feature flag?",
+    "question": "What is AWS EBS?",
     "options": [
-      "Test case",
-      "Git branch",
-      "Toggle features without deploy",
-      "Data not provided"
+      "Elastic Block Store — persistent block storage for EC2 instances",
+      "Object storage",
+      "File storage",
+      "Cache storage"
     ],
     "answer": 0,
-    "explanation": "Feature flags enable/disable features at runtime."
+    "explanation": "The correct answer is Elastic Block Store — persistent block storage for EC2 instances."
   },
   {
-    "id": "devops_1998",
+    "id": "DEVOPS_CLO_077",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q998] What is observability?",
+    "question": "What is AWS EFS?",
     "options": [
-      "Logs metrics traces",
-      "Only metrics",
-      "The above is incorrect",
-      "Only logs"
+      "Elastic File System — managed NFS for shared file access across EC2",
+      "Block storage",
+      "Object storage",
+      "Cache storage"
     ],
     "answer": 0,
-    "explanation": "Observability covers logs, metrics, and tracing."
+    "explanation": "The correct answer is Elastic File System — managed NFS for shared file access across EC2."
   },
   {
-    "id": "devops_1999",
+    "id": "DEVOPS_CLO_078",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q999] What is a rollback?",
+    "question": "What is the purpose of AWS Elastic Beanstalk?",
     "options": [
-      "New release",
-      "Forward deploy",
-      "Cannot be determined",
-      "Reverting to previous version"
+      "PaaS for deploying web apps without managing underlying infrastructure",
+      "Container service",
+      "VM service",
+      "Database service"
     ],
     "answer": 0,
-    "explanation": "Rollbacks undo a bad deployment."
+    "explanation": "The correct answer is PaaS for deploying web apps without managing underlying infrastructure."
   },
   {
-    "id": "devops_2000",
+    "id": "DEVOPS_CLO_079",
     "topic": "DevOps Engineer",
     "section": "Cloud & Security",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[DEVOPS-Q1000] DevSecOps means",
+    "question": "What is AWS Lightsail?",
     "options": [
-      "Data not provided",
-      "Security team separate",
-      "Security integrated into DevOps",
-      "Dev without security"
+      "Simplified cloud service for small applications (VPS-like)",
+      "EC2 variant",
+      "Lambda variant",
+      "S3 variant"
     ],
     "answer": 0,
-    "explanation": "DevSecOps embeds security throughout the pipeline."
+    "explanation": "The correct answer is Simplified cloud service for small applications (VPS-like)."
+  },
+  {
+    "id": "DEVOPS_CLO_080",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is infrastructure drift detection in cloud?",
+    "options": [
+      "Finding differences between IaC definition and actual cloud state",
+      "Monitoring drift",
+      "Cost drift",
+      "Security drift"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Finding differences between IaC definition and actual cloud state."
+  },
+  {
+    "id": "DEVOPS_CLO_081",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is cloud landing zone?",
+    "options": [
+      "Pre-configured environment with security, governance, and networking best practices",
+      "Single account setup",
+      "Development environment",
+      "Testing environment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pre-configured environment with security, governance, and networking best practices."
+  },
+  {
+    "id": "DEVOPS_CLO_082",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is AWS Organizations?",
+    "options": [
+      "Managing multiple AWS accounts with centralized policies and billing",
+      "Single account",
+      "Team management",
+      "Project management"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Managing multiple AWS accounts with centralized policies and billing."
+  },
+  {
+    "id": "DEVOPS_CLO_083",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a service catalog in cloud?",
+    "options": [
+      "Pre-approved cloud resources/templates teams can deploy self-service",
+      "Feature catalog",
+      "Cost catalog",
+      "Compliance catalog"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pre-approved cloud resources/templates teams can deploy self-service."
+  },
+  {
+    "id": "DEVOPS_CLO_084",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is cloud governance?",
+    "options": [
+      "Policies and controls ensuring cloud usage is compliant, cost-effective, secure",
+      "Cloud management",
+      "Cloud monitoring",
+      "Cloud deployment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Policies and controls ensuring cloud usage is compliant, cost-effective, secure."
+  },
+  {
+    "id": "DEVOPS_CLO_085",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is CapEx vs OpEx in cloud?",
+    "options": [
+      "CapEx is upfront investment; OpEx is ongoing operational costs",
+      "No difference",
+      "Cloud eliminates both",
+      "CapEx is for cloud"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is CapEx is upfront investment; OpEx is ongoing operational costs."
+  },
+  {
+    "id": "DEVOPS_CLO_086",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is total cost of ownership (TCO) in cloud?",
+    "options": [
+      "Complete cost including compute, storage, network, support, and management",
+      "Just compute cost",
+      "Just license cost",
+      "Just hardware cost"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Complete cost including compute, storage, network, support, and management."
+  },
+  {
+    "id": "DEVOPS_CLO_087",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is cloud native CNCF?",
+    "options": [
+      "Cloud Native Computing Foundation — open standards and projects for cloud-native",
+      "Amazon foundation",
+      "Google foundation",
+      "Microsoft foundation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cloud Native Computing Foundation — open standards and projects for cloud-native."
+  },
+  {
+    "id": "DEVOPS_CLO_088",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Kubernetes' role in the cloud-native ecosystem?",
+    "options": [
+      "Standard for container orchestration enabling cloud-portable deployments",
+      "CI/CD tool",
+      "Monitoring tool",
+      "Security tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Standard for container orchestration enabling cloud-portable deployments."
+  },
+  {
+    "id": "DEVOPS_CLO_089",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the difference between vertical and horizontal scaling?",
+    "options": [
+      "Vertical adds resources to one machine; horizontal adds more machines",
+      "No difference",
+      "Vertical adds machines",
+      "Horizontal adds resources"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Vertical adds resources to one machine; horizontal adds more machines."
+  },
+  {
+    "id": "DEVOPS_CLO_090",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is chaos engineering in cloud?",
+    "options": [
+      "Testing resilience by intentionally causing failures in production",
+      "Manual testing",
+      "Performance testing",
+      "Security testing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Testing resilience by intentionally causing failures in production."
+  },
+  {
+    "id": "DEVOPS_DOC_095",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a Docker health check exit code?",
+    "options": [
+      "0=healthy, 1=unhealthy — used to trigger container restart policies",
+      "0=unhealthy",
+      "1=healthy",
+      "No exit codes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is 0=healthy, 1=unhealthy — used to trigger container restart policies."
+  },
+  {
+    "id": "DEVOPS_DOC_096",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the HEALTHCHECK interval?",
+    "options": [
+      "Time between health check runs (default 30s)",
+      "Time to run",
+      "Timeout value",
+      "Retries count"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Time between health check runs (default 30s)."
+  },
+  {
+    "id": "DEVOPS_DOC_097",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the HEALTHCHECK retries?",
+    "options": [
+      "Consecutive failures before container is marked unhealthy (default 3)",
+      "Successes needed",
+      "Time between",
+      "Start period"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Consecutive failures before container is marked unhealthy (default 3)."
+  },
+  {
+    "id": "DEVOPS_DOC_098",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the HEALTHCHECK start-period?",
+    "options": [
+      "Grace period during startup before health check failures count (default 0s)",
+      "Timeout",
+      "Interval",
+      "Retries"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Grace period during startup before health check failures count (default 0s)."
+  },
+  {
+    "id": "DEVOPS_DOC_099",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is docker system df?",
+    "options": [
+      "Shows Docker disk usage by images, containers, and volumes",
+      "System info",
+      "Disk info",
+      "Memory info"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows Docker disk usage by images, containers, and volumes."
+  },
+  {
+    "id": "DEVOPS_DOC_100",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is docker system prune?",
+    "options": [
+      "Removes all stopped containers, dangling images, unused networks/build cache",
+      "Selective prune",
+      "Volume prune",
+      "Image prune"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Removes all stopped containers, dangling images, unused networks/build cache."
+  },
+  {
+    "id": "DEVOPS_DOC_101",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the --volumes flag on docker system prune?",
+    "options": [
+      "Also removes unused volumes (dangerous — data loss possible)",
+      "Required flag",
+      "Safe flag",
+      "Performance flag"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Also removes unused volumes (dangerous — data loss possible)."
+  },
+  {
+    "id": "DEVOPS_DOC_102",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is docker image prune -a?",
+    "options": [
+      "Removes all unused images not just dangling ones",
+      "Only dangling",
+      "System prune",
+      "Container prune"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Removes all unused images not just dangling ones."
+  },
+  {
+    "id": "DEVOPS_DOC_103",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a dangling image?",
+    "options": [
+      "Image with no tag and not referenced by any container",
+      "Unused image",
+      "Old image",
+      "Cached image"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Image with no tag and not referenced by any container."
+  },
+  {
+    "id": "DEVOPS_DOC_104",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Docker BuildKit inline cache?",
+    "options": [
+      "--cache-from with --build-arg BUILDKIT_INLINE_CACHE=1 for CI caching",
+      "Registry cache",
+      "Local cache",
+      "Layer cache"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is --cache-from with --build-arg BUILDKIT_INLINE_CACHE=1 for CI caching."
+  },
+  {
+    "id": "DEVOPS_DOC_105",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the GitHub Actions Docker layer cache?",
+    "options": [
+      "actions/cache caching Docker layers between CI runs",
+      "Not possible",
+      "Automatic",
+      "Manual only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is actions/cache caching Docker layers between CI runs."
+  },
+  {
+    "id": "DEVOPS_DOC_106",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Docker's --target flag in multistage build?",
+    "options": [
+      "Build only up to specific stage: docker build --target builder",
+      "Required flag",
+      "Performance flag",
+      "Debug flag"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Build only up to specific stage: docker build --target builder."
+  },
+  {
+    "id": "DEVOPS_DOC_107",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Docker context server?",
+    "options": [
+      "Docker daemon managing images/containers — can be remote via TCP/SSH",
+      "Local only",
+      "Registry",
+      "Client"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Docker daemon managing images/containers — can be remote via TCP/SSH."
+  },
+  {
+    "id": "DEVOPS_DOC_108",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is docker context?",
+    "options": [
+      "Named Docker endpoint configuration (local or remote daemon)",
+      "Docker namespace",
+      "Docker network",
+      "Docker volume"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Named Docker endpoint configuration (local or remote daemon)."
+  },
+  {
+    "id": "DEVOPS_DOC_109",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is docker context use?",
+    "options": [
+      "Switches active Docker context to target daemon",
+      "Creates context",
+      "Lists contexts",
+      "Removes context"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Switches active Docker context to target daemon."
+  },
+  {
+    "id": "DEVOPS_DOC_110",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the DOCKER_HOST variable?",
+    "options": [
+      "Overrides Docker daemon socket/address for client connections",
+      "Docker version",
+      "Build context",
+      "Registry address"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Overrides Docker daemon socket/address for client connections."
+  },
+  {
+    "id": "DEVOPS_DOC_111",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is docker scout?",
+    "options": [
+      "Docker's vulnerability scanning and software composition analysis tool",
+      "Docker security",
+      "Docker monitoring",
+      "Docker CI/CD"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Docker's vulnerability scanning and software composition analysis tool."
+  },
+  {
+    "id": "DEVOPS_DOC_112",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Docker's rootless mode?",
+    "options": [
+      "Running Docker daemon as non-root user for improved security",
+      "Required mode",
+      "Default mode",
+      "Debug mode"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Running Docker daemon as non-root user for improved security."
+  },
+  {
+    "id": "DEVOPS_DOC_113",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Docker in Docker security risk?",
+    "options": [
+      "Requires privileged mode or host socket mount — security vulnerabilities",
+      "No risk",
+      "Performance risk",
+      "Memory risk"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Requires privileged mode or host socket mount — security vulnerabilities."
+  },
+  {
+    "id": "DEVOPS_DOC_114",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is kaniko as dind alternative?",
+    "options": [
+      "Builds Docker images without Docker daemon — safe in Kubernetes",
+      "Docker alternative",
+      "Container runtime",
+      "K8s only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Builds Docker images without Docker daemon — safe in Kubernetes."
+  },
+  {
+    "id": "DEVOPS_KUB_094",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is kubelet?",
+    "options": [
+      "Agent on each node ensuring containers are running in Pods",
+      "Control plane component",
+      "Networking component",
+      "Storage component"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Agent on each node ensuring containers are running in Pods."
+  },
+  {
+    "id": "DEVOPS_KUB_095",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is kube-proxy's role?",
+    "options": [
+      "Maintains iptables/IPVS rules on nodes for service traffic routing",
+      "DNS service",
+      "Storage management",
+      "Container runtime"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Maintains iptables/IPVS rules on nodes for service traffic routing."
+  },
+  {
+    "id": "DEVOPS_KUB_096",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the container runtime interface (CRI)?",
+    "options": [
+      "K8s standard interface for container runtimes (containerd, CRI-O)",
+      "Docker only",
+      "OCI standard",
+      "K8s runtime"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is K8s standard interface for container runtimes (containerd, CRI-O)."
+  },
+  {
+    "id": "DEVOPS_KUB_097",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is CRI-O?",
+    "options": [
+      "Lightweight container runtime designed specifically for Kubernetes",
+      "Docker alternative",
+      "containerd alternative",
+      "runc alternative"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Lightweight container runtime designed specifically for Kubernetes."
+  },
+  {
+    "id": "DEVOPS_KUB_098",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the K8s control loop?",
+    "options": [
+      "Continuously compare desired state to actual state and reconcile",
+      "Event loop",
+      "Message loop",
+      "Request loop"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Continuously compare desired state to actual state and reconcile."
+  },
+  {
+    "id": "DEVOPS_KUB_099",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a K8s informer?",
+    "options": [
+      "Watch mechanism caching K8s resources and triggering handlers on change",
+      "Controller",
+      "Operator",
+      "Reconciler"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Watch mechanism caching K8s resources and triggering handlers on change."
+  },
+  {
+    "id": "DEVOPS_KUB_100",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is K8s workqueue?",
+    "options": [
+      "Rate-limited queue managing items to be processed by controller",
+      "Event queue",
+      "Message queue",
+      "Task queue"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Rate-limited queue managing items to be processed by controller."
+  },
+  {
+    "id": "DEVOPS_KUB_101",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the leader election in K8s?",
+    "options": [
+      "Ensures only one instance of controller runs at a time in HA setup",
+      "Load balancing",
+      "Round robin",
+      "Active-passive"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Ensures only one instance of controller runs at a time in HA setup."
+  },
+  {
+    "id": "DEVOPS_KUB_102",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is etcd raft consensus?",
+    "options": [
+      "Etcd uses Raft protocol requiring majority of nodes for writes",
+      "Paxos consensus",
+      "2PC consensus",
+      "Byzantine consensus"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Etcd uses Raft protocol requiring majority of nodes for writes."
+  },
+  {
+    "id": "DEVOPS_KUB_103",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is K8s API server rate limiting?",
+    "options": [
+      "Limits requests per second to prevent API server overload",
+      "No rate limiting",
+      "Fixed rate",
+      "Adaptive rate"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Limits requests per second to prevent API server overload."
+  },
+  {
+    "id": "DEVOPS_KUB_104",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a K8s webhook?",
+    "options": [
+      "HTTP callback extending K8s API (admission or conversion webhooks)",
+      "K8s plugin",
+      "K8s CRD",
+      "K8s operator"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is HTTP callback extending K8s API (admission or conversion webhooks)."
+  },
+  {
+    "id": "DEVOPS_KUB_105",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is mutating admission webhook?",
+    "options": [
+      "Modifies K8s objects before they're stored (inject sidecars)",
+      "Validates objects",
+      "Reads objects",
+      "Deletes objects"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Modifies K8s objects before they're stored (inject sidecars)."
+  },
+  {
+    "id": "DEVOPS_KUB_106",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is validating admission webhook?",
+    "options": [
+      "Validates K8s objects and can reject them before storage",
+      "Mutates objects",
+      "Reads objects",
+      "Deletes objects"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Validates K8s objects and can reject them before storage."
+  },
+  {
+    "id": "DEVOPS_KUB_107",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between MutatingAdmissionWebhook and OPA Gatekeeper?",
+    "options": [
+      "Gatekeeper uses CRD-based policies via OPA; webhook is custom code",
+      "Same",
+      "Webhook is declarative",
+      "Gatekeeper is imperative"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Gatekeeper uses CRD-based policies via OPA; webhook is custom code."
+  },
+  {
+    "id": "DEVOPS_KUB_108",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is pod preemption in K8s?",
+    "options": [
+      "Higher-priority pod evicts lower-priority pod to get resources",
+      "Pod scheduling",
+      "Pod migration",
+      "Pod restart"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Higher-priority pod evicts lower-priority pod to get resources."
+  },
+  {
+    "id": "DEVOPS_KUB_109",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is pod disruption budget enforcement?",
+    "options": [
+      "K8s respects PDB during voluntary disruptions like node drains",
+      "Optional feature",
+      "Automatic feature",
+      "Manual feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is K8s respects PDB during voluntary disruptions like node drains."
+  },
+  {
+    "id": "DEVOPS_KUB_110",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of node cordoning?",
+    "options": [
+      "Prevents new pods from being scheduled on a node (maintenance)",
+      "Drains node",
+      "Deletes node",
+      "Restarts node"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Prevents new pods from being scheduled on a node (maintenance)."
+  },
+  {
+    "id": "DEVOPS_KUB_111",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the difference between cordon and drain?",
+    "options": [
+      "Cordon stops new scheduling; drain evicts existing pods too",
+      "Same",
+      "Drain stops scheduling",
+      "Cordon evicts pods"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cordon stops new scheduling; drain evicts existing pods too."
+  },
+  {
+    "id": "DEVOPS_KUB_112",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is K8s horizontal pod autoscaler cool-down?",
+    "options": [
+      "Stabilization window preventing flapping: default 5min scale-down",
+      "No cool-down",
+      "Fixed 1 min",
+      "Fixed 10 min"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stabilization window preventing flapping: default 5min scale-down."
+  },
+  {
+    "id": "DEVOPS_KUB_113",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is KEDA (Kubernetes Event-Driven Autoscaler)?",
+    "options": [
+      "Extends HPA with custom metrics from queues, databases, events",
+      "HPA replacement",
+      "VPA replacement",
+      "Standard HPA"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Extends HPA with custom metrics from queues, databases, events."
+  },
+  {
+    "id": "DEVOPS_SEC_094",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is CVE triage?",
+    "options": [
+      "Evaluating CVEs to determine relevance, exploitability, and priority",
+      "Fix all CVEs",
+      "Ignore CVEs",
+      "Report CVEs"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Evaluating CVEs to determine relevance, exploitability, and priority."
+  },
+  {
+    "id": "DEVOPS_SEC_095",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the CVSS vector string?",
+    "options": [
+      "Encodes all CVSS metrics as compact string (AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H)",
+      "Score only",
+      "Description only",
+      "Vendor string"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Encodes all CVSS metrics as compact string (AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H)."
+  },
+  {
+    "id": "DEVOPS_SEC_096",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is epss (exploit prediction scoring system)?",
+    "options": [
+      "Probability score for CVE being exploited in next 30 days",
+      "CVSS variant",
+      "NVD score",
+      "Vendor score"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Probability score for CVE being exploited in next 30 days."
+  },
+  {
+    "id": "DEVOPS_SEC_097",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is VEX (Vulnerability Exploitability eXchange)?",
+    "options": [
+      "Statements asserting whether product is affected by specific CVE",
+      "CVE format",
+      "SBOM format",
+      "CVSS format"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Statements asserting whether product is affected by specific CVE."
+  },
+  {
+    "id": "DEVOPS_SEC_098",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is in-toto supply chain security?",
+    "options": [
+      "Defines and verifies each step in software supply chain",
+      "SLSA framework",
+      "Sigstore",
+      "SBOM"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defines and verifies each step in software supply chain."
+  },
+  {
+    "id": "DEVOPS_SEC_099",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of branch protection rules?",
+    "options": [
+      "Prevent direct pushes to protected branches, require reviews",
+      "Optional feature",
+      "Git feature",
+      "CI/CD feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Prevent direct pushes to protected branches, require reviews."
+  },
+  {
+    "id": "DEVOPS_SEC_100",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is code owner review requirement?",
+    "options": [
+      "Require approval from code owners before merging (CODEOWNERS file)",
+      "Optional approval",
+      "Automatic approval",
+      "Team approval"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Require approval from code owners before merging (CODEOWNERS file)."
+  },
+  {
+    "id": "DEVOPS_SEC_101",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is Dependabot security alerts?",
+    "options": [
+      "GitHub notifications about known vulnerabilities in dependencies",
+      "Optional feature",
+      "GitHub Pro only",
+      "Enterprise only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is GitHub notifications about known vulnerabilities in dependencies."
+  },
+  {
+    "id": "DEVOPS_SEC_102",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SBOM attestation?",
+    "options": [
+      "Signed SBOM attached to container image for verifiable composition",
+      "Unsigned SBOM",
+      "Embedded SBOM",
+      "External SBOM"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Signed SBOM attached to container image for verifiable composition."
+  },
+  {
+    "id": "DEVOPS_SEC_103",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the NIST Cybersecurity Framework?",
+    "options": [
+      "5-function framework: Identify, Protect, Detect, Respond, Recover",
+      "3-function",
+      "6-function",
+      "OWASP framework"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is 5-function framework: Identify, Protect, Detect, Respond, Recover."
+  },
+  {
+    "id": "DEVOPS_SEC_104",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of security headers in HTTP?",
+    "options": [
+      "Protect against XSS, clickjacking, MIME sniffing via response headers",
+      "Request headers",
+      "Auth headers",
+      "Cache headers"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Protect against XSS, clickjacking, MIME sniffing via response headers."
+  },
+  {
+    "id": "DEVOPS_SEC_105",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Content Security Policy (CSP)?",
+    "options": [
+      "HTTP header restricting sources for scripts, styles, images",
+      "CORS header",
+      "X-Frame-Options",
+      "HSTS"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is HTTP header restricting sources for scripts, styles, images."
+  },
+  {
+    "id": "DEVOPS_SEC_106",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is HSTS (HTTP Strict Transport Security)?",
+    "options": [
+      "Forces HTTPS connections, prevents SSL stripping attacks",
+      "CORS",
+      "CSP",
+      "X-Frame-Options"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Forces HTTPS connections, prevents SSL stripping attacks."
+  },
+  {
+    "id": "DEVOPS_SEC_107",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is CORS in DevOps context?",
+    "options": [
+      "Server configuration allowing cross-origin requests from allowed origins",
+      "Client config",
+      "Browser config",
+      "Proxy config"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Server configuration allowing cross-origin requests from allowed origins."
+  },
+  {
+    "id": "DEVOPS_SEC_108",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is certificate pinning?",
+    "options": [
+      "Hardcoding expected certificate fingerprint to prevent MitM even with valid cert",
+      "Certificate rotation",
+      "Certificate backup",
+      "Certificate validation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hardcoding expected certificate fingerprint to prevent MitM even with valid cert."
+  },
+  {
+    "id": "DEVOPS_SEC_109",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is credential stuffing?",
+    "options": [
+      "Using leaked username/password pairs to attack other services",
+      "Brute force",
+      "Dictionary attack",
+      "Phishing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Using leaked username/password pairs to attack other services."
+  },
+  {
+    "id": "DEVOPS_SEC_110",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a rainbow table attack?",
+    "options": [
+      "Precomputed hash-to-password mappings for cracking hashed passwords",
+      "Brute force",
+      "Dictionary attack",
+      "Birthday attack"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Precomputed hash-to-password mappings for cracking hashed passwords."
+  },
+  {
+    "id": "DEVOPS_SEC_111",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is salting passwords?",
+    "options": [
+      "Adding random value before hashing to prevent rainbow table attacks",
+      "Peppering",
+      "Stretching",
+      "Encryption"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Adding random value before hashing to prevent rainbow table attacks."
+  },
+  {
+    "id": "DEVOPS_SEC_112",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is bcrypt advantage?",
+    "options": [
+      "Slow hashing algorithm with cost factor — expensive to brute force",
+      "Fast hashing",
+      "Standard hash",
+      "No advantage"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Slow hashing algorithm with cost factor — expensive to brute force."
+  },
+  {
+    "id": "DEVOPS_SEC_113",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is secrets sprawl?",
+    "options": [
+      "Secrets appearing in multiple unauthorized locations increasing exposure risk",
+      "Centralized secrets",
+      "Rotated secrets",
+      "Encrypted secrets"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Secrets appearing in multiple unauthorized locations increasing exposure risk."
+  },
+  {
+    "id": "DEVOPS_DOC_116",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Docker's OCI (Open Container Initiative)?",
+    "options": [
+      "Industry standard for container image format and runtime specification",
+      "Docker-only standard",
+      "Kubernetes standard",
+      "Cloud standard"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Industry standard for container image format and runtime specification."
+  },
+  {
+    "id": "DEVOPS_DOC_117",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the containerd vs Docker relationship?",
+    "options": [
+      "Docker uses containerd as its container runtime; containerd is the lower-level daemon",
+      "Same",
+      "Separate products",
+      "containerd uses Docker"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Docker uses containerd as its container runtime; containerd is the lower-level daemon."
+  },
+  {
+    "id": "DEVOPS_DOC_118",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is runc?",
+    "options": [
+      "Low-level OCI runtime that actually creates containers (used by containerd)",
+      "High-level runtime",
+      "Docker daemon",
+      "Kubernetes runtime"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Low-level OCI runtime that actually creates containers (used by containerd)."
+  },
+  {
+    "id": "DEVOPS_DOC_119",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is docker manifest?",
+    "options": [
+      "Multi-architecture image descriptor pointing to platform-specific images",
+      "Image metadata",
+      "Image tag",
+      "Image digest"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Multi-architecture image descriptor pointing to platform-specific images."
+  },
+  {
+    "id": "DEVOPS_DOC_120",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is docker buildx bake?",
+    "options": [
+      "Builds multiple images in parallel from a bake file configuration",
+      "Sequential build",
+      "Single build",
+      "Cache build"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Builds multiple images in parallel from a bake file configuration."
+  },
+  {
+    "id": "DEVOPS_KUB_114",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is eBPF in Kubernetes networking?",
+    "options": [
+      "Programmable kernel technology enabling high-performance networking and observability",
+      "Standard networking",
+      "iptables replacement",
+      "Optional networking"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Programmable kernel technology enabling high-performance networking and observability."
+  },
+  {
+    "id": "DEVOPS_KUB_115",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Cilium?",
+    "options": [
+      "eBPF-based networking and security for Kubernetes with deep observability",
+      "Standard CNI",
+      "Calico alternative",
+      "Simple networking"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is eBPF-based networking and security for Kubernetes with deep observability."
+  },
+  {
+    "id": "DEVOPS_KUB_116",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Calico?",
+    "options": [
+      "Network policy and security solution for Kubernetes using iptables/eBPF",
+      "Cilium alternative",
+      "Flannel alternative",
+      "Service mesh"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Network policy and security solution for Kubernetes using iptables/eBPF."
+  },
+  {
+    "id": "DEVOPS_KUB_117",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the K8s Gateway API?",
+    "options": [
+      "Next-generation Ingress replacement with more expressive, extensible routing",
+      "Current Ingress",
+      "Service API",
+      "Load balancer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Next-generation Ingress replacement with more expressive, extensible routing."
+  },
+  {
+    "id": "DEVOPS_KUB_118",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the HTTPRoute resource?",
+    "options": [
+      "Gateway API resource defining HTTP routing rules (replaces Ingress paths)",
+      "Ingress resource",
+      "Service resource",
+      "Route resource"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Gateway API resource defining HTTP routing rules (replaces Ingress paths)."
+  },
+  {
+    "id": "DEVOPS_KUB_119",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is OPA Gatekeeper?",
+    "options": [
+      "Kubernetes admission controller enforcing custom policies via OPA",
+      "Security scanner",
+      "RBAC tool",
+      "Network policy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Kubernetes admission controller enforcing custom policies via OPA."
+  },
+  {
+    "id": "DEVOPS_KUB_120",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Kyverno?",
+    "options": [
+      "Kubernetes-native policy engine using YAML policies (no Rego needed)",
+      "OPA alternative",
+      "RBAC tool",
+      "Security scanner"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Kubernetes-native policy engine using YAML policies (no Rego needed)."
+  },
+  {
+    "id": "DEVOPS_KUB_121",
+    "topic": "DevOps Engineer",
+    "section": "Docker & K8s",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Falco?",
+    "options": [
+      "Runtime security tool detecting anomalous container behavior in real-time",
+      "Static scanner",
+      "Policy tool",
+      "Network tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Runtime security tool detecting anomalous container behavior in real-time."
+  },
+  {
+    "id": "DEVOPS_GIT_139",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is git sparse-checkout?",
+    "options": [
+      "Check out only subset of files from large repository",
+      "Full checkout",
+      "Shallow clone",
+      "Partial clone"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Check out only subset of files from large repository."
+  },
+  {
+    "id": "DEVOPS_GIT_140",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is git partial clone?",
+    "options": [
+      "Clone with deferred download of large blobs/trees (--filter=blob:none)",
+      "Shallow clone",
+      "Sparse checkout",
+      "Regular clone"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Clone with deferred download of large blobs/trees (--filter=blob:none)."
+  },
+  {
+    "id": "DEVOPS_GIT_141",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is git bundle?",
+    "options": [
+      "Single file containing pack data for offline transport of git history",
+      "Archive",
+      "Patch file",
+      "Backup file"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Single file containing pack data for offline transport of git history."
+  },
+  {
+    "id": "DEVOPS_GIT_142",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the .gitattributes line ending setting?",
+    "options": [
+      "text=auto normalizes line endings — converts CRLF/LF consistently",
+      "Optional setting",
+      "Global setting",
+      "Server setting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is text=auto normalizes line endings — converts CRLF/LF consistently."
+  },
+  {
+    "id": "DEVOPS_GIT_143",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is git credential helper?",
+    "options": [
+      "Stores/retrieves credentials: store (plain), cache (memory), osxkeychain",
+      "Manual auth",
+      "SSH keys",
+      "Token files"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stores/retrieves credentials: store (plain), cache (memory), osxkeychain."
+  },
+  {
+    "id": "DEVOPS_CIC_102",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the GitLab Runner executor?",
+    "options": [
+      "Defines how jobs run: shell, docker, kubernetes, ssh, virtualbox",
+      "Job type",
+      "Pipeline type",
+      "Stage type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defines how jobs run: shell, docker, kubernetes, ssh, virtualbox."
+  },
+  {
+    "id": "DEVOPS_CIC_103",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is GitHub Actions composite action?",
+    "options": [
+      "Reusable action combining multiple steps into single action",
+      "Docker action",
+      "JavaScript action",
+      "Shell action"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reusable action combining multiple steps into single action."
+  },
+  {
+    "id": "DEVOPS_CIC_104",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the actions/cache best practice?",
+    "options": [
+      "Use restore-keys for fallback when exact key miss — partial cache hit",
+      "Required keys",
+      "Optional keys",
+      "No fallback"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Use restore-keys for fallback when exact key miss — partial cache hit."
+  },
+  {
+    "id": "DEVOPS_CIC_105",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a reusable workflow in GitHub Actions?",
+    "options": [
+      "workflow_call trigger allowing other workflows to call it",
+      "Required feature",
+      "Optional feature",
+      "Enterprise only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is workflow_call trigger allowing other workflows to call it."
+  },
+  {
+    "id": "DEVOPS_CIC_106",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is environment protection rule in GitHub Actions?",
+    "options": [
+      "Require reviewers before deploying to protected environments",
+      "Optional feature",
+      "Enterprise only",
+      "Default feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Require reviewers before deploying to protected environments."
+  },
+  {
+    "id": "DEVOPS_MON_106",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is OpenTelemetry SDK?",
+    "options": [
+      "Instrumentation library for generating traces, metrics, logs in your app",
+      "Collector only",
+      "Backend only",
+      "Vendor tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Instrumentation library for generating traces, metrics, logs in your app."
+  },
+  {
+    "id": "DEVOPS_MON_107",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the OpenTelemetry Collector?",
+    "options": [
+      "Vendor-agnostic proxy for receiving, processing, exporting telemetry data",
+      "SDK component",
+      "Backend service",
+      "Visualization tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Vendor-agnostic proxy for receiving, processing, exporting telemetry data."
+  },
+  {
+    "id": "DEVOPS_MON_108",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the OTLP (OpenTelemetry Protocol)?",
+    "options": [
+      "Standard wire protocol for transmitting telemetry data",
+      "Prometheus protocol",
+      "Jaeger protocol",
+      "Custom protocol"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Standard wire protocol for transmitting telemetry data."
+  },
+  {
+    "id": "DEVOPS_MON_109",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Jaeger?",
+    "options": [
+      "Open-source distributed tracing platform for microservices",
+      "Metrics tool",
+      "Logging tool",
+      "APM tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Open-source distributed tracing platform for microservices."
+  },
+  {
+    "id": "DEVOPS_MON_110",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Zipkin?",
+    "options": [
+      "Distributed tracing system for collecting timing data",
+      "Jaeger alternative",
+      "Metrics tool",
+      "Log tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Distributed tracing system for collecting timing data."
+  },
+  {
+    "id": "DEVOPS_TER_102",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the terragrunt tool?",
+    "options": [
+      "Thin wrapper adding DRY principles and dependency management to Terraform",
+      "Terraform replacement",
+      "Optional wrapper",
+      "Testing tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Thin wrapper adding DRY principles and dependency management to Terraform."
+  },
+  {
+    "id": "DEVOPS_TER_103",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is OpenTofu?",
+    "options": [
+      "Open-source Terraform fork maintained by Linux Foundation after BSL license change",
+      "Terraform itself",
+      "Pulumi alternative",
+      "CDK alternative"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Open-source Terraform fork maintained by Linux Foundation after BSL license change."
+  },
+  {
+    "id": "DEVOPS_TER_104",
+    "topic": "DevOps Engineer",
+    "section": "IaC & Linux",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the terraform workspace command?",
+    "options": [
+      "Manages multiple state files within same configuration (dev, staging, prod)",
+      "Backend command",
+      "Module command",
+      "Provider command"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Manages multiple state files within same configuration (dev, staging, prod)."
+  },
+  {
+    "id": "DEVOPS_PIP_106",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the software supply chain attack?",
+    "options": [
+      "Compromising upstream dependency/build tool to inject malicious code downstream",
+      "Direct attack",
+      "Phishing attack",
+      "Ransomware"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Compromising upstream dependency/build tool to inject malicious code downstream."
+  },
+  {
+    "id": "DEVOPS_PIP_107",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is dependency pinning?",
+    "options": [
+      "Locking dependencies to exact version hashes to prevent unexpected changes",
+      "Version ranges",
+      "Semantic versioning",
+      "Latest always"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Locking dependencies to exact version hashes to prevent unexpected changes."
+  },
+  {
+    "id": "DEVOPS_PIP_108",
+    "topic": "DevOps Engineer",
+    "section": "CI/CD & Git",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Sigstore project?",
+    "options": [
+      "Free, open-source supply chain security tools: cosign, fulcio, rekor",
+      "SLSA framework",
+      "In-toto framework",
+      "OCI project"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Free, open-source supply chain security tools: cosign, fulcio, rekor."
+  },
+  {
+    "id": "DEVOPS_SEC_115",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is zero trust network architecture?",
+    "options": [
+      "Never trust, always verify — every request authenticated regardless of location",
+      "Perimeter security",
+      "VPN security",
+      "Firewall security"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Never trust, always verify — every request authenticated regardless of location."
+  },
+  {
+    "id": "DEVOPS_SEC_116",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is BeyondCorp (Google's zero trust)?",
+    "options": [
+      "Zero trust model where access is based on user and device context not network location",
+      "VPN-based",
+      "Perimeter-based",
+      "Trust-based"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Zero trust model where access is based on user and device context not network location."
+  },
+  {
+    "id": "DEVOPS_SEC_117",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is mutual TLS (mTLS)?",
+    "options": [
+      "Both client and server authenticate each other via certificates",
+      "One-way TLS",
+      "Standard TLS",
+      "No TLS"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Both client and server authenticate each other via certificates."
+  },
+  {
+    "id": "DEVOPS_SEC_118",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SPIFFE (Secure Production Identity Framework)?",
+    "options": [
+      "Standard for workload identity in dynamic cloud environments",
+      "User identity",
+      "Device identity",
+      "Network identity"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Standard for workload identity in dynamic cloud environments."
+  },
+  {
+    "id": "DEVOPS_SEC_119",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SPIRE?",
+    "options": [
+      "SPIFFE Runtime Environment implementing workload identity issuance and rotation",
+      "SPIFFE itself",
+      "Certificate manager",
+      "Secret manager"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SPIFFE Runtime Environment implementing workload identity issuance and rotation."
+  },
+  {
+    "id": "DEVOPS_SEC_120",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Vault Agent?",
+    "options": [
+      "Sidecar auto-renewing tokens and writing secrets to files for applications",
+      "Vault server",
+      "Vault CLI",
+      "Vault API"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sidecar auto-renewing tokens and writing secrets to files for applications."
+  },
+  {
+    "id": "DEVOPS_CLD_125",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is AWS Organizations SCP?",
+    "options": [
+      "Service Control Policy limiting maximum permissions across entire AWS accounts/OUs",
+      "IAM policy",
+      "Resource policy",
+      "Session policy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Service Control Policy limiting maximum permissions across entire AWS accounts/OUs."
+  },
+  {
+    "id": "DEVOPS_CLD_126",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the landing zone concept?",
+    "options": [
+      "Pre-configured multi-account AWS environment with governance baseline",
+      "Single account",
+      "VPC design",
+      "Network design"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pre-configured multi-account AWS environment with governance baseline."
+  },
+  {
+    "id": "DEVOPS_CLD_127",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is AWS Control Tower?",
+    "options": [
+      "Service automating multi-account AWS environment setup with guardrails",
+      "Optional service",
+      "IAM service",
+      "Network service"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Service automating multi-account AWS environment setup with guardrails."
+  },
+  {
+    "id": "DEVOPS_CLD_128",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is FinOps?",
+    "options": [
+      "Practice combining finance, operations, and engineering for cloud cost optimization",
+      "Cloud security",
+      "Cloud compliance",
+      "Cloud architecture"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Practice combining finance, operations, and engineering for cloud cost optimization."
+  },
+  {
+    "id": "DEVOPS_CLD_129",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is cloud cost allocation?",
+    "options": [
+      "Attributing cloud costs to teams/products via tags and account structure",
+      "Billing only",
+      "Budgeting only",
+      "Forecasting only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Attributing cloud costs to teams/products via tags and account structure."
+  },
+  {
+    "id": "DEVOPS_CLD_130",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is spot instance interruption handling?",
+    "options": [
+      "Two-minute warning before spot termination — save state, drain connections",
+      "No warning",
+      "Immediate termination",
+      "Five minutes warning"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Two-minute warning before spot termination — save state, drain connections."
+  },
+  {
+    "id": "DEVOPS_CLD_131",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is AWS Spot Fleet?",
+    "options": [
+      "Collection of spot instances maintaining target capacity across pools and AZs",
+      "Single spot",
+      "Spot group",
+      "Spot ASG"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Collection of spot instances maintaining target capacity across pools and AZs."
+  },
+  {
+    "id": "DEVOPS_CLD_132",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is GCP Preemptible vs Spot VMs?",
+    "options": [
+      "Preemptible: 24h max; Spot: no time limit but still preemptible",
+      "Same",
+      "Spot has time limit",
+      "Preemptible is permanent"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Preemptible: 24h max; Spot: no time limit but still preemptible."
+  },
+  {
+    "id": "DEVOPS_CLD_133",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the AWS Graviton processor benefit?",
+    "options": [
+      "ARM-based AWS processor offering better price-performance than x86",
+      "No benefit",
+      "Only for AI/ML",
+      "Only for memory"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is ARM-based AWS processor offering better price-performance than x86."
+  },
+  {
+    "id": "DEVOPS_CLD_134",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Azure ARC?",
+    "options": [
+      "Extends Azure management and governance to on-premises and multi-cloud",
+      "Azure-only",
+      "Cloud-only",
+      "Optional feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Extends Azure management and governance to on-premises and multi-cloud."
+  },
+  {
+    "id": "DEVOPS_CLD_135",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Google Anthos?",
+    "options": [
+      "Google's hybrid/multi-cloud platform for running K8s workloads anywhere",
+      "GKE only",
+      "Cloud only",
+      "On-prem only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Google's hybrid/multi-cloud platform for running K8s workloads anywhere."
+  },
+  {
+    "id": "DEVOPS_CLD_136",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the shared responsibility model?",
+    "options": [
+      "Cloud provider secures infrastructure; customer secures data and configuration",
+      "Provider does all",
+      "Customer does all",
+      "No responsibility"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cloud provider secures infrastructure; customer secures data and configuration."
+  },
+  {
+    "id": "DEVOPS_CLD_137",
+    "topic": "DevOps Engineer",
+    "section": "Cloud & Security",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is IaaS vs PaaS vs SaaS responsibility?",
+    "options": [
+      "IaaS: OS+; PaaS: app+data; SaaS: only data — customer responsibility decreases",
+      "Same responsibility",
+      "IaaS has least responsibility",
+      "SaaS has most responsibility"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is IaaS: OS+; PaaS: app+data; SaaS: only data — customer responsibility decreases."
   }
 ];

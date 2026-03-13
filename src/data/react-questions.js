@@ -1,16002 +1,14386 @@
 export const reactQuestions = [
   {
-    "id": "react_1001",
+    "id": "REACT_HOO_001",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q1] What is React?",
-    "options": [
-      "Backend framework",
-      "CSS framework",
-      "Database ORM",
-      "JavaScript UI library"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1002",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q2] JSX stands for",
-    "options": [
-      "JavaScript XML",
-      "JavaScript Extension",
-      "None of the above",
-      "Java Syntax Extension"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1003",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q3] useState returns",
-    "options": [
-      "State value and setter",
-      "Array of objects",
-      "Only setter",
-      "Only value"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1004",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q4] useEffect is used for",
-    "options": [
-      "Routing",
-      "Styling",
-      "Side effects",
-      "State management"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1005",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q5] Virtual DOM purpose",
-    "options": [
-      "CSS handling",
-      "Both B and C",
-      "Real DOM replacement",
-      "Performance optimization"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1006",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q6] Props are",
-    "options": [
-      "CSS classes",
-      "All of the above",
-      "Read-only data passed to components",
-      "Component state"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1007",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q7] State vs Props: State is",
-    "options": [
-      "Passed from parent",
-      "Immutable",
-      "Global",
-      "Mutable within component"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1008",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q8] React key prop purpose",
-    "options": [
-      "Neither A nor B",
-      "Style elements",
-      "Identify list items",
-      "Pass data"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1009",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q9] What is a higher-order component?",
-    "options": [
-      "Hook",
-      "Component that takes/returns component",
-      "Class component",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1010",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q10] useContext is used for",
-    "options": [
-      "Side effects",
-      "Consuming context",
-      "Local state",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1011",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q11] React.memo does what?",
-    "options": [
-      "Memoizes component",
-      "Both A and B",
-      "Handles effects",
-      "Creates context"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1012",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q12] What does ReactDOM.render do?",
-    "options": [
-      "Defines component",
-      "Both B and C",
-      "Renders React element to DOM",
-      "Creates state"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1013",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q13] Default export syntax in ES6",
-    "options": [
-      "export Component",
-      "export default Component",
-      "module.exports",
-      "export { Component }"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1014",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q14] What is prop drilling?",
-    "options": [
-      "Context API",
-      "Direct prop passing",
-      "Passing props through many layers",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1015",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q15] useReducer is used for",
-    "options": [
-      "Side effects",
-      "Simple state",
-      "The above is incorrect",
-      "Complex state logic"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1016",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q16] React Router's <Route> does what?",
-    "options": [
-      "Handles forms",
-      "Creates links",
-      "Both A and B",
-      "Maps path to component"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1017",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q17] What is lazy loading in React?",
-    "options": [
-      "Loading components on demand",
-      "Both B and C",
-      "Eager loading",
-      "Preloading"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1018",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q18] Controlled component means",
-    "options": [
-      "Both A and B",
-      "Uncontrolled input",
-      "Class component",
-      "Form input tied to state"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1019",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q19] What is reconciliation?",
-    "options": [
-      "React's DOM update process",
-      "All of the above",
-      "State creation",
-      "Initial render"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1020",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q20] Fragment in React",
-    "options": [
-      "Cannot be determined",
-      "Groups elements without extra DOM node",
-      "Adds a div",
-      "Creates context"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1021",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q21] useCallback memoizes",
-    "options": [
-      "Effects",
-      "Components",
-      "Values",
-      "Functions"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1022",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q22] useMemo memoizes",
-    "options": [
-      "Computed values",
-      "Effects",
-      "Components",
-      "Functions"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1023",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q23] What is the StrictMode?",
-    "options": [
-      "Production mode",
-      "Cannot be determined",
-      "Testing tool",
-      "Development helper for warnings"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1024",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q24] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useRef",
-      "useEffect with []",
-      "useState",
-      "useContext"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1025",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q25] useRef is used for",
-    "options": [
-      "Routing",
-      "Accessing DOM elements",
-      "Data not provided",
-      "State management"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1026",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q26] What triggers a re-render?",
-    "options": [
-      "CSS change",
-      "Comment change",
-      "State or prop change",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
-  },
-  {
-    "id": "react_1027",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q27] Context API solves",
-    "options": [
-      "Routing",
-      "Styling",
-      "Prop drilling",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
-  },
-  {
-    "id": "react_1028",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q28] What is a pure component?",
-    "options": [
-      "HOC",
-      "Stateless component",
-      "Option not applicable",
-      "Renders same output for same props"
-    ],
-    "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
-  },
-  {
-    "id": "react_1029",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q29] Event handling in React uses",
-    "options": [
-      "Synthetic events",
-      "Native DOM events",
-      "Option not applicable",
-      "Custom events"
-    ],
-    "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
-  },
-  {
-    "id": "react_1030",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q30] What is server-side rendering?",
-    "options": [
-      "Rendering HTML on server",
-      "All of the above",
-      "Static generation",
-      "Client rendering"
-    ],
-    "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
-  },
-  {
-    "id": "react_1031",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q31] Error boundary catches",
-    "options": [
-      "Network errors",
-      "CSS errors",
-      "JavaScript errors in components",
-      "Passive voice"
-    ],
-    "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
-  },
-  {
-    "id": "react_1032",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q32] What is Suspense in React?",
-    "options": [
-      "Delays state",
-      "Caches data",
-      "Option not applicable",
-      "Waits for async components"
-    ],
-    "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
-  },
-  {
-    "id": "react_1033",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q33] Which hook replaces componentWillUnmount?",
-    "options": [
-      "useCallback",
-      "useState",
-      "useRef",
-      "useEffect cleanup return"
-    ],
-    "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
-  },
-  {
-    "id": "react_1034",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q34] Portal in React",
-    "options": [
-      "Creates context",
-      "HOC pattern",
-      "None of the above",
-      "Renders outside parent DOM"
-    ],
-    "answer": 0,
-    "explanation": "Portals render children into different DOM node."
-  },
-  {
-    "id": "react_1035",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q35] What is code splitting?",
-    "options": [
-      "Breaking bundle into chunks",
-      "Compression",
-      "None of the above",
-      "Minification"
-    ],
-    "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
-  },
-  {
-    "id": "react_1036",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q36] Redux is used for",
-    "options": [
-      "Routing",
-      "Styling",
-      "Testing",
-      "Global state management"
-    ],
-    "answer": 0,
-    "explanation": "Redux manages application-wide state."
-  },
-  {
-    "id": "react_1037",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q37] What does useLayoutEffect do?",
-    "options": [
-      "State update",
-      "Fires sync after DOM mutations",
-      "Async effect",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
-  },
-  {
-    "id": "react_1038",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q38] Immutability in React state means",
-    "options": [
-      "Neither A nor B",
-      "Delete state",
-      "Create new object instead of mutating",
-      "Modify in place"
-    ],
-    "answer": 0,
-    "explanation": "React state must be updated immutably."
-  },
-  {
-    "id": "react_1039",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q39] What is the children prop?",
-    "options": [
-      "Component name",
-      "Both A and B",
-      "Content between component tags",
-      "State value"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1040",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q40] Batching in React 18",
-    "options": [
-      "Single update",
-      "Multiple state updates in one render",
-      "Data not provided",
-      "Sequential renders"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1041",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q41] What is React?",
-    "options": [
-      "Database ORM",
-      "Backend framework",
-      "JavaScript UI library",
-      "CSS framework"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1042",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q42] JSX stands for",
-    "options": [
-      "Cannot be determined",
-      "Java Syntax Extension",
-      "JavaScript XML",
-      "JavaScript Extension"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1043",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q43] useState returns",
-    "options": [
-      "Only setter",
-      "Array of objects",
-      "Only value",
-      "State value and setter"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1044",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q44] useEffect is used for",
-    "options": [
-      "State management",
-      "Side effects",
-      "Routing",
-      "Styling"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1045",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q45] Virtual DOM purpose",
-    "options": [
-      "All of the above",
-      "Performance optimization",
-      "CSS handling",
-      "Real DOM replacement"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1046",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q46] Props are",
-    "options": [
-      "Insufficient information",
-      "CSS classes",
-      "Read-only data passed to components",
-      "Component state"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1047",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q47] State vs Props: State is",
-    "options": [
-      "Global",
-      "Immutable",
-      "Passed from parent",
-      "Mutable within component"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1048",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q48] React key prop purpose",
-    "options": [
-      "Pass data",
-      "Style elements",
-      "Data not provided",
-      "Identify list items"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1049",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q49] What is a higher-order component?",
-    "options": [
-      "Hook",
-      "Class component",
-      "Component that takes/returns component",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1050",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q50] useContext is used for",
-    "options": [
-      "Side effects",
-      "Local state",
-      "Both B and C",
-      "Consuming context"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1051",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q51] React.memo does what?",
-    "options": [
-      "Creates context",
-      "Both B and C",
-      "Memoizes component",
-      "Handles effects"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1052",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q52] What does ReactDOM.render do?",
-    "options": [
-      "Defines component",
-      "Creates state",
-      "The above is incorrect",
-      "Renders React element to DOM"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1053",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[REACT-Q53] Default export syntax in ES6",
+    "question": "useState returns:",
     "options": [
-      "export { Component }",
-      "module.exports",
-      "export default Component",
-      "export Component"
+      "A state variable and a setter function",
+      "Only the state value",
+      "Only the setter",
+      "An object with get/set"
     ],
     "answer": 0,
-    "explanation": "Default exports use 'export default'."
+    "explanation": "The correct answer is A state variable and a setter function."
   },
   {
-    "id": "react_1054",
+    "id": "REACT_HOO_002",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[REACT-Q54] What is prop drilling?",
+    "question": "useEffect with empty dependency array runs:",
     "options": [
-      "Direct prop passing",
-      "Context API",
-      "Passing props through many layers",
-      "Cannot be determined"
+      "Once after initial render",
+      "On every render",
+      "Never",
+      "Before first render"
     ],
     "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
+    "explanation": "The correct answer is Once after initial render."
   },
   {
-    "id": "react_1055",
+    "id": "REACT_HOO_003",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[REACT-Q55] useReducer is used for",
+    "question": "How do you prevent useEffect from running on every render?",
     "options": [
-      "Data not provided",
-      "Side effects",
-      "Complex state logic",
-      "Simple state"
+      "Pass a dependency array",
+      "Pass null",
+      "Use useCallback",
+      "Use useMemo"
     ],
     "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
+    "explanation": "The correct answer is Pass a dependency array."
   },
   {
-    "id": "react_1056",
+    "id": "REACT_HOO_004",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[REACT-Q56] React Router's <Route> does what?",
+    "question": "useRef returns:",
     "options": [
-      "Insufficient information",
-      "Handles forms",
-      "Creates links",
-      "Maps path to component"
+      "A mutable object with .current property",
+      "A read-only value",
+      "A state variable",
+      "An immutable ref"
     ],
     "answer": 0,
-    "explanation": "Route renders component for matched URL path."
+    "explanation": "The correct answer is A mutable object with .current property."
   },
   {
-    "id": "react_1057",
+    "id": "REACT_HOO_005",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
+    "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q57] What is lazy loading in React?",
+    "question": "What is the main use of useRef?",
     "options": [
-      "Loading components on demand",
-      "None of the above",
-      "Preloading",
-      "Eager loading"
+      "Access DOM elements or persist values without re-render",
+      "Store state",
+      "Memoize values",
+      "Create context"
     ],
     "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
+    "explanation": "The correct answer is Access DOM elements or persist values without re-render."
   },
   {
-    "id": "react_1058",
+    "id": "REACT_HOO_006",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
+    "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q58] Controlled component means",
+    "question": "useCallback memoizes:",
     "options": [
-      "Class component",
-      "Uncontrolled input",
-      "Form input tied to state",
-      "Cannot be determined"
+      "A function reference",
+      "A value",
+      "A component",
+      "A context"
     ],
     "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
+    "explanation": "The correct answer is A function reference."
   },
   {
-    "id": "react_1059",
+    "id": "REACT_HOO_007",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
+    "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q59] What is reconciliation?",
+    "question": "useMemo memoizes:",
     "options": [
-      "State creation",
-      "Data not provided",
-      "Initial render",
-      "React's DOM update process"
+      "A computed value",
+      "A function",
+      "A side effect",
+      "A component"
     ],
     "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
+    "explanation": "The correct answer is A computed value."
   },
   {
-    "id": "react_1060",
+    "id": "REACT_HOO_008",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[REACT-Q60] Fragment in React",
+    "question": "useContext is used to:",
     "options": [
-      "Cannot be determined",
-      "Creates context",
-      "Adds a div",
-      "Groups elements without extra DOM node"
+      "Consume a React context value",
+      "Create context",
+      "Provide context",
+      "Merge contexts"
     ],
     "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
+    "explanation": "The correct answer is Consume a React context value."
   },
   {
-    "id": "react_1061",
+    "id": "REACT_HOO_009",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
+    "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q61] useCallback memoizes",
+    "question": "useReducer is preferred over useState when:",
     "options": [
-      "Effects",
-      "Components",
-      "Values",
-      "Functions"
+      "State logic is complex or involves multiple sub-values",
+      "State is a single boolean",
+      "State never changes",
+      "Component is small"
     ],
     "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
+    "explanation": "The correct answer is State logic is complex or involves multiple sub-values."
   },
   {
-    "id": "react_1062",
+    "id": "REACT_HOO_010",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
+    "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q62] useMemo memoizes",
+    "question": "What does the cleanup function in useEffect do?",
     "options": [
-      "Effects",
-      "Components",
-      "Computed values",
-      "Functions"
+      "Runs before next effect or on unmount to clean up side effects",
+      "Runs after every render",
+      "Runs before mount",
+      "Runs only on unmount"
     ],
     "answer": 0,
-    "explanation": "useMemo caches expensive computations."
+    "explanation": "The correct answer is Runs before next effect or on unmount to clean up side effects."
   },
   {
-    "id": "react_1063",
+    "id": "REACT_HOO_011",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q63] What is the StrictMode?",
+    "question": "Can you call hooks inside if statements?",
     "options": [
-      "Testing tool",
-      "Development helper for warnings",
-      "Neither A nor B",
-      "Production mode"
+      "No — hooks must be called at top level unconditionally",
+      "Yes, always",
+      "Only with conditions",
+      "Only in class components"
     ],
     "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
+    "explanation": "The correct answer is No — hooks must be called at top level unconditionally."
   },
   {
-    "id": "react_1064",
+    "id": "REACT_HOO_012",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q64] Which lifecycle method replaces componentDidMount in hooks?",
+    "question": "What is the rule of hooks regarding functions?",
     "options": [
-      "useState",
-      "useRef",
-      "useEffect with []",
-      "useContext"
+      "Only call hooks from React function components or custom hooks",
+      "Call from any function",
+      "Call from event handlers",
+      "Call from class methods"
     ],
     "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
+    "explanation": "The correct answer is Only call hooks from React function components or custom hooks."
   },
   {
-    "id": "react_1065",
+    "id": "REACT_HOO_013",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q65] useRef is used for",
+    "question": "useLayoutEffect vs useEffect:",
     "options": [
-      "State management",
-      "Both B and C",
-      "Accessing DOM elements",
-      "Routing"
+      "useLayoutEffect fires synchronously after DOM mutations before paint",
+      "useLayoutEffect fires asynchronously",
+      "They are identical",
+      "useLayoutEffect fires before mount"
     ],
     "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
+    "explanation": "The correct answer is useLayoutEffect fires synchronously after DOM mutations before paint."
   },
   {
-    "id": "react_1066",
+    "id": "REACT_HOO_014",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q66] What triggers a re-render?",
+    "question": "What does useDeferredValue do?",
     "options": [
-      "State or prop change",
-      "CSS change",
-      "Both B and C",
-      "Comment change"
+      "Defers a value update to keep UI responsive during heavy renders",
+      "Debounces state",
+      "Delays side effects",
+      "Cancels updates"
     ],
     "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
+    "explanation": "The correct answer is Defers a value update to keep UI responsive during heavy renders."
   },
   {
-    "id": "react_1067",
+    "id": "REACT_HOO_015",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q67] Context API solves",
+    "question": "What does useTransition do?",
     "options": [
-      "Styling",
-      "Both B and C",
-      "Prop drilling",
-      "Routing"
+      "Marks state updates as non-urgent for concurrent rendering",
+      "Adds CSS transitions",
+      "Animates components",
+      "Delays effects"
     ],
     "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
+    "explanation": "The correct answer is Marks state updates as non-urgent for concurrent rendering."
   },
   {
-    "id": "react_1068",
+    "id": "REACT_HOO_016",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q68] What is a pure component?",
+    "question": "useId generates:",
     "options": [
-      "Neither A nor B",
-      "Renders same output for same props",
-      "Stateless component",
-      "HOC"
+      "Stable unique ID for accessibility attributes",
+      "Random ID each render",
+      "Sequential integer ID",
+      "UUID"
     ],
     "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
+    "explanation": "The correct answer is Stable unique ID for accessibility attributes."
   },
   {
-    "id": "react_1069",
+    "id": "REACT_HOO_017",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q69] Event handling in React uses",
+    "question": "useImperativeHandle customizes:",
     "options": [
-      "Native DOM events",
-      "Custom events",
-      "Cannot be determined",
-      "Synthetic events"
+      "What a ref exposes to parent component",
+      "Internal state",
+      "Context value",
+      "Effect behavior"
     ],
     "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
+    "explanation": "The correct answer is What a ref exposes to parent component."
   },
   {
-    "id": "react_1070",
+    "id": "REACT_HOO_018",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
+    "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q70] What is server-side rendering?",
+    "question": "What is a custom hook?",
     "options": [
-      "Rendering HTML on server",
-      "Client rendering",
-      "Static generation",
-      "None of the above"
+      "A JavaScript function starting with 'use' that uses built-in hooks",
+      "A built-in React hook",
+      "A class method",
+      "A HOC"
     ],
     "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
+    "explanation": "The correct answer is A JavaScript function starting with 'use' that uses built-in hooks."
   },
   {
-    "id": "react_1071",
+    "id": "REACT_HOO_019",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
+    "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q71] Error boundary catches",
+    "question": "Custom hooks allow you to:",
     "options": [
-      "JavaScript errors in components",
-      "CSS errors",
-      "Network errors",
-      "Preposition error"
+      "Extract and reuse stateful logic across components",
+      "Share JSX",
+      "Share CSS",
+      "Inherit components"
     ],
     "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
+    "explanation": "The correct answer is Extract and reuse stateful logic across components."
   },
   {
-    "id": "react_1072",
+    "id": "REACT_HOO_020",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q72] What is Suspense in React?",
+    "question": "What happens if a hook dependency array contains an object?",
     "options": [
-      "Waits for async components",
-      "Delays state",
-      "None of the above",
-      "Caches data"
+      "Effect may run every render if object is re-created (reference equality)",
+      "Effect never re-runs",
+      "Effect runs based on value equality",
+      "Effect is skipped"
     ],
     "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
+    "explanation": "The correct answer is Effect may run every render if object is re-created (reference equality)."
   },
   {
-    "id": "react_1073",
+    "id": "REACT_HOO_021",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q73] Which hook replaces componentWillUnmount?",
+    "question": "How do you memoize an object in dependencies?",
     "options": [
-      "useEffect cleanup return",
+      "useMemo to memoize the object reference",
       "useCallback",
       "useRef",
       "useState"
     ],
     "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
+    "explanation": "The correct answer is useMemo to memoize the object reference."
   },
   {
-    "id": "react_1074",
+    "id": "REACT_HOO_022",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
+    "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q74] Portal in React",
+    "question": "What does useEffect's return value represent?",
     "options": [
-      "HOC pattern",
-      "The above is incorrect",
-      "Creates context",
-      "Renders outside parent DOM"
+      "Cleanup function that runs before next effect or unmount",
+      "Return value from async operation",
+      "Resolved promise",
+      "Error handler"
     ],
     "answer": 0,
-    "explanation": "Portals render children into different DOM node."
+    "explanation": "The correct answer is Cleanup function that runs before next effect or unmount."
   },
   {
-    "id": "react_1075",
+    "id": "REACT_HOO_023",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q75] What is code splitting?",
+    "question": "Can useEffect be async directly?",
     "options": [
-      "Breaking bundle into chunks",
-      "Compression",
-      "Insufficient information",
-      "Minification"
+      "No — you must define async function inside and call it",
+      "Yes, async useEffect works",
+      "Yes, but not recommended",
+      "Only in React 18"
     ],
     "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
+    "explanation": "The correct answer is No — you must define async function inside and call it."
   },
   {
-    "id": "react_1076",
+    "id": "REACT_HOO_024",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q76] Redux is used for",
+    "question": "What is the stale closure problem in hooks?",
     "options": [
-      "Routing",
-      "Global state management",
-      "Testing",
-      "Styling"
+      "Effect or callback captures outdated state/prop values",
+      "Memory leak",
+      "Performance issue",
+      "Infinite render loop"
     ],
     "answer": 0,
-    "explanation": "Redux manages application-wide state."
+    "explanation": "The correct answer is Effect or callback captures outdated state/prop values."
   },
   {
-    "id": "react_1077",
+    "id": "REACT_HOO_025",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q77] What does useLayoutEffect do?",
+    "question": "How do you fix stale closures in useEffect?",
     "options": [
-      "Fires sync after DOM mutations",
-      "Async effect",
-      "Cannot be determined",
-      "State update"
+      "Include the variable in the dependency array",
+      "Use a global variable",
+      "Use useRef",
+      "Avoid closures"
     ],
     "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
+    "explanation": "The correct answer is Include the variable in the dependency array."
   },
   {
-    "id": "react_1078",
+    "id": "REACT_HOO_026",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[REACT-Q78] Immutability in React state means",
+    "question": "What does the second argument to useState represent?",
     "options": [
-      "Delete state",
-      "Insufficient information",
-      "Create new object instead of mutating",
-      "Modify in place"
+      "Initial state value",
+      "State setter",
+      "Dependency array",
+      "Configuration options"
     ],
     "answer": 0,
-    "explanation": "React state must be updated immutably."
+    "explanation": "The correct answer is Initial state value."
   },
   {
-    "id": "react_1079",
+    "id": "REACT_HOO_027",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[REACT-Q79] What is the children prop?",
+    "question": "What triggers a component re-render with useState?",
     "options": [
-      "Insufficient information",
-      "Content between component tags",
-      "Component name",
-      "State value"
+      "Calling the setter function with a new value",
+      "Calling getter",
+      "Calling useEffect",
+      "Calling useRef"
     ],
     "answer": 0,
-    "explanation": "children contains nested JSX/elements."
+    "explanation": "The correct answer is Calling the setter function with a new value."
   },
   {
-    "id": "react_1080",
+    "id": "REACT_HOO_028",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
+    "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q80] Batching in React 18",
+    "question": "In useState, when does a functional update form help?",
     "options": [
-      "Multiple state updates in one render",
-      "Sequential renders",
-      "Single update",
-      "All of the above"
+      "When new state depends on previous state",
+      "When state is a string",
+      "When state never changes",
+      "When using useRef"
     ],
     "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
+    "explanation": "The correct answer is When new state depends on previous state."
   },
   {
-    "id": "react_1081",
+    "id": "REACT_HOO_029",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q81] What is React?",
+    "question": "What is the purpose of useDebugValue?",
     "options": [
-      "Backend framework",
-      "Database ORM",
-      "CSS framework",
-      "JavaScript UI library"
+      "Displays a label for custom hooks in React DevTools",
+      "Logs debug info to console",
+      "Enables debug mode",
+      "Throws debug errors"
     ],
     "answer": 0,
-    "explanation": "React is a JS library for building UIs."
+    "explanation": "The correct answer is Displays a label for custom hooks in React DevTools."
   },
   {
-    "id": "react_1082",
+    "id": "REACT_HOO_030",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q82] JSX stands for",
+    "question": "What does useSyncExternalStore do?",
     "options": [
-      "Java Syntax Extension",
-      "JavaScript Extension",
-      "Both A and B",
-      "JavaScript XML"
+      "Subscribes to an external store for concurrent-safe reads",
+      "Syncs to localStorage",
+      "Syncs to a database",
+      "Syncs two states"
     ],
     "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
+    "explanation": "The correct answer is Subscribes to an external store for concurrent-safe reads."
   },
   {
-    "id": "react_1083",
+    "id": "REACT_HOO_031",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
+    "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q83] useState returns",
+    "question": "What is the difference between controlled and uncontrolled components?",
     "options": [
-      "Only value",
-      "Array of objects",
-      "State value and setter",
-      "Only setter"
+      "Controlled — state in React; Uncontrolled — state in DOM",
+      "No difference",
+      "Controlled is always better",
+      "Uncontrolled uses useState"
     ],
     "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
+    "explanation": "The correct answer is Controlled — state in React; Uncontrolled — state in DOM."
   },
   {
-    "id": "react_1084",
+    "id": "REACT_HOO_032",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
+    "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q84] useEffect is used for",
+    "question": "useRef vs useState for storing a value:",
     "options": [
-      "State management",
-      "Side effects",
-      "Routing",
-      "Styling"
+      "useRef doesn't trigger re-render; useState does",
+      "Both trigger re-render",
+      "useRef is faster always",
+      "useState persists across mounts"
     ],
     "answer": 0,
-    "explanation": "useEffect handles side effects in components."
+    "explanation": "The correct answer is useRef doesn't trigger re-render; useState does."
   },
   {
-    "id": "react_1085",
+    "id": "REACT_HOO_033",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
+    "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q85] Virtual DOM purpose",
+    "question": "Can multiple components share state via hooks without context?",
     "options": [
-      "CSS handling",
-      "Both A and B",
-      "Performance optimization",
-      "Real DOM replacement"
+      "No — hooks are local to each component instance",
+      "Yes, always",
+      "Only with Redux",
+      "Only with useSharedState"
     ],
     "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
+    "explanation": "The correct answer is No — hooks are local to each component instance."
   },
   {
-    "id": "react_1086",
+    "id": "REACT_HOO_034",
     "topic": "React Engineer",
-    "section": "JS Fundamentals",
+    "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q86] Props are",
+    "question": "What hook would you use to read and write a value without causing re-render?",
     "options": [
-      "Read-only data passed to components",
-      "Component state",
-      "The above is incorrect",
-      "CSS classes"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1087",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q87] State vs Props: State is",
-    "options": [
-      "Mutable within component",
-      "Global",
-      "Immutable",
-      "Passed from parent"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1088",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q88] React key prop purpose",
-    "options": [
-      "Style elements",
-      "Pass data",
-      "Identify list items",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1089",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q89] What is a higher-order component?",
-    "options": [
-      "Component that takes/returns component",
-      "Hook",
-      "Both B and C",
-      "Class component"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1090",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q90] useContext is used for",
-    "options": [
-      "Consuming context",
-      "Side effects",
-      "Neither A nor B",
-      "Local state"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1091",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q91] React.memo does what?",
-    "options": [
-      "Memoizes component",
-      "Creates context",
-      "Insufficient information",
-      "Handles effects"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1092",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q92] What does ReactDOM.render do?",
-    "options": [
-      "None of the above",
-      "Renders React element to DOM",
-      "Defines component",
-      "Creates state"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1093",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q93] Default export syntax in ES6",
-    "options": [
-      "module.exports",
-      "export Component",
-      "export default Component",
-      "export { Component }"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1094",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q94] What is prop drilling?",
-    "options": [
-      "Context API",
-      "Direct prop passing",
-      "Insufficient information",
-      "Passing props through many layers"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1095",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q95] useReducer is used for",
-    "options": [
-      "Side effects",
-      "All of the above",
-      "Complex state logic",
-      "Simple state"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1096",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q96] React Router's <Route> does what?",
-    "options": [
-      "Handles forms",
-      "Option not applicable",
-      "Maps path to component",
-      "Creates links"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1097",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q97] What is lazy loading in React?",
-    "options": [
-      "Preloading",
-      "Insufficient information",
-      "Loading components on demand",
-      "Eager loading"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1098",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q98] Controlled component means",
-    "options": [
-      "Class component",
-      "Uncontrolled input",
-      "Form input tied to state",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1099",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q99] What is reconciliation?",
-    "options": [
-      "Insufficient information",
-      "Initial render",
-      "React's DOM update process",
-      "State creation"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1100",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q100] Fragment in React",
-    "options": [
-      "Creates context",
-      "Both B and C",
-      "Adds a div",
-      "Groups elements without extra DOM node"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1101",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q101] useCallback memoizes",
-    "options": [
-      "Values",
-      "Components",
-      "Functions",
-      "Effects"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1102",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q102] useMemo memoizes",
-    "options": [
-      "Functions",
-      "Effects",
-      "Computed values",
-      "Components"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1103",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q103] What is the StrictMode?",
-    "options": [
-      "Testing tool",
-      "Cannot be determined",
-      "Development helper for warnings",
-      "Production mode"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1104",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q104] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useContext",
-      "useEffect with []",
-      "useState",
-      "useRef"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1105",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q105] useRef is used for",
-    "options": [
-      "Accessing DOM elements",
-      "Cannot be determined",
-      "State management",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1106",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q106] What triggers a re-render?",
-    "options": [
-      "CSS change",
-      "State or prop change",
-      "Both A and B",
-      "Comment change"
-    ],
-    "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
-  },
-  {
-    "id": "react_1107",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q107] Context API solves",
-    "options": [
-      "Styling",
-      "Routing",
-      "Both B and C",
-      "Prop drilling"
-    ],
-    "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
-  },
-  {
-    "id": "react_1108",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q108] What is a pure component?",
-    "options": [
-      "HOC",
-      "Stateless component",
-      "All of the above",
-      "Renders same output for same props"
-    ],
-    "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
-  },
-  {
-    "id": "react_1109",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q109] Event handling in React uses",
-    "options": [
-      "Synthetic events",
-      "Native DOM events",
-      "Custom events",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
-  },
-  {
-    "id": "react_1110",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q110] What is server-side rendering?",
-    "options": [
-      "Insufficient information",
-      "Static generation",
-      "Rendering HTML on server",
-      "Client rendering"
-    ],
-    "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
-  },
-  {
-    "id": "react_1111",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q111] Error boundary catches",
-    "options": [
-      "JavaScript errors in components",
-      "Article misuse",
-      "Network errors",
-      "CSS errors"
-    ],
-    "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
-  },
-  {
-    "id": "react_1112",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q112] What is Suspense in React?",
-    "options": [
-      "Delays state",
-      "Data not provided",
-      "Waits for async components",
-      "Caches data"
-    ],
-    "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
-  },
-  {
-    "id": "react_1113",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q113] Which hook replaces componentWillUnmount?",
-    "options": [
-      "useCallback",
       "useRef",
       "useState",
-      "useEffect cleanup return"
-    ],
-    "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
-  },
-  {
-    "id": "react_1114",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q114] Portal in React",
-    "options": [
-      "Creates context",
-      "HOC pattern",
-      "All of the above",
-      "Renders outside parent DOM"
-    ],
-    "answer": 0,
-    "explanation": "Portals render children into different DOM node."
-  },
-  {
-    "id": "react_1115",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q115] What is code splitting?",
-    "options": [
-      "Breaking bundle into chunks",
-      "Both B and C",
-      "Minification",
-      "Compression"
-    ],
-    "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
-  },
-  {
-    "id": "react_1116",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q116] Redux is used for",
-    "options": [
-      "Global state management",
-      "Testing",
-      "Routing",
-      "Styling"
-    ],
-    "answer": 0,
-    "explanation": "Redux manages application-wide state."
-  },
-  {
-    "id": "react_1117",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q117] What does useLayoutEffect do?",
-    "options": [
-      "Fires sync after DOM mutations",
-      "The above is incorrect",
-      "Async effect",
-      "State update"
-    ],
-    "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
-  },
-  {
-    "id": "react_1118",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q118] Immutability in React state means",
-    "options": [
-      "Option not applicable",
-      "Modify in place",
-      "Delete state",
-      "Create new object instead of mutating"
-    ],
-    "answer": 0,
-    "explanation": "React state must be updated immutably."
-  },
-  {
-    "id": "react_1119",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q119] What is the children prop?",
-    "options": [
-      "Content between component tags",
-      "None of the above",
-      "Component name",
-      "State value"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1120",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q120] Batching in React 18",
-    "options": [
-      "Both A and B",
-      "Single update",
-      "Multiple state updates in one render",
-      "Sequential renders"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1121",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q121] What is React?",
-    "options": [
-      "CSS framework",
-      "Backend framework",
-      "Database ORM",
-      "JavaScript UI library"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1122",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q122] JSX stands for",
-    "options": [
-      "Java Syntax Extension",
-      "All of the above",
-      "JavaScript Extension",
-      "JavaScript XML"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1123",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q123] useState returns",
-    "options": [
-      "Only value",
-      "Array of objects",
-      "Only setter",
-      "State value and setter"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1124",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q124] useEffect is used for",
-    "options": [
-      "Styling",
-      "Routing",
-      "Side effects",
-      "State management"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1125",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q125] Virtual DOM purpose",
-    "options": [
-      "Performance optimization",
-      "CSS handling",
-      "Real DOM replacement",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1126",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q126] Props are",
-    "options": [
-      "Read-only data passed to components",
-      "Option not applicable",
-      "Component state",
-      "CSS classes"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1127",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q127] State vs Props: State is",
-    "options": [
-      "Passed from parent",
-      "Immutable",
-      "Mutable within component",
-      "Global"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1128",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q128] React key prop purpose",
-    "options": [
-      "Identify list items",
-      "Pass data",
-      "The above is incorrect",
-      "Style elements"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1129",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q129] What is a higher-order component?",
-    "options": [
-      "Component that takes/returns component",
-      "Hook",
-      "Class component",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1130",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q130] useContext is used for",
-    "options": [
-      "Consuming context",
-      "None of the above",
-      "Side effects",
-      "Local state"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1131",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q131] React.memo does what?",
-    "options": [
-      "Handles effects",
-      "Creates context",
-      "Memoizes component",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1132",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q132] What does ReactDOM.render do?",
-    "options": [
-      "Creates state",
-      "Renders React element to DOM",
-      "Insufficient information",
-      "Defines component"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1133",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q133] Default export syntax in ES6",
-    "options": [
-      "module.exports",
-      "export default Component",
-      "export Component",
-      "export { Component }"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1134",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q134] What is prop drilling?",
-    "options": [
-      "Context API",
-      "Direct prop passing",
-      "Passing props through many layers",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1135",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q135] useReducer is used for",
-    "options": [
-      "Complex state logic",
-      "Side effects",
-      "Simple state",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1136",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q136] React Router's <Route> does what?",
-    "options": [
-      "Creates links",
-      "Handles forms",
-      "Both B and C",
-      "Maps path to component"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1137",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q137] What is lazy loading in React?",
-    "options": [
-      "Eager loading",
-      "Loading components on demand",
-      "None of the above",
-      "Preloading"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1138",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q138] Controlled component means",
-    "options": [
-      "All of the above",
-      "Uncontrolled input",
-      "Class component",
-      "Form input tied to state"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1139",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q139] What is reconciliation?",
-    "options": [
-      "Initial render",
-      "React's DOM update process",
-      "State creation",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1140",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q140] Fragment in React",
-    "options": [
-      "All of the above",
-      "Groups elements without extra DOM node",
-      "Adds a div",
-      "Creates context"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1141",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q141] useCallback memoizes",
-    "options": [
-      "Components",
-      "Functions",
-      "Effects",
-      "Values"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1142",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q142] useMemo memoizes",
-    "options": [
-      "Computed values",
-      "Functions",
-      "Components",
-      "Effects"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1143",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q143] What is the StrictMode?",
-    "options": [
-      "Testing tool",
-      "Production mode",
-      "Development helper for warnings",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1144",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q144] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useState",
-      "useContext",
-      "useEffect with []",
-      "useRef"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1145",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q145] useRef is used for",
-    "options": [
-      "Accessing DOM elements",
-      "Routing",
-      "State management",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1146",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q146] What triggers a re-render?",
-    "options": [
-      "Comment change",
-      "CSS change",
-      "State or prop change",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
-  },
-  {
-    "id": "react_1147",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q147] Context API solves",
-    "options": [
-      "Styling",
-      "Both A and B",
-      "Routing",
-      "Prop drilling"
-    ],
-    "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
-  },
-  {
-    "id": "react_1148",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q148] What is a pure component?",
-    "options": [
-      "HOC",
-      "Stateless component",
-      "None of the above",
-      "Renders same output for same props"
-    ],
-    "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
-  },
-  {
-    "id": "react_1149",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q149] Event handling in React uses",
-    "options": [
-      "Native DOM events",
-      "Synthetic events",
-      "None of the above",
-      "Custom events"
-    ],
-    "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
-  },
-  {
-    "id": "react_1150",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q150] What is server-side rendering?",
-    "options": [
-      "Static generation",
-      "Rendering HTML on server",
-      "Client rendering",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
-  },
-  {
-    "id": "react_1151",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q151] Error boundary catches",
-    "options": [
-      "JavaScript errors in components",
-      "Network errors",
-      "CSS errors",
-      "Conjunction error"
-    ],
-    "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
-  },
-  {
-    "id": "react_1152",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q152] What is Suspense in React?",
-    "options": [
-      "Waits for async components",
-      "The above is incorrect",
-      "Caches data",
-      "Delays state"
-    ],
-    "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
-  },
-  {
-    "id": "react_1153",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q153] Which hook replaces componentWillUnmount?",
-    "options": [
-      "useEffect cleanup return",
-      "useCallback",
-      "useState",
-      "useRef"
-    ],
-    "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
-  },
-  {
-    "id": "react_1154",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q154] Portal in React",
-    "options": [
-      "HOC pattern",
-      "Renders outside parent DOM",
-      "Cannot be determined",
-      "Creates context"
-    ],
-    "answer": 0,
-    "explanation": "Portals render children into different DOM node."
-  },
-  {
-    "id": "react_1155",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q155] What is code splitting?",
-    "options": [
-      "Minification",
-      "All of the above",
-      "Breaking bundle into chunks",
-      "Compression"
-    ],
-    "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
-  },
-  {
-    "id": "react_1156",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q156] Redux is used for",
-    "options": [
-      "Routing",
-      "Testing",
-      "Global state management",
-      "Styling"
-    ],
-    "answer": 0,
-    "explanation": "Redux manages application-wide state."
-  },
-  {
-    "id": "react_1157",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q157] What does useLayoutEffect do?",
-    "options": [
-      "Neither A nor B",
-      "Fires sync after DOM mutations",
-      "State update",
-      "Async effect"
-    ],
-    "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
-  },
-  {
-    "id": "react_1158",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q158] Immutability in React state means",
-    "options": [
-      "Modify in place",
-      "Both A and B",
-      "Delete state",
-      "Create new object instead of mutating"
-    ],
-    "answer": 0,
-    "explanation": "React state must be updated immutably."
-  },
-  {
-    "id": "react_1159",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q159] What is the children prop?",
-    "options": [
-      "State value",
-      "Component name",
-      "Content between component tags",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1160",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q160] Batching in React 18",
-    "options": [
-      "Single update",
-      "Multiple state updates in one render",
-      "Sequential renders",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1161",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q161] What is React?",
-    "options": [
-      "Backend framework",
-      "Database ORM",
-      "CSS framework",
-      "JavaScript UI library"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1162",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q162] JSX stands for",
-    "options": [
-      "JavaScript XML",
-      "Java Syntax Extension",
-      "JavaScript Extension",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1163",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q163] useState returns",
-    "options": [
-      "Only value",
-      "Only setter",
-      "Array of objects",
-      "State value and setter"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1164",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q164] useEffect is used for",
-    "options": [
-      "Side effects",
-      "State management",
-      "Styling",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1165",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q165] Virtual DOM purpose",
-    "options": [
-      "Real DOM replacement",
-      "Performance optimization",
-      "All of the above",
-      "CSS handling"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1166",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q166] Props are",
-    "options": [
-      "Component state",
-      "CSS classes",
-      "Read-only data passed to components",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1167",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q167] State vs Props: State is",
-    "options": [
-      "Immutable",
-      "Passed from parent",
-      "Global",
-      "Mutable within component"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1168",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q168] React key prop purpose",
-    "options": [
-      "Neither A nor B",
-      "Style elements",
-      "Identify list items",
-      "Pass data"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1169",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q169] What is a higher-order component?",
-    "options": [
-      "All of the above",
-      "Class component",
-      "Hook",
-      "Component that takes/returns component"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1170",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q170] useContext is used for",
-    "options": [
-      "Side effects",
-      "Consuming context",
-      "Insufficient information",
-      "Local state"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1171",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q171] React.memo does what?",
-    "options": [
-      "Handles effects",
-      "Data not provided",
-      "Creates context",
-      "Memoizes component"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1172",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q172] What does ReactDOM.render do?",
-    "options": [
-      "Renders React element to DOM",
-      "Creates state",
-      "Defines component",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1173",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q173] Default export syntax in ES6",
-    "options": [
-      "export Component",
-      "export default Component",
-      "export { Component }",
-      "module.exports"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1174",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q174] What is prop drilling?",
-    "options": [
-      "Direct prop passing",
-      "Neither A nor B",
-      "Passing props through many layers",
-      "Context API"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1175",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q175] useReducer is used for",
-    "options": [
-      "Side effects",
-      "Complex state logic",
-      "Simple state",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1176",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q176] React Router's <Route> does what?",
-    "options": [
-      "Insufficient information",
-      "Handles forms",
-      "Maps path to component",
-      "Creates links"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1177",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q177] What is lazy loading in React?",
-    "options": [
-      "Option not applicable",
-      "Loading components on demand",
-      "Preloading",
-      "Eager loading"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1178",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q178] Controlled component means",
-    "options": [
-      "Form input tied to state",
-      "Uncontrolled input",
-      "None of the above",
-      "Class component"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1179",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q179] What is reconciliation?",
-    "options": [
-      "Both A and B",
-      "React's DOM update process",
-      "State creation",
-      "Initial render"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1180",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q180] Fragment in React",
-    "options": [
-      "Groups elements without extra DOM node",
-      "Creates context",
-      "Adds a div",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1181",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q181] useCallback memoizes",
-    "options": [
-      "Functions",
-      "Values",
-      "Components",
-      "Effects"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1182",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q182] useMemo memoizes",
-    "options": [
-      "Components",
-      "Effects",
-      "Functions",
-      "Computed values"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1183",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q183] What is the StrictMode?",
-    "options": [
-      "Testing tool",
-      "The above is incorrect",
-      "Development helper for warnings",
-      "Production mode"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1184",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q184] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useContext",
-      "useState",
-      "useRef",
-      "useEffect with []"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1185",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q185] useRef is used for",
-    "options": [
-      "State management",
-      "Neither A nor B",
-      "Routing",
-      "Accessing DOM elements"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1186",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q186] What triggers a re-render?",
-    "options": [
-      "Comment change",
-      "State or prop change",
-      "CSS change",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
-  },
-  {
-    "id": "react_1187",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q187] Context API solves",
-    "options": [
-      "Routing",
-      "Option not applicable",
-      "Prop drilling",
-      "Styling"
-    ],
-    "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
-  },
-  {
-    "id": "react_1188",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q188] What is a pure component?",
-    "options": [
-      "Insufficient information",
-      "Renders same output for same props",
-      "Stateless component",
-      "HOC"
-    ],
-    "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
-  },
-  {
-    "id": "react_1189",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q189] Event handling in React uses",
-    "options": [
-      "Synthetic events",
-      "Cannot be determined",
-      "Native DOM events",
-      "Custom events"
-    ],
-    "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
-  },
-  {
-    "id": "react_1190",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q190] What is server-side rendering?",
-    "options": [
-      "Both B and C",
-      "Client rendering",
-      "Rendering HTML on server",
-      "Static generation"
-    ],
-    "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
-  },
-  {
-    "id": "react_1191",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q191] Error boundary catches",
-    "options": [
-      "CSS errors",
-      "Double negative",
-      "JavaScript errors in components",
-      "Network errors"
-    ],
-    "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
-  },
-  {
-    "id": "react_1192",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q192] What is Suspense in React?",
-    "options": [
-      "Delays state",
-      "Caches data",
-      "Waits for async components",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
-  },
-  {
-    "id": "react_1193",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q193] Which hook replaces componentWillUnmount?",
-    "options": [
-      "useState",
-      "useRef",
-      "useCallback",
-      "useEffect cleanup return"
-    ],
-    "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
-  },
-  {
-    "id": "react_1194",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q194] Portal in React",
-    "options": [
-      "Neither A nor B",
-      "Renders outside parent DOM",
-      "HOC pattern",
-      "Creates context"
-    ],
-    "answer": 0,
-    "explanation": "Portals render children into different DOM node."
-  },
-  {
-    "id": "react_1195",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q195] What is code splitting?",
-    "options": [
-      "Compression",
-      "Minification",
-      "Breaking bundle into chunks",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
-  },
-  {
-    "id": "react_1196",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q196] Redux is used for",
-    "options": [
-      "Testing",
-      "Routing",
-      "Global state management",
-      "Styling"
-    ],
-    "answer": 0,
-    "explanation": "Redux manages application-wide state."
-  },
-  {
-    "id": "react_1197",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q197] What does useLayoutEffect do?",
-    "options": [
-      "Async effect",
-      "State update",
-      "Fires sync after DOM mutations",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
-  },
-  {
-    "id": "react_1198",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q198] Immutability in React state means",
-    "options": [
-      "Delete state",
-      "Modify in place",
-      "Create new object instead of mutating",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "React state must be updated immutably."
-  },
-  {
-    "id": "react_1199",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q199] What is the children prop?",
-    "options": [
-      "State value",
-      "Content between component tags",
-      "Neither A nor B",
-      "Component name"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1200",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q200] Batching in React 18",
-    "options": [
-      "Multiple state updates in one render",
-      "Single update",
-      "Sequential renders",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1201",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q201] What is React?",
-    "options": [
-      "JavaScript UI library",
-      "Database ORM",
-      "Backend framework",
-      "CSS framework"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1202",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q202] JSX stands for",
-    "options": [
-      "JavaScript XML",
-      "JavaScript Extension",
-      "Java Syntax Extension",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1203",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q203] useState returns",
-    "options": [
-      "Only setter",
-      "State value and setter",
-      "Array of objects",
-      "Only value"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1204",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q204] useEffect is used for",
-    "options": [
-      "Side effects",
-      "Styling",
-      "Routing",
-      "State management"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1205",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q205] Virtual DOM purpose",
-    "options": [
-      "Performance optimization",
-      "None of the above",
-      "Real DOM replacement",
-      "CSS handling"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1206",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q206] Props are",
-    "options": [
-      "Insufficient information",
-      "Read-only data passed to components",
-      "Component state",
-      "CSS classes"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1207",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q207] State vs Props: State is",
-    "options": [
-      "Passed from parent",
-      "Immutable",
-      "Mutable within component",
-      "Global"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1208",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q208] React key prop purpose",
-    "options": [
-      "Pass data",
-      "Style elements",
-      "Identify list items",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1209",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q209] What is a higher-order component?",
-    "options": [
-      "Option not applicable",
-      "Hook",
-      "Class component",
-      "Component that takes/returns component"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1210",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q210] useContext is used for",
-    "options": [
-      "Local state",
-      "Option not applicable",
-      "Side effects",
-      "Consuming context"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1211",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q211] React.memo does what?",
-    "options": [
-      "Creates context",
-      "Memoizes component",
-      "Handles effects",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1212",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q212] What does ReactDOM.render do?",
-    "options": [
-      "All of the above",
-      "Creates state",
-      "Defines component",
-      "Renders React element to DOM"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1213",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q213] Default export syntax in ES6",
-    "options": [
-      "export default Component",
-      "export { Component }",
-      "module.exports",
-      "export Component"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1214",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q214] What is prop drilling?",
-    "options": [
-      "Direct prop passing",
-      "Data not provided",
-      "Passing props through many layers",
-      "Context API"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1215",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q215] useReducer is used for",
-    "options": [
-      "Side effects",
-      "Complex state logic",
-      "Simple state",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1216",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q216] React Router's <Route> does what?",
-    "options": [
-      "The above is incorrect",
-      "Handles forms",
-      "Maps path to component",
-      "Creates links"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1217",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q217] What is lazy loading in React?",
-    "options": [
-      "Loading components on demand",
-      "Eager loading",
-      "Preloading",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1218",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q218] Controlled component means",
-    "options": [
-      "Class component",
-      "The above is incorrect",
-      "Uncontrolled input",
-      "Form input tied to state"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1219",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q219] What is reconciliation?",
-    "options": [
-      "State creation",
-      "None of the above",
-      "Initial render",
-      "React's DOM update process"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1220",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q220] Fragment in React",
-    "options": [
-      "Adds a div",
-      "Groups elements without extra DOM node",
-      "The above is incorrect",
-      "Creates context"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1221",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q221] useCallback memoizes",
-    "options": [
-      "Components",
-      "Functions",
-      "Values",
-      "Effects"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1222",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q222] useMemo memoizes",
-    "options": [
-      "Functions",
-      "Components",
-      "Effects",
-      "Computed values"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1223",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q223] What is the StrictMode?",
-    "options": [
-      "Production mode",
-      "Testing tool",
-      "Development helper for warnings",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1224",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q224] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useEffect with []",
-      "useContext",
-      "useState",
-      "useRef"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1225",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q225] useRef is used for",
-    "options": [
-      "State management",
-      "Option not applicable",
-      "Routing",
-      "Accessing DOM elements"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1226",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q226] What triggers a re-render?",
-    "options": [
-      "Comment change",
-      "State or prop change",
-      "All of the above",
-      "CSS change"
-    ],
-    "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
-  },
-  {
-    "id": "react_1227",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q227] Context API solves",
-    "options": [
-      "Styling",
-      "Routing",
-      "Insufficient information",
-      "Prop drilling"
-    ],
-    "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
-  },
-  {
-    "id": "react_1228",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q228] What is a pure component?",
-    "options": [
-      "Stateless component",
-      "Renders same output for same props",
-      "HOC",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
-  },
-  {
-    "id": "react_1229",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q229] Event handling in React uses",
-    "options": [
-      "Native DOM events",
-      "Synthetic events",
-      "Custom events",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
-  },
-  {
-    "id": "react_1230",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q230] What is server-side rendering?",
-    "options": [
-      "Insufficient information",
-      "Rendering HTML on server",
-      "Static generation",
-      "Client rendering"
-    ],
-    "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
-  },
-  {
-    "id": "react_1231",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q231] Error boundary catches",
-    "options": [
-      "Network errors",
-      "JavaScript errors in components",
-      "CSS errors",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
-  },
-  {
-    "id": "react_1232",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q232] What is Suspense in React?",
-    "options": [
-      "Caches data",
-      "Waits for async components",
-      "Delays state",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
-  },
-  {
-    "id": "react_1233",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q233] Which hook replaces componentWillUnmount?",
-    "options": [
-      "useRef",
-      "useCallback",
-      "useState",
-      "useEffect cleanup return"
-    ],
-    "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
-  },
-  {
-    "id": "react_1234",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q234] Portal in React",
-    "options": [
-      "None of the above",
-      "HOC pattern",
-      "Creates context",
-      "Renders outside parent DOM"
-    ],
-    "answer": 0,
-    "explanation": "Portals render children into different DOM node."
-  },
-  {
-    "id": "react_1235",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q235] What is code splitting?",
-    "options": [
-      "Data not provided",
-      "Minification",
-      "Breaking bundle into chunks",
-      "Compression"
-    ],
-    "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
-  },
-  {
-    "id": "react_1236",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q236] Redux is used for",
-    "options": [
-      "Routing",
-      "Styling",
-      "Global state management",
-      "Testing"
-    ],
-    "answer": 0,
-    "explanation": "Redux manages application-wide state."
-  },
-  {
-    "id": "react_1237",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q237] What does useLayoutEffect do?",
-    "options": [
-      "Fires sync after DOM mutations",
-      "Async effect",
-      "The above is incorrect",
-      "State update"
-    ],
-    "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
-  },
-  {
-    "id": "react_1238",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q238] Immutability in React state means",
-    "options": [
-      "Modify in place",
-      "Both B and C",
-      "Delete state",
-      "Create new object instead of mutating"
-    ],
-    "answer": 0,
-    "explanation": "React state must be updated immutably."
-  },
-  {
-    "id": "react_1239",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q239] What is the children prop?",
-    "options": [
-      "Both A and B",
-      "State value",
-      "Component name",
-      "Content between component tags"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1240",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q240] Batching in React 18",
-    "options": [
-      "Multiple state updates in one render",
-      "Sequential renders",
-      "Option not applicable",
-      "Single update"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1241",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q241] What is React?",
-    "options": [
-      "Backend framework",
-      "Database ORM",
-      "CSS framework",
-      "JavaScript UI library"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1242",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q242] JSX stands for",
-    "options": [
-      "Java Syntax Extension",
-      "JavaScript Extension",
-      "Cannot be determined",
-      "JavaScript XML"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1243",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q243] useState returns",
-    "options": [
-      "Only value",
-      "Array of objects",
-      "State value and setter",
-      "Only setter"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1244",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q244] useEffect is used for",
-    "options": [
-      "Side effects",
-      "Styling",
-      "State management",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1245",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q245] Virtual DOM purpose",
-    "options": [
-      "None of the above",
-      "CSS handling",
-      "Real DOM replacement",
-      "Performance optimization"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1246",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q246] Props are",
-    "options": [
-      "Cannot be determined",
-      "Component state",
-      "Read-only data passed to components",
-      "CSS classes"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1247",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q247] State vs Props: State is",
-    "options": [
-      "Passed from parent",
-      "Mutable within component",
-      "Global",
-      "Immutable"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1248",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q248] React key prop purpose",
-    "options": [
-      "Identify list items",
-      "Pass data",
-      "Option not applicable",
-      "Style elements"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1249",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q249] What is a higher-order component?",
-    "options": [
-      "Hook",
-      "Option not applicable",
-      "Class component",
-      "Component that takes/returns component"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1250",
-    "topic": "React Engineer",
-    "section": "JS Fundamentals",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q250] useContext is used for",
-    "options": [
-      "Side effects",
-      "Local state",
-      "All of the above",
-      "Consuming context"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1251",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q251] React.memo does what?",
-    "options": [
-      "Handles effects",
-      "Memoizes component",
-      "Creates context",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1252",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q252] What does ReactDOM.render do?",
-    "options": [
-      "Creates state",
-      "Data not provided",
-      "Renders React element to DOM",
-      "Defines component"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1253",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q253] Default export syntax in ES6",
-    "options": [
-      "export default Component",
-      "export Component",
-      "module.exports",
-      "export { Component }"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1254",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q254] What is prop drilling?",
-    "options": [
-      "Direct prop passing",
-      "Context API",
-      "Insufficient information",
-      "Passing props through many layers"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1255",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q255] useReducer is used for",
-    "options": [
-      "Both A and B",
-      "Complex state logic",
-      "Simple state",
-      "Side effects"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1256",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q256] React Router's <Route> does what?",
-    "options": [
-      "Maps path to component",
-      "Both A and B",
-      "Creates links",
-      "Handles forms"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1257",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q257] What is lazy loading in React?",
-    "options": [
-      "The above is incorrect",
-      "Preloading",
-      "Eager loading",
-      "Loading components on demand"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1258",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q258] Controlled component means",
-    "options": [
-      "Class component",
-      "Form input tied to state",
-      "Data not provided",
-      "Uncontrolled input"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1259",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q259] What is reconciliation?",
-    "options": [
-      "The above is incorrect",
-      "Initial render",
-      "State creation",
-      "React's DOM update process"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1260",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q260] Fragment in React",
-    "options": [
-      "All of the above",
-      "Groups elements without extra DOM node",
-      "Adds a div",
-      "Creates context"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1261",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q261] useCallback memoizes",
-    "options": [
-      "Functions",
-      "Effects",
-      "Values",
-      "Components"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1262",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q262] useMemo memoizes",
-    "options": [
-      "Computed values",
-      "Functions",
-      "Components",
-      "Effects"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1263",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q263] What is the StrictMode?",
-    "options": [
-      "Option not applicable",
-      "Production mode",
-      "Testing tool",
-      "Development helper for warnings"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1264",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q264] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useState",
-      "useRef",
-      "useContext",
-      "useEffect with []"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1265",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q265] useRef is used for",
-    "options": [
-      "State management",
-      "All of the above",
-      "Accessing DOM elements",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1266",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q266] What triggers a re-render?",
-    "options": [
-      "State or prop change",
-      "Both B and C",
-      "CSS change",
-      "Comment change"
-    ],
-    "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
-  },
-  {
-    "id": "react_1267",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q267] Context API solves",
-    "options": [
-      "Routing",
-      "Styling",
-      "Prop drilling",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
-  },
-  {
-    "id": "react_1268",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q268] What is a pure component?",
-    "options": [
-      "None of the above",
-      "HOC",
-      "Renders same output for same props",
-      "Stateless component"
-    ],
-    "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
-  },
-  {
-    "id": "react_1269",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q269] Event handling in React uses",
-    "options": [
-      "None of the above",
-      "Synthetic events",
-      "Native DOM events",
-      "Custom events"
-    ],
-    "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
-  },
-  {
-    "id": "react_1270",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q270] What is server-side rendering?",
-    "options": [
-      "Static generation",
-      "Option not applicable",
-      "Client rendering",
-      "Rendering HTML on server"
-    ],
-    "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
-  },
-  {
-    "id": "react_1271",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q271] Error boundary catches",
-    "options": [
-      "Network errors",
-      "JavaScript errors in components",
-      "Double negative",
-      "CSS errors"
-    ],
-    "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
-  },
-  {
-    "id": "react_1272",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q272] What is Suspense in React?",
-    "options": [
-      "Option not applicable",
-      "Waits for async components",
-      "Caches data",
-      "Delays state"
-    ],
-    "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
-  },
-  {
-    "id": "react_1273",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q273] Which hook replaces componentWillUnmount?",
-    "options": [
-      "useEffect cleanup return",
-      "useCallback",
-      "useState",
-      "useRef"
-    ],
-    "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
-  },
-  {
-    "id": "react_1274",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q274] Portal in React",
-    "options": [
-      "Renders outside parent DOM",
-      "Creates context",
-      "HOC pattern",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "Portals render children into different DOM node."
-  },
-  {
-    "id": "react_1275",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q275] What is code splitting?",
-    "options": [
-      "Minification",
-      "Breaking bundle into chunks",
-      "Compression",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
-  },
-  {
-    "id": "react_1276",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q276] Redux is used for",
-    "options": [
-      "Global state management",
-      "Testing",
-      "Routing",
-      "Styling"
-    ],
-    "answer": 0,
-    "explanation": "Redux manages application-wide state."
-  },
-  {
-    "id": "react_1277",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q277] What does useLayoutEffect do?",
-    "options": [
-      "Async effect",
-      "State update",
-      "Fires sync after DOM mutations",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
-  },
-  {
-    "id": "react_1278",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q278] Immutability in React state means",
-    "options": [
-      "Delete state",
-      "Modify in place",
-      "Option not applicable",
-      "Create new object instead of mutating"
-    ],
-    "answer": 0,
-    "explanation": "React state must be updated immutably."
-  },
-  {
-    "id": "react_1279",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q279] What is the children prop?",
-    "options": [
-      "State value",
-      "Both A and B",
-      "Content between component tags",
-      "Component name"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1280",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q280] Batching in React 18",
-    "options": [
-      "Option not applicable",
-      "Sequential renders",
-      "Single update",
-      "Multiple state updates in one render"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1281",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q281] What is React?",
-    "options": [
-      "JavaScript UI library",
-      "Database ORM",
-      "Backend framework",
-      "CSS framework"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1282",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q282] JSX stands for",
-    "options": [
-      "JavaScript XML",
-      "Insufficient information",
-      "Java Syntax Extension",
-      "JavaScript Extension"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1283",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q283] useState returns",
-    "options": [
-      "State value and setter",
-      "Only value",
-      "Only setter",
-      "Array of objects"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1284",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q284] useEffect is used for",
-    "options": [
-      "Styling",
-      "Routing",
-      "State management",
-      "Side effects"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1285",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q285] Virtual DOM purpose",
-    "options": [
-      "Both A and B",
-      "Performance optimization",
-      "CSS handling",
-      "Real DOM replacement"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1286",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q286] Props are",
-    "options": [
-      "CSS classes",
-      "Component state",
-      "Data not provided",
-      "Read-only data passed to components"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1287",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q287] State vs Props: State is",
-    "options": [
-      "Global",
-      "Passed from parent",
-      "Immutable",
-      "Mutable within component"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1288",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q288] React key prop purpose",
-    "options": [
-      "Pass data",
-      "Neither A nor B",
-      "Identify list items",
-      "Style elements"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1289",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q289] What is a higher-order component?",
-    "options": [
-      "Component that takes/returns component",
-      "Hook",
-      "Class component",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1290",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q290] useContext is used for",
-    "options": [
-      "Consuming context",
-      "Side effects",
-      "Local state",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1291",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q291] React.memo does what?",
-    "options": [
-      "Memoizes component",
-      "Creates context",
-      "Handles effects",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1292",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q292] What does ReactDOM.render do?",
-    "options": [
-      "Defines component",
-      "Option not applicable",
-      "Creates state",
-      "Renders React element to DOM"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1293",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q293] Default export syntax in ES6",
-    "options": [
-      "module.exports",
-      "export { Component }",
-      "export default Component",
-      "export Component"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1294",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q294] What is prop drilling?",
-    "options": [
-      "Direct prop passing",
-      "Context API",
-      "Cannot be determined",
-      "Passing props through many layers"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1295",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q295] useReducer is used for",
-    "options": [
-      "None of the above",
-      "Simple state",
-      "Complex state logic",
-      "Side effects"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1296",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q296] React Router's <Route> does what?",
-    "options": [
-      "Handles forms",
-      "Neither A nor B",
-      "Maps path to component",
-      "Creates links"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1297",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q297] What is lazy loading in React?",
-    "options": [
-      "Loading components on demand",
-      "Both A and B",
-      "Preloading",
-      "Eager loading"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1298",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q298] Controlled component means",
-    "options": [
-      "Form input tied to state",
-      "Cannot be determined",
-      "Uncontrolled input",
-      "Class component"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1299",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q299] What is reconciliation?",
-    "options": [
-      "State creation",
-      "Initial render",
-      "React's DOM update process",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1300",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q300] Fragment in React",
-    "options": [
-      "Groups elements without extra DOM node",
-      "Adds a div",
-      "Creates context",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1301",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q301] useCallback memoizes",
-    "options": [
-      "Components",
-      "Values",
-      "Effects",
-      "Functions"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1302",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q302] useMemo memoizes",
-    "options": [
-      "Computed values",
-      "Components",
-      "Effects",
-      "Functions"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1303",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q303] What is the StrictMode?",
-    "options": [
-      "Both B and C",
-      "Testing tool",
-      "Production mode",
-      "Development helper for warnings"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1304",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q304] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useRef",
-      "useContext",
-      "useEffect with []",
-      "useState"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1305",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q305] useRef is used for",
-    "options": [
-      "Routing",
-      "State management",
-      "Accessing DOM elements",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1306",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q306] What triggers a re-render?",
-    "options": [
-      "Comment change",
-      "Cannot be determined",
-      "State or prop change",
-      "CSS change"
-    ],
-    "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
-  },
-  {
-    "id": "react_1307",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q307] Context API solves",
-    "options": [
-      "Prop drilling",
-      "Routing",
-      "The above is incorrect",
-      "Styling"
-    ],
-    "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
-  },
-  {
-    "id": "react_1308",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q308] What is a pure component?",
-    "options": [
-      "Renders same output for same props",
-      "None of the above",
-      "HOC",
-      "Stateless component"
-    ],
-    "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
-  },
-  {
-    "id": "react_1309",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q309] Event handling in React uses",
-    "options": [
-      "Native DOM events",
-      "Data not provided",
-      "Custom events",
-      "Synthetic events"
-    ],
-    "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
-  },
-  {
-    "id": "react_1310",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q310] What is server-side rendering?",
-    "options": [
-      "Client rendering",
-      "Rendering HTML on server",
-      "Neither A nor B",
-      "Static generation"
-    ],
-    "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
-  },
-  {
-    "id": "react_1311",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q311] Error boundary catches",
-    "options": [
-      "Active voice",
-      "CSS errors",
-      "JavaScript errors in components",
-      "Network errors"
-    ],
-    "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
-  },
-  {
-    "id": "react_1312",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q312] What is Suspense in React?",
-    "options": [
-      "Caches data",
-      "Waits for async components",
-      "Delays state",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
-  },
-  {
-    "id": "react_1313",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q313] Which hook replaces componentWillUnmount?",
-    "options": [
-      "useState",
-      "useRef",
-      "useEffect cleanup return",
+      "useMemo",
       "useCallback"
     ],
     "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
+    "explanation": "The correct answer is useRef."
   },
   {
-    "id": "react_1314",
+    "id": "REACT_HOO_035",
     "topic": "React Engineer",
     "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q314] Portal in React",
+    "question": "What is the initial value of useRef().current?",
     "options": [
-      "Renders outside parent DOM",
-      "Both A and B",
-      "HOC pattern",
-      "Creates context"
+      "undefined (unless passed as argument)",
+      "null",
+      "0",
+      "false"
     ],
     "answer": 0,
-    "explanation": "Portals render children into different DOM node."
+    "explanation": "The correct answer is undefined (unless passed as argument)."
   },
   {
-    "id": "react_1315",
+    "id": "REACT_HOO_036",
     "topic": "React Engineer",
     "section": "Hooks & State",
-    "difficulty": "Medium",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[REACT-Q315] What is code splitting?",
+    "question": "When does useEffect with no dependency array run?",
     "options": [
-      "Compression",
-      "Breaking bundle into chunks",
-      "None of the above",
-      "Minification"
+      "After every render",
+      "Once only",
+      "Never",
+      "Before each render"
     ],
     "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
+    "explanation": "The correct answer is After every render."
   },
   {
-    "id": "react_1316",
+    "id": "REACT_HOO_037",
     "topic": "React Engineer",
     "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q316] Redux is used for",
+    "question": "What is the correct pattern for fetching data in a functional component?",
     "options": [
-      "Global state management",
+      "useEffect with async function inside + cleanup",
+      "async useEffect directly",
+      "useCallback for fetch",
+      "useMemo for fetch"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is useEffect with async function inside + cleanup."
+  },
+  {
+    "id": "REACT_HOO_038",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does React.StrictMode do to effects?",
+    "options": [
+      "Runs effects twice in development to detect side effects",
+      "Runs effects once",
+      "Disables effects",
+      "Ignores effects"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Runs effects twice in development to detect side effects."
+  },
+  {
+    "id": "REACT_HOO_039",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is exhaustive-deps?",
+    "options": [
+      "ESLint rule that warns about missing useEffect dependencies",
+      "TypeScript rule",
+      "Runtime check",
+      "Performance metric"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is ESLint rule that warns about missing useEffect dependencies."
+  },
+  {
+    "id": "REACT_HOO_040",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of the useActionState hook (React 19)?",
+    "options": [
+      "Manages form action state and pending state",
+      "Handles form validation",
+      "Creates form context",
+      "Submits forms"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Manages form action state and pending state."
+  },
+  {
+    "id": "REACT_HOO_041",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How do you share stateful logic between components?",
+    "options": [
+      "Extract into a custom hook",
+      "Use inheritance",
+      "Copy-paste code",
+      "Use HOC only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Extract into a custom hook."
+  },
+  {
+    "id": "REACT_HOO_042",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the problem with defining a function inside useEffect's dependency array?",
+    "options": [
+      "Function is re-created each render, causing effect to re-run",
+      "No problem",
+      "Effect skips runs",
+      "Function is memoized"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Function is re-created each render, causing effect to re-run."
+  },
+  {
+    "id": "REACT_HOO_043",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a derived state?",
+    "options": [
+      "State calculated from existing state/props without storing separately",
+      "Stored state",
+      "Initial state",
+      "Context state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is State calculated from existing state/props without storing separately."
+  },
+  {
+    "id": "REACT_HOO_044",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Why is it an anti-pattern to sync state with props using useEffect?",
+    "options": [
+      "Leads to inconsistency; better to compute derived values directly",
+      "It is recommended",
+      "It improves performance",
+      "It is the only pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Leads to inconsistency; better to compute derived values directly."
+  },
+  {
+    "id": "REACT_HOO_045",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does useOptimistic do (React 19)?",
+    "options": [
+      "Shows optimistic UI update before server confirms",
+      "Optimizes rendering",
+      "Memoizes values",
+      "Prefetches data"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows optimistic UI update before server confirms."
+  },
+  {
+    "id": "REACT_HOO_046",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of startTransition?",
+    "options": [
+      "Marks updates as non-urgent to keep UI responsive",
+      "Starts a CSS transition",
+      "Begins a side effect",
+      "Starts a fetch"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Marks updates as non-urgent to keep UI responsive."
+  },
+  {
+    "id": "REACT_HOO_047",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does useFormStatus return (React 19)?",
+    "options": [
+      "pending, data, method, action of nearest form submission",
+      "Form values only",
+      "Validation errors",
+      "Form element ref"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is pending, data, method, action of nearest form submission."
+  },
+  {
+    "id": "REACT_HOO_048",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the key insight about hook call order?",
+    "options": [
+      "React relies on order of hook calls to associate state with each hook",
+      "Order doesn't matter",
+      "Hooks use names",
+      "Hooks use IDs"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is React relies on order of hook calls to associate state with each hook."
+  },
+  {
+    "id": "REACT_HOO_049",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "When is it appropriate to use useReducer instead of useState?",
+    "options": [
+      "When you have multiple related state values or complex transitions",
+      "Always",
+      "Never",
+      "Only for global state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is When you have multiple related state values or complex transitions."
+  },
+  {
+    "id": "REACT_HOO_050",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the dispatch function from useReducer?",
+    "options": [
+      "Function to send actions to the reducer",
+      "Direct state setter",
+      "Event handler",
+      "Context provider"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Function to send actions to the reducer."
+  },
+  {
+    "id": "REACT_STA_001",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is React state?",
+    "options": [
+      "Data that changes over time and triggers re-renders",
+      "Static data",
+      "Props passed down",
+      "DOM attributes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Data that changes over time and triggers re-renders."
+  },
+  {
+    "id": "REACT_STA_002",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How is state different from props?",
+    "options": [
+      "State is internal and mutable; props are external and read-only",
+      "Both are mutable",
+      "Both are immutable",
+      "Props are internal"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is State is internal and mutable; props are external and read-only."
+  },
+  {
+    "id": "REACT_STA_003",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "When you call setState in class component, it:",
+    "options": [
+      "Schedules a re-render and merges state",
+      "Immediately updates state",
+      "Replaces all state synchronously",
+      "Does nothing until next frame"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Schedules a re-render and merges state."
+  },
+  {
+    "id": "REACT_STA_004",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "In React 18, multiple setState calls are:",
+    "options": [
+      "Batched automatically even in event handlers and async code",
+      "Never batched",
+      "Only batched in event handlers",
+      "Batched only in React Native"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Batched automatically even in event handlers and async code."
+  },
+  {
+    "id": "REACT_STA_005",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is state lifting?",
+    "options": [
+      "Moving state to the nearest common ancestor of components that need it",
+      "Moving state to Redux",
+      "Moving state to context",
+      "Moving state down"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Moving state to the nearest common ancestor of components that need it."
+  },
+  {
+    "id": "REACT_STA_006",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the single source of truth principle?",
+    "options": [
+      "Keep one authoritative state and derive all other values from it",
+      "Duplicate state everywhere",
+      "Use multiple stores",
+      "Use no state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Keep one authoritative state and derive all other values from it."
+  },
+  {
+    "id": "REACT_STA_007",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "When should you use Context API?",
+    "options": [
+      "For sharing global state (theme, user auth) without prop drilling",
+      "For all state",
+      "For local component state",
+      "For server state only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is For sharing global state (theme, user auth) without prop drilling."
+  },
+  {
+    "id": "REACT_STA_008",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is prop drilling?",
+    "options": [
+      "Passing props through many intermediate components that don't use them",
+      "Passing props directly",
+      "Using context",
+      "Using Redux"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Passing props through many intermediate components that don't use them."
+  },
+  {
+    "id": "REACT_STA_009",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the problem with putting everything in global state?",
+    "options": [
+      "Makes components less reusable and debugging harder",
+      "No problem",
+      "Improves performance",
+      "Simplifies code"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Makes components less reusable and debugging harder."
+  },
+  {
+    "id": "REACT_STA_010",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is server state?",
+    "options": [
+      "Data fetched from and synchronized with a server",
+      "Client-only state",
+      "Form state",
+      "UI state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Data fetched from and synchronized with a server."
+  },
+  {
+    "id": "REACT_STA_011",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What library is best for server state management?",
+    "options": [
+      "React Query / TanStack Query",
+      "Redux",
+      "MobX",
+      "Zustand"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is React Query / TanStack Query."
+  },
+  {
+    "id": "REACT_STA_012",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is client state?",
+    "options": [
+      "State that only exists in the browser (UI state, form inputs)",
+      "Fetched data",
+      "Cached responses",
+      "Server responses"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is State that only exists in the browser (UI state, form inputs)."
+  },
+  {
+    "id": "REACT_STA_013",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is derived state?",
+    "options": [
+      "Values computed from existing state without being stored separately",
+      "A copy of state",
+      "Initial state",
+      "Context state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Values computed from existing state without being stored separately."
+  },
+  {
+    "id": "REACT_STA_014",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the problem with derived state stored as state?",
+    "options": [
+      "Can get out of sync with the source of truth",
+      "No problem",
+      "Improves performance",
+      "Reduces re-renders"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Can get out of sync with the source of truth."
+  },
+  {
+    "id": "REACT_STA_015",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Flux pattern?",
+    "options": [
+      "Unidirectional data flow: Action → Dispatcher → Store → View",
+      "Bidirectional data binding",
+      "Two-way state sync",
+      "Event delegation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Unidirectional data flow: Action → Dispatcher → Store → View."
+  },
+  {
+    "id": "REACT_STA_016",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "Redux follows what core principle?",
+    "options": [
+      "Single immutable state tree + pure reducer functions",
+      "Multiple stores",
+      "Mutable state",
+      "Class-based stores"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Single immutable state tree + pure reducer functions."
+  },
+  {
+    "id": "REACT_STA_017",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What are Redux actions?",
+    "options": [
+      "Plain objects describing what happened, with a type field",
+      "Functions that change state",
+      "React components",
+      "Event handlers"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Plain objects describing what happened, with a type field."
+  },
+  {
+    "id": "REACT_STA_018",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Redux reducer?",
+    "options": [
+      "Pure function taking current state and action, returning new state",
+      "Impure state mutator",
+      "Component method",
+      "Action creator"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pure function taking current state and action, returning new state."
+  },
+  {
+    "id": "REACT_STA_019",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Redux middleware used for?",
+    "options": [
+      "Intercepting actions for side effects (logging, async operations)",
       "Routing",
       "Styling",
       "Testing"
     ],
     "answer": 0,
-    "explanation": "Redux manages application-wide state."
+    "explanation": "The correct answer is Intercepting actions for side effects (logging, async operations)."
   },
   {
-    "id": "react_1317",
+    "id": "REACT_STA_020",
     "topic": "React Engineer",
     "section": "Hooks & State",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q317] What does useLayoutEffect do?",
+    "question": "What is Redux Thunk?",
     "options": [
-      "State update",
-      "Insufficient information",
-      "Fires sync after DOM mutations",
-      "Async effect"
+      "Middleware allowing action creators to return functions (for async)",
+      "Synchronous Redux",
+      "Redux DevTools",
+      "Immutability helper"
     ],
     "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
+    "explanation": "The correct answer is Middleware allowing action creators to return functions (for async)."
   },
   {
-    "id": "react_1318",
+    "id": "REACT_STA_021",
     "topic": "React Engineer",
     "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q318] Immutability in React state means",
+    "question": "What is Redux Toolkit?",
     "options": [
-      "Delete state",
-      "Modify in place",
-      "None of the above",
-      "Create new object instead of mutating"
+      "Official recommended way to write Redux with less boilerplate",
+      "Third-party Redux",
+      "Redux for class components",
+      "Redux with React Native"
     ],
     "answer": 0,
-    "explanation": "React state must be updated immutably."
+    "explanation": "The correct answer is Official recommended way to write Redux with less boilerplate."
   },
   {
-    "id": "react_1319",
+    "id": "REACT_STA_022",
     "topic": "React Engineer",
     "section": "Hooks & State",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q319] What is the children prop?",
+    "question": "createSlice in Redux Toolkit does:",
     "options": [
-      "Component name",
-      "State value",
-      "Content between component tags",
-      "All of the above"
+      "Generates action creators and reducer in one place",
+      "Only creates actions",
+      "Only creates reducers",
+      "Creates the store"
     ],
     "answer": 0,
-    "explanation": "children contains nested JSX/elements."
+    "explanation": "The correct answer is Generates action creators and reducer in one place."
   },
   {
-    "id": "react_1320",
+    "id": "REACT_STA_023",
     "topic": "React Engineer",
     "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q320] Batching in React 18",
+    "question": "What is Zustand?",
     "options": [
-      "The above is incorrect",
-      "Multiple state updates in one render",
-      "Single update",
-      "Sequential renders"
+      "Lightweight React state management with a simple hook-based API",
+      "Redux alternative from Facebook",
+      "MobX variant",
+      "Built-in React API"
     ],
     "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
+    "explanation": "The correct answer is Lightweight React state management with a simple hook-based API."
   },
   {
-    "id": "react_1321",
+    "id": "REACT_STA_024",
     "topic": "React Engineer",
     "section": "Hooks & State",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q321] What is React?",
+    "question": "What is Jotai?",
     "options": [
-      "Backend framework",
-      "CSS framework",
-      "Database ORM",
-      "JavaScript UI library"
+      "Atomic state management library for React",
+      "Redux variant",
+      "Context API wrapper",
+      "Server state library"
     ],
     "answer": 0,
-    "explanation": "React is a JS library for building UIs."
+    "explanation": "The correct answer is Atomic state management library for React."
   },
   {
-    "id": "react_1322",
+    "id": "REACT_STA_025",
     "topic": "React Engineer",
     "section": "Hooks & State",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q322] JSX stands for",
+    "question": "What is Recoil?",
     "options": [
-      "Option not applicable",
-      "Java Syntax Extension",
-      "JavaScript XML",
-      "JavaScript Extension"
+      "Facebook's atomic state management for React",
+      "Meta's routing library",
+      "State server library",
+      "Form management"
     ],
     "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
+    "explanation": "The correct answer is Facebook's atomic state management for React."
   },
   {
-    "id": "react_1323",
+    "id": "REACT_STA_026",
     "topic": "React Engineer",
     "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q323] useState returns",
+    "question": "What is MobX?",
     "options": [
-      "Array of objects",
-      "Only value",
-      "State value and setter",
-      "Only setter"
+      "Reactive state management using observable patterns",
+      "Redux variant",
+      "Context API replacement",
+      "Server state library"
     ],
     "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
+    "explanation": "The correct answer is Reactive state management using observable patterns."
   },
   {
-    "id": "react_1324",
+    "id": "REACT_STA_027",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between Redux and Context API?",
+    "options": [
+      "Redux has DevTools, middleware, and performance optimizations for large apps",
+      "Context is always better",
+      "Redux is always better",
+      "No difference"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Redux has DevTools, middleware, and performance optimizations for large apps."
+  },
+  {
+    "id": "REACT_STA_028",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the purpose of useSelector in Redux?",
+    "options": [
+      "Extract specific data from Redux store in a component",
+      "Dispatch actions",
+      "Create reducers",
+      "Initialize store"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Extract specific data from Redux store in a component."
+  },
+  {
+    "id": "REACT_STA_029",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is useDispatch in Redux?",
+    "options": [
+      "Hook that returns the Redux dispatch function",
+      "Gets state",
+      "Gets reducers",
+      "Creates actions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hook that returns the Redux dispatch function."
+  },
+  {
+    "id": "REACT_STA_030",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the Redux store?",
+    "options": [
+      "Holds the application's complete state tree",
+      "Collection of components",
+      "Action handler",
+      "Middleware layer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Holds the application's complete state tree."
+  },
+  {
+    "id": "REACT_STA_031",
     "topic": "React Engineer",
     "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q324] useEffect is used for",
+    "question": "What does combineReducers do?",
     "options": [
-      "Side effects",
+      "Merges multiple reducers into one root reducer",
+      "Creates store",
+      "Adds middleware",
+      "Dispatches actions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Merges multiple reducers into one root reducer."
+  },
+  {
+    "id": "REACT_STA_032",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is an action creator?",
+    "options": [
+      "Function that returns an action object",
+      "Reducer function",
+      "Store initializer",
+      "Middleware"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Function that returns an action object."
+  },
+  {
+    "id": "REACT_STA_033",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the problem with mutating state directly in React?",
+    "options": [
+      "React won't detect the change and won't re-render",
+      "React will re-render anyway",
+      "State updates faster",
+      "No problem"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is React won't detect the change and won't re-render."
+  },
+  {
+    "id": "REACT_STA_034",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Immer.js used for?",
+    "options": [
+      "Write mutable-looking code that produces immutable state updates",
+      "CSS-in-JS",
+      "Testing utilities",
+      "Routing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Write mutable-looking code that produces immutable state updates."
+  },
+  {
+    "id": "REACT_STA_035",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does produce() from Immer do?",
+    "options": [
+      "Takes base state and a draft mutator, returns immutable next state",
+      "Generates actions",
+      "Creates reducers",
+      "Manages context"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Takes base state and a draft mutator, returns immutable next state."
+  },
+  {
+    "id": "REACT_STA_036",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is optimistic UI update?",
+    "options": [
+      "Immediately updating UI assuming server call will succeed",
+      "Waiting for server",
+      "Showing loading only",
+      "Rollback on success"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Immediately updating UI assuming server call will succeed."
+  },
+  {
+    "id": "REACT_STA_037",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is pessimistic UI update?",
+    "options": [
+      "Waiting for server confirmation before updating UI",
+      "Updating before server",
+      "Showing error first",
+      "Ignoring server response"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Waiting for server confirmation before updating UI."
+  },
+  {
+    "id": "REACT_STA_038",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is state normalization?",
+    "options": [
+      "Structuring state as flat entities with IDs to avoid nesting",
+      "Sorting state",
+      "Compressing state",
+      "Encrypting state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Structuring state as flat entities with IDs to avoid nesting."
+  },
+  {
+    "id": "REACT_STA_039",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the selector pattern in Redux?",
+    "options": [
+      "Functions that extract and transform data from store",
+      "Action patterns",
+      "Reducer patterns",
+      "Middleware patterns"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Functions that extract and transform data from store."
+  },
+  {
+    "id": "REACT_STA_040",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is memoized selector (e.g., createSelector)?",
+    "options": [
+      "Selector that recomputes only when inputs change",
+      "Cached action",
+      "Memoized reducer",
+      "Cached component"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Selector that recomputes only when inputs change."
+  },
+  {
+    "id": "REACT_STA_041",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "When does React batch state updates?",
+    "options": [
+      "In event handlers (React 17) and everywhere in React 18",
+      "Never",
+      "Only in useEffect",
+      "Only in setTimeout"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is In event handlers (React 17) and everywhere in React 18."
+  },
+  {
+    "id": "REACT_STA_042",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is flushSync in React 18?",
+    "options": [
+      "Forces synchronous state updates instead of batching",
+      "Flushes cache",
+      "Clears DOM",
+      "Resets state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Forces synchronous state updates instead of batching."
+  },
+  {
+    "id": "REACT_STA_043",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the difference between useState and useRef for mutable values?",
+    "options": [
+      "useState triggers re-render; useRef doesn't",
+      "No difference",
+      "useRef triggers re-render",
+      "useState is faster"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is useState triggers re-render; useRef doesn't."
+  },
+  {
+    "id": "REACT_STA_044",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of the key prop when resetting state?",
+    "options": [
+      "Changing key forces React to unmount and remount component (resetting state)",
+      "Optimizing lists",
+      "Identifying elements",
+      "Preventing re-renders"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Changing key forces React to unmount and remount component (resetting state)."
+  },
+  {
+    "id": "REACT_STA_045",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is uncontrolled state?",
+    "options": [
+      "Form state managed by DOM, accessed via ref",
+      "React-managed form state",
+      "Global state",
+      "Context state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Form state managed by DOM, accessed via ref."
+  },
+  {
+    "id": "REACT_STA_046",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a finite state machine in UI development?",
+    "options": [
+      "Modeling UI as explicit states with defined transitions",
+      "Infinite loops",
+      "State without transitions",
+      "Random state changes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Modeling UI as explicit states with defined transitions."
+  },
+  {
+    "id": "REACT_STA_047",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What library implements finite state machines for React?",
+    "options": [
+      "XState",
+      "Redux",
+      "Zustand",
+      "Jotai"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is XState."
+  },
+  {
+    "id": "REACT_STA_048",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the difference between local and global state?",
+    "options": [
+      "Local is component-specific; global is shared across the app",
+      "No difference",
+      "Local is better always",
+      "Global is always Redux"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Local is component-specific; global is shared across the app."
+  },
+  {
+    "id": "REACT_STA_049",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "When should you avoid using global state?",
+    "options": [
+      "For data that's only needed by one component",
+      "For user auth",
+      "For theme",
+      "For cart data"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is For data that's only needed by one component."
+  },
+  {
+    "id": "REACT_STA_050",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does useState's functional update pattern guarantee?",
+    "options": [
+      "Access to the most recent state value even in async/stale closures",
+      "Nothing special",
+      "Slower updates",
+      "Batched updates only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Access to the most recent state value even in async/stale closures."
+  },
+  {
+    "id": "REACT_STA_051",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the atom pattern in atomic state management?",
+    "options": [
+      "Breaking global state into small independent pieces",
+      "Large monolithic state",
+      "Single store",
+      "Context-based state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Breaking global state into small independent pieces."
+  },
+  {
+    "id": "REACT_JSX_001",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is JSX?",
+    "options": [
+      "Syntax extension allowing HTML-like code in JavaScript",
+      "Pure HTML",
+      "Pure JavaScript",
+      "CSS-in-JS"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Syntax extension allowing HTML-like code in JavaScript."
+  },
+  {
+    "id": "REACT_JSX_002",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "JSX compiles to:",
+    "options": [
+      "React.createElement() calls",
+      "HTML strings",
+      "DOM nodes",
+      "JSON objects"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is React.createElement() calls."
+  },
+  {
+    "id": "REACT_JSX_003",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What must every JSX expression return?",
+    "options": [
+      "A single root element",
+      "Multiple root elements",
+      "A string",
+      "A number"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A single root element."
+  },
+  {
+    "id": "REACT_JSX_004",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What React feature allows multiple elements without wrapper?",
+    "options": [
+      "Fragment (<> </> or <React.Fragment>)",
+      "div wrapper",
+      "span wrapper",
+      "Array of elements"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Fragment (<> </> or <React.Fragment>)."
+  },
+  {
+    "id": "REACT_JSX_005",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How do you embed JavaScript in JSX?",
+    "options": [
+      "Curly braces {}",
+      "Parentheses ()",
+      "Square brackets []",
+      "Template literals only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Curly braces {}."
+  },
+  {
+    "id": "REACT_JSX_006",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the correct JSX attribute for 'class'?",
+    "options": [
+      "className",
+      "class",
+      "classname",
+      "cssClass"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is className."
+  },
+  {
+    "id": "REACT_JSX_007",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the correct JSX attribute for 'for' on labels?",
+    "options": [
+      "htmlFor",
+      "for",
+      "labelFor",
+      "forHtml"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is htmlFor."
+  },
+  {
+    "id": "REACT_JSX_008",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Self-closing tags in JSX:",
+    "options": [
+      "All tags without children must be self-closed (<br />)",
+      "Optional",
+      "Not allowed",
+      "Same as HTML"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is All tags without children must be self-closed (<br />)."
+  },
+  {
+    "id": "REACT_JSX_009",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How do you render a list in JSX?",
+    "options": [
+      "Array.map() returning JSX elements",
+      "for loop directly",
+      "forEach",
+      "while loop"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Array.map() returning JSX elements."
+  },
+  {
+    "id": "REACT_JSX_010",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the 'key' prop used for in lists?",
+    "options": [
+      "Helps React identify which items changed, added, or removed",
+      "CSS styling",
+      "Event handling",
+      "Component naming"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Helps React identify which items changed, added, or removed."
+  },
+  {
+    "id": "REACT_JSX_011",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "Can you use if-else directly inside JSX?",
+    "options": [
+      "No — use ternary or logical && operator",
+      "Yes, always",
+      "Only with function call",
+      "Only in class components"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is No — use ternary or logical && operator."
+  },
+  {
+    "id": "REACT_JSX_012",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Conditional rendering with &&:",
+    "options": [
+      "Renders right side only if left side is truthy",
+      "Renders both always",
+      "Renders left side",
+      "Always renders nothing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Renders right side only if left side is truthy."
+  },
+  {
+    "id": "REACT_JSX_013",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the problem with using 0 with && in JSX?",
+    "options": [
+      "0 is falsy but renders the number 0 in the DOM",
+      "No problem",
+      "It throws an error",
+      "It renders null"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is 0 is falsy but renders the number 0 in the DOM."
+  },
+  {
+    "id": "REACT_JSX_014",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "How do you write inline styles in JSX?",
+    "options": [
+      "style={{color: 'red', fontSize: '16px'}} (object with camelCase)",
+      "style='color:red'",
+      "style={color:red}",
+      "css={color:'red'}"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is style={{color: 'red', fontSize: '16px'}} (object with camelCase)."
+  },
+  {
+    "id": "REACT_JSX_015",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does JSX require that HTML doesn't?",
+    "options": [
+      "Closing tags for all elements and camelCase attributes",
+      "Doctype declaration",
+      "Head tag",
+      "Body tag"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Closing tags for all elements and camelCase attributes."
+  },
+  {
+    "id": "REACT_JSX_016",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Can you use JSX without React in scope (React 17+)?",
+    "options": [
+      "Yes — new JSX transform doesn't require React import",
+      "No — always required",
+      "Only in TypeScript",
+      "Only with Babel 7"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Yes — new JSX transform doesn't require React import."
+  },
+  {
+    "id": "REACT_JSX_017",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the new JSX transform?",
+    "options": [
+      "Babel plugin that auto-imports jsx() from react/jsx-runtime",
+      "Manual React import",
+      "TypeScript-only feature",
+      "Webpack plugin"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Babel plugin that auto-imports jsx() from react/jsx-runtime."
+  },
+  {
+    "id": "REACT_JSX_018",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does React.createElement(type, props, ...children) return?",
+    "options": [
+      "A React element (plain object describing the UI)",
+      "A DOM node",
+      "An HTML string",
+      "A component instance"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is A React element (plain object describing the UI)."
+  },
+  {
+    "id": "REACT_JSX_019",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a React element?",
+    "options": [
+      "Immutable plain object describing what to render",
+      "DOM node",
+      "Component class",
+      "JavaScript function"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Immutable plain object describing what to render."
+  },
+  {
+    "id": "REACT_JSX_020",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between React element and React component?",
+    "options": [
+      "Element is a plain object; component is a function/class that returns elements",
+      "No difference",
+      "Component is an element",
+      "Element contains components"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Element is a plain object; component is a function/class that returns elements."
+  },
+  {
+    "id": "REACT_JSX_021",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What attributes must be unique in a list key prop?",
+    "options": [
+      "Keys must be unique among siblings (not globally)",
+      "Globally unique",
+      "Same as index",
+      "Same as ID"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Keys must be unique among siblings (not globally)."
+  },
+  {
+    "id": "REACT_JSX_022",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Why is using array index as key problematic?",
+    "options": [
+      "If list reorders, React can't correctly match old and new elements",
+      "No problem",
+      "Keys must be strings",
+      "Index is never valid"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is If list reorders, React can't correctly match old and new elements."
+  },
+  {
+    "id": "REACT_JSX_023",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a JSX expression vs a JSX element?",
+    "options": [
+      "Expression is any JS in {}; element is the tag-like syntax",
+      "Same thing",
+      "Expression is a component",
+      "Element is a string"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Expression is any JS in {}; element is the tag-like syntax."
+  },
+  {
+    "id": "REACT_JSX_024",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Can you return null from a component to render nothing?",
+    "options": [
+      "Yes",
+      "No",
+      "Only in class components",
+      "Only from hooks"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Yes."
+  },
+  {
+    "id": "REACT_JSX_025",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does a component returning false render?",
+    "options": [
+      "Nothing (false is not rendered)",
+      "The text 'false'",
+      "An error",
+      "An empty div"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Nothing (false is not rendered)."
+  },
+  {
+    "id": "REACT_JSX_026",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "How do you apply multiple class names in JSX?",
+    "options": [
+      "className='class1 class2' or use classnames library",
+      "className=['class1','class2']",
+      "class='class1 class2'",
+      "Multiple className props"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is className='class1 class2' or use classnames library."
+  },
+  {
+    "id": "REACT_JSX_027",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the spread operator in JSX used for?",
+    "options": [
+      "Passing all object properties as props: <Comp {...props} />",
+      "Merging components",
+      "Spreading children",
+      "Cloning elements"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Passing all object properties as props: <Comp {...props} />."
+  },
+  {
+    "id": "REACT_JSX_028",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does React.cloneElement do?",
+    "options": [
+      "Clones an element and merges additional props",
+      "Creates a new component",
+      "Duplicates DOM",
+      "Merges components"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Clones an element and merges additional props."
+  },
+  {
+    "id": "REACT_JSX_029",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is children prop?",
+    "options": [
+      "Special prop representing content between component's opening and closing tags",
+      "Array of props",
+      "DOM children",
+      "Event handlers"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Special prop representing content between component's opening and closing tags."
+  },
+  {
+    "id": "REACT_JSX_030",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is React.Children API used for?",
+    "options": [
+      "Utilities to iterate over and manipulate children prop",
+      "Counting components",
+      "Managing state",
+      "Handling events"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Utilities to iterate over and manipulate children prop."
+  },
+  {
+    "id": "REACT_JSX_031",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is dangerouslySetInnerHTML?",
+    "options": [
+      "Prop to set raw HTML, bypassing React's XSS protection",
+      "Safe HTML setter",
+      "CSS property",
+      "Event attribute"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Prop to set raw HTML, bypassing React's XSS protection."
+  },
+  {
+    "id": "REACT_JSX_032",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "Why is dangerouslySetInnerHTML dangerous?",
+    "options": [
+      "It exposes you to XSS attacks if content is from user input",
+      "It is slow",
+      "It breaks styling",
+      "It causes re-renders"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is It exposes you to XSS attacks if content is from user input."
+  },
+  {
+    "id": "REACT_JSX_033",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the aria-* attribute used for in JSX?",
+    "options": [
+      "Accessibility attributes for screen readers",
+      "Animation properties",
+      "Array indicators",
+      "API attributes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Accessibility attributes for screen readers."
+  },
+  {
+    "id": "REACT_JSX_034",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the data-* attribute used for?",
+    "options": [
+      "Custom data attributes to store extra information in DOM",
+      "React-only data",
+      "Internal component data",
+      "Database data"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Custom data attributes to store extra information in DOM."
+  },
+  {
+    "id": "REACT_JSX_035",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How do you handle events in JSX?",
+    "options": [
+      "camelCase event handlers: onClick, onChange, onSubmit",
+      "lowercase: onclick",
+      "Uppercase: OnClick",
+      "event:click"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is camelCase event handlers: onClick, onChange, onSubmit."
+  },
+  {
+    "id": "REACT_JSX_036",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does e.preventDefault() do in JSX event handler?",
+    "options": [
+      "Prevents default browser behavior (e.g., form submission)",
+      "Stops propagation",
+      "Prevents re-render",
+      "Cancels state update"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Prevents default browser behavior (e.g., form submission)."
+  },
+  {
+    "id": "REACT_JSX_037",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does e.stopPropagation() do?",
+    "options": [
+      "Prevents event from bubbling up to parent elements",
+      "Prevents default",
+      "Stops all events",
+      "Cancels async operations"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Prevents event from bubbling up to parent elements."
+  },
+  {
+    "id": "REACT_JSX_038",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is event delegation in React?",
+    "options": [
+      "React attaches one listener at root instead of each element",
+      "Per-element listeners",
+      "No event handling",
+      "Manual delegation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is React attaches one listener at root instead of each element."
+  },
+  {
+    "id": "REACT_JSX_039",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a synthetic event in React?",
+    "options": [
+      "React's cross-browser wrapper around native browser events",
+      "A custom event",
+      "A server-sent event",
+      "A WebSocket event"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is React's cross-browser wrapper around native browser events."
+  },
+  {
+    "id": "REACT_JSX_040",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What happened to synthetic event pooling in React 17?",
+    "options": [
+      "It was removed — events are no longer pooled",
+      "It was added",
+      "It was improved",
+      "It still exists"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is It was removed — events are no longer pooled."
+  },
+  {
+    "id": "REACT_JSX_041",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the JSX comment syntax?",
+    "options": [
+      "{/* comment */}",
+      "// comment",
+      "<!-- comment -->",
+      "## comment"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is {/* comment */}."
+  },
+  {
+    "id": "REACT_JSX_042",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does white space in JSX do?",
+    "options": [
+      "Whitespace between elements is mostly ignored (unlike HTML)",
+      "Renders as &nbsp;",
+      "Causes layout issues",
+      "Throws errors"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Whitespace between elements is mostly ignored (unlike HTML)."
+  },
+  {
+    "id": "REACT_JSX_043",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "Can you nest ternary operators in JSX?",
+    "options": [
+      "Yes, but it reduces readability",
+      "No",
+      "Only one level",
+      "Only in class components"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Yes, but it reduces readability."
+  },
+  {
+    "id": "REACT_JSX_044",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the nullish coalescing operator useful for in JSX?",
+    "options": [
+      "Rendering fallback when value is null or undefined",
+      "Short-circuit rendering",
+      "Conditional class names",
+      "Key generation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Rendering fallback when value is null or undefined."
+  },
+  {
+    "id": "REACT_JSX_045",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is optional chaining useful for in JSX?",
+    "options": [
+      "Safely accessing nested properties that might be null/undefined",
+      "Rendering lists",
+      "Class names",
+      "Event handlers"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Safely accessing nested properties that might be null/undefined."
+  },
+  {
+    "id": "REACT_JSX_046",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a render prop pattern?",
+    "options": [
+      "Component accepts a function as prop that returns JSX",
+      "HOC pattern",
+      "Context pattern",
+      "Hook pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Component accepts a function as prop that returns JSX."
+  },
+  {
+    "id": "REACT_JSX_047",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does React.memo do with JSX output?",
+    "options": [
+      "Memoizes component's render result, skips re-render if props unchanged",
+      "Adds memo to JSX",
+      "Memoizes JSX strings",
+      "Caches DOM"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Memoizes component's render result, skips re-render if props unchanged."
+  },
+  {
+    "id": "REACT_JSX_048",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of key prop on non-list elements?",
+    "options": [
+      "Force re-mount when key changes (e.g., to reset component state)",
+      "Required for all JSX",
+      "Identifies components",
+      "Boosts performance"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Force re-mount when key changes (e.g., to reset component state)."
+  },
+  {
+    "id": "REACT_JSX_049",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the difference between controlled and uncontrolled input in JSX?",
+    "options": [
+      "Controlled: value tied to state; Uncontrolled: DOM manages value",
+      "No difference",
+      "Controlled is unmanaged",
+      "Uncontrolled uses useState"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Controlled: value tied to state; Uncontrolled: DOM manages value."
+  },
+  {
+    "id": "REACT_JSX_050",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "How do you create an uncontrolled input?",
+    "options": [
+      "Use defaultValue with no value prop, access via ref",
+      "Use value without onChange",
+      "Don't use any prop",
+      "Use uncontrolled prop"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Use defaultValue with no value prop, access via ref."
+  },
+  {
+    "id": "REACT_JSX_051",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is portal in React?",
+    "options": [
+      "Renders children into a DOM node outside the parent component hierarchy",
+      "Teleportation component",
+      "CSS animation",
+      "State portal"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Renders children into a DOM node outside the parent component hierarchy."
+  },
+  {
+    "id": "REACT_ROU_001",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is React Router used for?",
+    "options": [
+      "Client-side routing in React SPAs without full page reloads",
+      "Server-side rendering",
+      "State management",
+      "API calls"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Client-side routing in React SPAs without full page reloads."
+  },
+  {
+    "id": "REACT_ROU_002",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What component wraps your app for routing in React Router v6?",
+    "options": [
+      "BrowserRouter or RouterProvider",
+      "Router",
+      "AppRouter",
+      "Navigation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is BrowserRouter or RouterProvider."
+  },
+  {
+    "id": "REACT_ROU_003",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the <Route> component used for?",
+    "options": [
+      "Renders a component when the URL matches a specific path",
+      "Navigation link",
+      "URL redirect",
+      "Layout wrapper"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Renders a component when the URL matches a specific path."
+  },
+  {
+    "id": "REACT_ROU_004",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is <Link> component in React Router?",
+    "options": [
+      "Renders anchor tag that navigates without full page reload",
+      "Triggers GET request",
+      "Renders a button",
+      "Creates a bookmark"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Renders anchor tag that navigates without full page reload."
+  },
+  {
+    "id": "REACT_ROU_005",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is <NavLink> different from <Link>?",
+    "options": [
+      "NavLink adds active class/styling when it matches current URL",
+      "NavLink is external",
+      "NavLink fetches data",
+      "NavLink is deprecated"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is NavLink adds active class/styling when it matches current URL."
+  },
+  {
+    "id": "REACT_ROU_006",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How do you get URL parameters in React Router v6?",
+    "options": [
+      "useParams() hook",
+      "useLocation()",
+      "useRoute()",
+      "getParams()"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is useParams() hook."
+  },
+  {
+    "id": "REACT_ROU_007",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "How do you navigate programmatically in React Router v6?",
+    "options": [
+      "useNavigate() hook",
+      "useHistory()",
+      "window.location",
+      "history.push()"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is useNavigate() hook."
+  },
+  {
+    "id": "REACT_ROU_008",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does useLocation return?",
+    "options": [
+      "Current location object with pathname, search, hash, state",
+      "URL string only",
+      "Component location",
+      "Scroll position"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Current location object with pathname, search, hash, state."
+  },
+  {
+    "id": "REACT_ROU_009",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a nested route?",
+    "options": [
+      "Routes defined inside parent routes that render in Outlet",
+      "Routes in separate file",
+      "Dynamic routes",
+      "Protected routes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Routes defined inside parent routes that render in Outlet."
+  },
+  {
+    "id": "REACT_ROU_010",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is <Outlet> in React Router v6?",
+    "options": [
+      "Renders the matched child route within parent layout",
+      "Navigation bar",
+      "Footer",
+      "Header"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Renders the matched child route within parent layout."
+  },
+  {
+    "id": "REACT_ROU_011",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How do you create a 404 Not Found route?",
+    "options": [
+      "<Route path='*' element={<NotFound />} />",
+      "<Route path='404'>",
+      "<Route default>",
+      "<NotFoundRoute>"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is <Route path='*' element={<NotFound />} />."
+  },
+  {
+    "id": "REACT_ROU_012",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a layout route?",
+    "options": [
+      "Route that renders shared UI (header/footer) with child routes via Outlet",
+      "Route with parameters",
+      "Nested route",
+      "Default route"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Route that renders shared UI (header/footer) with child routes via Outlet."
+  },
+  {
+    "id": "REACT_ROU_013",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What are search params in React Router?",
+    "options": [
+      "Query string parameters (?key=value), accessed via useSearchParams()",
+      "URL path segments",
+      "Hash fragments",
+      "State parameters"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Query string parameters (?key=value), accessed via useSearchParams()."
+  },
+  {
+    "id": "REACT_ROU_014",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between hash and browser routing?",
+    "options": [
+      "Hash routing uses #; browser routing uses HTML5 History API",
+      "No difference",
+      "Browser routing uses hash",
+      "Hash routing needs server config"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hash routing uses #; browser routing uses HTML5 History API."
+  },
+  {
+    "id": "REACT_ROU_015",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the replace option in navigate()?",
+    "options": [
+      "Replaces current history entry instead of pushing new one",
+      "Replaces component",
+      "Redirects to home",
+      "Reloads page"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Replaces current history entry instead of pushing new one."
+  },
+  {
+    "id": "REACT_ROU_016",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a protected route pattern?",
+    "options": [
+      "Wrapper that redirects unauthenticated users to login",
+      "Public route",
+      "Admin route",
+      "Dynamic route"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Wrapper that redirects unauthenticated users to login."
+  },
+  {
+    "id": "REACT_ROU_017",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "How do you implement protected routes in React Router v6?",
+    "options": [
+      "Check auth in component and return <Navigate> to redirect",
+      "Server-side check",
+      "Middleware",
+      "Route guard function"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Check auth in component and return <Navigate> to redirect."
+  },
+  {
+    "id": "REACT_ROU_018",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is <Navigate> component?",
+    "options": [
+      "Renders nothing but triggers a navigation side effect",
+      "Navigation link",
+      "Back button",
+      "Breadcrumb"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Renders nothing but triggers a navigation side effect."
+  },
+  {
+    "id": "REACT_ROU_019",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is useRouteError in v6?",
+    "options": [
+      "Hook to access error thrown in route's loader/action",
+      "Catches all errors",
+      "Shows 404",
+      "Handles network errors"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hook to access error thrown in route's loader/action."
+  },
+  {
+    "id": "REACT_ROU_020",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a loader in React Router v6 Data APIs?",
+    "options": [
+      "Function that fetches data before route renders",
+      "Component method",
+      "Utility function",
+      "Middleware"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Function that fetches data before route renders."
+  },
+  {
+    "id": "REACT_ROU_021",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is an action in React Router v6 Data APIs?",
+    "options": [
+      "Handles form mutations triggered by Form component submissions",
+      "Route animation",
+      "Navigation action",
+      "Loading state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Handles form mutations triggered by Form component submissions."
+  },
+  {
+    "id": "REACT_ROU_022",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is useLoaderData?",
+    "options": [
+      "Hook to access data returned by current route's loader",
+      "Loads lazy components",
+      "Fetches APIs",
+      "Gets URL params"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hook to access data returned by current route's loader."
+  },
+  {
+    "id": "REACT_ROU_023",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a Suspense-compatible data fetching strategy?",
+    "options": [
+      "Load data in loader or use libraries that integrate with Suspense",
+      "useEffect fetching",
+      "componentDidMount",
+      "setTimeout"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Load data in loader or use libraries that integrate with Suspense."
+  },
+  {
+    "id": "REACT_ROU_024",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is lazy loading routes?",
+    "options": [
+      "Loading route components only when navigated to with React.lazy",
+      "Preloading all routes",
+      "Loading styles",
+      "Loading data"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Loading route components only when navigated to with React.lazy."
+  },
+  {
+    "id": "REACT_ROU_025",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "How do you implement lazy loading with React Router?",
+    "options": [
+      "React.lazy + Suspense wrapping the lazy component",
+      "import() inside component",
+      "Dynamic routing",
+      "Server loading"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is React.lazy + Suspense wrapping the lazy component."
+  },
+  {
+    "id": "REACT_ROU_026",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the basename prop for BrowserRouter?",
+    "options": [
+      "Sets the base URL for all routes (useful when app is at sub-path)",
+      "Base component",
+      "HTML base tag",
+      "Domain setting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sets the base URL for all routes (useful when app is at sub-path)."
+  },
+  {
+    "id": "REACT_ROU_027",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is relative vs absolute path in React Router?",
+    "options": [
+      "Absolute starts with /; relative is relative to parent route",
+      "Same",
+      "Relative uses ../",
+      "Absolute uses ./"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Absolute starts with /; relative is relative to parent route."
+  },
+  {
+    "id": "REACT_ROU_028",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does index route do?",
+    "options": [
+      "Renders when parent route matches exactly (default child)",
+      "Same as path='/'",
+      "Renders last",
+      "Not found route"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Renders when parent route matches exactly (default child)."
+  },
+  {
+    "id": "REACT_ROU_029",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is history API in browser?",
+    "options": [
+      "Browser API for managing session history (pushState, replaceState)",
+      "CSS history",
+      "HTTP history",
+      "Network history"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Browser API for managing session history (pushState, replaceState)."
+  },
+  {
+    "id": "REACT_ROU_030",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the difference between push and replace in navigation history?",
+    "options": [
+      "push adds new entry; replace overwrites current",
+      "No difference",
+      "push goes back",
+      "replace adds new"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is push adds new entry; replace overwrites current."
+  },
+  {
+    "id": "REACT_ROU_031",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a breadcrumb navigation pattern?",
+    "options": [
+      "Shows hierarchy of current page location for easy navigation",
+      "Navigation menu",
+      "Pagination",
+      "Sidebar"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows hierarchy of current page location for easy navigation."
+  },
+  {
+    "id": "REACT_ROU_032",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of state in navigate(path, {state})?",
+    "options": [
+      "Pass data to next route without exposing it in URL",
+      "Persist state globally",
+      "Store in localStorage",
+      "Pass URL params"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pass data to next route without exposing it in URL."
+  },
+  {
+    "id": "REACT_ROU_033",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "How do you access the state passed via navigate?",
+    "options": [
+      "useLocation().state",
+      "useParams().state",
+      "useNavigate().state",
+      "useHistory().state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is useLocation().state."
+  },
+  {
+    "id": "REACT_ROU_034",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is scroll restoration in React Router?",
+    "options": [
+      "Restoring scroll position when navigating back",
+      "Auto-scrolling to top",
+      "Smooth scrolling",
+      "Infinite scroll"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Restoring scroll position when navigating back."
+  },
+  {
+    "id": "REACT_ROU_035",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is TanStack Router?",
+    "options": [
+      "Type-safe file-based routing with first-class TypeScript support",
+      "React Router v7",
+      "Redux Router",
+      "Remix Router"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Type-safe file-based routing with first-class TypeScript support."
+  },
+  {
+    "id": "REACT_ROU_036",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Remix?",
+    "options": [
+      "Full-stack React framework with nested routing, loaders, and actions",
+      "Client-only router",
+      "State management",
+      "CSS framework"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Full-stack React framework with nested routing, loaders, and actions."
+  },
+  {
+    "id": "REACT_ROU_037",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Next.js file-based routing?",
+    "options": [
+      "Pages directory or App Router where file structure defines routes",
+      "Manual route config",
+      "JSON-based routes",
+      "Database-driven routes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pages directory or App Router where file structure defines routes."
+  },
+  {
+    "id": "REACT_ROU_038",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is dynamic routing in Next.js?",
+    "options": [
+      "[param].tsx file creates routes with dynamic segments",
+      "Static routing",
+      "API routing",
+      "Catch-all routing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is [param].tsx file creates routes with dynamic segments."
+  },
+  {
+    "id": "REACT_ROU_039",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is catch-all route in Next.js?",
+    "options": [
+      "[...slug].tsx matches multiple path segments",
+      "Single param route",
+      "Optional param",
+      "Layout route"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is [...slug].tsx matches multiple path segments."
+  },
+  {
+    "id": "REACT_ROU_040",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the purpose of a router in SPA?",
+    "options": [
+      "Update the URL and render matching component without server request",
+      "Server routing",
+      "Database routing",
+      "API routing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Update the URL and render matching component without server request."
+  },
+  {
+    "id": "REACT_ROU_041",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the history object in React Router v5?",
+    "options": [
+      "Object with push(), replace(), goBack() for navigation",
+      "No longer exists in v6",
+      "State manager",
+      "Route config"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Object with push(), replace(), goBack() for navigation."
+  },
+  {
+    "id": "REACT_ROU_042",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What replaced history in React Router v6?",
+    "options": [
+      "useNavigate hook",
+      "useHistory hook",
+      "window.history",
+      "navigate prop"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is useNavigate hook."
+  },
+  {
+    "id": "REACT_ROU_043",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "How do you pass props to a route component in v6?",
+    "options": [
+      "element prop takes JSX: element={<MyComp prop={val} />}",
+      "component prop",
+      "props prop",
+      "render prop"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is element prop takes JSX: element={<MyComp prop={val} />}."
+  },
+  {
+    "id": "REACT_ROU_044",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the exact prop in React Router v5?",
+    "options": [
+      "Ensures route matches exactly, not just prefix",
+      "Not in v6",
+      "Optional in v6",
+      "Deprecated in v5"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Ensures route matches exactly, not just prefix."
+  },
+  {
+    "id": "REACT_ROU_045",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Is exact prop needed in React Router v6?",
+    "options": [
+      "No — all routes match exactly by default",
+      "Yes, always",
+      "Only for nested routes",
+      "Only for dynamic routes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is No — all routes match exactly by default."
+  },
+  {
+    "id": "REACT_ROU_046",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a hash route (#/path)?",
+    "options": [
+      "Uses URL hash for routing, no server config needed",
+      "Uses history API",
+      "Requires server config",
+      "Only for anchors"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Uses URL hash for routing, no server config needed."
+  },
+  {
+    "id": "REACT_ROU_047",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is MemoryRouter?",
+    "options": [
+      "Stores history in memory, useful for tests and non-browser envs",
+      "Browser router",
+      "Hash router",
+      "Static router"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stores history in memory, useful for tests and non-browser envs."
+  },
+  {
+    "id": "REACT_ROU_048",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is StaticRouter?",
+    "options": [
+      "Router for server-side rendering with a static URL",
+      "Static site router",
+      "Test router",
+      "Memory router"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Router for server-side rendering with a static URL."
+  },
+  {
+    "id": "REACT_ROU_049",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the difference between Single Page App routing and Multi Page App routing?",
+    "options": [
+      "SPA updates URL client-side without server; MPA makes server request",
+      "No difference",
+      "SPA needs server for each route",
+      "MPA is JavaScript"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SPA updates URL client-side without server; MPA makes server request."
+  },
+  {
+    "id": "REACT_ROU_050",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is code splitting in relation to routing?",
+    "options": [
+      "Loading route's JS bundle only when route is visited",
+      "Splitting CSS",
+      "Splitting state",
+      "Splitting components"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Loading route's JS bundle only when route is visited."
+  },
+  {
+    "id": "REACT_ROU_051",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the preload pattern for lazy routes?",
+    "options": [
+      "Loading the component's chunk before user navigates there",
+      "Loading on demand",
+      "Prefetching data",
+      "Caching routes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Loading the component's chunk before user navigates there."
+  },
+  {
+    "id": "REACT_LIF_001",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What are the three phases of a React component's lifecycle?",
+    "options": [
+      "Mounting, Updating, Unmounting",
+      "Init, Update, Destroy",
+      "Create, Render, Delete",
+      "Start, Run, End"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Mounting, Updating, Unmounting."
+  },
+  {
+    "id": "REACT_LIF_002",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the mounting phase?",
+    "options": [
+      "When component is created and inserted into the DOM",
+      "When component updates",
+      "When component is removed",
+      "When component errors"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is When component is created and inserted into the DOM."
+  },
+  {
+    "id": "REACT_LIF_003",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "componentDidMount runs:",
+    "options": [
+      "After component mounts to the DOM",
+      "Before mounting",
+      "During rendering",
+      "Before rendering"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is After component mounts to the DOM."
+  },
+  {
+    "id": "REACT_LIF_004",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "componentDidUpdate runs:",
+    "options": [
+      "After every update (state or prop change), not on initial render",
+      "After initial render only",
+      "Before updates",
+      "During rendering"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is After every update (state or prop change), not on initial render."
+  },
+  {
+    "id": "REACT_LIF_005",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "componentWillUnmount runs:",
+    "options": [
+      "Just before component is removed from DOM",
+      "After unmounting",
+      "Before mounting",
+      "During update"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Just before component is removed from DOM."
+  },
+  {
+    "id": "REACT_LIF_006",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the equivalent of componentDidMount in hooks?",
+    "options": [
+      "useEffect(() => {...}, []) with empty array",
+      "useEffect with no array",
+      "useLayoutEffect always",
+      "componentMount()"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is useEffect(() => {...}, []) with empty array."
+  },
+  {
+    "id": "REACT_LIF_007",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the equivalent of componentWillUnmount in hooks?",
+    "options": [
+      "Return cleanup function from useEffect",
+      "Separate hook",
+      "useDestroy hook",
+      "useUnmount hook"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Return cleanup function from useEffect."
+  },
+  {
+    "id": "REACT_LIF_008",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is shouldComponentUpdate used for?",
+    "options": [
+      "Optimize performance by skipping unnecessary re-renders",
+      "Force re-renders",
+      "Prevent mounting",
+      "Handle errors"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Optimize performance by skipping unnecessary re-renders."
+  },
+  {
+    "id": "REACT_LIF_009",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is PureComponent?",
+    "options": [
+      "Class component with built-in shallow comparison for shouldComponentUpdate",
+      "Component with no state",
+      "Functional component",
+      "Memoized component"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Class component with built-in shallow comparison for shouldComponentUpdate."
+  },
+  {
+    "id": "REACT_LIF_010",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is React.memo?",
+    "options": [
+      "HOC that memoizes functional component, re-renders only when props change",
+      "Memory manager",
+      "Memoization hook",
+      "Deep comparison"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is HOC that memoizes functional component, re-renders only when props change."
+  },
+  {
+    "id": "REACT_LIF_011",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is getDerivedStateFromProps?",
+    "options": [
+      "Static method updating state based on props before render",
+      "Instance method",
+      "Effect method",
+      "Ref method"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Static method updating state based on props before render."
+  },
+  {
+    "id": "REACT_LIF_012",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is getSnapshotBeforeUpdate?",
+    "options": [
+      "Captures information from DOM before it is updated",
+      "Gets initial snapshot",
+      "Captures state",
+      "Gets current props"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Captures information from DOM before it is updated."
+  },
+  {
+    "id": "REACT_LIF_013",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is static getDerivedStateFromError?",
+    "options": [
+      "Updates state to show error fallback UI when child throws",
+      "Logs errors",
+      "Re-mounts component",
+      "Shows console error"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Updates state to show error fallback UI when child throws."
+  },
+  {
+    "id": "REACT_LIF_014",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is componentDidCatch?",
+    "options": [
+      "Catches errors in child components and logs them",
+      "Handles async errors",
+      "Catches network errors",
+      "Prevents rendering"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Catches errors in child components and logs them."
+  },
+  {
+    "id": "REACT_LIF_015",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is an Error Boundary?",
+    "options": [
+      "Class component catching JavaScript errors in child tree",
+      "Try-catch in JSX",
+      "useErrorBoundary hook",
+      "Error state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Class component catching JavaScript errors in child tree."
+  },
+  {
+    "id": "REACT_LIF_016",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Why can't functional components be Error Boundaries?",
+    "options": [
+      "Error Boundaries require class lifecycle methods (not yet in hooks)",
+      "They can",
+      "Only in TypeScript",
+      "Only in v17"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Error Boundaries require class lifecycle methods (not yet in hooks)."
+  },
+  {
+    "id": "REACT_LIF_017",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does the render method do in class components?",
+    "options": [
+      "Returns JSX describing what the UI should look like",
+      "Updates the DOM",
+      "Mounts component",
+      "Fetches data"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Returns JSX describing what the UI should look like."
+  },
+  {
+    "id": "REACT_LIF_018",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the constructor in a class component used for?",
+    "options": [
+      "Initialize state and bind event handlers",
+      "Render JSX",
+      "Mount component",
+      "Fetch data"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Initialize state and bind event handlers."
+  },
+  {
+    "id": "REACT_LIF_019",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is super(props) in a class component constructor?",
+    "options": [
+      "Calls parent class (React.Component) constructor, required before this.props",
+      "Optional call",
+      "Creates component",
+      "Initializes DOM"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Calls parent class (React.Component) constructor, required before this.props."
+  },
+  {
+    "id": "REACT_LIF_020",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What happens if you call setState in componentDidUpdate without a condition?",
+    "options": [
+      "Infinite loop — it triggers another update",
+      "Nothing",
+      "One extra render",
+      "Error thrown"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Infinite loop — it triggers another update."
+  },
+  {
+    "id": "REACT_LIF_021",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the React lifecycle order on initial render?",
+    "options": [
+      "constructor → render → componentDidMount",
+      "render → constructor → componentDidMount",
+      "componentDidMount → render → constructor",
+      "render → componentDidMount"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is constructor → render → componentDidMount."
+  },
+  {
+    "id": "REACT_LIF_022",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What triggers componentDidUpdate?",
+    "options": [
+      "State change or prop change after initial render",
+      "Only state changes",
+      "Only prop changes",
+      "Every render including first"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is State change or prop change after initial render."
+  },
+  {
+    "id": "REACT_LIF_023",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the UNSAFE_ prefix on lifecycle methods?",
+    "options": [
+      "Methods being deprecated due to problems in async rendering",
+      "Always safe methods",
+      "New lifecycle methods",
+      "Experimental methods"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Methods being deprecated due to problems in async rendering."
+  },
+  {
+    "id": "REACT_LIF_024",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What replaced componentWillMount?",
+    "options": [
+      "Either constructor or componentDidMount (WillMount was unreliable)",
+      "getDerivedStateFromProps",
+      "useEffect",
+      "useLayoutEffect"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Either constructor or componentDidMount (WillMount was unreliable)."
+  },
+  {
+    "id": "REACT_LIF_025",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What replaced componentWillReceiveProps?",
+    "options": [
+      "getDerivedStateFromProps (but it's rare to need it)",
+      "componentDidUpdate",
+      "useEffect with prop dep",
+      "Both B and C"
+    ],
+    "answer": 3,
+    "explanation": "The correct answer is Both B and C."
+  },
+  {
+    "id": "REACT_LIF_026",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What replaced componentWillUpdate?",
+    "options": [
+      "getSnapshotBeforeUpdate + componentDidUpdate",
+      "componentDidMount",
+      "getDerivedStateFromProps",
+      "useEffect"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is getSnapshotBeforeUpdate + componentDidUpdate."
+  },
+  {
+    "id": "REACT_LIF_027",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "In which lifecycle method should data fetching be done?",
+    "options": [
+      "componentDidMount (or useEffect with [])",
+      "componentWillMount",
+      "constructor",
+      "getDerivedStateFromProps"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is componentDidMount (or useEffect with [])."
+  },
+  {
+    "id": "REACT_LIF_028",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the re-render lifecycle order?",
+    "options": [
+      "render → getSnapshotBeforeUpdate → componentDidUpdate",
+      "componentWillUpdate → render → componentDidUpdate",
+      "render → componentDidUpdate → getSnapshotBeforeUpdate",
+      "shouldComponentUpdate → componentDidUpdate → render"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is render → getSnapshotBeforeUpdate → componentDidUpdate."
+  },
+  {
+    "id": "REACT_LIF_029",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does React.StrictMode do to lifecycle methods?",
+    "options": [
+      "Double-invokes certain methods in development to detect side effects",
+      "Disables lifecycle methods",
+      "Adds new methods",
+      "Removes deprecated methods"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Double-invokes certain methods in development to detect side effects."
+  },
+  {
+    "id": "REACT_LIF_030",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "When is componentWillUnmount called for a conditional component?",
+    "options": [
+      "When the condition becomes false and component is removed from tree",
+      "When component errors",
+      "When props change",
+      "When state resets"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is When the condition becomes false and component is removed from tree."
+  },
+  {
+    "id": "REACT_LIF_031",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of key prop in resetting lifecycle?",
+    "options": [
+      "Changing key forces full unmount + remount of component",
+      "Helps performance",
+      "Identifies components",
+      "Required for hooks"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Changing key forces full unmount + remount of component."
+  },
+  {
+    "id": "REACT_LIF_032",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the fiber reconciler?",
+    "options": [
+      "React's internal engine managing component tree updates and scheduling",
+      "CSS engine",
+      "DOM parser",
+      "Event system"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is React's internal engine managing component tree updates and scheduling."
+  },
+  {
+    "id": "REACT_LIF_033",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is concurrent mode in React 18?",
+    "options": [
+      "React can interrupt, pause, and resume rendering for better responsiveness",
+      "Multi-threaded rendering",
+      "Parallel component instances",
+      "Background rendering"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is React can interrupt, pause, and resume rendering for better responsiveness."
+  },
+  {
+    "id": "REACT_LIF_034",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Suspense for data fetching?",
+    "options": [
+      "Component that shows fallback while children wait for async data",
+      "CSS loading indicator",
+      "Lazy component loader",
+      "Error handler"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Component that shows fallback while children wait for async data."
+  },
+  {
+    "id": "REACT_LIF_035",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the difference between Suspense and Error Boundary?",
+    "options": [
+      "Suspense handles loading states; Error Boundary handles errors",
+      "Both handle errors",
+      "No difference",
+      "Suspense is for errors"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Suspense handles loading states; Error Boundary handles errors."
+  },
+  {
+    "id": "REACT_LIF_036",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is startTransition's effect on lifecycle?",
+    "options": [
+      "Defers non-urgent renders to keep high-priority updates fast",
+      "Forces synchronous render",
+      "Adds lifecycle hooks",
+      "Cancels renders"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defers non-urgent renders to keep high-priority updates fast."
+  },
+  {
+    "id": "REACT_LIF_037",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is tearing in concurrent rendering?",
+    "options": [
+      "UI showing inconsistent state because reads happen at different times",
+      "CSS rendering bug",
+      "State mutation issue",
+      "Event handling bug"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is UI showing inconsistent state because reads happen at different times."
+  },
+  {
+    "id": "REACT_LIF_038",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is useDeferredValue's lifecycle implication?",
+    "options": [
+      "Deferred value may lag behind actual value during transitions",
+      "Immediate synchronous update",
+      "Blocking update",
+      "Error boundary integration"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Deferred value may lag behind actual value during transitions."
+  },
+  {
+    "id": "REACT_LIF_039",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is hydration in React?",
+    "options": [
+      "Attaching event listeners and React state to server-rendered HTML",
+      "Downloading styles",
+      "Fetching data",
+      "Mounting components"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Attaching event listeners and React state to server-rendered HTML."
+  },
+  {
+    "id": "REACT_LIF_040",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is selective hydration?",
+    "options": [
+      "Hydrating the most urgent parts of the page first",
+      "Full page hydration",
+      "Lazy hydration",
+      "Partial hydration"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hydrating the most urgent parts of the page first."
+  },
+  {
+    "id": "REACT_LIF_041",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is streaming SSR?",
+    "options": [
+      "Sending HTML in chunks as components are ready instead of all at once",
+      "Server-side caching",
+      "Client-side streaming",
+      "WebSocket SSR"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sending HTML in chunks as components are ready instead of all at once."
+  },
+  {
+    "id": "REACT_LIF_042",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Transition API's impact on rendering?",
+    "options": [
+      "Non-urgent state updates are interruptible and can be deprioritized",
+      "Adds CSS transitions",
+      "Prevents renders",
+      "Forces batch renders"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Non-urgent state updates are interruptible and can be deprioritized."
+  },
+  {
+    "id": "REACT_LIF_043",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What are React Server Components?",
+    "options": [
+      "Components that render on server without shipping their JS to client",
+      "SSR components",
+      "Static components",
+      "Cached components"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Components that render on server without shipping their JS to client."
+  },
+  {
+    "id": "REACT_LIF_044",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between RSC and SSR?",
+    "options": [
+      "SSR renders to HTML string; RSC renders to a special React format with client interactivity",
+      "No difference",
+      "SSR is newer",
+      "RSC is client-only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is SSR renders to HTML string; RSC renders to a special React format with client interactivity."
+  },
+  {
+    "id": "REACT_LIF_045",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What happens when a parent re-renders?",
+    "options": [
+      "All children re-render unless memoized",
+      "Only changed children",
+      "No children",
+      "Only useEffect runs"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is All children re-render unless memoized."
+  },
+  {
+    "id": "REACT_LIF_046",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does React.memo's comparison function do?",
+    "options": [
+      "Custom function to determine if re-render is needed (true = skip)",
+      "Always re-renders",
+      "Always skips",
+      "Compares DOM"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Custom function to determine if re-render is needed (true = skip)."
+  },
+  {
+    "id": "REACT_LIF_047",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is reconciliation?",
+    "options": [
+      "React's process of diffing virtual DOM to determine minimal DOM updates",
+      "Mounting process",
+      "Error handling",
+      "Event processing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is React's process of diffing virtual DOM to determine minimal DOM updates."
+  },
+  {
+    "id": "REACT_LIF_048",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the virtual DOM?",
+    "options": [
+      "Lightweight in-memory representation of the actual DOM",
+      "Real DOM copy",
+      "Shadow DOM",
+      "Web Component DOM"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Lightweight in-memory representation of the actual DOM."
+  },
+  {
+    "id": "REACT_LIF_049",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does React batch lifecycle updates for?",
+    "options": [
+      "Performance — applying multiple state updates in one render pass",
+      "Security",
+      "Error handling",
+      "Memory management"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Performance — applying multiple state updates in one render pass."
+  },
+  {
+    "id": "REACT_LIF_050",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the commit phase in React's lifecycle?",
+    "options": [
+      "Phase where React applies changes to the DOM",
+      "Render phase",
+      "Reconciliation phase",
+      "Scheduling phase"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Phase where React applies changes to the DOM."
+  },
+  {
+    "id": "REACT_RED_001",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What problem does Redux solve?",
+    "options": [
+      "Predictable state management for complex applications",
       "Routing",
-      "Styling",
+      "Data fetching",
+      "CSS styling"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Predictable state management for complex applications."
+  },
+  {
+    "id": "REACT_RED_002",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What are Redux's three core principles?",
+    "options": [
+      "Single source of truth, state is read-only, changes via pure functions",
+      "Multiple stores allowed",
+      "State is mutable",
+      "Async reducers"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Single source of truth, state is read-only, changes via pure functions."
+  },
+  {
+    "id": "REACT_RED_003",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a Redux action?",
+    "options": [
+      "Plain object with a type field describing an event",
+      "Function updating state",
+      "Component method",
+      "Event listener"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Plain object with a type field describing an event."
+  },
+  {
+    "id": "REACT_RED_004",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a Redux reducer?",
+    "options": [
+      "Pure function (state, action) => newState",
+      "Impure state mutator",
+      "Action creator",
+      "Middleware"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pure function (state, action) => newState."
+  },
+  {
+    "id": "REACT_RED_005",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the Redux store?",
+    "options": [
+      "Holds the complete application state tree",
+      "Action collection",
+      "Component tree",
+      "Middleware stack"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Holds the complete application state tree."
+  },
+  {
+    "id": "REACT_RED_006",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does store.dispatch() do?",
+    "options": [
+      "Sends an action to the store to trigger a state change",
+      "Gets state",
+      "Subscribes to store",
+      "Resets store"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sends an action to the store to trigger a state change."
+  },
+  {
+    "id": "REACT_RED_007",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does store.getState() do?",
+    "options": [
+      "Returns the current state tree",
+      "Updates state",
+      "Dispatches action",
+      "Subscribes to changes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Returns the current state tree."
+  },
+  {
+    "id": "REACT_RED_008",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does store.subscribe() do?",
+    "options": [
+      "Registers a callback called after every state change",
+      "Dispatches action",
+      "Gets state",
+      "Unsubscribes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Registers a callback called after every state change."
+  },
+  {
+    "id": "REACT_RED_009",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Redux middleware?",
+    "options": [
+      "Code that intercepts dispatched actions before they reach reducer",
+      "Reducer wrapper",
+      "Action creator",
+      "State selector"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Code that intercepts dispatched actions before they reach reducer."
+  },
+  {
+    "id": "REACT_RED_010",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does applyMiddleware do?",
+    "options": [
+      "Composes middleware into the store enhancer",
+      "Creates actions",
+      "Combines reducers",
+      "Initializes state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Composes middleware into the store enhancer."
+  },
+  {
+    "id": "REACT_RED_011",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is redux-thunk?",
+    "options": [
+      "Middleware allowing action creators to return functions for async",
+      "For synchronous only",
+      "For routing",
+      "For selectors"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Middleware allowing action creators to return functions for async."
+  },
+  {
+    "id": "REACT_RED_012",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is redux-saga?",
+    "options": [
+      "Middleware using generator functions to handle complex async flows",
+      "Simple async middleware",
+      "CSS-in-JS",
+      "State selector"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Middleware using generator functions to handle complex async flows."
+  },
+  {
+    "id": "REACT_RED_013",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a saga effect in redux-saga?",
+    "options": [
+      "Functions like call(), put(), take() describing async operations",
+      "Generator functions",
+      "State selectors",
+      "Action creators"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Functions like call(), put(), take() describing async operations."
+  },
+  {
+    "id": "REACT_RED_014",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Redux Toolkit (RTK)?",
+    "options": [
+      "Official recommended toolset reducing Redux boilerplate",
+      "Third-party library",
+      "Redux for mobile",
+      "Old Redux API"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Official recommended toolset reducing Redux boilerplate."
+  },
+  {
+    "id": "REACT_RED_015",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does configureStore from RTK do?",
+    "options": [
+      "Creates store with thunk middleware and DevTools preconfigured",
+      "Only creates reducers",
+      "Only adds middleware",
+      "Only enables DevTools"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates store with thunk middleware and DevTools preconfigured."
+  },
+  {
+    "id": "REACT_RED_016",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does createSlice from RTK do?",
+    "options": [
+      "Generates action creators and reducer from a single config object",
+      "Creates the store",
+      "Only creates actions",
+      "Only creates reducers"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Generates action creators and reducer from a single config object."
+  },
+  {
+    "id": "REACT_RED_017",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the immer integration in RTK createSlice?",
+    "options": [
+      "Allows writing mutating code in reducers that produces immutable updates",
+      "Manual immutability",
+      "No immutability",
+      "Async reducers"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Allows writing mutating code in reducers that produces immutable updates."
+  },
+  {
+    "id": "REACT_RED_018",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is createAsyncThunk?",
+    "options": [
+      "RTK utility creating thunks with pending/fulfilled/rejected actions",
+      "Sync thunk creator",
+      "Saga alternative",
+      "API client"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is RTK utility creating thunks with pending/fulfilled/rejected actions."
+  },
+  {
+    "id": "REACT_RED_019",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What lifecycle actions does createAsyncThunk generate?",
+    "options": [
+      "pending, fulfilled, rejected",
+      "start, end, error",
+      "loading, loaded, failed",
+      "begin, complete, fail"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is pending, fulfilled, rejected."
+  },
+  {
+    "id": "REACT_RED_020",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is RTK Query?",
+    "options": [
+      "Data fetching and caching solution built into Redux Toolkit",
+      "React Query alternative (completely separate)",
+      "REST API",
+      "GraphQL client"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Data fetching and caching solution built into Redux Toolkit."
+  },
+  {
+    "id": "REACT_RED_021",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is an endpoint in RTK Query?",
+    "options": [
+      "Definition of a specific API call (query or mutation)",
+      "Route definition",
+      "Reducer",
+      "Action"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Definition of a specific API call (query or mutation)."
+  },
+  {
+    "id": "REACT_RED_022",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the difference between query and mutation in RTK Query?",
+    "options": [
+      "Query for reads, mutation for writes (POST/PUT/DELETE)",
+      "No difference",
+      "Queries can write",
+      "Mutations can read"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Query for reads, mutation for writes (POST/PUT/DELETE)."
+  },
+  {
+    "id": "REACT_RED_023",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is cache invalidation in RTK Query?",
+    "options": [
+      "Invalidating cached data to trigger refetch when related data changes",
+      "Clearing Redux store",
+      "Removing components",
+      "Resetting state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Invalidating cached data to trigger refetch when related data changes."
+  },
+  {
+    "id": "REACT_RED_024",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is providesTags in RTK Query?",
+    "options": [
+      "Defines what data a query result provides for cache invalidation",
+      "Provides metadata",
+      "JSX attributes",
+      "Middleware tags"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defines what data a query result provides for cache invalidation."
+  },
+  {
+    "id": "REACT_RED_025",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is invalidatesTags in RTK Query?",
+    "options": [
+      "Tells RTK Query which cached data to refetch after a mutation",
+      "Validates data",
+      "Tags components",
+      "Logs actions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tells RTK Query which cached data to refetch after a mutation."
+  },
+  {
+    "id": "REACT_RED_026",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is useSelector hook?",
+    "options": [
+      "Extracts specific data from Redux store, re-renders on data change",
+      "Dispatches actions",
+      "Gets entire store",
+      "Creates selectors"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Extracts specific data from Redux store, re-renders on data change."
+  },
+  {
+    "id": "REACT_RED_027",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the equality check in useSelector?",
+    "options": [
+      "Reference equality by default — new object === re-render",
+      "Deep equality",
+      "Always re-renders",
+      "Custom always"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reference equality by default — new object === re-render."
+  },
+  {
+    "id": "REACT_RED_028",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is shallowEqual in react-redux?",
+    "options": [
+      "Shallow comparison for useSelector to avoid unnecessary re-renders",
+      "Deep equal utility",
+      "Store initializer",
+      "Action creator"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shallow comparison for useSelector to avoid unnecessary re-renders."
+  },
+  {
+    "id": "REACT_RED_029",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is useDispatch hook?",
+    "options": [
+      "Returns the dispatch function from Redux store",
+      "Gets state",
+      "Creates middleware",
+      "Subscribes to store"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Returns the dispatch function from Redux store."
+  },
+  {
+    "id": "REACT_RED_030",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the Provider component in react-redux?",
+    "options": [
+      "Makes Redux store available to all nested components via context",
+      "Routing provider",
+      "Theme provider",
+      "Auth provider"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Makes Redux store available to all nested components via context."
+  },
+  {
+    "id": "REACT_RED_031",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is normalizeState in Redux?",
+    "options": [
+      "Storing entities by ID in a flat structure to avoid nesting",
+      "Sorting state",
+      "Compressing state",
+      "Encrypting state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Storing entities by ID in a flat structure to avoid nesting."
+  },
+  {
+    "id": "REACT_RED_032",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is createEntityAdapter in RTK?",
+    "options": [
+      "Provides CRUD operations and normalized state structure for collections",
+      "Creates store adapters",
+      "Adapts React components",
+      "Creates API adapters"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Provides CRUD operations and normalized state structure for collections."
+  },
+  {
+    "id": "REACT_RED_033",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the selector pattern?",
+    "options": [
+      "Functions extracting derived data from Redux state",
+      "Action pattern",
+      "Reducer pattern",
+      "Middleware pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Functions extracting derived data from Redux state."
+  },
+  {
+    "id": "REACT_RED_034",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is createSelector from Reselect?",
+    "options": [
+      "Memoized selector recomputing only when inputs change",
+      "Non-memoized selector",
+      "Action creator",
+      "Reducer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Memoized selector recomputing only when inputs change."
+  },
+  {
+    "id": "REACT_RED_035",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between Redux and Context?",
+    "options": [
+      "Redux has DevTools, middleware, immutability; Context is simpler",
+      "No difference",
+      "Context is always better",
+      "Redux is always needed"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Redux has DevTools, middleware, immutability; Context is simpler."
+  },
+  {
+    "id": "REACT_RED_036",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "When should you NOT use Redux?",
+    "options": [
+      "Simple apps with local state needs only",
+      "Always use Redux",
+      "Large apps only",
+      "When using TypeScript"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Simple apps with local state needs only."
+  },
+  {
+    "id": "REACT_RED_037",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the redux-persist library?",
+    "options": [
+      "Persists Redux state to localStorage/sessionStorage across sessions",
+      "Persists actions",
+      "Logs Redux events",
+      "Encrypts state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Persists Redux state to localStorage/sessionStorage across sessions."
+  },
+  {
+    "id": "REACT_RED_038",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the devtools enhancer in RTK?",
+    "options": [
+      "Integrates Redux DevTools Extension for state/action inspection",
+      "Performance tool",
+      "Testing tool",
+      "Error handler"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Integrates Redux DevTools Extension for state/action inspection."
+  },
+  {
+    "id": "REACT_RED_039",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is time-travel debugging in Redux?",
+    "options": [
+      "Replaying actions to debug state changes using DevTools",
+      "Undo feature",
+      "Performance profiling",
+      "State snapshots"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Replaying actions to debug state changes using DevTools."
+  },
+  {
+    "id": "REACT_RED_040",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the redux-observable library?",
+    "options": [
+      "Middleware using RxJS observables for async action streams",
+      "Simple middleware",
+      "saga alternative only",
+      "REST client"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Middleware using RxJS observables for async action streams."
+  },
+  {
+    "id": "REACT_RED_041",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is an epic in redux-observable?",
+    "options": [
+      "Function taking and returning stream of actions via RxJS",
+      "Generator function",
+      "Async thunk",
+      "Saga effect"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Function taking and returning stream of actions via RxJS."
+  },
+  {
+    "id": "REACT_RED_042",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the flux standard action (FSA)?",
+    "options": [
+      "Convention for action objects: type, payload, error, meta",
+      "Redux requirement",
+      "RTK requirement",
+      "Optional pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Convention for action objects: type, payload, error, meta."
+  },
+  {
+    "id": "REACT_RED_043",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is an action payload?",
+    "options": [
+      "Data carried by an action to the reducer",
+      "Action type",
+      "Action creator",
+      "Middleware"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Data carried by an action to the reducer."
+  },
+  {
+    "id": "REACT_RED_044",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the command pattern in Redux actions?",
+    "options": [
+      "Actions describe what should happen (imperative: ADD_TODO)",
+      "Event pattern",
+      "Query pattern",
+      "Observer pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Actions describe what should happen (imperative: ADD_TODO)."
+  },
+  {
+    "id": "REACT_RED_045",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the event pattern in Redux actions?",
+    "options": [
+      "Actions describe what happened (past tense: TODO_ADDED)",
+      "Command pattern",
+      "Query pattern",
+      "CQRS pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Actions describe what happened (past tense: TODO_ADDED)."
+  },
+  {
+    "id": "REACT_RED_046",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is CQRS in context of Redux?",
+    "options": [
+      "Separating reads (selectors) from writes (actions/reducers)",
+      "Database pattern only",
+      "REST pattern",
+      "GraphQL pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Separating reads (selectors) from writes (actions/reducers)."
+  },
+  {
+    "id": "REACT_RED_047",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is middleware composition in Redux?",
+    "options": [
+      "Chaining multiple middlewares: logger → thunk → saga",
+      "Store composition",
+      "Reducer composition",
+      "Action composition"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Chaining multiple middlewares: logger → thunk → saga."
+  },
+  {
+    "id": "REACT_RED_048",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the enhancer argument to createStore?",
+    "options": [
+      "Extends Redux with third-party capabilities (middleware)",
+      "Reducer enhancer",
+      "Action enhancer",
+      "State enhancer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Extends Redux with third-party capabilities (middleware)."
+  },
+  {
+    "id": "REACT_RED_049",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is composeWithDevTools?",
+    "options": [
+      "Composes store enhancers with Redux DevTools support",
+      "Logger only",
+      "Performance profiler",
+      "Error reporter"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Composes store enhancers with Redux DevTools support."
+  },
+  {
+    "id": "REACT_RED_050",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is immutability important in Redux?",
+    "options": [
+      "Enables reliable change detection and time-travel debugging",
+      "Not important",
+      "Only for performance",
+      "Only for testing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Enables reliable change detection and time-travel debugging."
+  },
+  {
+    "id": "REACT_RED_051",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the downside of Redux?",
+    "options": [
+      "Significant boilerplate code (reduced by RTK)",
+      "No DevTools",
+      "No async support",
+      "No TypeScript support"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Significant boilerplate code (reduced by RTK)."
+  },
+  {
+    "id": "REACT_OPT_001",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is React.memo?",
+    "options": [
+      "HOC preventing re-render if props haven't changed (shallow equality)",
+      "Memory manager",
+      "Memoization hook",
+      "Deep prop comparison"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is HOC preventing re-render if props haven't changed (shallow equality)."
+  },
+  {
+    "id": "REACT_OPT_002",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does useMemo do?",
+    "options": [
+      "Memoizes expensive computed value, recomputes only on dependency change",
+      "Memoizes component",
+      "Memoizes function",
+      "Caches DOM"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Memoizes expensive computed value, recomputes only on dependency change."
+  },
+  {
+    "id": "REACT_OPT_003",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does useCallback do?",
+    "options": [
+      "Memoizes function reference to prevent recreation on each render",
+      "Memoizes value",
+      "Memoizes component",
+      "Caches API response"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Memoizes function reference to prevent recreation on each render."
+  },
+  {
+    "id": "REACT_OPT_004",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "When should you use React.memo?",
+    "options": [
+      "When component re-renders often with same props and render is expensive",
+      "Always",
+      "Never",
+      "Only for class components"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is When component re-renders often with same props and render is expensive."
+  },
+  {
+    "id": "REACT_OPT_005",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is premature optimization?",
+    "options": [
+      "Optimizing before identifying actual performance bottleneck",
+      "Optimizing early bottlenecks",
+      "Necessary optimization",
+      "Performance profiling"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Optimizing before identifying actual performance bottleneck."
+  },
+  {
+    "id": "REACT_OPT_006",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What tool helps profile React performance?",
+    "options": [
+      "React DevTools Profiler",
+      "Chrome Performance tab only",
+      "Node.js profiler",
+      "Lighthouse only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is React DevTools Profiler."
+  },
+  {
+    "id": "REACT_OPT_007",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is code splitting?",
+    "options": [
+      "Splitting JS bundle into smaller chunks loaded on demand",
+      "Splitting CSS",
+      "Splitting state",
+      "Splitting components into files"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Splitting JS bundle into smaller chunks loaded on demand."
+  },
+  {
+    "id": "REACT_OPT_008",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is lazy loading in React?",
+    "options": [
+      "Loading components only when needed using React.lazy and Suspense",
+      "Preloading everything",
+      "Server-side loading",
+      "Static imports"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Loading components only when needed using React.lazy and Suspense."
+  },
+  {
+    "id": "REACT_OPT_009",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is virtualization (windowing) in React?",
+    "options": [
+      "Rendering only visible list items to improve performance of long lists",
+      "Loading all items",
+      "Caching items",
+      "Paginating items"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Rendering only visible list items to improve performance of long lists."
+  },
+  {
+    "id": "REACT_OPT_010",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What library implements list virtualization?",
+    "options": [
+      "react-virtual or react-window",
+      "react-paginate",
+      "react-infinite",
+      "react-list"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is react-virtual or react-window."
+  },
+  {
+    "id": "REACT_OPT_011",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the cost of reconciliation?",
+    "options": [
+      "CPU time diffing virtual DOM to determine minimal real DOM updates",
+      "Memory usage",
+      "Network calls",
+      "State size"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is CPU time diffing virtual DOM to determine minimal real DOM updates."
+  },
+  {
+    "id": "REACT_OPT_012",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a performance bottleneck common in React?",
+    "options": [
+      "Unnecessary re-renders caused by new object/function references",
+      "Too many hooks",
+      "Large state",
+      "Deep nesting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Unnecessary re-renders caused by new object/function references."
+  },
+  {
+    "id": "REACT_OPT_013",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the problem with creating objects in render?",
+    "options": [
+      "New reference on every render can break React.memo and cause child re-renders",
+      "No problem",
+      "Slower rendering",
+      "Memory leak"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is New reference on every render can break React.memo and cause child re-renders."
+  },
+  {
+    "id": "REACT_OPT_014",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "How do you solve new function reference in render?",
+    "options": [
+      "useCallback to memoize the function",
+      "React.memo",
+      "useMemo",
+      "useRef"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is useCallback to memoize the function."
+  },
+  {
+    "id": "REACT_OPT_015",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "How do you solve new object reference in render?",
+    "options": [
+      "useMemo to memoize the object",
+      "useCallback",
+      "useRef",
+      "useState"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is useMemo to memoize the object."
+  },
+  {
+    "id": "REACT_OPT_016",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is shouldComponentUpdate's role in optimization?",
+    "options": [
+      "Returns false to skip re-render when props/state haven't changed meaningfully",
+      "Forces re-render",
+      "Handles errors",
+      "Logs performance"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Returns false to skip re-render when props/state haven't changed meaningfully."
+  },
+  {
+    "id": "REACT_OPT_017",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between React.memo and useMemo?",
+    "options": [
+      "React.memo memoizes component; useMemo memoizes a value inside component",
+      "No difference",
+      "useMemo memoizes component",
+      "React.memo memoizes values"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is React.memo memoizes component; useMemo memoizes a value inside component."
+  },
+  {
+    "id": "REACT_OPT_018",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is tree shaking?",
+    "options": [
+      "Removing unused exports from final bundle during build",
+      "Removing DOM nodes",
+      "Pruning component tree",
+      "Compressing images"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Removing unused exports from final bundle during build."
+  },
+  {
+    "id": "REACT_OPT_019",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is bundle analysis?",
+    "options": [
+      "Examining bundle composition to identify large dependencies",
+      "Network analysis",
+      "State analysis",
+      "Component analysis"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Examining bundle composition to identify large dependencies."
+  },
+  {
+    "id": "REACT_OPT_020",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What tool analyzes webpack bundle?",
+    "options": [
+      "webpack-bundle-analyzer",
+      "React DevTools",
+      "Chrome DevTools",
+      "ESLint"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is webpack-bundle-analyzer."
+  },
+  {
+    "id": "REACT_OPT_021",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the purpose of production build?",
+    "options": [
+      "Minification, dead code elimination, and optimizations (no dev warnings)",
+      "Development mode",
+      "Testing mode",
+      "Debugging mode"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Minification, dead code elimination, and optimizations (no dev warnings)."
+  },
+  {
+    "id": "REACT_OPT_022",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Long Tasks in web performance?",
+    "options": [
+      "Tasks taking >50ms blocking the main thread",
+      "Network requests",
+      "CSS animations",
+      "Memory allocations"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tasks taking >50ms blocking the main thread."
+  },
+  {
+    "id": "REACT_OPT_023",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Time to Interactive (TTI)?",
+    "options": [
+      "Time until page is reliably interactive for user",
+      "First paint time",
+      "Total page load",
+      "Server response time"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Time until page is reliably interactive for user."
+  },
+  {
+    "id": "REACT_OPT_024",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is First Contentful Paint (FCP)?",
+    "options": [
+      "Time when first DOM content is rendered on screen",
+      "JS execution time",
+      "Total load time",
+      "Server response time"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Time when first DOM content is rendered on screen."
+  },
+  {
+    "id": "REACT_OPT_025",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Largest Contentful Paint (LCP)?",
+    "options": [
+      "Time when largest visible element finishes rendering",
+      "First paint",
+      "Interactive time",
+      "Total load"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Time when largest visible element finishes rendering."
+  },
+  {
+    "id": "REACT_OPT_026",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Cumulative Layout Shift (CLS)?",
+    "options": [
+      "Measures unexpected visual layout shifts during page load",
+      "CPU usage",
+      "Memory usage",
+      "Network speed"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Measures unexpected visual layout shifts during page load."
+  },
+  {
+    "id": "REACT_OPT_027",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of React.Profiler component?",
+    "options": [
+      "Measures rendering performance of its subtree",
+      "Error boundary",
+      "Code splitter",
+      "Lazy loader"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Measures rendering performance of its subtree."
+  },
+  {
+    "id": "REACT_OPT_028",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is turbo mode in React DevTools Profiler?",
+    "options": [
+      "Not a real feature — flame chart and ranked chart are actual views",
+      "Real feature",
+      "Advanced mode",
+      "Dark mode"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Not a real feature — flame chart and ranked chart are actual views."
+  },
+  {
+    "id": "REACT_OPT_029",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the impact of large component trees on performance?",
+    "options": [
+      "More reconciliation work per render cycle",
+      "Faster rendering",
+      "Better performance",
+      "No impact"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is More reconciliation work per render cycle."
+  },
+  {
+    "id": "REACT_OPT_030",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of key prop optimization?",
+    "options": [
+      "Stable keys prevent unnecessary unmount/remount of components",
+      "Creates new components",
+      "Identifies style",
+      "Required always"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stable keys prevent unnecessary unmount/remount of components."
+  },
+  {
+    "id": "REACT_OPT_031",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is event handler optimization?",
+    "options": [
+      "Defining handlers with useCallback to avoid new references on render",
+      "Removing handlers",
+      "Async handlers",
+      "Global handlers"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defining handlers with useCallback to avoid new references on render."
+  },
+  {
+    "id": "REACT_OPT_032",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is context optimization?",
+    "options": [
+      "Split contexts to reduce number of components re-rendering on change",
+      "Merging contexts",
+      "Global context",
+      "Provider nesting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Split contexts to reduce number of components re-rendering on change."
+  },
+  {
+    "id": "REACT_OPT_033",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the problem with putting everything in one Context?",
+    "options": [
+      "Any consumer re-renders when any part of context value changes",
+      "No problem",
+      "Better performance",
+      "Simpler code"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Any consumer re-renders when any part of context value changes."
+  },
+  {
+    "id": "REACT_OPT_034",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is context selector pattern?",
+    "options": [
+      "Using useMemo in provider or separate atoms to minimize re-renders",
+      "Not a real pattern",
+      "Same as useContext",
+      "Context provider pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Using useMemo in provider or separate atoms to minimize re-renders."
+  },
+  {
+    "id": "REACT_OPT_035",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is image optimization in React?",
+    "options": [
+      "Using lazy loading, WebP format, responsive images, and next/image",
+      "CSS optimization",
+      "State optimization",
+      "Bundle optimization"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Using lazy loading, WebP format, responsive images, and next/image."
+  },
+  {
+    "id": "REACT_OPT_036",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is font loading optimization?",
+    "options": [
+      "Using font-display: swap and preloading critical fonts",
+      "Font size reduction",
+      "Font caching",
+      "System font usage"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Using font-display: swap and preloading critical fonts."
+  },
+  {
+    "id": "REACT_OPT_037",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is progressive hydration?",
+    "options": [
+      "Hydrating high-priority components first, deferring less important ones",
+      "Full hydration",
+      "Partial hydration",
+      "Selective hydration"
+    ],
+    "answer": 1,
+    "explanation": "The correct answer is Full hydration."
+  },
+  {
+    "id": "REACT_OPT_038",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is server-side rendering's performance benefit?",
+    "options": [
+      "Faster First Contentful Paint as HTML is ready before JS loads",
+      "No benefit",
+      "Faster JS execution",
+      "Smaller bundles"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Faster First Contentful Paint as HTML is ready before JS loads."
+  },
+  {
+    "id": "REACT_OPT_039",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is static site generation's performance benefit?",
+    "options": [
+      "Pre-built HTML at build time, served from CDN with minimal TTFB",
+      "No benefit",
+      "Faster hydration",
+      "Smaller bundles"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pre-built HTML at build time, served from CDN with minimal TTFB."
+  },
+  {
+    "id": "REACT_OPT_040",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is incremental static regeneration (ISR)?",
+    "options": [
+      "Next.js feature: regenerate static pages at runtime without full rebuild",
+      "Full rebuild method",
+      "Client-side rendering",
+      "Server-side only rendering"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Next.js feature: regenerate static pages at runtime without full rebuild."
+  },
+  {
+    "id": "REACT_OPT_041",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the purpose of a CDN?",
+    "options": [
+      "Serving static assets from geographically distributed servers for low latency",
+      "Data fetching",
+      "State management",
+      "Authentication"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Serving static assets from geographically distributed servers for low latency."
+  },
+  {
+    "id": "REACT_OPT_042",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is resource preloading?",
+    "options": [
+      "<link rel='preload'> to fetch critical resources early",
+      "Caching resources",
+      "Prefetching links",
+      "Lazy loading"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is <link rel='preload'> to fetch critical resources early."
+  },
+  {
+    "id": "REACT_OPT_043",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is prefetching?",
+    "options": [
+      "Loading resources for likely future navigations in advance",
+      "Current page loading",
+      "Asset caching",
+      "Critical resource loading"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Loading resources for likely future navigations in advance."
+  },
+  {
+    "id": "REACT_OPT_044",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is service worker's role in performance?",
+    "options": [
+      "Caching assets for offline use and faster repeat visits",
+      "Background data fetch",
+      "Push notifications only",
+      "Authentication"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Caching assets for offline use and faster repeat visits."
+  },
+  {
+    "id": "REACT_OPT_045",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is memoizing API responses?",
+    "options": [
+      "Caching API responses to avoid duplicate network requests",
+      "Response formatting",
+      "Error handling",
+      "Retry logic"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Caching API responses to avoid duplicate network requests."
+  },
+  {
+    "id": "REACT_OPT_046",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the React 18 concurrent rendering optimization?",
+    "options": [
+      "Keeps UI responsive by breaking rendering into interruptible units",
+      "Multi-threading",
+      "Parallel renders",
+      "Background renders"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Keeps UI responsive by breaking rendering into interruptible units."
+  },
+  {
+    "id": "REACT_OPT_047",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the useTransition optimization pattern?",
+    "options": [
+      "Wrapping non-urgent updates to keep input and critical UI responsive",
+      "CSS transition",
+      "Animation optimization",
+      "Navigation optimization"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Wrapping non-urgent updates to keep input and critical UI responsive."
+  },
+  {
+    "id": "REACT_OPT_048",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of React.StrictMode for optimization?",
+    "options": [
+      "Identifies potential issues early (double-invokes to detect side effects)",
+      "Improves production perf",
+      "Adds optimizations",
+      "Removes checks"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Identifies potential issues early (double-invokes to detect side effects)."
+  },
+  {
+    "id": "REACT_OPT_049",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is component state colocation?",
+    "options": [
+      "Keeping state as close to where it is used as possible",
+      "Global state pattern",
+      "Lifting state up always",
+      "Redux pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Keeping state as close to where it is used as possible."
+  },
+  {
+    "id": "REACT_OPT_050",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the render and commit phase optimization?",
+    "options": [
+      "React batches DOM writes in commit phase to minimize DOM operations",
+      "Event batching",
+      "Effect batching",
+      "State batching"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is React batches DOM writes in commit phase to minimize DOM operations."
+  },
+  {
+    "id": "REACT_OPT_051",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does React automatically optimize since version 19?",
+    "options": [
+      "Automatic memoization with React Compiler (formerly Forget)",
+      "Nothing",
+      "Routing",
+      "Data fetching"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automatic memoization with React Compiler (formerly Forget)."
+  },
+  {
+    "id": "REACT_TES_001",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the most popular testing library for React?",
+    "options": [
+      "React Testing Library (RTL)",
+      "Enzyme",
+      "Jest alone",
+      "Mocha"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is React Testing Library (RTL)."
+  },
+  {
+    "id": "REACT_TES_002",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does React Testing Library encourage?",
+    "options": [
+      "Testing behavior from user's perspective, not implementation details",
+      "Testing internal state",
+      "Testing component methods",
+      "Testing render output directly"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Testing behavior from user's perspective, not implementation details."
+  },
+  {
+    "id": "REACT_TES_003",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is Jest?",
+    "options": [
+      "JavaScript testing framework with test runner, assertions, and mocks",
+      "Browser testing tool",
+      "E2E test tool",
+      "RTL alternative"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is JavaScript testing framework with test runner, assertions, and mocks."
+  },
+  {
+    "id": "REACT_TES_004",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the render() function in RTL?",
+    "options": [
+      "Renders component into a DOM for testing",
+      "Server renders",
+      "Generates snapshots",
+      "Mounts without DOM"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Renders component into a DOM for testing."
+  },
+  {
+    "id": "REACT_TES_005",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is screen in RTL?",
+    "options": [
+      "Object providing query methods to find rendered elements",
+      "Component container",
+      "Test screen",
+      "Debug output"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Object providing query methods to find rendered elements."
+  },
+  {
+    "id": "REACT_TES_006",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is getByText() in RTL?",
+    "options": [
+      "Finds element by its visible text content",
+      "Finds by class",
+      "Finds by ID",
+      "Finds by role"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Finds element by its visible text content."
+  },
+  {
+    "id": "REACT_TES_007",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is getByRole() in RTL?",
+    "options": [
+      "Finds element by its ARIA role (recommended approach)",
+      "Finds by text",
+      "Finds by class",
+      "Finds by ID"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Finds element by its ARIA role (recommended approach)."
+  },
+  {
+    "id": "REACT_TES_008",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the difference between getBy and queryBy?",
+    "options": [
+      "getBy throws if not found; queryBy returns null",
+      "No difference",
+      "queryBy throws",
+      "getBy returns null"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is getBy throws if not found; queryBy returns null."
+  },
+  {
+    "id": "REACT_TES_009",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is findBy in RTL?",
+    "options": [
+      "Async query that waits for element to appear",
+      "Sync query",
+      "Strict query",
+      "Fuzzy query"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Async query that waits for element to appear."
+  },
+  {
+    "id": "REACT_TES_010",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is waitFor in RTL?",
+    "options": [
+      "Waits until assertion passes, retrying automatically",
+      "Wait for events",
+      "Wait for render",
+      "Wait for load"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Waits until assertion passes, retrying automatically."
+  },
+  {
+    "id": "REACT_TES_011",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a unit test?",
+    "options": [
+      "Tests a single component or function in isolation",
+      "Tests full app",
+      "Tests integration",
+      "Tests user flows"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tests a single component or function in isolation."
+  },
+  {
+    "id": "REACT_TES_012",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is an integration test?",
+    "options": [
+      "Tests how multiple components work together",
+      "Tests one component",
+      "Tests the full app",
+      "Tests external APIs"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tests how multiple components work together."
+  },
+  {
+    "id": "REACT_TES_013",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is an end-to-end (E2E) test?",
+    "options": [
+      "Tests complete user flows through the real browser/app",
+      "Tests single unit",
+      "Tests component render",
+      "Tests API calls"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tests complete user flows through the real browser/app."
+  },
+  {
+    "id": "REACT_TES_014",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Testing Trophy?",
+    "options": [
+      "Most tests should be integration tests, fewer unit and E2E",
+      "Most unit tests",
+      "Equal distribution",
+      "Most E2E tests"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Most tests should be integration tests, fewer unit and E2E."
+  },
+  {
+    "id": "REACT_TES_015",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Testing Pyramid?",
+    "options": [
+      "More unit tests than integration, fewer E2E (opposite of trophy)",
+      "More E2E tests",
+      "Equal distribution",
+      "Only unit tests"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is More unit tests than integration, fewer E2E (opposite of trophy)."
+  },
+  {
+    "id": "REACT_TES_016",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a mock function in Jest?",
+    "options": [
+      "jest.fn() — tracks calls, arguments, and can return specified values",
+      "Real function copy",
+      "Component mock",
+      "API stub"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is jest.fn() — tracks calls, arguments, and can return specified values."
+  },
+  {
+    "id": "REACT_TES_017",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is jest.spyOn?",
+    "options": [
+      "Creates a mock that also calls through to original implementation",
+      "Replaces function entirely",
+      "Only for class methods",
+      "Network spy"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates a mock that also calls through to original implementation."
+  },
+  {
+    "id": "REACT_TES_018",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is jest.mock()?",
+    "options": [
+      "Automatically mocks an entire module",
+      "Mocks one function",
+      "Mocks component",
+      "Mocks API"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automatically mocks an entire module."
+  },
+  {
+    "id": "REACT_TES_019",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a snapshot test?",
+    "options": [
+      "Records component render output and alerts when it changes",
+      "Tests user behavior",
+      "Tests state",
+      "Tests async code"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Records component render output and alerts when it changes."
+  },
+  {
+    "id": "REACT_TES_020",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the downside of snapshot tests?",
+    "options": [
+      "They break on intentional UI changes and become unmaintained",
+      "They are slow",
+      "They test nothing",
+      "They have no coverage"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is They break on intentional UI changes and become unmaintained."
+  },
+  {
+    "id": "REACT_TES_021",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is userEvent in RTL?",
+    "options": [
+      "Simulates real user interactions (clicks, typing) more accurately than fireEvent",
+      "Network mock",
+      "State updater",
+      "Async helper"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Simulates real user interactions (clicks, typing) more accurately than fireEvent."
+  },
+  {
+    "id": "REACT_TES_022",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between fireEvent and userEvent?",
+    "options": [
+      "userEvent simulates full browser user interaction; fireEvent dispatches a DOM event",
+      "No difference",
+      "userEvent is deprecated",
+      "fireEvent is better"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is userEvent simulates full browser user interaction; fireEvent dispatches a DOM event."
+  },
+  {
+    "id": "REACT_TES_023",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a test coverage report?",
+    "options": [
+      "Shows percentage of code exercised by tests",
+      "Test results",
+      "Pass/fail summary",
+      "Performance metrics"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows percentage of code exercised by tests."
+  },
+  {
+    "id": "REACT_TES_024",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is 100% code coverage a guarantee of?",
+    "options": [
+      "Nothing — tests can pass with full coverage but miss important cases",
+      "Bug-free code",
+      "All edge cases covered",
+      "No regressions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Nothing — tests can pass with full coverage but miss important cases."
+  },
+  {
+    "id": "REACT_TES_025",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the AAA pattern in testing?",
+    "options": [
+      "Arrange, Act, Assert — structure for organizing test code",
+      "API, Assert, Arrange",
+      "Action, Assertion, Async",
+      "Answer, Apply, Assert"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Arrange, Act, Assert — structure for organizing test code."
+  },
+  {
+    "id": "REACT_TES_026",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a test double?",
+    "options": [
+      "Generic term for mocks, stubs, spies, and fakes used in testing",
+      "Production code copy",
+      "Test assertion",
+      "Coverage tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Generic term for mocks, stubs, spies, and fakes used in testing."
+  },
+  {
+    "id": "REACT_TES_027",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between stub and mock?",
+    "options": [
+      "Stub provides canned responses; mock also verifies interactions",
+      "No difference",
+      "Mocks provide responses",
+      "Stubs verify interactions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stub provides canned responses; mock also verifies interactions."
+  },
+  {
+    "id": "REACT_TES_028",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is Cypress?",
+    "options": [
+      "E2E testing framework running tests in real browser",
+      "Unit test framework",
+      "React testing library",
+      "Visual testing tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is E2E testing framework running tests in real browser."
+  },
+  {
+    "id": "REACT_TES_029",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Playwright?",
+    "options": [
+      "Microsoft's cross-browser E2E testing framework",
+      "React testing tool",
+      "CSS testing",
+      "API testing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Microsoft's cross-browser E2E testing framework."
+  },
+  {
+    "id": "REACT_TES_030",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Vitest?",
+    "options": [
+      "Jest-compatible test runner optimized for Vite projects",
+      "E2E testing tool",
+      "Visual testing",
+      "Browser testing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Jest-compatible test runner optimized for Vite projects."
+  },
+  {
+    "id": "REACT_TES_031",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is test isolation?",
+    "options": [
+      "Each test runs independently without side effects from other tests",
+      "Running tests together",
+      "Sharing test state",
+      "Sequential testing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Each test runs independently without side effects from other tests."
+  },
+  {
+    "id": "REACT_TES_032",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is beforeEach in Jest?",
+    "options": [
+      "Runs setup code before each test in a describe block",
+      "Runs once before all",
+      "Runs after each",
+      "Runs at start of file"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Runs setup code before each test in a describe block."
+  },
+  {
+    "id": "REACT_TES_033",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is afterEach in Jest?",
+    "options": [
+      "Runs cleanup code after each test",
+      "Runs after all",
+      "Runs before each",
+      "Runs at end of file"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Runs cleanup code after each test."
+  },
+  {
+    "id": "REACT_TES_034",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is beforeAll in Jest?",
+    "options": [
+      "Runs once before all tests in a describe block",
+      "Runs before each",
+      "Runs after all",
+      "Runs after each"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Runs once before all tests in a describe block."
+  },
+  {
+    "id": "REACT_TES_035",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is describe in Jest?",
+    "options": [
+      "Groups related tests together",
+      "Describes test results",
+      "Documents tests",
+      "Creates test suite"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Groups related tests together."
+  },
+  {
+    "id": "REACT_TES_036",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the it/test function in Jest?",
+    "options": [
+      "Defines a single test case",
+      "Describes a group",
+      "Describes the test",
+      "Runs all tests"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defines a single test case."
+  },
+  {
+    "id": "REACT_TES_037",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "How do you test async code in Jest?",
+    "options": [
+      "Return a promise, use async/await, or use done callback",
+      "Use setTimeout",
+      "Use sync code only",
+      "Use promises only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Return a promise, use async/await, or use done callback."
+  },
+  {
+    "id": "REACT_TES_038",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is msw (Mock Service Worker)?",
+    "options": [
+      "Intercepts network requests in tests using service worker",
+      "CSS mock",
+      "Redux mock",
+      "Component mock"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Intercepts network requests in tests using service worker."
+  },
+  {
+    "id": "REACT_TES_039",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Why is testing implementation details bad?",
+    "options": [
+      "Tests break on refactoring even when behavior is unchanged",
+      "It is recommended",
+      "Tests become faster",
+      "Coverage increases"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tests break on refactoring even when behavior is unchanged."
+  },
+  {
+    "id": "REACT_TES_040",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a query priority in RTL?",
+    "options": [
+      "Order of preference: role > label > placeholder > text > ID",
+      "Not a concept",
+      "DOM hierarchy",
+      "Render priority"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Order of preference: role > label > placeholder > text > ID."
+  },
+  {
+    "id": "REACT_TES_041",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What does ByLabelText query do?",
+    "options": [
+      "Finds form element associated with label text",
+      "Finds text content",
+      "Finds by class",
+      "Finds by ID"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Finds form element associated with label text."
+  },
+  {
+    "id": "REACT_TES_042",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What does ByPlaceholderText query do?",
+    "options": [
+      "Finds input by its placeholder attribute",
+      "Finds by text",
+      "Finds by role",
+      "Finds by value"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Finds input by its placeholder attribute."
+  },
+  {
+    "id": "REACT_TES_043",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is data-testid attribute?",
+    "options": [
+      "Custom attribute for selecting test elements as last resort",
+      "RTL default",
+      "Required attribute",
+      "Performance hint"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Custom attribute for selecting test elements as last resort."
+  },
+  {
+    "id": "REACT_TES_044",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Why should data-testid be a last resort?",
+    "options": [
+      "It tests implementation, not user behavior",
+      "It is unreliable",
+      "It is slow",
+      "It breaks in production"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is It tests implementation, not user behavior."
+  },
+  {
+    "id": "REACT_TES_045",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is testing a hook?",
+    "options": [
+      "Using renderHook() from RTL to test custom hooks in isolation",
+      "Testing with useEffect",
+      "Testing component using hook",
+      "Mocking the hook"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Using renderHook() from RTL to test custom hooks in isolation."
+  },
+  {
+    "id": "REACT_TES_046",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What does renderHook return?",
+    "options": [
+      "Object with result.current (hook's return value) and other utilities",
+      "Rendered component",
+      "DOM element",
+      "Hook function"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Object with result.current (hook's return value) and other utilities."
+  },
+  {
+    "id": "REACT_TES_047",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is act() wrapper in React testing?",
+    "options": [
+      "Ensures all state updates and effects are applied before assertions",
+      "Error boundary",
+      "Async wrapper",
+      "DOM updater"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Ensures all state updates and effects are applied before assertions."
+  },
+  {
+    "id": "REACT_TES_048",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "When is act() required?",
+    "options": [
+      "When triggering state updates outside React's event system",
+      "Always",
+      "Never",
+      "Only for class components"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is When triggering state updates outside React's event system."
+  },
+  {
+    "id": "REACT_TES_049",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is axe-core used for?",
+    "options": [
+      "Automated accessibility testing in Jest/RTL tests",
+      "Performance testing",
+      "E2E testing",
+      "Visual testing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automated accessibility testing in Jest/RTL tests."
+  },
+  {
+    "id": "REACT_TES_050",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is storybook?",
+    "options": [
+      "UI component explorer for developing and testing components in isolation",
+      "E2E test tool",
+      "State manager",
+      "Routing library"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is UI component explorer for developing and testing components in isolation."
+  },
+  {
+    "id": "REACT_TES_051",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is visual regression testing?",
+    "options": [
+      "Comparing component screenshots to detect unintended visual changes",
+      "Functional testing",
+      "Accessibility testing",
+      "Performance testing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Comparing component screenshots to detect unintended visual changes."
+  },
+  {
+    "id": "REACT_COM_001",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a React component?",
+    "options": [
+      "Reusable, self-contained UI piece returning JSX",
+      "HTML file",
+      "CSS class",
+      "JavaScript module"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reusable, self-contained UI piece returning JSX."
+  },
+  {
+    "id": "REACT_COM_002",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What are the two types of React components?",
+    "options": [
+      "Functional components and Class components",
+      "Stateful and Stateless",
+      "Smart and Dumb",
+      "Container and Presentational"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Functional components and Class components."
+  },
+  {
+    "id": "REACT_COM_003",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a functional component?",
+    "options": [
+      "JavaScript function that accepts props and returns JSX",
+      "ES6 class",
+      "DOM element",
+      "Redux store"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is JavaScript function that accepts props and returns JSX."
+  },
+  {
+    "id": "REACT_COM_004",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is a class component?",
+    "options": [
+      "ES6 class extending React.Component with render method",
+      "Pure function",
+      "HOC",
+      "Context provider"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is ES6 class extending React.Component with render method."
+  },
+  {
+    "id": "REACT_COM_005",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What are props?",
+    "options": [
+      "Data passed from parent to child component",
+      "Internal state",
+      "Event handlers",
+      "DOM attributes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Data passed from parent to child component."
+  },
+  {
+    "id": "REACT_COM_006",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the difference between props and state?",
+    "options": [
+      "Props are external (passed in); state is internal (managed by component)",
+      "Both are internal",
+      "Both are external",
+      "Props are mutable"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Props are external (passed in); state is internal (managed by component)."
+  },
+  {
+    "id": "REACT_COM_007",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "Can props be modified by the child component?",
+    "options": [
+      "No — props are read-only",
+      "Yes, always",
+      "Only class components",
+      "With useRef"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is No — props are read-only."
+  },
+  {
+    "id": "REACT_COM_008",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is prop drilling?",
+    "options": [
+      "Passing props through multiple layers of components that don't need them",
+      "Passing props directly",
+      "Using context",
+      "Using Redux"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Passing props through multiple layers of components that don't need them."
+  },
+  {
+    "id": "REACT_COM_009",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Higher Order Component (HOC)?",
+    "options": [
+      "Function that takes a component and returns an enhanced component",
+      "A component",
+      "A hook",
+      "A context"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Function that takes a component and returns an enhanced component."
+  },
+  {
+    "id": "REACT_COM_010",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Compound Components pattern?",
+    "options": [
+      "Multiple components working together sharing implicit state via context",
+      "HOC pattern",
+      "Render props",
+      "Children pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Multiple components working together sharing implicit state via context."
+  },
+  {
+    "id": "REACT_COM_011",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Render Props pattern?",
+    "options": [
+      "Component accepting a function prop that returns JSX to render",
+      "HOC pattern",
+      "Hook pattern",
+      "Context pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Component accepting a function prop that returns JSX to render."
+  },
+  {
+    "id": "REACT_COM_012",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the Container/Presentational component pattern?",
+    "options": [
+      "Separating data logic (container) from UI (presentational)",
+      "HOC pattern",
+      "Render props",
+      "Context pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Separating data logic (container) from UI (presentational)."
+  },
+  {
+    "id": "REACT_COM_013",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What are controlled components?",
+    "options": [
+      "Components where form state is managed by React state",
+      "DOM-managed components",
+      "Class-only components",
+      "Uncontrolled components"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Components where form state is managed by React state."
+  },
+  {
+    "id": "REACT_COM_014",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What are uncontrolled components?",
+    "options": [
+      "Components where form state is managed by the DOM",
+      "React-managed components",
+      "All class components",
+      "Functional components"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Components where form state is managed by the DOM."
+  },
+  {
+    "id": "REACT_COM_015",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the children prop?",
+    "options": [
+      "Special prop containing JSX passed between component tags",
+      "Array of props",
+      "DOM nodes only",
+      "Text only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Special prop containing JSX passed between component tags."
+  },
+  {
+    "id": "REACT_COM_016",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is React.Children.map?",
+    "options": [
+      "Iterate over children with proper handling of edge cases",
+      "Array.map on children",
+      "HOC utility",
+      "Clone utility"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Iterate over children with proper handling of edge cases."
+  },
+  {
+    "id": "REACT_COM_017",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is React.cloneElement used for?",
+    "options": [
+      "Clone element and add/override props (used in compound components)",
+      "Create new component",
+      "Duplicate DOM",
+      "Merge components"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Clone element and add/override props (used in compound components)."
+  },
+  {
+    "id": "REACT_COM_018",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is prop validation?",
+    "options": [
+      "Defining expected types for props using PropTypes or TypeScript",
+      "Runtime check only",
+      "TypeScript only",
+      "Jest test"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defining expected types for props using PropTypes or TypeScript."
+  },
+  {
+    "id": "REACT_COM_019",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is defaultProps?",
+    "options": [
+      "Sets default values for props when they are not provided",
+      "Initial state",
+      "Required props",
+      "Optional rendering"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sets default values for props when they are not provided."
+  },
+  {
+    "id": "REACT_COM_020",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of displayName on a component?",
+    "options": [
+      "Improves debugging in React DevTools and error messages",
+      "Required for HOCs",
+      "Required for hooks",
+      "Required for rendering"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Improves debugging in React DevTools and error messages."
+  },
+  {
+    "id": "REACT_COM_021",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is forwardRef used for?",
+    "options": [
+      "Forwarding a ref from parent through a component to its DOM element",
+      "Forwarding props",
+      "Forwarding context",
+      "Forwarding events"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Forwarding a ref from parent through a component to its DOM element."
+  },
+  {
+    "id": "REACT_COM_022",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is useImperativeHandle used with?",
+    "options": [
+      "forwardRef — to customize what ref exposes to parent",
+      "useRef alone",
+      "React.memo",
+      "Context"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is forwardRef — to customize what ref exposes to parent."
+  },
+  {
+    "id": "REACT_COM_023",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a pure component?",
+    "options": [
+      "Component returning same output for same input, no side effects",
+      "Stateless component",
+      "Functional component",
+      "Class component"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Component returning same output for same input, no side effects."
+  },
+  {
+    "id": "REACT_COM_024",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is React.Fragment?",
+    "options": [
+      "Wrapper that renders no DOM node, allowing multiple root elements",
+      "A DOM element",
+      "An empty div",
+      "A context"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Wrapper that renders no DOM node, allowing multiple root elements."
+  },
+  {
+    "id": "REACT_COM_025",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the shorthand for React.Fragment?",
+    "options": [
+      "<> </> (empty angle brackets)",
+      "<Fragment>",
+      "<React.Fragment>",
+      "<Wrap>"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is <> </> (empty angle brackets)."
+  },
+  {
+    "id": "REACT_COM_026",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a Portal in React?",
+    "options": [
+      "Renders children into a different DOM node outside current tree",
+      "State portal",
+      "Navigation portal",
+      "CSS portal"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Renders children into a different DOM node outside current tree."
+  },
+  {
+    "id": "REACT_COM_027",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "Why use React portals?",
+    "options": [
+      "To render modals, tooltips above z-index of parent without CSS hacks",
+      "For performance",
+      "For routing",
+      "For testing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is To render modals, tooltips above z-index of parent without CSS hacks."
+  },
+  {
+    "id": "REACT_COM_028",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Error Boundary?",
+    "options": [
+      "Class component catching errors in child tree and showing fallback",
+      "Try-catch equivalent",
+      "Error hook",
+      "useError hook"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Class component catching errors in child tree and showing fallback."
+  },
+  {
+    "id": "REACT_COM_029",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is componentDidCatch?",
+    "options": [
+      "Lifecycle called after error is caught, receives error and info",
+      "Error boundary only",
+      "All lifecycle",
+      "Update lifecycle"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Lifecycle called after error is caught, receives error and info."
+  },
+  {
+    "id": "REACT_COM_030",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is getDerivedStateFromError?",
+    "options": [
+      "Static method updating state to show error fallback UI",
+      "Catches errors to log",
+      "Updates the DOM",
+      "Redirects on error"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Static method updating state to show error fallback UI."
+  },
+  {
+    "id": "REACT_COM_031",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What are React Server Components?",
+    "options": [
+      "Components running on server, rendering without client JS overhead",
+      "SSR components",
+      "Cached components",
+      "Static components"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Components running on server, rendering without client JS overhead."
+  },
+  {
+    "id": "REACT_COM_032",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What are Client Components in Next.js App Router?",
+    "options": [
+      "Components with 'use client' directive that run in browser",
+      "Server components",
+      "RSC components",
+      "Shared components"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Components with 'use client' directive that run in browser."
+  },
+  {
+    "id": "REACT_COM_033",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of the 'use client' directive?",
+    "options": [
+      "Marks component and its imports as client-side bundle boundary",
+      "Enables server rendering",
+      "Adds Redux",
+      "Adds context"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Marks component and its imports as client-side bundle boundary."
+  },
+  {
+    "id": "REACT_COM_034",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is component composition?",
+    "options": [
+      "Building complex UI by combining smaller focused components",
+      "Inheritance",
+      "HOC wrapping",
+      "Context sharing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Building complex UI by combining smaller focused components."
+  },
+  {
+    "id": "REACT_COM_035",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "Why prefer composition over inheritance in React?",
+    "options": [
+      "React's component model is built for composition, not class hierarchies",
+      "Inheritance is broken",
+      "HOCs are better",
+      "Composition is faster"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is React's component model is built for composition, not class hierarchies."
+  },
+  {
+    "id": "REACT_COM_036",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the headless component pattern?",
+    "options": [
+      "Components providing logic/behavior without UI (often via render props/hooks)",
+      "Unstyled components",
+      "No DOM components",
+      "Server components"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Components providing logic/behavior without UI (often via render props/hooks)."
+  },
+  {
+    "id": "REACT_COM_037",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is polymorphic component?",
+    "options": [
+      "Component accepting 'as' prop to render as different HTML element",
+      "Multiple renders",
+      "Context-driven",
+      "Dynamic import"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Component accepting 'as' prop to render as different HTML element."
+  },
+  {
+    "id": "REACT_COM_038",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is controlled vs uncontrolled component design?",
+    "options": [
+      "Controlled: caller manages state; Uncontrolled: component manages own state",
+      "No difference",
+      "Controlled uses DOM",
+      "Uncontrolled uses useState"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Controlled: caller manages state; Uncontrolled: component manages own state."
+  },
+  {
+    "id": "REACT_COM_039",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a slot pattern?",
+    "options": [
+      "Named children via props for flexible layout composition (like <header> slot)",
+      "Array pattern",
+      "Fragment pattern",
+      "Portal pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Named children via props for flexible layout composition (like <header> slot)."
+  },
+  {
+    "id": "REACT_COM_040",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What are named exports vs default export for components?",
+    "options": [
+      "Named allows multiple exports per file; default is the main one",
+      "No difference",
+      "Named is older",
+      "Default is better"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Named allows multiple exports per file; default is the main one."
+  },
+  {
+    "id": "REACT_COM_041",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is component co-location?",
+    "options": [
+      "Keeping related code (tests, styles, hooks) near the component file",
+      "Global organization",
+      "Folder structure",
+      "Module pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Keeping related code (tests, styles, hooks) near the component file."
+  },
+  {
+    "id": "REACT_COM_042",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is index.js barrel file?",
+    "options": [
+      "Single file re-exporting from a folder for cleaner imports",
+      "Entry point only",
+      "Test file",
+      "Config file"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Single file re-exporting from a folder for cleaner imports."
+  },
+  {
+    "id": "REACT_COM_043",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the atomic design methodology?",
+    "options": [
+      "Organizing components as Atoms, Molecules, Organisms, Templates, Pages",
+      "Redux pattern",
+      "File system pattern",
+      "Testing pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Organizing components as Atoms, Molecules, Organisms, Templates, Pages."
+  },
+  {
+    "id": "REACT_COM_044",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a design system?",
+    "options": [
+      "Collection of reusable components with consistent design and behavior rules",
+      "CSS framework",
+      "Component library",
       "State management"
     ],
     "answer": 0,
-    "explanation": "useEffect handles side effects in components."
+    "explanation": "The correct answer is Collection of reusable components with consistent design and behavior rules."
   },
   {
-    "id": "react_1325",
+    "id": "REACT_COM_045",
     "topic": "React Engineer",
-    "section": "Hooks & State",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q325] Virtual DOM purpose",
+    "question": "What is Storybook used for?",
     "options": [
-      "CSS handling",
-      "Insufficient information",
-      "Performance optimization",
-      "Real DOM replacement"
+      "Building and documenting components in isolation outside the app",
+      "Testing tool",
+      "Routing tool",
+      "State tool"
     ],
     "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
+    "explanation": "The correct answer is Building and documenting components in isolation outside the app."
   },
   {
-    "id": "react_1326",
+    "id": "REACT_COM_046",
     "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q326] Props are",
+    "question": "What is component-driven development?",
     "options": [
-      "Read-only data passed to components",
-      "Cannot be determined",
-      "Component state",
-      "CSS classes"
+      "Building UI from components up, driven by Storybook or similar",
+      "Test-driven development",
+      "Agile development",
+      "Lean development"
     ],
     "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
+    "explanation": "The correct answer is Building UI from components up, driven by Storybook or similar."
   },
   {
-    "id": "react_1327",
+    "id": "REACT_COM_047",
     "topic": "React Engineer",
-    "section": "Hooks & State",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q327] State vs Props: State is",
+    "question": "What is a form component pattern?",
     "options": [
-      "Mutable within component",
-      "Global",
-      "Passed from parent",
-      "Immutable"
+      "Encapsulating form logic with validation and submission handling",
+      "Input wrapper only",
+      "Event handler",
+      "State pattern"
     ],
     "answer": 0,
-    "explanation": "State is local mutable data in a component."
+    "explanation": "The correct answer is Encapsulating form logic with validation and submission handling."
   },
   {
-    "id": "react_1328",
+    "id": "REACT_COM_048",
     "topic": "React Engineer",
-    "section": "Hooks & State",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q328] React key prop purpose",
+    "question": "What is a wizard/multi-step form pattern?",
     "options": [
-      "Style elements",
-      "Identify list items",
-      "Pass data",
-      "Neither A nor B"
+      "Series of components tracking current step and form state",
+      "Navigation pattern",
+      "Routing pattern",
+      "Animation pattern"
     ],
     "answer": 0,
-    "explanation": "Keys help React identify which items changed."
+    "explanation": "The correct answer is Series of components tracking current step and form state."
   },
   {
-    "id": "react_1329",
+    "id": "REACT_COM_049",
     "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[REACT-Q329] What is a higher-order component?",
+    "question": "What is infinite scroll vs pagination?",
     "options": [
-      "Hook",
-      "Neither A nor B",
-      "Class component",
-      "Component that takes/returns component"
+      "Infinite loads more on scroll; pagination shows discrete pages",
+      "Same pattern",
+      "Infinite is better",
+      "Pagination is infinite"
     ],
     "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
+    "explanation": "The correct answer is Infinite loads more on scroll; pagination shows discrete pages."
   },
   {
-    "id": "react_1330",
+    "id": "REACT_COM_050",
     "topic": "React Engineer",
-    "section": "Hooks & State",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q330] useContext is used for",
+    "question": "What is a virtual list component?",
     "options": [
-      "Side effects",
-      "Local state",
-      "Consuming context",
-      "Option not applicable"
+      "Renders only visible items of a large list for performance",
+      "Pagination",
+      "Lazy loading",
+      "Code splitting"
     ],
     "answer": 0,
-    "explanation": "useContext reads from a React context."
+    "explanation": "The correct answer is Renders only visible items of a large list for performance."
   },
   {
-    "id": "react_1331",
+    "id": "REACT_COM_051",
     "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[REACT-Q331] React.memo does what?",
+    "question": "What is skeleton loader?",
     "options": [
-      "Memoizes component",
-      "Creates context",
-      "Handles effects",
-      "Cannot be determined"
+      "Placeholder UI matching layout while real content loads",
+      "Spinner only",
+      "Error state",
+      "Empty state"
     ],
     "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
+    "explanation": "The correct answer is Placeholder UI matching layout while real content loads."
   },
   {
-    "id": "react_1332",
+    "id": "REACT_HOOK_052",
     "topic": "React Engineer",
     "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q332] What does ReactDOM.render do?",
+    "question": "useState setter signature is setState(newValue) or:",
     "options": [
-      "Defines component",
-      "Insufficient information",
-      "Creates state",
-      "Renders React element to DOM"
+      "setState(prev => newVal) functional update form",
+      "setState(fn, dep)",
+      "setState.apply()",
+      "setState.call()"
     ],
     "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
+    "explanation": "The correct answer is setState(prev => newVal) functional update form."
   },
   {
-    "id": "react_1333",
+    "id": "REACT_HOOK_053",
     "topic": "React Engineer",
     "section": "Hooks & State",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q333] Default export syntax in ES6",
+    "question": "What is the problem with setTimeout inside useEffect reading state?",
     "options": [
-      "export default Component",
-      "export { Component }",
-      "module.exports",
-      "export Component"
+      "Captures stale state from when effect ran — use ref or functional update",
+      "No problem",
+      "Always current",
+      "Async safe"
     ],
     "answer": 0,
-    "explanation": "Default exports use 'export default'."
+    "explanation": "The correct answer is Captures stale state from when effect ran — use ref or functional update."
   },
   {
-    "id": "react_1334",
+    "id": "REACT_HOOK_054",
     "topic": "React Engineer",
     "section": "Hooks & State",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q334] What is prop drilling?",
+    "question": "How do you read latest state inside a setTimeout?",
     "options": [
-      "Passing props through many layers",
-      "Direct prop passing",
-      "Context API",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1335",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q335] useReducer is used for",
-    "options": [
-      "Complex state logic",
-      "Insufficient information",
-      "Side effects",
-      "Simple state"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1336",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q336] React Router's <Route> does what?",
-    "options": [
-      "Both A and B",
-      "Maps path to component",
-      "Creates links",
-      "Handles forms"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1337",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q337] What is lazy loading in React?",
-    "options": [
-      "Eager loading",
-      "All of the above",
-      "Loading components on demand",
-      "Preloading"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1338",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q338] Controlled component means",
-    "options": [
-      "Form input tied to state",
-      "Uncontrolled input",
-      "Class component",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1339",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q339] What is reconciliation?",
-    "options": [
-      "State creation",
-      "React's DOM update process",
-      "Initial render",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1340",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q340] Fragment in React",
-    "options": [
-      "The above is incorrect",
-      "Groups elements without extra DOM node",
-      "Creates context",
-      "Adds a div"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1341",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q341] useCallback memoizes",
-    "options": [
-      "Effects",
-      "Values",
-      "Functions",
-      "Components"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1342",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q342] useMemo memoizes",
-    "options": [
-      "Computed values",
-      "Effects",
-      "Functions",
-      "Components"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1343",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q343] What is the StrictMode?",
-    "options": [
-      "Production mode",
-      "Both B and C",
-      "Development helper for warnings",
-      "Testing tool"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1344",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q344] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useState",
-      "useRef",
-      "useEffect with []",
-      "useContext"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1345",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q345] useRef is used for",
-    "options": [
-      "Insufficient information",
-      "State management",
-      "Routing",
-      "Accessing DOM elements"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1346",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q346] What triggers a re-render?",
-    "options": [
-      "None of the above",
-      "Comment change",
-      "CSS change",
-      "State or prop change"
-    ],
-    "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
-  },
-  {
-    "id": "react_1347",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q347] Context API solves",
-    "options": [
-      "Routing",
-      "Styling",
-      "Prop drilling",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
-  },
-  {
-    "id": "react_1348",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q348] What is a pure component?",
-    "options": [
-      "HOC",
-      "Stateless component",
-      "Renders same output for same props",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
-  },
-  {
-    "id": "react_1349",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q349] Event handling in React uses",
-    "options": [
-      "Synthetic events",
-      "Native DOM events",
-      "Option not applicable",
-      "Custom events"
-    ],
-    "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
-  },
-  {
-    "id": "react_1350",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q350] What is server-side rendering?",
-    "options": [
-      "Static generation",
-      "Data not provided",
-      "Rendering HTML on server",
-      "Client rendering"
-    ],
-    "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
-  },
-  {
-    "id": "react_1351",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q351] Error boundary catches",
-    "options": [
-      "Word order",
-      "JavaScript errors in components",
-      "CSS errors",
-      "Network errors"
-    ],
-    "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
-  },
-  {
-    "id": "react_1352",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q352] What is Suspense in React?",
-    "options": [
-      "Data not provided",
-      "Waits for async components",
-      "Delays state",
-      "Caches data"
-    ],
-    "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
-  },
-  {
-    "id": "react_1353",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q353] Which hook replaces componentWillUnmount?",
-    "options": [
+      "Use a ref updated by useEffect to always have latest value",
+      "useState only",
       "useCallback",
-      "useState",
-      "useRef",
-      "useEffect cleanup return"
+      "useMemo"
     ],
     "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
+    "explanation": "The correct answer is Use a ref updated by useEffect to always have latest value."
   },
   {
-    "id": "react_1354",
+    "id": "REACT_HOOK_055",
     "topic": "React Engineer",
     "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q354] Portal in React",
-    "options": [
-      "Creates context",
-      "Cannot be determined",
-      "Renders outside parent DOM",
-      "HOC pattern"
-    ],
-    "answer": 0,
-    "explanation": "Portals render children into different DOM node."
-  },
-  {
-    "id": "react_1355",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q355] What is code splitting?",
-    "options": [
-      "Compression",
-      "Option not applicable",
-      "Minification",
-      "Breaking bundle into chunks"
-    ],
-    "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
-  },
-  {
-    "id": "react_1356",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q356] Redux is used for",
-    "options": [
-      "Testing",
-      "Styling",
-      "Routing",
-      "Global state management"
-    ],
-    "answer": 0,
-    "explanation": "Redux manages application-wide state."
-  },
-  {
-    "id": "react_1357",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q357] What does useLayoutEffect do?",
-    "options": [
-      "Data not provided",
-      "Fires sync after DOM mutations",
-      "State update",
-      "Async effect"
-    ],
-    "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
-  },
-  {
-    "id": "react_1358",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q358] Immutability in React state means",
-    "options": [
-      "Create new object instead of mutating",
-      "Modify in place",
-      "Delete state",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "React state must be updated immutably."
-  },
-  {
-    "id": "react_1359",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q359] What is the children prop?",
-    "options": [
-      "State value",
-      "None of the above",
-      "Component name",
-      "Content between component tags"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1360",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q360] Batching in React 18",
-    "options": [
-      "Single update",
-      "Multiple state updates in one render",
-      "Both B and C",
-      "Sequential renders"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1361",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q361] What is React?",
-    "options": [
-      "Backend framework",
-      "CSS framework",
-      "JavaScript UI library",
-      "Database ORM"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1362",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q362] JSX stands for",
-    "options": [
-      "JavaScript Extension",
-      "JavaScript XML",
-      "Java Syntax Extension",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1363",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q363] useState returns",
-    "options": [
-      "Only value",
-      "State value and setter",
-      "Only setter",
-      "Array of objects"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1364",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q364] useEffect is used for",
-    "options": [
-      "Side effects",
-      "Styling",
-      "Routing",
-      "State management"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1365",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q365] Virtual DOM purpose",
-    "options": [
-      "Real DOM replacement",
-      "Performance optimization",
-      "Insufficient information",
-      "CSS handling"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1366",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q366] Props are",
-    "options": [
-      "CSS classes",
-      "Component state",
-      "The above is incorrect",
-      "Read-only data passed to components"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1367",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q367] State vs Props: State is",
-    "options": [
-      "Immutable",
-      "Global",
-      "Mutable within component",
-      "Passed from parent"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1368",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q368] React key prop purpose",
-    "options": [
-      "Identify list items",
-      "Pass data",
-      "Insufficient information",
-      "Style elements"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1369",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q369] What is a higher-order component?",
-    "options": [
-      "Both A and B",
-      "Class component",
-      "Component that takes/returns component",
-      "Hook"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1370",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q370] useContext is used for",
-    "options": [
-      "Consuming context",
-      "Side effects",
-      "Local state",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1371",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q371] React.memo does what?",
-    "options": [
-      "All of the above",
-      "Creates context",
-      "Handles effects",
-      "Memoizes component"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1372",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q372] What does ReactDOM.render do?",
-    "options": [
-      "Renders React element to DOM",
-      "Both B and C",
-      "Creates state",
-      "Defines component"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1373",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q373] Default export syntax in ES6",
-    "options": [
-      "export Component",
-      "export { Component }",
-      "module.exports",
-      "export default Component"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1374",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q374] What is prop drilling?",
-    "options": [
-      "Passing props through many layers",
-      "Context API",
-      "Direct prop passing",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1375",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q375] useReducer is used for",
-    "options": [
-      "Simple state",
-      "Side effects",
-      "Complex state logic",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1376",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q376] React Router's <Route> does what?",
-    "options": [
-      "Creates links",
-      "The above is incorrect",
-      "Handles forms",
-      "Maps path to component"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1377",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q377] What is lazy loading in React?",
-    "options": [
-      "Preloading",
-      "Loading components on demand",
-      "Option not applicable",
-      "Eager loading"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1378",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q378] Controlled component means",
-    "options": [
-      "Uncontrolled input",
-      "None of the above",
-      "Class component",
-      "Form input tied to state"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1379",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q379] What is reconciliation?",
-    "options": [
-      "React's DOM update process",
-      "Both B and C",
-      "State creation",
-      "Initial render"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1380",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q380] Fragment in React",
-    "options": [
-      "Adds a div",
-      "Creates context",
-      "Option not applicable",
-      "Groups elements without extra DOM node"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1381",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q381] useCallback memoizes",
-    "options": [
-      "Components",
-      "Functions",
-      "Effects",
-      "Values"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1382",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q382] useMemo memoizes",
-    "options": [
-      "Functions",
-      "Computed values",
-      "Effects",
-      "Components"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1383",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q383] What is the StrictMode?",
-    "options": [
-      "Development helper for warnings",
-      "Production mode",
-      "Testing tool",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1384",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q384] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useRef",
-      "useEffect with []",
-      "useContext",
-      "useState"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1385",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q385] useRef is used for",
-    "options": [
-      "None of the above",
-      "State management",
-      "Accessing DOM elements",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1386",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q386] What triggers a re-render?",
-    "options": [
-      "CSS change",
-      "Comment change",
-      "Both A and B",
-      "State or prop change"
-    ],
-    "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
-  },
-  {
-    "id": "react_1387",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q387] Context API solves",
-    "options": [
-      "Prop drilling",
-      "Styling",
-      "Routing",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
-  },
-  {
-    "id": "react_1388",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q388] What is a pure component?",
-    "options": [
-      "HOC",
-      "Renders same output for same props",
-      "Stateless component",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
-  },
-  {
-    "id": "react_1389",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q389] Event handling in React uses",
-    "options": [
-      "Native DOM events",
-      "Custom events",
-      "Both A and B",
-      "Synthetic events"
-    ],
-    "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
-  },
-  {
-    "id": "react_1390",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q390] What is server-side rendering?",
-    "options": [
-      "Rendering HTML on server",
-      "Static generation",
-      "Client rendering",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
-  },
-  {
-    "id": "react_1391",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q391] Error boundary catches",
-    "options": [
-      "None of the above",
-      "CSS errors",
-      "Network errors",
-      "JavaScript errors in components"
-    ],
-    "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
-  },
-  {
-    "id": "react_1392",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q392] What is Suspense in React?",
-    "options": [
-      "Caches data",
-      "Insufficient information",
-      "Delays state",
-      "Waits for async components"
-    ],
-    "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
-  },
-  {
-    "id": "react_1393",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q393] Which hook replaces componentWillUnmount?",
-    "options": [
-      "useRef",
-      "useState",
-      "useEffect cleanup return",
-      "useCallback"
-    ],
-    "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
-  },
-  {
-    "id": "react_1394",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q394] Portal in React",
-    "options": [
-      "Both B and C",
-      "Renders outside parent DOM",
-      "HOC pattern",
-      "Creates context"
-    ],
-    "answer": 0,
-    "explanation": "Portals render children into different DOM node."
-  },
-  {
-    "id": "react_1395",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q395] What is code splitting?",
-    "options": [
-      "Minification",
-      "Breaking bundle into chunks",
-      "Insufficient information",
-      "Compression"
-    ],
-    "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
-  },
-  {
-    "id": "react_1396",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q396] Redux is used for",
-    "options": [
-      "Routing",
-      "Styling",
-      "Testing",
-      "Global state management"
-    ],
-    "answer": 0,
-    "explanation": "Redux manages application-wide state."
-  },
-  {
-    "id": "react_1397",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q397] What does useLayoutEffect do?",
-    "options": [
-      "Async effect",
-      "State update",
-      "Neither A nor B",
-      "Fires sync after DOM mutations"
-    ],
-    "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
-  },
-  {
-    "id": "react_1398",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q398] Immutability in React state means",
-    "options": [
-      "Delete state",
-      "All of the above",
-      "Create new object instead of mutating",
-      "Modify in place"
-    ],
-    "answer": 0,
-    "explanation": "React state must be updated immutably."
-  },
-  {
-    "id": "react_1399",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q399] What is the children prop?",
-    "options": [
-      "State value",
-      "All of the above",
-      "Content between component tags",
-      "Component name"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1400",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q400] Batching in React 18",
-    "options": [
-      "Sequential renders",
-      "Multiple state updates in one render",
-      "Single update",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1401",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q401] What is React?",
-    "options": [
-      "CSS framework",
-      "Backend framework",
-      "Database ORM",
-      "JavaScript UI library"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1402",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q402] JSX stands for",
-    "options": [
-      "JavaScript XML",
-      "JavaScript Extension",
-      "All of the above",
-      "Java Syntax Extension"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1403",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q403] useState returns",
-    "options": [
-      "Array of objects",
-      "Only value",
-      "State value and setter",
-      "Only setter"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1404",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q404] useEffect is used for",
-    "options": [
-      "Styling",
-      "Routing",
-      "State management",
-      "Side effects"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1405",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q405] Virtual DOM purpose",
-    "options": [
-      "Real DOM replacement",
-      "Performance optimization",
-      "None of the above",
-      "CSS handling"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1406",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q406] Props are",
-    "options": [
-      "Component state",
-      "CSS classes",
-      "Both A and B",
-      "Read-only data passed to components"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1407",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q407] State vs Props: State is",
-    "options": [
-      "Immutable",
-      "Global",
-      "Passed from parent",
-      "Mutable within component"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1408",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q408] React key prop purpose",
-    "options": [
-      "Identify list items",
-      "Pass data",
-      "Style elements",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1409",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q409] What is a higher-order component?",
-    "options": [
-      "Class component",
-      "Data not provided",
-      "Hook",
-      "Component that takes/returns component"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1410",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q410] useContext is used for",
-    "options": [
-      "Local state",
-      "Both B and C",
-      "Side effects",
-      "Consuming context"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1411",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q411] React.memo does what?",
-    "options": [
-      "Data not provided",
-      "Creates context",
-      "Memoizes component",
-      "Handles effects"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1412",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q412] What does ReactDOM.render do?",
-    "options": [
-      "Defines component",
-      "Renders React element to DOM",
-      "Creates state",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1413",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q413] Default export syntax in ES6",
-    "options": [
-      "export { Component }",
-      "export default Component",
-      "module.exports",
-      "export Component"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1414",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q414] What is prop drilling?",
-    "options": [
-      "Both A and B",
-      "Passing props through many layers",
-      "Context API",
-      "Direct prop passing"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1415",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q415] useReducer is used for",
-    "options": [
-      "Complex state logic",
-      "The above is incorrect",
-      "Side effects",
-      "Simple state"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1416",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q416] React Router's <Route> does what?",
-    "options": [
-      "Both A and B",
-      "Creates links",
-      "Maps path to component",
-      "Handles forms"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1417",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q417] What is lazy loading in React?",
-    "options": [
-      "Loading components on demand",
-      "Preloading",
-      "Neither A nor B",
-      "Eager loading"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1418",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q418] Controlled component means",
-    "options": [
-      "Uncontrolled input",
-      "The above is incorrect",
-      "Class component",
-      "Form input tied to state"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1419",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q419] What is reconciliation?",
-    "options": [
-      "React's DOM update process",
-      "Cannot be determined",
-      "Initial render",
-      "State creation"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1420",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q420] Fragment in React",
-    "options": [
-      "Cannot be determined",
-      "Adds a div",
-      "Creates context",
-      "Groups elements without extra DOM node"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1421",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q421] useCallback memoizes",
-    "options": [
-      "Functions",
-      "Values",
-      "Effects",
-      "Components"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1422",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q422] useMemo memoizes",
-    "options": [
-      "Effects",
-      "Components",
-      "Computed values",
-      "Functions"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1423",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q423] What is the StrictMode?",
-    "options": [
-      "Development helper for warnings",
-      "Neither A nor B",
-      "Testing tool",
-      "Production mode"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1424",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q424] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useEffect with []",
-      "useRef",
-      "useState",
-      "useContext"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1425",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q425] useRef is used for",
-    "options": [
-      "Neither A nor B",
-      "State management",
-      "Routing",
-      "Accessing DOM elements"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1426",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q426] What triggers a re-render?",
-    "options": [
-      "State or prop change",
-      "None of the above",
-      "CSS change",
-      "Comment change"
-    ],
-    "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
-  },
-  {
-    "id": "react_1427",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q427] Context API solves",
-    "options": [
-      "All of the above",
-      "Styling",
-      "Routing",
-      "Prop drilling"
-    ],
-    "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
-  },
-  {
-    "id": "react_1428",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q428] What is a pure component?",
-    "options": [
-      "Renders same output for same props",
-      "Neither A nor B",
-      "HOC",
-      "Stateless component"
-    ],
-    "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
-  },
-  {
-    "id": "react_1429",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q429] Event handling in React uses",
-    "options": [
-      "Synthetic events",
-      "Native DOM events",
-      "Custom events",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
-  },
-  {
-    "id": "react_1430",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q430] What is server-side rendering?",
-    "options": [
-      "All of the above",
-      "Rendering HTML on server",
-      "Client rendering",
-      "Static generation"
-    ],
-    "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
-  },
-  {
-    "id": "react_1431",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q431] Error boundary catches",
-    "options": [
-      "Network errors",
-      "Dangling modifier",
-      "JavaScript errors in components",
-      "CSS errors"
-    ],
-    "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
-  },
-  {
-    "id": "react_1432",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q432] What is Suspense in React?",
-    "options": [
-      "Cannot be determined",
-      "Delays state",
-      "Caches data",
-      "Waits for async components"
-    ],
-    "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
-  },
-  {
-    "id": "react_1433",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q433] Which hook replaces componentWillUnmount?",
-    "options": [
-      "useEffect cleanup return",
-      "useRef",
-      "useState",
-      "useCallback"
-    ],
-    "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
-  },
-  {
-    "id": "react_1434",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q434] Portal in React",
-    "options": [
-      "Creates context",
-      "Renders outside parent DOM",
-      "Neither A nor B",
-      "HOC pattern"
-    ],
-    "answer": 0,
-    "explanation": "Portals render children into different DOM node."
-  },
-  {
-    "id": "react_1435",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q435] What is code splitting?",
-    "options": [
-      "Minification",
-      "Compression",
-      "Breaking bundle into chunks",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
-  },
-  {
-    "id": "react_1436",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q436] Redux is used for",
-    "options": [
-      "Testing",
-      "Routing",
-      "Styling",
-      "Global state management"
-    ],
-    "answer": 0,
-    "explanation": "Redux manages application-wide state."
-  },
-  {
-    "id": "react_1437",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q437] What does useLayoutEffect do?",
-    "options": [
-      "Fires sync after DOM mutations",
-      "All of the above",
-      "State update",
-      "Async effect"
-    ],
-    "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
-  },
-  {
-    "id": "react_1438",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q438] Immutability in React state means",
-    "options": [
-      "Modify in place",
-      "Neither A nor B",
-      "Delete state",
-      "Create new object instead of mutating"
-    ],
-    "answer": 0,
-    "explanation": "React state must be updated immutably."
-  },
-  {
-    "id": "react_1439",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q439] What is the children prop?",
-    "options": [
-      "Content between component tags",
-      "Component name",
-      "State value",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1440",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q440] Batching in React 18",
-    "options": [
-      "Sequential renders",
-      "Single update",
-      "Multiple state updates in one render",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1441",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q441] What is React?",
-    "options": [
-      "Backend framework",
-      "JavaScript UI library",
-      "CSS framework",
-      "Database ORM"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1442",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q442] JSX stands for",
-    "options": [
-      "All of the above",
-      "JavaScript Extension",
-      "JavaScript XML",
-      "Java Syntax Extension"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1443",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q443] useState returns",
-    "options": [
-      "State value and setter",
-      "Only setter",
-      "Only value",
-      "Array of objects"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1444",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q444] useEffect is used for",
-    "options": [
-      "Styling",
-      "State management",
-      "Routing",
-      "Side effects"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1445",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q445] Virtual DOM purpose",
-    "options": [
-      "Insufficient information",
-      "Real DOM replacement",
-      "CSS handling",
-      "Performance optimization"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1446",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q446] Props are",
-    "options": [
-      "Read-only data passed to components",
-      "Insufficient information",
-      "Component state",
-      "CSS classes"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1447",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q447] State vs Props: State is",
-    "options": [
-      "Mutable within component",
-      "Passed from parent",
-      "Immutable",
-      "Global"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1448",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q448] React key prop purpose",
-    "options": [
-      "Identify list items",
-      "Style elements",
-      "The above is incorrect",
-      "Pass data"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1449",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q449] What is a higher-order component?",
-    "options": [
-      "Class component",
-      "Component that takes/returns component",
-      "Hook",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1450",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q450] useContext is used for",
-    "options": [
-      "Local state",
-      "Consuming context",
-      "Side effects",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1451",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q451] React.memo does what?",
-    "options": [
-      "Creates context",
-      "Handles effects",
-      "Both A and B",
-      "Memoizes component"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1452",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q452] What does ReactDOM.render do?",
-    "options": [
-      "Creates state",
-      "Defines component",
-      "All of the above",
-      "Renders React element to DOM"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1453",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q453] Default export syntax in ES6",
-    "options": [
-      "module.exports",
-      "export default Component",
-      "export Component",
-      "export { Component }"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1454",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q454] What is prop drilling?",
-    "options": [
-      "Passing props through many layers",
-      "Direct prop passing",
-      "All of the above",
-      "Context API"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1455",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q455] useReducer is used for",
-    "options": [
-      "Side effects",
-      "Complex state logic",
-      "All of the above",
-      "Simple state"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1456",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q456] React Router's <Route> does what?",
-    "options": [
-      "Creates links",
-      "Maps path to component",
-      "Data not provided",
-      "Handles forms"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1457",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q457] What is lazy loading in React?",
-    "options": [
-      "Loading components on demand",
-      "Eager loading",
-      "Preloading",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1458",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q458] Controlled component means",
-    "options": [
-      "Uncontrolled input",
-      "Form input tied to state",
-      "Class component",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1459",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q459] What is reconciliation?",
-    "options": [
-      "Initial render",
-      "State creation",
-      "All of the above",
-      "React's DOM update process"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1460",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q460] Fragment in React",
-    "options": [
-      "Insufficient information",
-      "Creates context",
-      "Groups elements without extra DOM node",
-      "Adds a div"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1461",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q461] useCallback memoizes",
-    "options": [
-      "Effects",
-      "Functions",
-      "Components",
-      "Values"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1462",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q462] useMemo memoizes",
-    "options": [
-      "Functions",
-      "Effects",
-      "Components",
-      "Computed values"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1463",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q463] What is the StrictMode?",
-    "options": [
-      "Testing tool",
-      "Development helper for warnings",
-      "Both B and C",
-      "Production mode"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1464",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q464] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useState",
-      "useRef",
-      "useContext",
-      "useEffect with []"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1465",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q465] useRef is used for",
-    "options": [
-      "None of the above",
-      "State management",
-      "Accessing DOM elements",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1466",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q466] What triggers a re-render?",
-    "options": [
-      "State or prop change",
-      "Comment change",
-      "CSS change",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
-  },
-  {
-    "id": "react_1467",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q467] Context API solves",
-    "options": [
-      "Styling",
-      "Routing",
-      "Cannot be determined",
-      "Prop drilling"
-    ],
-    "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
-  },
-  {
-    "id": "react_1468",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q468] What is a pure component?",
+    "question": "What is a ref-based event handler pattern?",
     "options": [
-      "Renders same output for same props",
-      "HOC",
-      "All of the above",
-      "Stateless component"
+      "Store handler in ref so it always reads fresh state without dependencies",
+      "Callback pattern",
+      "Context pattern",
+      "Reducer pattern"
     ],
     "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
+    "explanation": "The correct answer is Store handler in ref so it always reads fresh state without dependencies."
   },
   {
-    "id": "react_1469",
+    "id": "REACT_HOOK_056",
     "topic": "React Engineer",
     "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q469] Event handling in React uses",
+    "question": "What does useCallback's dependency array contain?",
     "options": [
-      "Native DOM events",
-      "Synthetic events",
-      "Custom events",
-      "The above is incorrect"
+      "All values from component scope used inside the callback",
+      "Nothing",
+      "Only state",
+      "Only props"
     ],
     "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
+    "explanation": "The correct answer is All values from component scope used inside the callback."
   },
   {
-    "id": "react_1470",
+    "id": "REACT_HOOK_057",
     "topic": "React Engineer",
     "section": "Hooks & State",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q470] What is server-side rendering?",
+    "question": "What is the identity of a setState function from useState?",
     "options": [
-      "Static generation",
-      "Insufficient information",
-      "Client rendering",
-      "Rendering HTML on server"
+      "Stable — same reference across all renders (no need in deps)",
+      "Changes each render",
+      "Changes on state update",
+      "Changes on mount"
     ],
     "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
+    "explanation": "The correct answer is Stable — same reference across all renders (no need in deps)."
   },
   {
-    "id": "react_1471",
+    "id": "REACT_HOOK_058",
     "topic": "React Engineer",
     "section": "Hooks & State",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q471] Error boundary catches",
+    "question": "What is the identity of dispatch from useReducer?",
     "options": [
-      "JavaScript errors in components",
-      "Both A and B",
-      "CSS errors",
-      "Network errors"
+      "Stable — same reference across renders",
+      "Unstable",
+      "Changes on action",
+      "Changes on state"
     ],
     "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
+    "explanation": "The correct answer is Stable — same reference across renders."
   },
   {
-    "id": "react_1472",
+    "id": "REACT_HOOK_059",
     "topic": "React Engineer",
     "section": "Hooks & State",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q472] What is Suspense in React?",
+    "question": "What is the identity of context value?",
     "options": [
-      "The above is incorrect",
-      "Waits for async components",
-      "Caches data",
-      "Delays state"
+      "New reference when Provider re-renders — can cause consumer re-renders",
+      "Stable always",
+      "Same reference",
+      "Stable if no children"
     ],
     "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
+    "explanation": "The correct answer is New reference when Provider re-renders — can cause consumer re-renders."
   },
   {
-    "id": "react_1473",
+    "id": "REACT_HOOK_060",
     "topic": "React Engineer",
     "section": "Hooks & State",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q473] Which hook replaces componentWillUnmount?",
+    "question": "What is the trick to stabilize context value?",
     "options": [
+      "useMemo for the context value object in Provider",
       "useCallback",
-      "useRef",
-      "useEffect cleanup return",
-      "useState"
-    ],
-    "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
-  },
-  {
-    "id": "react_1474",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q474] Portal in React",
-    "options": [
-      "HOC pattern",
-      "Creates context",
-      "Renders outside parent DOM",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "Portals render children into different DOM node."
-  },
-  {
-    "id": "react_1475",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q475] What is code splitting?",
-    "options": [
-      "Both B and C",
-      "Minification",
-      "Breaking bundle into chunks",
-      "Compression"
-    ],
-    "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
-  },
-  {
-    "id": "react_1476",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q476] Redux is used for",
-    "options": [
-      "Global state management",
-      "Styling",
-      "Routing",
-      "Testing"
-    ],
-    "answer": 0,
-    "explanation": "Redux manages application-wide state."
-  },
-  {
-    "id": "react_1477",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q477] What does useLayoutEffect do?",
-    "options": [
-      "None of the above",
-      "Fires sync after DOM mutations",
-      "State update",
-      "Async effect"
-    ],
-    "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
-  },
-  {
-    "id": "react_1478",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q478] Immutability in React state means",
-    "options": [
-      "Modify in place",
-      "Create new object instead of mutating",
-      "Delete state",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "React state must be updated immutably."
-  },
-  {
-    "id": "react_1479",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q479] What is the children prop?",
-    "options": [
-      "State value",
-      "Both A and B",
-      "Content between component tags",
-      "Component name"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1480",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q480] Batching in React 18",
-    "options": [
-      "Data not provided",
-      "Sequential renders",
-      "Single update",
-      "Multiple state updates in one render"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1481",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q481] What is React?",
-    "options": [
-      "Database ORM",
-      "Backend framework",
-      "CSS framework",
-      "JavaScript UI library"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1482",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q482] JSX stands for",
-    "options": [
-      "None of the above",
-      "Java Syntax Extension",
-      "JavaScript XML",
-      "JavaScript Extension"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1483",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q483] useState returns",
-    "options": [
-      "Only setter",
-      "Array of objects",
-      "State value and setter",
-      "Only value"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1484",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q484] useEffect is used for",
-    "options": [
-      "State management",
-      "Routing",
-      "Side effects",
-      "Styling"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1485",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q485] Virtual DOM purpose",
-    "options": [
-      "Real DOM replacement",
-      "Option not applicable",
-      "Performance optimization",
-      "CSS handling"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1486",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q486] Props are",
-    "options": [
-      "Component state",
-      "Read-only data passed to components",
-      "The above is incorrect",
-      "CSS classes"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1487",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q487] State vs Props: State is",
-    "options": [
-      "Mutable within component",
-      "Passed from parent",
-      "Immutable",
-      "Global"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1488",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q488] React key prop purpose",
-    "options": [
-      "Identify list items",
-      "Pass data",
-      "Option not applicable",
-      "Style elements"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1489",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q489] What is a higher-order component?",
-    "options": [
-      "Component that takes/returns component",
-      "Cannot be determined",
-      "Class component",
-      "Hook"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1490",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q490] useContext is used for",
-    "options": [
-      "Neither A nor B",
-      "Side effects",
-      "Consuming context",
-      "Local state"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1491",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q491] React.memo does what?",
-    "options": [
-      "Creates context",
-      "Memoizes component",
-      "Handles effects",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1492",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q492] What does ReactDOM.render do?",
-    "options": [
-      "Data not provided",
-      "Creates state",
-      "Defines component",
-      "Renders React element to DOM"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1493",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q493] Default export syntax in ES6",
-    "options": [
-      "export Component",
-      "export { Component }",
-      "module.exports",
-      "export default Component"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1494",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q494] What is prop drilling?",
-    "options": [
-      "Passing props through many layers",
-      "Context API",
-      "Direct prop passing",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1495",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q495] useReducer is used for",
-    "options": [
-      "Side effects",
-      "Simple state",
-      "Complex state logic",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1496",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q496] React Router's <Route> does what?",
-    "options": [
-      "Creates links",
-      "Handles forms",
-      "None of the above",
-      "Maps path to component"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1497",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q497] What is lazy loading in React?",
-    "options": [
-      "Preloading",
-      "None of the above",
-      "Eager loading",
-      "Loading components on demand"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1498",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q498] Controlled component means",
-    "options": [
-      "Insufficient information",
-      "Uncontrolled input",
-      "Class component",
-      "Form input tied to state"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1499",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q499] What is reconciliation?",
-    "options": [
-      "Both B and C",
-      "State creation",
-      "Initial render",
-      "React's DOM update process"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1500",
-    "topic": "React Engineer",
-    "section": "Hooks & State",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q500] Fragment in React",
-    "options": [
-      "Option not applicable",
-      "Creates context",
-      "Groups elements without extra DOM node",
-      "Adds a div"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1501",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q501] useCallback memoizes",
-    "options": [
-      "Effects",
-      "Values",
-      "Functions",
-      "Components"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1502",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q502] useMemo memoizes",
-    "options": [
-      "Components",
-      "Effects",
-      "Functions",
-      "Computed values"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1503",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q503] What is the StrictMode?",
-    "options": [
-      "Production mode",
-      "Testing tool",
-      "Development helper for warnings",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1504",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q504] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useContext",
-      "useEffect with []",
-      "useState",
-      "useRef"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1505",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q505] useRef is used for",
-    "options": [
-      "State management",
-      "Both B and C",
-      "Routing",
-      "Accessing DOM elements"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1506",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q506] What triggers a re-render?",
-    "options": [
-      "CSS change",
-      "Comment change",
-      "Both A and B",
-      "State or prop change"
-    ],
-    "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
-  },
-  {
-    "id": "react_1507",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q507] Context API solves",
-    "options": [
-      "None of the above",
-      "Styling",
-      "Routing",
-      "Prop drilling"
-    ],
-    "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
-  },
-  {
-    "id": "react_1508",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q508] What is a pure component?",
-    "options": [
-      "Stateless component",
-      "Both B and C",
-      "Renders same output for same props",
-      "HOC"
-    ],
-    "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
-  },
-  {
-    "id": "react_1509",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q509] Event handling in React uses",
-    "options": [
-      "Neither A nor B",
-      "Native DOM events",
-      "Custom events",
-      "Synthetic events"
-    ],
-    "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
-  },
-  {
-    "id": "react_1510",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q510] What is server-side rendering?",
-    "options": [
-      "Rendering HTML on server",
-      "Static generation",
-      "Client rendering",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
-  },
-  {
-    "id": "react_1511",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q511] Error boundary catches",
-    "options": [
-      "Passive voice",
-      "Network errors",
-      "JavaScript errors in components",
-      "CSS errors"
-    ],
-    "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
-  },
-  {
-    "id": "react_1512",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q512] What is Suspense in React?",
-    "options": [
-      "Waits for async components",
-      "Caches data",
-      "Neither A nor B",
-      "Delays state"
-    ],
-    "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
-  },
-  {
-    "id": "react_1513",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q513] Which hook replaces componentWillUnmount?",
-    "options": [
-      "useState",
-      "useCallback",
-      "useEffect cleanup return",
-      "useRef"
-    ],
-    "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
-  },
-  {
-    "id": "react_1514",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q514] Portal in React",
-    "options": [
-      "Creates context",
-      "Renders outside parent DOM",
-      "Insufficient information",
-      "HOC pattern"
-    ],
-    "answer": 0,
-    "explanation": "Portals render children into different DOM node."
-  },
-  {
-    "id": "react_1515",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q515] What is code splitting?",
-    "options": [
-      "Breaking bundle into chunks",
-      "Minification",
-      "Both A and B",
-      "Compression"
-    ],
-    "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
-  },
-  {
-    "id": "react_1516",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q516] Redux is used for",
-    "options": [
-      "Styling",
-      "Testing",
-      "Routing",
-      "Global state management"
-    ],
-    "answer": 0,
-    "explanation": "Redux manages application-wide state."
-  },
-  {
-    "id": "react_1517",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q517] What does useLayoutEffect do?",
-    "options": [
-      "Fires sync after DOM mutations",
-      "State update",
-      "Neither A nor B",
-      "Async effect"
-    ],
-    "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
-  },
-  {
-    "id": "react_1518",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q518] Immutability in React state means",
-    "options": [
-      "Modify in place",
-      "Delete state",
-      "Option not applicable",
-      "Create new object instead of mutating"
-    ],
-    "answer": 0,
-    "explanation": "React state must be updated immutably."
-  },
-  {
-    "id": "react_1519",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q519] What is the children prop?",
-    "options": [
-      "Content between component tags",
-      "State value",
-      "Insufficient information",
-      "Component name"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1520",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q520] Batching in React 18",
-    "options": [
-      "Multiple state updates in one render",
-      "Sequential renders",
-      "Cannot be determined",
-      "Single update"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1521",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q521] What is React?",
-    "options": [
-      "JavaScript UI library",
-      "CSS framework",
-      "Backend framework",
-      "Database ORM"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1522",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q522] JSX stands for",
-    "options": [
-      "Java Syntax Extension",
-      "JavaScript Extension",
-      "JavaScript XML",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1523",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q523] useState returns",
-    "options": [
-      "Only value",
-      "Array of objects",
-      "Only setter",
-      "State value and setter"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1524",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q524] useEffect is used for",
-    "options": [
-      "Side effects",
-      "State management",
-      "Styling",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1525",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q525] Virtual DOM purpose",
-    "options": [
-      "Neither A nor B",
-      "CSS handling",
-      "Performance optimization",
-      "Real DOM replacement"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1526",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q526] Props are",
-    "options": [
-      "Option not applicable",
-      "CSS classes",
-      "Component state",
-      "Read-only data passed to components"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1527",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q527] State vs Props: State is",
-    "options": [
-      "Immutable",
-      "Mutable within component",
-      "Passed from parent",
-      "Global"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1528",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q528] React key prop purpose",
-    "options": [
-      "Both A and B",
-      "Identify list items",
-      "Pass data",
-      "Style elements"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1529",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q529] What is a higher-order component?",
-    "options": [
-      "Hook",
-      "Both B and C",
-      "Class component",
-      "Component that takes/returns component"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1530",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q530] useContext is used for",
-    "options": [
-      "Side effects",
-      "Neither A nor B",
-      "Consuming context",
-      "Local state"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1531",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q531] React.memo does what?",
-    "options": [
-      "Insufficient information",
-      "Memoizes component",
-      "Handles effects",
-      "Creates context"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1532",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q532] What does ReactDOM.render do?",
-    "options": [
-      "Renders React element to DOM",
-      "Creates state",
-      "Neither A nor B",
-      "Defines component"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1533",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q533] Default export syntax in ES6",
-    "options": [
-      "export default Component",
-      "export { Component }",
-      "export Component",
-      "module.exports"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1534",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q534] What is prop drilling?",
-    "options": [
-      "Context API",
-      "Passing props through many layers",
-      "Direct prop passing",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1535",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q535] useReducer is used for",
-    "options": [
-      "Complex state logic",
-      "Side effects",
-      "Simple state",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1536",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q536] React Router's <Route> does what?",
-    "options": [
-      "None of the above",
-      "Maps path to component",
-      "Handles forms",
-      "Creates links"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1537",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q537] What is lazy loading in React?",
-    "options": [
-      "Preloading",
-      "Loading components on demand",
-      "Eager loading",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1538",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q538] Controlled component means",
-    "options": [
-      "Form input tied to state",
-      "Class component",
-      "Uncontrolled input",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1539",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q539] What is reconciliation?",
-    "options": [
-      "Initial render",
-      "React's DOM update process",
-      "State creation",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1540",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q540] Fragment in React",
-    "options": [
-      "Adds a div",
-      "Cannot be determined",
-      "Groups elements without extra DOM node",
-      "Creates context"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1541",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q541] useCallback memoizes",
-    "options": [
-      "Effects",
-      "Components",
-      "Functions",
-      "Values"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1542",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q542] useMemo memoizes",
-    "options": [
-      "Computed values",
-      "Components",
-      "Effects",
-      "Functions"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1543",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q543] What is the StrictMode?",
-    "options": [
-      "Development helper for warnings",
-      "Testing tool",
-      "Production mode",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1544",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q544] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useContext",
-      "useEffect with []",
-      "useState",
-      "useRef"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1545",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q545] useRef is used for",
-    "options": [
-      "State management",
-      "Accessing DOM elements",
-      "Neither A nor B",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1546",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q546] What triggers a re-render?",
-    "options": [
-      "CSS change",
-      "State or prop change",
-      "None of the above",
-      "Comment change"
-    ],
-    "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
-  },
-  {
-    "id": "react_1547",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q547] Context API solves",
-    "options": [
-      "Data not provided",
-      "Styling",
-      "Prop drilling",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
-  },
-  {
-    "id": "react_1548",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q548] What is a pure component?",
-    "options": [
-      "HOC",
-      "Renders same output for same props",
-      "Option not applicable",
-      "Stateless component"
-    ],
-    "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
-  },
-  {
-    "id": "react_1549",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q549] Event handling in React uses",
-    "options": [
-      "Custom events",
-      "The above is incorrect",
-      "Synthetic events",
-      "Native DOM events"
-    ],
-    "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
-  },
-  {
-    "id": "react_1550",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q550] What is server-side rendering?",
-    "options": [
-      "Client rendering",
-      "The above is incorrect",
-      "Rendering HTML on server",
-      "Static generation"
-    ],
-    "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
-  },
-  {
-    "id": "react_1551",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q551] Error boundary catches",
-    "options": [
-      "Punctuation error",
-      "JavaScript errors in components",
-      "Network errors",
-      "CSS errors"
-    ],
-    "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
-  },
-  {
-    "id": "react_1552",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q552] What is Suspense in React?",
-    "options": [
-      "Caches data",
-      "All of the above",
-      "Delays state",
-      "Waits for async components"
-    ],
-    "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
-  },
-  {
-    "id": "react_1553",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q553] Which hook replaces componentWillUnmount?",
-    "options": [
-      "useCallback",
-      "useState",
-      "useRef",
-      "useEffect cleanup return"
-    ],
-    "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
-  },
-  {
-    "id": "react_1554",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q554] Portal in React",
-    "options": [
-      "HOC pattern",
-      "Creates context",
-      "Neither A nor B",
-      "Renders outside parent DOM"
-    ],
-    "answer": 0,
-    "explanation": "Portals render children into different DOM node."
-  },
-  {
-    "id": "react_1555",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q555] What is code splitting?",
-    "options": [
-      "Compression",
-      "Breaking bundle into chunks",
-      "Minification",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
-  },
-  {
-    "id": "react_1556",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q556] Redux is used for",
-    "options": [
-      "Testing",
-      "Styling",
-      "Global state management",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "Redux manages application-wide state."
-  },
-  {
-    "id": "react_1557",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q557] What does useLayoutEffect do?",
-    "options": [
-      "State update",
-      "None of the above",
-      "Async effect",
-      "Fires sync after DOM mutations"
-    ],
-    "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
-  },
-  {
-    "id": "react_1558",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q558] Immutability in React state means",
-    "options": [
-      "Modify in place",
-      "Delete state",
-      "All of the above",
-      "Create new object instead of mutating"
-    ],
-    "answer": 0,
-    "explanation": "React state must be updated immutably."
-  },
-  {
-    "id": "react_1559",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q559] What is the children prop?",
-    "options": [
-      "State value",
-      "None of the above",
-      "Component name",
-      "Content between component tags"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1560",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q560] Batching in React 18",
-    "options": [
-      "Single update",
-      "Sequential renders",
-      "Multiple state updates in one render",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1561",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q561] What is React?",
-    "options": [
-      "CSS framework",
-      "Backend framework",
-      "Database ORM",
-      "JavaScript UI library"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1562",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q562] JSX stands for",
-    "options": [
-      "Neither A nor B",
-      "JavaScript XML",
-      "JavaScript Extension",
-      "Java Syntax Extension"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1563",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q563] useState returns",
-    "options": [
-      "State value and setter",
-      "Array of objects",
-      "Only value",
-      "Only setter"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1564",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q564] useEffect is used for",
-    "options": [
-      "Styling",
-      "Routing",
-      "State management",
-      "Side effects"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1565",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q565] Virtual DOM purpose",
-    "options": [
-      "Both A and B",
-      "Real DOM replacement",
-      "Performance optimization",
-      "CSS handling"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1566",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q566] Props are",
-    "options": [
-      "All of the above",
-      "CSS classes",
-      "Read-only data passed to components",
-      "Component state"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1567",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q567] State vs Props: State is",
-    "options": [
-      "Passed from parent",
-      "Immutable",
-      "Global",
-      "Mutable within component"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1568",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q568] React key prop purpose",
-    "options": [
-      "All of the above",
-      "Style elements",
-      "Identify list items",
-      "Pass data"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1569",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q569] What is a higher-order component?",
-    "options": [
-      "Class component",
-      "Hook",
-      "Component that takes/returns component",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1570",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q570] useContext is used for",
-    "options": [
-      "None of the above",
-      "Side effects",
-      "Local state",
-      "Consuming context"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1571",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q571] React.memo does what?",
-    "options": [
-      "Creates context",
-      "Memoizes component",
-      "Option not applicable",
-      "Handles effects"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1572",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q572] What does ReactDOM.render do?",
-    "options": [
-      "Defines component",
-      "Creates state",
-      "Insufficient information",
-      "Renders React element to DOM"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1573",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q573] Default export syntax in ES6",
-    "options": [
-      "export Component",
-      "export { Component }",
-      "export default Component",
-      "module.exports"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1574",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q574] What is prop drilling?",
-    "options": [
-      "Passing props through many layers",
-      "The above is incorrect",
-      "Direct prop passing",
-      "Context API"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1575",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q575] useReducer is used for",
-    "options": [
-      "Simple state",
-      "Both A and B",
-      "Complex state logic",
-      "Side effects"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1576",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q576] React Router's <Route> does what?",
-    "options": [
-      "Creates links",
-      "Handles forms",
-      "Maps path to component",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1577",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q577] What is lazy loading in React?",
-    "options": [
-      "Preloading",
-      "All of the above",
-      "Loading components on demand",
-      "Eager loading"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1578",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q578] Controlled component means",
-    "options": [
-      "Uncontrolled input",
-      "Class component",
-      "Data not provided",
-      "Form input tied to state"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1579",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q579] What is reconciliation?",
-    "options": [
-      "State creation",
-      "React's DOM update process",
-      "Data not provided",
-      "Initial render"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1580",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q580] Fragment in React",
-    "options": [
-      "None of the above",
-      "Creates context",
-      "Groups elements without extra DOM node",
-      "Adds a div"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1581",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q581] useCallback memoizes",
-    "options": [
-      "Functions",
-      "Values",
-      "Components",
-      "Effects"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1582",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q582] useMemo memoizes",
-    "options": [
-      "Computed values",
-      "Effects",
-      "Components",
-      "Functions"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1583",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q583] What is the StrictMode?",
-    "options": [
-      "Data not provided",
-      "Development helper for warnings",
-      "Testing tool",
-      "Production mode"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1584",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q584] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useContext",
-      "useRef",
-      "useState",
-      "useEffect with []"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1585",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q585] useRef is used for",
-    "options": [
-      "State management",
-      "Routing",
-      "Accessing DOM elements",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1586",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q586] What triggers a re-render?",
-    "options": [
-      "Both A and B",
-      "Comment change",
-      "State or prop change",
-      "CSS change"
-    ],
-    "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
-  },
-  {
-    "id": "react_1587",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q587] Context API solves",
-    "options": [
-      "Prop drilling",
-      "Routing",
-      "Styling",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
-  },
-  {
-    "id": "react_1588",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q588] What is a pure component?",
-    "options": [
-      "HOC",
-      "Renders same output for same props",
-      "All of the above",
-      "Stateless component"
-    ],
-    "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
-  },
-  {
-    "id": "react_1589",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q589] Event handling in React uses",
-    "options": [
-      "Custom events",
-      "Native DOM events",
-      "Insufficient information",
-      "Synthetic events"
-    ],
-    "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
-  },
-  {
-    "id": "react_1590",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q590] What is server-side rendering?",
-    "options": [
-      "Neither A nor B",
-      "Static generation",
-      "Rendering HTML on server",
-      "Client rendering"
-    ],
-    "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
-  },
-  {
-    "id": "react_1591",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q591] Error boundary catches",
-    "options": [
-      "CSS errors",
-      "Active voice",
-      "Network errors",
-      "JavaScript errors in components"
-    ],
-    "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
-  },
-  {
-    "id": "react_1592",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q592] What is Suspense in React?",
-    "options": [
-      "Neither A nor B",
-      "Waits for async components",
-      "Caches data",
-      "Delays state"
-    ],
-    "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
-  },
-  {
-    "id": "react_1593",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q593] Which hook replaces componentWillUnmount?",
-    "options": [
-      "useRef",
-      "useCallback",
-      "useEffect cleanup return",
-      "useState"
-    ],
-    "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
-  },
-  {
-    "id": "react_1594",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q594] Portal in React",
-    "options": [
-      "Creates context",
-      "HOC pattern",
-      "Data not provided",
-      "Renders outside parent DOM"
-    ],
-    "answer": 0,
-    "explanation": "Portals render children into different DOM node."
-  },
-  {
-    "id": "react_1595",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q595] What is code splitting?",
-    "options": [
-      "Minification",
-      "Compression",
-      "Option not applicable",
-      "Breaking bundle into chunks"
-    ],
-    "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
-  },
-  {
-    "id": "react_1596",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q596] Redux is used for",
-    "options": [
-      "Styling",
-      "Testing",
-      "Global state management",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "Redux manages application-wide state."
-  },
-  {
-    "id": "react_1597",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q597] What does useLayoutEffect do?",
-    "options": [
-      "State update",
-      "Fires sync after DOM mutations",
-      "Cannot be determined",
-      "Async effect"
-    ],
-    "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
-  },
-  {
-    "id": "react_1598",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q598] Immutability in React state means",
-    "options": [
-      "Data not provided",
-      "Delete state",
-      "Modify in place",
-      "Create new object instead of mutating"
-    ],
-    "answer": 0,
-    "explanation": "React state must be updated immutably."
-  },
-  {
-    "id": "react_1599",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q599] What is the children prop?",
-    "options": [
-      "The above is incorrect",
-      "Component name",
-      "Content between component tags",
-      "State value"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1600",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q600] Batching in React 18",
-    "options": [
-      "Multiple state updates in one render",
-      "Sequential renders",
-      "Single update",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1601",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q601] What is React?",
-    "options": [
-      "Backend framework",
-      "Database ORM",
-      "JavaScript UI library",
-      "CSS framework"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1602",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q602] JSX stands for",
-    "options": [
-      "Insufficient information",
-      "JavaScript Extension",
-      "Java Syntax Extension",
-      "JavaScript XML"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1603",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q603] useState returns",
-    "options": [
-      "Only setter",
-      "Array of objects",
-      "State value and setter",
-      "Only value"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1604",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q604] useEffect is used for",
-    "options": [
-      "Side effects",
-      "State management",
-      "Styling",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1605",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q605] Virtual DOM purpose",
-    "options": [
-      "Real DOM replacement",
-      "Performance optimization",
-      "Option not applicable",
-      "CSS handling"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1606",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q606] Props are",
-    "options": [
-      "Read-only data passed to components",
-      "Component state",
-      "Neither A nor B",
-      "CSS classes"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1607",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q607] State vs Props: State is",
-    "options": [
-      "Global",
-      "Mutable within component",
-      "Immutable",
-      "Passed from parent"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1608",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q608] React key prop purpose",
-    "options": [
-      "Pass data",
-      "Style elements",
-      "Both A and B",
-      "Identify list items"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1609",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q609] What is a higher-order component?",
-    "options": [
-      "Hook",
-      "Component that takes/returns component",
-      "Class component",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1610",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q610] useContext is used for",
-    "options": [
-      "Local state",
-      "None of the above",
-      "Consuming context",
-      "Side effects"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1611",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q611] React.memo does what?",
-    "options": [
-      "Handles effects",
-      "Memoizes component",
-      "Cannot be determined",
-      "Creates context"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1612",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q612] What does ReactDOM.render do?",
-    "options": [
-      "Defines component",
-      "All of the above",
-      "Renders React element to DOM",
-      "Creates state"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1613",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q613] Default export syntax in ES6",
-    "options": [
-      "module.exports",
-      "export { Component }",
-      "export default Component",
-      "export Component"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1614",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q614] What is prop drilling?",
-    "options": [
-      "Context API",
-      "Both B and C",
-      "Passing props through many layers",
-      "Direct prop passing"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1615",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q615] useReducer is used for",
-    "options": [
-      "Side effects",
-      "Insufficient information",
-      "Simple state",
-      "Complex state logic"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1616",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q616] React Router's <Route> does what?",
-    "options": [
-      "Maps path to component",
-      "Handles forms",
-      "All of the above",
-      "Creates links"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1617",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q617] What is lazy loading in React?",
-    "options": [
-      "Eager loading",
-      "Loading components on demand",
-      "Preloading",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1618",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q618] Controlled component means",
-    "options": [
-      "All of the above",
-      "Uncontrolled input",
-      "Form input tied to state",
-      "Class component"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1619",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q619] What is reconciliation?",
-    "options": [
-      "State creation",
-      "The above is incorrect",
-      "Initial render",
-      "React's DOM update process"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1620",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q620] Fragment in React",
-    "options": [
-      "Adds a div",
-      "Option not applicable",
-      "Creates context",
-      "Groups elements without extra DOM node"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1621",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q621] useCallback memoizes",
-    "options": [
-      "Components",
-      "Effects",
-      "Functions",
-      "Values"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1622",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q622] useMemo memoizes",
-    "options": [
-      "Computed values",
-      "Components",
-      "Effects",
-      "Functions"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1623",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q623] What is the StrictMode?",
-    "options": [
-      "Testing tool",
-      "Development helper for warnings",
-      "Production mode",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1624",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q624] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useContext",
-      "useRef",
-      "useEffect with []",
-      "useState"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1625",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q625] useRef is used for",
-    "options": [
-      "Routing",
-      "All of the above",
-      "State management",
-      "Accessing DOM elements"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1626",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q626] What triggers a re-render?",
-    "options": [
-      "CSS change",
-      "State or prop change",
-      "Neither A nor B",
-      "Comment change"
-    ],
-    "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
-  },
-  {
-    "id": "react_1627",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q627] Context API solves",
-    "options": [
-      "Styling",
-      "Data not provided",
-      "Routing",
-      "Prop drilling"
-    ],
-    "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
-  },
-  {
-    "id": "react_1628",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q628] What is a pure component?",
-    "options": [
-      "HOC",
-      "Neither A nor B",
-      "Stateless component",
-      "Renders same output for same props"
-    ],
-    "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
-  },
-  {
-    "id": "react_1629",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q629] Event handling in React uses",
-    "options": [
-      "Native DOM events",
-      "Synthetic events",
-      "The above is incorrect",
-      "Custom events"
-    ],
-    "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
-  },
-  {
-    "id": "react_1630",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q630] What is server-side rendering?",
-    "options": [
-      "Data not provided",
-      "Rendering HTML on server",
-      "Static generation",
-      "Client rendering"
-    ],
-    "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
-  },
-  {
-    "id": "react_1631",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q631] Error boundary catches",
-    "options": [
-      "Word order",
-      "JavaScript errors in components",
-      "Network errors",
-      "CSS errors"
-    ],
-    "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
-  },
-  {
-    "id": "react_1632",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q632] What is Suspense in React?",
-    "options": [
-      "Caches data",
-      "Delays state",
-      "Waits for async components",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
-  },
-  {
-    "id": "react_1633",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q633] Which hook replaces componentWillUnmount?",
-    "options": [
-      "useCallback",
-      "useState",
-      "useEffect cleanup return",
-      "useRef"
-    ],
-    "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
-  },
-  {
-    "id": "react_1634",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q634] Portal in React",
-    "options": [
-      "Renders outside parent DOM",
-      "All of the above",
-      "Creates context",
-      "HOC pattern"
-    ],
-    "answer": 0,
-    "explanation": "Portals render children into different DOM node."
-  },
-  {
-    "id": "react_1635",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q635] What is code splitting?",
-    "options": [
-      "Breaking bundle into chunks",
-      "Minification",
-      "Neither A nor B",
-      "Compression"
-    ],
-    "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
-  },
-  {
-    "id": "react_1636",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q636] Redux is used for",
-    "options": [
-      "Global state management",
-      "Routing",
-      "Styling",
-      "Testing"
-    ],
-    "answer": 0,
-    "explanation": "Redux manages application-wide state."
-  },
-  {
-    "id": "react_1637",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q637] What does useLayoutEffect do?",
-    "options": [
-      "State update",
-      "Fires sync after DOM mutations",
-      "Async effect",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
-  },
-  {
-    "id": "react_1638",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q638] Immutability in React state means",
-    "options": [
-      "None of the above",
-      "Create new object instead of mutating",
-      "Delete state",
-      "Modify in place"
-    ],
-    "answer": 0,
-    "explanation": "React state must be updated immutably."
-  },
-  {
-    "id": "react_1639",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q639] What is the children prop?",
-    "options": [
-      "Content between component tags",
-      "Insufficient information",
-      "Component name",
-      "State value"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1640",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q640] Batching in React 18",
-    "options": [
-      "Sequential renders",
-      "Single update",
-      "Option not applicable",
-      "Multiple state updates in one render"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1641",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q641] What is React?",
-    "options": [
-      "CSS framework",
-      "Database ORM",
-      "JavaScript UI library",
-      "Backend framework"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1642",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q642] JSX stands for",
-    "options": [
-      "JavaScript Extension",
-      "JavaScript XML",
-      "Data not provided",
-      "Java Syntax Extension"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1643",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q643] useState returns",
-    "options": [
-      "Only setter",
-      "Array of objects",
-      "State value and setter",
-      "Only value"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1644",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q644] useEffect is used for",
-    "options": [
-      "Routing",
-      "Styling",
-      "State management",
-      "Side effects"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1645",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q645] Virtual DOM purpose",
-    "options": [
-      "Real DOM replacement",
-      "Both B and C",
-      "CSS handling",
-      "Performance optimization"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1646",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q646] Props are",
-    "options": [
-      "CSS classes",
-      "Read-only data passed to components",
-      "Neither A nor B",
-      "Component state"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1647",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q647] State vs Props: State is",
-    "options": [
-      "Passed from parent",
-      "Global",
-      "Mutable within component",
-      "Immutable"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1648",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q648] React key prop purpose",
-    "options": [
-      "Identify list items",
-      "Pass data",
-      "The above is incorrect",
-      "Style elements"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1649",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q649] What is a higher-order component?",
-    "options": [
-      "Component that takes/returns component",
-      "Hook",
-      "Both A and B",
-      "Class component"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1650",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q650] useContext is used for",
-    "options": [
-      "Local state",
-      "Side effects",
-      "Consuming context",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1651",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q651] React.memo does what?",
-    "options": [
-      "Memoizes component",
-      "Handles effects",
-      "Creates context",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1652",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q652] What does ReactDOM.render do?",
-    "options": [
-      "Cannot be determined",
-      "Creates state",
-      "Defines component",
-      "Renders React element to DOM"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1653",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q653] Default export syntax in ES6",
-    "options": [
-      "export Component",
-      "export default Component",
-      "export { Component }",
-      "module.exports"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1654",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q654] What is prop drilling?",
-    "options": [
-      "Context API",
-      "Passing props through many layers",
-      "Direct prop passing",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1655",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q655] useReducer is used for",
-    "options": [
-      "Simple state",
-      "Complex state logic",
-      "Side effects",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1656",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q656] React Router's <Route> does what?",
-    "options": [
-      "Maps path to component",
-      "Creates links",
-      "Handles forms",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1657",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q657] What is lazy loading in React?",
-    "options": [
-      "Eager loading",
-      "Both B and C",
-      "Preloading",
-      "Loading components on demand"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1658",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q658] Controlled component means",
-    "options": [
-      "Class component",
-      "Form input tied to state",
-      "Option not applicable",
-      "Uncontrolled input"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1659",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q659] What is reconciliation?",
-    "options": [
-      "State creation",
-      "React's DOM update process",
-      "Initial render",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1660",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q660] Fragment in React",
-    "options": [
-      "Cannot be determined",
-      "Adds a div",
-      "Creates context",
-      "Groups elements without extra DOM node"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1661",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q661] useCallback memoizes",
-    "options": [
-      "Functions",
-      "Effects",
-      "Values",
-      "Components"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1662",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q662] useMemo memoizes",
-    "options": [
-      "Functions",
-      "Components",
-      "Computed values",
-      "Effects"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1663",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q663] What is the StrictMode?",
-    "options": [
-      "Testing tool",
-      "Development helper for warnings",
-      "Data not provided",
-      "Production mode"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1664",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q664] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useContext",
-      "useState",
-      "useRef",
-      "useEffect with []"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1665",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q665] useRef is used for",
-    "options": [
-      "Routing",
-      "State management",
-      "Neither A nor B",
-      "Accessing DOM elements"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1666",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q666] What triggers a re-render?",
-    "options": [
-      "State or prop change",
-      "CSS change",
-      "All of the above",
-      "Comment change"
-    ],
-    "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
-  },
-  {
-    "id": "react_1667",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q667] Context API solves",
-    "options": [
-      "Prop drilling",
-      "Neither A nor B",
-      "Styling",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
-  },
-  {
-    "id": "react_1668",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q668] What is a pure component?",
-    "options": [
-      "HOC",
-      "Insufficient information",
-      "Renders same output for same props",
-      "Stateless component"
-    ],
-    "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
-  },
-  {
-    "id": "react_1669",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q669] Event handling in React uses",
-    "options": [
-      "Native DOM events",
-      "The above is incorrect",
-      "Synthetic events",
-      "Custom events"
-    ],
-    "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
-  },
-  {
-    "id": "react_1670",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q670] What is server-side rendering?",
-    "options": [
-      "Cannot be determined",
-      "Client rendering",
-      "Rendering HTML on server",
-      "Static generation"
-    ],
-    "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
-  },
-  {
-    "id": "react_1671",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q671] Error boundary catches",
-    "options": [
-      "CSS errors",
-      "Network errors",
-      "JavaScript errors in components",
-      "Double negative"
-    ],
-    "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
-  },
-  {
-    "id": "react_1672",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q672] What is Suspense in React?",
-    "options": [
-      "Waits for async components",
-      "Both A and B",
-      "Caches data",
-      "Delays state"
-    ],
-    "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
-  },
-  {
-    "id": "react_1673",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q673] Which hook replaces componentWillUnmount?",
-    "options": [
-      "useCallback",
-      "useState",
-      "useRef",
-      "useEffect cleanup return"
-    ],
-    "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
-  },
-  {
-    "id": "react_1674",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q674] Portal in React",
-    "options": [
-      "None of the above",
-      "HOC pattern",
-      "Renders outside parent DOM",
-      "Creates context"
-    ],
-    "answer": 0,
-    "explanation": "Portals render children into different DOM node."
-  },
-  {
-    "id": "react_1675",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q675] What is code splitting?",
-    "options": [
-      "Minification",
-      "Breaking bundle into chunks",
-      "Option not applicable",
-      "Compression"
-    ],
-    "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
-  },
-  {
-    "id": "react_1676",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q676] Redux is used for",
-    "options": [
-      "Testing",
-      "Styling",
-      "Global state management",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "Redux manages application-wide state."
-  },
-  {
-    "id": "react_1677",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q677] What does useLayoutEffect do?",
-    "options": [
-      "Async effect",
-      "State update",
-      "Fires sync after DOM mutations",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
-  },
-  {
-    "id": "react_1678",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q678] Immutability in React state means",
-    "options": [
-      "Delete state",
-      "The above is incorrect",
-      "Create new object instead of mutating",
-      "Modify in place"
-    ],
-    "answer": 0,
-    "explanation": "React state must be updated immutably."
-  },
-  {
-    "id": "react_1679",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q679] What is the children prop?",
-    "options": [
-      "Both A and B",
-      "Content between component tags",
-      "State value",
-      "Component name"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1680",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q680] Batching in React 18",
-    "options": [
-      "Single update",
-      "Sequential renders",
-      "Multiple state updates in one render",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1681",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q681] What is React?",
-    "options": [
-      "Database ORM",
-      "JavaScript UI library",
-      "Backend framework",
-      "CSS framework"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1682",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q682] JSX stands for",
-    "options": [
-      "Java Syntax Extension",
-      "JavaScript Extension",
-      "JavaScript XML",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1683",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q683] useState returns",
-    "options": [
-      "Only setter",
-      "State value and setter",
-      "Only value",
-      "Array of objects"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1684",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q684] useEffect is used for",
-    "options": [
-      "Styling",
-      "Side effects",
-      "State management",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1685",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q685] Virtual DOM purpose",
-    "options": [
-      "Performance optimization",
-      "Both B and C",
-      "Real DOM replacement",
-      "CSS handling"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1686",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q686] Props are",
-    "options": [
-      "Component state",
-      "Insufficient information",
-      "Read-only data passed to components",
-      "CSS classes"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1687",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q687] State vs Props: State is",
-    "options": [
-      "Global",
-      "Immutable",
-      "Passed from parent",
-      "Mutable within component"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1688",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q688] React key prop purpose",
-    "options": [
-      "Data not provided",
-      "Pass data",
-      "Identify list items",
-      "Style elements"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1689",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q689] What is a higher-order component?",
-    "options": [
-      "Component that takes/returns component",
-      "Hook",
-      "Data not provided",
-      "Class component"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1690",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q690] useContext is used for",
-    "options": [
-      "Side effects",
-      "Consuming context",
-      "Both A and B",
-      "Local state"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1691",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q691] React.memo does what?",
-    "options": [
-      "Handles effects",
-      "Memoizes component",
-      "Creates context",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1692",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q692] What does ReactDOM.render do?",
-    "options": [
-      "Renders React element to DOM",
-      "Defines component",
-      "Creates state",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1693",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q693] Default export syntax in ES6",
-    "options": [
-      "module.exports",
-      "export default Component",
-      "export { Component }",
-      "export Component"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1694",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q694] What is prop drilling?",
-    "options": [
-      "Context API",
-      "All of the above",
-      "Direct prop passing",
-      "Passing props through many layers"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1695",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q695] useReducer is used for",
-    "options": [
-      "Neither A nor B",
-      "Simple state",
-      "Complex state logic",
-      "Side effects"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1696",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q696] React Router's <Route> does what?",
-    "options": [
-      "Option not applicable",
-      "Maps path to component",
-      "Creates links",
-      "Handles forms"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1697",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q697] What is lazy loading in React?",
-    "options": [
-      "Eager loading",
-      "Both B and C",
-      "Preloading",
-      "Loading components on demand"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1698",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q698] Controlled component means",
-    "options": [
-      "All of the above",
-      "Class component",
-      "Form input tied to state",
-      "Uncontrolled input"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1699",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q699] What is reconciliation?",
-    "options": [
-      "Initial render",
-      "React's DOM update process",
-      "Cannot be determined",
-      "State creation"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1700",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q700] Fragment in React",
-    "options": [
-      "Adds a div",
-      "Creates context",
-      "Cannot be determined",
-      "Groups elements without extra DOM node"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1701",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q701] useCallback memoizes",
-    "options": [
-      "Components",
-      "Values",
-      "Effects",
-      "Functions"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1702",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q702] useMemo memoizes",
-    "options": [
-      "Functions",
-      "Effects",
-      "Components",
-      "Computed values"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1703",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q703] What is the StrictMode?",
-    "options": [
-      "Neither A nor B",
-      "Production mode",
-      "Testing tool",
-      "Development helper for warnings"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1704",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q704] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useState",
-      "useEffect with []",
-      "useContext",
-      "useRef"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1705",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q705] useRef is used for",
-    "options": [
-      "State management",
-      "All of the above",
-      "Accessing DOM elements",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1706",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q706] What triggers a re-render?",
-    "options": [
-      "Comment change",
-      "State or prop change",
-      "The above is incorrect",
-      "CSS change"
-    ],
-    "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
-  },
-  {
-    "id": "react_1707",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q707] Context API solves",
-    "options": [
-      "All of the above",
-      "Styling",
-      "Prop drilling",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
-  },
-  {
-    "id": "react_1708",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q708] What is a pure component?",
-    "options": [
-      "Both A and B",
-      "HOC",
-      "Renders same output for same props",
-      "Stateless component"
-    ],
-    "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
-  },
-  {
-    "id": "react_1709",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q709] Event handling in React uses",
-    "options": [
-      "Native DOM events",
-      "Synthetic events",
-      "Neither A nor B",
-      "Custom events"
-    ],
-    "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
-  },
-  {
-    "id": "react_1710",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q710] What is server-side rendering?",
-    "options": [
-      "None of the above",
-      "Rendering HTML on server",
-      "Static generation",
-      "Client rendering"
-    ],
-    "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
-  },
-  {
-    "id": "react_1711",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q711] Error boundary catches",
-    "options": [
-      "JavaScript errors in components",
-      "CSS errors",
-      "Conjunction error",
-      "Network errors"
-    ],
-    "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
-  },
-  {
-    "id": "react_1712",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q712] What is Suspense in React?",
-    "options": [
-      "Delays state",
-      "Waits for async components",
-      "Caches data",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
-  },
-  {
-    "id": "react_1713",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q713] Which hook replaces componentWillUnmount?",
-    "options": [
-      "useState",
-      "useEffect cleanup return",
-      "useCallback",
-      "useRef"
-    ],
-    "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
-  },
-  {
-    "id": "react_1714",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q714] Portal in React",
-    "options": [
-      "Renders outside parent DOM",
-      "Data not provided",
-      "HOC pattern",
-      "Creates context"
-    ],
-    "answer": 0,
-    "explanation": "Portals render children into different DOM node."
-  },
-  {
-    "id": "react_1715",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q715] What is code splitting?",
-    "options": [
-      "Breaking bundle into chunks",
-      "Option not applicable",
-      "Minification",
-      "Compression"
-    ],
-    "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
-  },
-  {
-    "id": "react_1716",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q716] Redux is used for",
-    "options": [
-      "Routing",
-      "Styling",
-      "Testing",
-      "Global state management"
-    ],
-    "answer": 0,
-    "explanation": "Redux manages application-wide state."
-  },
-  {
-    "id": "react_1717",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q717] What does useLayoutEffect do?",
-    "options": [
-      "State update",
-      "Async effect",
-      "Data not provided",
-      "Fires sync after DOM mutations"
-    ],
-    "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
-  },
-  {
-    "id": "react_1718",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q718] Immutability in React state means",
-    "options": [
-      "Create new object instead of mutating",
-      "Delete state",
-      "Modify in place",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "React state must be updated immutably."
-  },
-  {
-    "id": "react_1719",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q719] What is the children prop?",
-    "options": [
-      "Component name",
-      "Content between component tags",
-      "None of the above",
-      "State value"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1720",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q720] Batching in React 18",
-    "options": [
-      "Single update",
-      "Sequential renders",
-      "Multiple state updates in one render",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1721",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q721] What is React?",
-    "options": [
-      "CSS framework",
-      "Backend framework",
-      "JavaScript UI library",
-      "Database ORM"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1722",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q722] JSX stands for",
-    "options": [
-      "JavaScript Extension",
-      "JavaScript XML",
-      "Both B and C",
-      "Java Syntax Extension"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1723",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q723] useState returns",
-    "options": [
-      "Only value",
-      "Only setter",
-      "Array of objects",
-      "State value and setter"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1724",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q724] useEffect is used for",
-    "options": [
-      "Routing",
-      "Side effects",
-      "State management",
-      "Styling"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1725",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q725] Virtual DOM purpose",
-    "options": [
-      "CSS handling",
-      "Real DOM replacement",
-      "Performance optimization",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1726",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q726] Props are",
-    "options": [
-      "Read-only data passed to components",
-      "CSS classes",
-      "Component state",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1727",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q727] State vs Props: State is",
-    "options": [
-      "Mutable within component",
-      "Passed from parent",
-      "Immutable",
-      "Global"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1728",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q728] React key prop purpose",
-    "options": [
-      "Style elements",
-      "Identify list items",
-      "Data not provided",
-      "Pass data"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1729",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q729] What is a higher-order component?",
-    "options": [
-      "Neither A nor B",
-      "Hook",
-      "Class component",
-      "Component that takes/returns component"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1730",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q730] useContext is used for",
-    "options": [
-      "Side effects",
-      "Local state",
-      "Consuming context",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1731",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q731] React.memo does what?",
-    "options": [
-      "Creates context",
-      "Neither A nor B",
-      "Handles effects",
-      "Memoizes component"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1732",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q732] What does ReactDOM.render do?",
-    "options": [
-      "Defines component",
-      "All of the above",
-      "Renders React element to DOM",
-      "Creates state"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1733",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q733] Default export syntax in ES6",
-    "options": [
-      "export Component",
-      "export default Component",
-      "export { Component }",
-      "module.exports"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1734",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q734] What is prop drilling?",
-    "options": [
-      "Context API",
-      "None of the above",
-      "Passing props through many layers",
-      "Direct prop passing"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1735",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q735] useReducer is used for",
-    "options": [
-      "Complex state logic",
-      "None of the above",
-      "Simple state",
-      "Side effects"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1736",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q736] React Router's <Route> does what?",
-    "options": [
-      "Maps path to component",
-      "Creates links",
-      "Cannot be determined",
-      "Handles forms"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1737",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q737] What is lazy loading in React?",
-    "options": [
-      "Both A and B",
-      "Loading components on demand",
-      "Preloading",
-      "Eager loading"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1738",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q738] Controlled component means",
-    "options": [
-      "Uncontrolled input",
-      "Form input tied to state",
-      "Class component",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1739",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q739] What is reconciliation?",
-    "options": [
-      "React's DOM update process",
-      "State creation",
-      "Both B and C",
-      "Initial render"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1740",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q740] Fragment in React",
-    "options": [
-      "Creates context",
-      "None of the above",
-      "Adds a div",
-      "Groups elements without extra DOM node"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1741",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q741] useCallback memoizes",
-    "options": [
-      "Values",
-      "Effects",
-      "Components",
-      "Functions"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1742",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q742] useMemo memoizes",
-    "options": [
-      "Computed values",
-      "Functions",
-      "Effects",
-      "Components"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1743",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q743] What is the StrictMode?",
-    "options": [
-      "Production mode",
-      "Development helper for warnings",
-      "Testing tool",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1744",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q744] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useContext",
-      "useEffect with []",
       "useRef",
       "useState"
     ],
     "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
+    "explanation": "The correct answer is useMemo for the context value object in Provider."
   },
   {
-    "id": "react_1745",
+    "id": "REACT_HOOK_061",
     "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q745] useRef is used for",
+    "question": "What is a hook that returns both state and ref?",
     "options": [
-      "State management",
-      "Routing",
-      "Accessing DOM elements",
-      "The above is incorrect"
+      "Custom hook syncing a ref to current state value for stale closure fix",
+      "Built-in hook",
+      "Standard pattern",
+      "useStateRef"
     ],
     "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
+    "explanation": "The correct answer is Custom hook syncing a ref to current state value for stale closure fix."
   },
   {
-    "id": "react_1746",
+    "id": "REACT_HOOK_062",
     "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q746] What triggers a re-render?",
+    "question": "What is the problem with using a function as default state?",
     "options": [
-      "Comment change",
-      "Neither A nor B",
-      "State or prop change",
-      "CSS change"
+      "Function is called on every render without lazy init — use () => fn()",
+      "Not a problem",
+      "Cached automatically",
+      "Called once"
     ],
     "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
+    "explanation": "The correct answer is Function is called on every render without lazy init — use () => fn()."
   },
   {
-    "id": "react_1747",
+    "id": "REACT_HOOK_063",
     "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q747] Context API solves",
+    "question": "What is the use hook for context?",
     "options": [
-      "Prop drilling",
-      "Routing",
-      "Both A and B",
-      "Styling"
+      "use(MyContext) — reads context, can be conditional (React 19)",
+      "useContext",
+      "React.useContext",
+      "ContextReader"
     ],
     "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
+    "explanation": "The correct answer is use(MyContext) — reads context, can be conditional (React 19)."
   },
   {
-    "id": "react_1748",
+    "id": "REACT_HOOK_064",
     "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q748] What is a pure component?",
+    "question": "What is the use hook for promises?",
     "options": [
-      "The above is incorrect",
-      "HOC",
-      "Stateless component",
-      "Renders same output for same props"
+      "use(promise) — suspends component until promise resolves (React 19)",
+      "usePromise",
+      "useSuspense",
+      "Suspense component"
     ],
     "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
+    "explanation": "The correct answer is use(promise) — suspends component until promise resolves (React 19)."
   },
   {
-    "id": "react_1749",
+    "id": "REACT_HOOK_065",
     "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q749] Event handling in React uses",
+    "question": "What is cache() in React 19?",
     "options": [
-      "Native DOM events",
-      "Synthetic events",
-      "Custom events",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
-  },
-  {
-    "id": "react_1750",
-    "topic": "React Engineer",
-    "section": "Advanced Patterns",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q750] What is server-side rendering?",
-    "options": [
-      "Static generation",
-      "Client rendering",
-      "Rendering HTML on server",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
-  },
-  {
-    "id": "react_1751",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q751] Error boundary catches",
-    "options": [
-      "JavaScript errors in components",
-      "Punctuation error",
-      "CSS errors",
-      "Network errors"
-    ],
-    "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
-  },
-  {
-    "id": "react_1752",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q752] What is Suspense in React?",
-    "options": [
-      "The above is incorrect",
-      "Caches data",
-      "Delays state",
-      "Waits for async components"
-    ],
-    "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
-  },
-  {
-    "id": "react_1753",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q753] Which hook replaces componentWillUnmount?",
-    "options": [
-      "useCallback",
-      "useRef",
-      "useEffect cleanup return",
-      "useState"
-    ],
-    "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
-  },
-  {
-    "id": "react_1754",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q754] Portal in React",
-    "options": [
-      "Both A and B",
-      "Creates context",
-      "Renders outside parent DOM",
-      "HOC pattern"
-    ],
-    "answer": 0,
-    "explanation": "Portals render children into different DOM node."
-  },
-  {
-    "id": "react_1755",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q755] What is code splitting?",
-    "options": [
-      "Compression",
-      "Cannot be determined",
-      "Minification",
-      "Breaking bundle into chunks"
-    ],
-    "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
-  },
-  {
-    "id": "react_1756",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q756] Redux is used for",
-    "options": [
-      "Routing",
-      "Global state management",
-      "Styling",
-      "Testing"
-    ],
-    "answer": 0,
-    "explanation": "Redux manages application-wide state."
-  },
-  {
-    "id": "react_1757",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q757] What does useLayoutEffect do?",
-    "options": [
-      "State update",
-      "Async effect",
-      "Both A and B",
-      "Fires sync after DOM mutations"
-    ],
-    "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
-  },
-  {
-    "id": "react_1758",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q758] Immutability in React state means",
-    "options": [
-      "Modify in place",
-      "Create new object instead of mutating",
-      "Neither A nor B",
-      "Delete state"
-    ],
-    "answer": 0,
-    "explanation": "React state must be updated immutably."
-  },
-  {
-    "id": "react_1759",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q759] What is the children prop?",
-    "options": [
-      "State value",
-      "Content between component tags",
-      "Both A and B",
-      "Component name"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1760",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q760] Batching in React 18",
-    "options": [
-      "Sequential renders",
-      "Option not applicable",
-      "Single update",
-      "Multiple state updates in one render"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1761",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q761] What is React?",
-    "options": [
-      "Database ORM",
-      "Backend framework",
-      "JavaScript UI library",
-      "CSS framework"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1762",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q762] JSX stands for",
-    "options": [
-      "JavaScript XML",
-      "Java Syntax Extension",
-      "Option not applicable",
-      "JavaScript Extension"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1763",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q763] useState returns",
-    "options": [
-      "State value and setter",
-      "Only setter",
-      "Only value",
-      "Array of objects"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1764",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q764] useEffect is used for",
-    "options": [
-      "Side effects",
-      "Styling",
-      "Routing",
-      "State management"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1765",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q765] Virtual DOM purpose",
-    "options": [
-      "CSS handling",
-      "Real DOM replacement",
-      "Both B and C",
-      "Performance optimization"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1766",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q766] Props are",
-    "options": [
-      "Component state",
-      "Read-only data passed to components",
-      "Both B and C",
-      "CSS classes"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1767",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q767] State vs Props: State is",
-    "options": [
-      "Global",
-      "Passed from parent",
-      "Mutable within component",
-      "Immutable"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1768",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q768] React key prop purpose",
-    "options": [
-      "None of the above",
-      "Style elements",
-      "Identify list items",
-      "Pass data"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1769",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q769] What is a higher-order component?",
-    "options": [
-      "Cannot be determined",
-      "Hook",
-      "Component that takes/returns component",
-      "Class component"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1770",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q770] useContext is used for",
-    "options": [
-      "Local state",
-      "Side effects",
-      "All of the above",
-      "Consuming context"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1771",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q771] React.memo does what?",
-    "options": [
-      "Both B and C",
-      "Handles effects",
-      "Memoizes component",
-      "Creates context"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1772",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q772] What does ReactDOM.render do?",
-    "options": [
-      "Creates state",
-      "Defines component",
-      "Renders React element to DOM",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1773",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q773] Default export syntax in ES6",
-    "options": [
-      "export { Component }",
-      "module.exports",
-      "export default Component",
-      "export Component"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1774",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q774] What is prop drilling?",
-    "options": [
-      "The above is incorrect",
-      "Passing props through many layers",
-      "Context API",
-      "Direct prop passing"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1775",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q775] useReducer is used for",
-    "options": [
-      "Simple state",
-      "Side effects",
-      "Data not provided",
-      "Complex state logic"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1776",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q776] React Router's <Route> does what?",
-    "options": [
-      "Maps path to component",
-      "Handles forms",
-      "Creates links",
-      "The above is incorrect"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1777",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q777] What is lazy loading in React?",
-    "options": [
-      "Loading components on demand",
-      "Eager loading",
-      "Neither A nor B",
-      "Preloading"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1778",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q778] Controlled component means",
-    "options": [
-      "Class component",
-      "Both A and B",
-      "Uncontrolled input",
-      "Form input tied to state"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1779",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q779] What is reconciliation?",
-    "options": [
-      "Initial render",
-      "None of the above",
-      "State creation",
-      "React's DOM update process"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1780",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q780] Fragment in React",
-    "options": [
-      "Option not applicable",
-      "Adds a div",
-      "Groups elements without extra DOM node",
-      "Creates context"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1781",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q781] useCallback memoizes",
-    "options": [
-      "Values",
-      "Functions",
-      "Effects",
-      "Components"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1782",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q782] useMemo memoizes",
-    "options": [
-      "Functions",
-      "Components",
-      "Computed values",
-      "Effects"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1783",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q783] What is the StrictMode?",
-    "options": [
-      "None of the above",
-      "Testing tool",
-      "Development helper for warnings",
-      "Production mode"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1784",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q784] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useRef",
-      "useEffect with []",
-      "useState",
-      "useContext"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1785",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q785] useRef is used for",
-    "options": [
-      "State management",
-      "Accessing DOM elements",
-      "Routing",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1786",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q786] What triggers a re-render?",
-    "options": [
-      "None of the above",
-      "CSS change",
-      "Comment change",
-      "State or prop change"
-    ],
-    "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
-  },
-  {
-    "id": "react_1787",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q787] Context API solves",
-    "options": [
-      "Prop drilling",
-      "Insufficient information",
-      "Styling",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
-  },
-  {
-    "id": "react_1788",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q788] What is a pure component?",
-    "options": [
-      "Neither A nor B",
-      "HOC",
-      "Renders same output for same props",
-      "Stateless component"
-    ],
-    "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
-  },
-  {
-    "id": "react_1789",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q789] Event handling in React uses",
-    "options": [
-      "The above is incorrect",
-      "Custom events",
-      "Native DOM events",
-      "Synthetic events"
-    ],
-    "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
-  },
-  {
-    "id": "react_1790",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q790] What is server-side rendering?",
-    "options": [
-      "Client rendering",
-      "Cannot be determined",
-      "Rendering HTML on server",
-      "Static generation"
-    ],
-    "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
-  },
-  {
-    "id": "react_1791",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q791] Error boundary catches",
-    "options": [
-      "CSS errors",
-      "JavaScript errors in components",
-      "None of the above",
-      "Network errors"
-    ],
-    "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
-  },
-  {
-    "id": "react_1792",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q792] What is Suspense in React?",
-    "options": [
-      "Waits for async components",
-      "Delays state",
-      "Neither A nor B",
-      "Caches data"
-    ],
-    "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
-  },
-  {
-    "id": "react_1793",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q793] Which hook replaces componentWillUnmount?",
-    "options": [
-      "useEffect cleanup return",
-      "useState",
+      "Memoizes function results across renders (server component caching)",
+      "useMemo",
       "useCallback",
       "useRef"
     ],
     "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
+    "explanation": "The correct answer is Memoizes function results across renders (server component caching)."
   },
   {
-    "id": "react_1794",
+    "id": "REACT_HOOK_066",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of react-query's queryClient?",
+    "options": [
+      "Central store for all query caches — shared across app via QueryClientProvider",
+      "Context provider",
+      "Redux store",
+      "State manager"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Central store for all query caches — shared across app via QueryClientProvider."
+  },
+  {
+    "id": "REACT_HOOK_067",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is useQueryClient hook?",
+    "options": [
+      "Access queryClient instance to imperatively fetch, invalidate, or update cache",
+      "Store access",
+      "Context access",
+      "Reducer access"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Access queryClient instance to imperatively fetch, invalidate, or update cache."
+  },
+  {
+    "id": "REACT_HOOK_068",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is prefetchQuery?",
+    "options": [
+      "Loads query data before it's needed for instant display on navigation",
+      "Background fetch",
+      "Eager fetch",
+      "Parallel fetch"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Loads query data before it's needed for instant display on navigation."
+  },
+  {
+    "id": "REACT_HOOK_069",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the difference between useQuery and useSuspenseQuery?",
+    "options": [
+      "useSuspenseQuery integrates with Suspense boundary for loading state",
+      "Same hook",
+      "useSuspenseQuery is older",
+      "useQuery is async"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is useSuspenseQuery integrates with Suspense boundary for loading state."
+  },
+  {
+    "id": "REACT_HOOK_070",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the window focus refetch in React Query?",
+    "options": [
+      "Refetches stale queries when window/tab regains focus",
+      "Not a feature",
+      "Optional feature",
+      "Always on"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Refetches stale queries when window/tab regains focus."
+  },
+  {
+    "id": "REACT_HOOK_071",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the network reconnect refetch?",
+    "options": [
+      "Refetches offline queries when network connection restores",
+      "Not a feature",
+      "Optional feature",
+      "Always off"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Refetches offline queries when network connection restores."
+  },
+  {
+    "id": "REACT_HOOK_072",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is staleTime: Infinity in React Query?",
+    "options": [
+      "Data is never considered stale — cached forever until explicitly invalidated",
+      "Error config",
+      "Default config",
+      "Deprecated config"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Data is never considered stale — cached forever until explicitly invalidated."
+  },
+  {
+    "id": "REACT_HOOK_073",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is gcTime (garbage collect time) in React Query?",
+    "options": [
+      "Time unused cache entries are kept before being removed",
+      "staleTime",
+      "fetchTime",
+      "cacheTime"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Time unused cache entries are kept before being removed."
+  },
+  {
+    "id": "REACT_HOOK_074",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the useIsFetching hook?",
+    "options": [
+      "Returns number of queries currently fetching (global loading indicator)",
+      "Shows errors",
+      "Shows stale count",
+      "Shows cached count"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Returns number of queries currently fetching (global loading indicator)."
+  },
+  {
+    "id": "REACT_HOOK_075",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the useIsMutating hook?",
+    "options": [
+      "Returns number of mutations currently running",
+      "Shows errors",
+      "Shows cached",
+      "Shows pending"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Returns number of mutations currently running."
+  },
+  {
+    "id": "REACT_HOOK_076",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the onSettled callback?",
+    "options": [
+      "Called after mutation succeeds or fails (cleanup regardless of outcome)",
+      "Success only",
+      "Error only",
+      "Loading callback"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Called after mutation succeeds or fails (cleanup regardless of outcome)."
+  },
+  {
+    "id": "REACT_HOOK_077",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is suspense mode in React Query?",
+    "options": [
+      "Integrates with Suspense for loading state instead of isLoading flag",
+      "Error mode",
+      "Debug mode",
+      "Test mode"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Integrates with Suspense for loading state instead of isLoading flag."
+  },
+  {
+    "id": "REACT_HOOK_078",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the select option for transforming data?",
+    "options": [
+      "Transforms/derives data from cache without storing transformed version",
+      "Filter option",
+      "Sort option",
+      "Group option"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Transforms/derives data from cache without storing transformed version."
+  },
+  {
+    "id": "REACT_HOOK_079",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the placeholderData option?",
+    "options": [
+      "Shows data while fetching without treating it as real cached data",
+      "initialData",
+      "defaultData",
+      "emptyData"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows data while fetching without treating it as real cached data."
+  },
+  {
+    "id": "REACT_HOOK_080",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the notifyOnChangeProps option?",
+    "options": [
+      "Limits which prop changes trigger re-render (e.g., only 'data')",
+      "Required option",
+      "Performance option",
+      "Default option"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Limits which prop changes trigger re-render (e.g., only 'data')."
+  },
+  {
+    "id": "REACT_HOOK_081",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the keepPreviousData option?",
+    "options": [
+      "Shows old data while new query loads (good for pagination)",
+      "Discards old data",
+      "Clears on fetch",
+      "Merges data"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Shows old data while new query loads (good for pagination)."
+  },
+  {
+    "id": "REACT_STAT_052",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is zustand's subscribe method?",
+    "options": [
+      "Subscribes to store changes outside React components",
+      "Component hook",
+      "Effect hook",
+      "Context hook"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Subscribes to store changes outside React components."
+  },
+  {
+    "id": "REACT_STAT_053",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is zustand's getState method?",
+    "options": [
+      "Reads current state outside React component (non-reactive)",
+      "Reactive read",
+      "Context read",
+      "Prop read"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reads current state outside React component (non-reactive)."
+  },
+  {
+    "id": "REACT_STAT_054",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is zustand's setState equivalent?",
+    "options": [
+      "The set function: store.setState({key: value}) or set(fn)",
+      "dispatch",
+      "mutate",
+      "update"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is The set function: store.setState({key: value}) or set(fn)."
+  },
+  {
+    "id": "REACT_STAT_055",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the shallow helper in zustand?",
+    "options": [
+      "Equality function for useStore to prevent re-render on structural equality",
+      "Deep equal",
+      "Reference equal",
+      "Custom equal"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Equality function for useStore to prevent re-render on structural equality."
+  },
+  {
+    "id": "REACT_STAT_056",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a slice pattern in zustand?",
+    "options": [
+      "Split large store into smaller slice creators combined with spread",
+      "Context slice",
+      "Redux slice",
+      "RTK slice"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Split large store into smaller slice creators combined with spread."
+  },
+  {
+    "id": "REACT_STAT_057",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is zustand's devtools middleware?",
+    "options": [
+      "Connects store to Redux DevTools for inspection and time-travel",
+      "Optional tool",
+      "Required tool",
+      "Performance tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Connects store to Redux DevTools for inspection and time-travel."
+  },
+  {
+    "id": "REACT_STAT_058",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is zustand's persist middleware?",
+    "options": [
+      "Automatically persists store to localStorage/sessionStorage",
+      "Optional middleware",
+      "Required middleware",
+      "Security middleware"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automatically persists store to localStorage/sessionStorage."
+  },
+  {
+    "id": "REACT_STAT_059",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the immer middleware in zustand?",
+    "options": [
+      "Allows writing mutating draft updates in zustand actions",
+      "Required",
+      "Optional",
+      "Default"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Allows writing mutating draft updates in zustand actions."
+  },
+  {
+    "id": "REACT_STAT_060",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Jotai's atomWithStorage?",
+    "options": [
+      "Atom that persists its value in localStorage/sessionStorage",
+      "Standard atom",
+      "Derived atom",
+      "Async atom"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Atom that persists its value in localStorage/sessionStorage."
+  },
+  {
+    "id": "REACT_STAT_061",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Jotai's atomWithReset?",
+    "options": [
+      "Atom that can be reset to initial value via useResetAtom hook",
+      "Standard atom",
+      "Derived atom",
+      "Computed atom"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Atom that can be reset to initial value via useResetAtom hook."
+  },
+  {
+    "id": "REACT_STAT_062",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Jotai's atomWithReducer?",
+    "options": [
+      "Atom with reducer function for complex state transitions",
+      "Standard atom",
+      "Async atom",
+      "Computed atom"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Atom with reducer function for complex state transitions."
+  },
+  {
+    "id": "REACT_STAT_063",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Jotai's useAtomValue?",
+    "options": [
+      "Read-only atom hook (no setter returned)",
+      "useAtom",
+      "useSetAtom",
+      "useAtomState"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Read-only atom hook (no setter returned)."
+  },
+  {
+    "id": "REACT_STAT_064",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Jotai's useSetAtom?",
+    "options": [
+      "Write-only atom hook (no value returned) — avoids re-render on read",
+      "useAtom",
+      "useAtomValue",
+      "setAtom"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Write-only atom hook (no value returned) — avoids re-render on read."
+  },
+  {
+    "id": "REACT_STAT_065",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Jotai's atomFamily cleanup?",
+    "options": [
+      "Remove atoms from family to prevent memory leaks",
+      "Auto-cleanup",
+      "Never needed",
+      "Optional"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Remove atoms from family to prevent memory leaks."
+  },
+  {
+    "id": "REACT_STAT_066",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the selectAtom in Jotai?",
+    "options": [
+      "Derive a read-only atom from another atom with a selector function",
+      "Standard atom",
+      "Derived atom",
+      "Computed atom"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Derive a read-only atom from another atom with a selector function."
+  },
+  {
+    "id": "REACT_STAT_067",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is splitAtom in Jotai?",
+    "options": [
+      "Split array atom into individual atoms for each element",
+      "Merge atoms",
+      "Group atoms",
+      "Filter atoms"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Split array atom into individual atoms for each element."
+  },
+  {
+    "id": "REACT_STAT_068",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is atomWithObservable in Jotai?",
+    "options": [
+      "Creates atom from RxJS observable for reactive streams",
+      "Standard atom",
+      "Async atom",
+      "Stream atom"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates atom from RxJS observable for reactive streams."
+  },
+  {
+    "id": "REACT_STAT_069",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is focusAtom in jotai-optics?",
+    "options": [
+      "Creates lens-focused atom for accessing nested state properties",
+      "Standard atom",
+      "Derived atom",
+      "Filter atom"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates lens-focused atom for accessing nested state properties."
+  },
+  {
+    "id": "REACT_STAT_070",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Redux Toolkit's createListenerMiddleware?",
+    "options": [
+      "Lightweight alternative to redux-saga for event-driven side effects",
+      "Thunk middleware",
+      "Saga middleware",
+      "Observable middleware"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Lightweight alternative to redux-saga for event-driven side effects."
+  },
+  {
+    "id": "REACT_STAT_071",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is startListening in createListenerMiddleware?",
+    "options": [
+      "Registers a listener to react to specific actions",
+      "stopListening",
+      "addListener",
+      "subscribe"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Registers a listener to react to specific actions."
+  },
+  {
+    "id": "REACT_STAT_072",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the takeLatest effect in createListenerMiddleware?",
+    "options": [
+      "Cancels previous listener run when same action fires again",
+      "takeEvery",
+      "takeFirst",
+      "takeLeading"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cancels previous listener run when same action fires again."
+  },
+  {
+    "id": "REACT_STAT_073",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is RTK's createDynamicMiddleware?",
+    "options": [
+      "Add middleware to store after initialization (for code splitting)",
+      "Static middleware",
+      "Required middleware",
+      "Plugin middleware"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Add middleware to store after initialization (for code splitting)."
+  },
+  {
+    "id": "REACT_STAT_074",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the asyncThunkCreator pattern?",
+    "options": [
+      "Create thunks with consistent error handling and loading states",
+      "Standard thunk",
+      "Simple thunk",
+      "Manual thunk"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Create thunks with consistent error handling and loading states."
+  },
+  {
+    "id": "REACT_STAT_075",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the createAppAsyncThunk?",
+    "options": [
+      "Typed version of createAsyncThunk with app's RootState and AppDispatch",
+      "Standard version",
+      "Same thing",
+      "Alternative"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Typed version of createAsyncThunk with app's RootState and AppDispatch."
+  },
+  {
+    "id": "REACT_STAT_076",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Redux Toolkit's combineSlices?",
+    "options": [
+      "Lazily combines slices — adds them as they're imported (code splitting)",
+      "combineReducers",
+      "Dynamic slices",
+      "Lazy reducers"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Lazily combines slices — adds them as they're imported (code splitting)."
+  },
+  {
+    "id": "REACT_STAT_077",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the injectInto method on slices?",
+    "options": [
+      "Injects slice into a combined reducer at runtime",
+      "Static injection",
+      "Build injection",
+      "Compile injection"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Injects slice into a combined reducer at runtime."
+  },
+  {
+    "id": "REACT_STAT_078",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of selector memoization?",
+    "options": [
+      "Avoid recomputing derived state when inputs haven't changed",
+      "Required feature",
+      "Performance feature",
+      "Security feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Avoid recomputing derived state when inputs haven't changed."
+  },
+  {
+    "id": "REACT_STAT_079",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the defaultMemoize in reselect?",
+    "options": [
+      "Caches only last result (size 1) — may re-compute on rotation",
+      "Multi-size cache",
+      "WeakMap cache",
+      "Unlimited cache"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Caches only last result (size 1) — may re-compute on rotation."
+  },
+  {
+    "id": "REACT_STAT_080",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is unstable_serialize in TanStack Query?",
+    "options": [
+      "Deterministic query key serialization for consistent cache keys",
+      "Standard serialize",
+      "JSON.stringify",
+      "Custom serialize"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Deterministic query key serialization for consistent cache keys."
+  },
+  {
+    "id": "REACT_STAT_081",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the queryOptions helper in TanStack Query v5?",
+    "options": [
+      "Type-safe helper for defining shared query configurations",
+      "Required helper",
+      "Optional helper",
+      "Performance helper"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Type-safe helper for defining shared query configurations."
+  },
+  {
+    "id": "REACT_JSX_052",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the output of rendering undefined in JSX?",
+    "options": [
+      "Renders nothing (undefined is not rendered)",
+      "Error thrown",
+      "String 'undefined'",
+      "null rendered"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Renders nothing (undefined is not rendered)."
+  },
+  {
+    "id": "REACT_JSX_053",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the output of rendering false in JSX?",
+    "options": [
+      "Renders nothing (false is a falsy value that React skips)",
+      "Error thrown",
+      "String 'false'",
+      "null rendered"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Renders nothing (false is a falsy value that React skips)."
+  },
+  {
+    "id": "REACT_JSX_054",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the output of rendering an empty string in JSX?",
+    "options": [
+      "Renders an empty text node (empty string is rendered unlike false)",
+      "Renders nothing",
+      "Error thrown",
+      "Undefined rendered"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Renders an empty text node (empty string is rendered unlike false)."
+  },
+  {
+    "id": "REACT_JSX_055",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the output of rendering 0 in JSX?",
+    "options": [
+      "Renders the number 0 (0 is rendered unlike false/null/undefined)",
+      "Renders nothing",
+      "Error thrown",
+      "String '0'"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Renders the number 0 (0 is rendered unlike false/null/undefined)."
+  },
+  {
+    "id": "REACT_JSX_056",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the correct fix for the 0 rendering issue?",
+    "options": [
+      "Convert to boolean: {count > 0 && <Comp />} or {!!count && <Comp />}",
+      "Use null coalescing",
+      "Use ternary always",
+      "No fix needed"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Convert to boolean: {count > 0 && <Comp />} or {!!count && <Comp />}."
+  },
+  {
+    "id": "REACT_JSX_057",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is JSX's handling of object rendering?",
+    "options": [
+      "Throws error: 'Objects are not valid as a React child'",
+      "Renders object keys",
+      "Renders JSON",
+      "Renders nothing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Throws error: 'Objects are not valid as a React child'."
+  },
+  {
+    "id": "REACT_JSX_058",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the toString trick for objects in JSX?",
+    "options": [
+      "Call .toString() or JSON.stringify() to convert to string for display",
+      "Automatic conversion",
+      "Spread operator",
+      "Template literal"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Call .toString() or JSON.stringify() to convert to string for display."
+  },
+  {
+    "id": "REACT_JSX_059",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of React.isValidElement?",
+    "options": [
+      "Checks if a value is a valid React element before rendering",
+      "Validates JSX",
+      "Checks DOM",
+      "Validates props"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Checks if a value is a valid React element before rendering."
+  },
+  {
+    "id": "REACT_JSX_060",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the children as function pattern?",
+    "options": [
+      "Render prop: <Component>{(data) => <div>{data}</div>}</Component>",
+      "Required children",
+      "String children",
+      "Element children"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Render prop: <Component>{(data) => <div>{data}</div>}</Component>."
+  },
+  {
+    "id": "REACT_JSX_061",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is React.Children.forEach?",
+    "options": [
+      "Iterates children without creating new array (no return value)",
+      "Creates array",
+      "Returns children",
+      "Maps children"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Iterates children without creating new array (no return value)."
+  },
+  {
+    "id": "REACT_JSX_062",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the cloneElement use case for injecting props?",
+    "options": [
+      "Parent injects additional props into children: React.cloneElement(child, extraProps)",
+      "Modifying DOM",
+      "Cloning to DOM",
+      "Rendering DOM"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Parent injects additional props into children: React.cloneElement(child, extraProps)."
+  },
+  {
+    "id": "REACT_JSX_063",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is forwardRef's render function signature?",
+    "options": [
+      "(props, ref) => JSX — receives both props and forwarded ref",
+      "(ref, props)",
+      "(props)",
+      "(ref)"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is (props, ref) => JSX — receives both props and forwarded ref."
+  },
+  {
+    "id": "REACT_JSX_064",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the ref in forwardRef used for?",
+    "options": [
+      "Attaching to DOM element or passing to child component's forwardRef",
+      "State management",
+      "Effect handling",
+      "Context access"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Attaching to DOM element or passing to child component's forwardRef."
+  },
+  {
+    "id": "REACT_JSX_065",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the constraint on forwardRef?",
+    "options": [
+      "Can only forward one ref — for multiple refs use useImperativeHandle",
+      "Can forward many",
+      "Can forward none",
+      "Optional usage"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Can only forward one ref — for multiple refs use useImperativeHandle."
+  },
+  {
+    "id": "REACT_JSX_066",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the key as identity in component resetting?",
+    "options": [
+      "Same component at same key = preserve state; different key = reset state",
+      "Key is cosmetic",
+      "Key is performance",
+      "Key is required"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Same component at same key = preserve state; different key = reset state."
+  },
+  {
+    "id": "REACT_JSX_067",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of aria-hidden?",
+    "options": [
+      "Hides element from accessibility tree (decorative/redundant elements)",
+      "Hides visually",
+      "Hides from DOM",
+      "Hides from search"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hides element from accessibility tree (decorative/redundant elements)."
+  },
+  {
+    "id": "REACT_JSX_068",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is role=button for non-button elements?",
+    "options": [
+      "Adds button semantics to non-button element (also needs keyboard handlers)",
+      "Optional",
+      "Replaces button",
+      "Styles element"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Adds button semantics to non-button element (also needs keyboard handlers)."
+  },
+  {
+    "id": "REACT_JSX_069",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the tabIndex=-1 use case?",
+    "options": [
+      "Makes element focusable by code but not in tab order",
+      "Removes from tab",
+      "Adds to tab",
+      "Required for focus"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Makes element focusable by code but not in tab order."
+  },
+  {
+    "id": "REACT_JSX_070",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the tabIndex=0 use case?",
+    "options": [
+      "Adds element to natural tab order based on DOM position",
+      "Custom tab order",
+      "Removes from tab",
+      "Required for focus"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Adds element to natural tab order based on DOM position."
+  },
+  {
+    "id": "REACT_JSX_071",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is tabIndex positive number problem?",
+    "options": [
+      "Overrides natural tab order — creates confusing keyboard experience",
+      "Improves navigation",
+      "Required pattern",
+      "Standard practice"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Overrides natural tab order — creates confusing keyboard experience."
+  },
+  {
+    "id": "REACT_JSX_072",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the onBlur event in React?",
+    "options": [
+      "Fires when element loses focus (bubbles unlike native blur)",
+      "Fires on focus",
+      "Doesn't bubble",
+      "Focus equivalent"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Fires when element loses focus (bubbles unlike native blur)."
+  },
+  {
+    "id": "REACT_JSX_073",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is onFocus event bubbling in React?",
+    "options": [
+      "React's onFocus bubbles (unlike native focus event) — use for delegation",
+      "Doesn't bubble",
+      "Only on direct element",
+      "Same as blur"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is React's onFocus bubbles (unlike native focus event) — use for delegation."
+  },
+  {
+    "id": "REACT_JSX_074",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the autoComplete attribute?",
+    "options": [
+      "Hints browser for autofill suggestions ('on', 'off', 'email', etc.)",
+      "Required field",
+      "Validation hint",
+      "Security feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hints browser for autofill suggestions ('on', 'off', 'email', etc.)."
+  },
+  {
+    "id": "REACT_JSX_075",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the inputMode attribute?",
+    "options": [
+      "Hints mobile keyboard type (numeric, email, tel) without changing input type",
+      "Required attribute",
+      "Style attribute",
+      "Accessibility attribute"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hints mobile keyboard type (numeric, email, tel) without changing input type."
+  },
+  {
+    "id": "REACT_JSX_076",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the pattern attribute on input?",
+    "options": [
+      "Regex pattern for native HTML validation",
+      "Style guide",
+      "Required pattern",
+      "Format hint"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Regex pattern for native HTML validation."
+  },
+  {
+    "id": "REACT_JSX_077",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the min/max on number input?",
+    "options": [
+      "Sets minimum and maximum accepted values",
+      "Required validation",
+      "Style constraints",
+      "Formatting only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sets minimum and maximum accepted values."
+  },
+  {
+    "id": "REACT_JSX_078",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the step attribute on number input?",
+    "options": [
+      "Sets increment amount for up/down arrows and validation",
+      "Style",
+      "Min/max",
+      "Pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sets increment amount for up/down arrows and validation."
+  },
+  {
+    "id": "REACT_JSX_079",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the accept attribute on file input?",
+    "options": [
+      "Filters file types in file picker dialog (.jpg, image/*)",
+      "Required validation",
+      "Size limit",
+      "Count limit"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Filters file types in file picker dialog (.jpg, image/*)."
+  },
+  {
+    "id": "REACT_JSX_080",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the multiple attribute on file input?",
+    "options": [
+      "Allows selecting multiple files at once",
+      "Required feature",
+      "Single file only",
+      "Style only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Allows selecting multiple files at once."
+  },
+  {
+    "id": "REACT_JSX_081",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the capture attribute on mobile?",
+    "options": [
+      "Hints to open camera directly: capture='user' or capture='environment'",
+      "Style hint",
+      "Required attribute",
+      "iOS only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hints to open camera directly: capture='user' or capture='environment'."
+  },
+  {
+    "id": "REACT_ROUT_052",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the history stack limit?",
+    "options": [
+      "Browsers typically limit history stack to 50 entries",
+      "100 entries",
+      "Unlimited",
+      "No limit"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Browsers typically limit history stack to 50 entries."
+  },
+  {
+    "id": "REACT_ROUT_053",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the difference between a and Link?",
+    "options": [
+      "<a> triggers full page reload; <Link> uses client-side navigation",
+      "Same",
+      "Link triggers reload",
+      "a uses Router"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is <a> triggers full page reload; <Link> uses client-side navigation."
+  },
+  {
+    "id": "REACT_ROUT_054",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the to prop on Link?",
+    "options": [
+      "Destination path, object, or function for navigation",
+      "href prop",
+      "route prop",
+      "path prop"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Destination path, object, or function for navigation."
+  },
+  {
+    "id": "REACT_ROUT_055",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the state prop on Link?",
+    "options": [
+      "Passes state to next location accessible via useLocation().state",
+      "Required prop",
+      "URL state",
+      "Params state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Passes state to next location accessible via useLocation().state."
+  },
+  {
+    "id": "REACT_ROUT_056",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the replace prop on Link?",
+    "options": [
+      "Replaces current history entry instead of pushing",
+      "Adds to history",
+      "Goes back",
+      "Reloads"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Replaces current history entry instead of pushing."
+  },
+  {
+    "id": "REACT_ROUT_057",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the relative='path' vs relative='route' on Link?",
+    "options": [
+      "path: relative to current URL; route: relative to parent route",
+      "No difference",
+      "path is default",
+      "route is default"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is path: relative to current URL; route: relative to parent route."
+  },
+  {
+    "id": "REACT_ROUT_058",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the unstable_viewTransition on Link?",
+    "options": [
+      "Enables View Transitions API for animated page transitions",
+      "Required prop",
+      "Optional prop",
+      "Performance prop"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Enables View Transitions API for animated page transitions."
+  },
+  {
+    "id": "REACT_ROUT_059",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of RouterProvider vs BrowserRouter?",
+    "options": [
+      "RouterProvider uses data router (loaders/actions); BrowserRouter is simpler",
+      "Same purpose",
+      "RouterProvider is legacy",
+      "BrowserRouter is newer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is RouterProvider uses data router (loaders/actions); BrowserRouter is simpler."
+  },
+  {
+    "id": "REACT_ROUT_060",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the future flag in createBrowserRouter?",
+    "options": [
+      "Opt into future behavior changes before they become default",
+      "Error flags",
+      "Debug flags",
+      "Breaking flags"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Opt into future behavior changes before they become default."
+  },
+  {
+    "id": "REACT_ROUT_061",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the v7_startTransition flag?",
+    "options": [
+      "Wraps state updates in startTransition for smoother navigation",
+      "v6 default",
+      "v7 breaking change",
+      "Optional feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Wraps state updates in startTransition for smoother navigation."
+  },
+  {
+    "id": "REACT_ROUT_062",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the v7_relativeSplatPath flag?",
+    "options": [
+      "Changes how relative paths work inside splat routes",
+      "v6 behavior",
+      "v7 breaking change",
+      "Performance flag"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Changes how relative paths work inside splat routes."
+  },
+  {
+    "id": "REACT_ROUT_063",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is HydrateFallback in React Router?",
+    "options": [
+      "Component shown while waiting for data during initial hydration",
+      "Error fallback",
+      "Loading fallback",
+      "Empty fallback"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Component shown while waiting for data during initial hydration."
+  },
+  {
+    "id": "REACT_ROUT_064",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the clientLoader in Remix/React Router?",
+    "options": [
+      "Runs in browser instead of server for client-side data fetching",
+      "Server loader",
+      "Shared loader",
+      "SSR loader"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Runs in browser instead of server for client-side data fetching."
+  },
+  {
+    "id": "REACT_ROUT_065",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the clientAction in Remix?",
+    "options": [
+      "Form action running in browser instead of server",
+      "Server action",
+      "Shared action",
+      "SSR action"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Form action running in browser instead of server."
+  },
+  {
+    "id": "REACT_ROUT_066",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is resource route in Remix?",
+    "options": [
+      "Route without UI component — serves JSON, files, or API responses",
+      "UI route",
+      "Layout route",
+      "Index route"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Route without UI component — serves JSON, files, or API responses."
+  },
+  {
+    "id": "REACT_ROUT_067",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Remix's useFetcher().load?",
+    "options": [
+      "Loads data from a route's loader without navigating",
+      "Submits form",
+      "Navigates to route",
+      "Fetches all"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Loads data from a route's loader without navigating."
+  },
+  {
+    "id": "REACT_ROUT_068",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the optimistic UI with useFetcher?",
+    "options": [
+      "Show expected result while fetcher is in submitting state",
+      "Pessimistic UI",
+      "Loading UI",
+      "Error UI"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Show expected result while fetcher is in submitting state."
+  },
+  {
+    "id": "REACT_ROUT_069",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of shouldRevalidate returning false?",
+    "options": [
+      "Skip loader rerun after navigation when data hasn't changed",
+      "Force rerun",
+      "Always rerun",
+      "No effect"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Skip loader rerun after navigation when data hasn't changed."
+  },
+  {
+    "id": "REACT_ROUT_070",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of the meta export in Remix?",
+    "options": [
+      "Define meta tags (title, description) for each route",
+      "Route config",
+      "Layout meta",
+      "Page config"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Define meta tags (title, description) for each route."
+  },
+  {
+    "id": "REACT_ROUT_071",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the links export in Remix?",
+    "options": [
+      "Add link tags (stylesheets, preloads) for each route",
+      "Script export",
+      "Style export",
+      "Resource export"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Add link tags (stylesheets, preloads) for each route."
+  },
+  {
+    "id": "REACT_ROUT_072",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the headers export in Remix?",
+    "options": [
+      "Set HTTP response headers for a route",
+      "Meta headers",
+      "Cache headers",
+      "Security headers"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Set HTTP response headers for a route."
+  },
+  {
+    "id": "REACT_ROUT_073",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the loader return type in Remix?",
+    "options": [
+      "Any serializable value or Response object (json() helper)",
+      "JSON only",
+      "String only",
+      "Object only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Any serializable value or Response object (json() helper)."
+  },
+  {
+    "id": "REACT_ROUT_074",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the json() helper in Remix?",
+    "options": [
+      "Creates JSON Response with proper headers",
+      "JSON.stringify",
+      "JSON serializer",
+      "Response wrapper"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates JSON Response with proper headers."
+  },
+  {
+    "id": "REACT_ROUT_075",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the redirect() in Remix loaders?",
+    "options": [
+      "Throws Response that redirects user to new URL",
+      "Returns Response",
+      "Navigates client",
+      "Refreshes page"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Throws Response that redirects user to new URL."
+  },
+  {
+    "id": "REACT_ROUT_076",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the throw redirect pattern?",
+    "options": [
+      "throw redirect('/login') in loader stops execution and redirects",
+      "Return redirect",
+      "Navigate redirect",
+      "Response redirect"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is throw redirect('/login') in loader stops execution and redirects."
+  },
+  {
+    "id": "REACT_ROUT_077",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is form method='get' vs 'post' in Remix?",
+    "options": [
+      "GET triggers loader; POST triggers action",
+      "Same",
+      "GET triggers action",
+      "POST triggers loader"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is GET triggers loader; POST triggers action."
+  },
+  {
+    "id": "REACT_ROUT_078",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the fetcher.data in Remix?",
+    "options": [
+      "Data returned from the last fetcher submission or load",
+      "Current route data",
+      "Form input data",
+      "Navigation data"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Data returned from the last fetcher submission or load."
+  },
+  {
+    "id": "REACT_ROUT_079",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the fetcher.formData?",
+    "options": [
+      "FormData from the in-flight submission (for optimistic UI)",
+      "Previous form",
+      "Current form",
+      "Last form"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is FormData from the in-flight submission (for optimistic UI)."
+  },
+  {
+    "id": "REACT_ROUT_080",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is revalidation in Remix?",
+    "options": [
+      "After mutation, all visible route loaders automatically re-run",
+      "Manual refresh",
+      "Optional refresh",
+      "Client-only refresh"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is After mutation, all visible route loaders automatically re-run."
+  },
+  {
+    "id": "REACT_ROUT_081",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the shouldRevalidate's actionResult argument?",
+    "options": [
+      "Data returned from action used to decide if revalidation needed",
+      "Loader result",
+      "Error result",
+      "Response result"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Data returned from action used to decide if revalidation needed."
+  },
+  {
+    "id": "REACT_LIFE_052",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the React element pool?",
+    "options": [
+      "React reuses element objects — why mutations are dangerous",
+      "Fiber pool",
+      "Virtual pool",
+      "Object pool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is React reuses element objects — why mutations are dangerous."
+  },
+  {
+    "id": "REACT_LIFE_053",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the current tree in React Fiber?",
+    "options": [
+      "Tree of fibers representing currently rendered UI",
+      "Work-in-progress",
+      "Alternative tree",
+      "DOM tree"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tree of fibers representing currently rendered UI."
+  },
+  {
+    "id": "REACT_LIFE_054",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the alternate fiber?",
+    "options": [
+      "Work-in-progress counterpart to current fiber — swapped on commit",
+      "Current fiber",
+      "DOM fiber",
+      "Effect fiber"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Work-in-progress counterpart to current fiber — swapped on commit."
+  },
+  {
+    "id": "REACT_LIFE_055",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the effectTag/flags in React Fiber?",
+    "options": [
+      "Bit flags marking fibers for work: placement, update, deletion",
+      "Style flags",
+      "Event flags",
+      "State flags"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Bit flags marking fibers for work: placement, update, deletion."
+  },
+  {
+    "id": "REACT_LIFE_056",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the subtreeFlags optimization?",
+    "options": [
+      "Aggregates child effect flags to skip subtrees with no work",
+      "Required flag",
+      "Debug flag",
+      "Performance flag"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Aggregates child effect flags to skip subtrees with no work."
+  },
+  {
+    "id": "REACT_LIFE_057",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the beginWork phase?",
+    "options": [
+      "Processes fiber and its children — creates or updates child fibers",
+      "commitWork phase",
+      "completeWork phase",
+      "finishWork phase"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Processes fiber and its children — creates or updates child fibers."
+  },
+  {
+    "id": "REACT_LIFE_058",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the completeWork phase?",
+    "options": [
+      "Creates DOM nodes and builds effect list bottom-up",
+      "beginWork phase",
+      "commitWork phase",
+      "renderWork phase"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates DOM nodes and builds effect list bottom-up."
+  },
+  {
+    "id": "REACT_LIFE_059",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the commitWork phase?",
+    "options": [
+      "Applies all mutations to DOM after rendering is complete",
+      "beginWork phase",
+      "completeWork phase",
+      "flushWork phase"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Applies all mutations to DOM after rendering is complete."
+  },
+  {
+    "id": "REACT_LIFE_060",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What are the three sub-phases of commit?",
+    "options": [
+      "beforeMutation, mutation, layout — each traverses effect list once",
+      "Two phases",
+      "One phase",
+      "Four phases"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is beforeMutation, mutation, layout — each traverses effect list once."
+  },
+  {
+    "id": "REACT_LIFE_061",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the passive effect phase?",
+    "options": [
+      "Where useEffect callbacks run (after browser paint)",
+      "Layout effect phase",
+      "Mutation phase",
+      "Commit phase"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Where useEffect callbacks run (after browser paint)."
+  },
+  {
+    "id": "REACT_LIFE_062",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the layout effect phase?",
+    "options": [
+      "Where useLayoutEffect callbacks run (synchronously after mutation)",
+      "Passive phase",
+      "Before paint phase",
+      "Render phase"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Where useLayoutEffect callbacks run (synchronously after mutation)."
+  },
+  {
+    "id": "REACT_LIFE_063",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of the Scheduler package?",
+    "options": [
+      "Implements cooperative multitasking for React's concurrent features",
+      "Component scheduler",
+      "Effect scheduler",
+      "State scheduler"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Implements cooperative multitasking for React's concurrent features."
+  },
+  {
+    "id": "REACT_LIFE_064",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the message channel trick in Scheduler?",
+    "options": [
+      "Uses MessageChannel to yield to browser between render units",
+      "setTimeout trick",
+      "RAF trick",
+      "Promise trick"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Uses MessageChannel to yield to browser between render units."
+  },
+  {
+    "id": "REACT_LIFE_065",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is time slicing?",
+    "options": [
+      "Breaking long renders into 5ms chunks allowing browser to interrupt",
+      "Batching",
+      "Scheduling",
+      "Deferring"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Breaking long renders into 5ms chunks allowing browser to interrupt."
+  },
+  {
+    "id": "REACT_LIFE_066",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the expiration time in React (old model)?",
+    "options": [
+      "Deadline-based priority — replaced by lanes in React 18",
+      "Still used",
+      "Optional feature",
+      "Debug feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Deadline-based priority — replaced by lanes in React 18."
+  },
+  {
+    "id": "REACT_LIFE_067",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the lanes model?",
+    "options": [
+      "Bitmask-based priority system in React 18 replacing expiration times",
+      "Expiration times",
+      "Priority numbers",
+      "Thread model"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Bitmask-based priority system in React 18 replacing expiration times."
+  },
+  {
+    "id": "REACT_LIFE_068",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is SyncLane?",
+    "options": [
+      "Highest priority lane for synchronous user interactions",
+      "TransitionLane",
+      "DefaultLane",
+      "IdleLane"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Highest priority lane for synchronous user interactions."
+  },
+  {
+    "id": "REACT_LIFE_069",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is TransitionLane?",
+    "options": [
+      "Lower priority lane for non-urgent state updates (via startTransition)",
+      "SyncLane",
+      "DefaultLane",
+      "IdleLane"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Lower priority lane for non-urgent state updates (via startTransition)."
+  },
+  {
+    "id": "REACT_LIFE_070",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is IdleLane?",
+    "options": [
+      "Lowest priority lane — only processes when nothing else needs doing",
+      "SyncLane",
+      "TransitionLane",
+      "DefaultLane"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Lowest priority lane — only processes when nothing else needs doing."
+  },
+  {
+    "id": "REACT_LIFE_071",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is entanglement in lanes?",
+    "options": [
+      "Some lanes must be processed together — can't process one without others",
+      "No entanglement",
+      "Lane grouping",
+      "Lane merging"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Some lanes must be processed together — can't process one without others."
+  },
+  {
+    "id": "REACT_LIFE_072",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is batchedUpdates in legacy React?",
+    "options": [
+      "Manually group updates outside React event handlers (pre-React 18)",
+      "Auto-batching",
+      "Required in React 18",
+      "Not needed anymore"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Manually group updates outside React event handlers (pre-React 18)."
+  },
+  {
+    "id": "REACT_LIFE_073",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the problem flushSync solves?",
+    "options": [
+      "Forces synchronous re-render for code that needs DOM updates immediately",
+      "Async batching",
+      "Concurrent rendering",
+      "Effect delays"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Forces synchronous re-render for code that needs DOM updates immediately."
+  },
+  {
+    "id": "REACT_LIFE_074",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the root.render() replacement?",
+    "options": [
+      "ReactDOM.createRoot(el).render(<App/>) replaces ReactDOM.render() in React 18",
+      "Same API",
+      "New API required",
+      "Optional upgrade"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is ReactDOM.createRoot(el).render(<App/>) replaces ReactDOM.render() in React 18."
+  },
+  {
+    "id": "REACT_LIFE_075",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is hydrateRoot vs createRoot?",
+    "options": [
+      "hydrateRoot attaches to server-rendered HTML; createRoot starts fresh",
+      "Same function",
+      "createRoot hydrates",
+      "hydrateRoot starts fresh"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is hydrateRoot attaches to server-rendered HTML; createRoot starts fresh."
+  },
+  {
+    "id": "REACT_LIFE_076",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the onRecoverableError option in createRoot?",
+    "options": [
+      "Callback for errors React auto-recovers from during hydration",
+      "Required option",
+      "Optional logging",
+      "Error boundary"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Callback for errors React auto-recovers from during hydration."
+  },
+  {
+    "id": "REACT_LIFE_077",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the identifierPrefix option in createRoot?",
+    "options": [
+      "Prefix for IDs generated by useId to avoid conflicts in micro-frontends",
+      "Required prefix",
+      "Performance option",
+      "Security option"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Prefix for IDs generated by useId to avoid conflicts in micro-frontends."
+  },
+  {
+    "id": "REACT_LIFE_078",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the React 19 act() behavior change?",
+    "options": [
+      "act() now wraps async operations by default for better test utilities",
+      "Same as before",
+      "Breaking change",
+      "Removed in 19"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is act() now wraps async operations by default for better test utilities."
+  },
+  {
+    "id": "REACT_LIFE_079",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the useFormState/useActionState difference?",
+    "options": [
+      "useActionState (React 19) replaces useFormState from React DOM",
+      "Same hook",
+      "Different package",
+      "Deprecated"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is useActionState (React 19) replaces useFormState from React DOM."
+  },
+  {
+    "id": "REACT_LIFE_080",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the ref as prop in React 19?",
+    "options": [
+      "Function components can accept ref as regular prop (no forwardRef needed)",
+      "Still needs forwardRef",
+      "Class only",
+      "Optional feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Function components can accept ref as regular prop (no forwardRef needed)."
+  },
+  {
+    "id": "REACT_LIFE_081",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the cleanup function for ref in React 19?",
+    "options": [
+      "Ref callback can return cleanup function called on unmount",
+      "Not possible",
+      "Only in classes",
+      "Optional pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Ref callback can return cleanup function called on unmount."
+  },
+  {
+    "id": "REACT_REDU_052",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Reselect v5 change?",
+    "options": [
+      "weakMapMemoize as default (unlimited cache); createSelectorCreator more flexible",
+      "Same as v4",
+      "Minor change",
+      "Breaking deprecation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is weakMapMemoize as default (unlimited cache); createSelectorCreator more flexible."
+  },
+  {
+    "id": "REACT_REDU_053",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is lruMemoize in Reselect?",
+    "options": [
+      "Memoizer with limited cache size (least recently used eviction)",
+      "Unlimited cache",
+      "WeakMap cache",
+      "Single result"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Memoizer with limited cache size (least recently used eviction)."
+  },
+  {
+    "id": "REACT_REDU_054",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is createSelectorCreator(weakMapMemoize)?",
+    "options": [
+      "Creates selector with WeakMap memoization (default in v5)",
+      "Custom selector",
+      "Performance selector",
+      "Cached selector"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates selector with WeakMap memoization (default in v5)."
+  },
+  {
+    "id": "REACT_REDU_055",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is unstable_autotrackMemoize?",
+    "options": [
+      "Experimental memoizer tracking accessed state for optimal re-computation",
+      "Standard memoize",
+      "LRU memoize",
+      "WeakMap memoize"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Experimental memoizer tracking accessed state for optimal re-computation."
+  },
+  {
+    "id": "REACT_REDU_056",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is RTK's combineSlices lazy loading?",
+    "options": [
+      "Dynamically injects slice reducers when feature code loads",
+      "Static loading",
+      "Build-time loading",
+      "Required loading"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Dynamically injects slice reducers when feature code loads."
+  },
+  {
+    "id": "REACT_REDU_057",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is RTK's createAction with prepare callback?",
+    "options": [
+      "Customize action payload: createAction('type', (arg) => ({payload: transform(arg)}))",
+      "Standard action",
+      "Type-only action",
+      "Payload action"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Customize action payload: createAction('type', (arg) => ({payload: transform(arg)}))."
+  },
+  {
+    "id": "REACT_REDU_058",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the payloadCreator in createAsyncThunk?",
+    "options": [
+      "Function returning data or throwing error for thunk result",
+      "Action creator",
+      "Reducer",
+      "Selector"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Function returning data or throwing error for thunk result."
+  },
+  {
+    "id": "REACT_REDU_059",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the getThunkAPI argument in createAsyncThunk?",
+    "options": [
+      "Object with dispatch, getState, extra, signal, rejectWithValue",
+      "State only",
+      "Dispatch only",
+      "No argument"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Object with dispatch, getState, extra, signal, rejectWithValue."
+  },
+  {
+    "id": "REACT_REDU_060",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is rejectWithValue in createAsyncThunk?",
+    "options": [
+      "Returns a rejected action with custom error payload (not throws)",
+      "Throws error",
+      "Cancels thunk",
+      "Ignores error"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Returns a rejected action with custom error payload (not throws)."
+  },
+  {
+    "id": "REACT_REDU_061",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the condition option in createAsyncThunk?",
+    "options": [
+      "Cancels thunk before starting if condition returns false",
+      "Required check",
+      "Optional check",
+      "Error check"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cancels thunk before starting if condition returns false."
+  },
+  {
+    "id": "REACT_REDU_062",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the signal in createAsyncThunk?",
+    "options": [
+      "AbortController signal for canceling in-flight async operations",
+      "Error signal",
+      "Success signal",
+      "Loading signal"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is AbortController signal for canceling in-flight async operations."
+  },
+  {
+    "id": "REACT_REDU_063",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is abort() on thunk dispatch return?",
+    "options": [
+      "Cancels dispatched thunk if it's still pending",
+      "Removes thunk",
+      "Rejects thunk",
+      "Completes thunk"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Cancels dispatched thunk if it's still pending."
+  },
+  {
+    "id": "REACT_REDU_064",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is RTK Query's transformResponse?",
+    "options": [
+      "Transforms raw API response before storing in cache",
+      "Transform action",
+      "Transform selector",
+      "Transform state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Transforms raw API response before storing in cache."
+  },
+  {
+    "id": "REACT_REDU_065",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is RTK Query's transformErrorResponse?",
+    "options": [
+      "Transforms error response to custom format before storing",
+      "Transform response",
+      "Transform action",
+      "Transform data"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Transforms error response to custom format before storing."
+  },
+  {
+    "id": "REACT_REDU_066",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the merge option in RTK Query?",
+    "options": [
+      "Custom merge function for paginated data (combining responses)",
+      "Replace function",
+      "Default merge",
+      "Cache merge"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Custom merge function for paginated data (combining responses)."
+  },
+  {
+    "id": "REACT_REDU_067",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the serializeQueryArgs option?",
+    "options": [
+      "Custom serialization for query arguments as cache key",
+      "Required option",
+      "Default option",
+      "Performance option"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Custom serialization for query arguments as cache key."
+  },
+  {
+    "id": "REACT_REDU_068",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is RTK Query's queryFn?",
+    "options": [
+      "Override default fetch with custom async function for endpoints",
+      "Required function",
+      "Optional function",
+      "Error function"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Override default fetch with custom async function for endpoints."
+  },
+  {
+    "id": "REACT_REDU_069",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the onCacheEntryAdded lifecycle?",
+    "options": [
+      "Run side effects when a cache entry is created (e.g., WebSocket subscription)",
+      "Required lifecycle",
+      "Optional lifecycle",
+      "Error lifecycle"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Run side effects when a cache entry is created (e.g., WebSocket subscription)."
+  },
+  {
+    "id": "REACT_REDU_070",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is cacheDataLoaded in onCacheEntryAdded?",
+    "options": [
+      "Promise resolving when cache has first value — await to start subscription",
+      "Cache ready signal",
+      "Error signal",
+      "Loading signal"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Promise resolving when cache has first value — await to start subscription."
+  },
+  {
+    "id": "REACT_REDU_071",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is cacheEntryRemoved in onCacheEntryAdded?",
+    "options": [
+      "Promise resolving when cache entry is removed — for cleanup",
+      "Cache ready signal",
+      "Error signal",
+      "Subscription end signal"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Promise resolving when cache entry is removed — for cleanup."
+  },
+  {
+    "id": "REACT_REDU_072",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the enhanceEndpoints utility?",
+    "options": [
+      "Add tags or other options to endpoints after createApi",
+      "Required utility",
+      "Optional utility",
+      "Debug utility"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Add tags or other options to endpoints after createApi."
+  },
+  {
+    "id": "REACT_REDU_073",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the API slice's middleware?",
+    "options": [
+      "Required RTK Query middleware handling cache lifecycle",
+      "Optional middleware",
+      "Performance middleware",
+      "Error middleware"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Required RTK Query middleware handling cache lifecycle."
+  },
+  {
+    "id": "REACT_REDU_074",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is RTK Query refetchOnMountOrArgChange?",
+    "options": [
+      "Force refetch when component mounts or args change (bypass cache)",
+      "Default behavior",
+      "Optional behavior",
+      "Performance option"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Force refetch when component mounts or args change (bypass cache)."
+  },
+  {
+    "id": "REACT_REDU_075",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is RTK Query automatic polling?",
+    "options": [
+      "pollingInterval on useQuery refetches at regular intervals",
+      "Manual polling",
+      "WebSocket polling",
+      "Push polling"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is pollingInterval on useQuery refetches at regular intervals."
+  },
+  {
+    "id": "REACT_REDU_076",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the skipToken for RTK Query?",
+    "options": [
+      "import {skipToken} — passes as arg to skip query without changing hook call",
+      "Skip boolean",
+      "Skip flag",
+      "Skip option"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is import {skipToken} — passes as arg to skip query without changing hook call."
+  },
+  {
+    "id": "REACT_REDU_077",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is RTK Query's lazy query?",
+    "options": [
+      "useLazyQuery — manually trigger fetch instead of auto-fetching on mount",
+      "Auto query",
+      "Eager query",
+      "Default query"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is useLazyQuery — manually trigger fetch instead of auto-fetching on mount."
+  },
+  {
+    "id": "REACT_REDU_078",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is RTKQ's streaming updates?",
+    "options": [
+      "onCacheEntryAdded + WebSocket for real-time cache updates",
+      "Polling updates",
+      "REST updates",
+      "Batch updates"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is onCacheEntryAdded + WebSocket for real-time cache updates."
+  },
+  {
+    "id": "REACT_REDU_079",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the invalidation cascade in RTK Query?",
+    "options": [
+      "Mutation invalidating tag forces all queries with that tag to refetch",
+      "Single refetch",
+      "Manual refetch",
+      "No cascade"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Mutation invalidating tag forces all queries with that tag to refetch."
+  },
+  {
+    "id": "REACT_REDU_080",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the optimistic update undo in RTK Query?",
+    "options": [
+      "Catch error in onQueryStarted and call patchResult.undo() to revert",
+      "Manual revert",
+      "State reset",
+      "Cache clear"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Catch error in onQueryStarted and call patchResult.undo() to revert."
+  },
+  {
+    "id": "REACT_REDU_081",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the focused invalidation in RTK Query?",
+    "options": [
+      "Invalidate specific {type, id} instead of all entries of that type",
+      "Full invalidation",
+      "Tag invalidation",
+      "Time invalidation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Invalidate specific {type, id} instead of all entries of that type."
+  },
+  {
+    "id": "REACT_OPTI_052",
     "topic": "React Engineer",
     "section": "Performance & Testing",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q794] Portal in React",
+    "question": "What is the bundle analyzer webpack plugin?",
     "options": [
+      "Visualizes webpack bundle composition as interactive treemap",
+      "Performance tool",
+      "Testing tool",
+      "Debugging tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Visualizes webpack bundle composition as interactive treemap."
+  },
+  {
+    "id": "REACT_OPTI_053",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is source-map-explorer?",
+    "options": [
+      "Analyzes bundle size by source file using source maps",
+      "Alternative to bundle analyzer",
+      "Same tool",
+      "Different output"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Analyzes bundle size by source file using source maps."
+  },
+  {
+    "id": "REACT_OPTI_054",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is rollup-plugin-visualizer?",
+    "options": [
+      "Bundle size visualization for Vite/Rollup projects",
+      "webpack only",
+      "CRA only",
+      "Next.js only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Bundle size visualization for Vite/Rollup projects."
+  },
+  {
+    "id": "REACT_OPTI_055",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the vite-bundle-visualizer?",
+    "options": [
+      "Analyzes Vite bundle composition and sizes",
+      "webpack only",
+      "CRA only",
+      "Rollup only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Analyzes Vite bundle composition and sizes."
+  },
+  {
+    "id": "REACT_OPTI_056",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is next/bundle-analyzer?",
+    "options": [
+      "Official Next.js plugin for analyzing bundle sizes",
+      "Third-party plugin",
+      "Built-in feature",
+      "Optional feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Official Next.js plugin for analyzing bundle sizes."
+  },
+  {
+    "id": "REACT_OPTI_057",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the performance budget?",
+    "options": [
+      "Limits on bundle size, load time, or other metrics that fail build if exceeded",
+      "Soft limit",
+      "Monitoring metric",
+      "Goal metric"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Limits on bundle size, load time, or other metrics that fail build if exceeded."
+  },
+  {
+    "id": "REACT_OPTI_058",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the performance.measureUserAgentSpecificMemory API?",
+    "options": [
+      "Measures memory usage of current web page (Chrome 89+)",
+      "Standard API",
+      "Required API",
+      "Deprecated API"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Measures memory usage of current web page (Chrome 89+)."
+  },
+  {
+    "id": "REACT_OPTI_059",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the Memory tab in Chrome DevTools?",
+    "options": [
+      "Profile heap snapshots and memory allocation for leak detection",
+      "Performance tab",
+      "Network tab",
+      "Sources tab"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Profile heap snapshots and memory allocation for leak detection."
+  },
+  {
+    "id": "REACT_OPTI_060",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a memory leak detection strategy in React?",
+    "options": [
+      "Take heap snapshots before/after actions and compare retained objects",
+      "Not detectable",
+      "Automatic detection",
+      "Logging only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Take heap snapshots before/after actions and compare retained objects."
+  },
+  {
+    "id": "REACT_OPTI_061",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the reason React.memo doesn't help with context?",
+    "options": [
+      "Context changes bypass memo — component re-renders regardless",
+      "Memo stops context",
+      "Memo helps context",
+      "They interact"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Context changes bypass memo — component re-renders regardless."
+  },
+  {
+    "id": "REACT_OPTI_062",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the useMemo for expensive renders pattern?",
+    "options": [
+      "Memoize JSX output: const jsx = useMemo(() => <Exp />, [dep])",
+      "Not possible",
+      "Always needed",
+      "Anti-pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Memoize JSX output: const jsx = useMemo(() => <Exp />, [dep])."
+  },
+  {
+    "id": "REACT_OPTI_063",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the windowing threshold?",
+    "options": [
+      "Rule of thumb: virtualize lists with 50+ items that are expensive to render",
+      "10 items",
+      "100 items",
+      "1000 items"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Rule of thumb: virtualize lists with 50+ items that are expensive to render."
+  },
+  {
+    "id": "REACT_OPTI_064",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is overscan in list virtualization?",
+    "options": [
+      "Rendering extra items above/below viewport to prevent blank during scroll",
+      "Required feature",
+      "Optional feature",
+      "Performance feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Rendering extra items above/below viewport to prevent blank during scroll."
+  },
+  {
+    "id": "REACT_OPTI_065",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is dynamic row height in virtualization?",
+    "options": [
+      "Variable-size list where each item has different height",
+      "Fixed height only",
+      "Estimated height",
+      "No support"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Variable-size list where each item has different height."
+  },
+  {
+    "id": "REACT_OPTI_066",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is TanStack Virtual?",
+    "options": [
+      "Headless virtualization for any scrollable element (rows, columns, grids)",
+      "Full component",
+      "CSS-based",
+      "DOM-based"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Headless virtualization for any scrollable element (rows, columns, grids)."
+  },
+  {
+    "id": "REACT_OPTI_067",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the intersection observer for lazy images?",
+    "options": [
+      "Load images only when they enter viewport using IntersectionObserver API",
+      "Eager loading",
+      "All at once",
+      "Scroll event"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Load images only when they enter viewport using IntersectionObserver API."
+  },
+  {
+    "id": "REACT_OPTI_068",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is next/image optimization?",
+    "options": [
+      "Automatic WebP conversion, lazy loading, size optimization, blur placeholder",
+      "Manual optimization",
+      "CSS optimization",
+      "Server optimization"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Automatic WebP conversion, lazy loading, size optimization, blur placeholder."
+  },
+  {
+    "id": "REACT_OPTI_069",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the blurDataURL prop?",
+    "options": [
+      "Low-quality placeholder image shown while full image loads",
+      "Alt text",
+      "Error image",
+      "Loading image"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Low-quality placeholder image shown while full image loads."
+  },
+  {
+    "id": "REACT_OPTI_070",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the priority prop on next/image?",
+    "options": [
+      "Preloads LCP image and disables lazy loading for above-fold images",
+      "Optional feature",
+      "Performance hint",
+      "Required feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Preloads LCP image and disables lazy loading for above-fold images."
+  },
+  {
+    "id": "REACT_OPTI_071",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the sizes attribute on images?",
+    "options": [
+      "Tells browser which image size to load based on viewport width",
+      "Style attribute",
+      "Required attribute",
+      "Alt attribute"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tells browser which image size to load based on viewport width."
+  },
+  {
+    "id": "REACT_OPTI_072",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the loading='lazy' attribute?",
+    "options": [
+      "Native browser lazy loading for images without JavaScript",
+      "Custom lazy loading",
+      "No difference",
+      "Slower loading"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Native browser lazy loading for images without JavaScript."
+  },
+  {
+    "id": "REACT_OPTI_073",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a CSS containment?",
+    "options": [
+      "contain property isolating element for paint/layout for better performance",
+      "CSS animation",
+      "CSS transition",
+      "CSS transform"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is contain property isolating element for paint/layout for better performance."
+  },
+  {
+    "id": "REACT_OPTI_074",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is content-visibility: auto?",
+    "options": [
+      "Skips rendering off-screen content until it's about to enter viewport",
+      "CSS display",
+      "CSS visibility",
+      "CSS opacity"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Skips rendering off-screen content until it's about to enter viewport."
+  },
+  {
+    "id": "REACT_OPTI_075",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the render-blocking resource?",
+    "options": [
+      "CSS and synchronous JS in head blocking first paint",
+      "Non-blocking",
+      "Deferred resource",
+      "Async resource"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is CSS and synchronous JS in head blocking first paint."
+  },
+  {
+    "id": "REACT_OPTI_076",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the async attribute on script?",
+    "options": [
+      "Loads script in parallel, executes as soon as downloaded (order not guaranteed)",
+      "defer attribute",
+      "sync attribute",
+      "load attribute"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Loads script in parallel, executes as soon as downloaded (order not guaranteed)."
+  },
+  {
+    "id": "REACT_OPTI_077",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the defer attribute on script?",
+    "options": [
+      "Loads in parallel, executes after HTML parsing (in order)",
+      "async attribute",
+      "sync attribute",
+      "load attribute"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Loads in parallel, executes after HTML parsing (in order)."
+  },
+  {
+    "id": "REACT_OPTI_078",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is font subsetting?",
+    "options": [
+      "Including only used characters in font file to reduce size",
+      "Font compression",
+      "Font caching",
+      "Font format"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Including only used characters in font file to reduce size."
+  },
+  {
+    "id": "REACT_OPTI_079",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is variable font?",
+    "options": [
+      "Single font file supporting range of weights/widths — smaller than multiple files",
+      "Static font",
+      "Dynamic font",
+      "Responsive font"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Single font file supporting range of weights/widths — smaller than multiple files."
+  },
+  {
+    "id": "REACT_OPTI_080",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is font-display: swap?",
+    "options": [
+      "Show fallback font immediately, swap to loaded font when ready",
+      "block value",
+      "optional value",
+      "auto value"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Show fallback font immediately, swap to loaded font when ready."
+  },
+  {
+    "id": "REACT_OPTI_081",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is resource hint: dns-prefetch?",
+    "options": [
+      "Resolves DNS for origin early to speed up future requests",
+      "preconnect",
+      "preload",
+      "prefetch"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Resolves DNS for origin early to speed up future requests."
+  },
+  {
+    "id": "REACT_OPTI_082",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is resource hint: preconnect?",
+    "options": [
+      "Establishes TCP/TLS connection early for critical origins",
+      "dns-prefetch",
+      "preload",
+      "prefetch"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Establishes TCP/TLS connection early for critical origins."
+  },
+  {
+    "id": "REACT_TEST_052",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is mockImplementation in Jest?",
+    "options": [
+      "Replaces mock function's entire implementation",
+      "mockReturnValue",
+      "mockResolvedValue",
+      "mockClear"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Replaces mock function's entire implementation."
+  },
+  {
+    "id": "REACT_TEST_053",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is mockImplementationOnce?",
+    "options": [
+      "Replaces implementation for next call only, then reverts",
+      "Permanent mock",
+      "Reset mock",
+      "Clear mock"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Replaces implementation for next call only, then reverts."
+  },
+  {
+    "id": "REACT_TEST_054",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is jest.spyOn with mockRestore?",
+    "options": [
+      "Restores original implementation after test (used with afterEach)",
+      "Keeps mock",
+      "Clears mock",
+      "Resets mock"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Restores original implementation after test (used with afterEach)."
+  },
+  {
+    "id": "REACT_TEST_055",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the moduleNameMapper in Jest config?",
+    "options": [
+      "Maps module imports to mock files (e.g., CSS modules, SVGs)",
+      "Required config",
+      "Optional config",
+      "Performance config"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Maps module imports to mock files (e.g., CSS modules, SVGs)."
+  },
+  {
+    "id": "REACT_TEST_056",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the transform config in Jest?",
+    "options": [
+      "Specifies how to transform files before testing (babel-jest, ts-jest)",
+      "Required config",
+      "Optional config",
+      "Build config"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Specifies how to transform files before testing (babel-jest, ts-jest)."
+  },
+  {
+    "id": "REACT_TEST_057",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is ts-jest?",
+    "options": [
+      "Jest preprocessor that compiles TypeScript during testing",
+      "jest itself",
+      "babel-jest",
+      "swc-jest"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Jest preprocessor that compiles TypeScript during testing."
+  },
+  {
+    "id": "REACT_TEST_058",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is @swc/jest?",
+    "options": [
+      "Fast SWC-based Jest transformer (faster than babel-jest)",
+      "ts-jest",
+      "babel-jest",
+      "jest runner"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Fast SWC-based Jest transformer (faster than babel-jest)."
+  },
+  {
+    "id": "REACT_TEST_059",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the globals config in Jest?",
+    "options": [
+      "Sets test environment globals (e.g., structuredClone, fetch)",
+      "Required config",
+      "Performance config",
+      "Optional config"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sets test environment globals (e.g., structuredClone, fetch)."
+  },
+  {
+    "id": "REACT_TEST_060",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is testEnvironment in Jest?",
+    "options": [
+      "Sets test environment: 'jsdom' for DOM tests, 'node' for server",
+      "Required setting",
+      "Optional setting",
+      "Performance setting"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sets test environment: 'jsdom' for DOM tests, 'node' for server."
+  },
+  {
+    "id": "REACT_TEST_061",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is setupFilesAfterFramework in Jest?",
+    "options": [
+      "Files run after test framework initializes (for global matchers setup)",
+      "setupFiles",
+      "globalSetup",
+      "testSetup"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Files run after test framework initializes (for global matchers setup)."
+  },
+  {
+    "id": "REACT_TEST_062",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is globalSetup/globalTeardown in Jest?",
+    "options": [
+      "Run once before/after all test suites (for database connections)",
+      "setupFiles",
+      "setupFilesAfterFramework",
+      "testSetup"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Run once before/after all test suites (for database connections)."
+  },
+  {
+    "id": "REACT_TEST_063",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is --testPathPattern in Jest?",
+    "options": [
+      "Filter which test files to run by regex pattern",
+      "--grep",
+      "--filter",
+      "--match"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Filter which test files to run by regex pattern."
+  },
+  {
+    "id": "REACT_TEST_064",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is --watch mode in Jest?",
+    "options": [
+      "Re-runs tests related to changed files automatically",
+      "--watchAll",
+      "--coverage",
+      "--verbose"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Re-runs tests related to changed files automatically."
+  },
+  {
+    "id": "REACT_TEST_065",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is --coverage in Jest?",
+    "options": [
+      "Generates code coverage report after test run",
+      "--watch",
+      "--verbose",
+      "--ci"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Generates code coverage report after test run."
+  },
+  {
+    "id": "REACT_TEST_066",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the coverage threshold in Jest?",
+    "options": [
+      "Fail tests if coverage drops below configured percentage",
+      "Optional config",
+      "Required config",
+      "Performance config"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Fail tests if coverage drops below configured percentage."
+  },
+  {
+    "id": "REACT_TEST_067",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is Istanbul (nyc)?",
+    "options": [
+      "Code coverage library used by Jest internally",
+      "Jest alternative",
+      "Test runner",
+      "Assertion library"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Code coverage library used by Jest internally."
+  },
+  {
+    "id": "REACT_TEST_068",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is a coverage report format?",
+    "options": [
+      "lcov, json, html, text — configure in Jest coverageReporters",
+      "Required format",
+      "Optional format",
+      "Single format"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is lcov, json, html, text — configure in Jest coverageReporters."
+  },
+  {
+    "id": "REACT_TEST_069",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the purpose of data-testid as last resort?",
+    "options": [
+      "When no role, label, or text uniquely identifies element",
+      "First resort",
+      "Required attribute",
+      "Standard practice"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is When no role, label, or text uniquely identifies element."
+  },
+  {
+    "id": "REACT_TEST_070",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Easy",
+    "type": "MCQ",
+    "question": "What is the getByTestId query?",
+    "options": [
+      "Find element by data-testid attribute (use sparingly)",
+      "First choice query",
+      "Role query",
+      "Label query"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Find element by data-testid attribute (use sparingly)."
+  },
+  {
+    "id": "REACT_TEST_071",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the ByRole accessibility name?",
+    "options": [
+      "Role + accessible name (from aria-label, aria-labelledby, text content)",
+      "Role only",
+      "Name only",
+      "ID only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Role + accessible name (from aria-label, aria-labelledby, text content)."
+  },
+  {
+    "id": "REACT_TEST_072",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the accessible name computation?",
+    "options": [
+      "ARIA spec algorithm for determining element's accessible name for screen readers",
+      "Text content only",
+      "aria-label only",
+      "HTML title only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is ARIA spec algorithm for determining element's accessible name for screen readers."
+  },
+  {
+    "id": "REACT_TEST_073",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the name option in ByRole query?",
+    "options": [
+      "Filters elements with specific accessible name: getByRole('button', {name: 'Submit'})",
+      "Required option",
+      "Optional filter",
+      "Performance option"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Filters elements with specific accessible name: getByRole('button', {name: 'Submit'})."
+  },
+  {
+    "id": "REACT_TEST_074",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the hidden option in ByRole query?",
+    "options": [
+      "Includes elements hidden from accessibility tree when true",
+      "Excludes hidden",
+      "Shows all",
+      "Default false"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Includes elements hidden from accessibility tree when true."
+  },
+  {
+    "id": "REACT_TEST_075",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the level option in ByRole query?",
+    "options": [
+      "Filters heading by level: getByRole('heading', {level: 2})",
+      "Required option",
+      "Optional filter",
+      "Accessibility option"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Filters heading by level: getByRole('heading', {level: 2})."
+  },
+  {
+    "id": "REACT_TEST_076",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the selected option in ByRole query?",
+    "options": [
+      "Filters by aria-selected state for listbox options",
+      "Required option",
+      "Optional filter",
+      "Accessibility option"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Filters by aria-selected state for listbox options."
+  },
+  {
+    "id": "REACT_TEST_077",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the expanded option in ByRole query?",
+    "options": [
+      "Filters by aria-expanded state for accordions/menus",
+      "Required option",
+      "Optional filter",
+      "Boolean only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Filters by aria-expanded state for accordions/menus."
+  },
+  {
+    "id": "REACT_TEST_078",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the pressed option in ByRole query?",
+    "options": [
+      "Filters by aria-pressed state for toggle buttons",
+      "Required option",
+      "Optional filter",
+      "Boolean only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Filters by aria-pressed state for toggle buttons."
+  },
+  {
+    "id": "REACT_TEST_079",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the checked option in ByRole query?",
+    "options": [
+      "Filters by aria-checked state for checkboxes",
+      "Required option",
+      "Optional filter",
+      "Boolean only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Filters by aria-checked state for checkboxes."
+  },
+  {
+    "id": "REACT_TEST_080",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the current option in ByRole query?",
+    "options": [
+      "Filters by aria-current state (page, step, date, etc.)",
+      "Required option",
+      "Optional filter",
+      "Navigation only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Filters by aria-current state (page, step, date, etc.)."
+  },
+  {
+    "id": "REACT_TEST_081",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is @testing-library/react testing Server Components?",
+    "options": [
+      "Not directly testable — test via integration tests or mock the server",
+      "Direct testing",
+      "Unit testing",
+      "E2E only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Not directly testable — test via integration tests or mock the server."
+  },
+  {
+    "id": "REACT_COMP_052",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the builder pattern for React components?",
+    "options": [
+      "Using method chaining to construct complex component configurations",
+      "Standard props",
+      "Object props",
+      "Context props"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Using method chaining to construct complex component configurations."
+  },
+  {
+    "id": "REACT_COMP_053",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the factory pattern for React?",
+    "options": [
+      "Function creating components with shared configuration",
       "HOC pattern",
-      "Cannot be determined",
-      "Renders outside parent DOM",
-      "Creates context"
+      "Context pattern",
+      "Provider pattern"
     ],
     "answer": 0,
-    "explanation": "Portals render children into different DOM node."
+    "explanation": "The correct answer is Function creating components with shared configuration."
   },
   {
-    "id": "react_1795",
+    "id": "REACT_COMP_054",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q795] What is code splitting?",
-    "options": [
-      "Breaking bundle into chunks",
-      "Compression",
-      "Data not provided",
-      "Minification"
-    ],
-    "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
-  },
-  {
-    "id": "react_1796",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q796] Redux is used for",
-    "options": [
-      "Testing",
-      "Global state management",
-      "Routing",
-      "Styling"
-    ],
-    "answer": 0,
-    "explanation": "Redux manages application-wide state."
-  },
-  {
-    "id": "react_1797",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q797] What does useLayoutEffect do?",
-    "options": [
-      "State update",
-      "Cannot be determined",
-      "Async effect",
-      "Fires sync after DOM mutations"
-    ],
-    "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
-  },
-  {
-    "id": "react_1798",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q798] Immutability in React state means",
-    "options": [
-      "All of the above",
-      "Delete state",
-      "Create new object instead of mutating",
-      "Modify in place"
-    ],
-    "answer": 0,
-    "explanation": "React state must be updated immutably."
-  },
-  {
-    "id": "react_1799",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q799] What is the children prop?",
-    "options": [
-      "State value",
-      "Component name",
-      "Content between component tags",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1800",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q800] Batching in React 18",
-    "options": [
-      "Both B and C",
-      "Single update",
-      "Sequential renders",
-      "Multiple state updates in one render"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1801",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q801] What is React?",
-    "options": [
-      "JavaScript UI library",
-      "CSS framework",
-      "Backend framework",
-      "Database ORM"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1802",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q802] JSX stands for",
-    "options": [
-      "Java Syntax Extension",
-      "JavaScript XML",
-      "Both A and B",
-      "JavaScript Extension"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1803",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q803] useState returns",
-    "options": [
-      "State value and setter",
-      "Only value",
-      "Array of objects",
-      "Only setter"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1804",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q804] useEffect is used for",
-    "options": [
-      "Routing",
-      "Styling",
-      "State management",
-      "Side effects"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1805",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q805] Virtual DOM purpose",
-    "options": [
-      "Real DOM replacement",
-      "CSS handling",
-      "The above is incorrect",
-      "Performance optimization"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1806",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q806] Props are",
-    "options": [
-      "Cannot be determined",
-      "Component state",
-      "CSS classes",
-      "Read-only data passed to components"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1807",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q807] State vs Props: State is",
-    "options": [
-      "Immutable",
-      "Global",
-      "Passed from parent",
-      "Mutable within component"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1808",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q808] React key prop purpose",
-    "options": [
-      "Both A and B",
-      "Style elements",
-      "Pass data",
-      "Identify list items"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1809",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q809] What is a higher-order component?",
-    "options": [
-      "Component that takes/returns component",
-      "Hook",
-      "The above is incorrect",
-      "Class component"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1810",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q810] useContext is used for",
-    "options": [
-      "Side effects",
-      "Local state",
-      "None of the above",
-      "Consuming context"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1811",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q811] React.memo does what?",
-    "options": [
-      "Creates context",
-      "Handles effects",
-      "All of the above",
-      "Memoizes component"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1812",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q812] What does ReactDOM.render do?",
-    "options": [
-      "Creates state",
-      "Renders React element to DOM",
-      "Option not applicable",
-      "Defines component"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1813",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q813] Default export syntax in ES6",
-    "options": [
-      "export Component",
-      "export { Component }",
-      "module.exports",
-      "export default Component"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1814",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q814] What is prop drilling?",
-    "options": [
-      "Direct prop passing",
-      "Context API",
-      "Cannot be determined",
-      "Passing props through many layers"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1815",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q815] useReducer is used for",
-    "options": [
-      "Side effects",
-      "Simple state",
-      "Cannot be determined",
-      "Complex state logic"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1816",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q816] React Router's <Route> does what?",
-    "options": [
-      "Creates links",
-      "Maps path to component",
-      "Insufficient information",
-      "Handles forms"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1817",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q817] What is lazy loading in React?",
-    "options": [
-      "Preloading",
-      "Eager loading",
-      "Both B and C",
-      "Loading components on demand"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1818",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q818] Controlled component means",
-    "options": [
-      "Form input tied to state",
-      "Class component",
-      "The above is incorrect",
-      "Uncontrolled input"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1819",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q819] What is reconciliation?",
-    "options": [
-      "State creation",
-      "React's DOM update process",
-      "Initial render",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1820",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q820] Fragment in React",
-    "options": [
-      "Neither A nor B",
-      "Groups elements without extra DOM node",
-      "Adds a div",
-      "Creates context"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1821",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q821] useCallback memoizes",
-    "options": [
-      "Components",
-      "Effects",
-      "Values",
-      "Functions"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1822",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q822] useMemo memoizes",
-    "options": [
-      "Computed values",
-      "Components",
-      "Effects",
-      "Functions"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1823",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q823] What is the StrictMode?",
-    "options": [
-      "Option not applicable",
-      "Testing tool",
-      "Production mode",
-      "Development helper for warnings"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1824",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q824] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useState",
-      "useRef",
-      "useContext",
-      "useEffect with []"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1825",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q825] useRef is used for",
-    "options": [
-      "State management",
-      "Accessing DOM elements",
-      "Data not provided",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1826",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q826] What triggers a re-render?",
-    "options": [
-      "State or prop change",
-      "None of the above",
-      "Comment change",
-      "CSS change"
-    ],
-    "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
-  },
-  {
-    "id": "react_1827",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q827] Context API solves",
-    "options": [
-      "Prop drilling",
-      "Routing",
-      "Styling",
-      "Both B and C"
-    ],
-    "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
-  },
-  {
-    "id": "react_1828",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q828] What is a pure component?",
-    "options": [
-      "Renders same output for same props",
-      "HOC",
-      "Both B and C",
-      "Stateless component"
-    ],
-    "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
-  },
-  {
-    "id": "react_1829",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q829] Event handling in React uses",
-    "options": [
-      "Data not provided",
-      "Synthetic events",
-      "Native DOM events",
-      "Custom events"
-    ],
-    "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
-  },
-  {
-    "id": "react_1830",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q830] What is server-side rendering?",
-    "options": [
-      "Client rendering",
-      "The above is incorrect",
-      "Rendering HTML on server",
-      "Static generation"
-    ],
-    "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
-  },
-  {
-    "id": "react_1831",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q831] Error boundary catches",
-    "options": [
-      "JavaScript errors in components",
-      "Network errors",
-      "Double negative",
-      "CSS errors"
-    ],
-    "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
-  },
-  {
-    "id": "react_1832",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q832] What is Suspense in React?",
-    "options": [
-      "Caches data",
-      "Delays state",
-      "Waits for async components",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
-  },
-  {
-    "id": "react_1833",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q833] Which hook replaces componentWillUnmount?",
-    "options": [
-      "useEffect cleanup return",
-      "useState",
-      "useRef",
-      "useCallback"
-    ],
-    "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
-  },
-  {
-    "id": "react_1834",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q834] Portal in React",
-    "options": [
-      "None of the above",
-      "Creates context",
-      "Renders outside parent DOM",
-      "HOC pattern"
-    ],
-    "answer": 0,
-    "explanation": "Portals render children into different DOM node."
-  },
-  {
-    "id": "react_1835",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q835] What is code splitting?",
-    "options": [
-      "Both A and B",
-      "Breaking bundle into chunks",
-      "Compression",
-      "Minification"
-    ],
-    "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
-  },
-  {
-    "id": "react_1836",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q836] Redux is used for",
-    "options": [
-      "Testing",
-      "Global state management",
-      "Routing",
-      "Styling"
-    ],
-    "answer": 0,
-    "explanation": "Redux manages application-wide state."
-  },
-  {
-    "id": "react_1837",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q837] What does useLayoutEffect do?",
-    "options": [
-      "Async effect",
-      "Fires sync after DOM mutations",
-      "Both A and B",
-      "State update"
-    ],
-    "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
-  },
-  {
-    "id": "react_1838",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q838] Immutability in React state means",
-    "options": [
-      "Insufficient information",
-      "Modify in place",
-      "Create new object instead of mutating",
-      "Delete state"
-    ],
-    "answer": 0,
-    "explanation": "React state must be updated immutably."
-  },
-  {
-    "id": "react_1839",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q839] What is the children prop?",
-    "options": [
-      "Both B and C",
-      "Component name",
-      "State value",
-      "Content between component tags"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1840",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q840] Batching in React 18",
-    "options": [
-      "Multiple state updates in one render",
-      "Single update",
-      "Sequential renders",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1841",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q841] What is React?",
-    "options": [
-      "Database ORM",
-      "JavaScript UI library",
-      "Backend framework",
-      "CSS framework"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1842",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q842] JSX stands for",
-    "options": [
-      "Java Syntax Extension",
-      "JavaScript Extension",
-      "JavaScript XML",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1843",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q843] useState returns",
-    "options": [
-      "State value and setter",
-      "Only setter",
-      "Only value",
-      "Array of objects"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1844",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q844] useEffect is used for",
-    "options": [
-      "Styling",
-      "State management",
-      "Side effects",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1845",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q845] Virtual DOM purpose",
-    "options": [
-      "Performance optimization",
-      "Insufficient information",
-      "Real DOM replacement",
-      "CSS handling"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1846",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q846] Props are",
-    "options": [
-      "Read-only data passed to components",
-      "Component state",
-      "Option not applicable",
-      "CSS classes"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1847",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q847] State vs Props: State is",
-    "options": [
-      "Mutable within component",
-      "Passed from parent",
-      "Global",
-      "Immutable"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1848",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q848] React key prop purpose",
-    "options": [
-      "Pass data",
-      "Style elements",
-      "Identify list items",
-      "Option not applicable"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1849",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q849] What is a higher-order component?",
-    "options": [
-      "Class component",
-      "Hook",
-      "Component that takes/returns component",
-      "Neither A nor B"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1850",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q850] useContext is used for",
-    "options": [
-      "Consuming context",
-      "Side effects",
-      "Local state",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1851",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q851] React.memo does what?",
-    "options": [
-      "Memoizes component",
-      "Option not applicable",
-      "Handles effects",
-      "Creates context"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1852",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q852] What does ReactDOM.render do?",
-    "options": [
-      "Defines component",
-      "Renders React element to DOM",
-      "Creates state",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1853",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q853] Default export syntax in ES6",
-    "options": [
-      "export { Component }",
-      "export Component",
-      "module.exports",
-      "export default Component"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1854",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q854] What is prop drilling?",
-    "options": [
-      "Direct prop passing",
-      "Context API",
-      "Both A and B",
-      "Passing props through many layers"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1855",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q855] useReducer is used for",
-    "options": [
-      "Simple state",
-      "Side effects",
-      "Complex state logic",
-      "Both A and B"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1856",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q856] React Router's <Route> does what?",
-    "options": [
-      "Handles forms",
-      "Maps path to component",
-      "Creates links",
-      "Cannot be determined"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1857",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q857] What is lazy loading in React?",
-    "options": [
-      "The above is incorrect",
-      "Loading components on demand",
-      "Preloading",
-      "Eager loading"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1858",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q858] Controlled component means",
-    "options": [
-      "Form input tied to state",
-      "Class component",
-      "Uncontrolled input",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1859",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q859] What is reconciliation?",
-    "options": [
-      "React's DOM update process",
-      "Initial render",
-      "All of the above",
-      "State creation"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1860",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q860] Fragment in React",
-    "options": [
-      "Both B and C",
-      "Groups elements without extra DOM node",
-      "Adds a div",
-      "Creates context"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1861",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q861] useCallback memoizes",
-    "options": [
-      "Effects",
-      "Components",
-      "Values",
-      "Functions"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1862",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q862] useMemo memoizes",
-    "options": [
-      "Effects",
-      "Components",
-      "Functions",
-      "Computed values"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1863",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q863] What is the StrictMode?",
-    "options": [
-      "Development helper for warnings",
-      "None of the above",
-      "Production mode",
-      "Testing tool"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1864",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q864] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useState",
-      "useEffect with []",
-      "useContext",
-      "useRef"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1865",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q865] useRef is used for",
-    "options": [
-      "State management",
-      "Routing",
-      "All of the above",
-      "Accessing DOM elements"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1866",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q866] What triggers a re-render?",
+    "question": "What is component intrinsic element types in TypeScript?",
     "options": [
-      "State or prop change",
-      "Comment change",
-      "Insufficient information",
-      "CSS change"
+      "React.JSX.IntrinsicElements defining all valid HTML element prop types",
+      "Required types",
+      "Optional types",
+      "Custom types"
     ],
     "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
+    "explanation": "The correct answer is React.JSX.IntrinsicElements defining all valid HTML element prop types."
   },
   {
-    "id": "react_1867",
+    "id": "REACT_COMP_055",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q867] Context API solves",
+    "question": "What is ComponentRef type in React 19?",
     "options": [
-      "Routing",
-      "Prop drilling",
-      "Data not provided",
-      "Styling"
+      "Extracts ref type from a component: ComponentRef<typeof Button>",
+      "Required type",
+      "Custom type",
+      "Generic type"
     ],
     "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
+    "explanation": "The correct answer is Extracts ref type from a component: ComponentRef<typeof Button>."
   },
   {
-    "id": "react_1868",
+    "id": "REACT_COMP_056",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q868] What is a pure component?",
+    "question": "What is ComponentPropsWithRef?",
     "options": [
-      "Both A and B",
-      "HOC",
-      "Renders same output for same props",
-      "Stateless component"
+      "Props type including ref for components that accept refs",
+      "Without ref",
+      "Required ref",
+      "Optional ref"
     ],
     "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
+    "explanation": "The correct answer is Props type including ref for components that accept refs."
   },
   {
-    "id": "react_1869",
+    "id": "REACT_COMP_057",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q869] Event handling in React uses",
+    "question": "What is ComponentPropsWithoutRef?",
     "options": [
-      "Custom events",
-      "Synthetic events",
-      "Native DOM events",
-      "Neither A nor B"
+      "Props type explicitly excluding ref",
+      "With ref",
+      "Default props",
+      "Optional props"
     ],
     "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
+    "explanation": "The correct answer is Props type explicitly excluding ref."
   },
   {
-    "id": "react_1870",
+    "id": "REACT_COMP_058",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q870] What is server-side rendering?",
+    "question": "What is the RefObject vs MutableRefObject?",
     "options": [
-      "Static generation",
-      "The above is incorrect",
-      "Rendering HTML on server",
-      "Client rendering"
+      "RefObject is read-only .current; MutableRefObject allows writing",
+      "Same type",
+      "Opposite",
+      "RefObject is mutable"
     ],
     "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
+    "explanation": "The correct answer is RefObject is read-only .current; MutableRefObject allows writing."
   },
   {
-    "id": "react_1871",
+    "id": "REACT_COMP_059",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q871] Error boundary catches",
+    "question": "What is React.HTMLAttributes?",
     "options": [
-      "None of the above",
-      "CSS errors",
-      "JavaScript errors in components",
-      "Network errors"
+      "Base type with all common HTML attributes (className, onClick, style, etc.)",
+      "Required attributes",
+      "Optional attributes",
+      "Custom attributes"
     ],
     "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
+    "explanation": "The correct answer is Base type with all common HTML attributes (className, onClick, style, etc.)."
   },
   {
-    "id": "react_1872",
+    "id": "REACT_COMP_060",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q872] What is Suspense in React?",
+    "question": "What is the extends HTMLAttributes pattern?",
     "options": [
-      "Delays state",
-      "Caches data",
-      "Waits for async components",
-      "All of the above"
+      "interface MyProps extends React.HTMLAttributes<HTMLDivElement> — inherits all HTML props",
+      "Required pattern",
+      "Optional pattern",
+      "Performance pattern"
     ],
     "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
+    "explanation": "The correct answer is interface MyProps extends React.HTMLAttributes<HTMLDivElement> — inherits all HTML props."
   },
   {
-    "id": "react_1873",
+    "id": "REACT_COMP_061",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q873] Which hook replaces componentWillUnmount?",
+    "question": "What is the satisfies operator for component config?",
     "options": [
-      "useRef",
-      "useCallback",
-      "useEffect cleanup return",
-      "useState"
+      "Validates object matches type while preserving literal types",
+      "Type assertion",
+      "Type cast",
+      "Type guard"
     ],
     "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
+    "explanation": "The correct answer is Validates object matches type while preserving literal types."
   },
   {
-    "id": "react_1874",
+    "id": "REACT_COMP_062",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q874] Portal in React",
+    "question": "What is a compound component example (Tabs)?",
     "options": [
+      "<Tabs><Tabs.List><Tabs.Tab/></Tabs.List><Tabs.Panel/></Tabs>",
+      "Single component",
       "HOC pattern",
-      "Creates context",
-      "Renders outside parent DOM",
-      "Neither A nor B"
+      "Render prop"
     ],
     "answer": 0,
-    "explanation": "Portals render children into different DOM node."
+    "explanation": "The correct answer is <Tabs><Tabs.List><Tabs.Tab/></Tabs.List><Tabs.Panel/></Tabs>."
   },
   {
-    "id": "react_1875",
+    "id": "REACT_COMP_063",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q875] What is code splitting?",
+    "question": "What is the Disclosure pattern?",
     "options": [
-      "The above is incorrect",
-      "Breaking bundle into chunks",
-      "Compression",
-      "Minification"
-    ],
-    "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
-  },
-  {
-    "id": "react_1876",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q876] Redux is used for",
-    "options": [
-      "Testing",
-      "Styling",
-      "Global state management",
-      "Routing"
-    ],
-    "answer": 0,
-    "explanation": "Redux manages application-wide state."
-  },
-  {
-    "id": "react_1877",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q877] What does useLayoutEffect do?",
-    "options": [
-      "Fires sync after DOM mutations",
-      "Cannot be determined",
-      "State update",
-      "Async effect"
-    ],
-    "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
-  },
-  {
-    "id": "react_1878",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q878] Immutability in React state means",
-    "options": [
-      "Create new object instead of mutating",
-      "Modify in place",
-      "Delete state",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "React state must be updated immutably."
-  },
-  {
-    "id": "react_1879",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q879] What is the children prop?",
-    "options": [
-      "Cannot be determined",
-      "Component name",
-      "State value",
-      "Content between component tags"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1880",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q880] Batching in React 18",
-    "options": [
-      "Insufficient information",
-      "Sequential renders",
-      "Single update",
-      "Multiple state updates in one render"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1881",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q881] What is React?",
-    "options": [
-      "CSS framework",
-      "Backend framework",
-      "Database ORM",
-      "JavaScript UI library"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1882",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q882] JSX stands for",
-    "options": [
-      "Java Syntax Extension",
-      "Both A and B",
-      "JavaScript Extension",
-      "JavaScript XML"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1883",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q883] useState returns",
-    "options": [
-      "Only value",
-      "Only setter",
-      "State value and setter",
-      "Array of objects"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1884",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q884] useEffect is used for",
-    "options": [
-      "Routing",
-      "State management",
-      "Side effects",
-      "Styling"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1885",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q885] Virtual DOM purpose",
-    "options": [
-      "None of the above",
-      "CSS handling",
-      "Performance optimization",
-      "Real DOM replacement"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1886",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q886] Props are",
-    "options": [
-      "Neither A nor B",
-      "CSS classes",
-      "Component state",
-      "Read-only data passed to components"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1887",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q887] State vs Props: State is",
-    "options": [
-      "Mutable within component",
-      "Passed from parent",
-      "Immutable",
-      "Global"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1888",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q888] React key prop purpose",
-    "options": [
-      "Style elements",
-      "Identify list items",
-      "Pass data",
-      "Insufficient information"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1889",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q889] What is a higher-order component?",
-    "options": [
-      "Neither A nor B",
-      "Class component",
-      "Component that takes/returns component",
-      "Hook"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1890",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q890] useContext is used for",
-    "options": [
-      "Side effects",
-      "Local state",
-      "Consuming context",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "useContext reads from a React context."
-  },
-  {
-    "id": "react_1891",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q891] React.memo does what?",
-    "options": [
-      "Memoizes component",
-      "Creates context",
-      "Data not provided",
-      "Handles effects"
-    ],
-    "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
-  },
-  {
-    "id": "react_1892",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q892] What does ReactDOM.render do?",
-    "options": [
-      "Creates state",
-      "Renders React element to DOM",
-      "Data not provided",
-      "Defines component"
-    ],
-    "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
-  },
-  {
-    "id": "react_1893",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q893] Default export syntax in ES6",
-    "options": [
-      "export Component",
-      "export { Component }",
-      "module.exports",
-      "export default Component"
-    ],
-    "answer": 0,
-    "explanation": "Default exports use 'export default'."
-  },
-  {
-    "id": "react_1894",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q894] What is prop drilling?",
-    "options": [
-      "The above is incorrect",
-      "Direct prop passing",
-      "Passing props through many layers",
-      "Context API"
-    ],
-    "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
-  },
-  {
-    "id": "react_1895",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q895] useReducer is used for",
-    "options": [
-      "Side effects",
-      "Both A and B",
-      "Simple state",
-      "Complex state logic"
-    ],
-    "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
-  },
-  {
-    "id": "react_1896",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q896] React Router's <Route> does what?",
-    "options": [
-      "Handles forms",
-      "Creates links",
-      "Maps path to component",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "Route renders component for matched URL path."
-  },
-  {
-    "id": "react_1897",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q897] What is lazy loading in React?",
-    "options": [
-      "Neither A nor B",
-      "Eager loading",
-      "Preloading",
-      "Loading components on demand"
-    ],
-    "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
-  },
-  {
-    "id": "react_1898",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q898] Controlled component means",
-    "options": [
-      "Uncontrolled input",
-      "Form input tied to state",
-      "Data not provided",
-      "Class component"
-    ],
-    "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
-  },
-  {
-    "id": "react_1899",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q899] What is reconciliation?",
-    "options": [
-      "State creation",
-      "React's DOM update process",
-      "Option not applicable",
-      "Initial render"
-    ],
-    "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
-  },
-  {
-    "id": "react_1900",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q900] Fragment in React",
-    "options": [
-      "Groups elements without extra DOM node",
-      "Adds a div",
-      "Both A and B",
-      "Creates context"
-    ],
-    "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
-  },
-  {
-    "id": "react_1901",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q901] useCallback memoizes",
-    "options": [
-      "Functions",
-      "Values",
-      "Effects",
-      "Components"
-    ],
-    "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
-  },
-  {
-    "id": "react_1902",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q902] useMemo memoizes",
-    "options": [
-      "Computed values",
-      "Effects",
-      "Components",
-      "Functions"
-    ],
-    "answer": 0,
-    "explanation": "useMemo caches expensive computations."
-  },
-  {
-    "id": "react_1903",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q903] What is the StrictMode?",
-    "options": [
-      "Production mode",
-      "Development helper for warnings",
-      "Testing tool",
-      "None of the above"
-    ],
-    "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
-  },
-  {
-    "id": "react_1904",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q904] Which lifecycle method replaces componentDidMount in hooks?",
-    "options": [
-      "useState",
-      "useEffect with []",
-      "useContext",
-      "useRef"
-    ],
-    "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
-  },
-  {
-    "id": "react_1905",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q905] useRef is used for",
-    "options": [
-      "Routing",
-      "Accessing DOM elements",
-      "Data not provided",
-      "State management"
-    ],
-    "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
-  },
-  {
-    "id": "react_1906",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q906] What triggers a re-render?",
-    "options": [
-      "All of the above",
-      "Comment change",
-      "State or prop change",
-      "CSS change"
-    ],
-    "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
-  },
-  {
-    "id": "react_1907",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q907] Context API solves",
-    "options": [
-      "Routing",
-      "Prop drilling",
-      "All of the above",
-      "Styling"
-    ],
-    "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
-  },
-  {
-    "id": "react_1908",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q908] What is a pure component?",
-    "options": [
-      "Stateless component",
-      "HOC",
-      "Renders same output for same props",
-      "Data not provided"
-    ],
-    "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
-  },
-  {
-    "id": "react_1909",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q909] Event handling in React uses",
-    "options": [
-      "Synthetic events",
-      "Native DOM events",
-      "Custom events",
-      "All of the above"
-    ],
-    "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
-  },
-  {
-    "id": "react_1910",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q910] What is server-side rendering?",
-    "options": [
-      "Rendering HTML on server",
-      "Client rendering",
-      "Option not applicable",
-      "Static generation"
-    ],
-    "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
-  },
-  {
-    "id": "react_1911",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q911] Error boundary catches",
-    "options": [
-      "CSS errors",
-      "Network errors",
-      "Passive voice",
-      "JavaScript errors in components"
-    ],
-    "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
-  },
-  {
-    "id": "react_1912",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q912] What is Suspense in React?",
-    "options": [
-      "Waits for async components",
-      "Delays state",
-      "Both B and C",
-      "Caches data"
-    ],
-    "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
-  },
-  {
-    "id": "react_1913",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q913] Which hook replaces componentWillUnmount?",
-    "options": [
-      "useCallback",
-      "useState",
-      "useEffect cleanup return",
-      "useRef"
-    ],
-    "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
-  },
-  {
-    "id": "react_1914",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q914] Portal in React",
-    "options": [
+      "Show/hide pattern with trigger and content components sharing state",
+      "Compound component",
       "HOC pattern",
-      "Creates context",
-      "Renders outside parent DOM",
-      "Option not applicable"
+      "Context pattern"
     ],
     "answer": 0,
-    "explanation": "Portals render children into different DOM node."
+    "explanation": "The correct answer is Show/hide pattern with trigger and content components sharing state."
   },
   {
-    "id": "react_1915",
+    "id": "REACT_COMP_064",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q915] What is code splitting?",
+    "question": "What is the Combobox pattern?",
     "options": [
-      "Minification",
-      "Breaking bundle into chunks",
-      "Data not provided",
-      "Compression"
+      "Input + listbox combo with keyboard navigation and ARIA",
+      "Select element",
+      "Custom dropdown",
+      "Autocomplete"
     ],
     "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
+    "explanation": "The correct answer is Input + listbox combo with keyboard navigation and ARIA."
   },
   {
-    "id": "react_1916",
+    "id": "REACT_COMP_065",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q916] Redux is used for",
+    "question": "What is the dialog/modal pattern in React?",
     "options": [
-      "Styling",
-      "Testing",
-      "Global state management",
-      "Routing"
+      "Portal + focus trap + escape key + aria-modal + backdrop click to close",
+      "Simple div",
+      "Context dialog",
+      "State dialog"
     ],
     "answer": 0,
-    "explanation": "Redux manages application-wide state."
+    "explanation": "The correct answer is Portal + focus trap + escape key + aria-modal + backdrop click to close."
   },
   {
-    "id": "react_1917",
+    "id": "REACT_COMP_066",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q917] What does useLayoutEffect do?",
+    "question": "What is focus trap?",
     "options": [
-      "Async effect",
-      "Fires sync after DOM mutations",
-      "Insufficient information",
-      "State update"
+      "Library preventing focus from leaving modal/dialog for accessibility",
+      "Focus manager",
+      "Focus hook",
+      "Focus component"
     ],
     "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
+    "explanation": "The correct answer is Library preventing focus from leaving modal/dialog for accessibility."
   },
   {
-    "id": "react_1918",
+    "id": "REACT_COMP_067",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q918] Immutability in React state means",
+    "question": "What is react-focus-trap-zone?",
     "options": [
-      "Delete state",
-      "Create new object instead of mutating",
-      "Both B and C",
-      "Modify in place"
+      "Component trapping keyboard focus within boundaries for accessibility",
+      "Focus hook",
+      "Built-in feature",
+      "Style feature"
     ],
     "answer": 0,
-    "explanation": "React state must be updated immutably."
+    "explanation": "The correct answer is Component trapping keyboard focus within boundaries for accessibility."
   },
   {
-    "id": "react_1919",
+    "id": "REACT_COMP_068",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q919] What is the children prop?",
+    "question": "What is the toast notification pattern?",
     "options": [
-      "State value",
-      "The above is incorrect",
-      "Component name",
-      "Content between component tags"
-    ],
-    "answer": 0,
-    "explanation": "children contains nested JSX/elements."
-  },
-  {
-    "id": "react_1920",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q920] Batching in React 18",
-    "options": [
-      "Multiple state updates in one render",
-      "Single update",
-      "Both A and B",
-      "Sequential renders"
-    ],
-    "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
-  },
-  {
-    "id": "react_1921",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q921] What is React?",
-    "options": [
-      "JavaScript UI library",
-      "Backend framework",
-      "Database ORM",
-      "CSS framework"
-    ],
-    "answer": 0,
-    "explanation": "React is a JS library for building UIs."
-  },
-  {
-    "id": "react_1922",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q922] JSX stands for",
-    "options": [
-      "Insufficient information",
-      "Java Syntax Extension",
-      "JavaScript XML",
-      "JavaScript Extension"
-    ],
-    "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
-  },
-  {
-    "id": "react_1923",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q923] useState returns",
-    "options": [
-      "Only setter",
-      "State value and setter",
-      "Array of objects",
-      "Only value"
-    ],
-    "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
-  },
-  {
-    "id": "react_1924",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q924] useEffect is used for",
-    "options": [
-      "Routing",
-      "Styling",
-      "Side effects",
-      "State management"
-    ],
-    "answer": 0,
-    "explanation": "useEffect handles side effects in components."
-  },
-  {
-    "id": "react_1925",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q925] Virtual DOM purpose",
-    "options": [
-      "Real DOM replacement",
-      "Both B and C",
-      "Performance optimization",
-      "CSS handling"
-    ],
-    "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
-  },
-  {
-    "id": "react_1926",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q926] Props are",
-    "options": [
+      "Global notification system using context + portal for app-wide messages",
       "Component state",
-      "Data not provided",
-      "CSS classes",
-      "Read-only data passed to components"
-    ],
-    "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
-  },
-  {
-    "id": "react_1927",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q927] State vs Props: State is",
-    "options": [
-      "Passed from parent",
-      "Mutable within component",
-      "Global",
-      "Immutable"
-    ],
-    "answer": 0,
-    "explanation": "State is local mutable data in a component."
-  },
-  {
-    "id": "react_1928",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q928] React key prop purpose",
-    "options": [
-      "Pass data",
-      "Identify list items",
-      "Both A and B",
-      "Style elements"
-    ],
-    "answer": 0,
-    "explanation": "Keys help React identify which items changed."
-  },
-  {
-    "id": "react_1929",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q929] What is a higher-order component?",
-    "options": [
-      "Hook",
-      "Option not applicable",
-      "Class component",
-      "Component that takes/returns component"
-    ],
-    "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
-  },
-  {
-    "id": "react_1930",
-    "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
-    "type": "MCQ",
-    "question": "[REACT-Q930] useContext is used for",
-    "options": [
-      "Side effects",
-      "Consuming context",
       "Local state",
-      "Cannot be determined"
+      "Prop state"
     ],
     "answer": 0,
-    "explanation": "useContext reads from a React context."
+    "explanation": "The correct answer is Global notification system using context + portal for app-wide messages."
   },
   {
-    "id": "react_1931",
+    "id": "REACT_COMP_069",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q931] React.memo does what?",
+    "question": "What is the use-toast hook pattern?",
     "options": [
-      "Memoizes component",
-      "Creates context",
-      "Both B and C",
-      "Handles effects"
+      "Custom hook exposing toast API throughout app via context",
+      "Standard hook",
+      "Built-in feature",
+      "Redux feature"
     ],
     "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
+    "explanation": "The correct answer is Custom hook exposing toast API throughout app via context."
   },
   {
-    "id": "react_1932",
+    "id": "REACT_COMP_070",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q932] What does ReactDOM.render do?",
+    "question": "What is the command palette pattern?",
     "options": [
-      "Creates state",
-      "Renders React element to DOM",
-      "Defines component",
-      "Both A and B"
+      "Global search/action interface triggered by keyboard shortcut (⌘K)",
+      "Context menu",
+      "Right-click menu",
+      "Navigation menu"
     ],
     "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
+    "explanation": "The correct answer is Global search/action interface triggered by keyboard shortcut (⌘K)."
   },
   {
-    "id": "react_1933",
+    "id": "REACT_COMP_071",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q933] Default export syntax in ES6",
+    "question": "What is cmdk library?",
     "options": [
-      "module.exports",
-      "export default Component",
-      "export Component",
-      "export { Component }"
+      "Fast, composable command palette component for React applications",
+      "Context library",
+      "Menu library",
+      "Navigation library"
     ],
     "answer": 0,
-    "explanation": "Default exports use 'export default'."
+    "explanation": "The correct answer is Fast, composable command palette component for React applications."
   },
   {
-    "id": "react_1934",
+    "id": "REACT_COMP_072",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q934] What is prop drilling?",
+    "question": "What is the data grid component challenge?",
     "options": [
-      "Context API",
-      "Passing props through many layers",
-      "Direct prop passing",
-      "None of the above"
+      "Virtualization, sorting, filtering, selection, editing — complex state management",
+      "Simple table",
+      "Static table",
+      "Server table"
     ],
     "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
+    "explanation": "The correct answer is Virtualization, sorting, filtering, selection, editing — complex state management."
   },
   {
-    "id": "react_1935",
+    "id": "REACT_COMP_073",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q935] useReducer is used for",
+    "question": "What is @tanstack/table?",
     "options": [
-      "Simple state",
-      "Side effects",
-      "Cannot be determined",
-      "Complex state logic"
+      "Headless table with sorting, filtering, pagination, virtualization",
+      "Full component",
+      "CSS only",
+      "Simple table"
     ],
     "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
+    "explanation": "The correct answer is Headless table with sorting, filtering, pagination, virtualization."
   },
   {
-    "id": "react_1936",
+    "id": "REACT_COMP_074",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q936] React Router's <Route> does what?",
+    "question": "What is react-table's column definition?",
     "options": [
-      "Maps path to component",
-      "Creates links",
-      "All of the above",
-      "Handles forms"
+      "Object defining accessor, header, cell renderer, and sorting for a column",
+      "Row definition",
+      "Filter definition",
+      "Pagination definition"
     ],
     "answer": 0,
-    "explanation": "Route renders component for matched URL path."
+    "explanation": "The correct answer is Object defining accessor, header, cell renderer, and sorting for a column."
   },
   {
-    "id": "react_1937",
+    "id": "REACT_COMP_075",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Easy",
     "type": "MCQ",
-    "question": "[REACT-Q937] What is lazy loading in React?",
+    "question": "What is the cell renderers pattern?",
     "options": [
-      "Eager loading",
-      "Preloading",
-      "Cannot be determined",
-      "Loading components on demand"
+      "Customizing how data is displayed in table cells with component",
+      "Default rendering",
+      "String rendering",
+      "Number rendering"
     ],
     "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
+    "explanation": "The correct answer is Customizing how data is displayed in table cells with component."
   },
   {
-    "id": "react_1938",
+    "id": "REACT_COMP_076",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q938] Controlled component means",
+    "question": "What is the pagination state in react-table?",
     "options": [
-      "None of the above",
-      "Uncontrolled input",
-      "Class component",
-      "Form input tied to state"
+      "{pageIndex, pageSize} managed by component or externally",
+      "Required state",
+      "Optional state",
+      "Built-in state"
     ],
     "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
+    "explanation": "The correct answer is {pageIndex, pageSize} managed by component or externally."
   },
   {
-    "id": "react_1939",
+    "id": "REACT_COMP_077",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q939] What is reconciliation?",
+    "question": "What is server-side pagination?",
     "options": [
-      "Option not applicable",
-      "React's DOM update process",
-      "Initial render",
-      "State creation"
+      "Fetch only current page data from API — pass pageCount to table",
+      "Client pagination",
+      "Infinite pagination",
+      "Cursor pagination"
     ],
     "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
+    "explanation": "The correct answer is Fetch only current page data from API — pass pageCount to table."
   },
   {
-    "id": "react_1940",
+    "id": "REACT_COMP_078",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q940] Fragment in React",
+    "question": "What is the selection state in react-table?",
     "options": [
-      "Adds a div",
-      "Insufficient information",
-      "Groups elements without extra DOM node",
-      "Creates context"
+      "{rowId: boolean} map tracking which rows are selected",
+      "Array state",
+      "Set state",
+      "Index state"
     ],
     "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
+    "explanation": "The correct answer is {rowId: boolean} map tracking which rows are selected."
   },
   {
-    "id": "react_1941",
+    "id": "REACT_COMP_079",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q941] useCallback memoizes",
+    "question": "What is column pinning in react-table?",
     "options": [
-      "Functions",
-      "Components",
-      "Effects",
-      "Values"
+      "Fix columns to left or right side while others scroll horizontally",
+      "Column hiding",
+      "Column grouping",
+      "Column sorting"
     ],
     "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
+    "explanation": "The correct answer is Fix columns to left or right side while others scroll horizontally."
   },
   {
-    "id": "react_1942",
+    "id": "REACT_COMP_080",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q942] useMemo memoizes",
+    "question": "What is react-virtuoso?",
     "options": [
-      "Computed values",
-      "Components",
-      "Functions",
-      "Effects"
+      "Virtual list and grid component with dynamic sizes and grouping",
+      "Fixed size only",
+      "Simple list",
+      "Paginated list"
     ],
     "answer": 0,
-    "explanation": "useMemo caches expensive computations."
+    "explanation": "The correct answer is Virtual list and grid component with dynamic sizes and grouping."
   },
   {
-    "id": "react_1943",
+    "id": "REACT_COMP_081",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q943] What is the StrictMode?",
+    "question": "What is the groupedCounts in react-virtuoso?",
     "options": [
-      "Testing tool",
-      "Development helper for warnings",
-      "Cannot be determined",
-      "Production mode"
+      "Supports grouped lists with sticky group headers",
+      "Not supported",
+      "Optional feature",
+      "Required feature"
     ],
     "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
+    "explanation": "The correct answer is Supports grouped lists with sticky group headers."
   },
   {
-    "id": "react_1944",
+    "id": "REACT_Hook_103",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is React 19's use() hook main use case?",
+    "options": [
+      "Reading context and promises — can be called conditionally unlike useState",
+      "Same as useContext",
+      "Replaces useState",
+      "Replaces useEffect"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reading context and promises — can be called conditionally unlike useState."
+  },
+  {
+    "id": "REACT_Hook_104",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q944] Which lifecycle method replaces componentDidMount in hooks?",
+    "question": "What does useId generate?",
     "options": [
-      "useContext",
-      "useEffect with []",
-      "useState",
+      "Stable unique ID that matches between server and client renders",
+      "Random UUID",
+      "Incrementing number",
+      "Hash-based ID"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stable unique ID that matches between server and client renders."
+  },
+  {
+    "id": "REACT_Hook_105",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the problem useId solves?",
+    "options": [
+      "Avoids hydration mismatch when generating IDs for accessible HTML",
+      "Performance issue",
+      "State issue",
+      "Context issue"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Avoids hydration mismatch when generating IDs for accessible HTML."
+  },
+  {
+    "id": "REACT_Hook_106",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the useSyncExternalStore getSnapshot?",
+    "options": [
+      "Function returning current store value — must be same reference if unchanged",
+      "Required param",
+      "Optional param",
+      "Callback param"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Function returning current store value — must be same reference if unchanged."
+  },
+  {
+    "id": "REACT_Hook_107",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is useSyncExternalStore getServerSnapshot?",
+    "options": [
+      "Returns value for server rendering — may differ from client snapshot",
+      "Same as getSnapshot",
+      "Optional param",
+      "Required for SSR"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Returns value for server rendering — may differ from client snapshot."
+  },
+  {
+    "id": "REACT_Hook_108",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the selector pattern with useSyncExternalStore?",
+    "options": [
+      "Pass selector to getSnapshot to subscribe to specific store slice",
+      "Required always",
+      "Optional pattern",
+      "Performance pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pass selector to getSnapshot to subscribe to specific store slice."
+  },
+  {
+    "id": "REACT_Hook_109",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is useFormStatus from react-dom?",
+    "options": [
+      "Reads status of parent form: pending, data, method, action",
+      "useFormState",
+      "useActionState",
+      "Custom hook"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reads status of parent form: pending, data, method, action."
+  },
+  {
+    "id": "REACT_Hook_110",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is useActionState (React 19)?",
+    "options": [
+      "Manages form action state: returns [state, dispatch, isPending]",
+      "useFormState",
+      "useReducer",
+      "useTransition"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Manages form action state: returns [state, dispatch, isPending]."
+  },
+  {
+    "id": "REACT_Hook_111",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is useOptimistic's update function?",
+    "options": [
+      "Merges optimistic value with current state for optimistic UI",
+      "Required function",
+      "Optional function",
+      "Pure function"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Merges optimistic value with current state for optimistic UI."
+  },
+  {
+    "id": "REACT_Hook_112",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the cleanup in useOptimistic?",
+    "options": [
+      "State automatically reverts to actual value after server responds",
+      "Manual cleanup",
+      "Required cleanup",
+      "No cleanup"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is State automatically reverts to actual value after server responds."
+  },
+  {
+    "id": "REACT_Hook_113",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the rule about custom hook naming?",
+    "options": [
+      "Must start with 'use' so React can detect and enforce rules of hooks",
+      "Optional convention",
+      "Performance rule",
+      "Required for all functions"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Must start with 'use' so React can detect and enforce rules of hooks."
+  },
+  {
+    "id": "REACT_Hook_114",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a hook that implements exponential backoff?",
+    "options": [
+      "Custom hook retrying failed fetches with increasing delays",
+      "Built-in hook",
+      "React Query hook",
+      "RTK hook"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Custom hook retrying failed fetches with increasing delays."
+  },
+  {
+    "id": "REACT_Hook_115",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a hook that tracks component render count?",
+    "options": [
+      "useRef incremented in render body — persists across renders without re-rendering",
+      "useState counter",
+      "useEffect counter",
+      "useMemo counter"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is useRef incremented in render body — persists across renders without re-rendering."
+  },
+  {
+    "id": "REACT_Hook_116",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the useEvent proposal (RFC)?",
+    "options": [
+      "Stable function identity that always reads fresh state (not yet released)",
+      "useCallback",
+      "useMemo",
       "useRef"
     ],
     "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
+    "explanation": "The correct answer is Stable function identity that always reads fresh state (not yet released)."
   },
   {
-    "id": "react_1945",
+    "id": "REACT_Hook_117",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q945] useRef is used for",
+    "question": "What is the Tearing problem useTransition doesn't fix?",
     "options": [
-      "Accessing DOM elements",
-      "Both B and C",
-      "State management",
-      "Routing"
+      "External stores can tear during concurrent rendering — use useSyncExternalStore",
+      "Fixed by transition",
+      "Fixed by Suspense",
+      "Not a real problem"
     ],
     "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
+    "explanation": "The correct answer is External stores can tear during concurrent rendering — use useSyncExternalStore."
   },
   {
-    "id": "react_1946",
+    "id": "REACT_Hook_118",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q946] What triggers a re-render?",
+    "question": "What is atomWithSubscription custom hook pattern?",
     "options": [
-      "All of the above",
-      "Comment change",
-      "CSS change",
-      "State or prop change"
+      "Subscribe to external atom store using useSyncExternalStore for safe concurrent reads",
+      "useState pattern",
+      "useEffect pattern",
+      "Context pattern"
     ],
     "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
+    "explanation": "The correct answer is Subscribe to external atom store using useSyncExternalStore for safe concurrent reads."
   },
   {
-    "id": "react_1947",
+    "id": "REACT_Hook_119",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the window resize hook pattern?",
+    "options": [
+      "useEffect adding/removing resize listener + useState storing dimensions",
+      "useRef pattern",
+      "useMemo pattern",
+      "useCallback pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is useEffect adding/removing resize listener + useState storing dimensions."
+  },
+  {
+    "id": "REACT_Hook_120",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the intersection observer hook?",
+    "options": [
+      "Creates IntersectionObserver in useEffect, stores entry in state, cleans up on unmount",
+      "Built-in hook",
+      "Browser hook",
+      "DOM hook"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates IntersectionObserver in useEffect, stores entry in state, cleans up on unmount."
+  },
+  {
+    "id": "REACT_Hook_121",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the battery status hook?",
+    "options": [
+      "Uses navigator.getBattery() API wrapped in useState and useEffect",
+      "Built-in hook",
+      "Browser hook",
+      "Standard hook"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Uses navigator.getBattery() API wrapped in useState and useEffect."
+  },
+  {
+    "id": "REACT_Stat_103",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the XState v5 improvement?",
+    "options": [
+      "Simpler actor model, improved TypeScript, smaller bundle, no more machine.withConfig",
+      "Same as v4",
+      "Breaking API",
+      "Minor update"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Simpler actor model, improved TypeScript, smaller bundle, no more machine.withConfig."
+  },
+  {
+    "id": "REACT_Stat_104",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is setup() in XState v5?",
+    "options": [
+      "Defines types for context and events before creating machine",
+      "Optional setup",
+      "Required setup",
+      "Performance setup"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Defines types for context and events before creating machine."
+  },
+  {
+    "id": "REACT_Stat_105",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is fromPromise in XState v5?",
+    "options": [
+      "Creates actor from async function for promise-based services",
+      "Built-in actor",
+      "Legacy actor",
+      "Machine actor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates actor from async function for promise-based services."
+  },
+  {
+    "id": "REACT_Stat_106",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is fromObservable in XState v5?",
+    "options": [
+      "Creates actor from RxJS observable for streaming data",
+      "Built-in actor",
+      "Legacy actor",
+      "Promise actor"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates actor from RxJS observable for streaming data."
+  },
+  {
+    "id": "REACT_Stat_107",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a state machine guard in XState v5?",
+    "options": [
+      "Named guard function evaluated to allow/block state transition",
+      "Built-in guard",
+      "Required guard",
+      "Action guard"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Named guard function evaluated to allow/block state transition."
+  },
+  {
+    "id": "REACT_Stat_108",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is assign action in XState?",
+    "options": [
+      "Updates machine context: assign({count: ({context}) => context.count + 1})",
+      "Send action",
+      "Raise action",
+      "Emit action"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Updates machine context: assign({count: ({context}) => context.count + 1})."
+  },
+  {
+    "id": "REACT_Stat_109",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the sendParent action in XState?",
+    "options": [
+      "Sends event from child actor to parent actor",
+      "sendChild",
+      "send",
+      "emit"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sends event from child actor to parent actor."
+  },
+  {
+    "id": "REACT_Stat_110",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the spawnChild in XState v5?",
+    "options": [
+      "Creates child actor within machine (replaces spawn from v4)",
+      "spawn",
+      "createActor",
+      "invoke"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates child actor within machine (replaces spawn from v4)."
+  },
+  {
+    "id": "REACT_Stat_111",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Zustand middleware signature?",
+    "options": [
+      "(set, get, store) => stateCreator — receives store API",
+      "(set) => state",
+      "(get) => state",
+      "(store) => state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is (set, get, store) => stateCreator — receives store API."
+  },
+  {
+    "id": "REACT_Stat_112",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q947] Context API solves",
+    "question": "What is the getState() method in Zustand?",
     "options": [
-      "Styling",
+      "Reads current state outside React without subscription",
+      "subscribe()",
+      "setState()",
+      "destroy()"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Reads current state outside React without subscription."
+  },
+  {
+    "id": "REACT_Stat_113",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Zustand's temporal middleware (zundo)?",
+    "options": [
+      "Undo/redo history management for Zustand stores",
+      "Built-in feature",
+      "Optional feature",
+      "Devtools feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Undo/redo history management for Zustand stores."
+  },
+  {
+    "id": "REACT_Stat_114",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the context bridge pattern for Zustand?",
+    "options": [
+      "Pass store across React tree boundaries (e.g., iframes, portals)",
+      "Not needed",
+      "Required always",
+      "Context pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pass store across React tree boundaries (e.g., iframes, portals)."
+  },
+  {
+    "id": "REACT_Stat_115",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Jotai Provider's store prop?",
+    "options": [
+      "Pass custom store to scope atoms within subtree",
+      "Required prop",
+      "Optional prop",
+      "Default prop"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Pass custom store to scope atoms within subtree."
+  },
+  {
+    "id": "REACT_Stat_116",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Jotai debug label?",
+    "options": [
+      "atom.debugLabel = 'name' for better DevTools display",
+      "Required label",
+      "Optional label",
+      "Performance label"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is atom.debugLabel = 'name' for better DevTools display."
+  },
+  {
+    "id": "REACT_Stat_117",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Recoil's useRecoilCallback?",
+    "options": [
+      "Access Recoil state in callbacks outside React render phase",
+      "useRecoilState",
+      "useRecoilValue",
+      "useSetRecoilState"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Access Recoil state in callbacks outside React render phase."
+  },
+  {
+    "id": "REACT_Stat_118",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Recoil snapshot?",
+    "options": [
+      "Immutable capture of Recoil state for debugging or state management",
+      "Mutable state",
+      "Live state",
+      "Current state"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Immutable capture of Recoil state for debugging or state management."
+  },
+  {
+    "id": "REACT_Stat_119",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Recoil transact_UNSTABLE?",
+    "options": [
+      "Batch multiple atom updates into single re-render",
+      "Standard batch",
+      "useTransition",
+      "flushSync"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Batch multiple atom updates into single re-render."
+  },
+  {
+    "id": "REACT_Stat_120",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the global event bus pattern?",
+    "options": [
+      "CustomEvent/EventEmitter outside React for cross-component communication",
       "Prop drilling",
-      "Option not applicable",
-      "Routing"
+      "Context",
+      "Redux"
     ],
     "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
+    "explanation": "The correct answer is CustomEvent/EventEmitter outside React for cross-component communication."
   },
   {
-    "id": "react_1948",
+    "id": "REACT_Stat_121",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q948] What is a pure component?",
+    "question": "What is the state hydration problem with SSR?",
     "options": [
-      "Data not provided",
-      "HOC",
-      "Stateless component",
-      "Renders same output for same props"
+      "Mismatch between server-rendered state and client-hydrated state",
+      "No problem",
+      "CSS problem",
+      "Performance problem"
     ],
     "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
+    "explanation": "The correct answer is Mismatch between server-rendered state and client-hydrated state."
   },
   {
-    "id": "react_1949",
+    "id": "REACT_JSX_103",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q949] Event handling in React uses",
+    "question": "What is the JSX transform in React 17+?",
     "options": [
-      "Cannot be determined",
-      "Custom events",
-      "Synthetic events",
-      "Native DOM events"
+      "Automatic import of react/jsx-runtime — no need to import React in every file",
+      "Still required",
+      "Optional in 18",
+      "Deprecated in 19"
     ],
     "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
+    "explanation": "The correct answer is Automatic import of react/jsx-runtime — no need to import React in every file."
   },
   {
-    "id": "react_1950",
+    "id": "REACT_JSX_104",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q950] What is server-side rendering?",
+    "question": "What is the jsxs function vs jsx?",
     "options": [
-      "Static generation",
-      "None of the above",
-      "Client rendering",
-      "Rendering HTML on server"
+      "jsxs handles static children array; jsx handles dynamic/single children",
+      "Same function",
+      "jsx is newer",
+      "jsxs is deprecated"
     ],
     "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
+    "explanation": "The correct answer is jsxs handles static children array; jsx handles dynamic/single children."
   },
   {
-    "id": "react_1951",
+    "id": "REACT_JSX_105",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q951] Error boundary catches",
+    "question": "What is the new JSX transform benefit?",
     "options": [
-      "CSS errors",
-      "JavaScript errors in components",
-      "Network errors",
-      "Double negative"
+      "Smaller bundle (no React in scope), better Fast Refresh, future optimizations",
+      "No benefit",
+      "Worse performance",
+      "Larger bundle"
     ],
     "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
+    "explanation": "The correct answer is Smaller bundle (no React in scope), better Fast Refresh, future optimizations."
   },
   {
-    "id": "react_1952",
+    "id": "REACT_JSX_106",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q952] What is Suspense in React?",
+    "question": "What is the purpose of key in React.Fragment?",
     "options": [
-      "Waits for async components",
-      "Caches data",
-      "Insufficient information",
-      "Delays state"
+      "Keyed Fragments allow animating or identifying fragment groups in lists",
+      "Not supported",
+      "Optional feature",
+      "Performance feature"
     ],
     "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
+    "explanation": "The correct answer is Keyed Fragments allow animating or identifying fragment groups in lists."
   },
   {
-    "id": "react_1953",
+    "id": "REACT_JSX_107",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q953] Which hook replaces componentWillUnmount?",
+    "question": "What is the React.Children.toArray benefit over spreading?",
     "options": [
-      "useState",
-      "useRef",
-      "useCallback",
-      "useEffect cleanup return"
+      "Adds stable keys to children; flattens nested arrays",
+      "Same as spread",
+      "Slower",
+      "No benefit"
     ],
     "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
+    "explanation": "The correct answer is Adds stable keys to children; flattens nested arrays."
   },
   {
-    "id": "react_1954",
+    "id": "REACT_JSX_108",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the React.cloneElement use for libraries?",
+    "options": [
+      "Inject hidden props (context values, event handlers) without user knowing",
+      "Expose API",
+      "Clone for DOM",
+      "Copy element"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Inject hidden props (context values, event handlers) without user knowing."
+  },
+  {
+    "id": "REACT_JSX_109",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of suppressHydrationWarning?",
+    "options": [
+      "Silences hydration warning for intentionally different server/client content (timestamps)",
+      "Performance prop",
+      "Required prop",
+      "Debug prop"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Silences hydration warning for intentionally different server/client content (timestamps)."
+  },
+  {
+    "id": "REACT_JSX_110",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the dangerouslySetInnerHTML sanitization requirement?",
+    "options": [
+      "Must sanitize HTML (DOMPurify) before passing to prevent XSS attacks",
+      "Optional sanitization",
+      "Automatic sanitization",
+      "Not required"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Must sanitize HTML (DOMPurify) before passing to prevent XSS attacks."
+  },
+  {
+    "id": "REACT_JSX_111",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the SVG viewBox casing in JSX?",
+    "options": [
+      "viewBox (camelCase) not viewbox — JSX is case-sensitive for SVG attributes",
+      "All lowercase",
+      "All uppercase",
+      "Same as HTML"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is viewBox (camelCase) not viewbox — JSX is case-sensitive for SVG attributes."
+  },
+  {
+    "id": "REACT_JSX_112",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q954] Portal in React",
+    "question": "What is the React Portal use case?",
     "options": [
-      "Creates context",
-      "Renders outside parent DOM",
-      "Both B and C",
+      "Render children outside parent DOM node (modals, tooltips, dropdowns)",
+      "Required feature",
+      "Optional feature",
+      "Performance feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Render children outside parent DOM node (modals, tooltips, dropdowns)."
+  },
+  {
+    "id": "REACT_JSX_113",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the event bubbling behavior with Portals?",
+    "options": [
+      "Events still bubble through React tree (not DOM tree) — context works",
+      "Stops at portal boundary",
+      "Follows DOM tree",
+      "No bubbling"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Events still bubble through React tree (not DOM tree) — context works."
+  },
+  {
+    "id": "REACT_JSX_114",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is JSX in TypeScript's generic gotcha?",
+    "options": [
+      "<T> is ambiguous in .tsx — use <T,> or <T extends unknown>",
+      "No issue",
+      "TypeScript bug",
+      "Optional fix"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is <T> is ambiguous in .tsx — use <T,> or <T extends unknown>."
+  },
+  {
+    "id": "REACT_JSX_115",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the satisfies operator for JSX props?",
+    "options": [
+      "Validates props match type while keeping narrower literal types",
+      "Type assertion",
+      "Required operator",
+      "Optional operator"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Validates props match type while keeping narrower literal types."
+  },
+  {
+    "id": "REACT_JSX_116",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the React.ReactNode type?",
+    "options": [
+      "Broadest renderable type: string, number, element, array, null, boolean",
+      "React.ReactElement",
+      "JSX.Element",
+      "React.FC"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Broadest renderable type: string, number, element, array, null, boolean."
+  },
+  {
+    "id": "REACT_JSX_117",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is JSX.Element vs React.ReactElement?",
+    "options": [
+      "Identical — JSX.Element is alias for React.ReactElement<any, any>",
+      "Different types",
+      "JSX.Element is broader",
+      "ReactElement is broader"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Identical — JSX.Element is alias for React.ReactElement<any, any>."
+  },
+  {
+    "id": "REACT_JSX_118",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the React.FC deprecation discussion?",
+    "options": [
+      "React.FC implicitly included children (removed in v18) — prefer explicit function signature",
+      "Still recommended",
+      "Required in 18",
+      "Removed in 19"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is React.FC implicitly included children (removed in v18) — prefer explicit function signature."
+  },
+  {
+    "id": "REACT_JSX_119",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the React.PropsWithChildren utility type?",
+    "options": [
+      "Adds optional children?: React.ReactNode to existing props type",
+      "Required type",
+      "Performance type",
+      "Optional type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Adds optional children?: React.ReactNode to existing props type."
+  },
+  {
+    "id": "REACT_JSX_120",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the discriminated union for icon props?",
+    "options": [
+      "type IconProps = {name: 'home'} | {src: string} — enforces valid combinations",
+      "Generic props",
+      "Optional props",
+      "Required props"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is type IconProps = {name: 'home'} | {src: string} — enforces valid combinations."
+  },
+  {
+    "id": "REACT_JSX_121",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the template literal type for CSS-in-TS?",
+    "options": [
+      "type Spacing = `${number}px` for type-safe style values",
+      "String type",
+      "Number type",
+      "Union type"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is type Spacing = `${number}px` for type-safe style values."
+  },
+  {
+    "id": "REACT_Rout_103",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Tanstack Router's route tree generation?",
+    "options": [
+      "Type-safe route tree auto-generated from file structure — enables TypeScript inference",
+      "Manual routing",
+      "Config routing",
+      "JSON routing"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Type-safe route tree auto-generated from file structure — enables TypeScript inference."
+  },
+  {
+    "id": "REACT_Rout_104",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the search param schema in Tanstack Router?",
+    "options": [
+      "Zod/Valibot schema validating URL search params with TypeScript types",
+      "Optional schema",
+      "Required schema",
+      "JSON schema"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Zod/Valibot schema validating URL search params with TypeScript types."
+  },
+  {
+    "id": "REACT_Rout_105",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the createRootRoute in Tanstack Router?",
+    "options": [
+      "Creates root route with layout — all other routes are children",
+      "Child route",
+      "Index route",
+      "Error route"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates root route with layout — all other routes are children."
+  },
+  {
+    "id": "REACT_Rout_106",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Tanstack Router's RouterContext?",
+    "options": [
+      "Typed context passed to all routes (queryClient, auth, etc.) at router creation",
+      "React context",
+      "Module context",
+      "State context"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Typed context passed to all routes (queryClient, auth, etc.) at router creation."
+  },
+  {
+    "id": "REACT_Rout_107",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Tanstack Router's staleTime for loaders?",
+    "options": [
+      "Caches loader data and prevents refetch if data is still fresh",
+      "Required option",
+      "Optional option",
+      "Performance option"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Caches loader data and prevents refetch if data is still fresh."
+  },
+  {
+    "id": "REACT_Rout_108",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Tanstack Router's preload intent?",
+    "options": [
+      "Preloads route on link hover or focus for faster navigation",
+      "Required preload",
+      "Optional preload",
+      "Automatic preload"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Preloads route on link hover or focus for faster navigation."
+  },
+  {
+    "id": "REACT_Rout_109",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Wouter library?",
+    "options": [
+      "Tiny React router (~1.3kb) for simple SPAs without React Router complexity",
+      "React Router alternative",
+      "Full-featured router",
+      "SSR router"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Tiny React router (~1.3kb) for simple SPAs without React Router complexity."
+  },
+  {
+    "id": "REACT_Rout_110",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is React Router v7's new data pattern?",
+    "options": [
+      "Loaders and actions in route config — closer alignment with Remix",
+      "Same as v6",
+      "v6 pattern only",
+      "Breaking change"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Loaders and actions in route config — closer alignment with Remix."
+  },
+  {
+    "id": "REACT_Rout_111",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Network Waterfall problem in routing?",
+    "options": [
+      "Sequential data fetching as routes load — loaders parallelize fetching",
+      "No problem",
+      "CSS problem",
+      "Bundle problem"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sequential data fetching as routes load — loaders parallelize fetching."
+  },
+  {
+    "id": "REACT_Rout_112",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is render-as-you-fetch pattern?",
+    "options": [
+      "Start fetching before render begins (loaders) — not fetch-then-render",
+      "Fetch then render",
+      "Render then fetch",
+      "No pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Start fetching before render begins (loaders) — not fetch-then-render."
+  },
+  {
+    "id": "REACT_Rout_113",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the fetch-on-render problem?",
+    "options": [
+      "Component renders, then starts fetch, causing loading spinner waterfall",
+      "Optimal pattern",
+      "Required pattern",
+      "Common pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Component renders, then starts fetch, causing loading spinner waterfall."
+  },
+  {
+    "id": "REACT_Rout_114",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is route-based code splitting benefit?",
+    "options": [
+      "Each route only loads its own bundle — faster initial page load",
+      "No benefit",
+      "Performance only",
+      "SSR only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Each route only loads its own bundle — faster initial page load."
+  },
+  {
+    "id": "REACT_Rout_115",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Medium",
+    "type": "MCQ",
+    "question": "What is the history API pushState vs replaceState?",
+    "options": [
+      "pushState adds history entry; replaceState modifies current without adding",
+      "Same",
+      "replaceState adds",
+      "pushState removes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is pushState adds history entry; replaceState modifies current without adding."
+  },
+  {
+    "id": "REACT_Rout_116",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the popstate event?",
+    "options": [
+      "Fires when browser back/forward navigation changes history state",
+      "pushState event",
+      "replaceState event",
+      "Load event"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Fires when browser back/forward navigation changes history state."
+  },
+  {
+    "id": "REACT_Rout_117",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is hash routing limitation?",
+    "options": [
+      "Hash routes don't send path to server — all must return same HTML",
+      "Server doesn't see hash",
+      "Required for SPA",
+      "Deprecated approach"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hash routes don't send path to server — all must return same HTML."
+  },
+  {
+    "id": "REACT_Rout_118",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the basename option in BrowserRouter?",
+    "options": [
+      "Sets base URL for app deployed at subdirectory: /my-app",
+      "Required option",
+      "Optional option",
+      "Performance option"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Sets base URL for app deployed at subdirectory: /my-app."
+  },
+  {
+    "id": "REACT_Rout_119",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Next.js App Router vs Pages Router?",
+    "options": [
+      "App: React Server Components, streaming, layouts; Pages: classic getServerSideProps",
+      "Same",
+      "App is legacy",
+      "Pages is newer"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is App: React Server Components, streaming, layouts; Pages: classic getServerSideProps."
+  },
+  {
+    "id": "REACT_Rout_120",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Next.js parallel routes?",
+    "options": [
+      "@folder syntax rendering multiple pages simultaneously in same layout",
+      "Sequential routes",
+      "Optional routes",
+      "Advanced routes"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is @folder syntax rendering multiple pages simultaneously in same layout."
+  },
+  {
+    "id": "REACT_Rout_121",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Next.js intercepting routes?",
+    "options": [
+      "(.) syntax showing route in modal while URL changes — Instagram-like patterns",
+      "Optional feature",
+      "Required feature",
+      "Layout feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is (.) syntax showing route in modal while URL changes — Instagram-like patterns."
+  },
+  {
+    "id": "REACT_Life_103",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the hydration mismatch error?",
+    "options": [
+      "Server HTML differs from client render — React throws in development",
+      "Performance error",
+      "Prop error",
+      "State error"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Server HTML differs from client render — React throws in development."
+  },
+  {
+    "id": "REACT_Life_104",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the suppressHydrationWarning workaround?",
+    "options": [
+      "For intentionally different content (timestamps) not to error during hydration",
+      "Required workaround",
+      "Optional workaround",
+      "Debug workaround"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is For intentionally different content (timestamps) not to error during hydration."
+  },
+  {
+    "id": "REACT_Life_105",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is React 18's hydrateRoot behavior?",
+    "options": [
+      "Recovers from mismatch by re-rendering client-side (no error thrown)",
+      "Same as ReactDOM.hydrate",
+      "Throws always",
+      "Ignores mismatch"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Recovers from mismatch by re-rendering client-side (no error thrown)."
+  },
+  {
+    "id": "REACT_Life_106",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is selective hydration?",
+    "options": [
+      "React prioritizes hydrating components user interacts with first",
+      "Full hydration",
+      "Progressive hydration",
+      "Lazy hydration"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is React prioritizes hydrating components user interacts with first."
+  },
+  {
+    "id": "REACT_Life_107",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is deferred hydration?",
+    "options": [
+      "Delay hydrating non-critical components until browser is idle",
+      "Required hydration",
+      "Selective hydration",
+      "Lazy hydration"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Delay hydrating non-critical components until browser is idle."
+  },
+  {
+    "id": "REACT_Life_108",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the island hydration pattern?",
+    "options": [
+      "Hydrate only interactive islands — rest stays static HTML",
+      "Full hydration",
+      "Selective hydration",
+      "No hydration"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Hydrate only interactive islands — rest stays static HTML."
+  },
+  {
+    "id": "REACT_Life_109",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the React 19 prerender API?",
+    "options": [
+      "Renders React tree to stream without hydration for static generation",
+      "renderToString",
+      "renderToStaticMarkup",
+      "renderToPipeableStream"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Renders React tree to stream without hydration for static generation."
+  },
+  {
+    "id": "REACT_Life_110",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is renderToPipeableStream benefit?",
+    "options": [
+      "Streams HTML to client progressively — shows content as it's ready",
+      "Full HTML first",
+      "Blocking render",
+      "Static render"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Streams HTML to client progressively — shows content as it's ready."
+  },
+  {
+    "id": "REACT_Life_111",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is renderToReadableStream?",
+    "options": [
+      "Web streams API for server-side React rendering (Cloudflare Workers, Deno)",
+      "Node.js only",
+      "Browser only",
+      "Same as pipeable"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Web streams API for server-side React rendering (Cloudflare Workers, Deno)."
+  },
+  {
+    "id": "REACT_Life_112",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the onShellReady callback?",
+    "options": [
+      "Fires when shell HTML is ready to be sent to client (before Suspense resolves)",
+      "Required callback",
+      "Optional callback",
+      "Error callback"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Fires when shell HTML is ready to be sent to client (before Suspense resolves)."
+  },
+  {
+    "id": "REACT_Life_113",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the onAllReady callback?",
+    "options": [
+      "Fires when entire page is rendered including all Suspense boundaries",
+      "Shell callback",
+      "Error callback",
+      "Abort callback"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Fires when entire page is rendered including all Suspense boundaries."
+  },
+  {
+    "id": "REACT_Life_114",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the shell in streaming SSR?",
+    "options": [
+      "Synchronous HTML content before any Suspense boundaries resolve",
+      "Async content",
+      "Dynamic content",
+      "Client content"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Synchronous HTML content before any Suspense boundaries resolve."
+  },
+  {
+    "id": "REACT_Life_115",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is React Flight protocol?",
+    "options": [
+      "Serialization format for React Server Components over the network",
+      "HTTP protocol",
+      "GraphQL protocol",
+      "Custom format"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Serialization format for React Server Components over the network."
+  },
+  {
+    "id": "REACT_Life_116",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is RSC payload?",
+    "options": [
+      "Serialized component tree from server containing props and client component references",
+      "HTML payload",
+      "JSON payload",
+      "Binary payload"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Serialized component tree from server containing props and client component references."
+  },
+  {
+    "id": "REACT_Life_117",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a client component in RSC?",
+    "options": [
+      "'use client' directive — component that runs in browser with interactivity",
+      "Server component",
+      "Shared component",
+      "Universal component"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is 'use client' directive — component that runs in browser with interactivity."
+  },
+  {
+    "id": "REACT_Life_118",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a server component in RSC?",
+    "options": [
+      "Renders on server only — can access DB, filesystem, no useState/useEffect",
+      "Client component",
+      "Universal component",
+      "Hybrid component"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Renders on server only — can access DB, filesystem, no useState/useEffect."
+  },
+  {
+    "id": "REACT_Life_119",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the composition pattern for RSC?",
+    "options": [
+      "Server component passing client component as prop/children — avoids the boundary",
+      "Context pattern",
+      "Import pattern",
       "HOC pattern"
     ],
     "answer": 0,
-    "explanation": "Portals render children into different DOM node."
+    "explanation": "The correct answer is Server component passing client component as prop/children — avoids the boundary."
   },
   {
-    "id": "react_1955",
+    "id": "REACT_Life_120",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the RSC boundary rule?",
+    "options": [
+      "Client component cannot import server component (only pass as prop/children)",
+      "Optional rule",
+      "Performance rule",
+      "SSR rule"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Client component cannot import server component (only pass as prop/children)."
+  },
+  {
+    "id": "REACT_Life_121",
+    "topic": "React Engineer",
+    "section": "Hooks & State",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is React's cache() for RSC?",
+    "options": [
+      "Deduplicates same data fetches across component tree within one request",
+      "Browser cache",
+      "HTTP cache",
+      "State cache"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Deduplicates same data fetches across component tree within one request."
+  },
+  {
+    "id": "REACT_Redu_103",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Redux Toolkit v2 change?",
+    "options": [
+      "combineSlices for lazy loading, createSlice improvements, RTK Query improvements",
+      "Minor update",
+      "Breaking API",
+      "Same as v1"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is combineSlices for lazy loading, createSlice improvements, RTK Query improvements."
+  },
+  {
+    "id": "REACT_Redu_104",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the reducers field in RTK createSlice?",
+    "options": [
+      "Object or callback defining case reducers for slice actions",
+      "Required field",
+      "Optional field",
+      "External field"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Object or callback defining case reducers for slice actions."
+  },
+  {
+    "id": "REACT_Redu_105",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the selectors field in RTK createSlice?",
+    "options": [
+      "Define memoized selectors alongside slice — receives rootState",
+      "Optional field",
+      "Required field",
+      "External field"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Define memoized selectors alongside slice — receives rootState."
+  },
+  {
+    "id": "REACT_Redu_106",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is RTK's createAppSlice?",
+    "options": [
+      "Combines createSlice with async thunk support in single API",
+      "createSlice variant",
+      "RTK Query variant",
+      "Store variant"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Combines createSlice with async thunk support in single API."
+  },
+  {
+    "id": "REACT_Redu_107",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the RTK Query v2 improvement?",
+    "options": [
+      "Improved TypeScript inference, serializeQueryArgs, streaming updates",
+      "Same as v1",
+      "Breaking change",
+      "Minor update"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Improved TypeScript inference, serializeQueryArgs, streaming updates."
+  },
+  {
+    "id": "REACT_Redu_108",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the atomFamily cleanup requirement in Jotai?",
+    "options": [
+      "Remove unused atoms with atomFamily.remove() to prevent memory leaks",
+      "Automatic cleanup",
+      "Not required",
+      "Performance cleanup"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Remove unused atoms with atomFamily.remove() to prevent memory leaks."
+  },
+  {
+    "id": "REACT_Redu_109",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Zustand v5 change?",
+    "options": [
+      "Stricter types, no more StoreApi mutation, improved middleware TypeScript",
+      "Same as v4",
+      "Minor update",
+      "Breaking deprecation"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Stricter types, no more StoreApi mutation, improved middleware TypeScript."
+  },
+  {
+    "id": "REACT_Redu_110",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the selector result equality in Reselect?",
+    "options": [
+      "Returns same reference if inputs unchanged — prevents downstream re-renders",
+      "New reference always",
+      "Optional equality",
+      "Deep equality"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Returns same reference if inputs unchanged — prevents downstream re-renders."
+  },
+  {
+    "id": "REACT_Redu_111",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the createStructuredSelector in Reselect?",
+    "options": [
+      "Creates selector returning object mapping key names to selector results",
+      "Manual object",
+      "Computed object",
+      "Memoized object"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Creates selector returning object mapping key names to selector results."
+  },
+  {
+    "id": "REACT_Redu_112",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the RTK Query code generation tool?",
+    "options": [
+      "Generates RTK Query API from OpenAPI/Swagger spec automatically",
+      "Manual generation",
+      "Required tool",
+      "Optional tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Generates RTK Query API from OpenAPI/Swagger spec automatically."
+  },
+  {
+    "id": "REACT_Redu_113",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the RTKQ generateReactHooks option?",
+    "options": [
+      "Generates React hooks for each endpoint (enabled by default)",
+      "Optional option",
+      "Required option",
+      "Performance option"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Generates React hooks for each endpoint (enabled by default)."
+  },
+  {
+    "id": "REACT_Redu_114",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the entityAdapter selectTotal?",
+    "options": [
+      "Returns count of all entities in collection",
+      "Returns all entities",
+      "Returns IDs",
+      "Returns object"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Returns count of all entities in collection."
+  },
+  {
+    "id": "REACT_Redu_115",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the RTK listener's takeEvery?",
+    "options": [
+      "Runs listener for every matching action without cancelling previous",
+      "takeLatest",
+      "takeFirst",
+      "takeLeading"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Runs listener for every matching action without cancelling previous."
+  },
+  {
+    "id": "REACT_Redu_116",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the RTK listener's takeFirst?",
+    "options": [
+      "Runs listener only if no current listener running — ignores subsequent",
+      "takeEvery",
+      "takeLatest",
+      "takeLeading"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Runs listener only if no current listener running — ignores subsequent."
+  },
+  {
+    "id": "REACT_Redu_117",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is a Redux action log middleware?",
+    "options": [
+      "Middleware logging dispatched actions and resulting state to console",
+      "DevTools only",
+      "Required tool",
+      "Optional tool"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Middleware logging dispatched actions and resulting state to console."
+  },
+  {
+    "id": "REACT_Redu_118",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is immutability enforcement in RTK?",
+    "options": [
+      "Middleware checking if state mutations happen outside reducers",
+      "Optional enforcement",
+      "Required enforcement",
+      "Dev-only enforcement"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Middleware checking if state mutations happen outside reducers."
+  },
+  {
+    "id": "REACT_Redu_119",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Redux Toolkit broadcast middleware?",
+    "options": [
+      "Syncs Redux state across browser tabs via BroadcastChannel",
+      "Built-in feature",
+      "Optional feature",
+      "Third-party feature"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Syncs Redux state across browser tabs via BroadcastChannel."
+  },
+  {
+    "id": "REACT_Redu_120",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the RTK createSlice callback syntax for reducers?",
+    "options": [
+      "builders.addCase / builders.addMatcher for TypeScript-safe reducer definition",
+      "Object syntax",
+      "Array syntax",
+      "Function syntax"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is builders.addCase / builders.addMatcher for TypeScript-safe reducer definition."
+  },
+  {
+    "id": "REACT_Redu_121",
+    "topic": "React Engineer",
+    "section": "Advanced Patterns",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the RTK entityAdapter's many methods?",
+    "options": [
+      "setMany, addMany, upsertMany, updateMany, removeMany — bulk operations",
+      "Single methods only",
+      "No many methods",
+      "Optional methods"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is setMany, addMany, upsertMany, updateMany, removeMany — bulk operations."
+  },
+  {
+    "id": "REACT_Opti_105",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the React Compiler's opt-out?",
+    "options": [
+      "'use no memo' directive skips compilation for specific component",
+      "'use client'",
+      "'use server'",
+      "'use strict'"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is 'use no memo' directive skips compilation for specific component."
+  },
+  {
+    "id": "REACT_Opti_106",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the automatic memo boundary?",
+    "options": [
+      "React Compiler wraps component with memo equivalent automatically",
+      "Manual memo",
+      "Required memo",
+      "Optional memo"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is React Compiler wraps component with memo equivalent automatically."
+  },
+  {
+    "id": "REACT_Opti_107",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the concurrent rendering performance benefit?",
+    "options": [
+      "Can interrupt expensive renders to keep UI responsive",
+      "No benefit",
+      "Memory benefit",
+      "Bundle benefit"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Can interrupt expensive renders to keep UI responsive."
+  },
+  {
+    "id": "REACT_Opti_108",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is useTransition for expensive state?",
+    "options": [
+      "Mark non-urgent update so React can interrupt if user interacts",
+      "Required for all",
+      "Optional optimization",
+      "Deprecated hook"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Mark non-urgent update so React can interrupt if user interacts."
+  },
+  {
+    "id": "REACT_Opti_109",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the React.memo vs useMemo difference?",
+    "options": [
+      "memo: memoizes component; useMemo: memoizes computed value",
+      "Same",
+      "memo is for values",
+      "useMemo is for components"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is memo: memoizes component; useMemo: memoizes computed value."
+  },
+  {
+    "id": "REACT_Opti_110",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the cost of over-memoization?",
+    "options": [
+      "Memory overhead, comparison cost, stale closure bugs — worse than nothing",
+      "No cost",
+      "Always beneficial",
+      "Required pattern"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Memory overhead, comparison cost, stale closure bugs — worse than nothing."
+  },
+  {
+    "id": "REACT_Opti_111",
+    "topic": "React Engineer",
+    "section": "Performance & Testing",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the browser paint performance bottleneck?",
+    "options": [
+      "Long JavaScript execution blocking main thread prevents paint updates",
+      "Memory issue",
+      "Network issue",
+      "GPU issue"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Long JavaScript execution blocking main thread prevents paint updates."
+  },
+  {
+    "id": "REACT_Opti_112",
     "topic": "React Engineer",
     "section": "Performance & Testing",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q955] What is code splitting?",
+    "question": "What is the React DevTools Profiler's record button?",
     "options": [
-      "Minification",
-      "Breaking bundle into chunks",
-      "Both B and C",
-      "Compression"
+      "Start recording interactions to capture render timings",
+      "Required action",
+      "Optional action",
+      "Debug action"
     ],
     "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
+    "explanation": "The correct answer is Start recording interactions to capture render timings."
   },
   {
-    "id": "react_1956",
+    "id": "REACT_Opti_113",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q956] Redux is used for",
+    "question": "What is the interaction timing in Profiler?",
     "options": [
-      "Testing",
-      "Routing",
-      "Styling",
-      "Global state management"
+      "Time from user action to screen update — should be under 100ms for responsiveness",
+      "No limit",
+      "50ms limit",
+      "200ms limit"
     ],
     "answer": 0,
-    "explanation": "Redux manages application-wide state."
+    "explanation": "The correct answer is Time from user action to screen update — should be under 100ms for responsiveness."
   },
   {
-    "id": "react_1957",
+    "id": "REACT_Opti_114",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q957] What does useLayoutEffect do?",
+    "question": "What is the JavaScript long task threshold?",
     "options": [
-      "Async effect",
-      "Neither A nor B",
-      "State update",
-      "Fires sync after DOM mutations"
+      "Tasks over 50ms block main thread and cause jank — break up with chunks",
+      "100ms",
+      "10ms",
+      "200ms"
     ],
     "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
+    "explanation": "The correct answer is Tasks over 50ms block main thread and cause jank — break up with chunks."
   },
   {
-    "id": "react_1958",
+    "id": "REACT_Opti_115",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q958] Immutability in React state means",
+    "question": "What is the scheduler.yield() proposal?",
     "options": [
-      "All of the above",
-      "Create new object instead of mutating",
-      "Modify in place",
-      "Delete state"
+      "Explicitly yield to browser in long computations (not yet standard)",
+      "Required API",
+      "Standard API",
+      "Browser API"
     ],
     "answer": 0,
-    "explanation": "React state must be updated immutably."
+    "explanation": "The correct answer is Explicitly yield to browser in long computations (not yet standard)."
   },
   {
-    "id": "react_1959",
+    "id": "REACT_Opti_116",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q959] What is the children prop?",
+    "question": "What is the purpose of will-change: transform?",
     "options": [
-      "State value",
-      "Cannot be determined",
-      "Component name",
-      "Content between component tags"
+      "Creates new compositor layer for smooth CSS animations",
+      "Required CSS",
+      "Always use",
+      "Overuse causes issues"
     ],
     "answer": 0,
-    "explanation": "children contains nested JSX/elements."
+    "explanation": "The correct answer is Creates new compositor layer for smooth CSS animations."
   },
   {
-    "id": "react_1960",
+    "id": "REACT_Opti_117",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q960] Batching in React 18",
+    "question": "What is layout thrashing?",
     "options": [
-      "Single update",
-      "Multiple state updates in one render",
-      "Sequential renders",
-      "The above is incorrect"
+      "Alternating between reading and writing DOM layout properties forces recalculation",
+      "No such issue",
+      "CSS issue",
+      "Style issue"
     ],
     "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
+    "explanation": "The correct answer is Alternating between reading and writing DOM layout properties forces recalculation."
   },
   {
-    "id": "react_1961",
+    "id": "REACT_Opti_118",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q961] What is React?",
+    "question": "What is batch DOM reads and writes?",
     "options": [
-      "JavaScript UI library",
-      "Database ORM",
-      "Backend framework",
-      "CSS framework"
+      "Group reads together then writes — avoid interleaving to prevent thrashing",
+      "Random order",
+      "Writes first",
+      "No pattern"
     ],
     "answer": 0,
-    "explanation": "React is a JS library for building UIs."
+    "explanation": "The correct answer is Group reads together then writes — avoid interleaving to prevent thrashing."
   },
   {
-    "id": "react_1962",
+    "id": "REACT_Opti_119",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q962] JSX stands for",
+    "question": "What is the Next.js edge runtime performance?",
     "options": [
-      "All of the above",
-      "Java Syntax Extension",
-      "JavaScript Extension",
-      "JavaScript XML"
+      "Faster cold starts than Node.js serverless — runs closer to users",
+      "Slower cold start",
+      "Same speed",
+      "No benefit"
     ],
     "answer": 0,
-    "explanation": "JSX allows HTML in JavaScript."
+    "explanation": "The correct answer is Faster cold starts than Node.js serverless — runs closer to users."
   },
   {
-    "id": "react_1963",
+    "id": "REACT_Opti_120",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q963] useState returns",
+    "question": "What is Partial Hydration vs Selective Hydration?",
     "options": [
-      "Only value",
-      "Array of objects",
-      "State value and setter",
-      "Only setter"
+      "Partial: never hydrates some components; Selective: prioritizes which to hydrate first",
+      "Same",
+      "Partial is priority",
+      "Selective is permanent"
     ],
     "answer": 0,
-    "explanation": "useState returns [value, setter] pair."
+    "explanation": "The correct answer is Partial: never hydrates some components; Selective: prioritizes which to hydrate first."
   },
   {
-    "id": "react_1964",
+    "id": "REACT_Opti_121",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q964] useEffect is used for",
+    "question": "What is the purpose of HTTP/2 server push for React?",
     "options": [
-      "Side effects",
-      "State management",
-      "Routing",
-      "Styling"
+      "Push critical JS bundles proactively — replaced by preload headers in practice",
+      "Required feature",
+      "Deprecated",
+      "Optional feature"
     ],
     "answer": 0,
-    "explanation": "useEffect handles side effects in components."
+    "explanation": "The correct answer is Push critical JS bundles proactively — replaced by preload headers in practice."
   },
   {
-    "id": "react_1965",
+    "id": "REACT_Opti_122",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q965] Virtual DOM purpose",
+    "question": "What is compression for React bundles?",
     "options": [
-      "Both A and B",
-      "CSS handling",
-      "Real DOM replacement",
-      "Performance optimization"
+      "Gzip/Brotli compression reduces JS transfer size by 60-80%",
+      "No compression",
+      "CSS only",
+      "HTML only"
     ],
     "answer": 0,
-    "explanation": "Virtual DOM minimizes real DOM updates."
+    "explanation": "The correct answer is Gzip/Brotli compression reduces JS transfer size by 60-80%."
   },
   {
-    "id": "react_1966",
+    "id": "REACT_Opti_123",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q966] Props are",
+    "question": "What is the module/nomodule pattern?",
     "options": [
-      "Neither A nor B",
-      "Component state",
-      "Read-only data passed to components",
-      "CSS classes"
+      "Serve modern ES modules to modern browsers, legacy bundle to old ones",
+      "No pattern",
+      "Optional pattern",
+      "Required pattern"
     ],
     "answer": 0,
-    "explanation": "Props flow from parent to child, immutable."
+    "explanation": "The correct answer is Serve modern ES modules to modern browsers, legacy bundle to old ones."
   },
   {
-    "id": "react_1967",
+    "id": "REACT_Test_103",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q967] State vs Props: State is",
+    "question": "What is Vitest vs Jest?",
     "options": [
-      "Immutable",
-      "Passed from parent",
-      "Mutable within component",
-      "Global"
+      "Vitest uses Vite toolchain, native ESM, faster — Jest uses Babel/Node",
+      "Same",
+      "Jest is faster",
+      "Vitest is older"
     ],
     "answer": 0,
-    "explanation": "State is local mutable data in a component."
+    "explanation": "The correct answer is Vitest uses Vite toolchain, native ESM, faster — Jest uses Babel/Node."
   },
   {
-    "id": "react_1968",
+    "id": "REACT_Test_104",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q968] React key prop purpose",
+    "question": "What is the Vitest ui flag?",
     "options": [
-      "Style elements",
-      "Pass data",
-      "Identify list items",
-      "Neither A nor B"
+      "Opens interactive browser UI for running and debugging tests",
+      "Required flag",
+      "Performance flag",
+      "Optional flag"
     ],
     "answer": 0,
-    "explanation": "Keys help React identify which items changed."
+    "explanation": "The correct answer is Opens interactive browser UI for running and debugging tests."
   },
   {
-    "id": "react_1969",
+    "id": "REACT_Test_105",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q969] What is a higher-order component?",
+    "question": "What is Vitest's happy-dom?",
     "options": [
-      "Neither A nor B",
-      "Class component",
-      "Component that takes/returns component",
-      "Hook"
+      "Faster JSDOM alternative for DOM testing in Vitest",
+      "Node.js DOM",
+      "Browser DOM",
+      "JSDOM alternative"
     ],
     "answer": 0,
-    "explanation": "HOC wraps another component to add behavior."
+    "explanation": "The correct answer is Faster JSDOM alternative for DOM testing in Vitest."
   },
   {
-    "id": "react_1970",
+    "id": "REACT_Test_106",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q970] useContext is used for",
+    "question": "What is browser mode in Vitest?",
     "options": [
-      "Side effects",
-      "None of the above",
-      "Local state",
-      "Consuming context"
+      "Runs tests in actual browser via Playwright/WebdriverIO for real DOM",
+      "Node.js mode",
+      "JSDOM mode",
+      "Happy-DOM mode"
     ],
     "answer": 0,
-    "explanation": "useContext reads from a React context."
+    "explanation": "The correct answer is Runs tests in actual browser via Playwright/WebdriverIO for real DOM."
   },
   {
-    "id": "react_1971",
+    "id": "REACT_Test_107",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q971] React.memo does what?",
+    "question": "What is Playwright's component testing?",
     "options": [
-      "Memoizes component",
-      "Creates context",
-      "Both A and B",
-      "Handles effects"
+      "Mounts React components in real browser for integration testing",
+      "E2E testing",
+      "Unit testing",
+      "Visual testing"
     ],
     "answer": 0,
-    "explanation": "React.memo prevents unnecessary re-renders."
+    "explanation": "The correct answer is Mounts React components in real browser for integration testing."
   },
   {
-    "id": "react_1972",
+    "id": "REACT_Test_108",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q972] What does ReactDOM.render do?",
+    "question": "What is Storybook's interaction testing?",
     "options": [
-      "Insufficient information",
-      "Renders React element to DOM",
-      "Creates state",
-      "Defines component"
+      "Play function simulating user interactions in Storybook for automated testing",
+      "Visual testing",
+      "Snapshot testing",
+      "Unit testing"
     ],
     "answer": 0,
-    "explanation": "ReactDOM.render mounts component into DOM."
+    "explanation": "The correct answer is Play function simulating user interactions in Storybook for automated testing."
   },
   {
-    "id": "react_1973",
+    "id": "REACT_Test_109",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q973] Default export syntax in ES6",
+    "question": "What is Chromatic?",
     "options": [
-      "export { Component }",
-      "export default Component",
-      "export Component",
-      "module.exports"
+      "Visual regression testing service for Storybook detecting UI changes",
+      "Unit testing",
+      "Integration testing",
+      "E2E testing"
     ],
     "answer": 0,
-    "explanation": "Default exports use 'export default'."
+    "explanation": "The correct answer is Visual regression testing service for Storybook detecting UI changes."
   },
   {
-    "id": "react_1974",
+    "id": "REACT_Test_110",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q974] What is prop drilling?",
+    "question": "What is Percy visual testing?",
     "options": [
-      "Direct prop passing",
-      "Passing props through many layers",
-      "Context API",
-      "Data not provided"
+      "Screenshot-based visual regression testing comparing UI across branches",
+      "Chromatic alternative",
+      "Unit testing",
+      "Functional testing"
     ],
     "answer": 0,
-    "explanation": "Prop drilling passes props through intermediate components."
+    "explanation": "The correct answer is Screenshot-based visual regression testing comparing UI across branches."
   },
   {
-    "id": "react_1975",
+    "id": "REACT_Test_111",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q975] useReducer is used for",
+    "question": "What is the test.each API in Jest/Vitest?",
     "options": [
-      "Complex state logic",
-      "Side effects",
-      "Both A and B",
-      "Simple state"
+      "Runs same test with different data sets (table-driven testing)",
+      "Required API",
+      "Optional API",
+      "Performance API"
     ],
     "answer": 0,
-    "explanation": "useReducer manages complex state transitions."
+    "explanation": "The correct answer is Runs same test with different data sets (table-driven testing)."
   },
   {
-    "id": "react_1976",
+    "id": "REACT_Test_112",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q976] React Router's <Route> does what?",
+    "question": "What is the describe.each API?",
     "options": [
-      "Maps path to component",
-      "Handles forms",
-      "Neither A nor B",
-      "Creates links"
+      "Creates describe blocks for each row of test data",
+      "test.each",
+      "it.each",
+      "fit.each"
     ],
     "answer": 0,
-    "explanation": "Route renders component for matched URL path."
+    "explanation": "The correct answer is Creates describe blocks for each row of test data."
   },
   {
-    "id": "react_1977",
+    "id": "REACT_Test_113",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q977] What is lazy loading in React?",
+    "question": "What is snapshot testing limitation?",
     "options": [
-      "Preloading",
-      "All of the above",
-      "Loading components on demand",
-      "Eager loading"
+      "Snapshots become noise — developers accept changes without reviewing them",
+      "No limitation",
+      "Performance issue",
+      "Bundle issue"
     ],
     "answer": 0,
-    "explanation": "React.lazy loads components only when needed."
+    "explanation": "The correct answer is Snapshots become noise — developers accept changes without reviewing them."
   },
   {
-    "id": "react_1978",
+    "id": "REACT_Test_114",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q978] Controlled component means",
+    "question": "What is the purpose of --updateSnapshot flag?",
     "options": [
-      "Class component",
-      "All of the above",
-      "Uncontrolled input",
-      "Form input tied to state"
+      "Update all outdated snapshots in test suite at once",
+      "Required flag",
+      "Debug flag",
+      "Optional flag"
     ],
     "answer": 0,
-    "explanation": "Controlled components have state-driven input values."
+    "explanation": "The correct answer is Update all outdated snapshots in test suite at once."
   },
   {
-    "id": "react_1979",
+    "id": "REACT_Test_115",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q979] What is reconciliation?",
+    "question": "What is test coverage branch coverage?",
     "options": [
-      "State creation",
-      "Initial render",
-      "React's DOM update process",
-      "Option not applicable"
+      "Percentage of conditional branches (if/else) executed by tests",
+      "Line coverage",
+      "Statement coverage",
+      "Function coverage"
     ],
     "answer": 0,
-    "explanation": "Reconciliation computes minimal DOM updates."
+    "explanation": "The correct answer is Percentage of conditional branches (if/else) executed by tests."
   },
   {
-    "id": "react_1980",
+    "id": "REACT_Test_116",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q980] Fragment in React",
+    "question": "What is the testing pyramid?",
     "options": [
-      "The above is incorrect",
-      "Adds a div",
-      "Groups elements without extra DOM node",
-      "Creates context"
+      "Many unit tests, fewer integration, fewest E2E — balances speed and confidence",
+      "Triangle only",
+      "Inverted pyramid",
+      "No pyramid"
     ],
     "answer": 0,
-    "explanation": "Fragments avoid unnecessary wrapper elements."
+    "explanation": "The correct answer is Many unit tests, fewer integration, fewest E2E — balances speed and confidence."
   },
   {
-    "id": "react_1981",
+    "id": "REACT_Test_117",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q981] useCallback memoizes",
+    "question": "What is the testing trophy (Kent C. Dodds)?",
     "options": [
-      "Components",
-      "Effects",
-      "Functions",
-      "Values"
+      "Focus on integration tests: fewer unit, many integration, some E2E",
+      "Testing pyramid",
+      "Inverted pyramid",
+      "Same as pyramid"
     ],
     "answer": 0,
-    "explanation": "useCallback prevents function recreation on re-render."
+    "explanation": "The correct answer is Focus on integration tests: fewer unit, many integration, some E2E."
   },
   {
-    "id": "react_1982",
+    "id": "REACT_Test_118",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q982] useMemo memoizes",
+    "question": "What is contract testing purpose?",
     "options": [
-      "Functions",
-      "Computed values",
-      "Effects",
-      "Components"
+      "Verify API consumer and provider agree on interface without E2E tests",
+      "Integration testing",
+      "Unit testing",
+      "E2E testing"
     ],
     "answer": 0,
-    "explanation": "useMemo caches expensive computations."
+    "explanation": "The correct answer is Verify API consumer and provider agree on interface without E2E tests."
   },
   {
-    "id": "react_1983",
+    "id": "REACT_Test_119",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q983] What is the StrictMode?",
+    "question": "What is the fake indexedDB for tests?",
     "options": [
-      "Production mode",
-      "Development helper for warnings",
-      "The above is incorrect",
-      "Testing tool"
+      "Polyfill enabling IndexedDB usage in Node.js test environment",
+      "Real indexedDB",
+      "Optional tool",
+      "Browser only"
     ],
     "answer": 0,
-    "explanation": "StrictMode highlights potential problems in dev."
+    "explanation": "The correct answer is Polyfill enabling IndexedDB usage in Node.js test environment."
   },
   {
-    "id": "react_1984",
+    "id": "REACT_Test_120",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q984] Which lifecycle method replaces componentDidMount in hooks?",
+    "question": "What is the purpose of test.todo?",
     "options": [
-      "useEffect with []",
-      "useState",
-      "useContext",
-      "useRef"
+      "Marks test as planned but not implemented — shows in output as reminder",
+      "Skips test",
+      "Fails test",
+      "Passes test"
     ],
     "answer": 0,
-    "explanation": "useEffect with empty array runs once on mount."
+    "explanation": "The correct answer is Marks test as planned but not implemented — shows in output as reminder."
   },
   {
-    "id": "react_1985",
+    "id": "REACT_Test_121",
     "topic": "React Engineer",
     "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q985] useRef is used for",
+    "question": "What is the test.skip vs test.only?",
     "options": [
-      "Accessing DOM elements",
-      "State management",
-      "Routing",
-      "Both B and C"
+      "skip: excludes test; only: runs only that test (focus mode)",
+      "Same",
+      "only excludes",
+      "skip focuses"
     ],
     "answer": 0,
-    "explanation": "useRef holds mutable references to DOM nodes."
+    "explanation": "The correct answer is skip: excludes test; only: runs only that test (focus mode)."
   },
   {
-    "id": "react_1986",
+    "id": "REACT_Comp_103",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q986] What triggers a re-render?",
+    "question": "What is the Suspense list component?",
     "options": [
-      "All of the above",
-      "Comment change",
-      "State or prop change",
-      "CSS change"
+      "SuspenseList coordinates multiple Suspense boundaries — controls reveal order",
+      "Single Suspense",
+      "Required wrapper",
+      "Optional wrapper"
     ],
     "answer": 0,
-    "explanation": "State/prop changes cause React to re-render."
+    "explanation": "The correct answer is SuspenseList coordinates multiple Suspense boundaries — controls reveal order."
   },
   {
-    "id": "react_1987",
+    "id": "REACT_Comp_104",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q987] Context API solves",
+    "question": "What is SuspenseList's revealOrder?",
     "options": [
-      "Routing",
-      "Prop drilling",
-      "Styling",
-      "All of the above"
+      "together: all at once; forwards: top-down; backwards: bottom-up",
+      "No order",
+      "Fixed order",
+      "Random order"
     ],
     "answer": 0,
-    "explanation": "Context provides global state without prop drilling."
+    "explanation": "The correct answer is together: all at once; forwards: top-down; backwards: bottom-up."
   },
   {
-    "id": "react_1988",
+    "id": "REACT_Comp_105",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q988] What is a pure component?",
+    "question": "What is SuspenseList's tail prop?",
     "options": [
-      "HOC",
-      "Stateless component",
-      "Renders same output for same props",
-      "The above is incorrect"
+      "hidden: hides all fallbacks; collapsed: shows only last fallback",
+      "Required prop",
+      "Optional prop",
+      "Performance prop"
     ],
     "answer": 0,
-    "explanation": "Pure components implement shouldComponentUpdate."
+    "explanation": "The correct answer is hidden: hides all fallbacks; collapsed: shows only last fallback."
   },
   {
-    "id": "react_1989",
+    "id": "REACT_Comp_106",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q989] Event handling in React uses",
+    "question": "What is the Suspense + transition combination?",
     "options": [
-      "Option not applicable",
-      "Custom events",
-      "Synthetic events",
-      "Native DOM events"
+      "Keep showing old content during transition while new content loads",
+      "Show fallback",
+      "Show error",
+      "Show nothing"
     ],
     "answer": 0,
-    "explanation": "React wraps native events in SyntheticEvent."
+    "explanation": "The correct answer is Keep showing old content during transition while new content loads."
   },
   {
-    "id": "react_1990",
+    "id": "REACT_Comp_107",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q990] What is server-side rendering?",
+    "question": "What is a render prop collection?",
     "options": [
-      "Client rendering",
-      "Rendering HTML on server",
-      "Neither A nor B",
-      "Static generation"
+      "Component returning multiple related render props for different parts of UI",
+      "Single render prop",
+      "HOC collection",
+      "Context collection"
     ],
     "answer": 0,
-    "explanation": "SSR renders React on server before sending to client."
+    "explanation": "The correct answer is Component returning multiple related render props for different parts of UI."
   },
   {
-    "id": "react_1991",
+    "id": "REACT_Comp_108",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q991] Error boundary catches",
+    "question": "What is the controlled props pattern?",
     "options": [
-      "Network errors",
-      "JavaScript errors in components",
-      "Double negative",
-      "CSS errors"
+      "Component checks if prop is provided and uses it if so, otherwise internal state",
+      "Uncontrolled props",
+      "Default props",
+      "Required props"
     ],
     "answer": 0,
-    "explanation": "Error boundaries catch render errors in child tree."
+    "explanation": "The correct answer is Component checks if prop is provided and uses it if so, otherwise internal state."
   },
   {
-    "id": "react_1992",
+    "id": "REACT_Comp_109",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q992] What is Suspense in React?",
+    "question": "What is the state initializer pattern?",
     "options": [
-      "Waits for async components",
-      "Caches data",
-      "Delays state",
-      "Insufficient information"
+      "Pass function as prop to compute initial state: <Comp initialState={() => ...}>",
+      "Default state",
+      "Lazy state",
+      "Computed state"
     ],
     "answer": 0,
-    "explanation": "Suspense shows fallback while lazy component loads."
+    "explanation": "The correct answer is Pass function as prop to compute initial state: <Comp initialState={() => ...}>."
   },
   {
-    "id": "react_1993",
+    "id": "REACT_Comp_110",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q993] Which hook replaces componentWillUnmount?",
+    "question": "What is the reset counter pattern?",
     "options": [
-      "useCallback",
-      "useRef",
-      "useState",
-      "useEffect cleanup return"
+      "Expose reset function via ref using useImperativeHandle",
+      "State reset",
+      "Key reset",
+      "Prop reset"
     ],
     "answer": 0,
-    "explanation": "Returning a function from useEffect handles cleanup."
+    "explanation": "The correct answer is Expose reset function via ref using useImperativeHandle."
   },
   {
-    "id": "react_1994",
+    "id": "REACT_Comp_111",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q994] Portal in React",
+    "question": "What is the prop comparison in React.memo?",
     "options": [
-      "Renders outside parent DOM",
-      "Creates context",
-      "All of the above",
-      "HOC pattern"
+      "Shallow comparison by default — objects/arrays always fail (new reference)",
+      "Deep comparison",
+      "No comparison",
+      "Custom always"
     ],
     "answer": 0,
-    "explanation": "Portals render children into different DOM node."
+    "explanation": "The correct answer is Shallow comparison by default — objects/arrays always fail (new reference)."
   },
   {
-    "id": "react_1995",
+    "id": "REACT_Comp_112",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q995] What is code splitting?",
+    "question": "What is the purpose of useImperativeHandle?",
     "options": [
-      "Compression",
-      "Breaking bundle into chunks",
-      "Option not applicable",
-      "Minification"
+      "Expose custom API via ref to parent instead of raw DOM node",
+      "Not recommended",
+      "Required for refs",
+      "Alternative to forwardRef"
     ],
     "answer": 0,
-    "explanation": "Code splitting reduces initial bundle size."
+    "explanation": "The correct answer is Expose custom API via ref to parent instead of raw DOM node."
   },
   {
-    "id": "react_1996",
+    "id": "REACT_Comp_113",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q996] Redux is used for",
+    "question": "What is the imperative API pattern?",
     "options": [
-      "Routing",
-      "Styling",
-      "Global state management",
-      "Testing"
+      "Parent uses ref to call child methods (focus, scroll, open modal)",
+      "Declarative pattern",
+      "Prop pattern",
+      "Event pattern"
     ],
     "answer": 0,
-    "explanation": "Redux manages application-wide state."
+    "explanation": "The correct answer is Parent uses ref to call child methods (focus, scroll, open modal)."
   },
   {
-    "id": "react_1997",
+    "id": "REACT_Comp_114",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q997] What does useLayoutEffect do?",
+    "question": "What is a list component abstraction?",
     "options": [
-      "State update",
-      "None of the above",
-      "Async effect",
-      "Fires sync after DOM mutations"
+      "Encapsulates list rendering, empty state, loading, error in one component",
+      "Page component",
+      "Container component",
+      "Feature component"
     ],
     "answer": 0,
-    "explanation": "useLayoutEffect runs synchronously after DOM updates."
+    "explanation": "The correct answer is Encapsulates list rendering, empty state, loading, error in one component."
   },
   {
-    "id": "react_1998",
+    "id": "REACT_Comp_115",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
+    "section": "JS Fundamentals",
     "difficulty": "Medium",
     "type": "MCQ",
-    "question": "[REACT-Q998] Immutability in React state means",
+    "question": "What is an infinite scroll component?",
     "options": [
-      "Modify in place",
-      "Delete state",
-      "Create new object instead of mutating",
-      "All of the above"
+      "Combines virtualization + intersection observer for seamless scrolling lists",
+      "Pagination only",
+      "Fixed list",
+      "Windowed list"
     ],
     "answer": 0,
-    "explanation": "React state must be updated immutably."
+    "explanation": "The correct answer is Combines virtualization + intersection observer for seamless scrolling lists."
   },
   {
-    "id": "react_1999",
+    "id": "REACT_Comp_116",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q999] What is the children prop?",
+    "question": "What is the tree component pattern?",
     "options": [
-      "Insufficient information",
-      "Component name",
-      "Content between component tags",
-      "State value"
+      "Recursive component rendering nodes and their children with expand/collapse",
+      "List component",
+      "Table component",
+      "Grid component"
     ],
     "answer": 0,
-    "explanation": "children contains nested JSX/elements."
+    "explanation": "The correct answer is Recursive component rendering nodes and their children with expand/collapse."
   },
   {
-    "id": "react_2000",
+    "id": "REACT_Comp_117",
     "topic": "React Engineer",
-    "section": "Performance & Testing",
-    "difficulty": "Medium",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
     "type": "MCQ",
-    "question": "[REACT-Q1000] Batching in React 18",
+    "question": "What is recursive component typing in TypeScript?",
     "options": [
-      "Sequential renders",
-      "Multiple state updates in one render",
-      "Single update",
-      "Data not provided"
+      "type Node = {id: string; children?: Node[]} — self-referential type",
+      "No recursion",
+      "Requires any",
+      "Requires unknown"
     ],
     "answer": 0,
-    "explanation": "React 18 batches all state updates automatically."
+    "explanation": "The correct answer is type Node = {id: string; children?: Node[]} — self-referential type."
+  },
+  {
+    "id": "REACT_Comp_118",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Radix UI Primitive pattern?",
+    "options": [
+      "Unstyled component providing accessibility and behavior — you bring styles",
+      "Styled component",
+      "Theme component",
+      "Design system"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Unstyled component providing accessibility and behavior — you bring styles."
+  },
+  {
+    "id": "REACT_Comp_119",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the Base UI library?",
+    "options": [
+      "Unstyled, accessible component primitives by MUI team",
+      "Shadcn/ui",
+      "Radix UI",
+      "Headless UI"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Unstyled, accessible component primitives by MUI team."
+  },
+  {
+    "id": "REACT_Comp_120",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is Ark UI?",
+    "options": [
+      "Headless component library built on Zag.js state machines for React/Vue",
+      "Radix alternative",
+      "MUI alternative",
+      "Chakra alternative"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Headless component library built on Zag.js state machines for React/Vue."
+  },
+  {
+    "id": "REACT_Comp_121",
+    "topic": "React Engineer",
+    "section": "JS Fundamentals",
+    "difficulty": "Hard",
+    "type": "MCQ",
+    "question": "What is the purpose of a design token system?",
+    "options": [
+      "Centralize design values (colors, spacing) for consistency across components",
+      "Style guide",
+      "CSS variables",
+      "Theme only"
+    ],
+    "answer": 0,
+    "explanation": "The correct answer is Centralize design values (colors, spacing) for consistency across components."
   }
 ];
